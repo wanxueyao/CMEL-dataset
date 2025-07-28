@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that compares the performance of various machine learning and neural network models for named entity recognition tasks. The table is divided into four main sections: Feature-engineered machine learning systems, Feature-inferring neural network word models, Feature-inferring neural network character models, and Feature-inferring neural network word + character models. Each section lists different models along with their respective performance metrics on different datasets (Dict, SP, DU, EN, GE). For example, in the Feature-engineered machine learning systems section, Carreras et al. (2002) binary AdaBoost classifiers achieve 81.39% on Dict and 77.05% on SP. In the Feature-inferring neural network word models section, Collobert et al. (2011) Vanilla NN +SLL / Conv-CRF achieves 81.47% on EN. The table highlights the best-performing models in bold, such as Agerri and Rigau (2016) achieving 84.16% on Dict, 85.04% on SP, 91.36% on EN, and 76.42% on GE. The table also includes a final section for Feature-inferring neural network word + character + affix models, where Yadav et al. (2018) report results with 100 and 150 Epochs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<node id="&quot;FEATURE-ENGINEERED MACHINE LEARNING SYSTEMS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A category of systems that use traditional machine learning algorithms with handcrafted features for tasks such as named entity recognition. Examples include AdaBoost classifiers, Maximum Entropy models, and SVMs with class weights."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<node id="&quot;FEATURE-INFERRING NEURAL NETWORK WORD MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A category of systems that use neural networks to automatically infer features from word-level inputs for tasks such as named entity recognition. Examples include Vanilla NN + SLL / Conv-CRF, Bi-LSTM+CRF, and Win-BiLSTM (English), FF (German)."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<node id="&quot;FEATURE-INFERRING NEURAL NETWORK CHARACTER MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A category of systems that use neural networks to automatically infer features from character-level inputs for tasks such as named entity recognition. Examples include BTS and CharNER."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<node id="&quot;FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A category of systems that use neural networks to automatically infer features from both word-level and character-level inputs for tasks such as named entity recognition. Examples include Yang et al. (2017), Luo (2015), and Chiu and Nichols (2015)."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<node id="&quot;FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A category of systems that use neural networks to automatically infer features from word-level, character-level, and affix-level inputs for tasks such as named entity recognition. Examples include Re-implementation of Lample et al. (2016) and Yadav et al. (2018)."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FEATURE-ENGINEERED MACHINE LEARNING SYSTEMS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Feature-engineered machine learning systems是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FEATURE-INFERRING NEURAL NETWORK WORD MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Feature-inferring neural network word models是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FEATURE-INFERRING NEURAL NETWORK CHARACTER MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Feature-inferring neural network character models是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Feature-inferring neural network word + character models是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Feature-inferring neural network word + character + affix models是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

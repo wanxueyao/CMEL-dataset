@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a whimsical scene. On the left side, there is a young man dressed in a suit with a hat, holding a long stick or cane in his right hand. He appears to be speaking or gesturing towards another character on the right. The character on the right is an older man, depicted in a humorous and exaggerated manner. He is standing on his head with his legs in the air, wearing a large, puffy shirt and pants that are tied around his waist. His feet are crossed and he has a surprised or confused expression on his face. The background shows a rural landscape with rocks, grass, and trees, suggesting an outdoor setting. The overall atmosphere of the image is playful and surreal, capturing a moment of absurdity and humor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+</node>
+<node id="&quot;MAN WITH STAFF&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man dressed in a hat and boots, holding a staff, standing next to a tied-up creature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+</node>
+<node id="&quot;TIED-UP CREATURE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A creature with its legs up and body wrapped in cloth, standing on a rock."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+</node>
+<node id="&quot;ROCK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large rock on which the tied-up creature is standing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+</node>
+<node id="&quot;LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A landscape with trees and hills in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;MAN WITH STAFF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man with Staff是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;TIED-UP CREATURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tied-Up Creature是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;ROCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rock是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Landscape是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN WITH STAFF&quot;" target="&quot;TIED-UP CREATURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing next to the tied-up creature, possibly guarding or observing it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN WITH STAFF&quot;" target="&quot;LANDSCAPE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is standing in front of the landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TIED-UP CREATURE&quot;" target="&quot;ROCK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The creature is standing on the rock."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TIED-UP CREATURE&quot;" target="&quot;LANDSCAPE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The creature is in front of the landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

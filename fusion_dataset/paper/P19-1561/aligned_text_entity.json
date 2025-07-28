@@ -1,0 +1,137 @@
+{
+    "image_1": [
+    ],
+    "image_2": [
+        {
+            "entity_name": "BACKGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Background Model is a more generic word recognition model trained on a larger, less-specialized corpus, such as the IMDB movie corpus. It is used as a fallback when the Foreground Model predicts UNK, particularly for rare and unobserved words. It is designed to reconstruct the correct word from the orthography and context of the individual words, using synthetically corrupted inputs during training.",
+            "source_image_entities": [
+                "BACKGROUND MODEL"
+            ],
+            "source_text_entities": [
+                "BACKGROUND MODEL"
+            ]
+        },
+        {
+            "entity_name": "FOREGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Foreground Model is a specific word recognition model trained on an in-domain corpus to focus on frequent words. It is designed to predict UNK for rare and unseen words and is similar to the Background Model but with a different color and an 'UNK' label pointing to one of its nodes. This model is best for training on a precise, domain-specific dataset and is used in conjunction with the Background Model for handling rare words.",
+            "source_image_entities": [
+                "FOREGROUND MODEL"
+            ],
+            "source_text_entities": [
+                "FOREGROUND MODEL"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "SPELL-CORRECTOR",
+            "entity_type": "ORGANIZATION",
+            "description": "A system used for correcting spelling errors in text, evaluated across different types of errors and models, including the effectiveness on keyboard attacks but poor performance on other attack types, particularly the add attack strategy.",
+            "source_image_entities": [
+                "SPELL-CORRECTOR"
+            ],
+            "source_text_entities": [
+                "ATD SPELL CORRECTOR"
+            ]
+        },
+        {
+            "entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "A specific spell-corrector model that is compared against other models in the table, predicting 11.2 words incorrectly for every 100 words in the 'all' setting.",
+            "source_image_entities": [
+                "ATD"
+            ],
+            "source_text_entities": [
+                "ATD"
+            ]
+        },
+        {
+            "entity_name": "SWAP ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are swapped in a word, used to evaluate the spell-corrector's performance, considered less threatening than add and key attacks.",
+            "source_image_entities": [
+                "SWAP"
+            ],
+            "source_text_entities": [
+                "SWAP ATTACK"
+            ]
+        },
+        {
+            "entity_name": "DROP ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are dropped from a word, used to evaluate the spell-corrector's performance, considered less threatening than add and key attacks.",
+            "source_image_entities": [
+                "DROP"
+            ],
+            "source_text_entities": [
+                "DROP ATTACK"
+            ]
+        },
+        {
+            "entity_name": "ADD ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where extra characters are added to a word, used to evaluate the spell-corrector's performance, posing a greater threat than swap and drop attacks.",
+            "source_image_entities": [
+                "ADD"
+            ],
+            "source_text_entities": [
+                "ADD ATTACK"
+            ]
+        },
+        {
+            "entity_name": "ALL ATTACK",
+            "entity_type": "EVENT",
+            "description": "Overall evaluation metric combining all types of errors, used to assess the spell-corrector's comprehensive performance, including all types of adversarial attacks.",
+            "source_image_entities": [
+                "ALL"
+            ],
+            "source_text_entities": [
+                "ALL ATTACK"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "WORD+CHAR MODELS",
+            "entity_type": "MODEL",
+            "description": "Word+Char Models refer to BiLSTM models with different configurations under various attack types, which are part of the table displaying the performance of various models under different attack types.",
+            "source_image_entities": [
+                "WORD+CHAR MODELS"
+            ],
+            "source_text_entities": [
+                "WORD+CHAR"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "BERT MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a fine-tuned model used for sentiment analysis and paraphrase detection, setting a new state-of-the-art on several NLP benchmarks. It is a type of pre-trained language model used in natural language processing tasks and is being tested under different adversarial attack scenarios to measure its robustness.",
+            "source_image_entities": [
+                "BERT MODEL"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "ATD, which stands for Adversarial Training Defense, is a technique applied to the BERT model to improve its resilience against adversarial attacks. It is also a model that predicts 11.2 words incorrectly for every 100 words and is compared with ScRNN models for word recognition accuracy.",
+            "source_image_entities": [
+                "ATD"
+            ],
+            "source_text_entities": [
+                "ATD"
+            ]
+        }
+    ],
+    "image_6": [
+    ],
+    "image_7": [
+    ]
+}

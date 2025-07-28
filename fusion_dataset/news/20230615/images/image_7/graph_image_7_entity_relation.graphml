@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_BACKPACK-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Diamond ring- Color: The diamond is clear and colorless, with a brilliant sparkle. The band appears to be made of a shiny, silver-colored metal, likely white gold or platinum.- Shape: The central diamond is an emerald cut, characterized by its step-cut facets and rectangular shape with cut corners. There are two smaller baguette-cut diamonds on either side of the central stone.- Size: The central emerald-cut diamond is large and prominent, taking up most of the visible area of the ring. The exact dimensions are not provided, but it appears to be a significant size.- Material: The central stone is a high-quality diamond, known for its hardness and brilliance. The band is likely made of a precious metal such as white gold or platinum, given its luster and the typical materials used in fine jewelry.- Possible function: This ring is likely intended as an engagement ring or a piece of fine jewelry for special occasions. The design and quality suggest it is a luxury item meant for significant personal or ceremonial use.Overall, the ring exudes elegance and sophistication, with a classic yet timeless design that highlights the beauty of the central diamond."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features two luxurious rings from the Graff jewelry collection. The ring on the left has a large, emerald-cut diamond set in a white gold band with smaller diamonds on either side. The ring on the right has a radiant-cut yellow diamond set in a similar white gold band with smaller diamonds on either side. Both rings are placed on a shimmering, golden background that enhances their brilliance and elegance. The text 'GRAFF' is prominently displayed at the bottom of the image, along with the website 'GRAFF.COM'. The overall atmosphere is one of opulence and luxury, highlighting the exquisite craftsmanship and high-quality materials used in these pieces of jewelry."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+</node>
+<node id="&quot;GRAFF DIAMOND RING (YELLOW)&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A luxurious diamond ring featuring a large, radiant yellow diamond set in a white gold band with smaller diamonds on either side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+</node>
+<node id="&quot;GRAFF DIAMOND RING (WHITE)&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A luxurious diamond ring featuring a large, radiant white diamond set in a white gold band with smaller diamonds on either side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+</node>
+<node id="&quot;GRAFF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A renowned luxury jewelry brand known for its high-quality and exquisite diamond jewelry."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_BACKPACK-0.JPG&quot;" target="&quot;GRAFF DIAMOND RING (WHITE)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_backpack-0.jpg is a picture of a Graff Diamond Ring (White)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_BACKPACK-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_backpack-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GRAFF DIAMOND RING (YELLOW)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graff Diamond Ring (Yellow)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GRAFF DIAMOND RING (WHITE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graff Diamond Ring (White)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GRAFF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graff是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAFF DIAMOND RING (YELLOW)&quot;" target="&quot;GRAFF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Graff Diamond Ring (Yellow) is a product of the Graff jewelry brand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAFF DIAMOND RING (WHITE)&quot;" target="&quot;GRAFF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Graff Diamond Ring (White) is a product of the Graff jewelry brand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

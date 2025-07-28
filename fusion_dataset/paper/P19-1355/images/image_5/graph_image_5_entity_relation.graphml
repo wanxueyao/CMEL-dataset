@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Estimated cost (USD)' which provides the estimated costs in terms of cloud compute and electricity for training different models. The table has four columns: Models, Hours, Cloud, and Electric. The rows represent different scenarios: (1) a single model, (2) a single tune, and (3) all models trained during R&amp;D. The first row shows that for a single model, it takes 120 hours with an estimated cloud cost ranging from $52 to $175 and an electric cost of $5. The second row indicates that for 24 models, it takes 2880 hours with an estimated cloud cost ranging from $1238 to $4205 and an electric cost of $118. The third row shows that for 4789 models, it takes 239,942 hours with an estimated cloud cost ranging from $103k to $350k and an electric cost of $9870. The table highlights the significant increase in cost as the number of models increases, especially in terms of cloud computing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+</node>
+<node id="&quot;MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A list of models with corresponding hours and estimated costs for both cloud and electric options."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+</node>
+<node id="&quot;HOURS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The time duration associated with each model, measured in hours."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+</node>
+<node id="&quot;CLOUD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The cost range for using cloud services, given in USD."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+</node>
+<node id="&quot;ELECTRIC&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The cost for using electric services, given in USD."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Models是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HOURS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hours是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CLOUD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cloud是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ELECTRIC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Electric是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODELS&quot;" target="&quot;HOURS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Each model has a specific number of hours associated with it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODELS&quot;" target="&quot;CLOUD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Each model has an estimated cost range for cloud services."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODELS&quot;" target="&quot;ELECTRIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Each model has an estimated cost for electric services."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOURS&quot;" target="&quot;CLOUD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hours are related to the cost range for cloud services."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOURS&quot;" target="&quot;ELECTRIC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hours are related to the cost for electric services."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLOUD&quot;" target="&quot;ELECTRIC&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both cloud and electric have estimated costs for each model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

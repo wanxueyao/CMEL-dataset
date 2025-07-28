@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Interpretation via attention (weights)' that provides examples of claims and their credibility analysis. The table is structured with four main rows, each containing a claim, its verdict (True or False), and highlighted words that indicate the basis for the credibility assessment. The first row contains a false claim by Barbara Boxer about Fiorina's plan to slash Social Security and Medicare, with highlighted words such as 'barely true' and 'sketchy evidence.' The second row contains a true claim by Hillary Clinton about the gun epidemic being the leading cause of death for young African-American men, with highlighted words like 'leading cause of death' and 'gun epidemic.' The third row contains a false claim about Coca-Cola's original diet cola drink, TaB, taking its name from an acronym, with highlighted words such as 'untrue' and 'completely untrue.' The fourth row contains a true claim about household paper shredders posing a danger to children and pets, with highlighted words like 'reveals' and 'documenting reports.' The table uses darker shades to indicate higher weights given to the corresponding words, which are relevant to the claim and help in assessing its credibility."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;BARBARA BOXER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A U.S. politician who made a claim about Carly Fiorina's plan regarding Social Security and Medicare."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;CARLY FIORINA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Republican challenger whose plan was discussed by Barbara Boxer in terms of its impact on Social Security and Medicare."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;SOCIAL SECURITY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A federal insurance program that provides income to retired workers and disabled people."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;MEDICARE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A federal health insurance program for individuals aged 65 and older, certain younger people with disabilities, and people with End-Stage Renal Disease."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;HILLARY CLINTON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Democratic nominee who provided a statistic on firearm homicides and the victimization of black males during the first presidential debate."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;THE GUN EPIDEMIC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The leading cause of death of young African-American men, according to data from the Centers for Disease Control and Prevention."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;COCA-COLA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A company known for its soft drinks, including the original diet cola drink, TaB."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;TAB&quot;">
+  <data key="d0">"PRODUCT"</data>
+  <data key="d1">"The first diet cola drink produced by Coca-Cola in 1952."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;HOUSEHOLD PAPER SHREDDERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Devices used for shredding paper to protect personal information and prevent identity theft."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;CHILDREN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Young individuals who may be at risk when using household paper shredders."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<node id="&quot;PETS&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"Domestic animals that may be at risk when using household paper shredders."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;BARBARA BOXER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Barbara Boxer是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CARLY FIORINA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Carly Fiorina是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;SOCIAL SECURITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Social Security是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;MEDICARE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Medicare是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;HILLARY CLINTON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hillary Clinton是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;THE GUN EPIDEMIC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Gun Epidemic是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;COCA-COLA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Coca-Cola是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TAB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TaB是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;HOUSEHOLD PAPER SHREDDERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Household Paper Shredders是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CHILDREN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Children是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PETS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pets是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BARBARA BOXER&quot;" target="&quot;CARLY FIORINA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Barbara Boxer claimed that Carly Fiorina's plan would mean slashing Social Security and Medicare."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BARBARA BOXER&quot;" target="&quot;SOCIAL SECURITY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Barbara Boxer discussed the potential impact of Carly Fiorina's plan on Social Security."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BARBARA BOXER&quot;" target="&quot;MEDICARE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Barbara Boxer discussed the potential impact of Carly Fiorina's plan on Medicare."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HILLARY CLINTON&quot;" target="&quot;THE GUN EPIDEMIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hillary Clinton provided a statistic on the gun epidemic as the leading cause of death of young African-American men."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COCA-COLA&quot;" target="&quot;TAB&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Coca-Cola produced the first diet cola drink, TaB, in 1952."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOUSEHOLD PAPER SHREDDERS&quot;" target="&quot;CHILDREN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Household paper shredders can pose a danger to children."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOUSEHOLD PAPER SHREDDERS&quot;" target="&quot;PETS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Household paper shredders can pose a danger to pets."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

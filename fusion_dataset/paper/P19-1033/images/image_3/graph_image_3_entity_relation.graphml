@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the two frameworks of the LSTUR (Long-Short Term User Representation) approach for news recommendation systems. The diagram is divided into two parts: (a) LSTUR-ini and (b) LSTUR-con. Each part shows a flowchart of the user encoder process, which involves encoding user click history and candidate news to generate a score for news recommendation.\n\nIn both parts, the process starts with the user click history, represented by a series of news articles (c1, c2, ..., ck). Each news article is encoded using a News Encoder, which generates an embedding (e1, e2, ..., ek) for each article. These embeddings are then fed into a GRU (Gated Recurrent Unit) network, which processes the sequence of embeddings to generate a user representation (u).\n\nIn part (a) LSTUR-ini, the user representation (u) is directly used to compute the score for a candidate news article (cx) through a dot product operation. The score indicates the relevance of the candidate news to the user's interests.\n\nIn part (b) LSTUR-con, the user representation is further refined by concatenating short-term and long-term user representations (us and ul). This concatenated representation is then used in the dot product operation to compute the score for the candidate news article (cx).\n\nThe diagrams use color coding to distinguish different components: blue for user-related elements, green for news-related elements, and orange for the final score computation. The arrows indicate the flow of information through the system, from the user click history to the final score."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;LSTUR-INI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model architecture that processes user click history and candidate news through a series of GRU layers and a News Encoder to compute a score using a dot product."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;LSTUR-CON&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model architecture that processes user click history and candidate news through a series of GRU layers, concatenates the output with a User Embedding, and uses a News Encoder to compute a score using a dot product."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;GRU&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A type of recurrent neural network used in both LSTUR-ini and LSTUR-con architectures to process sequences of data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;NEWS ENCODER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component used in both LSTUR-ini and LSTUR-con architectures to encode news articles into a vector representation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;USER CLICK HISTORY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The sequence of news articles that a user has clicked on, used as input in both LSTUR-ini and LSTUR-con architectures."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;CANDIDATE NEWS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The news article being evaluated for recommendation, used as input in both LSTUR-ini and LSTUR-con architectures."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<node id="&quot;USER EMBEDDING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A vector representation of a user's preferences, used in the LSTUR-con architecture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LSTUR-INI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTUR-ini是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LSTUR-CON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTUR-con是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GRU&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GRU是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NEWS ENCODER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"News Encoder是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;USER CLICK HISTORY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"User Click History是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CANDIDATE NEWS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Candidate News是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;USER EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"User Embedding是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

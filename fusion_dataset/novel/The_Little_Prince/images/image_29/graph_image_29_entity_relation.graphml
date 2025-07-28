@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_29&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical scene featuring a lamplighter on a small planet. The lamplighter is dressed in a brown outfit with a green scarf and hat, holding a long pole that he uses to light the lamp. The lamp itself is mounted on a tall, dark blue post. The lamplighter appears to be in the process of lighting or extinguishing the lamp, as indicated by the yellow spark near the lamp's bulb. The planet is depicted as a small, round object with a red core and a white outer layer, suggesting it might be a celestial body. The background is plain, with a few yellow stars scattered around, adding to the cosmic setting. The overall atmosphere is one of solitude and routine, capturing the essence of the lamplighter's repetitive yet meaningful task."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+</node>
+<node id="&quot;LAMP POST&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tall, dark lamp post with a light at the top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person dressed in brown clothing, holding a long stick and standing on a round platform."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+</node>
+<node id="&quot;ROUND PLATFORM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A pinkish round platform with a red dot in the center."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+</node>
+<node id="&quot;STARS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Yellow stars floating around the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+</node>
+<node id="&quot;SCENE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d1">"The stars are part of the overall scene, providing context and atmosphere."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;LAMP POST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lamp Post是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;ROUND PLATFORM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Round Platform是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;STARS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stars是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAMP POST&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The person is standing next to the lamp post and appears to be interacting with it using the stick."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAMP POST&quot;" target="&quot;ROUND PLATFORM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The lamp post is positioned on the round platform."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON&quot;" target="&quot;ROUND PLATFORM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The person is standing on the round platform."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STARS&quot;" target="&quot;SCENE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The stars are part of the overall scene, providing context and atmosphere."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

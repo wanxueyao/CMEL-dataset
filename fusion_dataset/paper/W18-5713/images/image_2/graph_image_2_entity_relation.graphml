@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1' that provides statistical information about different methods used in a natural language processing task. The table is structured with the following columns: Method, Word cnt, Char cnt, Rare Word % &lt;100, and Rare Word % &lt;1k. Each row represents a different method and contains the following values: Seq2Seq has 11.7 words and 40.5 characters, with rare word percentages of 0.4% and 5.8%. RetNRef has 11.8 words and 40.4 characters, with rare word percentages of 1.1% and 6.9%. RetNRef+ has 12.1 words and 45.0 characters, with rare word percentages of 1.7% and 10.1%. RetNRef++ has 12.7 words and 48.1 characters, with rare word percentages of 2.3% and 10.9%. MemNet has 13.1 words and 54.5 characters, with rare word percentages of 4.0% and 15.3%. Human has 13.0 words and 54.6 characters, with rare word percentages of 3.0% and 11.5%. The table highlights the differences in word and character counts as well as the percentage of rare words for each method."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of different methods in terms of word count, character count, and rare word percentage."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEQ2SEQ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A method used for sequence-to-sequence tasks, such as machine translation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;RETNREF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of Seq2Seq that incorporates retrieval mechanisms."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;RETNREF+&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An advanced version of RetNRef with additional features."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;RETNREF++&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The most advanced version of RetNRef with further enhancements."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;MEMNET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A memory network-based method for sequence-to-sequence tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<node id="&quot;HUMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Represents human performance as a benchmark."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEQ2SEQ&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Seq2Seq是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RETNREF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetNRef是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RETNREF+&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetNRef+是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RETNREF++&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetNRef++是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MEMNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MemNet是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

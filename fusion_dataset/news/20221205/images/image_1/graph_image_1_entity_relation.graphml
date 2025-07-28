@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_BOAT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: House- Color: The house is primarily constructed with light gray stone, and the roof appears to be dark gray.- Shape: Rectangular with a pitched roof.- Size: The house appears to be a single-story structure, relatively small in size.- Material: The walls are made of stone, and the roof seems to be covered with metal or slate tiles.- Possible function: Residential dwelling, likely used for living purposes.Overall, the house has a rustic appearance, typical of rural or older architectural styles."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a winter scene in Irpin, Ukraine, a suburb of Kyiv. The area is covered in snow, and the landscape shows significant signs of destruction. On the left side of the image, there are numerous buildings that appear to be residential houses, many of which are severely damaged or destroyed. The roofs and walls of these houses are missing, and some structures are reduced to rubble. In the middle ground, there is a road that runs diagonally across the image, with a few vehicles visible on it. To the right, there is a larger building complex that also shows signs of damage, with exposed interiors and broken windows. A yellow bus is seen on the road near this building. In the background, there is a dense forest of tall trees, also covered in snow. The overall atmosphere is one of desolation and aftermath, with the snow adding a stark contrast to the ruined buildings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;DAMAGED BUILDINGS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large area of buildings that have been severely damaged or destroyed, with exposed interiors and missing walls."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A long, straight road running through the damaged area, with some vehicles visible on it."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;FOREST&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dense forest area adjacent to the damaged buildings and road, covered in snow."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;BUS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A yellow bus traveling on the road near the damaged buildings."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;VEHICLES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several other vehicles are scattered along the road, some closer to the damaged buildings."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+</node>
+<node id="&quot;HOUSE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d1">"The image feature block image_1_boat-0.jpg is a picture of a house."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_1_BOAT-0.JPG&quot;" target="&quot;HOUSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_boat-0.jpg is a picture of a house."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_BOAT-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_boat-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DAMAGED BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Damaged Buildings是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Road是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Forest是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bus是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vehicles是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED BUILDINGS&quot;" target="&quot;ROAD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The road runs directly through the area of damaged buildings, with some buildings close to the road's edge."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED BUILDINGS&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The forest is located next to the area of damaged buildings, separated by the road."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ROAD&quot;" target="&quot;BUS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bus is traveling on the road, passing through the area of damaged buildings."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ROAD&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Several vehicles are parked or moving along the road near the damaged buildings."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8_CAKE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rodent, specifically a hamster- Age: Adult- Color: The image is in black and white, so the color cannot be determined, but hamsters typically have a variety of colors including brown, black, white, and combinations thereof- Shape: Round body with short limbs and a small tail- Size: Small, typical size for a hamster- Posture: The hamster appears to be sitting or standing on its hind legs, with its front paws possibly raised or positioned in front of itOverall, the hamster has a characteristic round shape with a small head and short limbs, giving it a cute and compact appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8_BED-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Pig- Age: Appears to be an adult pig based on its size and body proportions- Color: The pig is depicted in a black and white illustration, so the color cannot be determined from the image- Shape: The pig has a rounded body with a short tail, typical of domestic pigs- Size: The pig appears to be of average size for an adult pig, though exact measurements cannot be determined from the image- Posture: The pig is standing and appears to be eating or drinking from a trough- Structural Characteristics: The pig has a large head with small ears and a snout that is engaged with the troughOverall, the image depicts a typical scene of a farm animal engaging in a common activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a pig feeding from a manger. The pig is positioned in the foreground, with its head lowered into the manger, suggesting it is eating. The manger is rectangular and appears to be made of wood. The background shows a rustic farm setting with various elements such as hay or straw scattered on the ground. There is also a fence or barrier in the background, indicating that the pig is in an enclosed area, likely a barn or sheepfold. The overall atmosphere conveyed by the image is one of simplicity and rural life, capturing a moment of routine activity on a farm."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A large pig with a curly tail, eating from a trough."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;TROUGH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden feeding trough in front of the pig."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An open field with grass and a fence in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8_CAKE-0.JPG&quot;" target="&quot;PIG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_8_cake-0.jpg is a picture of a pig."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8_CAKE-0.JPG&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_8_cake-0.jpg是image_8的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8_BED-1.JPG&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_8_bed-1.jpg是image_8的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TROUGH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trough是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;TROUGH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pig is eating from the trough."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pig is standing in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TROUGH&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The trough is placed in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,320 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "RetNRef Retrieval Method",
+            "entity_type": "EVENT",
+            "description": "The different methods used for retrieving references in the RetNRef system, including Vanilla Seq2Seq, Random label, Memory Network, True label’s neighbor, and True label, as well as RetrieveNRefine++, which is a variant that exactly copies the retrieval if the model generates with large word overlap.",
+            "source_image_entities": [
+                "RETNREF RETRIEVAL METHOD"
+            ],
+            "source_text_entities": [
+                "RETRIEVENREFINE",
+                "RETRIEVENREFINE+",
+                "RETRIEVENREFINE++"
+            ]
+        },
+        {
+            "merged_entity_name": "Perplexity (PPL)",
+            "entity_type": "EVENT",
+            "description": "Perplexity (PPL) scores are used to evaluate the performance of different retrieval methods in the RetNRef system, including the Memory Network approach, random utterances, and the true label given in the test set, as well as the closest nearest neighbor from the training set utterances to the true label.",
+            "source_image_entities": [
+                "PPL"
+            ],
+            "source_text_entities": [
+                "PERPLEXITY"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "RetNRef",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef, also known as RetrieveNRefine, is a model that improves upon Seq2Seq models by using retrieval methods to generate more human-like responses in conversational AI. It involves retrieving a response and then refining it using a sequence generator.",
+            "source_image_entities": [
+                "RETNREF"
+            ],
+            "source_text_entities": [
+                "RETNREF"
+            ]
+        },
+        {
+            "merged_entity_name": "RetNRef+",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef+ is a variant of the RetNRef model where the dialogue history is truncated to pay more attention to the retrieval utterance.",
+            "source_image_entities": [
+                "RETNREF+"
+            ],
+            "source_text_entities": [
+                "RETRIEVENREFINE+"
+            ]
+        },
+        {
+            "merged_entity_name": "RetNRef++",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef++ is a variant of the RetNRef model that exactly copies the retrieval if the model generates with large word overlap, otherwise leaves the generation untouched. It is designed to improve the output by focusing more on the retrieval utterance and can generate novel content when desired.",
+            "source_image_entities": [
+                "RETNREF++"
+            ],
+            "source_text_entities": [
+                "RETRIEVENREFINE++",
+                "RETNREF++"
+            ]
+        },
+        {
+            "merged_entity_name": "Seq2Seq",
+            "entity_type": "ORGANIZATION",
+            "description": "Seq2Seq is a standard model used in conversational AI that generates responses without the use of retrieval methods. It is known to produce short sentences with more common words than humans, which RetNRef alleviates.",
+            "source_image_entities": [
+                "SEQ2SEQ"
+            ],
+            "source_text_entities": [
+                "SEQ2SEQ"
+            ]
+        },
+        {
+            "merged_entity_name": "Memory Network",
+            "entity_type": "ORGANIZATION",
+            "description": "Memory Network, also known as Key-Value Memory Network, is a model approach used for retriever models in conversational AI, mentioned as the best performing existing retriever model. It is used as the retriever in the Retrieve and Refine model, attending over the dialogue history to learn input and candidate retrieval embeddings.",
+            "source_image_entities": [
+                "MEMNET"
+            ],
+            "source_text_entities": [
+                "MEMORY NETWORK",
+                "KEY-VALUE MEMORY NETWORK"
+            ]
+        },
+        {
+            "merged_entity_name": "Human",
+            "entity_type": "PERSON",
+            "description": "Human performance serves as a benchmark in evaluating the performance of different methods in terms of word count, character count, and rare word percentage.",
+            "source_image_entities": [
+                "HUMAN"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "RetNRef",
+            "entity_type": "UNKNOWN",
+            "description": "RetNRef is a model that improves upon Seq2Seq models by using retrieval methods to generate more human-like responses in conversational AI. It involves retrieving a response and then refining it using a sequence generator.",
+            "source_image_entities": [
+                "RETNREF"
+            ],
+            "source_text_entities": [
+                "RETNREF",
+                "RETRIEVENREFINE"
+            ]
+        },
+        {
+            "entity_name": "RetNRef+",
+            "entity_type": "UNKNOWN",
+            "description": "RetNRef+ is a variant of the RetNRef model where the dialogue history is truncated to pay more attention to the retrieval utterance.",
+            "source_image_entities": [
+                "RETNREF+"
+            ],
+            "source_text_entities": [
+                "RETRIEVENREFINE+"
+            ]
+        },
+        {
+            "entity_name": "RetNRef++",
+            "entity_type": "UNKNOWN",
+            "description": "RetNRef++ is a variant of the RetNRef model that exactly copies the retrieval if the model generates with large word overlap, otherwise leaves the generation untouched. It also truncates dialogue history and focuses more on the retrieval utterance to improve perplexity.",
+            "source_image_entities": [
+                "RETNREF++"
+            ],
+            "source_text_entities": [
+                "RETRIEVENREFINE++",
+                "RETNREF++"
+            ]
+        },
+        {
+            "entity_name": "Seq2Seq",
+            "entity_type": "UNKNOWN",
+            "description": "Seq2Seq is a sequence generation model used in the Retrieve and Refine model, which is a 2-layer LSTM with attention. It generates shorter sentences with more common words than humans, which RetNRef alleviates.",
+            "source_image_entities": [
+                "SEQ2SEQ"
+            ],
+            "source_text_entities": [
+                "SEQ2SEQ"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "Seq2Seq is a standard model used in conversational AI that generates responses without the use of retrieval methods. It is evaluated based on perplexity (PPL) and is found to be inferior to the Memory Network Retriever in terms of engagement.",
+            "source_image_entities": [
+                "SEQ2SEQ (PPL)",
+                "SEQ2SEQ (100 EPOCHS)"
+            ],
+            "source_text_entities": [
+                "SEQ2SEQ"
+            ]
+        },
+        {
+            "merged_entity_name": "MEMORY NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "Memory Network is a model approach used for retriever models in conversational AI, mentioned as the best performing existing retriever model. It is weaker at using the persona than Seq2Seq but outperforms Seq2Seq in terms of engagement.",
+            "source_image_entities": [
+                "MEMORY NETWORK"
+            ],
+            "source_text_entities": [
+                "MEMORY NETWORK"
+            ]
+        },
+        {
+            "merged_entity_name": "RETRIEVENREFINE",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef (RetrieveNRefine) is a model that improves upon Seq2Seq models by using retrieval methods to generate more human-like responses in conversational AI. It shows superior engagingness scores compared to Seq2Seq and is able to generate text which a retrieval model cannot.",
+            "source_image_entities": [
+                "RETRIEVENREFINE",
+                "RETRIEVENREFINE+",
+                "RETRIEVENREFINE++"
+            ],
+            "source_text_entities": [
+                "RETNREF",
+                "RETRIEVENREFINE++"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "RETNREF++",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef++ is a variant of the RetNRef model that truncates dialogue history and focuses more on the retrieval utterance to improve perplexity. It is an improved model that uses a retriever and can generate novel content, outperforming standard retrievers. It shows superior engagingness scores and is able to generate text which a retrieval model cannot. RetNRef++ also performs well in other metrics but is weaker at using the persona than Seq2Seq.",
+            "source_image_entities": [
+                "RETRIEVENREFINE++"
+            ],
+            "source_text_entities": [
+                "RETNREF++",
+                "RETRIEVENREFINE++"
+            ]
+        },
+        {
+            "merged_entity_name": "MEMORY NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "Memory Network is a model approach used for retriever models in conversational AI, mentioned as the best performing existing retriever model. It is a type of neural network model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models. However, it is weaker at using the persona than Seq2Seq and is outperformed by RetNRef++ with a win rate of approximately 54%.",
+            "source_image_entities": [
+                "MEMORY NETWORK"
+            ],
+            "source_text_entities": [
+                "MEMORY NETWORK",
+                "MEMORY NETWORK MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "Seq2Seq is a standard model used in conversational AI that generates responses without the use of retrieval methods. It is a sequence-to-sequence model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models. Seq2Seq is found to be inferior in terms of engagement compared to RetNRef variants and is outperformed by RetNRef++ with a win rate of approximately 54%.",
+            "source_image_entities": [
+                "SEQ2SEQ"
+            ],
+            "source_text_entities": [
+                "SEQ2SEQ",
+                "SEQ2SEQ MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "A human participant used as a baseline for comparison against machine models. Humans conducted short dialogues with the models and provided scores for various aspects like engagingness, consistency, and fluency. Human judgments are used to evaluate the quality of conversations provided by the RetNRef++ model, indicating it provides more engaging conversations.",
+            "source_image_entities": [
+                "HUMAN"
+            ],
+            "source_text_entities": [
+                "HUMAN JUDGMENTS"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "merged_entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "Seq2Seq is a standard model used in conversational AI that generates responses without the use of retrieval methods. It is found to be inferior to the Memory Network Retriever in terms of engagement and is also outperformed by RetNRef variants in terms of engagingness scores.",
+            "source_image_entities": [
+                "SEQ2SEQ"
+            ],
+            "source_text_entities": [
+                "SEQ2SEQ",
+                "SEQ2SEQ MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "MEMNET",
+            "entity_type": "ORGANIZATION",
+            "description": "MemNet, also known as Memory Network, is a model designed to handle memory-based tasks, showcasing its ability to recall and utilize past interactions in generating responses. It is mentioned as the best performing existing retriever model and outperforms Seq2Seq in terms of engagement.",
+            "source_image_entities": [
+                "MEMNET"
+            ],
+            "source_text_entities": [
+                "MEMORY NETWORK",
+                "MEMORY NETWORK RETRIEVER",
+                "MEMORY NETWORK MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "RETNREF++",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef++ is an advanced model that retrieves and references past interactions to generate more accurate and contextually appropriate responses. It is a variant of the RetNRef model that truncates dialogue history and focuses more on the retrieval utterance to improve perplexity. RetNRef++ outperforms standard retrievers and can generate novel content when it wants to, which a standard retriever cannot. It also shows superior engagingness scores compared to Seq2Seq for all RetNRef variants.",
+            "source_image_entities": [
+                "RETNREF+"
+            ],
+            "source_text_entities": [
+                "RETNREF++",
+                "RETNREF++",
+                "RETNREF++"
+            ]
+        },
+        {
+            "merged_entity_name": "PERSON 1",
+            "entity_type": "PERSON",
+            "description": "Person 1 is a participant in the example dialogues, providing statements and engaging with the RetNRef++ model. They mention enjoying sprite, going on hikes with a pet parrot named Tasha, and identifying as a lactoovo vegetarian and vegan. They also mention driving a Subaru Legacy and their interest in marketing.",
+            "source_image_entities": [
+                "PERSON 1"
+            ],
+            "source_text_entities": [
+                "PERSON 1",
+                "PERSON 1"
+            ]
+        },
+        {
+            "merged_entity_name": "PERSON 2",
+            "entity_type": "PERSON",
+            "description": "Person 2 represents the RetNRef++ model in the example dialogues, responding to Person 1's statements. They express a preference for Dr. Pepper, a wish to have a parrot, and identify as vegan. They also mention owning a Nissan Sentra and speaking an Asian language.",
+            "source_image_entities": [
+                "PERSON 2"
+            ],
+            "source_text_entities": [
+                "PERSON 2",
+                "PERSON 2"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "PERSONA 1",
+            "entity_type": "PERSON",
+            "description": "A lacto-ovo vegetarian with red hair who enjoys hiking and has a pet parrot named Tasha. Their favorite drink is Sprite.",
+            "source_image_entities": [
+                "PERSONA 1"
+            ],
+            "source_text_entities": [
+                "PERSON 1"
+            ]
+        },
+        {
+            "merged_entity_name": "PERSONA 2",
+            "entity_type": "PERSON",
+            "description": "A Latina with brown hair who identifies as a healer and loves her family. Her mother works with special needs clients. She also likes Dr. Pepper and expresses a wish to have a parrot, identifying as vegan.",
+            "source_image_entities": [
+                "PERSONA 2"
+            ],
+            "source_text_entities": [
+                "PERSON 2"
+            ]
+        }
+    ]
+}

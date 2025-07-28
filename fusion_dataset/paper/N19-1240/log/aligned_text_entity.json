@@ -1,0 +1,386 @@
+{
+    "image_1": [
+        {
+            "entity_name": "THORILDSPLAN",
+            "entity_type": "GEO",
+            "description": "THORILDSPLAN is a small park located in Kristineberg, Stockholm, named in 1925 after a writer.",
+            "source_image_entities": [
+                "THORILDSPLAN"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "STOCKHOLM",
+            "entity_type": "GEO",
+            "description": "STOCKHOLM is the capital city of Sweden and the most populous city in the country.",
+            "source_image_entities": [
+                "STOCKHOLM"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "SWEDEN",
+            "entity_type": "GEO",
+            "description": "SWEDEN is a Scandinavian country known for its natural beauty, cultural heritage, and progressive policies.",
+            "source_image_entities": [
+                "SWEDEN"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "Entity Graph",
+            "entity_type": "CONCEPT",
+            "description": "The Entity Graph is a structure where nodes represent mentions of entities and are connected by different types of relations such as co-occurrence in the same document (DOC-BASED edges), exact match (MATCH edges), coreference (COREF edges), and a fourth type of relation (COMPLEMENT edge) between any two nodes that are not connected with any of the other relations. It is used for multi-step reasoning by transforming node representations with a differentiable message passing algorithm parameterized by a graph convolutional network (GCN).",
+            "source_image_entities": [
+                "CLUSTER 1",
+                "CLUSTER 2",
+                "CLUSTER 3"
+            ],
+            "source_text_entities": [
+                "ENTITY GRAPH"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is a dataset used for training, validation/development, and testing of the model, with specific query-document samples. It contains 43,738/5,129/2,451 query-documents samples in the training, validation, and test sets respectively, totaling 51,318 samples. The dataset is constructed with a graph traversal up to a maximum chain length of 3 documents. WIKIHOP comes in two versions, a standard (unmasked) one and a masked one, used to test whether methods are able to learn lexical abstraction.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "WIKIHOP",
+                "WIKIHOP",
+                "WIKIPHOP",
+                "WIKIHOP VALIDATION SET"
+            ]
+        },
+        {
+            "merged_entity_name": "ELMo",
+            "entity_type": "ORGANIZATION",
+            "description": "ELMo is a pre-trained encoder used in the experiments for producing representations of candidate mentions in context. It is crucial for the Entity-GCN model's performance and is used without fine-tuning. When replaced by GloVe in the R-GCN system, it still yields competitive results in terms of accuracy.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ELMO",
+                "ELMO",
+                "ELMO"
+            ]
+        },
+        {
+            "merged_entity_name": "GloVe",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe is used as an alternative to ELMo for non-contextualized word representations in the experiments. It provides a comparison of performance without context sensitivity and can replace ELMo in the R-GCN system, maintaining competitive accuracy levels.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "GLOVE",
+                "GLOVE",
+                "GLOVE"
+            ]
+        },
+        {
+            "merged_entity_name": "R-GCN",
+            "entity_type": "ORGANIZATION",
+            "description": "R-GCN refers to the Relational Graph Convolutional Network model used in the experiments, with a gated version of the original propagation rule. It is a component of the Entity-GCN model, used for reasoning among entities in the text and contributes to its performance in multi-hop reasoning and entity relation tasks.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "R-GCN",
+                "R-GCN",
+                "R-GCN",
+                "R-GCN"
+            ]
+        }
+    ],
+    "image_4": "[\n    {\n        \"entity_name\": \"HUMAN (WELBL ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Welbl et al. in 2018, who constructed the WIKIHOP dataset and are referenced for its description.\",\n        \"source_image_entities\": [\"HUMAN (WELBL ET AL., 2018)\"],\n        \"source_text_entities\": [\"WELBL ET AL., 2018\"]\n    },\n    {\n        \"entity_name\": \"FASTQA (WELBL ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Welbl et al. in 2018, mentioned in the comparison of results.\",\n        \"source_image_entities\": [\"FASTQA (WELBL ET AL., 2018)\"],\n        \"source_text_entities\": [\"FASTQA\"]\n    },\n    {\n        \"entity_name\": \"BIDAF (WELBL ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Welbl et al. in 2018, compared in the experiment with performance and training time details provided.\",\n        \"source_image_entities\": [\"BIDAF (WELBL ET AL., 2018)\"],\n        \"source_text_entities\": [\"BIDAF\"]\n    },\n    {\n        \"entity_name\": \"COREF-GRU (DHINGRA ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Dhingra et al. in 2018, focusing on coreference and outperformed by the R-GCN model without accessing context.\",\n        \"source_image_entities\": [\"COREF-GRU (DHINGRA ET AL., 2018)\"],\n        \"source_text_entities\": [\"COREF-GRU\"]\n    },\n    {\n        \"entity_name\": \"MHPGM (BAUER ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Bauer et al. in 2018, included in the comparison of results.\",\n        \"source_image_entities\": [\"MHPGM (BAUER ET AL., 2018)\"],\n        \"source_text_entities\": [\"MHPGM\"]\n    },\n    {\n        \"entity_name\": \"WEAVER / JENGA (RAISON ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Raison et al. in 2018, mentioned in the comparison of results.\",\n        \"source_image_entities\": [\"WEAVER / JENGA (RAISON ET AL., 2018)\"],\n        \"source_text_entities\": [\"WEAVER\"]\n    },\n    {\n        \"entity_name\": \"MHQA-GRN (SONG ET AL., 2018)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model developed by Song et al. in 2018, included in the comparison of results.\",\n        \"source_image_entities\": [\"MHQA-GRN (SONG ET AL., 2018)\"],\n        \"source_text_entities\": [\"MHQA-GRN\"]\n    },\n    {\n        \"entity_name\": \"ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A single model of Entity-GCN without coreference, evaluated for its performance and instances of failure in the WIKIHOP development set.\",\n        \"source_image_entities\": [\"ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)\"],\n        \"source_text_entities\": [\"ENTITYGCN\"]\n    },\n    {\n        \"entity_name\": \"ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A single model of Entity-GCN with coreference, evaluated for its performance and instances of failure in the WIKIHOP development set.\",\n        \"source_image_entities\": [\"ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)\"],\n        \"source_text_entities\": [\"ENTITYGCN\"]\n    },\n    {\n        \"entity_name\": \"ENTITY-GCN* (ENSEMBLE 5 MODELS)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"An",
+    "image_5": [
+        {
+            "merged_entity_name": "R-GCN",
+            "entity_type": "ORGANIZATION",
+            "description": "R-GCN is a component of the Entity-GCN model, used for reasoning among entities in the text, and contributes to the model's performance in multi-hop reasoning and entity relation tasks. It is also used in the ablation study to analyze the effect of different components on the model's performance.",
+            "source_image_entities": [
+                "MODEL"
+            ],
+            "source_text_entities": [
+                "R-GCN",
+                "R-GCN",
+                "R-GCN"
+            ]
+        },
+        {
+            "merged_entity_name": "UNMASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on unmasked tasks, where mentions to an entity may differ and the coreference system may not retrieve them, making the task harder for all models.",
+            "source_image_entities": [
+                "UNMASKED"
+            ],
+            "source_text_entities": [
+                "UNMASKED SETTING"
+            ]
+        },
+        {
+            "merged_entity_name": "MASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on masked tasks, where coreferred mentions are labeled with the same identifier within and across documents, making the task of recovering coreference links more effective in the masked rather than unmasked version.",
+            "source_image_entities": [
+                "MASKED"
+            ],
+            "source_text_entities": [
+                "MASKED SETTINGS"
+            ]
+        },
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is a dataset used for training, validation/development, and test in various experiments, with specific query-documents samples in different sets, and is used to evaluate the performance of different models, particularly the Entity-GCN.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "WIKIHOP",
+                "WIKIHOP",
+                "WIKIHOP VALIDATION SET"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "Entity-GCN",
+            "entity_type": "ORGANIZATION",
+            "description": "Entity-GCN is a model evaluated for its performance and instances of failure in the WIKIHOP development set. It is also analyzed in terms of its accuracy with respect to the input graph size, specifically candidate and node set sizes. Entity-GCN is mentioned as performing well or poorly on certain types of questions, particularly those regarding places such as birth and death.",
+            "source_image_entities": [
+                "OVERALL (SINGLE MODEL)"
+            ],
+            "source_text_entities": [
+                "ENTITY-GCN"
+            ]
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is an event or dataset used to test the effectiveness of the Entity-GCN model in multi-hop inference and to evaluate the performance of different models, particularly Entity-GCN.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "WIKIHOP",
+                "WIKIHOP VALIDATION SET"
+            ]
+        },
+        {
+            "entity_name": "COREF-GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "Coref-GRU is a model developed by Dhingra et al. (2018), which is outperformed by the Entity-GCN model without accessing context. It encodes relations between entity mentions in the document, similar to Entity-GCN.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "COREF-GRU",
+                "DHINGRA ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "Graph Neural Networks",
+            "entity_type": "CONCEPT",
+            "description": "Graph neural networks have been shown successful on a number of NLP tasks, including those involving document level modeling and multi-document question answering. They are also applied in the context of asking questions about knowledge contained in a knowledge base.",
+            "source_image_entities": [
+                "INCEPTION"
+            ],
+            "source_text_entities": [
+                "GRAPH NEURAL NETWORKS"
+            ]
+        },
+        {
+            "entity_name": "Entity Mentions and Coreference",
+            "entity_type": "CONCEPT",
+            "description": "The text discusses the challenges of entity mention differences in unmasked settings and the role of a coreference system in retrieving entity mentions, which impacts the task's difficulty for all models.",
+            "source_image_entities": [
+                "MEMBER_OF_POLITICAL_PARTY",
+                "RECORD_LABEL",
+                "PUBLISHER",
+                "PLACE_OF_BIRTH",
+                "PLACE_OF_DEATH"
+            ],
+            "source_text_entities": [
+                "COREF"
+            ]
+        },
+        {
+            "entity_name": "Entity-Mention Granularity",
+            "entity_type": "CONCEPT",
+            "description": "The text illustrates the concept of different degrees of granularity in entity mentions, such as 'born in London' vs 'born in UK', which can be considered both correct by a human but not when measuring accuracy.",
+            "source_image_entities": [
+                "PLACE_OF_BIRTH",
+                "PLACE_OF_DEATH"
+            ],
+            "source_text_entities": [
+                "US AND UNITED STATES",
+                "LONDON",
+                "UK"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "HISTOGRAM",
+            "entity_type": "EVENT",
+            "description": "A histogram displaying two sets of data, one in blue and the other in orange, representing model performance and data distributions. The blue bars represent a distribution that fluctuates around a value of 0.6, while the orange bars show a decreasing trend starting from a high value at the beginning and tapering off towards zero, indicating the relationship between model accuracy and the size of the input graph.",
+            "source_image_entities": [
+                "HISTOGRAM"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        },
+        {
+            "merged_entity_name": "BLUE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The blue bars are part of the histogram and represent a set of data that fluctuates around a value of 0.6, indicating the accuracy of the model with respect to the candidate set size.",
+            "source_image_entities": [
+                "BLUE BARS"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        },
+        {
+            "merged_entity_name": "ORANGE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The orange bars are part of the histogram and represent a set of data that shows a decreasing trend, indicating the rescaled data distributions per number of candidate and nodes in the input graph.",
+            "source_image_entities": [
+                "ORANGE BARS"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "merged_entity_name": "GRAPH",
+            "entity_type": "EVENT",
+            "description": "A bar chart representing model performance in relation to the input graph size, specifically candidate and node set sizes. The x-axis ranges from 0 to 200, and the y-axis ranges from 0 to 1.0. One set of data is represented by blue bars, showing accuracy, while the other is represented by brown bars, showing rescaled data distributions.",
+            "source_image_entities": [
+                "GRAPH"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        },
+        {
+            "merged_entity_name": "BLUE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The blue bars in the graph represent accuracy, indicating the model's performance with respect to the candidate set size and nodes set size on the validation set.",
+            "source_image_entities": [
+                "BLUE BARS"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        },
+        {
+            "merged_entity_name": "BROWN BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The brown bars in the graph represent rescaled data distributions per number of candidate and nodes, showing how the model's performance varies with the input graph size.",
+            "source_image_entities": [
+                "BROWN BARS"
+            ],
+            "source_text_entities": [
+                "FIGURE 3"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "merged_entity_name": "R-GCN-LAYERS",
+            "entity_type": "ORGANIZATION",
+            "description": "R-GCN-layers refer to the layers used in a Relational Graph Convolutional Network, maintaining the dimensionality of node representations at 512. They are used in the model to process the output from the feedforward network, with each layer having a dimensionality of 512 and shared parameters.",
+            "source_image_entities": [
+                "3 LAYERS R-GCN 512-DIM EACH (SHARED PARAMETERS)"
+            ],
+            "source_text_entities": [
+                "R-GCN-LAYERS"
+            ]
+        },
+        {
+            "merged_entity_name": "MLP",
+            "entity_type": "ORGANIZATION",
+            "description": "MLP stands for multi-layer perceptron, a type of neural network used in the described model. Specifically, a 2-layers MLP with [256, 128] hidden units takes the concatenation between the output from the R-GCN layers and the original query to predict the probability for each candidate.",
+            "source_image_entities": [
+                "2 LAYERS FF [1024, 512]-DIM: : {X̂_I}_{I=1}^N",
+                "3 LAYERS FF [256,128,1]-DIM"
+            ],
+            "source_text_entities": [
+                "MLP"
+            ]
+        },
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is an event or dataset used for evaluating model performance with different numbers of R-GCN-layers. It is also used to analyze the Entity-GCN model's performance and instances of failure, as well as its accuracy with respect to the input graph size, specifically candidate and node set sizes.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "WIKIHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "ENTITY-GCN",
+            "entity_type": "ORGANIZATION",
+            "description": "Entity-GCN is a model evaluated for its performance and instances of failure in the WIKIHOP development set. It is also analyzed in terms of its accuracy with respect to the input graph size, specifically candidate and node set sizes.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ENTITY-GCN"
+            ]
+        },
+        {
+            "merged_entity_name": "DROPOUT",
+            "entity_type": "ORGANIZATION",
+            "description": "Dropout is a regularization technique used to prevent overfitting, with various drop rates mentioned. It is employed in the model training process to help against overfitting, along with early-stopping on validation accuracy.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "DROPOUT"
+            ]
+        },
+        {
+            "merged_entity_name": "ADAM OPTIMIZER",
+            "entity_type": "ORGANIZATION",
+            "description": "Adam optimizer is an optimization algorithm used for training the models, referenced in the context of Kingma and Ba's work. The models are trained with a batch size of 32 for at most 20 epochs using the Adam optimizer with specific beta values and a learning rate.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ADAM OPTIMIZER"
+            ]
+        },
+        {
+            "merged_entity_name": "VALIDATION SET",
+            "entity_type": "EVENT",
+            "description": "The validation set is used to evaluate the model's performance and to apply early-stopping based on accuracy. The best results of each experiment are reported based on accuracy on the validation set.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "VALIDATION SET"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "Eslöv",
+            "entity_type": "GEO",
+            "description": "Eslöv is a city in Skåne County, Sweden, where Erik Penser was born. It is also mentioned in the context of ambiguity in model prediction between city and county entities.",
+            "source_image_entities": [
+                "ERIK PENSER",
+                "ESLÖV"
+            ],
+            "source_text_entities": [
+                "ESLÖV",
+                "SCANIA COUNTY"
+            ]
+        },
+        {
+            "entity_name": "Scania County",
+            "entity_type": "GEO",
+            "description": "Scania County, also known as Skåne County in English, is a county in Sweden where the city of Eslöv is located. It is associated with the birthplace of Erik Penser and is mentioned in the context of model prediction challenges.",
+            "source_image_entities": [
+                "ESLÖV",
+                "SKÅNE COUNTY"
+            ],
+            "source_text_entities": [
+                "SCANIA COUNTY",
+                "ESLÖV"
+            ]
+        }
+    ]
+}

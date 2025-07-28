@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides estimated CO2 emissions in pounds (lbs) for various types of consumption. The table has two columns: 'Consumption' and 'CO2e (lbs)'. The rows under 'Consumption' include 'Air travel, 1 person, NY↔SF', 'Human life, avg, 1 year', 'American life, avg, 1 year', and 'Car, avg incl. fuel, 1 lifetime'. The corresponding values in 'CO2e (lbs)' are 1984 lbs for air travel between New York and San Francisco, 11,023 lbs for the average human life per year, 36,156 lbs for the average American life per year, and 126,000 lbs for the average car including fuel over its lifetime. The table highlights the significant differences in CO2 emissions across different forms of consumption, with air travel having relatively low emissions compared to the lifetime emissions of a car."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+</node>
+<node id="&quot;AIR TRAVEL, 1 PERSON, NY↔SF&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d1">"Air travel, 1 person, NY↔SF是从image_1中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HUMAN LIFE, AVG, 1 YEAR&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d1">"Human life, avg, 1 year是从image_1中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;AMERICAN LIFE, AVG, 1 YEAR&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d1">"American life, avg, 1 year是从image_1中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CAR, AVG INCL. FUEL, 1 LIFETIME&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d1">"Car, avg incl. fuel, 1 lifetime是从image_1中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;AIR TRAVEL, 1 PERSON, NY↔SF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Air travel, 1 person, NY↔SF是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HUMAN LIFE, AVG, 1 YEAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human life, avg, 1 year是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;AMERICAN LIFE, AVG, 1 YEAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"American life, avg, 1 year是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CAR, AVG INCL. FUEL, 1 LIFETIME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Car, avg incl. fuel, 1 lifetime是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

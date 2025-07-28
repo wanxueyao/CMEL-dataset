@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a graph that plots the development accuracy of BERT-LARGE trained with varying amounts of data. The x-axis represents the number of instances on a logarithmic scale, ranging from 10^2 to 10^5. The y-axis represents the development accuracy, ranging from 0.2 to 1.0. There are three lines plotted: a dashed blue line labeled 'question concept', an orange dashed line labeled 'random', and a dotted cyan line labeled 'human performance'. The 'question concept' line starts at approximately 0.4 accuracy with 10^2 instances and increases steadily to about 0.75 accuracy with 10^5 instances. The 'random' line starts at approximately 0.3 accuracy with 10^2 instances and increases to about 0.8 accuracy with 10^5 instances. The 'human performance' line is a horizontal line at approximately 0.9 accuracy, indicating the upper bound of performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A graph showing the development of accuracy with increasing number of instances for different methods: 'question concept', 'random', and 'human performance'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+</node>
+<node id="&quot;QUESTION CONCEPT&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d1">"The 'question concept' method is represented by blue dots and a dashed line on the graph, showing its accuracy as the number of instances increases."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;RANDOM&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d1">"The 'random' method is represented by orange dots and a dashed line on the graph, showing its accuracy as the number of instances increases."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HUMAN PERFORMANCE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d1">"The 'human performance' is represented by a dotted cyan line on the graph, indicating a benchmark for comparison."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;QUESTION CONCEPT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The 'question concept' method is represented by blue dots and a dashed line on the graph, showing its accuracy as the number of instances increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;RANDOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The 'random' method is represented by orange dots and a dashed line on the graph, showing its accuracy as the number of instances increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;HUMAN PERFORMANCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The 'human performance' is represented by a dotted cyan line on the graph, indicating a benchmark for comparison."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

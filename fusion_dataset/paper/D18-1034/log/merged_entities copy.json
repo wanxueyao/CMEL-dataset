@@ -1,0 +1,392 @@
+{
+    "chunk-6931e8801e692f84d339fc03970d2477": [
+        {
+            "entity_name": "Carnegie Mellon University (Language Technologies Institute)",
+            "entity_type": "ORGANIZATION",
+            "description": "Carnegie Mellon University is an institution where some of the authors of the paper are affiliated, and it houses the Language Technologies Institute.",
+            "source_entities": [
+                "CARNEGIE MELLON UNIVERSITY",
+                "LANGUAGE TECHNOLOGIES INSTITUTE"
+            ]
+        },
+        {
+            "entity_name": "University of Washington (Paul G. Allen School of Computer Science & Engineering, Allen Institute for Artificial Intelligence)",
+            "entity_type": "ORGANIZATION",
+            "description": "University of Washington is an institution where one of the authors is affiliated, and it includes the Paul G. Allen School of Computer Science & Engineering and the Allen Institute for Artificial Intelligence.",
+            "source_entities": [
+                "UNIVERSITY OF WASHINGTON",
+                "PAUL G. ALLEN SCHOOL OF COMPUTER SCIENCE & ENGINEERING",
+                "ALLEN INSTITUTE FOR ARTIFICIAL INTELLIGENCE"
+            ]
+        }
+    ],
+    "chunk-3c526155921c2b169f8ecd91e96d88c6": [
+        {
+            "entity_name": "CoNLL 2002 and 2003",
+            "entity_type": "EVENT",
+            "description": "CoNLL 2002 and 2003 are datasets used for training models in English for Named Entity Recognition (NER).",
+            "source_entities": [
+                "CONLL 2002",
+                "CONLL 2003"
+            ]
+        },
+        {
+            "entity_name": "Vaswani et al., 2017 and Lin et al., 2017",
+            "entity_type": "PERSON",
+            "description": "Vaswani et al., 2017 and Lin et al., 2017 are researchers who contributed to the order-invariant self-attention mechanism used in the neural architecture.",
+            "source_entities": [
+                "VASWANI ET AL., 2017",
+                "LIN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Täckström et al., 2012, Ni et al., 2017, and Mayhew et al., 2017",
+            "entity_type": "PERSON",
+            "description": "Täckström et al., 2012, Ni et al., 2017, and Mayhew et al., 2017 are researchers whose work is referenced for using parallel corpora, large dictionaries, and dictionaries in cross-lingual NER.",
+            "source_entities": [
+                "TA¨CKSTRO¨M ET AL., 2012",
+                "NI ET AL., 2017",
+                "MAYHEW ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Nothman et al., 2013",
+            "entity_type": "PERSON",
+            "description": "Nothman et al., 2013 are researchers whose work is referenced for using Wikipedia in cross-lingual NER.",
+            "source_entities": [
+                "NOTHMAN ET AL., 2013"
+            ]
+        },
+        {
+            "entity_name": "Mikolov et al., 2013b, Pennington et al., 2014, and Bojanowski et al., 2017",
+            "entity_type": "PERSON",
+            "description": "Mikolov et al., 2013b, Pennington et al., 2014, and Bojanowski et al., 2017 are researchers who contributed to word embedding methods used in the monolingual corpora.",
+            "source_entities": [
+                "MIKOLOV ET AL., 2013B",
+                "PENNINGTON ET AL., 2014",
+                "BOJANOWSKI ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Zhang et al., 2016, Artetxe et al., 2016, and Smith et al., 2017",
+            "entity_type": "PERSON",
+            "description": "Zhang et al., 2016, Artetxe et al., 2016, and Smith et al., 2017 are researchers whose previous work is followed in optimizing the cross-lingual projection of word embeddings.",
+            "source_entities": [
+                "ZHANG ET AL., 2016",
+                "ARTETXE ET AL., 2016",
+                "SMITH ET AL., 2017"
+            ]
+        }
+    ],
+    "chunk-d5586d73d903194ebf5a0cb96ed11f82": [
+        {
+            "entity_name": "Word Embeddings",
+            "entity_type": "CONCEPT",
+            "description": "Word embeddings are numerical representations of words in a vector space, used for various tasks including translation and Named Entity Recognition (NER). They are optimized and aligned across different languages to facilitate cross-lingual interactions.",
+            "source_entities": [
+                "WORD EMBEDDINGS",
+                "BILINGUAL EMBEDDINGS"
+            ]
+        },
+        {
+            "entity_name": "Procrustes Problem",
+            "entity_type": "EVENT",
+            "description": "The Procrustes problem is an optimization problem used to align two matrices, specifically applied in the context of word embeddings to transform and align them in a shared embedding space.",
+            "source_entities": [
+                "PROCRUSTES PROBLEM",
+                "SELF-LEARNING REFINEMENT"
+            ]
+        },
+        {
+            "entity_name": "Cross-Domain Similarity Local Scaling (CSLS) Metric",
+            "entity_type": "CONCEPT",
+            "description": "The CSLS metric is a cross-domain similarity local scaling metric designed to address the hubness problem in shared embedding spaces. It is used to find translations for each source word by performing nearest-neighbor search in the common space.",
+            "source_entities": [
+                "CSLS METRIC",
+                "HUBNESS PROBLEM",
+                "WORD TRANSLATIONS"
+            ]
+        },
+        {
+            "entity_name": "Shared Embedding Space",
+            "entity_type": "CONCEPT",
+            "description": "The shared embedding space is a concept where word embeddings from different languages are aligned, enabling cross-lingual interactions and facilitating tasks such as translation and refinement of word embeddings.",
+            "source_entities": [
+                "SHARED EMBEDDING SPACE",
+                "MUTUAL NEAREST NEIGHBORS"
+            ]
+        },
+        {
+            "entity_name": "Translation",
+            "entity_type": "EVENT",
+            "description": "Translation is the process of converting text from one language to another using aligned bilingual embeddings. It involves generating a new dictionary of mutual nearest neighbors and iteratively refining the alignment in the shared embedding space.",
+            "source_entities": [
+                "TRANSLATION",
+                "NEAREST-NEIGHBOR SEARCH"
+            ]
+        },
+        {
+            "entity_name": "NER Model",
+            "entity_type": "CONCEPT",
+            "description": "The NER model is trained using translated data and is capable of using character sequences of the target language as part of its input. It benefits from frequency information conveyed by vector length, which is important for Named Entity Recognition tasks.",
+            "source_entities": [
+                "NER MODEL",
+                "FREQUENCY INFORMATION",
+                "VECTOR LENGTH"
+            ]
+        },
+        {
+            "entity_name": "English NER Training Data",
+            "entity_type": "DATA",
+            "description": "The English NER training data is used to train the NER model after being translated into the target language. The labels of each English word are copied to be the labels of the target words, allowing the model to learn from the translated data.",
+            "source_entities": [
+                "ENGLISH NER TRAINING DATA",
+                "MONOLINGUAL CORPUS"
+            ]
+        },
+        {
+            "entity_name": "Languages in Experiments",
+            "entity_type": "GEO",
+            "description": "Spanish and English are the languages used in the experiments for training the embeddings and translations. They are part of the monolingual corpus and are essential for creating bilingual embeddings and performing cross-lingual tasks.",
+            "source_entities": [
+                "SPANISH",
+                "ENGLISH"
+            ]
+        }
+    ],
+    "chunk-1946702dacf619e91d3f9408900d55e7": [
+        {
+            "entity_name": "BI-LSTM-CRF MODEL",
+            "entity_type": "EVENT",
+            "description": "BI-LSTM-CRF Model refers to the event of introducing a self-attention mechanism to deal with divergence of word order in the paper's described model, also known as Self-attentive BI-LSTM-CRF Model. It involves leveraging the shared embedding space for word translation.",
+            "source_entities": [
+                "BI-LSTM-CRF MODEL",
+                "SELF-ATTENTION",
+                "SELF-ATTENTIVE BI-LSTM-CRF MODEL"
+            ]
+        },
+        {
+            "entity_name": "HIERARCHICAL NEURAL CRF",
+            "entity_type": "EVENT",
+            "description": "Hierarchical Neural CRF is the event of describing the model used to perform Named Entity Recognition (NER) in the paper, which consists of a character-level neural network, a word-level neural network, and a linear-chain CRF layer.",
+            "source_entities": [
+                "HIERARCHICAL NEURAL CRF",
+                "CHARACTER-LEVEL NEURAL NETWORK",
+                "WORD-LEVEL NEURAL NETWORK",
+                "LINEAR-CHAIN CRF LAYER"
+            ]
+        },
+        {
+            "entity_name": "VITERBI ALGORITHM",
+            "entity_type": "CONCEPT",
+            "description": "Viterbi algorithm is used during decoding in the context of the CRF layer to define the joint distribution of all possible output label sequences.",
+            "source_entities": [
+                "VITERBI ALGORITHM",
+                "CRF LAYER"
+            ]
+        },
+        {
+            "entity_name": "MULTILAYER PERCEPTRON (MLP)",
+            "entity_type": "CONCEPT",
+            "description": "Multilayer Perceptron (MLP) is used in the self-attention mechanism to obtain queries and keys from the sequence of word-level hidden representations.",
+            "source_entities": [
+                "MLP",
+                "QUERIES",
+                "KEYS"
+            ]
+        },
+        {
+            "entity_name": "CONTEXT FEATURE VECTOR",
+            "entity_type": "CONCEPT",
+            "description": "Context feature vector is the output from the self-attention mechanism, providing each word with sentence-level context, and is calculated using the attention mask and the sequence of word-level hidden representations.",
+            "source_entities": [
+                "CONTEXT FEATURE VECTOR",
+                "ATTENTION MASK"
+            ]
+        }
+    ],
+    "chunk-34bf01163bbc140a732378ff8bc7d58d": [
+        {
+            "entity_name": "CoNLL 2002 (CONLL 2003)",
+            "entity_type": "EVENT",
+            "description": "Benchmark NER datasets used for evaluating the proposed methods, containing 4 European languages: English, German, Dutch, and Spanish.",
+            "source_entities": [
+                "CONLL 2002",
+                "CONLL 2003"
+            ]
+        },
+        {
+            "entity_name": "Tjong Kim Sang (DE MEULDER)",
+            "entity_type": "PERSON",
+            "description": "Tjong Kim Sang is the author of the CoNLL 2002 dataset and a co-author of the 2003 dataset, while De Meulder is a co-author of the CoNLL 2003 NER dataset.",
+            "source_entities": [
+                "TJONG KIM SANG",
+                "DE MEULDER"
+            ]
+        },
+        {
+            "entity_name": "Reimers (Gurevych)",
+            "entity_type": "PERSON",
+            "description": "Reimers and Gurevych are co-authors whose work is referenced for the suggestion to report mean and standard deviation in experiments.",
+            "source_entities": [
+                "REIMERS",
+                "GUREVYCH"
+            ]
+        },
+        {
+            "entity_name": "European Languages (English, German, Dutch, Spanish)",
+            "entity_type": "GEO",
+            "description": "A group of languages that include English, German, Dutch, and Spanish, which are part of the NER datasets.",
+            "source_entities": [
+                "EUROPEAN LANGUAGES",
+                "ENGLISH",
+                "GERMAN",
+                "DUTCH",
+                "SPANISH"
+            ]
+        },
+        {
+            "entity_name": "FastText (Bojanowski)",
+            "entity_type": "TECHNOLOGY",
+            "description": "FastText is a word embedding method used for word-embedding based translations, associated with Bojanowski.",
+            "source_entities": [
+                "FASTTEXT",
+                "BOJANOWSKI"
+            ]
+        },
+        {
+            "entity_name": "GloVe (Pennington)",
+            "entity_type": "TECHNOLOGY",
+            "description": "GloVe is a word embedding method used to train the NER model, associated with Pennington.",
+            "source_entities": [
+                "GLOVE",
+                "PENNINGTON"
+            ]
+        },
+        {
+            "entity_name": "Lample et al.",
+            "entity_type": "PERSON",
+            "description": "Lample et al. are associated with a method using adversarial learning to align two embedding spaces, containing 5,000 source words and about 10,000 entries.",
+            "source_entities": [
+                "LAMPLE",
+                "LAMPLE ET AL."
+            ]
+        },
+        {
+            "entity_name": "Wikipedia (Gigaword)",
+            "entity_type": "ORGANIZATION",
+            "description": "Wikipedia and Gigaword are sources of publicly available embeddings for training in various languages, including Spanish Gigaword, German WMT News Crawl, and Dutch Wikipedia.",
+            "source_entities": [
+                "WIKIPEDIA",
+                "GIGAWORD",
+                "SPANISH GIGAWORD",
+                "GERMAN WMT NEWS CRAWL",
+                "DUTCH WIKIPEDIA"
+            ]
+        }
+    ],
+    "chunk-e482f56d4c89128c81d9ac8c4175a9ea": [
+        {
+            "entity_name": "BWET (bilingual word embedding translation)",
+            "entity_type": "EVENT",
+            "description": "BWET (bilingual word embedding translation) is a method that uses a hierarchical neural CRF model trained on data translated from English. It denotes the process of using this model for translation tasks and has been found to outperform previous state-of-the-art results on Spanish and Dutch, and perform competitively on German.",
+            "source_entities": [
+                "\"BWET\"",
+                "\"HIERARCHICAL NEURAL CRF MODEL\""
+            ]
+        },
+        {
+            "entity_name": "F1",
+            "entity_type": "CONCEPT",
+            "description": "F1 refers to the F1 score, a measure of a model's accuracy used to evaluate the performance of various methods discussed in the text, including BWET and different approaches to using bilingual word embeddings.",
+            "source_entities": [
+                "\"F1\"",
+                "\"NER\""
+            ]
+        },
+        {
+            "entity_name": "Self-Attention Mechanism",
+            "entity_type": "ORGANIZATION",
+            "description": "The self-attention mechanism is a component added to the model that produces the best results when used, particularly in the context of BWET and bilingual word embeddings.",
+            "source_entities": [
+                "\"SELF-ATTENTION MECHANISM\""
+            ]
+        },
+        {
+            "entity_name": "Common Space, Replace, Translation",
+            "entity_type": "CONCEPT",
+            "description": "Common Space, Replace, and Translation are different settings for using bilingual word embeddings within the method. Common Space involves casting source and target word embeddings into a common space, Replace involves replacing original word embeddings with their nearest neighbors without performing translation, and Translation is the proposed approach where the model is trained on both exact points in the target space and target language character sequences.",
+            "source_entities": [
+                "\"COMMON SPACE\"",
+                "\"REPLACE\"",
+                "\"TRANSLATION\""
+            ]
+        }
+    ],
+    "chunk-b4272ad620f9bb2e7b9433f0fb72222c": [
+        {
+            "entity_name": "DARPA LORELEI PROGRAM",
+            "entity_type": "ORGANIZATION",
+            "description": "The DARPA LORELEI program is a source of evaluation documents used for testing the model on Uyghur language, which includes the unsequestered set of 199 annotated evaluation documents.",
+            "source_entities": [
+                "\"DARPA LORELEI PROGRAM\"",
+                "\"UNSEQUESTERED SET\""
+            ]
+        },
+        {
+            "entity_name": "Wikipedia",
+            "entity_type": "ORGANIZATION",
+            "description": "Wikipedia is used as a source of external knowledge in various approaches, including for the Wikifier features and translating named entities, as well as providing language-specific features to improve performance on language tasks.",
+            "source_entities": [
+                "\"WIKIPEDIA\"",
+                "\"LANGUAGE-SPECIFIC FEATURES\""
+            ]
+        },
+        {
+            "entity_name": "GloVe",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe provides word embeddings trained on a monolingual corpus for the purpose of Named Entity Recognition (NER), and is part of the unsupervised approach that requires no labeled resources in the target language.",
+            "source_entities": [
+                "\"GLOVE\"",
+                "\"UNSUPERVISED TRANSFER SETTING\""
+            ]
+        },
+        {
+            "entity_name": "CoNLL languages",
+            "entity_type": "GEO",
+            "description": "CoNLL languages refers to a set of languages used in the shared task of the Conference on Natural Language Learning, which is used for comparison in the study, and for which Mayhew et al. (2017) used Wikipedia for the Wikifier features.",
+            "source_entities": [
+                "\"CONLL LANGUAGES\"",
+                "\"MAYHEW ET AL. (2017)\""
+            ]
+        },
+        {
+            "entity_name": "Cross-lingual NER problem",
+            "entity_type": "EVENT",
+            "description": "The cross-lingual NER problem refers to the challenge of performing Named Entity Recognition across different languages, especially in low-resource languages like Uyghur, and is the main focus of the paper where the authors propose methods to achieve state-of-the-art results with lower resource requirements.",
+            "source_entities": [
+                "\"CROSS-LINGUAL NER PROBLEM\"",
+                "\"LOWER RESOURCE REQUIREMENTS\"",
+                "\"STATE-OF-THE-ART\""
+            ]
+        },
+        {
+            "entity_name": "Adversarial learning and identical character strings",
+            "entity_type": "CONCEPT",
+            "description": "Adversarial learning and identical character strings are techniques used to align word embeddings from different languages, which failed in the study due to the low quality of Uyghur word embeddings and the fact that the two languages are distant, revealing a practical challenge for multilingual embedding methods.",
+            "source_entities": [
+                "\"ADVERSARIAL LEARNING\"",
+                "\"IDENTICAL CHARACTER STRINGS\""
+            ]
+        },
+        {
+            "entity_name": "Self-attention mechanism",
+            "entity_type": "CONCEPT",
+            "description": "The self-attention mechanism is added to the neural architecture to address word order divergence across languages in the context of Named Entity Recognition (NER), which is part of the authors' approach to tackle the cross-lingual NER problem.",
+            "source_entities": [
+                "\"SELF-ATTENTION MECHANISM\"",
+                "\"CROSS-LINGUAL NER PROBLEM\""
+            ]
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Number of positive and negative examples and their ratios for different data-imbalanced NLP tasks.' The table is structured with four main columns: Task, # neg, # pos, and ratio. Each row represents a specific NLP task and contains the following values: 'CoNLL03 NER' has 170K negative examples and 34K positive examples, with a ratio of 4.98; 'OntoNotes5.0 NER' has 1.96M negative examples and 239K positive examples, with a ratio of 8.18; 'SQuAD 1.1 (Rajpurkar et al., 2016)' has 10.3M negative examples and 175K positive examples, with a ratio of 55.9; 'SQuAD 2.0 (Rajpurkar et al., 2018)' has 15.4M negative examples and 188K positive examples, with a ratio of 82.0; 'QUOREF (Dasigi et al., 2019)' has 6.52M negative examples and 38.6K positive examples, with a ratio of 169. The table highlights the significant data imbalance across various NLP tasks, with the number of negative examples far exceeding the number of positive examples in each case."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<node id="&quot;CONLL03 NER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A named entity recognition task with 170K negative and 34K positive samples, resulting in a ratio of 4.98."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<node id="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A named entity recognition task with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<node id="&quot;SQUAD 1.1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A question-answering task with 10.3M negative and 175K positive samples, resulting in a ratio of 55.9."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<node id="&quot;SQUAD 2.0&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An updated version of the SQuAD 1.1 task with 15.4M negative and 188K positive samples, resulting in a ratio of 82.0."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<node id="&quot;QUOREF&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A coreference resolution task with 6.52M negative and 38.6K positive samples, resulting in a ratio of 169."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CONLL03 NER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CoNLL03 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"OntoNotes5.0 NER是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 1.1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 1.1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SQuAD 2.0是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QUOREF是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONLL03 NER&quot;" target="&quot;ONTONOTES5.0 NER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are tasks related to named entity recognition, but OntoNotes5.0 is more extensive."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;SQUAD 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SQuAD 2.0 is an updated version of SQuAD 1.1, expanding the dataset size and complexity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 1.1&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are tasks involving natural language processing, but QUOREF focuses on coreference resolution."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SQUAD 2.0&quot;" target="&quot;QUOREF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are advanced tasks in natural language processing, with QUOREF focusing on coreference resolution."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

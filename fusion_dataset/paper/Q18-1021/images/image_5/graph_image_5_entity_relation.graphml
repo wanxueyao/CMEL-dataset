@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Test accuracies for the WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setup.' The table is structured with rows representing different models and columns representing test accuracies under various conditions. The models listed are Random, Max-mention, Majority-candidate-per-query-type, TF-IDF, Document-cue, FastQA, and BiDAF. Each model has corresponding accuracy values for standard and masked setups, further divided into test and test* (validated portion of the dataset). For example, the Random model has accuracies of 11.5 and 12.2 for standard test and test*, respectively, and 12.2 and 13.0 for masked test and test*. The highest accuracies are highlighted in bold, such as 58.4 and 67.3 for Majority-candidate-per-query-type in the standard setup. The context indicates that among the neural models, BiDAF is overall the strongest across both datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of various models on different test sets, including 'standard' and 'masked' categories. The table includes columns for 'test' and 'test*' results."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;RANDOM MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that selects answers randomly, used as a baseline in the comparison."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAX-MENTION MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that selects the answer with the highest mention count in the text."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that selects the majority candidate for each query type."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;TF-IDF MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that uses Term Frequency-Inverse Document Frequency to select answers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;DOCUMENT-CUE MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that uses document cues to select answers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;FASTQA MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model designed for fast question answering."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<node id="&quot;BIDAF MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Bidirectional Attention Flow model, a neural network architecture for machine reading comprehension."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RANDOM MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Random Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAX-MENTION MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Max-mention Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Majority-candidate-per-query-type Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TF-IDF MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TF-IDF Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DOCUMENT-CUE MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Document-cue Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FASTQA MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastQA Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BIDAF MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BiDAF Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RANDOM MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the Random Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;MAX-MENTION MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the Max-mention Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the Majority-candidate-per-query-type Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TF-IDF MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the TF-IDF Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;DOCUMENT-CUE MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the Document-cue Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;FASTQA MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the FastQA Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BIDAF MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes the performance of the BiDAF Model in its rows."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

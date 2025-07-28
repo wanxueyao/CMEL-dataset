@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_25_VASE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Cape or cloak- Color: Primarily white with yellow stars- Shape: Circular, resembling a cape or cloak when spread out- Size: Appears to be large enough to cover a significant portion of a person's body- Material: Not explicitly clear, but the illustration suggests a fabric-like material- Possible function: Could be used as a decorative or ceremonial garment, possibly for a character in a story or a theatrical performanceThe cape is depicted as being held open by a hand and a small figure, suggesting it is being presented or worn. The stars give it a magical or royal appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+</node>
+<node id="&quot;IMAGE_25&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and regal scene featuring a king seated on a throne. The king is dressed in a white robe adorned with yellow stars, symbolizing his celestial authority. He wears a red cape over his shoulders, which also has star patterns, and a crown on his head, signifying his royal status. The king's posture is relaxed yet authoritative, with one hand resting on the arm of the throne and the other holding a scepter. The throne itself is purple with a floral pattern, adding to the majestic atmosphere. The king is seated on a golden planet, which is surrounded by two small orange stars, enhancing the cosmic theme. The overall mood of the image is one of fantasy and royalty, capturing the essence of a storybook character with absolute power over his domain."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+</node>
+<node id="&quot;KING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A king wearing a crown, a red cape with stars, and a white robe with stars. He is sitting on a purple throne with a floral pattern."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+</node>
+<node id="&quot;THRONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A purple throne with a floral pattern, upon which the king is seated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+</node>
+<node id="&quot;STARS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Yellow stars surrounding the king and decorating his attire."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+</node>
+<edge source="&quot;IMAGE_25_VASE-0.JPG&quot;" target="&quot;IMAGE_25&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_25_vase-0.jpg是image_25的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;KING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"King是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;THRONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Throne是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;STARS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stars是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;THRONE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The king is seated on the throne."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;STARS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The king is surrounded by stars and wears a robe decorated with stars."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

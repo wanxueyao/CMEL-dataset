@@ -1,0 +1,208 @@
+{
+    "chunk-aad2b9f574dd55aeb3f017168f0f90b6": [
+        {
+            "entity_name": "Neural Machine Translation (NMT)",
+            "entity_type": "EVENT",
+            "description": "Neural Machine Translation (NMT) is a subfield of Machine Translation (MT) that focuses on integrating gender information into its systems to improve translation quality and preserve author traits. It is the main focus of the paper, where the authors discuss its challenges and potential solutions.",
+            "source_entities": [
+                "NEURAL MACHINE TRANSLATION (NMT)",
+                "MACHINE TRANSLATION (MT)",
+                "STATISTICAL MACHINE TRANSLATION (SMT)"
+            ]
+        },
+        {
+            "entity_name": "Automatic Author Classification",
+            "entity_type": "EVENT",
+            "description": "Automatic Author Classification, also known as 'author profiling', is a field within linguistics that studies gender differences in language and aims to determine the gender of an author based on text. It is mentioned in the paper in relation to the broader context of gender expression in language and its implications for Machine Translation.",
+            "source_entities": [
+                "AUTOMATIC AUTHOR CLASSIFICATION",
+                "AUTHOR PROFILING"
+            ]
+        },
+        {
+            "entity_name": "Domain-Adaptation",
+            "entity_type": "EVENT",
+            "description": "Domain-Adaptation is a technique discussed in the paper for making Machine Translation more personalized, particularly in terms of gender. It involves treating different genders as separate domains and applying adaptation techniques to preserve original author traits in translations.",
+            "source_entities": [
+                "DOMAIN-ADAPTATION"
+            ]
+        }
+    ],
+    "chunk-cbcb65bafbe05cd25427e239e5d03d4e": [
+        {
+            "entity_name": "Europarl",
+            "entity_type": "GEO",
+            "description": "A multilingual corpus with speaker information used in the analysis of gender distribution in machine translation systems, and for tagging parallel sentences with demographic details such as name, gender, age, and date of birth.",
+            "source_entities": [
+                "EUROPARL",
+                "EUROPEAN PARLIAMENT"
+            ]
+        },
+        {
+            "entity_name": "Sennrich et al. (2016)",
+            "entity_type": "ORGANIZATION",
+            "description": "Sennrich et al. worked on controlling politeness in machine translation by tagging training data with levels of politeness and are also mentioned in relation to domain adaptation in machine translation systems.",
+            "source_entities": [
+                "SENNRICH ET AL. (2016)",
+                "SENNRICH ET AL. (2016)"
+            ]
+        },
+        {
+            "entity_name": "Rabinovich et al. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "Rabinovich et al. conducted experiments on preserving original author traits, particularly focusing on gender, in the context of Statistical Machine Translation (SMT) systems. They also published an annotated parallel dataset for EN–FR and EN–DE and provided demographic annotations such as gender and age.",
+            "source_entities": [
+                "RABINOVICH ET AL. (2017)"
+            ]
+        },
+        {
+            "entity_name": "Vanmassenhove and Hardmeier (2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "Vanmassenhove and Hardmeier published a collection of parallel corpora for 20 language pairs under the Creative Commons Attribution 4.0 International License and tagged parallel sentences from Europarl with speaker information.",
+            "source_entities": [
+                "VANMASSENHOVE AND HARDMEIER (2018)"
+            ]
+        },
+        {
+            "entity_name": "Klein et al. (2017)",
+            "entity_type": "PERSON",
+            "description": "Klein et al. are associated with the OpenNMT-py toolkit, which was used to train the NMT models in the described experiments.",
+            "source_entities": [
+                "KLEIN ET AL. (2017)"
+            ]
+        },
+        {
+            "entity_name": "Johnson et al. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "Johnson et al. are referenced in the context of multilingual NMT systems, specifically Zero Shot Translation.",
+            "source_entities": [
+                "JOHNSON ET AL. (2017)"
+            ]
+        },
+        {
+            "entity_name": "Creative Commons Attribution 4.0 International License",
+            "entity_type": "EVENT",
+            "description": "The license under which Vanmassenhove and Hardmeier published their collection of parallel corpora for 20 language pairs.",
+            "source_entities": [
+                "CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL LICENSE"
+            ]
+        },
+        {
+            "entity_name": "Gender-unbalance",
+            "entity_type": "CONCEPT",
+            "description": "Gender unbalance refers to the unequal distribution of male and female speakers in the Europarl dataset, affecting the translations produced by machine translation systems.",
+            "source_entities": [
+                "GENDER-UNBALANCE"
+            ]
+        },
+        {
+            "entity_name": "Zero Shot Translation",
+            "entity_type": "EVENT",
+            "description": "Zero Shot Translation is an approach in multilingual NMT systems, referenced in the context of encoding sentence-specific information.",
+            "source_entities": [
+                "ZERO SHOT TRANSLATION"
+            ]
+        },
+        {
+            "entity_name": "Domain Adaptation",
+            "entity_type": "EVENT",
+            "description": "Domain adaptation is a technique used in machine translation systems, mentioned in the context of encoding sentence-specific information.",
+            "source_entities": [
+                "DOMAIN ADAPTATION"
+            ]
+        },
+        {
+            "entity_name": "Multilingual NMT Systems",
+            "entity_type": "ORGANIZATION",
+            "description": "Multilingual NMT systems are systems capable of translating multiple language pairs, referenced in the context of encoding sentence-specific information.",
+            "source_entities": [
+                "MULTILINGUAL NMT SYSTEMS"
+            ]
+        }
+    ],
+    "chunk-95b2a04ae931a71128605bcf04096dad": [
+        {
+            "entity_name": "OpenNMT-py (NMT models)",
+            "entity_type": "ORGANIZATION",
+            "description": "OpenNMT-py is a toolkit developed by Klein et al., 2017, used for training neural machine translation models. These models are sequence-to-sequence encoder-decoders with LSTMs as the recurrent unit, trained using the default parameters.",
+            "source_entities": [
+                "\"OPENNMT-PY\"",
+                "\"NMT MODELS\""
+            ]
+        },
+        {
+            "entity_name": "LSTMs (Long Short-Term Memory units)",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTMs, or Long Short-Term Memory units, are used as the recurrent unit in sequence-to-sequence encoder-decoders for NMT models. They are associated with the development of these models by researchers Bahdanau et al., 2014; Cho et al., 2014; and Sutskever et al., 2014.",
+            "source_entities": [
+                "\"LSTMS\"",
+                "\"BAHDANAU ET AL., 2014\"",
+                "\"CHO ET AL., 2014\"",
+                "\"SUTSKEVER ET AL., 2014\""
+            ]
+        },
+        {
+            "entity_name": "BPE (Byte Pair Encoding)",
+            "entity_type": "ORGANIZATION",
+            "description": "BPE stands for Byte Pair Encoding, a word-segmentation method developed by Sennrich, 2015, used to bypass the OOV problem and reduce dictionary entries in NMT models. The BPE algorithm is run with 89,500 operations.",
+            "source_entities": [
+                "\"BPE\"",
+                "\"WORD-SEGMENTATION WITH BPE\"",
+                "\"BPE ALGORITHM\"",
+                "\"SENNRICH, 2015\""
+            ]
+        },
+        {
+            "entity_name": "BLEU scores",
+            "entity_type": "EVENT",
+            "description": "BLEU scores, developed by Papineni et al., 2002, are a metric used to evaluate the performance of NMT systems. They are presented in Table 2 for 10 baseline and 10 gender-enhanced NMT systems, and in Table 3 for comparing the baseline and tagged systems on different test sets.",
+            "source_entities": [
+                "\"BLEU SCORES\"",
+                "\"PAPINENI ET AL., 2002\"",
+                "\"TABLE 2\"",
+                "\"TABLE 3\""
+            ]
+        },
+        {
+            "entity_name": "2K male-only and female-only test sets",
+            "entity_type": "EVENT",
+            "description": "The 2K male-only and female-only test sets are used to evaluate the performance of NMT systems with respect to gender-related issues. These test sets include male data (M), female data (F), 1st person male data (M1), and 1st person female data (F1).",
+            "source_entities": [
+                "\"2K MALE-ONLY AND FEMALE-ONLY TEST SETS\"",
+                "\"M\"",
+                "\"F\"",
+                "\"M1\"",
+                "\"F1\""
+            ]
+        }
+    ],
+    "chunk-5315e9b864f1250016a577f6c269cabe": [
+        {
+            "entity_name": "Christian Hardmeier",
+            "entity_type": "PERSON",
+            "description": "Christian Hardmeier is an individual supported by the Swedish Research Council for his work on speaker-gender tags in NMT systems.",
+            "source_entities": [
+                "CHRISTIAN HARDMEIER",
+                "CHRISTIAN HARDMEIER"
+            ]
+        },
+        {
+            "entity_name": "SFI Research Centres Programme (ADAPT Centre for Digital Content Technology)",
+            "entity_type": "ORGANIZATION",
+            "description": "The SFI Research Centres Programme funds the ADAPT Centre, contributing to the research work and supporting the work through the Daniel O’Hare Research Scholarship scheme.",
+            "source_entities": [
+                "SFI RESEARCH CENTRES PROGRAMME",
+                "ADAPT CENTRE FOR DIGITAL CONTENT TECHNOLOGY"
+            ]
+        },
+        {
+            "entity_name": "Dublin City University Faculty of Engineering & Computing (Daniel O’Hare)",
+            "entity_type": "ORGANIZATION",
+            "description": "The Dublin City University Faculty of Engineering & Computing supports the work through the Daniel O’Hare Research Scholarship scheme, associated with Daniel O’Hare.",
+            "source_entities": [
+                "DUBLIN CITY UNIVERSITY FACULTY OF ENGINEERING & COMPUTING",
+                "DANIEL O’HARE"
+            ]
+        }
+    ]
+}

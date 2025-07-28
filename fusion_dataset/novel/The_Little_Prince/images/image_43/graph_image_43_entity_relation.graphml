@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_43_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short hair, depicted with jagged lines indicating a possible spiky style- Expression: Neutral, with eyes looking forward and mouth closed- Age: Appears to be a young boy or teenager- Clothing: Wearing a long-sleeved shirt and pants, both depicted in a simple, stylized manner without detailed texture or pattern- Posture: Sitting on the ground with legs spread apart and arms resting on the ground for support, suggesting a relaxed or resting positionOverall, the character is depicted in a simplified, cartoon-like style with minimal detail, focusing on the basic outline and posture of the figure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<node id="&quot;IMAGE_43_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Bone- Color: White- Shape: The bone appears to be a long bone, likely from the lower limb of an animal, with a diaphysis (shaft) and two epiphyses (ends). It has a relatively straight shaft with slight curvature and expanded ends.- Size: The size is not explicitly clear due to the lack of scale, but it resembles a medium to large-sized animal's bone.- Material: The bone appears to be made of dense, compact bone tissue, which is typical for weight-bearing bones.- Possible Function: This type of bone is typically involved in supporting the body's weight and providing movement through joints. It may also serve as a storage site for minerals like calcium and phosphorus.Overall, the bone depicted is a long bone, likely from the leg of an animal, characterized by its sturdy structure and specialized ends for articulation with other bones."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<node id="&quot;IMAGE_43&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a young boy sitting on the ground with his legs stretched out in front of him. The boy has short, spiky hair and is dressed in a long-sleeved shirt and pants. His posture is relaxed but slightly slumped, suggesting a sense of weariness or resignation. Above him, there are several lines radiating outward, creating an effect of light or energy emanating from a point near his head. To the right of the boy, there is a small star in the sky, and further to the right, there is a simple windmill-like structure with four spokes. The overall atmosphere of the image conveys a sense of solitude and contemplation, as if the boy is lost in thought or reflecting on something significant."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A boy with spiky hair, sitting on the ground with one arm extended and the other resting on his knee, wearing a long-sleeved shirt and pants."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<node id="&quot;STAR&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A star in the sky, positioned above and to the right of the boy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<node id="&quot;FLOWER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small flower on the ground, located to the right of the boy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+</node>
+<edge source="&quot;IMAGE_43_PERSON-0.JPG&quot;" target="&quot;IMAGE_43&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_43_person-0.jpg是image_43的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_43_PERSON-1.JPG&quot;" target="&quot;IMAGE_43&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_43_person-1.jpg是image_43的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_43&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_43中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_43&quot;" target="&quot;STAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Star是从image_43中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_43&quot;" target="&quot;FLOWER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flower是从image_43中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;STAR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The boy is looking up at the star."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;FLOWER&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The boy is sitting near the flower."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_43.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

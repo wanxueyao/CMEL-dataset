@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the dialogue state and policy network in a conversational system. The diagram consists of several interconnected components. At the bottom, there is a rectangular box labeled 'LSTM Dialogue State, $S_{k}$'. Above this box, there are two other boxes: one on the left labeled 'Slot value logits' with a dashed outline containing multiple smaller rectangles representing different slot values, and one on the right labeled 'Query results encoding, $E_{k}$'. These three components feed into a larger box labeled 'Policy Network', which is depicted as a stack of three horizontal rectangles. The output of the Policy Network is a single rectangle labeled 'System action at turn k, $a_{k}$'. The arrows indicate the flow of information from the LSTM Dialogue State, through the Slot value logits and Query results encoding, to the Policy Network, and finally to the System action. The overall structure suggests a sequential process where the current dialogue state, along with the slot value logits and query results encoding, are used to determine the next system action."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<node id="&quot;SYSTEM ACTION AT TURN K&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The system action at a specific turn in the dialogue process, denoted as \(a_k\)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<node id="&quot;POLICY NETWORK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A network responsible for determining the system action based on the current state of the dialogue."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<node id="&quot;SLOT VALUE LOGITS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The predicted values for slot values, represented as \(v_k\), which are used to inform the policy network."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<node id="&quot;QUERY RESULTS ENCODING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The encoded representation of query results, denoted as \(\bar{E}_k\), which provides context for the dialogue state."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<node id="&quot;LSTM DIALOGUE STATE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The internal state of the dialogue maintained by an LSTM network, represented as \(S_k\), which captures the history and context of the conversation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SYSTEM ACTION AT TURN K&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"System action at turn k是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;POLICY NETWORK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Policy Network是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SLOT VALUE LOGITS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Slot value logits是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;QUERY RESULTS ENCODING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Query results encoding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LSTM DIALOGUE STATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM Dialogue State是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SYSTEM ACTION AT TURN K&quot;" target="&quot;POLICY NETWORK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The policy network determines the system action at each turn based on the current dialogue state and other inputs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POLICY NETWORK&quot;" target="&quot;SLOT VALUE LOGITS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The slot value logits provide predictions that influence the policy network's decision-making process."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POLICY NETWORK&quot;" target="&quot;QUERY RESULTS ENCODING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The query results encoding provides additional context that the policy network uses to make decisions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POLICY NETWORK&quot;" target="&quot;LSTM DIALOGUE STATE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The LSTM dialogue state informs the policy network about the current state of the conversation, aiding in decision-making."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

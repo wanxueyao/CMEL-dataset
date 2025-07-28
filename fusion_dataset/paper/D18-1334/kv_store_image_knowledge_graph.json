@@ -1,0 +1,200 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Overview of annotated parallel sentences per language pair'. The table is divided into two main columns: 'Languages' and '# sents'. Each row represents a different language pair, with the first column listing the language pairs (e.g., EN-BG, EN-CS, EN-DA, etc.) and the second column providing the number of sentences for each pair. The language pairs include combinations of English (EN) with various other languages such as Bulgarian (BG), Czech (CS), Danish (DA), German (DE), Greek (EL), Spanish (ES), Estonian (ET), Finnish (FI), French (FR), Hungarian (HU), Italian (IT), Lithuanian (LT), Latvian (LV), Dutch (NL), Polish (PL), Portuguese (PT), Romanian (RO), Slovak (SK), Slovenian (SL), and Swedish (SV). The number of sentences varies significantly across the language pairs, ranging from 306,380 for EN-BG to 1,440,620 for EN-FR. Notable data points include EN-DA with 1,421,197 sentences, EN-DE with 1,296,843 sentences, and EN-ES with 1,419,507 sentences. The table provides a comprehensive overview of the distribution of annotated parallel sentences across different language pairs."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying language translation data with columns for language pairs and the number of sentences translated."
+        },
+        {
+            "entity_name": "EN-BG",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Bulgarian translations."
+        },
+        {
+            "entity_name": "EN-IT",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Italian translations."
+        },
+        {
+            "entity_name": "EN-CS",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Czech translations."
+        },
+        {
+            "entity_name": "EN-LT",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Lithuanian translations."
+        },
+        {
+            "entity_name": "EN-LV",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Latvian translations."
+        },
+        {
+            "entity_name": "EN-NL",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Dutch translations."
+        },
+        {
+            "entity_name": "EN-PL",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Polish translations."
+        },
+        {
+            "entity_name": "EN-PT",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Portuguese translations."
+        },
+        {
+            "entity_name": "EN-RO",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Romanian translations."
+        },
+        {
+            "entity_name": "EN-SK",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Slovak translations."
+        },
+        {
+            "entity_name": "EN-SL",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Slovenian translations."
+        },
+        {
+            "entity_name": "EN-SV",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on English to Swedish translations."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart titled 'Percentage of female and male speakers per age group'. The x-axis represents different age groups, ranging from 20-30 to 80-90. The y-axis represents the percentage, ranging from 0% to 100%. Each age group has two bars representing the percentage of male and female speakers. The colors used are orange for males and blue for females. The exact percentages for each age group are as follows: For the 20-30 age group, the percentage of female speakers is approximately 65%, and for male speakers, it is approximately 35%. For the 30-40 age group, the percentage of female speakers is approximately 40%, and for male speakers, it is approximately 60%. For the 40-50 age group, the percentage of female speakers is approximately 35%, and for male speakers, it is approximately 65%. For the 50-60 age group, the percentage of female speakers is approximately 30%, and for male speakers, it is approximately 70%. For the 60-70 age group, the percentage of female speakers is approximately 25%, and for male speakers, it is approximately 75%. For the 70-80 age group, the percentage of female speakers is approximately 20%, and for male speakers, it is approximately 80%. For the 80-90 age group, the percentage of female speakers is approximately 15%, and for male speakers, it is approximately 85%. The chart clearly shows a trend where the percentage of male speakers increases with age, while the percentage of female speakers decreases."
+        },
+        {
+            "entity_name": "AGE GROUPS",
+            "entity_type": "EVENT",
+            "description": "The chart displays the distribution of males and females across different age groups, ranging from 20-30 to 80-90."
+        },
+        {
+            "entity_name": "MALE",
+            "entity_type": "PERSON",
+            "description": "Represented by orange bars on the chart, indicating the percentage of males in each age group."
+        },
+        {
+            "entity_name": "FEMALE",
+            "entity_type": "PERSON",
+            "description": "Represented by blue bars on the chart, indicating the percentage of females in each age group."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table comparing BLEU scores for machine translation systems from English (EN) to various target languages, both with and without gender tagging. The table has two main columns: 'Systems' and two sub-columns under each system for 'EN' and 'EN-TAG'. The rows represent different target languages: FR (French), ES (Spanish), EL (Greek), IT (Italian), PT (Portuguese), DA (Danish), DE (German), FI (Finnish), SV (Swedish), and NL (Dutch). Each row contains the BLEU scores for the baseline system (EN) and the gender-tagged system (EN-TAG). For example, for French (FR), the EN score is 37.82, and the EN-TAG score is 39.26 with an asterisk indicating statistical significance. Similarly, for Italian (IT), the EN score is 31.46, and the EN-TAG score is 31.75 with an asterisk. The table highlights improvements in BLEU scores for some languages when using gender tagging."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different systems across various languages, with columns for Systems, EN, and EN-TAG. The table includes data points for FR, ES, EL, IT, PT, DA, DE, FI, SV, and NL."
+        },
+        {
+            "entity_name": "FR",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for FR, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "ES",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for ES, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "EL",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for EL, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "IT",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for IT, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "PT",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for PT, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "DA",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for DA, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "DE",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for DE, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "FI",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for FI, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "SV",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for SV, showing its performance metrics in EN and EN-TAG."
+        },
+        {
+            "entity_name": "NL",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains a row for NL, showing its performance metrics in EN and EN-TAG."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table comparing BLEU-scores on EN–FR translations between the baseline (EN) and the tagged systems (EN–TAG) across four different test sets: FR (M), FR (F), FR (M1), and FR (F1). The rows represent the test sets, while the columns show the scores for the EN and EN–TAG systems. The scores are as follows: for FR (M), EN has a score of 37.58 and EN–TAG has a score of 38.71 with an asterisk indicating statistical significance; for FR (F), EN has a score of 37.75 and EN–TAG has a score of 38.97 with an asterisk; for FR (M1), EN has a score of 39.00 and EN–TAG has a score of 39.66 with an asterisk; for FR (F1), EN has a score of 37.32 and EN–TAG has a score of 38.57 with an asterisk. All improvements of the EN–TAG system over the EN system are statistically significant, as indicated by the asterisks."
+        },
+        {
+            "entity_name": "TEST SETS",
+            "entity_type": "EVENT",
+            "description": "A set of test scenarios used to evaluate the performance of a system or model, specifically in the context of language processing and machine learning. The sets are categorized by language (EN) and gender (M for male, F for female, M1 and F1 for additional subsets).\">"
+        },
+        {
+            "entity_name": "EN",
+            "entity_type": "ORGANIZATION",
+            "description": "Represents the English language data set used in the evaluation. This is a standardized set that serves as a baseline for comparison with other language-specific datasets.\">"
+        },
+        {
+            "entity_name": "EN-TAG",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of the EN dataset, possibly incorporating tagged data or additional features that improve its performance in specific tasks. This could involve linguistic tagging, morphological analysis, or other forms of annotation that provide more detailed information about the data.\">"
+        },
+        {
+            "entity_name": "FR (M)",
+            "entity_type": "GEO",
+            "description": "French language data set for male speakers. This subset is designed to evaluate how well the system performs with male voices in French.\">"
+        },
+        {
+            "entity_name": "FR (F)",
+            "entity_type": "GEO",
+            "description": "French language data set for female speakers. This subset evaluates the system's performance with female voices in French.\">"
+        },
+        {
+            "entity_name": "FR (M1)",
+            "entity_type": "GEO",
+            "description": "An additional subset of the French language data set for male speakers, potentially with different characteristics or conditions from FR (M).\">"
+        },
+        {
+            "entity_name": "FR (F1)",
+            "entity_type": "GEO",
+            "description": "An additional subset of the French language data set for female speakers, potentially with different characteristics or conditions from FR (F).\">"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed pie chart titled 'Distribution of the first and second words in questions.' The chart is divided into multiple segments, each representing different categories of questions. The inner part of the chart displays words and their frequency, while the outer part provides example questions. The segments are color-coded and labeled with percentages indicating the frequency of each category. For instance, 'What' constitutes 21% of the questions, 'Where' accounts for 18%, 'When' makes up 7%, 'If' represents 7%, 'Why' comprises 2%, 'The' takes up 13%, 'James' and 'John' each contribute 2%, and 'Other' covers 37%. Each segment also includes an example question related to the category. For example, under 'What,' an example question is 'What could 1.5% have what?'. The chart provides a comprehensive overview of the distribution and examples of the first and second words in questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+</node>
+<node id="&quot;CHART&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A colorful pie chart with various categories and percentages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+</node>
+<node id="&quot;CATEGORIES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Different categories such as 'When', 'What', 'Where', etc., each with associated questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+</node>
+<node id="&quot;PERCENTAGES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Numerical values representing the distribution of categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CHART&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chart是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CATEGORIES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Categories是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PERCENTAGES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Percentages是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

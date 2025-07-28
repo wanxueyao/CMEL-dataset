@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that falls past the shoulders- Expression: Neutral, with a slightly curious or surprised look- Age: Appears to be a young girl- Clothing: Wearing a long, puffy-sleeved dress with a high collar and a ribbon tied at the neck; the dress has a full skirt that reaches the ankles- Accessories: Holding a piece of cloth or garment in her left hand, which she appears to be examining or adjustingOverall, the character gives off a vintage or storybook vibe, reminiscent of classic illustrations from children's literature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of Alice from the classic story 'Alice in Wonderland.' Alice is depicted standing and looking surprised or bewildered. She has long, wavy hair that falls past her shoulders and is wearing a dress with a high collar and puffed sleeves. Her posture is slightly bent forward, and one hand is placed on her chest while the other is resting on what appears to be a wall or a large object next to her. The expression on her face conveys a sense of curiosity and confusion, fitting the context where she is experiencing unusual growth. The background is minimalistic, with only a few lines suggesting a wall or a barrier next to her. The overall atmosphere of the image aligns with the whimsical and surreal tone of the story, capturing Alice's reaction to her extraordinary situation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and standing next to a pole."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;POLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tall, vertical structure that Alice is standing next to."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9_PERSON-0.JPG&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_9_person-0.jpg是image_9的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;POLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pole是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;POLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is standing next to the pole."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

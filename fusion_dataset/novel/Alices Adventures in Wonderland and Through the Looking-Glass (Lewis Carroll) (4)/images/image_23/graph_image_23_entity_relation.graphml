@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_23_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that appears to be dark in color- Eyes: Large and expressive, with a thoughtful or contemplative gaze- Expression: Appears to be deep in thought or possibly concerned- Age: Appears to be an adult woman- Clothing: Wearing a long dress with a patterned design; the dress has a high collar and long sleeves- Posture: Sitting with one hand resting on her chin, suggesting a pose of contemplation or concernOverall, the character gives off a pensive and somewhat melancholic vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<node id="&quot;IMAGE_23&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from 'Alice in Wonderland.' Alice, a young girl with long hair, is sitting on the ground, watching a battle between two knights. The White Knight, dressed in armor and riding a white horse, is engaged in combat with the Red Knight, who is also armored and mounted on a black horse. Both knights are holding clubs, which they use to hit each other. The White Knight's club has a star-shaped end, while the Red Knight's club is more traditional. The knights are depicted in a dynamic pose, with the White Knight appearing to have just hit the Red Knight, causing him to fall off his horse. Alice is positioned behind a tree, peeping out with a curious and slightly apprehensive expression. The background consists of trees and bushes, adding to the whimsical and fantastical atmosphere of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, sitting on the ground and observing the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<node id="&quot;WHITE KNIGHT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character in armor riding a horse, holding a spear and a shield, appearing to be in motion."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<node id="&quot;HORSE&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A horse being ridden by the White Knight, depicted in mid-stride."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large tree with detailed bark and branches, providing a backdrop to the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+</node>
+<edge source="&quot;IMAGE_23_PERSON-0.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_23_person-0.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23_PERSON-0.JPG&quot;" target="&quot;IMAGE_23&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_23_person-0.jpg是image_23的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;WHITE KNIGHT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Knight是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;HORSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Horse是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;WHITE KNIGHT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is observing the White Knight as he rides past her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TREE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is sitting near the tree."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE KNIGHT&quot;" target="&quot;HORSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The White Knight is riding the horse."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE KNIGHT&quot;" target="&quot;TREE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The White Knight is passing by the tree."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_17_CLOCK-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Human (depicted in a medieval battle scene)- Age: Adult- Color: The image is monochromatic, so the color cannot be determined.- Shape: Various postures and positions, including standing, kneeling, and lying down.- Size: Varies among individuals, but all appear to be adult-sized humans.- Posture: Some figures are engaged in combat, wielding swords and shields, while others are fallen or injured.- Structural Characteristics: The figures are dressed in period-appropriate armor and clothing, with some wearing helmets and carrying weapons.Overall, the image depicts a chaotic battle scene with multiple human figures engaged in combat."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<node id="&quot;IMAGE_17&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed black-and-white illustration depicting a chaotic battle scene. The scene is crowded with numerous armored knights and soldiers engaged in combat. The knights are mounted on horses, which are also armored, and are wielding various weapons such as swords, lances, and shields. The soldiers are depicted in various postures of attack and defense, with some falling to the ground, suggesting intense fighting. The background shows a dense forest, adding to the sense of disorder and confusion. The overall atmosphere conveyed is one of tension and violence, characteristic of a medieval battle. The intricate details in the armor, weapons, and expressions of the figures add to the vividness of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<node id="&quot;KNIGHTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Armored knights engaged in battle, wielding swords and spears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<node id="&quot;HORSES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Horses carrying the knights into battle, some with armor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<node id="&quot;BATTLEFIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A chaotic battlefield with fallen knights and horses, surrounded by trees."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Trees surrounding the battlefield, providing a backdrop to the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+</node>
+<edge source="&quot;IMAGE_17_CLOCK-0.JPG&quot;" target="&quot;BATTLEFIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_17_clock-0.jpg is a picture of a battlefield."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17_CLOCK-0.JPG&quot;" target="&quot;IMAGE_17&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_17_clock-0.jpg是image_17的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;KNIGHTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Knights是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;HORSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Horses是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;BATTLEFIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Battlefield是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KNIGHTS&quot;" target="&quot;HORSES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The knights are riding on the horses during the battle."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KNIGHTS&quot;" target="&quot;BATTLEFIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The knights are fighting on the battlefield."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HORSES&quot;" target="&quot;BATTLEFIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The horses are part of the battlefield scene, carrying the knights."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BATTLEFIELD&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The battlefield is surrounded by trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

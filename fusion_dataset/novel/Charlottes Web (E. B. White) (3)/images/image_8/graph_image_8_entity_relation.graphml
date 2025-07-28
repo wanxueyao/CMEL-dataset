@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white sketch depicting a spider perched on top of an egg sac. The spider is positioned at the upper right corner of the egg sac, with its body oriented towards the viewer. The spider's legs are spread out, and it appears to be patting or touching the surface of the egg sac with its two front legs. The egg sac itself is round and textured, resembling a ball of tightly woven threads or fibers. The background consists of diagonal lines that give the impression of a web or a network of threads extending from the egg sac. The overall style of the drawing is rough and sketchy, with heavy use of cross-hatching to create texture and depth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;SPIDER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A spider with a round body and long legs, positioned on top of a ball of web."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;WEB BALL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, spherical mass of interwoven web threads, serving as the foundation for the spider's structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;SPIDER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;WEB BALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Web Ball是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER&quot;" target="&quot;WEB BALL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The spider is atop the web ball, using it as a base or possibly as part of its nest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

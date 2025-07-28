@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Voluminous, blonde hair styled in waves, with a side parting- Eyes: Dark, with makeup including eyeliner and mascara- Expression: Neutral to slightly smiling, with a confident gaze- Age: Appears to be an adult woman, possibly middle-aged- Clothing: Wearing a white garment with a high collar, adorned with black and white decorative elements around the neckline- Accessories: A prominent necklace with large, round beads that appear to be pearls or a similar materialOverall, the individual presents a polished and elegant appearance, suggesting a formal or high-profile event."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark brown hair with a side parting- Eyes: Not clearly visible due to the angle and lighting- Expression: Neutral, with a slight smile- Age: Appears to be a middle-aged man- Clothing: Wearing a black tuxedo with a white dress shirt and a black bow tie- Posture: Standing upright, facing the cameraOverall, the individual appears to be dressed formally for a special occasion or event."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Bow tie- Color: Dark gray- Shape: Classic bow shape, symmetrical with two loops and two tails- Size: Appears to be a standard size for an adult's bow tie- Material: Likely made of fabric, possibly silk or polyester, given the smooth texture and slight sheen- Possible function: Worn as a formal accessory, typically around the neck, often associated with formal or semi-formal attireOverall, the bow tie exudes a sense of formality and elegance, suitable for occasions that require a polished appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white photograph of two individuals dressed in formal attire. The person on the left is a woman with voluminous, styled blonde hair. She is wearing a white blouse adorned with black polka dots and a matching necklace. Her makeup is notable, with prominent eyeliner and red lipstick. The person on the right is a man with short, dark hair. He is dressed in a classic black tuxedo with a white shirt and a black bow tie. Both individuals are standing close to each other, facing forward, and appear to be at a formal event or gathering. The background is dark and indistinct, which emphasizes the subjects in the foreground. The overall atmosphere conveyed by the image is one of elegance and formality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with blonde hair styled in a voluminous manner, wearing a white blouse with black and white polka dots, a necklace, and earrings. She is smiling and looking towards the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with dark hair, wearing a black tuxedo with a bow tie. He is standing next to the woman and looking towards the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-2.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_person-2.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-2.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-2.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_TIE-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_tie-1.jpg is a picture of a bow tie which the man is wearing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_TIE-1.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_tie-1.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman and the man are standing close together, suggesting they may be attending an event together."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

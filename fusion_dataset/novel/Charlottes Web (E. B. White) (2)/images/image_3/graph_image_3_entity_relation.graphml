@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a rustic farm scene. In the foreground, there is a wooden structure with a large beam supporting a rope swing. A boy is sitting on the swing, which is attached to the beam by a rope. He appears to be in motion, swinging back and forth. Another boy is standing on a ladder leaning against the wooden structure, reaching up towards the beam. The background shows a rural landscape with a barn, trees, and a fence. The ground is depicted with wavy lines, suggesting grass or a dirt path. The overall atmosphere of the image conveys a sense of childhood play and adventure in a countryside setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;BOY ON SWING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A boy swinging on a swing attached to the side of a house."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;HOUSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A wooden house with a swing attached to its side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;SWING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A swing attached to the side of the house, currently being used by a boy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A tree located in the background, near the house."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;PATHWAY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A pathway leading up to the house, surrounded by grass and trees."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BOY ON SWING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy on Swing是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"House是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SWING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Swing是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PATHWAY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pathway是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY ON SWING&quot;" target="&quot;HOUSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The boy is swinging on a swing that is attached to the side of the house."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY ON SWING&quot;" target="&quot;SWING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The boy is using the swing that is attached to the side of the house."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOUSE&quot;" target="&quot;SWING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The swing is attached to the side of the house."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOUSE&quot;" target="&quot;TREE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The tree is located near the house in the background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOUSE&quot;" target="&quot;PATHWAY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pathway leads up to the house."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

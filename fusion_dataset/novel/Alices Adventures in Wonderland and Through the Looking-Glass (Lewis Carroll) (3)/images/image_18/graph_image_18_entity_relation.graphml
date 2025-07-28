@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_18&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white cartoon illustration of a character that appears to be a stylized, exaggerated figure. The character has a large, round head with a prominent nose and a small mouth, giving it a somewhat comical appearance. It has short, spiky hair and is dressed in a suit with a bow tie. The character is depicted in a dynamic pose, as if it is walking or moving forward with one leg raised and the other pushing off the ground. The character's arms are bent at the elbows, with one hand holding what looks like a cane or stick. The overall style is sketchy and expressive, with heavy use of cross-hatching to create shading and depth. The background is minimal, consisting of simple lines that suggest a surface or ground on which the character is walking. The artist's signature, 'YORUBELLEZ,' is visible at the bottom right of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;CHARACTER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A cartoon character with a large nose, wearing a jacket and pants, walking on a tightrope."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;TIGHTROPE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A thin rope that the character is walking on."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+</node>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;CHARACTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Character是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;TIGHTROPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tightrope是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHARACTER&quot;" target="&quot;TIGHTROPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The character is walking on the tightrope."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that compares the performance of various models on two different splits: Random split and Question concept split. The table has four columns: Model, Accuracy for Random split, SANITY for Random split, Accuracy for Question concept split, and SANITY for Question concept split. The rows list different models and their respective performance metrics. For example, BERT-LARGE achieves an accuracy of 55.9% and a SANITY score of 92.3% on the Random split, and 63.6% accuracy with 93.2% SANITY on the Question concept split. Other models listed include VecSim+Numberbatch, LM1B-REP, LM1B-CONCAT, VecSim+GloVe, GPT, ESIM+ELMo, ESIM+GloVe, QABilinear+GloVe, ESIM+Numberbatch, QABilinear+Numberbatch, QACompare+GloVe, QACompare+Numberbatch, and BiDAF++. The human performance is also included at the bottom, achieving 88.9% accuracy. The table highlights the superior performance of BERT-LARGE compared to other models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of various models on two different splits: Random split and Question concept split. The table includes columns for Model, Accuracy, and SANITY scores."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<node id="&quot;RANDOM SPLIT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A method of splitting data where the data points are randomly assigned to either the training or testing set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<node id="&quot;QUESTION CONCEPT SPLIT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A method of splitting data based on the underlying concepts of the questions, ensuring that similar concepts do not appear in both the training and testing sets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<node id="&quot;ACCURACY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A metric used to evaluate the performance of a model, representing the percentage of correct predictions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<node id="&quot;SANITY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A metric used to evaluate the robustness of a model, indicating how well the model performs under adversarial conditions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;RANDOM SPLIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Random split是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;QUESTION CONCEPT SPLIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question concept split是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Accuracy是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SANITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SANITY是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RANDOM SPLIT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains a column for the Random split, showing the performance of each model under this split method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;QUESTION CONCEPT SPLIT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains a column for the Question concept split, showing the performance of each model under this split method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains a column for Accuracy, showing the accuracy scores of each model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SANITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains a column for SANITY, showing the SANITY scores of each model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

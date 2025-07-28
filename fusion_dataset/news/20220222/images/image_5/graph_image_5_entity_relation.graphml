@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky hair, predominantly white with a blue streak on the left side- Eyes: Not clearly visible due to the angle and motion blur- Expression: Appears to be in an intense or focused state, possibly mid-action- Age: Appears to be an adult male- Clothing: Wearing a red and white sleeveless top with a blue collar and a white star emblem on the chest; blue shorts with a white stripe down the side; white gloves with red accents- Accessories: Red wristbands on both wrists- Posture: In a dynamic pose, suggesting movement or action, possibly running or jumping- Additional: There is a noticeable motion blur around the figure, indicating rapid movementOverall, the character appears to be engaged in some form of physical activity, possibly a sport or combat, given the attire and posture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_HORSE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Horse- Age: Appears to be an adult horse, likely in its prime years for racing or performance- Color: Dark brown with a glossy coat, indicating good health and possibly regular grooming- Shape: The horse is captured mid-jump, with its front legs extended forward and its hind legs pushing off the ground. The body is elongated and powerful, showing the musculature typical of a well-trained racehorse or show jumper.- Size: The horse appears to be large, consistent with breeds used in racing or show jumping, which typically stand around 16 hands high.- Posture: The posture is dynamic and energetic, suggesting the horse is in motion, likely participating in a competitive event such as a race or a jumping competition.- Structural Characteristics: The horse has a well-defined neck and head, with a bridle and reins visible, indicating it is being ridden or guided by a rider. The tail is flowing backward due to the speed and motion of the jump.Overall, the horse exudes strength, agility, and grace, characteristics that are highly valued in equestrian sports."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image captures a thrilling moment at a horse racing event. The main focus is on a jockey dressed in a blue and white racing outfit, riding a powerful brown horse. The jockey is leaning forward, urging the horse to sprint with determination. The horse's muscles are taut, and its hooves kick up dirt as it races across the track. In the background, there is a large crowd of spectators filling the stands, creating an atmosphere of excitement and anticipation. The spectators are dressed in various colors, adding to the vibrant scene. The grandstand features a distinctive clock tower, which adds a historical and iconic element to the setting. The sky above is clear, suggesting a sunny day, which enhances the overall atmosphere of the event."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d1">"The image feature block image_5_person-1.jpg is a picture of a person."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HORSE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d1">"The image feature block image_5_horse-0.jpg is a picture of a horse."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;JOCKEY&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d1">"Jockey是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;STADIUM&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d1">"Stadium是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SPECTATORS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d1">"Spectators是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-1.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-1.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_HORSE-0.JPG&quot;" target="&quot;HORSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_horse-0.jpg is a picture of a horse."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_HORSE-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_horse-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HORSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Horse是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;JOCKEY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Jockey是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;STADIUM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stadium是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SPECTATORS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spectators是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HORSE&quot;" target="&quot;JOCKEY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The jockey is riding the horse during the race."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HORSE&quot;" target="&quot;STADIUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The horse is racing within the confines of the stadium."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HORSE&quot;" target="&quot;SPECTATORS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The spectators are watching the horse as it races."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JOCKEY&quot;" target="&quot;STADIUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The jockey is participating in a race held in the stadium."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JOCKEY&quot;" target="&quot;SPECTATORS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The spectators are watching the jockey as he rides the horse."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STADIUM&quot;" target="&quot;SPECTATORS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The spectators are present in the stadium to watch the race."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

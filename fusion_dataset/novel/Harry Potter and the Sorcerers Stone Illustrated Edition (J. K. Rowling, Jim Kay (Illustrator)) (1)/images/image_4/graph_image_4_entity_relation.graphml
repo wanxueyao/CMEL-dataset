@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration featuring a vibrant chameleon with a mix of orange, yellow, and green colors. The chameleon is perched on a round sign that reads 'CHAPTER TWO THE VANISHING GLASS.' The background consists of lush, green foliage, giving the scene a tropical or jungle-like atmosphere. The chameleon's posture is relaxed, with its tail curled around the signpost. A small spider can be seen near the bottom right of the sign. The overall mood of the image is whimsical and adventurous, fitting the theme of a storybook or fantasy narrative."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;CHAMELEON&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A colorful chameleon with a spiral tail, perched on a sign."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;SIGN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A round sign with the text 'CHAPTER TWO THE VANISHING GLASS' and a spider nearby."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;SPIDER&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small spider located near the bottom of the sign."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;FOLIAGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Green foliage in the background surrounding the sign and chameleon."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;CHAMELEON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chameleon是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SIGN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sign是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SPIDER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FOLIAGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Foliage是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAMELEON&quot;" target="&quot;SIGN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chameleon is perched on top of the sign."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SIGN&quot;" target="&quot;SPIDER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The spider is located near the bottom of the sign."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SIGN&quot;" target="&quot;FOLIAGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The foliage surrounds the sign in the background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table with four rows and three columns. The first column, labeled 'Type,' lists different types of questions: Multi-hop, Weak distractors, Redundant evidence, and Non-compositional 1-hop. The second column, labeled 'Question,' provides specific examples for each type. For example, the Multi-hop question asks about the city where Ralph Hefferline was a psychology professor at a university. The Weak distractors question inquires about the government position held by the woman who portrayed Corliss Archer in the film Kiss and Tell. The Redundant evidence question mentions Kaiser Ventures corporation and its founder. The Non-compositional 1-hop question asks about the release date of Poison’s album ‘Shut Up, Make Love’. The third column, labeled '%', shows the percentage associated with each type of question: 27% for Multi-hop, 35% for Weak distractors, 26% for Redundant evidence, and 8% for Non-compositional 1-hop."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;RALPH HEFFERLINE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A psychology professor at a university."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;UNIVERSITY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An educational institution where Ralph Hefferline worked as a psychology professor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;CITY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The location of the university where Ralph Hefferline was a psychology professor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;CORLISS ARCHER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character portrayed by a woman in the film Kiss and Tell."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;FILM KISS AND TELL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A movie featuring the character Corliss Archer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;GOVERNMENT POSITION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The role held by the woman who portrayed Corliss Archer in the film Kiss and Tell."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;KAISER VENTURES CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An American company founded by an industrialist known as the father of modern American shipbuilding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;AMERICAN INDUSTRIALIST&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The founder of Kaiser Ventures corporation, known as the father of modern American shipbuilding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;POISON&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A band that released an album titled 'Shut Up, Make Love'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;ALBUM 'SHUT UP, MAKE LOVE'">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A music album released by the band Poison."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+</node>
+<node id="&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d1">"image_3"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d1">"The woman who portrayed Corliss Archer held this government position."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FATHER OF MODERN AMERICAN SHIPBUILDING&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d1">"The industrialist is known as the father of modern American shipbuilding."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;RALPH HEFFERLINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ralph Hefferline是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;UNIVERSITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"University是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"City是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CORLISS ARCHER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Corliss Archer是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FILM KISS AND TELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Film Kiss and Tell是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GOVERNMENT POSITION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Government position是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;KAISER VENTURES CORPORATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Kaiser Ventures corporation是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;AMERICAN INDUSTRIALIST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"American industrialist是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;POISON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Poison是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RALPH HEFFERLINE&quot;" target="&quot;UNIVERSITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Ralph Hefferline was a psychology professor at this university."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UNIVERSITY&quot;" target="&quot;CITY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The university is located in this city."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CORLISS ARCHER&quot;" target="&quot;FILM KISS AND TELL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Corliss Archer is a character featured in this film."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOVERNMENT POSITION&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The woman who portrayed Corliss Archer held this government position."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KAISER VENTURES CORPORATION&quot;" target="&quot;AMERICAN INDUSTRIALIST&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The American industrialist founded this corporation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AMERICAN INDUSTRIALIST&quot;" target="&quot;FATHER OF MODERN AMERICAN SHIPBUILDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The industrialist is known as the father of modern American shipbuilding."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POISON&quot;" target="&quot;ALBUM 'SHUT UP, MAKE LOVE'">
+  <data key="d3">7.0</data>
+  <data key="d4">"Poison released this album."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALBUM 'SHUT UP, MAKE LOVE'" target="&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

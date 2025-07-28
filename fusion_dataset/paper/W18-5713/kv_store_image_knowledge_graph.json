@@ -1,0 +1,221 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'RetNRef Retrieval Method' that provides perplexity (PPL) scores on the ConvAI2 task test set with different types of retriever for RetNRef. The table has two columns: 'RetNRef Retrieval Method' and 'PPL'. The rows under 'RetNRef Retrieval Method' are as follows: 'None (Vanilla Seq2Seq)' with a PPL of 31.4, 'Random label' with a PPL of 32.0, 'Memory Network' with a PPL of 31.8, 'True label’s neighbor' with a PPL of 25.9, and 'True label' with a PPL of 9.2. The table highlights the performance of different retrieval methods in terms of perplexity, with 'True label' showing the lowest PPL score."
+        },
+        {
+            "entity_name": "RETNREF RETRIEVAL METHOD",
+            "entity_type": "EVENT",
+            "description": "The different methods used for retrieving references in the RetNRef system, including Vanilla Seq2Seq, Random label, Memory Network, True label’s neighbor, and True label."
+        },
+        {
+            "entity_name": "PPL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Perplexity (PPL) scores which are used to evaluate the performance of the different retrieval methods."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1' that provides statistical information about different methods used in a natural language processing task. The table is structured with the following columns: Method, Word cnt, Char cnt, Rare Word % <100, and Rare Word % <1k. Each row represents a different method and contains the following values: Seq2Seq has 11.7 words and 40.5 characters, with rare word percentages of 0.4% and 5.8%. RetNRef has 11.8 words and 40.4 characters, with rare word percentages of 1.1% and 6.9%. RetNRef+ has 12.1 words and 45.0 characters, with rare word percentages of 1.7% and 10.1%. RetNRef++ has 12.7 words and 48.1 characters, with rare word percentages of 2.3% and 10.9%. MemNet has 13.1 words and 54.5 characters, with rare word percentages of 4.0% and 15.3%. Human has 13.0 words and 54.6 characters, with rare word percentages of 3.0% and 11.5%. The table highlights the differences in word and character counts as well as the percentage of rare words for each method."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different methods in terms of word count, character count, and rare word percentage."
+        },
+        {
+            "entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used for sequence-to-sequence tasks, such as machine translation."
+        },
+        {
+            "entity_name": "RETNREF",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of Seq2Seq that incorporates retrieval mechanisms."
+        },
+        {
+            "entity_name": "RETNREF+",
+            "entity_type": "ORGANIZATION",
+            "description": "An advanced version of RetNRef with additional features."
+        },
+        {
+            "entity_name": "RETNREF++",
+            "entity_type": "ORGANIZATION",
+            "description": "The most advanced version of RetNRef with further enhancements."
+        },
+        {
+            "entity_name": "MEMNET",
+            "entity_type": "ORGANIZATION",
+            "description": "A memory network-based method for sequence-to-sequence tasks."
+        },
+        {
+            "entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "Represents human performance as a benchmark."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Output sequence statistics for the methods.' The table compares different methods in terms of their output sequence statistics, categorized into four ranges: <30%, 30-60%, 60-80%, and >80%. The rows represent different methods: Seq2Seq, RetNRef, RetNRef+, and RetNRef++. The columns indicate the percentage of sequences falling into each range. For example, Seq2Seq has 56% of its sequences in the <30% range, 34% in the 30-60% range, 7% in the 60-80% range, and 3% in the >80% range. RetNRef shows a distribution of 41%, 38%, 13%, and 8% respectively. RetNRef+ has 26%, 20%, 12%, and 42% respectively. Finally, RetNRef++ has 26%, 20%, 0%, and 53% respectively. The table highlights that RetNRef++ generates the highest percentage of sequences in the >80% range."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different methods across various percentage ranges."
+        },
+        {
+            "entity_name": "SEQ2SEQ",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on the Seq2Seq method."
+        },
+        {
+            "entity_name": "RETNREF",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on the RetNRef method."
+        },
+        {
+            "entity_name": "RETNREF+",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on the RetNRef+ method."
+        },
+        {
+            "entity_name": "RETNREF++",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes data on the RetNRef++ method."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that compares different dialogue generation methods based on four metrics: Engagingness, Fluency, Consistency, and Persona. The table has six rows representing different methods: Seq2Seq (PPL), Seq2Seq (100 epochs), Memory Network, RetrieveNRefine, RetrieveNRefine+, and RetrieveNRefine++. Each row contains the average scores and standard deviations for the four metrics. For example, Seq2Seq (PPL) scores are 2.70(1.17) for Engagingness, 3.50(1.37) for Fluency, 3.90(1.37) for Consistency, and 0.90(0.29) for Persona. The highest scores in each metric are as follows: Engagingness - RetrieveNRefine++ at 3.80(1.18), Fluency - Memory Network at 3.83(1.26), Consistency - RetrieveNRefine++ at 3.80(1.40), and Persona - Seq2Seq (PPL) at 0.90(0.29)."
+        },
+        {
+            "entity_name": "SEQ2SEQ (PPL)",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the field of natural language processing, specifically for sequence-to-sequence tasks. It is evaluated based on perplexity (PPL"
+        },
+        {
+            "entity_name": "SEQ2SEQ (100 EPOCHS)",
+            "entity_type": "UNKNOWN",
+            "description": "Seq2Seq (100 epochs)是从image_4中提取的实体。"
+        },
+        {
+            "entity_name": "MEMORY NETWORK",
+            "entity_type": "UNKNOWN",
+            "description": "Memory Network是从image_4中提取的实体。"
+        },
+        {
+            "entity_name": "RETRIEVENREFINE",
+            "entity_type": "UNKNOWN",
+            "description": "RetrieveNRefine是从image_4中提取的实体。"
+        },
+        {
+            "entity_name": "RETRIEVENREFINE+",
+            "entity_type": "UNKNOWN",
+            "description": "RetrieveNRefine+是从image_4中提取的实体。"
+        },
+        {
+            "entity_name": "RETRIEVENREFINE++",
+            "entity_type": "UNKNOWN",
+            "description": "RetrieveNRefine++是从image_4中提取的实体。"
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Human Evaluation scores for the models, scoring fluency, engagingness, consistency and persona detection, with standard deviation in parentheses. We consider engagingness to be the most important metric.' The table compares different models using A/B testing by humans. The rows represent different comparisons between models, specifically RetrieveNRefine++ versus Memory Network, RetrieveNRefine++ versus Seq2Seq, and RetrieveNRefine++ (retrieved/generated) versus Seq2Seq. The columns include 'Comparison (A vs. B)', 'Win Rate', 'A Wins', 'B Wins', 'Tie', and 'p-value'. The 'Win Rate' column shows percentages such as 54.5% for RetrieveNRefine++ versus Memory Network and 53.7% for RetrieveNRefine++ versus Seq2Seq. The 'A Wins' and 'B Wins' columns provide numerical values indicating the number of wins for each model, for example, 340 for RetrieveNRefine++ and 284 for Memory Network in the first comparison. The 'Tie' column lists the number of ties, such as 572 for the first comparison. The 'p-value' column provides statistical significance values, such as 0.027 for the first comparison. The table highlights the performance of RetrieveNRefine++ against other models in terms of win rates and statistical significance."
+        },
+        {
+            "entity_name": "RETRIEVENREFINE++",
+            "entity_type": "ORGANIZATION",
+            "description": "An advanced version of the RetrieveNRefine model used in the comparisons."
+        },
+        {
+            "entity_name": "MEMORY NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of neural network model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models."
+        },
+        {
+            "entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "A sequence-to-sequence model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models."
+        },
+        {
+            "entity_name": "RETRIEVENREFINE+(RETRIEVED)",
+            "entity_type": "ORGANIZATION",
+            "description": "A variant of the RetrieveNRefine+ model that uses retrieved data, compared against Seq2Seq."
+        },
+        {
+            "entity_name": "RETRIEVENREFINE+(GENERATED)",
+            "entity_type": "ORGANIZATION",
+            "description": "Another variant of the RetrieveNRefine+ model that generates data, compared against Seq2Seq."
+        },
+        {
+            "entity_name": "RETRIEVENREFINE+",
+            "entity_type": "ORGANIZATION",
+            "description": "A less advanced version of the RetrieveNRefine model used in the comparisons."
+        },
+        {
+            "entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "A human participant used as a baseline for comparison against machine models."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: A/B testing by humans comparing model pairs, reporting win rates for A over B (excluding ties).' The table is divided into two main sections. The first section contains dialogues where RetNRef outperforms MemNet, and the second section shows dialogues where RetNRef outperforms Seq2Seq. Each dialogue consists of previous turns by Person 1 and Person 2, followed by predictions for the next utterance by various models. The dialogues are structured as follows:\\n\\n**First Dialogue (RetNRef vs. MemNet):**\\n- Person 1: hey , george here . lets be friends\\n- Person 2: hi george , i’m regina . do you enjoy dance ?\\n- Seq2Seq: i do not but i do have a lot of time to dance\\n- MemNet: hello george my name is pink\\n- RetNRef+: i do. i enjoy dance.\\n\\n**Second Dialogue (RetNRef vs. Seq2Seq):**\\n- Person 1: drinking coffee? what time is it there?\\n- Person 2: 830 pm haha my dad is a construction worker so he works really late nights\\n- Seq2Seq: i am a big guy so i can help you\\n- MemNet: yep. moonlight is amazing but northern light grab you too\\n- RetNRef+: oh wow, that is a long time\\n\\nThe table highlights the performance of different models in generating contextually appropriate responses in dialogues."
+        },
+        {
+            "entity_name": "PERSON 1",
+            "entity_type": "PERSON",
+            "description": "An individual who is drinking coffee and inquiring about the time. They mention that their dad is a construction worker who works late nights."
+        },
+        {
+            "entity_name": "PERSON 2",
+            "entity_type": "PERSON",
+            "description": "An individual who responds to Person 1's inquiries and shares information about their beliefs on energy being spiritual rather than physical."
+        },
+        {
+            "entity_name": "SEQ2SEQ",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used for generating responses based on input sequences, demonstrating its capability to provide contextually relevant replies."
+        },
+        {
+            "entity_name": "MEMNET",
+            "entity_type": "ORGANIZATION",
+            "description": "A model designed to handle memory-based tasks, showcasing its ability to recall and utilize past interactions in generating responses."
+        },
+        {
+            "entity_name": "RETNREF+",
+            "entity_type": "ORGANIZATION",
+            "description": "An advanced model that retrieves and references past interactions to generate more accurate and contextually appropriate responses."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table with two columns, each representing a different persona. Persona 1 has the following attributes: lacto-ovo vegetarian, likes to hike, has red hair, favorite drink is Sprite, and has a pet parrot named Tasha. Persona 2 has the following attributes: brown hair, Latina, mother works for special needs clients, a healer, and loves their family."
+        },
+        {
+            "entity_name": "PERSONA 1",
+            "entity_type": "PERSON",
+            "description": "A lacto-ovo vegetarian with red hair who enjoys hiking and has a pet parrot named Tasha. Their favorite drink is Sprite."
+        },
+        {
+            "entity_name": "PERSONA 2",
+            "entity_type": "PERSON",
+            "description": "A Latina with brown hair who identifies as a healer and loves her family. Her mother works with special needs clients."
+        }
+    ]
+}

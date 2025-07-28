@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, with a receding hairline- Facial Expression: Stern or serious expression, with furrowed brows and a frown- Age: Appears to be an older man- Clothing: Wearing a formal outfit that includes a jacket with a badge on the left side, a tie, and trousers; the clothing suggests a uniform, possibly for a role such as a police officer or security guard- Posture: Standing upright with one arm raised, giving the impression of authority or commandOverall, the character gives off an authoritative and stern vibe, likely representing a figure of law enforcement or security."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, styled in a round shape on top of the head- Facial Expression: Stern or serious expression with furrowed brows and a frown- Age: Appears to be an adult male- Clothing: Wearing a formal outfit consisting of a white shirt, a dark tie, and a light-colored vest; paired with light-colored pants and dark shoes- Posture: Standing upright with arms crossed over the chest, giving off an authoritative or commanding presenceOverall, the character appears to be a stern, authoritative figure, possibly in a position of power or leadership."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. On the left side, there is a young girl with long hair, dressed in a dress and stockings, standing and facing two identical-looking men who are standing under a tree. The men are stout and have round faces, wearing uniforms with hats that resemble those of soldiers or guards. One of the men has 'DUM' embroidered on his collar, and the other has 'DEE.' They are standing close to each other, each with an arm around the other's neck. The background shows a forest setting with trees and foliage. The girl appears curious and is gesturing towards the men, possibly trying to see if the word 'TWEEDLE' is written at the back of their collars. The overall atmosphere is whimsical and fantastical, characteristic of the Alice in Wonderland narrative."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and striped stockings, standing in a forest."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;TWEEDLEDEE AND TWEEDLEDUM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Two identical men in uniforms, standing next to each other in the forest."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;TWEEDLEDEE AND TWEEDLEDUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of Tweedledee and Tweedledum."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;TWEEDLEDEE AND TWEEDLEDUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-1.jpg is a picture of Tweedledee and Tweedledum."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TWEEDLEDEE AND TWEEDLEDUM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweedledee and Tweedledum是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TWEEDLEDEE AND TWEEDLEDUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is facing Tweedledee and Tweedledum, seemingly engaged in conversation or interaction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

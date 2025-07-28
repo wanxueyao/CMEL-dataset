@@ -1,0 +1,441 @@
+{
+    "image_1": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "CONCEPT",
+            "description": "SWEMs (Simple Word-Embedding Models) are a class of models that investigate the raw modeling capacity of word embeddings without additional compositional parameters. They include variants such as SWEM-aver, which computes the element-wise average over word vectors for a given sequence, SWEM-max, which extracts the most salient features from every word-embedding dimension by taking the maximum value along each dimension, and SWEM-concat, which concatenates the features from SWEM-aver and SWEM-max to form sentence embeddings. Additionally, SWEM-hier is a variant that uses a hierarchical pooling layer to preserve local spatial information of a text sequence.",
+            "source_image_entities": [
+                "SWEM"
+            ],
+            "source_text_entities": [
+                "SWEMS",
+                "SWEM-AVER",
+                "SWEM-MAX",
+                "SWEM-CONCAT",
+                "SWEM-HIER"
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "CONCEPT",
+            "description": "CNN (Convolutional Neural Network) is a model used for text analysis, which considers windows of consecutive words within a sequence and applies a set of filters to these word windows to generate corresponding feature maps. An aggregation operation such as max-pooling is then used on the feature maps to abstract the most salient semantic features, resulting in the final representation. CNNs can be single-layer or deep, with Deep CNN text models utilizing multiple layers of convolutional neural networks for text analysis.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "CONVOLUTIONAL SEQUENCE ENCODER",
+                "DEEP CNN TEXT MODELS",
+                "SINGLELAYER CNN TEXT MODEL"
+            ]
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "CONCEPT",
+            "description": "LSTM (Long Short-Term Memory) is a type of recurrent neural network (RNN) used in various sequence prediction problems. It employs gates to control the flow of information abstracted from a sequence and is used in Recurrent Sequence Encoders to address the issue of learning long-term dependencies in text sequences.",
+            "source_image_entities": [
+                "LSTM"
+            ],
+            "source_text_entities": [
+                "LONG SHORT-TERM MEMORY (LSTM)",
+                "RECURRENT SEQUENCE ENCODER"
+            ]
+        }
+    ],
+    "image_2": "[\n    {\n        \"entity_name\": \"SWEM-AVER\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"SWEM-AVER is a variant of the SWEM model that computes the element-wise average over word vectors for a given sequence, achieving 73.14% accuracy on Yahoo! Answers dataset, 91.71% on AG News, 93.59% on Yelp P., 60.66% on Yelp F., and 98.42% on DBpedia.\",\n        \"source_image_entities\": [\"SWEM-AVER\"],\n        \"source_text_entities\": [\"SWEM-AVER\"]\n    },\n    {\n        \"entity_name\": \"SWEM-MAX\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"SWEM-MAX is a variant of the SWEM model that extracts the most salient features from every word-embedding dimension by taking the maximum value along each dimension, achieving 72.66% accuracy on Yahoo! Answers dataset, 91.79% on AG News, 93.25% on Yelp P., 59.63% on Yelp F., and 98.24% on DBpedia.\",\n        \"source_image_entities\": [\"SWEM-MAX\"],\n        \"source_text_entities\": [\"SWEM-MAX\"]\n    },\n    {\n        \"entity_name\": \"SWEM-CONCAT\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"SWEM-CONCAT is a variant of the SWEM model that concatenates the features from SWEM-AVER and SWEM-MAX to form sentence embeddings, achieving 73.53% accuracy on Yahoo! Answers dataset, 92.66% on AG News, 93.76% on Yelp P., 61.11% on Yelp F., and 98.57% on DBpedia.\",\n        \"source_image_entities\": [\"SWEM-CONCAT\"],\n        \"source_text_entities\": [\"SWEM-CONCAT\"]\n    },\n    {\n        \"entity_name\": \"SWEM-HIER\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"SWEM-HIER is a variant of the SWEM model that uses a hierarchical pooling layer to preserve local spatial information of a text sequence, achieving 73.48% accuracy on Yahoo! Answers dataset, 92.48% on AG News, 95.81% on Yelp P., 63.79% on Yelp F., and 98.54% on DBpedia.\",\n        \"source_image_entities\": [\"SWEM-HIER\"],\n        \"source_text_entities\": [\"SWEM-HIER\"]\n    },\n    {\n        \"entity_name\": \"LSTM\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"LSTM stands for Long Short-Term Memory, a type of recurrent neural network (RNN) used in various sequence prediction problems, achieving 70.84% accuracy on Yahoo! Answers dataset, 86.06% on AG News, 94.74% on Yelp P., 58.17% on Yelp F., and 98.55% on DBpedia.\",\n        \"source_image_entities\": [\"LSTM\"],\n        \"source_text_entities\": [\"LSTM\"]\n    },\n    {\n        \"entity_name\": \"DEEP CNN (29 LAYER)\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"A deep convolutional neural network with 29 layers, achieving 73.43% accuracy on Yahoo! Answers dataset, 91.27% on AG News, 95.72% on Yelp P., 64.26% on Yelp F., and 98.71% on DBpedia, developed by Conneau et al., 2016.\",\n        \"source_image_entities\": [\"DEEP CNN (29 LAYER)\"],\n        \"source_text_entities\": [\"DEEP CNN TEXT MODELS\", \"CONNEAU ET AL., 2016\"]\n    },\n    {\n        \"entity_name\": \"FASTTEXT\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"A text classification model based on bag-of-words with fastText, achieving 72.0% accuracy on Yahoo! Answers dataset, 91.5% on AG News, 93.8% on Yelp P., 60.4% on Yelp F., and 98.1% on DBpedia.\",\n        \"source_image_entities\": [",
+    "image_3": [
+        {
+            "merged_entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM stands for Simple Word-Embedding Models, a class of models that investigate the raw modeling capacity of word embeddings without additional compositional parameters. It is compared to CNN and LSTM in terms of computational efficiency and performance on various tasks.",
+            "source_image_entities": [
+                "COMPUTER"
+            ],
+            "source_text_entities": [
+                "SWEM"
+            ]
+        },
+        {
+            "merged_entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN refers to Convolutional Neural Networks, a type of model that can capture word-order information via convolutional filters and is used for comparison with SWEM in terms of computational efficiency and performance on various tasks.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM stands for Long Short-Term Memory, a type of recurrent neural network (RNN) used in various sequence prediction problems, and is used for comparison with SWEM in terms of computational efficiency and performance on various tasks.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "LSTM"
+            ]
+        },
+        {
+            "merged_entity_name": "GloVe Word Embeddings",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe word embeddings are used for initializing all models in the experiments, capturing semantic meanings of the words and providing denser embeddings compared to those learned from SWEM-max.",
+            "source_image_entities": [
+                "COMPUTER"
+            ],
+            "source_text_entities": [
+                "GLOVE WORD EMBEDDINGS"
+            ]
+        },
+        {
+            "merged_entity_name": "POLITICS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table containing terms related to political themes such as 'philipdru', 'justices', 'impeached', 'impeachment', and 'neocons', and is inferred from words in the first column of Table 3, indicating a common theme among the selected words.",
+            "source_image_entities": [
+                "POLITICS"
+            ],
+            "source_text_entities": [
+                "POLITICS & GOVERNMENT"
+            ]
+        },
+        {
+            "merged_entity_name": "SCIENCE",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table containing scientific terms including 'coulomb', 'differentiable', 'paranormal', 'converge', and 'antimatter', and is a topic that includes words related to Chemistry, which are learned by the model even without explicit label information.",
+            "source_image_entities": [
+                "SCIENCE"
+            ],
+            "source_text_entities": [
+                "SCIENCE"
+            ]
+        },
+        {
+            "merged_entity_name": "CHEMISTRY",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table with chemistry-related terms including 'sio2 (SiO2)', 'nonmetal', 'pka', 'chemistry', and 'quarks', and is a field related to words in the fifth column of Table 3, indicating a common topic among them.",
+            "source_image_entities": [
+                "CHEMISTRY"
+            ],
+            "source_text_entities": [
+                "CHEMISTRY"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "MODEL",
+            "description": "SWEM is a type of neural network with 61K parameters and a processing speed of 63 seconds, known for its efficiency and lack of compositional parameters. It is compared to CNN and LSTM in terms of computational efficiency and performance on various tasks, and is part of the Simple Word-Embedding Models class, which investigates the raw modeling capacity of word embeddings without additional compositional parameters.",
+            "source_image_entities": [
+                "SWEM"
+            ],
+            "source_text_entities": [
+                "SWEM"
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "MODEL",
+            "description": "CNN, or Convolutional Neural Networks, is a type of neural network with 541K parameters and a processing speed of 171 seconds. It is used for comparison with SWEM in terms of computational efficiency and performance on various tasks, and can capture word-order information via convolutional filters.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "MODEL",
+            "description": "LSTM, or Long Short-Term Memory, is a type of neural network with 1.8M parameters and a processing speed of 598 seconds. It is used for comparison with SWEM in terms of computational efficiency and performance on various tasks, and can capture word-order information via recurrent transition functions.",
+            "source_image_entities": [
+                "LSTM"
+            ],
+            "source_text_entities": [
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "PARAMETERS",
+            "entity_type": "CONCEPT",
+            "description": "Parameters in the context of models refer to the weights and biases that are learned during the training process. The CNN model has 541K parameters, while the LSTM model has 1.8M parameters, and the SWEM model has significantly fewer parameters at 61K, contributing to its computational efficiency.",
+            "source_image_entities": [
+                "PARAMETERS"
+            ],
+            "source_text_entities": [
+                "PARAMETERS"
+            ]
+        },
+        {
+            "entity_name": "SPEED",
+            "entity_type": "CONCEPT",
+            "description": "Speed in the context of models refers to the processing time. The CNN model processes in 171 seconds, the LSTM model in 598 seconds, and the SWEM model in 63 seconds, indicating that SWEM is more efficient in terms of computation complexity.",
+            "source_image_entities": [
+                "SPEED"
+            ],
+            "source_text_entities": [
+                "COMPUTATIONAL COMPLEXITY"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "GloVe",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe is a word embedding model developed by Stanford University, represented by the light blue bars in the histogram, and provides denser embeddings compared to those learned from SWEM-max.",
+            "source_image_entities": [
+                "GLOVE"
+            ],
+            "source_text_entities": [
+                "GLOVE WORD EMBEDDINGS"
+            ]
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM-max is a variant of the SWEM model that generally performs slightly worse than SWEM-aver but extracts complementary features, represented by the red bar in the histogram, and is used for training on the Yahoo dataset and comparison with GloVe embeddings.",
+            "source_image_entities": [
+                "SWEM-MAX"
+            ],
+            "source_text_entities": [
+                "SWEM-MAX"
+            ]
+        }
+    ],
+    "image_6": "[\n    {\n        \"entity_name\": \"CNN\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"CNN, also known as Convolutional Neural Networks, is a type of neural network model used for various tasks including image and text recognition. It is used here for natural language inference tasks and is compared with SWEM in terms of computational efficiency and performance on various tasks.\",\n        \"source_image_entities\": [\"CNN\"],\n        \"source_text_entities\": [\"CNN\"]\n    },\n    {\n        \"entity_name\": \"LSTM\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"LSTM, also known as Long Short-Term Memory, is a type of recurrent neural network (RNN) that is well-suited to classify, process, and predict time series given time lags of unknown size and duration. It is used here for natural language inference tasks and is compared with SWEM in terms of computational efficiency and performance on various tasks.\",\n        \"source_image_entities\": [\"LSTM\"],\n        \"source_text_entities\": [\"LSTM\"]\n    },\n    {\n        \"entity_name\": \"SWEM\",\n        \"entity_type\": \"MODEL\",\n        \"description\": \"SWEM is a model that averages, maximizes, and concatenates word embeddings for sentence representation in natural language inference tasks. It is compared to CNN and LSTM in terms of computational efficiency and performance on various tasks, including sentiment analysis and text sequence matching.\",\n        \"source_image_entities\": [\"SWEM-AVER\", \"SWEM-MAX\", \"SWEM-CONCAT\"],\n        \"source_text_entities\": [\"SWEM\", \"SWEM-MAX\", \"SWEM-AVER\", \"SWEM-CONCAT\"]\n    },\n    {\n        \"entity_name\": \"SNLI\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"The Stanford Natural Language Inference dataset, also known as SNLI, is used for evaluating models on natural language inference tasks. It is one of the datasets where SWEM-max performed the best among all SWEM variants, consistent with findings by Nie and Bansal and Conneau et al.\",\n        \"source_image_entities\": [\"SNLI\"],\n        \"source_text_entities\": [\"SNLI\"]\n    },\n    {\n        \"entity_name\": \"MULTINLI\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"The Multi-genre Natural Language Inference dataset, also known as MultiNLI, is used for evaluating models on natural language inference tasks. It has matched and mismatched sections and is used for training where results are reported without training data from SNLI.\",\n        \"source_image_entities\": [\"MULTINLI\"],\n        \"source_text_entities\": [\"MULTINLI\"]\n    },\n    {\n        \"entity_name\": \"WIKIQA\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"WIKIQA is a question answering dataset used for evaluating models on question answering tasks. It is also a dataset where SWEM did not demonstrate the best results compared to CNN or LSTM models.\",\n        \"source_image_entities\": [\"WIKIQA\"],\n        \"source_text_entities\": [\"WIKIQA\"]\n    },\n    {\n        \"entity_name\": \"QUORA\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"QUORA is a dataset from Quora used for evaluating models on question pair similarity tasks.\",\n        \"source_image_entities\": [\"QUORA\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"MSRP\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"The Microsoft Research Paraphrase Corpus, also known as MSRP, is used for evaluating models on paraphrase identification tasks. It is also a dataset used for training, following the setup by Hu et al. without using any additional features.\",\n        \"source_image_entities\": [\"MSRP\"],\n        \"source_text_entities\": [\"MSRP\"]\n    }\n]",
+    "image_7": [
+        {
+            "entity_name": "YAHOO",
+            "entity_type": "EVENT",
+            "description": "Yahoo is one of the datasets used to evaluate the performance of LSTM and SWEM models, particularly for topic categorization and textual entailment, showing an original performance of 72.78 and a shuffled performance of 72.89.",
+            "source_image_entities": [
+                "YAHOO"
+            ],
+            "source_text_entities": [
+                "YAHOO",
+                "YAHOO! ANSWER",
+                "YAHOO! ANS."
+            ]
+        },
+        {
+            "entity_name": "YELP P.",
+            "entity_type": "EVENT",
+            "description": "Yelp P. is a dataset used for testing the performance of text classification models, showing an original performance of 95.11 and a shuffled performance of 93.49, with a noticeable drop in results for sentiment analysis when using a shuffled training set, indicating the importance of word-order for this dataset.",
+            "source_image_entities": [
+                "YELP P."
+            ],
+            "source_text_entities": [
+                "YELP P."
+            ]
+        },
+        {
+            "entity_name": "SNLI",
+            "entity_type": "EVENT",
+            "description": "SNLI is a dataset where SWEM-max performed the best among all SWEM variants and is used to evaluate the performance of LSTM and SWEM models, particularly for topic categorization and textual entailment, showing an original performance of 78.02 and a shuffled performance of 77.68.",
+            "source_image_entities": [
+                "SNLI"
+            ],
+            "source_text_entities": [
+                "SNLI"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "merged_entity_name": "FOOD FIGHT",
+            "entity_type": "ORGANIZATION",
+            "description": "FOOD FIGHT is a restaurant known for its vegetarian options and friendly staff.",
+            "source_image_entities": [
+                "FOOD FIGHT"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "PITTSBURGH",
+            "entity_type": "GEO",
+            "description": "PITTSBURGH is a city where the store is located, and where certain food items are difficult to find.",
+            "source_image_entities": [
+                "PITTSBURGH"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "MIDDLE EASTERN CHILI SAUCE",
+            "entity_type": "OBJECT",
+            "description": "MIDDLE EASTERN CHILI SAUCE is a specialty food item that was particularly exciting to find at the store.",
+            "source_image_entities": [
+                "MIDDLE EASTERN CHILI SAUCE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "CHOCOLATE COVERED TURKISH DELIGHTS",
+            "entity_type": "OBJECT",
+            "description": "CHOCOLATE COVERED TURKISH DELIGHTS is another specialty food item that was particularly exciting to find at the store.",
+            "source_image_entities": [
+                "CHOCOLATE COVERED TURKISH DELIGHTS"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "SWEM-AVER",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 77.6, SST-1 of 45.2, SST-2 of 83.9, Subj of 92.5, and TREC of 92.2. SWEM-aver is a variant of the SWEM model that generally performs better than SWEM-max.",
+            "source_image_entities": [
+                "SWEM-AVER"
+            ],
+            "source_text_entities": [
+                "SWEM-AVER"
+            ]
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 76.9, SST-1 of 44.1, SST-2 of 83.6, Subj of 91.2, and TREC of 89.0. SWEM-max is a variant of the SWEM model that generally performs slightly worse than SWEM-aver but extracts complementary features.",
+            "source_image_entities": [
+                "SWEM-MAX"
+            ],
+            "source_text_entities": [
+                "SWEM-MAX"
+            ]
+        },
+        {
+            "entity_name": "SWEM-CONCAT",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 78.2, SST-1 of 46.1, SST-2 of 84.3, Subj of 93.0, and TREC of 91.8. SWEM-concat is a variant of the SWEM model that combines features from SWEM-max and SWEM-aver, showing the best performance among SWEM variants.",
+            "source_image_entities": [
+                "SWEM-CONCAT"
+            ],
+            "source_text_entities": [
+                "SWEM-CONCAT"
+            ]
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "MODEL",
+            "description": "A model developed by Tai et al. in 2015, achieving an SST-1 of 51.0 and SST-2 of 88.0. LSTM refers to Long Short-Term Memory models, which can capture word-order information via recurrent transition functions.",
+            "source_image_entities": [
+                "CONSTITUENCY TREE-LSTM (TAI ET AL., 2015)"
+            ],
+            "source_text_entities": [
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "MODEL",
+            "description": "A model developed by Kim in 2014, achieving an MR of 81.5, SST-1 of 48.0, SST-2 of 88.1, Subj of 93.4, and TREC of 93.6. CNN refers to Convolutional Neural Networks, a type of model that can capture word-order information via convolutional filters.",
+            "source_image_entities": [
+                "CNN (KIM, 2014)"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "SWEM-HIER",
+            "entity_type": "MODEL",
+            "description": "SWEM-hier is a variant of the SWEM model that incorporates hierarchical pooling operation and shows improved performance in sentiment analysis tasks. It is proposed to address the limitations of the above three SWEM variants by incorporating information about the local word-order, i.e., n-gram features.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "SWEM-HIER"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM is a model that is compared with CNN and LSTM models in terms of performance on various tasks, particularly in sentiment analysis. It is represented by blue circles and a solid line in the graph, showing its accuracy across different subspace dimensions.",
+            "source_image_entities": [
+                "SWEM"
+            ],
+            "source_text_entities": [
+                "\"SWEM\""
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN is a model used for comparison with SWEM and LSTM, capturing word-order information within text sequences. It is represented by red circles and a solid line in the graph, showing its accuracy across different subspace dimensions.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "\"CNN\""
+            ]
+        },
+        {
+            "entity_name": "SWEM DIRECT",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline for SWEM, represented by blue circles and a dashed line in the graph, showing its accuracy across different subspace dimensions.",
+            "source_image_entities": [
+                "SWEM DIRECT"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "CNN DIRECT",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline for CNN, represented by red circles and a dashed line in the graph, showing its accuracy across different subspace dimensions.",
+            "source_image_entities": [
+                "CNN DIRECT"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "SWEM-HIER",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM-hier is a variant of the SWEM model that incorporates hierarchical pooling operation and shows improved performance in sentiment analysis tasks.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"SWEM-HIER\"",
+                "\"SWEMHIER\""
+            ]
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM is a model that is compared with CNN and LSTM models in terms of performance on various tasks, particularly in sentiment analysis. It is a machine learning model used for subspace learning, represented by the blue line and circles in the graphs.",
+            "source_image_entities": [
+                "SWEM"
+            ],
+            "source_text_entities": [
+                "\"SWEM\""
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN is a model used for comparison with SWEM and LSTM, capturing word-order information within text sequences. It is a convolutional neural network, represented by the red line and circles in the graphs.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "\"CNN\""
+            ]
+        },
+        {
+            "entity_name": "SUBSPACE TRAINING",
+            "entity_type": "EVENT",
+            "description": "Subspace training is a method used to measure model complexity in text classification problems, as discussed in Section 5.1. It constrains the optimization of the trainable parameters in a subspace of low dimension d, the intrinsic dimension d_int defines the minimum d that yield a good solution.",
+            "source_image_entities": [
+                "SUBSPACE DIM D"
+            ],
+            "source_text_entities": [
+                "\"SUBSPACE TRAINING\""
+            ]
+        },
+        {
+            "entity_name": "ACCURACY",
+            "entity_type": "EVENT",
+            "description": "The y-axis variable representing the accuracy of the models, ranging from 0.5 to 0.9. It is used to evaluate the performance of SWEM and CNN models in various text classification tasks.",
+            "source_image_entities": [
+                "ACCURACY"
+            ],
+            "source_text_entities": [
+                "\"ACCURACY\""
+            ]
+        }
+    ]
+}

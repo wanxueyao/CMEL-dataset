@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Not visible in the image- Facial Expression: Not fully visible, but appears to be focused or concentrating- Age: Appears to be an adult, possibly middle-aged- Clothing: Wearing a light blue long-sleeved shirt with the sleeves rolled up to the elbows- Accessories: Gold wedding band on the left ring finger, and a wristwatch on the left wrist- Posture: Leaning forward with hands close together, holding a small object between the fingersOverall, the person appears to be engaged in a task that requires precision or attention to detail."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a close-up of a person's hands as they handle a small object, which appears to be a gem or a diamond. The hands are positioned over a surface that has several similar objects scattered on it. The person is wearing a light blue shirt and a wristwatch on their left wrist. The right hand holds a pair of tweezers or a similar tool, carefully examining one of the gems. The background is out of focus, emphasizing the hands and the objects they are handling. The overall atmosphere suggests precision and careful attention to detail, possibly in a setting related to gemology or jewelry making."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with a bald head, wearing a light blue shirt and a watch on his left wrist. He is holding a pair of tweezers in his right hand and appears to be examining or sorting small, shiny objects on a table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<node id="&quot;TWEEZERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A pair of metal tweezers held by the man's right hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<node id="&quot;SHINY OBJECTS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Small, reflective objects scattered on the table in front of the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A flat surface on which the man is working, covered with shiny objects."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TWEEZERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweezers是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SHINY OBJECTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Shiny Objects是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TWEEZERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is using the tweezers to handle the shiny objects."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;SHINY OBJECTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is examining or sorting the shiny objects on the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is working on the table, which holds the shiny objects."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEZERS&quot;" target="&quot;SHINY OBJECTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The tweezers are being used to manipulate the shiny objects."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHINY OBJECTS&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The shiny objects are placed on the table for examination or sorting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_32_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky, and golden yellow- Expression: Neutral, with a slight downward gaze- Age: Appears to be a young boy- Clothing: Wearing a green outfit that includes a jacket and pants; the jacket has a high collar and is slightly oversized- Posture: Standing with one hand in his pocket and the other hanging by his side, giving a relaxed and somewhat contemplative appearanceOverall, the character has a whimsical and imaginative appearance, reminiscent of a classic animated or illustrated style."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+</node>
+<node id="&quot;IMAGE_32&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and serene scene featuring a young boy with curly yellow hair, dressed in a green outfit. He stands on a sandy ground that transitions into a soft, pastel-colored sky with hues of purple and blue. The boy appears to be deep in thought or contemplation, with his arms crossed and his gaze directed downward. Above him, three bright yellow streaks of light converge towards a small star, creating a sense of celestial wonder. The overall atmosphere is one of quiet reflection and a touch of melancholy, as if the boy is lost in his thoughts amidst the vastness of the desert. The background suggests a remote, possibly extraterrestrial landscape, enhancing the feeling of solitude and introspection."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with curly golden hair, wearing a green outfit, standing on a barren landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+</node>
+<node id="&quot;STAR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A bright yellow star shining above The Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+</node>
+<node id="&quot;LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A desolate, yellowish terrain with no vegetation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+</node>
+<edge source="&quot;IMAGE_32_PERSON-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_32_person-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_32_PERSON-0.JPG&quot;" target="&quot;IMAGE_32&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_32_person-0.jpg是image_32的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_32&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_32中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_32&quot;" target="&quot;STAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Star是从image_32中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_32&quot;" target="&quot;LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Landscape是从image_32中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;STAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The star is shining above The Little Prince, possibly guiding him or symbolizing his journey."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;LANDSCAPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is standing on the barren landscape, indicating his solitude and perhaps his search for companionship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_32.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

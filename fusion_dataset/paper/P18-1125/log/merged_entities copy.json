@@ -1,0 +1,262 @@
+{
+    "chunk-503b85c2865a6798f816a681f188d145": [
+        {
+            "entity_name": "Cristian Danescu-Niculescu-Mizil (CRISTIAN DANESCU-NICULESCU-MIZIL)",
+            "entity_type": "PERSON",
+            "description": "Cristian Danescu-Niculescu-Mizil is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.",
+            "source_entities": [
+                "CRISTIAN DANESCU-NICULESCU-MIZIL",
+                "CRISTIAN DANESCU-NICULESCU-MIZIL"
+            ]
+        }
+    ],
+    "chunk-9e8ce9aff4cdc2da20238a467829e40d": null,
+    "chunk-ea8690b0974e90a4abb43431e8a7fb3c": [
+        {
+            "entity_name": "Wikipedia",
+            "entity_type": "ORGANIZATION",
+            "description": "An online encyclopedia that allows public collaboration and editing, hosting talk page discussions for contributors. It is the context for the study of conversational trajectories and the impact of toxic attacks on community and editing contributions.",
+            "source_entities": [
+                "\"WIKIPEDIA\"",
+                "\"COMMUNITY GUIDELINES\"",
+                "\"EDIT HISTORY\"",
+                "\"STRUCTURED CONVERSATIONS\""
+            ]
+        },
+        {
+            "entity_name": "Toxicity Classifier",
+            "entity_type": "TECHNOLOGY",
+            "description": "A machine learning tool used to identify potentially toxic comments in Wikipedia's talk page discussions, trained on comments annotated by crowdworkers, and part of the process to construct a controlled dataset for studying conversational derailment.",
+            "source_entities": [
+                "\"TOXICITY CLASSIFIER\"",
+                "\"PERSPECTIVE API\""
+            ]
+        },
+        {
+            "entity_name": "CrowdFlower",
+            "entity_type": "ORGANIZATION",
+            "description": "A platform used for crowdsourcing jobs to filter and vet conversations based on human perception of civility and personal attacks, playing a role in the construction of the controlled dataset for the study.",
+            "source_entities": [
+                "\"CROWDFLOWER\""
+            ]
+        },
+        {
+            "entity_name": "Antisocial Behavior",
+            "entity_type": "CONCEPT",
+            "description": "Behavior in the context of Wikipedia comments that includes rude, insulting, or disrespectful comments, potentially disrupting the community. It is the focus of the study to predict future trajectory and identify toxic contributions.",
+            "source_entities": [
+                "\"ANTISOCIAL BEHAVIOR\"",
+                "\"TOXIC CONTRIBUTION\"",
+                "\"PERSONAL ATTACKS\""
+            ]
+        },
+        {
+            "entity_name": "Controlled Dataset",
+            "entity_type": "CONCEPT",
+            "description": "A curated collection of conversations used for the study, selected through a process involving machine learning and crowdsourcing, focusing on civil and toxic exchanges within Wikipedia's talk pages.",
+            "source_entities": [
+                "\"CONTROLLED DATASET\""
+            ]
+        },
+        {
+            "entity_name": "Conversational Derailment",
+            "entity_type": "CONCEPT",
+            "description": "The process by which a civil conversation turns into a toxic exchange, particularly in the context of Wikipedia's talk pages, leading to personal attacks and undermining the community's social fabric.",
+            "source_entities": [
+                "\"CONVERSATIONAL DERAILMENT\"",
+                "\"AWRY-TURNING CONVERSATIONS\""
+            ]
+        },
+        {
+            "entity_name": "Civil Disagreement",
+            "entity_type": "CONCEPT",
+            "description": "A form of disagreement that is respectful and constructive, contrasted with personal attacks and toxicity, and recognized as a key aspect of effective collaborations within Wikipedia's community.",
+            "source_entities": [
+                "\"CIVIL DISAGREEMENT\""
+            ]
+        }
+    ],
+    "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa": [
+        {
+            "entity_name": "Awry-turning Conversations (On-track Conversations)",
+            "entity_type": "EVENT",
+            "description": "Awry-turning conversations are those that start civil but eventually become uncivil, while on-track conversations are those that remain civil throughout. Both types of conversations are used in the study for comparison and analysis, spanning 582 distinct talk pages and 1,876 overlapping topical categories, with an average length of 4.6 comments.",
+            "source_entities": [
+                "AWRY-TURNING CONVERSATIONS",
+                "ON-TRACK CONVERSATIONS"
+            ]
+        },
+        {
+            "entity_name": "Commenters (Interlocutors)",
+            "entity_type": "PERSON",
+            "description": "Commenters, also referred to as interlocutors, are the individuals participating in the conversations being analyzed in the study. Their politeness strategies and rhetorical prompts are examined to understand the future trajectory of the conversations.",
+            "source_entities": [
+                "COMMENTERS",
+                "INTERLOCUTORS"
+            ]
+        },
+        {
+            "entity_name": "Reply-vectors (Prompt-vectors)",
+            "entity_type": "CONCEPT",
+            "description": "Reply-vectors are low-rank representations reflecting the propensities of phrasings to co-occur in replies, while prompt-vectors are representations reflecting similarities in subsequent replies that a phrasing prompts. Both are derived from the term-document matrix through singular value decomposition.",
+            "source_entities": [
+                "REPLY-VECTORS",
+                "PROMPT-VECTORS"
+            ]
+        }
+    ],
+    "chunk-e163aba8e64811e0b13fe719c4dd36fd": [
+        {
+            "entity_name": "Wikipedia Talk Page Conversations",
+            "entity_type": "Event",
+            "description": "Wikipedia Talk Page Conversations are discussions held on Wikipedia's talk pages, which are analyzed in the provided text to study different types of prompts and their effects on conversation outcomes. These conversations are the subject of analysis and include various elements such as moderation disputes and coordination efforts.",
+            "source_entities": [
+                "WIKIPEDIA TALK PAGE CONVERSATIONS",
+                "MODERATION DISPUTES",
+                "COORDINATION"
+            ]
+        },
+        {
+            "entity_name": "Figure 2A",
+            "entity_type": "Visual Representation",
+            "description": "Figure 2A is a visual representation used in the text to depict the log-odds ratios of linguistic markers in the initial exchanges of conversations, specifically comparing awry-turning versus on-track conversations.",
+            "source_entities": [
+                "FIGURE 2A"
+            ]
+        },
+        {
+            "entity_name": "Logodds Ratio",
+            "entity_type": "Concept",
+            "description": "Logodds Ratio is a statistical measure used to quantify the relative propensity of linguistic markers to occur at the start of awry-turning versus on-track conversations, helping to identify which markers are more likely to signal the future health of a conversation.",
+            "source_entities": [
+                "LOGODDS RATIO"
+            ]
+        },
+        {
+            "entity_name": "Awry-Turning Conversations",
+            "entity_type": "Event",
+            "description": "Awry-Turning Conversations are discussions that do not proceed as intended and often lead to personal attacks or disputes. They are characterized by linguistic markers such as direct questions and sentence-initial 'you', which tend to signal a higher likelihood of future personal attacks.",
+            "source_entities": [
+                "AWRY-TURNING CONVERSATIONS",
+                "DIRECT QUESTIONS",
+                "SENTENCE-INITIAL YOU"
+            ]
+        },
+        {
+            "entity_name": "On-Track Conversations",
+            "entity_type": "Event",
+            "description": "On-Track Conversations are discussions that proceed as intended without deviating into personal attacks or disputes. They are characterized by linguistic markers such as gratitude, greetings, coordination prompts, hedges, and opinion prompts, which tend to foster a cooperative and constructive atmosphere.",
+            "source_entities": [
+                "ON-TRACK CONVERSATIONS",
+                "GRATITUDE",
+                "GREETINGS",
+                "COORDINATION PROMPTS",
+                "HEDGES",
+                "OPINION PROMPTS"
+            ]
+        }
+    ],
+    "chunk-320068db9e6fc59c389fd8fb7d893367": [
+        {
+            "entity_name": "HÜBLER",
+            "entity_type": "PERSON",
+            "description": "Hübler is referenced as the author of a study from 1983, contributing to the understanding of politeness strategies in conversations.",
+            "source_entities": [
+                "\"HÜBLER\""
+            ]
+        },
+        {
+            "entity_name": "TAUSCZIK AND PENNEBAKER",
+            "entity_type": "PERSON",
+            "description": "Tausczik and Pennebaker are authors cited for their research on pronoun use in conversation dynamics, published in 2010.",
+            "source_entities": [
+                "\"TAUSCZIK AND PENNEBAKER\""
+            ]
+        },
+        {
+            "entity_name": "LIU ET AL.",
+            "entity_type": "PERSON",
+            "description": "Liu et al. are mentioned as the creators of a sentiment lexicon used as a baseline feature for prediction tasks.",
+            "source_entities": [
+                "\"LIU ET AL.\""
+            ]
+        },
+        {
+            "entity_name": "PERSPECTIVE API",
+            "entity_type": "ORGANIZATION",
+            "description": "Perspective API is an organization that provides a classifier for toxicity scores, used as a reference point for comparison in prediction accuracy.",
+            "source_entities": [
+                "\"PERSPECTIVE API\""
+            ]
+        },
+        {
+            "entity_name": "WIKIPEDIA",
+            "entity_type": "ORGANIZATION",
+            "description": "Wikipedia is the platform where the conversations are taking place, and it is the source of data for the study on conversation trajectories.",
+            "source_entities": [
+                "\"WIKIPEDIA\""
+            ]
+        },
+        {
+            "entity_name": "CONVERSATION",
+            "entity_type": "EVENT",
+            "description": "Conversation refers to the interactions being studied, which can either be 'on-track' or 'awry-turning' based on linguistic properties.",
+            "source_entities": [
+                "\"CONVERSATION\""
+            ]
+        },
+        {
+            "entity_name": "PERSONAL ATTACK",
+            "entity_type": "EVENT",
+            "description": "Personal Attack is the event that the study aims to predict, based on the linguistic properties of the initial exchange in a conversation.",
+            "source_entities": [
+                "\"PERSONAL ATTACK\""
+            ]
+        },
+        {
+            "entity_name": "FIGURES",
+            "entity_type": "GEO",
+            "description": "Figures are visual representations used in the study, including Figure 2B with 608 attacker-initiated conversations and Figure 2C with 662 non-attacker initiated conversations.",
+            "source_entities": [
+                "\"FIGURE 2B\"",
+                "\"FIGURE 2C\""
+            ]
+        },
+        {
+            "entity_name": "COMMENT SYMBOLS",
+            "entity_type": "GEO",
+            "description": "Comment symbols represent different elements in conversations: 'S' for the first reply, 'OS' for the nonattacking replier's use of second person pronouns, 'Big Circle' for the non-attacker's first comment, and 'Big Triangle Down' for the eventual attacker's second comment.",
+            "source_entities": [
+                "\"S\"",
+                "\"OS\"",
+                "\"BIG CIRCLE\"",
+                "\"BIG TRIANGLE DOWN\""
+            ]
+        },
+        {
+            "entity_name": "TABLE 3",
+            "entity_type": "GEO",
+            "description": "Table 3 is a summary of prediction accuracies for the balanced future prediction task, including features based on pragmatic devices and reference points.",
+            "source_entities": [
+                "\"TABLE 3\""
+            ]
+        },
+        {
+            "entity_name": "INTERLOCUTOR FEATURES",
+            "entity_type": "EVENT",
+            "description": "Interlocutor Features are a set of features representing participants' experience on Wikipedia and their anonymity status, considered in the study for their potential influence on conversation trajectories.",
+            "source_entities": [
+                "\"INTERLOCUTOR FEATURES\""
+            ]
+        },
+        {
+            "entity_name": "NONAUTHOR VOLUNTEER HUMAN ANNOTATORS",
+            "entity_type": "PERSON",
+            "description": "Nonauthor volunteer human annotators are individuals who labeled a sample of 100 pairs for the study.",
+            "source_entities": [
+                "\"NONAUTHOR VOLUNTEER HUMAN ANNOTATORS\""
+            ]
+        }
+    ],
+    "chunk-e92f2d61fcbbb2f64bbc71826555655d": null
+}

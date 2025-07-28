@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_14_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, curly hair, styled in a manner typical of the 18th century- Facial Expression: Mouth open, possibly shouting or singing- Age: Appears to be an adult male- Clothing: Wearing a long coat with large buttons, a patterned vest with floral designs, and knee-length breeches; white stockings and shoes with buckles- Posture: Standing with one leg bent, as if in mid-step or dance, and one arm raised holding a stick or caneOverall, the character appears to be from a historical period, likely the 18th century, and is depicted in a dynamic pose that suggests movement or action."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;IMAGE_14&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting two characters in a whimsical outdoor setting. On the left, there is a tall, thin figure with long hair and a hat, dressed in a short tunic and boots. This character appears to be speaking or shouting, with one arm extended forward and the other bent at the elbow. The expression on the face suggests surprise or alarm. To the right, there is a shorter, rounder figure with a surprised or shocked expression, wearing a patterned jacket and pants, and a hat that has fallen off. This character is bending slightly forward with arms outstretched, as if reacting to something unexpected. In the background, there are trees and bushes, and a bridge with arches can be seen in the distance. The overall atmosphere of the image conveys a sense of surprise and confusion, as if the characters are engaged in an unexpected encounter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;TWEEDLEDEE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character with a round face, wearing a patterned jacket and pants, appearing to be in distress or surprised."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;TWEEDLEDUM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Another character with a similar appearance to Tweedledee, holding a bell and seemingly ringing it at Tweedledee."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;BELL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An object being held by Tweedledum, used for making sound."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Several trees in the background, providing a natural setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;BRIDGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A bridge structure in the background, adding to the landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+</node>
+<edge source="&quot;IMAGE_14_PERSON-0.JPG&quot;" target="&quot;TWEEDLEDEE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_14_person-0.jpg is a picture of Tweedledee."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14_PERSON-0.JPG&quot;" target="&quot;IMAGE_14&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_14_person-0.jpg是image_14的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;TWEEDLEDEE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweedledee是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;TWEEDLEDUM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweedledum是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;BELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bell是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;BRIDGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bridge是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDEE&quot;" target="&quot;TWEEDLEDUM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tweedledum is ringing a bell near Tweedledee, causing a reaction from Tweedledee."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDEE&quot;" target="&quot;BELL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The bell is being rung near Tweedledee, likely causing his reaction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDEE&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tweedledee is standing in front of the trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDEE&quot;" target="&quot;BRIDGE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Tweedledee is standing in front of the bridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDUM&quot;" target="&quot;BELL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tweedledum is holding and ringing the bell."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDUM&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tweedledum is standing in front of the trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDUM&quot;" target="&quot;BRIDGE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Tweedledum is standing in front of the bridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

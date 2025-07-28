@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a schematic sketch of a proposed word recognition system, consisting of two models: a foreground model and a background model. The foreground model is trained on a smaller, domain-specific dataset, while the background model is trained on a larger dataset, such as the IMDB movie corpus. Both models are designed to reconstruct the correct word from the orthography and context of individual words, using synthetically corrupted inputs during training. The foreground model is represented by green circles labeled h1, h2, h3, ..., hn, connected by bidirectional arrows, indicating interactions between these states. The background model is depicted similarly but with gray circles. When the foreground model predicts an unknown (UNK) word, the background model is invoked to provide a prediction. Above the models, there are semi-character representations in blue boxes, which are used as inputs for both models. The text above the blue boxes appears scrambled, suggesting synthetic corruption. The overall layout and design indicate a focus on robust word recognition systems that can handle perturbations and unknown words."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+</node>
+<node id="&quot;BACKGROUND MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model represented by a series of interconnected circles labeled h1 to hn, indicating a sequence of states or nodes in the model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+</node>
+<node id="&quot;FOREGROUND MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another model similar to the Background Model but with a different color and an 'UNK' label pointing to one of its nodes, suggesting it represents a different set of states or nodes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEMI-CHARACTER REPRESENTATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event or process indicated by a text box on the right side of the image, possibly describing the method used for representing characters or tokens in the models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BACKGROUND MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Background Model是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FOREGROUND MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Foreground Model是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEMI-CHARACTER REPRESENTATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Semi-character Representation是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BACKGROUND MODEL&quot;" target="&quot;FOREGROUND MODEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The two models are related as they share a similar structure and are likely part of the same system or process, with the Foreground Model possibly representing a more specific or refined version of the Background Model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BACKGROUND MODEL&quot;" target="&quot;SEMI-CHARACTER REPRESENTATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Semi-character Representation is likely related to the data or input that the Background Model processes, indicating how characters or tokens are represented in the model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOREGROUND MODEL&quot;" target="&quot;SEMI-CHARACTER REPRESENTATION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Similar to the relationship with the Background Model, the Semi-character Representation is also related to the data or input that the Foreground Model processes, indicating how characters or tokens are represented in this model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

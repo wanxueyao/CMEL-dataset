@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, platinum blonde hair styled in a voluminous, slightly tousled manner- Eyes: Blue, with a serious and intense gaze- Expression: Stern and authoritative, with a slight frown- Age: Appears to be an older adult- Clothing: Wearing a black top or dress with a high neckline- Accessories: Silver-rimmed glasses held up by one hand, revealing a green ring on the finger; dark earrings visibleOverall, the character exudes a sense of authority and seriousness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a person with short, platinum blonde hair styled in an elegant updo. The individual is wearing a black top and is holding a pair of glasses with red frames, which they are adjusting with their right hand. On the same hand, there is a prominent green ring. The background consists of a bookshelf filled with various books, suggesting an indoor setting, possibly an office or a study room. The overall atmosphere conveys a sense of sophistication and authority."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<node id="&quot;MERYL STREEP&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older woman with short, white hair styled in an elegant updo. She is wearing a black top and holding the frame of her glasses with her right hand, which has a large green ring on one finger. Her expression is serious and contemplative."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<node id="&quot;GLASSES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A pair of stylish, rectangular-framed glasses with red accents. The glasses are being held by the woman, partially obscuring her face."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<node id="&quot;RING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, noticeable ring with a green stone worn on the woman's right hand. It adds to her sophisticated appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<node id="&quot;BOOKS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several books are arranged on a shelf in the background, suggesting a setting that could be an office or a library."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;MERYL STREEP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of Meryl Streep."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MERYL STREEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Meryl Streep是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GLASSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Glasses是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ring是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BOOKS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Books是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MERYL STREEP&quot;" target="&quot;GLASSES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is holding her glasses, indicating she may have just taken them off or is about to put them on."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MERYL STREEP&quot;" target="&quot;RING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is wearing the ring on her right hand, which is visible as she holds her glasses."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MERYL STREEP&quot;" target="&quot;BOOKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is positioned in front of a bookshelf, suggesting she might be in a place where reading or studying occurs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_CAKE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Chapter title- Color: The text is in a serif font, white with a shadow effect, giving it a three-dimensional appearance.- Shape: The text is arranged in a curved manner, following the contour of the object behind it.- Size: The text is large and prominent, occupying a significant portion of the image.- Material: The text appears to be digitally rendered, with no physical material.- Possible function: This object serves as a chapter title for a book or story, specifically indicating "Chapter Fifteen: The Forbidden Forest."- Other significant characteristics: The background object appears to be a wing, possibly from a bird or an insect, with intricate patterns and a soft, feathery texture. The wing is predominantly white with subtle shades of blue and green, adding to the ethereal and mysterious atmosphere suggested by the chapter title."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration featuring a variety of moths and butterflies. The central focus is a large, pale moth with the text 'CHAPTER FIFTEEN THE FORBIDDEN FOREST' written across its wings. Surrounding this central moth are several other moths and butterflies in various colors and patterns, including shades of brown, orange, and white. The background appears to be a dark, textured surface that resembles bark or leaves, adding to the forest-like atmosphere. The overall mood of the image is mysterious and somewhat eerie, fitting the theme of the Forbidden Forest."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+</node>
+<node id="&quot;FORBIDDEN FOREST&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d1">"The image feature block image_3_cake-0.jpg is a picture of the Forbidden Forest."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CHAPTER FIFTEEN TITLE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d1">"Chapter Fifteen Title是从image_3中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MOTHS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d1">"Moths是从image_3中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FOREST BACKGROUND&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d1">"Forest Background是从image_3中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3_CAKE-0.JPG&quot;" target="&quot;FORBIDDEN FOREST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_cake-0.jpg is a picture of the Forbidden Forest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_CAKE-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_cake-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CHAPTER FIFTEEN TITLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter Fifteen Title是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MOTHS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Moths是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FOREST BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Forest Background是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER FIFTEEN TITLE&quot;" target="&quot;MOTHS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The title is surrounded by moths, indicating a connection between the chapter's content and the creatures of the forest. This relationship suggests that the moths play a significant role in the narrative of the forbidden forest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER FIFTEEN TITLE&quot;" target="&quot;FOREST BACKGROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The title is set against the backdrop of a dense forest, which visually ties the narrative to its setting. This relationship emphasizes the importance of the forest environment to the chapter's themes and events."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOTHS&quot;" target="&quot;FOREST BACKGROUND&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The moths are depicted as part of the forest's ecosystem, blending into the background of leaves and foliage. This relationship highlights the natural habitat of the moths and their integration into the forest's life."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

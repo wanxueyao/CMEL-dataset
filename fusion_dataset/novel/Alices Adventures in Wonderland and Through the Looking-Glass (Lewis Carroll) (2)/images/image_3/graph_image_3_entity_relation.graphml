@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_BIRD-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Fragment of a patterned object- Color: Black and white- Shape: Irregular, with jagged edges- Size: Small fragment, exact dimensions not discernible- Material: Appears to be fabric or paper due to the texture visible in the pattern- Possible function: Could be part of a larger textile or decorative item, such as wallpaper, clothing, or packagingOverall, the object appears to be a small, irregularly shaped piece of a patterned material, possibly used for decorative purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_BIRD-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that appears to be light in color, possibly blonde or a light brown shade- Eyes: Not fully visible due to the angle and lighting, but they appear to be looking downward- Expression: Neutral, with a slight tilt of the head that may suggest contemplation or introspection- Age: Appears to be a young woman, possibly in her late teens to early twenties- Clothing: Not visible in this image feature block- Posture: Head slightly tilted to one side, giving a sense of thoughtfulness or reflectionOverall, the character gives off a serene and thoughtful vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_BIRD-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rodent, specifically a type of mouse- Age: Appears to be an adult due to the fully developed body and fur- Color: The fur is primarily dark gray with lighter shades on the underbelly and inner ears- Shape: The body is elongated with a pointed snout, large rounded ears, and a long tail that tapers towards the end- Size: Small, typical for a mouse, with a slender build- Posture: The mouse is depicted in a side profile, with its head turned slightly towards the viewer, giving a clear view of its facial features and body structureOverall, the mouse appears to be alert and poised, with a keen sense of awareness in its posture and expression."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. It shows Alice, a young girl with long hair, swimming in a pool of tears. She is looking at a mouse that is also swimming in the pool. The mouse appears to be bristling and has a displeased expression on its face. The background is minimalistic, with horizontal lines suggesting the surface of the water and vertical lines indicating the walls of the pool. The overall atmosphere is one of tension and discomfort, as Alice tries to make conversation with the mouse, which clearly does not appreciate the topic of cats."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, swimming in a pool of tears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<node id="&quot;MOUSE&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small mouse swimming alongside Alice in the pool of tears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_BIRD-0.JPG&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_3_bird-0.jpg is a picture of a mouse."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_BIRD-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_bird-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_BIRD-1.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_bird-1.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_BIRD-1.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_bird-1.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_BIRD-2.JPG&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_bird-2.jpg is a picture of a mouse."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_BIRD-2.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_bird-2.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mouse是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice and the mouse are swimming together in the pool of tears."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

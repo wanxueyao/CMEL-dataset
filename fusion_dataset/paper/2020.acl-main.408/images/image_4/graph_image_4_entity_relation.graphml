@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a figure illustrating faithfulness scoring metrics, specifically comprehensiveness and sufficiency, on the Commonsense Explanations (CoS-E) dataset. The figure consists of three main panels, each depicting a bar chart with five categories: (a) Compost pile, (b) Flowers, (c) Forest, (d) Field, and (e) Ground. Each panel has a corresponding neural network diagram below it, indicating the process of feature extraction and prediction.\n\n- **Left Panel**: This panel shows the predicted probability distribution for the class 'Forest' given the input \( x_i \). The bars represent the probabilities for each category, with the highest probability (red bar) for 'Forest'. Below this panel is a neural network diagram showing the input features being processed to generate the prediction.\n\n- **Middle Panel**: This panel illustrates the concept of comprehensiveness. It shows the predicted probability distribution after erasing the tokens comprising the provided rationale \( \\tilde{x}_i \). The red bar for 'Forest' is lower compared to the left panel, indicating a decrease in model confidence. The neural network diagram below highlights the removal of certain features, leading to a different prediction.\n\n- **Right Panel**: This panel demonstrates the concept of sufficiency. It shows the predicted probability distribution using only the rationales \( r_i \). The red bar for 'Forest' remains high, suggesting that the model can still make a similar prediction using only the rationales. The neural network diagram below emphasizes the use of selected features for prediction.\n\nEach panel includes a question at the bottom: 'Where do you find the most amount of leafs?', which is used to contextualize the predictions. The overall figure aims to evaluate how well the model's predictions align with the provided rationales and whether the rationales are sufficient for the model to maintain its confidence in the prediction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<node id="&quot;FOREST&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A category in the bar chart representing a natural environment with trees and plants, indicated by the red bar."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A category in the bar chart representing flowering plants, indicated by the blue bars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A category in the bar chart representing an open area of land, indicated by the blue bars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<node id="&quot;GROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A category in the bar chart representing the surface of the earth, indicated by the blue bars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<node id="&quot;COMPOST PILE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A category in the bar chart representing decomposing organic matter, indicated by the blue bars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Forest是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ground是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;COMPOST PILE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Compost pile是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOREST&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The forest is related to flowers as both are part of natural environments where leaves can be found."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOREST&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The forest is related to the field as both are outdoor environments where leaves can be found, though forests have more dense vegetation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOREST&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The forest is related to the ground as the ground is the base layer where forests grow and leaves fall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOREST&quot;" target="&quot;COMPOST PILE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The forest is related to the compost pile as dead leaves from the forest contribute to the compost pile."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOWERS&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Flowers are related to the field as fields often contain wildflowers and other flowering plants."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOWERS&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Flowers are related to the ground as they grow from the ground and their roots are embedded in it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOWERS&quot;" target="&quot;COMPOST PILE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Flowers are related to the compost pile as dead flowers and plant matter contribute to the compost pile."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIELD&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The field is related to the ground as the ground is the base layer where fields are located and plants grow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIELD&quot;" target="&quot;COMPOST PILE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The field is related to the compost pile as dead plant matter from the field contributes to the compost pile."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GROUND&quot;" target="&quot;COMPOST PILE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The ground is related to the compost pile as the compost pile is typically located on the ground and the ground provides nutrients for the composting process."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_16&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a close-up of the letter 'A' in a serif font. The letter is bold and black, set against a white background. The top part of the letter extends beyond the baseline, creating a traditional serif style. The letter 'A' is partially cropped at the top, showing only the upper half of the letter. Above the letter, there are two characters that appear to be part of a larger word or phrase, but they are not fully visible. The visible characters are 'ND', suggesting that the full word might be 'AND'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+</node>
+<node id="&quot;A&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The letter A is displayed in a large, bold font with a black color."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+</node>
+<node id="&quot;ND&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The text 'ND' is partially visible and appears to be cut off at the top of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+</node>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;A&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"A是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;ND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ND是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;A&quot;" target="&quot;ND&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The letter A is positioned above and connected to the text 'ND', suggesting they are part of the same word or phrase."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

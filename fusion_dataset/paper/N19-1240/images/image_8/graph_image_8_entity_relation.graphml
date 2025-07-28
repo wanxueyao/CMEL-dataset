@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a graph that plots the accuracy of a model against the nodes set size. The x-axis represents the nodes set size, ranging from 0 to 200. The y-axis represents the accuracy, ranging from 0 to 1.0. The blue bars represent the accuracy values for different nodes set sizes. The orange bars represent the rescaled data distributions per number of nodes. A dashed black line at approximately 0.65 on the y-axis indicates the average accuracy. The accuracy values fluctuate around the average line, with some values above and some below. The rescaled data distribution bars show a decreasing trend as the nodes set size increases, starting high and gradually decreasing to almost zero at the higher end of the nodes set size."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A bar chart with two sets of data. The x-axis ranges from 0 to 200, and the y-axis ranges from 0 to 1.0. One set of data is represented by blue bars, while the other is represented by brown bars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+</node>
+<node id="&quot;BLUE BARS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d1">"The blue bars represent one set of data in the graph."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;BROWN BARS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d1">"The brown bars represent another set of data in the graph."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;BLUE BARS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The blue bars represent one set of data in the graph."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;BROWN BARS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The brown bars represent another set of data in the graph."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLUE BARS&quot;" target="&quot;BROWN BARS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both sets of data are plotted on the same graph for comparison."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

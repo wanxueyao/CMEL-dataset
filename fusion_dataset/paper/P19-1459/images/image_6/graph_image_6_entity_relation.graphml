@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Figure 4: Original and adversarial data points.' The table is divided into two main columns: 'Original' and 'Adversarial.' Each column contains four rows labeled 'Claim,' 'Reason,' 'Warrant,' and 'Alternative.' In the 'Original' column, the 'Claim' row states 'Google is not a harmful monopoly.' The 'Reason' row states 'People can choose not to use Google.' The 'Warrant' row states 'Other search engines do not redirect to Google.' The 'Alternative' row states 'All other search engines redirect to Google.' In the 'Adversarial' column, the 'Claim' row states 'Google is a harmful monopoly.' The 'Reason' row states 'People can choose not to use Google.' The 'Warrant' row states 'All other search engines redirect to Google.' The 'Alternative' row states 'Other search engines do not redirect to Google.' The table highlights the negation of the claim and the swapping of warrants between the original and adversarial data points. The footnote indicates that the assignment of labels to 'W' and 'A' are kept the same, and by including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+</node>
+<node id="&quot;GOOGLE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A multinational technology company that specializes in Internet-related services and products. It is one of the largest search engines in the world."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+</node>
+<node id="&quot;PEOPLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Individuals who have the ability to make choices about which search engines they use."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+</node>
+<node id="&quot;SEARCH ENGINES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Software systems designed to search for information on the World Wide Web. They can be categorized into different types, including Google and other alternatives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GOOGLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Google是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PEOPLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"People是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SEARCH ENGINES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Search Engines是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOGLE&quot;" target="&quot;PEOPLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"People have the option to choose whether or not to use Google as their preferred search engine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOGLE&quot;" target="&quot;SEARCH ENGINES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Google is one of many search engines available, but it is often considered the most popular and widely used."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PEOPLE&quot;" target="&quot;SEARCH ENGINES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"People can choose from a variety of search engines, including Google and others, based on their preferences and needs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

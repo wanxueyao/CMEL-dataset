@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Natural Language Inference and Semantic Similarity tasks.' The table is structured with the following columns: name, N (number of samples), task, output, premise, hypothesis, and label. Each row represents a different dataset or task. The rows are as follows:\n- SNLI: 560k samples, NLI task, output 3, premise 'A small girl wearing a pink jacket is riding on a carousel.', hypothesis 'The carousel is moving.', label entailment.\n- SICK-E: 10k samples, NLI task, output 3, premise 'A man is sitting on a chair and rubbing his eyes', hypothesis 'There is no man sitting on a chair and rubbing his eyes', label contradiction.\n- SICK-R: 10k samples, STS task, output [0, 5], premise 'A man is singing a song and playing the guitar', hypothesis 'A man is opening a package that contains headphones', label 1.6.\n- STS14: 4.5k samples, STS task, output [0, 5], premise 'Liquid ammonia leak kills 15 in Shanghai', hypothesis 'Liquid ammonia leak kills at least 15 in Shanghai', label 4.6.\n- MRPC: 5.7k samples, PD task, output 2, premise 'The procedure is generally performed in the second or third trimester.', hypothesis 'The technique is used during the second and, occasionally, third trimester of pregnancy.', label paraphrase.\n- COCO: 565k samples, ICR task, output sim, premise shows an image of a group of people on horses riding through the beach, hypothesis 'A group of people on some horses riding through the beach.', label rank.\nThe table provides detailed information about various natural language inference and semantic similarity tasks, including the number of samples, type of task, output format, and specific examples of premises and hypotheses along with their labels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<node id="&quot;PEOPLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A group of people riding horses through the beach."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<node id="&quot;HORSES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several horses being ridden by people through the beach."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<node id="&quot;BEACH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A sandy beach with clear blue water and a distant island."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<node id="&quot;WATER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Clear blue water surrounding the beach."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<node id="&quot;ISLAND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A distant island visible in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PEOPLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"People是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;HORSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Horses是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beach是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WATER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Water是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;ISLAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Island是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PEOPLE&quot;" target="&quot;HORSES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The people are riding the horses."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PEOPLE&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The people are on the beach."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HORSES&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The horses are on the beach."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEACH&quot;" target="&quot;WATER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The beach is surrounded by water."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEACH&quot;" target="&quot;ISLAND&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The beach has an island in the background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

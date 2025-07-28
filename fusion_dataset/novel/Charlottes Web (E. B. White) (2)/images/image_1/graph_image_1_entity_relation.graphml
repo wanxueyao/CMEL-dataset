@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_UMBRELLA-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Spider web- Color: The spider web is depicted in a monochromatic style, with the web itself being white and the background black.- Shape: The web has a radial pattern with concentric circles emanating from a central point. The web is irregular in shape, with some areas more densely woven than others.- Size: The web occupies a significant portion of the image, suggesting it is relatively large.- Material: The web is made of silk, which spiders produce to create their webs.- Possible function: The primary function of a spider web is to trap prey for the spider's consumption. The intricate design allows it to capture insects effectively.- Other significant characteristics: There is a small spider located near the center of the web, indicating that this is an active web used by the spider for hunting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration featuring a spider web in the upper left corner, with a spider positioned at the center of the web. Below the web, there is a pig and a rat. The pig appears to be jumping or leaping forward with its eyes closed and mouth open, as if it is excited or surprised. The rat is standing on its hind legs, facing the pig, with its front paws raised slightly, possibly in a gesture of communication or surprise. The background consists of horizontal lines that resemble wooden planks or a fence, adding to the rustic setting. The overall atmosphere of the image conveys a sense of interaction and movement between the characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;SPIDER WEB&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A detailed, intricate web attached to a vertical surface, likely a tree or post."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small pig with a curly tail, standing on its hind legs and looking up towards the spider web."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;MOUSE&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A mouse standing on the ground, facing the pig and appearing to be in conversation or interaction with it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_UMBRELLA-0.JPG&quot;" target="&quot;SPIDER WEB&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_umbrella-0.jpg is a picture of a spider web."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_UMBRELLA-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_umbrella-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SPIDER WEB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider Web是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mouse是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER WEB&quot;" target="&quot;PIG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The pig is looking up at the spider web, indicating curiosity or interest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER WEB&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The mouse is near the spider web, possibly observing it or being cautious of it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;MOUSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pig and the mouse are positioned close to each other, suggesting they are interacting or communicating."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

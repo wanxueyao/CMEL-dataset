@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a graph depicting precision/pseudo-recall curves for human evaluation by varying cut-off thresholds. The x-axis represents the pseudo-recall percentage, ranging from 0% to 100%, while the y-axis represents the precision percentage, ranging from 84% to 92%. Two curves are plotted: one in blue with circular markers labeled 'With Coref.' and another in red with square markers labeled 'Without Coref.'. The blue curve starts at approximately 90% precision and 0% pseudo-recall, peaks slightly above 90% precision around 10% pseudo-recall, and then gradually declines to about 86% precision at 100% pseudo-recall. The red curve starts at approximately 89% precision and 0% pseudo-recall, declines steadily to about 85% precision at 100% pseudo-recall. The area under the curve (AUC) is 0.751 for the 'With Coref.' curve and 0.695 for the 'Without Coref.' curve."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_11.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A graph comparing precision and pseudo-recall percentages with and without coreference resolution."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

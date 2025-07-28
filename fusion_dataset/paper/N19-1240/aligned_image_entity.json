@@ -1,0 +1,72 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: A sample from WIKIHOP where multi-step reasoning and information combination from different documents is necessary to infer the correct answer",
+        "entity_type": "EVENT",
+        "description": "WIKIHOP is a multi-document question answering dataset created by Welbl et al., 2018, which requires multi-step reasoning and information combination from different documents.",
+        "reason": "The image clearly shows a screenshot of a text excerpt discussing the WIKIHOP dataset. The content of the image, including the query 'country Thorildsplan' and the candidate answers, aligns with the description of WIKIHOP as a dataset requiring multi-hop reasoning.",
+        "matched_chunk_entity_name": "Figure 1/WIKIHOP"
+    },
+    "image_2": {
+        "entity_name": "Figure 2",
+        "entity_type": "CONCEPT",
+        "description": "Entity graph is the structure where nodes represent mentions of entities and are connected by different types of relations.",
+        "reason": "The image depicts a graph representation of supporting documents organized as nodes and edges, which aligns with the concept of an entity graph. The nodes in the image represent mentions of either candidate entities or query entities, and they are connected by various types of edges, including co-occurrence in the same document, exact matches, and coreferences. This matches the description of the entity graph in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_3": {
+        "entity_name": "Table 1",
+        "entity_type": "GEO",
+        "description": "Table 1 provides dataset statistics for the WIKIHOP dataset, including number of candidates and documents per sample and document length.",
+        "reason": "The image is a table labeled 'Table 1: WIKIHOP dataset statistics from Welbl et al. (2018)' that provides statistical information about the WIKIHOP dataset. The content of the table matches the description provided in the text.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_4": {
+        "entity_name": "Table 2",
+        "entity_type": "GEO",
+        "description": "Table 2 shows the accuracy of different models on the WIKIHOP closed test set and public validation set.",
+        "reason": "The image is a table labeled 'Table 2: Accuracy of different models on WIKIHOP closed test set and public validation set.' The content of the table matches the description provided in the text, which lists various models and their respective accuracy scores for both unmasked and masked versions of the dataset.",
+        "matched_chunk_entity_name": "TABLE 2"
+    },
+    "image_5": {
+        "entity_name": "Table 3",
+        "entity_type": "GEO",
+        "description": "Table 3 is used in the ablation study to analyze the effect of different components on the model's performance.",
+        "reason": "The image clearly shows a table labeled 'Table 3: Ablation study on WIKIHOP validation set.' The table compares the performance of different models in two settings: unmasked and masked. This matches the description of Table 3 in the text, which is used for the ablation study.",
+        "matched_chunk_entity_name": "TABLE 3"
+    },
+    "image_6": {
+        "entity_name": "Table 4",
+        "entity_type": "CONCEPT",
+        "description": "A table that presents accuracy and precision at K (P@K) analysis overall and per query type, including the average number of candidates with one standard deviation.",
+        "reason": "The image clearly shows a table labeled 'Table 4' which matches the description in the text. The table provides detailed information on the performance of different models and relations, aligning with the content of Table 4 mentioned in the text.",
+        "matched_chunk_entity_name": "TABLE 3"
+    },
+    "image_7": {
+        "entity_name": "Figure 3",
+        "entity_type": "EVENT",
+        "description": "Figure 3 shows the model performance in relation to the input graph size, specifically candidate and node set sizes.",
+        "reason": "The image is a bar chart that depicts the accuracy of a model with respect to the candidate set size, which aligns with the description of Figure 3 in the text. The Pearson’s correlation coefficient mentioned in the text also matches the information provided in the image.",
+        "matched_chunk_entity_name": "Figure 3"
+    },
+    "image_8": {
+        "entity_name": "Figure 3",
+        "entity_type": "EVENT",
+        "description": "Figure 3 shows the model performance in relation to the input graph size, specifically candidate and node set sizes.",
+        "reason": "The image is a graph that plots the accuracy of a model against the nodes set size, which aligns with the description of Figure 3 in the text. The x-axis represents the nodes set size, and the y-axis represents the accuracy, which matches the content of the image.",
+        "matched_chunk_entity_name": "Figure 3"
+    },
+    "image_9": {
+        "entity_name": "Table 5",
+        "entity_type": "EVENT",
+        "description": "Table 5 describes the model architecture, providing details on the components and structure of the model.",
+        "reason": "The image is a table labeled 'Table 5: Model architecture' that outlines the architecture of a machine learning model. The content of the table matches the description provided in the text for Table 5.",
+        "matched_chunk_entity_name": "TABLE 5"
+    },
+    "image_10": {
+        "entity_name": "Table 6",
+        "entity_type": "EVENT",
+        "description": "Table 6 presents samples from the WIKIHOP development set where Entity-GCN fails, indicating model shortcomings.",
+        "reason": "The image is a table labeled 'Table 6: Samples from WIKIHOP set where Entity-GCN fails.' The content of the table and the context provided in the text information align with the description of Table 6.",
+        "matched_chunk_entity_name": "TABLE 6"
+    }
+}

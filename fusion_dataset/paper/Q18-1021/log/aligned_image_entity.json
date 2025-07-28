@@ -1,0 +1,51 @@
+{
+    "image_1": {
+        "entity_name": "Directed Bipartite Graph",
+        "entity_type": "CONCEPT",
+        "description": "A directed bipartite graph is a concept used to connect documents and entities mentioned in them.",
+        "reason": "The image clearly depicts a bipartite graph connecting entities, documents, and a knowledge base (KB). The graph structure aligns with the description of a directed bipartite graph in the text, which connects documents and entities mentioned in them.",
+        "matched_chunk_entity_name": "Directed Bipartite Graph"
+    },
+    "image_2": {
+        "entity_name": "WIKIHOP",
+        "entity_type": "EVENT",
+        "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+        "reason": "The image shows statistics for two datasets, WIKIHOP and MEDHOP. The text also mentions WIKIHOP as a dataset used for evaluating model performance in an open-domain setting, which aligns with the content of the image.",
+        "matched_chunk_entity_name": "WIKIHOP"
+    },
+    "image_3": {
+        "entity_name": "Table 2: Candidates and documents per sample and document length statistics.",
+        "entity_type": "TABLE",
+        "description": "The table provides statistical information about the number of candidates, documents, and tokens per document for both WIKIHOP and MEDHOP datasets.",
+        "reason": "The image clearly shows a table labeled 'Table 2: Candidates and documents per sample and document length statistics.' The content of the table matches the description provided in the text, including the statistics for WH (WIKIHOP) and MH (MEDHOP).",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Table 4: Accuracy comparison for simple baseline models on WIKIHOP before and after filtering.",
+        "entity_type": "TABLE",
+        "description": "The table compares the accuracy of different baseline models (Document-cue, Maj. candidate, TF-IDF) on the WIKIHOP dataset before and after filtering.",
+        "reason": "The image is a table labeled 'Table 4' which matches the description in the text. The table contains the accuracy values for the unfiltered and filtered datasets for three models, which aligns with the content of Table 4 mentioned in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 5",
+        "entity_type": "TABLE",
+        "description": "A table showing test accuracies for the WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setup.",
+        "reason": "The image clearly shows a table labeled 'Table 5' with test accuracies for different models on the WIKIHOP and MEDHOP datasets. The content of the table matches the description provided in the text information.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Table 5",
+        "entity_type": "EVENT",
+        "description": "The table compares the test accuracies of different models on WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setups. The columns marked with asterisk represent results for the validated portion of the dataset.",
+        "reason": "The image is a table that shows the test accuracy comparison for different models on two datasets, WIKIHOP and MEDHOP, under various conditions. This matches the description of Table 5 in the text information provided.",
+        "matched_chunk_entity_name": "WIKIHOP"
+    },
+    "image_7": {
+        "entity_name": "Table 7",
+        "entity_type": "EVENT",
+        "description": "Table 7 presents test accuracy (masked) when only documents containing answer candidates are given, highlighting the impact on model performance.",
+        "reason": "The image is a table comparing the test accuracy of different models on two datasets, WIKIHOP and MEDHOP. The table shows the performance of BiDAF, BiDAF rem, FastQA, and FastQA rem under both 'test' and 'test*' conditions. This aligns with the description of Table 7 in the text, which summarizes these results.",
+        "matched_chunk_entity_name": "TABLE 7"
+    }
+}

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Hyper-parameters for our models.' The table provides detailed information about the hyper-parameters of three different models: CNN Base, CNN Large, and BPE Large. The table is structured with the following columns: Model, Parameters, Updates, Blocks, FFN Dim, Attn Heads (final layer), Query formation (final layer), and Train time (days). The rows contain the following values:\n\n- **CNN Base**: Parameters = 177M, Updates = 600K, Blocks = 6, FFN Dim = 4096, Attn Heads (final layer) = 12, Query formation (final layer) = Sum, Train time (days) = 6.\n- **CNN Large**: Parameters = 330M, Updates = 1M, Blocks = 12, FFN Dim = 4096, Attn Heads (final layer) = 32, Query formation (final layer) = Concat, Train time (days) = 10.\n- **BPE Large**: Parameters = 370M, Updates = 1M, Blocks = 12, FFN Dim = 4096, Attn Heads (final layer) = 32, Query formation (final layer) = Concat, Train time (days) = 4.5.\n\nThe table highlights the differences in parameters, updates, blocks, feed-forward network dimension (FFN Dim), attention heads in the final layer, query formation method in the final layer, and training time across the three models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+</node>
+<node id="&quot;CNN BASE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration with 177M parameters, 600K updates, 6 blocks, FFN dimension of 4096, 12 attention heads in the final layer, and uses sum for query formation. It has a training time of 6 days."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+</node>
+<node id="&quot;CNN LARGE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration with 330M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 10 days."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+</node>
+<node id="&quot;BPE LARGE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration with 370M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 4.5 days."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CNN BASE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Base是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CNN LARGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Large是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BPE LARGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BPE Large是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN BASE&quot;" target="&quot;CNN LARGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are CNN models but differ in parameters, updates, blocks, attention heads, and training time. CNN Large has more parameters, updates, blocks, and attention heads, and takes longer to train than CNN Base."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN BASE&quot;" target="&quot;BPE LARGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both have different numbers of parameters, updates, blocks, and attention heads, and use different methods for query formation. BPE Large has more parameters, updates, blocks, and attention heads, and uses concat for query formation, while CNN Base uses sum and has fewer parameters, updates, blocks, and attention heads."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE&quot;" target="&quot;BPE LARGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both have the same number of parameters, updates, blocks, and attention heads, but differ in query formation method and training time. BPE Large uses concat for query formation and has a shorter training time than CNN Large."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

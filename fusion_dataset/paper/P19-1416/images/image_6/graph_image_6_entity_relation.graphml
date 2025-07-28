@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: The accuracy of single-paragraph BERT in different open-domain retrieval settings.' The table has two columns: 'Setting' and 'F1'. The rows under the 'Setting' column are as follows: 'Distractor', 'Open-domain 10 Paragraphs', 'Open-domain 500 Paragraphs', and 'Open-domain 500 Paragraphs + Gold Paragraph'. The corresponding F1 scores for these settings are 67.08, 38.40, 39.12, and 53.12, respectively. The table highlights the performance of the model in various retrieval settings, with the highest F1 score achieved when additional gold paragraphs are included."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+</node>
+<node id="&quot;DISTRACTOR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A setting where the F1 score is 67.08."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+</node>
+<node id="&quot;OPEN-DOMAIN 10 PARAGRAPHS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A setting where the F1 score is 38.40."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+</node>
+<node id="&quot;OPEN-DOMAIN 500 PARAGRAPHS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A setting where the F1 score is 39.12."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+</node>
+<node id="&quot;GOLD PARAGRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An additional setting that, when combined with Open-domain 500 Paragraphs, results in an F1 score of 53.12."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DISTRACTOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Distractor是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;OPEN-DOMAIN 10 PARAGRAPHS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Open-domain 10 Paragraphs是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;OPEN-DOMAIN 500 PARAGRAPHS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Open-domain 500 Paragraphs是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GOLD PARAGRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Gold Paragraph是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISTRACTOR&quot;" target="&quot;OPEN-DOMAIN 10 PARAGRAPHS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Distractor setting has a higher F1 score than the Open-domain 10 Paragraphs setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISTRACTOR&quot;" target="&quot;OPEN-DOMAIN 500 PARAGRAPHS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Distractor setting has a higher F1 score than the Open-domain 500 Paragraphs setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;OPEN-DOMAIN 10 PARAGRAPHS&quot;" target="&quot;OPEN-DOMAIN 500 PARAGRAPHS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The Open-domain 10 Paragraphs setting has a slightly lower F1 score than the Open-domain 500 Paragraphs setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;OPEN-DOMAIN 500 PARAGRAPHS&quot;" target="&quot;GOLD PARAGRAPH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The addition of the Gold Paragraph to the Open-domain 500 Paragraphs setting increases the F1 score from 39.12 to 53.12."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

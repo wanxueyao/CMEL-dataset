@@ -1,0 +1,205 @@
+{
+    "image_1": [
+        {
+            "entity_name": "MR",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 11k entries for sentiment analysis of movie reviews."
+        },
+        {
+            "entity_name": "CR",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 4k entries for product reviews."
+        },
+        {
+            "entity_name": "SUBJ",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 10k entries for subjectivity/objectivity classification."
+        },
+        {
+            "entity_name": "MPQA",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 11k entries for opinion polarity analysis."
+        },
+        {
+            "entity_name": "TREC",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 6k entries for question-type classification."
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 70k entries for sentiment analysis of movie reviews."
+        },
+        {
+            "entity_name": "SST-5",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 12k entries for sentiment analysis of movie reviews."
+        },
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_1 is a comprehensive table that provides details on various classification tasks used in natural language processing (NLP). The table consists of seven rows and six columns, with columns labeled as 'name', 'N', 'task', 'C', 'examples', and 'label(s)'. The table covers different datasets used for various NLP tasks, including sentiment analysis, product reviews, subjectivity/objectivity, opinion polarity, and question-type classification. The datasets featured in the table are MR, CR, SUBJ, MPQA, TREC, SST-2, and SST-5, each with their respective number of instances (N), task descriptions, number of classes (C), examples, and label(s). For instance, MR has 11k instances for sentiment analysis on movies with 2 classes, while SST-5 has 12k instances for sentiment analysis on movies with 5 classes."
+        },
+        {
+            "entity_name": "SENTIMENT (MOVIES)",
+            "entity_type": "UNKNOWN",
+            "description": "The MR dataset is used for sentiment analysis of movie reviews."
+        },
+        {
+            "entity_name": "PRODUCT REVIEWS",
+            "entity_type": "UNKNOWN",
+            "description": "The CR dataset is used for product reviews."
+        },
+        {
+            "entity_name": "SUBJECTIVITY/OBJECTIVITY",
+            "entity_type": "UNKNOWN",
+            "description": "The SUBJ dataset is used for subjectivity/objectivity classification."
+        },
+        {
+            "entity_name": "OPINION POLARITY",
+            "entity_type": "UNKNOWN",
+            "description": "The MPQA dataset is used for opinion polarity analysis."
+        },
+        {
+            "entity_name": "QUESTION-TYPE",
+            "entity_type": "UNKNOWN",
+            "description": "The TREC dataset is used for question-type classification."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Natural Language Inference and Semantic Similarity tasks.' The table is structured with the following columns: name, N (number of samples), task, output, premise, hypothesis, and label. Each row represents a different dataset or task. The rows are as follows:\\n- SNLI: 560k samples, NLI task, output 3, premise 'A small girl wearing a pink jacket is riding on a carousel.', hypothesis 'The carousel is moving.', label entailment.\\n- SICK-E: 10k samples, NLI task, output 3, premise 'A man is sitting on a chair and rubbing his eyes', hypothesis 'There is no man sitting on a chair and rubbing his eyes', label contradiction.\\n- SICK-R: 10k samples, STS task, output [0, 5], premise 'A man is singing a song and playing the guitar', hypothesis 'A man is opening a package that contains headphones', label 1.6.\\n- STS14: 4.5k samples, STS task, output [0, 5], premise 'Liquid ammonia leak kills 15 in Shanghai', hypothesis 'Liquid ammonia leak kills at least 15 in Shanghai', label 4.6.\\n- MRPC: 5.7k samples, PD task, output 2, premise 'The procedure is generally performed in the second or third trimester.', hypothesis 'The technique is used during the second and, occasionally, third trimester of pregnancy.', label paraphrase.\\n- COCO: 565k samples, ICR task, output sim, premise shows an image of a group of people on horses riding through the beach, hypothesis 'A group of people on some horses riding through the beach.', label rank.\\nThe table provides detailed information about various natural language inference and semantic similarity tasks, including the number of samples, type of task, output format, and specific examples of premises and hypotheses along with their labels."
+        },
+        {
+            "entity_name": "PEOPLE",
+            "entity_type": "PERSON",
+            "description": "A group of people riding horses through the beach."
+        },
+        {
+            "entity_name": "HORSES",
+            "entity_type": "OBJECT",
+            "description": "Several horses being ridden by people through the beach."
+        },
+        {
+            "entity_name": "BEACH",
+            "entity_type": "GEO",
+            "description": "A sandy beach with clear blue water and a distant island."
+        },
+        {
+            "entity_name": "WATER",
+            "entity_type": "GEO",
+            "description": "Clear blue water surrounding the beach."
+        },
+        {
+            "entity_name": "ISLAND",
+            "entity_type": "GEO",
+            "description": "A distant island visible in the background."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Transfer test results for various baseline methods.' The table compares the performance of different models on various tasks. The rows represent different models, including GloVe LogReg, GloVe MLP, fastText LogReg, fastText MLP, SkipThought, and InferSent. The columns represent different datasets or tasks, such as MR, CR, SUBJ, MPQA, SST-2, SST-5, TREC, MRPC, and SICK-E. Each cell contains a numerical value representing the performance of the model on that task. For example, the GloVe LogReg model scores 77.4 on the MR task, 78.7 on the CR task, and so on. The last row labeled 'SOTA' (State Of The Art) provides the best-known results for each task, with values like 83.1 for MR, 86.3 for CR, and so on. The footnote indicates that the results correspond to specific systems: Result 1 corresponds to AdaSent, Result 2 to BLSTM-2DCNN, Result 3 to TF-KLD, and Result 4 to Illinois-LH system."
+        },
+        {
+            "entity_name": "MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The different models used for representation learning and supervised methods in the table, including GloVe LogReg, GloVe MLP, fastText LogReg, fastText MLP, SkipThought, InferSent, and SOTA."
+        },
+        {
+            "entity_name": "MR",
+            "entity_type": "EVENT",
+            "description": "The Movie Reviews dataset used for evaluation."
+        },
+        {
+            "entity_name": "CR",
+            "entity_type": "EVENT",
+            "description": "The Customer Reviews dataset used for evaluation."
+        },
+        {
+            "entity_name": "SUBJ",
+            "entity_type": "EVENT",
+            "description": "The Subjectivity dataset used for evaluation."
+        },
+        {
+            "entity_name": "MPQA",
+            "entity_type": "EVENT",
+            "description": "The Multi-Perspective Question Answering dataset used for evaluation."
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "EVENT",
+            "description": "The Stanford Sentiment Treebank binary classification dataset used for evaluation."
+        },
+        {
+            "entity_name": "SST-5",
+            "entity_type": "EVENT",
+            "description": "The Stanford Sentiment Treebank fine-grained classification dataset used for evaluation."
+        },
+        {
+            "entity_name": "TREC",
+            "entity_type": "EVENT",
+            "description": "The TREC question type classification dataset used for evaluation."
+        },
+        {
+            "entity_name": "MRPC",
+            "entity_type": "EVENT",
+            "description": "The Microsoft Research Paraphrase Corpus dataset used for evaluation."
+        },
+        {
+            "entity_name": "SICK-E",
+            "entity_type": "EVENT",
+            "description": "The Sentential Inference Corpus with Explicit Premises dataset used for evaluation."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that evaluates various sentence representation learning models on different semantic textual similarity benchmarks. The table has the following columns: Model, SST'12, SST'13, SST'14, SST'15, SST'16, SICK-R, and SST-B. The rows represent different models used for representation learning. The values in the table are Pearson correlations multiplied by 100. The models listed are GloVe BoW, fastText BoW, SkipThought-LN, InferSent, and Char-phrase. For example, GloVe BoW scores 52.1 on SST'12, 49.6 on SST'13, 54.6 on SST'14, 56.1 on SST'15, 51.4 on SST'16, 79.9 on SICK-R, and 64.7 on SST-B. Similarly, fastText BoW scores 58.3 on SST'12, 57.9 on SST'13, 64.9 on SST'14, 67.6 on SST'15, 64.3 on SST'16, 82.0 on SICK-R, and 70.2 on SST-B. The table highlights the performance of these models across different benchmarks, with some models performing better on certain benchmarks than others."
+        },
+        {
+            "entity_name": "MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A table listing different models used for representation learning and transfer, including GloVe BoW, fastText BoW, SkipThought-LN, InferSent, and Char-phrase."
+        },
+        {
+            "entity_name": "SST'12",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST'12, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SST'13",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST'13, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SST'14",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST'14, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SST'15",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST'15, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SST'16",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST'16, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SICK-R",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SICK-R, with corresponding performance scores for each model."
+        },
+        {
+            "entity_name": "SST-B",
+            "entity_type": "EVENT",
+            "description": "An event or dataset labeled as SST-B, with corresponding performance scores for each model."
+        }
+    ]
+}

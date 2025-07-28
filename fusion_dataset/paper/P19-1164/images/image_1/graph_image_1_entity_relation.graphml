@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating an example of gender bias in machine translation from English to Spanish. The top part of the image contains an English sentence: 'The doctor asked the nurse to help her in the procedure.' The bottom part of the image shows the Spanish translation: 'El doctor le pidió a la enfermera que le ayudara con el procedimiento.' The diagram includes arrows pointing from specific words in the English sentence to their corresponding translations in Spanish. The arrow from 'The doctor' points to 'El doctor,' and the arrow from 'the nurse' points to 'la enfermera.' The diagram highlights how the gender of the doctor is specified as male in Spanish (el doctor) while the gender of the nurse is specified as female (la enfermera), even though the original English sentence does not specify the gender of either role."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+</node>
+<node id="&quot;THE DOCTOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A medical professional who requested assistance from a nurse for a procedure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+</node>
+<node id="&quot;THE NURSE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A medical assistant who was asked by the doctor to help with a procedure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+</node>
+<node id="&quot;PROCEDURE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A medical task or operation that requires the collaboration of multiple healthcare professionals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;THE DOCTOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The doctor是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;THE NURSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"the nurse是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PROCEDURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"procedure是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE DOCTOR&quot;" target="&quot;THE NURSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The doctor requested the nurse's assistance in performing a procedure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE DOCTOR&quot;" target="&quot;PROCEDURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The doctor is leading and performing the procedure, requiring the nurse's help."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE NURSE&quot;" target="&quot;PROCEDURE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The nurse is assisting the doctor in carrying out the procedure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

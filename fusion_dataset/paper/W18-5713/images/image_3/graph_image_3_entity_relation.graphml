@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Output sequence statistics for the methods.' The table compares different methods in terms of their output sequence statistics, categorized into four ranges: &lt;30%, 30-60%, 60-80%, and &gt;80%. The rows represent different methods: Seq2Seq, RetNRef, RetNRef+, and RetNRef++. The columns indicate the percentage of sequences falling into each range. For example, Seq2Seq has 56% of its sequences in the &lt;30% range, 34% in the 30-60% range, 7% in the 60-80% range, and 3% in the &gt;80% range. RetNRef shows a distribution of 41%, 38%, 13%, and 8% respectively. RetNRef+ has 26%, 20%, 12%, and 42% respectively. Finally, RetNRef++ has 26%, 20%, 0%, and 53% respectively. The table highlights that RetNRef++ generates the highest percentage of sequences in the &gt;80% range."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of different methods across various percentage ranges."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+</node>
+<node id="&quot;SEQ2SEQ&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d1">"The table includes data on the Seq2Seq method."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;RETNREF&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d1">"The table includes data on the RetNRef method."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;RETNREF+&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d1">"The table includes data on the RetNRef+ method."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;RETNREF++&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d1">"The table includes data on the RetNRef++ method."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SEQ2SEQ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes data on the Seq2Seq method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RETNREF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes data on the RetNRef method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RETNREF+&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes data on the RetNRef+ method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RETNREF++&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes data on the RetNRef++ method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

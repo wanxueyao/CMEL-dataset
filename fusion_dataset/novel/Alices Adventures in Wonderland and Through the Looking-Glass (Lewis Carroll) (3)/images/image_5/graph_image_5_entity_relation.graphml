@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Curly hair, partially visible under the hat- Facial Expression: Not clearly visible due to the angle and style of the drawing- Age: Appears to be an adult male- Clothing: Wearing a large top hat, a coat with a wide collar, and a striped scarf. The coat appears to be open, revealing a patterned vest underneath.- Accessories: Holding a teacup in one hand and a piece of paper or card in the other.- Posture: Leaning forward with a slightly hunched back, giving an impression of movement or action.Overall, the character gives off a whimsical and eccentric vibe, possibly from a storybook or fantasy setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a whimsical character, likely the Mad Hatter from 'Alice in Wonderland.' The character is wearing a large, oversized top hat that dominates the upper portion of the image. He is dressed in a coat with puffed sleeves and checkered pants, giving him a distinctive and eccentric appearance. In his left hand, he holds a teapot, and in his right hand, he carries a cup and saucer. His posture is dynamic, as if he is running or moving quickly, which adds to the chaotic and hurried atmosphere of the scene. The background is minimalistic, with only a few lines suggesting a path or ground, keeping the focus on the character. The overall mood conveyed by the image is one of absurdity and urgency, fitting the whimsical and nonsensical nature of the Mad Hatter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAD HATTER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character from Alice in Wonderland, wearing a large top hat and holding a teapot and a cup."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+</node>
+<node id="&quot;TEAPOT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small teapot held by the Mad Hatter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+</node>
+<node id="&quot;CUP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A cup held by the Mad Hatter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;MAD HATTER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of the Mad Hatter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAD HATTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mad Hatter是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TEAPOT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Teapot是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CUP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cup是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAD HATTER&quot;" target="&quot;TEAPOT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Mad Hatter is holding the teapot."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAD HATTER&quot;" target="&quot;CUP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Mad Hatter is holding the cup."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

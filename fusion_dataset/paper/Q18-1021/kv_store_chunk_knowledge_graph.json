@@ -1,0 +1,3217 @@
+{
+    "4": {
+        "chunk_key": "chunk-0a59ac02a0bfe8791934461b2a9f97d7",
+        "entities": [
+            {
+                "entity_name": "\"REACTOME\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"REACTOME is a database that provides information on interactions between proteins, as referenced in the text.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"DRUGBANK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DRUGBANK is a database mentioned in the text, which contains information about drugs and their interactions.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"SWISSPROT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SWISSPROT is a protein database that is referenced in the text for exact matches of drug or human protein names.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"SQUAD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SQUAD is a large-scale RC dataset organization mentioned in the text for comparison with WIKIHOP and MEDHOP.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"WIKIREADING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIREADING is an organization that inherits the train, development, and test set splits for WIKIHOP, as mentioned in the text.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIDATA is a database organization mentioned in the text, which provides type-consistent false answer candidates for the task.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"FABREGAT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fabregat et al. are authors referenced in the text, associated with REACTOME and its citation.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"PERCHA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percha et al. are authors mentioned in the text, whose work is considered similar to the approach taken in the document.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"ASPIRIN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Aspirin is a drug mentioned in the text, known to interact with a large number of other drugs.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"ISOTRETINOIN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Isotretinoin is a drug mentioned in the text, which interacts with fewer other drugs compared to Aspirin.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"LOUIS AUGUSTE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Louis Auguste is a historical figure mentioned in the text, with a query example related to his father.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"LOUIS XIV OF FRANCE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Louis XIV of France is a historical figure mentioned as the correct answer in a query example involving Louis Auguste.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"WEST SUFFOLK\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"West Suffolk is a geographical entity mentioned in the text, used as an example of ambiguity due to hypernymy.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"ENGLAND\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"England is a geographical entity mentioned in the text, related to the example of ambiguity involving West Suffolk.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "entity_name": "\"FRENCH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"French is a geographical entity mentioned in the text, associated with Louis XIV of France.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"REACTOME\"",
+                "tgt_id": "\"DRUGBANK\"",
+                "weight": 6.0,
+                "description": "\"Both REACTOME and DRUGBANK are databases that provide information on drug and protein interactions, as referenced in the text.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"REACTOME\"",
+                "tgt_id": "\"SWISSPROT\"",
+                "weight": 6.0,
+                "description": "\"REACTOME and SWISSPROT are both databases that offer information on proteins, with potential for interaction data overlap.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP and MEDHOP are both processes for document sub-sampling in the context of drug interactions, with MEDHOP being more densely connected.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIREADING\"",
+                "weight": 8.0,
+                "description": "\"WIKIHOP inherits its dataset splits from WIKIREADING, indicating a direct relationship in dataset preparation.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"SQUAD\"",
+                "weight": 5.0,
+                "description": "\"WIKIHOP is compared with SQUAD in terms of dataset sizes, indicating a relationship based on scale and complexity.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP includes type-consistent false answer candidates from WIKIDATA, showing a relationship in the data sourcing and task complexity.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"FABREGAT ET AL.\"",
+                "tgt_id": "\"REACTOME\"",
+                "weight": 7.0,
+                "description": "\"Fabregat et al. are associated with REACTOME through their citation in the text.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"PERCHA ET AL.\"",
+                "tgt_id": "\"DRUGBANK\"",
+                "weight": 6.0,
+                "description": "\"Percha et al.'s work is considered similar to the approach that involves using DRUGBANK for exact matches.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"ASPIRIN\"",
+                "tgt_id": "\"ISOTRETINOIN\"",
+                "weight": 6.0,
+                "description": "\"Aspirin and Isotretinoin are compared in the text regarding their interaction with other drugs.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"LOUIS AUGUSTE\"",
+                "tgt_id": "\"LOUIS XIV OF FRANCE\"",
+                "weight": 8.0,
+                "description": "\"Louis Auguste and Louis XIV of France are related as father and son in a query example provided in the text.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            },
+            {
+                "src_id": "\"WEST SUFFOLK\"",
+                "tgt_id": "\"ENGLAND\"",
+                "weight": 7.0,
+                "description": "\"West Suffolk and England are related geographical entities, with the text discussing ambiguity due to hypernymy.\"",
+                "source_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-d5683a5861bc57565129ae8c176a8aea",
+        "entities": [
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FastQA is a model initially developed and tested on single-hop RC datasets, utilizing bidirectional LSTMs and attention mechanisms.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF is a model that employs iterative conditioning across multiple layers, potentially making it better suited for integrating information across sequences.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al. are researchers who observed the phenomenon of lexical regularities among answers in RC dataset assembly.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"MUMBAI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Mumbai is a geographical location mentioned as an example in the context of masked candidate expressions.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"TF-IDF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"TF-IDF is a retrieval baseline used for comparison in the evaluation of models on the WIKIHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"DOCUMENT-CUE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Document-cue is a baseline used to predict samples correctly on both WIKIHOP and MEDHOP datasets.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"SQUAD\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SQuAD is a benchmark where the performance of BiDAF and FastQA models is compared, with nearly indistinguishable results.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "entity_name": "\"RC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"RC stands for Reading Comprehension, which is the task for which the models are being evaluated and compared.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"BIDAF\"",
+                "weight": 7.0,
+                "description": "\"Both FastQA and BiDAF are models compared in the context of their performance on RC datasets, with BiDAF showing stronger performance.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 6.0,
+                "description": "\"FastQA is a model evaluated on the WIKIHOP dataset, showing its performance in the context of this event.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 6.0,
+                "description": "\"FastQA is a model evaluated on the MEDHOP dataset, showing its performance in the context of this event.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 8.0,
+                "description": "\"BiDAF is a model evaluated on the WIKIHOP dataset, showing its performance in the context of this event.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 8.0,
+                "description": "\"BiDAF is a model evaluated on the MEDHOP dataset, showing its performance in the context of this event.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"HERMANN ET AL.\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 5.0,
+                "description": "\"Hermann et al. observed the phenomenon of lexical regularities in the context of RC dataset assembly, which is relevant to the WIKIHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"HERMANN ET AL.\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 5.0,
+                "description": "\"Hermann et al. observed the phenomenon of lexical regularities in the context of RC dataset assembly, which is relevant to the MEDHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"TF-IDF\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 6.0,
+                "description": "\"The TF-IDF retrieval baseline is used to evaluate model performance on the WIKIHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"TF-IDF\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 6.0,
+                "description": "\"The TF-IDF retrieval baseline is used to evaluate model performance on the MEDHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"DOCUMENT-CUE\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 6.0,
+                "description": "\"The Document-cue baseline is used to predict samples on the WIKIHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"DOCUMENT-CUE\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 6.0,
+                "description": "\"The Document-cue baseline is used to predict samples on the MEDHOP dataset.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"SQUAD\"",
+                "weight": 7.0,
+                "description": "\"BiDAF's performance is compared to FastQA on the SQuAD benchmark, showing nearly indistinguishable results.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"SQUAD\"",
+                "weight": 7.0,
+                "description": "\"FastQA's performance is compared to BiDAF on the SQuAD benchmark, showing nearly indistinguishable results.\"",
+                "source_id": "chunk-d5683a5861bc57565129ae8c176a8aea"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1",
+        "entities": [
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF is a neural RC model that leverages cross-document information and shows significant performance drops when documents containing candidate mentions are removed.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FastQA is a neural RC model that shows slight increases or decreases in performance depending on the dataset, indicating problems with integrating cross-document information.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"FREEBASE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FREEBASE is a structured knowledge resource that has been used to assemble large-scale datasets for end-to-end text-based QA.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIPEDIA is a source used to create large-scale datasets for end-to-end text-based QA, with datasets requiring a combination of multiple independent facts.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"TRIVIAQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"TriviaQA is a dataset that involves multi-step reasoning, with complexity stemming from parsing compositional questions.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"TABLE 7\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 7 presents test accuracy (masked) when only documents containing answer candidates are given, highlighting the impact on model performance.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_7.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The image referred to in the text is associated with Table 7, potentially illustrating the test accuracy data.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"S_Q\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"S_q refers to the set of documents leading to the correct answer in the context of examining RC models' performance with only relevant documents.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"GOLD CHAIN SETUP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The gold chain setup is a scenario where RC models are presented with only relevant documents, leading to significant performance improvements.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"MASKING TEMPLATE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The masking template is a feature in the masked gold chain setup that allows models to achieve almost perfect scores by recognizing its pattern.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"UNRELATED DOCUMENTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Unrelated documents with type-consistent candidates can introduce noise, affecting the models' answer selection process robustness.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"END-TO-END TEXT-BASED QA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"End-to-end text-based QA has seen a surge in interest due to the advent of large-scale datasets, which are assembled based on various sources.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"FRACAS TEST SUITE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The FraCaS test suite is a limited-size multi-hop RC resource, often used for comparison in the field of cross-document RC and multistep inference.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"WESTON ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weston et al., 2016 is referenced in the context of synthetic language-based multi-hop RC resources.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"INDUCTIVE LOGIC PROGRAMMING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Inductive Logic Programming is a method for KB inference, which includes approaches like Quinlan (1990), Pazzani et al. (1991), and Richards and Mooney (1991).\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"MARKOV LOGIC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Markov Logic is a probabilistic relaxation to logic used for KB inference, with references to Richardson and Domingos (2006) and Schoenmackers et al. (2008).\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"PATH RANKING ALGORITHM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Path Ranking Algorithm is a scalable approach to composite rule learning, performing random walks to identify salient paths between entities, referenced in the work of Lao and Cohen (2010) and Lao et al. (2011).\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "entity_name": "\"GARDNER ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gardner et al., 2013 is referenced in the context of circumventing sparsity problems in KB inference methods.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"BIDAF\"",
+                "weight": 7.0,
+                "description": "\"BiDAF's performance is evaluated in the WIKIHOP setting, showing its ability to leverage cross-document information.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"BIDAF\"",
+                "weight": 6.0,
+                "description": "\"BiDAF's performance is significantly affected by the masking in the MEDHOP setting, indicating the model's reliance on cross-document information.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 5.0,
+                "description": "\"FastQA's performance on WIKIHOP shows slight increases, suggesting it has fewer problems integrating cross-document information compared to BiDAF.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 4.0,
+                "description": "\"FastQA's performance on MEDHOP shows a decrease, indicating problems with integrating cross-document information in this setting.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"WIKIHOP is specifically designed for cross-document RC and multistep inference, unlike WIKIPEDIA-based datasets that are confined to single documents.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP, like WIKIHOP, is designed for cross-document RC and multistep inference, contrasting with single-document WIKIPEDIA-based datasets.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"TABLE 7\"",
+                "tgt_id": "\"IMAGES/IMAGE_7.JPG\"",
+                "weight": 6.0,
+                "description": "\"Table 7 is likely accompanied by an image (images/image_7.jpg) that visually represents the data it contains.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"S_Q\"",
+                "tgt_id": "\"GOLD CHAIN SETUP\"",
+                "weight": 7.0,
+                "description": "\"S_q is the set of documents considered in the gold chain setup, which is crucial for evaluating the models' performance with only relevant documents.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"MASKING TEMPLATE\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 8.0,
+                "description": "\"The masking template is particularly relevant in the MEDHOP setting, where it allows models to achieve high scores when only relevant documents are provided.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            },
+            {
+                "src_id": "\"END-TO-END TEXT-BASED QA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP is one of the datasets used in the surge of interest in end-to-end text-based QA, requiring cross-document RC and multistep inference.\"",
+                "source_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-82f88c585b6486b045e4d336b8795f49",
+        "entities": [
+            {
+                "entity_name": "\"SEO ET AL., 2017A\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seo et al., 2017a is a research group that proposed a competitive RC model.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"WEISSENBORN ET AL., 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Weissenborn et al., 2017 is a research group that proposed a competitive RC model.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"JIA AND LIANG, 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Jia and Liang, 2017 is a research group referenced for their work on multi-hop reasoning tasks.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL., 2015\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hermann et al., 2015 is a research group that relied on entity masking in their work.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"HILL ET AL., 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hill et al., 2016 is a research group that relied on entity masking in their work.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"HANGING GARDENS OF MUMBAI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hanging Gardens of Mumbai is a geo entity used as an example in the dataset assembly process.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"INDIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"India is a geo entity mentioned as the country related to the Hanging Gardens of Mumbai.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"CROSS-DOCUMENT MULTI-STEP RC TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The cross-document multi-step RC task is a key contribution of the paper, involving information integration across documents.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"DATASET INDUCTION STRATEGY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"A general dataset induction strategy is proposed for constructing multi-hop RC datasets.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"MULTI-HOP RC TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The multi-hop RC task is formally defined in the paper, involving a model given a query, supporting documents, and candidate answers.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"QUERY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A query is a concept in the multi-hop RC task, representing a question with a set of supporting documents and candidate answers.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"SUPPORTING DOCUMENTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Supporting documents are concept in the multi-hop RC task, providing context for the query and candidate answers.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"CANDIDATE ANSWERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Candidate answers are concept in the multi-hop RC task, representing potential answers to the query.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"CORRECT ANSWER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The correct answer is a concept in the multi-hop RC task, referring to the true answer among the candidate answers.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"BACKGROUND INFORMATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Background information is a concept used during dataset assembly but not available to the model.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"DOCUMENT CORPUS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A document corpus is a concept representing a collection of documents used in the dataset assembly process.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"KB\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"KB refers to a knowledge base containing fact triples used in the dataset assembly process.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"FACT TRIPLES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Fact triples are concept in the KB, consisting of a subject entity, relation, and object entity.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"SUBJECT ENTITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A subject entity is a concept in the fact triples, representing the main subject of the fact.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"RELATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A relation is a concept in the fact triples, representing the relationship between the subject and object entities.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"OBJECT ENTITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"An object entity is a concept in the fact triples, representing the object of the fact.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"QUERY-ANSWER PAIRS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Query-answer pairs are concept created by transforming KB facts into questions with missing object slots.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"DIRECTED BIPARTITE GRAPH\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A directed bipartite graph is a concept used to connect documents and entities mentioned in them.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"DOCUMENT NODE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A document node is a concept in the directed bipartite graph, representing a document in the corpus.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"ENTITY NODE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"An entity node is a concept in the directed bipartite graph, representing an entity from the KB.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"TYPE-CONSISTENT ANSWERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Type-consistent answers are concept in the multi-hop RC task, referring to answers that are consistent with the query type.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"END POINTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"End points are concept in the graph traversal process, representing the starting and ending nodes.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"CHAIN OF DOCUMENTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A chain of documents is a concept in the multi-hop RC task, representing a sequence of documents leading from the query subject to the answer candidate.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "entity_name": "\"TYPE-CONSISTENCY HEURISTICS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Type-consistency heuristics are concept used by models to identify answers based on type consistency.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SEO ET AL., 2017A\"",
+                "tgt_id": "\"WEISSENBORN ET AL., 2017\"",
+                "weight": 6.0,
+                "description": "\"Both Seo et al., 2017a and Weissenborn et al., 2017 are organizations that proposed competitive RC models which were evaluated in the text.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "src_id": "\"JIA AND LIANG, 2017\"",
+                "tgt_id": "\"HANGING GARDENS OF MUMBAI\"",
+                "weight": 5.0,
+                "description": "\"Jia and Liang, 2017's work is referenced in the context of the multi-hop reasoning task involving the Hanging Gardens of Mumbai.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "src_id": "\"HERMANN ET AL., 2015\"",
+                "tgt_id": "\"HILL ET AL., 2016\"",
+                "weight": 5.0,
+                "description": "\"Hermann et al., 2015 and Hill et al., 2016 are both organizations that relied on entity masking, a method contrasted with the approach described in the text.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            },
+            {
+                "src_id": "\"HANGING GARDENS OF MUMBAI\"",
+                "tgt_id": "\"INDIA\"",
+                "weight": 7.0,
+                "description": "\"The Hanging Gardens of Mumbai is associated with India as its country, as mentioned in the KB fact triple example.\"",
+                "source_id": "chunk-82f88c585b6486b045e4d336b8795f49"
+            }
+        ]
+    },
+    "14": {
+        "chunk_key": "chunk-4dd96868eaff6dd4939390e3f14d6da0",
+        "entities": [
+            {
+                "entity_name": "\"UNIPROT CONSORTIUM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"UniProt Consortium is an organization responsible for maintaining the UniProt knowledgebase, a universal protein database.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"DENNY VRANDEČIĆ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Denny Vrandečić is an individual who presented on Wikidata, a new platform for collaborative data collection, at the 21st International Conference on World Wide Web.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"DIRK WEISSENBORN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dirk Weissenborn is a person involved in multiple research works related to neural QA and reading comprehension.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"GEORG WIESE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Georg Wiese is a person who has co-authored research on neural QA and participated in the BioNLP 2017 conference.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"LAURA SEIFFE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Laura Seiffe is a person who co-authored a paper on making neural QA as simple as possible but not simpler.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"NELSON F. LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nelson F. Liu is a person who co-authored a paper on crowdsourcing multiple choice science questions.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is a person who co-authored a paper on crowdsourcing multiple choice science questions.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"JOHANNES WELBL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Johannes Welbl is a person who co-authored a paper on crowdsourcing multiple choice science questions.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"SUMIT CHOPRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sumit Chopra is a person who co-authored papers on memory networks and AI-complete question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"ANTOINE BORDES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Antoine Bordes is a person who co-authored papers on memory networks and AI-complete question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"TOMAS MIKOLOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomas Mikolov is a person who co-authored a paper on AI-complete question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"MARIANA NEVES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mariana Neves is a person who co-authored a paper on Neural question answering at BioASQ 5B.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"CAIMING XIONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Caiming Xiong is a person who co-authored a paper on dynamic coattention networks for question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"VICTOR ZHONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Victor Zhong is a person who co-authored a paper on dynamic coattention networks for question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is a person who co-authored a paper on dynamic coattention networks for question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"YI YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yi Yang is a person who co-authored a paper on WikiQA, a challenge dataset for open-domain question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"WEN-TAU YIH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wen-tau Yih is a person who co-authored a paper on WikiQA, a challenge dataset for open-domain question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER MEEK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Meek is a person who co-authored a paper on WikiQA, a challenge dataset for open-domain question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"21ST INTERNATIONAL CONFERENCE ON WORLD WIDE WEB\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 21st International Conference on World Wide Web is an event where Denny Vrandečić presented on Wikidata.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE 21ST CONFERENCE ON COMPUTATIONAL NATURAL LANGUAGE LEARNING (CONLL 2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoNLL 2017 is an event where Dirk Weissenborn, Georg Wiese, and Laura Seiffe presented their research on neural QA.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"CORR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CoRR is an organization that hosts preprints and papers in the field of computer science, where Dirk Weissenborn published his work on separating answers from queries for neural reading comprehension.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"THIRD WORKSHOP ON NOISY USERGENERATED TEXT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Third Workshop on Noisy Usergenerated Text is an event where Johannes Welbl, Nelson F. Liu, and Matt Gardner presented their research on crowdsourcing multiple choice science questions.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"ICLR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ICLR is an event where Jason Weston and his co-authors presented papers on memory networks and AI-complete question answering.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"BIONLP 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BioNLP 2017 is an event where Georg Wiese, Dirk Weissenborn, and Mariana Neves presented their research on neural question answering at BioASQ 5B.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "entity_name": "\"2015 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2015 Conference on Empirical Methods in Natural Language Processing is an event where Yi Yang, Wen-tau Yih, and Christopher Meek presented their work on WikiQA.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DIRK WEISSENBORN\"",
+                "tgt_id": "\"GEORG WIESE\"",
+                "weight": 7.0,
+                "description": "\"Dirk Weissenborn and Georg Wiese have co-authored research on neural QA, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"DIRK WEISSENBORN\"",
+                "tgt_id": "\"LAURA SEIFFE\"",
+                "weight": 7.0,
+                "description": "\"Dirk Weissenborn and Laura Seiffe have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"JOHANNES WELBL\"",
+                "tgt_id": "\"NELSON F. LIU\"",
+                "weight": 7.0,
+                "description": "\"Johannes Welbl and Nelson F. Liu have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"JOHANNES WELBL\"",
+                "tgt_id": "\"MATT GARDNER\"",
+                "weight": 7.0,
+                "description": "\"Johannes Welbl and Matt Gardner have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"GEORG WIESE\"",
+                "tgt_id": "\"MARIANA NEVES\"",
+                "weight": 7.0,
+                "description": "\"Georg Wiese and Mariana Neves have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"CAIMING XIONG\"",
+                "tgt_id": "\"VICTOR ZHONG\"",
+                "weight": 7.0,
+                "description": "\"Caiming Xiong and Victor Zhong have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"CAIMING XIONG\"",
+                "tgt_id": "\"RICHARD SOCHER\"",
+                "weight": 7.0,
+                "description": "\"Caiming Xiong and Richard Socher have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            },
+            {
+                "src_id": "\"YI YANG\"",
+                "tgt_id": "\"WEN-TAU YIH\"",
+                "weight": 7.0,
+                "description": "\"Yi Yang and Wen-tau Yih have co-authored a paper, indicating a professional relationship.\"",
+                "source_id": "chunk-4dd96868eaff6dd4939390e3f14d6da0"
+            }
+        ]
+    },
+    "12": {
+        "chunk_key": "chunk-e488a3bda6dc03a4a1588280d4aefd08",
+        "entities": [
+            {
+                "entity_name": "\"VIVIAN LAW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vivian Law is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"CRAIG KNOX\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Craig Knox is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"YANNICK DJOUMBOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yannick Djoumbou is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"TIM JEWISON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Jewison is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"AN CHI GUO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"An Chi Guo is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"YIFENG LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yifeng Liu is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ADAM MACIEJEWSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Maciejewski is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"DAVID ARNDT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Arndt is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"MICHAEL WILSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Wilson is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"VANESSA NEVEU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vanessa Neveu is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ALEXANDRA TANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexandra Tang is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"GERALDINE GABRIEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Geraldine Gabriel is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"CAROL LY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Carol Ly is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"SAKINA ADAMJEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sakina Adamjee is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ZERIHUN T. DAME\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zerihun T. Dame is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"BEOMSOO HAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Beomsoo Han is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"YOU ZHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"You Zhou is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"DAVID S. WISHART\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David S. Wishart is an author of the paper 'DrugBank 4.0: Shedding new light on drug metabolism'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is an author of the paper 'Zero-shot relation extraction via reading comprehension'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"MINJOON SEO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minjoon Seo is(\"entity\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author of the paper 'Zero-shot relation extraction via reading comprehension'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"DEKANG LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dekang Lin is an author of the paper 'Discovery of inference rules for question-answering'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"PATRICK PANTEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Patrick Pantel is an author of the paper 'Discovery of inference rules for question-answering'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"FEI LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fei Liu is an author of the paper 'Gated end-to-end memory networks'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"JULIEN PEREZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julien Perez is an author of the paper 'Gated end-to-end memory networks'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"MIKE MINTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mike Mintz is an author of the paper 'Distant supervision for relation extraction without labeled data'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"STEVEN BILLS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Steven Bills is an author of the paper 'Distant supervision for relation extraction without labeled data'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"RION SNOW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rion Snow is an author of the paper 'Distant supervision for relation extraction without labeled data'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"DANIEL JURAFSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Jurafsky is an author of the paper 'Distant supervision for relation extraction without labeled data'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ALVARO MORALES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alvaro Morales is an author of the paper 'Learning to answer questions from Wikipedia infoboxes'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"VAROT PREMTOON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Varot Premtoon is an author of the paper 'Learning to answer questions from Wikipedia infoboxes'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"CORDELIA AVERY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cordelia Avery is an author of the paper 'Learning to answer questions from Wikipedia infoboxes'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"SUE FELSHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sue Felshin is an author of the paper 'Learning to answer questions from Wikipedia infoboxes'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"BORIS KATZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Boris Katz is an author of the paper 'Learning to answer questions from Wikipedia infoboxes'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"KARTHIK NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karthik Narasimhan is an author of the paper 'Improving information extraction by acquiring external evidence with reinforcement learning'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ADAM YALA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Yala is an author of the paper 'Improving information extraction by acquiring external evidence with reinforcement learning'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"REGINA BARZILAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Regina Barzilay is an author of the paper 'Improving information extraction by acquiring external evidence with reinforcement learning'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ARVIND NEELAKANTAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arvind Neelakantan is an author of the paper 'Compositional vector space models for knowledge base completion'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"BENJAMIN ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Roth is an author of the paper 'Compositional vector space models for knowledge base completion'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            },
+            {
+                "entity_name": "\"ANDREW MCCALLUM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew McCallum is an author of the paper 'Compositional vector space models for knowledge base completion'.\"",
+                "source_id": "chunk-e488a3bda6dc03a4a1588280d4aefd08"
+            }
+        ],
+        "relationships": []
+    },
+    "5": {
+        "chunk_key": "chunk-6a1862c1200f3971d9c39eab05cd7fa2",
+        "entities": [
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Mechanical Turk is a platform used for crowdsourcing human annotation tasks.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al. (2015) is a group of researchers referenced in the context of prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"HILL ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hill et al. (2016) is a group of researchers referenced in the context of prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"HEWLETT ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hewlett et al. (2016) is a group of researchers referenced in the context of prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"WITOLD CICHY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Witold Cichy is a Polish footballer mentioned in the context of a fact inference example.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"POLAND\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Poland is the country of citizenship for Witold Cichy, mentioned in the context of a fact inference example.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"SILESIAN VOIVODESHIP\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Silesian Voivodeship is a region in Poland, mentioned in the context of Witold Cichy's background.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"RIEDEL ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Riedel et al., 2010 is a group of researchers whose work is referenced in the context of distant supervision assumption violation.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"LOUIS AUGUSTE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Louis Auguste is mentioned as an example in the context of distant supervision assumption.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIDATA is a knowledge base that is used for comparison with WIKIPEDIA in the context of information discrepancies.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIPEDIA is an online encyclopedia that is used for comparison with WIKIDATA in the context of information discrepancies.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"SECTION 5.3\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Section 5.3 refers to a part of the document where the strategy for validated test sets is described.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"DEV SET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Dev set refers to the development set of questions used for validation and accuracy measurement.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"LANDIS AND KOCH (1977)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Landis and Koch (1977) are referenced as authorities on inter-annotator agreement and Fleiss’ kappa.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"FLEISS’ KAPPA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Fleiss’ kappa is a statistical measure used to assess the degree of agreement between annotators.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "entity_name": "\"WODZISAW LSKI (WODZISAW LSKI)\"",
+                "entity_type": "\"GEO\"",
+                "description": "Wodzisaw lski is a town in Silesian Voivodeship, southern Poland, mentioned in the context of Witold Cichy's background and used as an example in fact inference.",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 6.0,
+                "description": "\"WIKIHOP and MEDHOP are both tasks that involve distant supervision and document analysis, though they differ in complexity and requirements.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"AMAZON MECHANICAL TURK\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP uses Amazon Mechanical Turk for crowdsourcing human annotation tasks.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"AMAZON MECHANICAL TURK\"",
+                "weight": 4.0,
+                "description": "\"MEDHOP does not use Amazon Mechanical Turk due to the need for specialist knowledge and complexity of annotation.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"HERMANN ET AL. (2015)\"",
+                "weight": 5.0,
+                "description": "\"WIKIHOP is related to Hermann et al. (2015) as it is a task that builds upon or is compared to their prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"HILL ET AL. (2016)\"",
+                "weight": 5.0,
+                "description": "\"WIKIHOP is related to Hill et al. (2016) as it is a task that builds upon or is compared to their prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"HEWLETT ET AL. (2016)\"",
+                "weight": 5.0,
+                "description": "\"WIKIHOP is related to Hewlett et al. (2016) as it is a task that builds upon or is compared to their prior work on distant supervision.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WITOLD CICHY\"",
+                "tgt_id": "\"POLAND\"",
+                "weight": 8.0,
+                "description": "\"Witold Cichy has Poland as his country of citizenship, indicating a direct relationship between the person and the geographical location.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WITOLD CICHY\"",
+                "tgt_id": "\"SILESIAN VOIVODESHIP\"",
+                "weight": 7.0,
+                "description": "\"Witold Cichy is from Wodzisaw lski, a town in Silesian Voivodeship, indicating a geographical relationship.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"RIEDEL ET AL., 2010\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 5.0,
+                "description": "\"Riedel et al., 2010's work is related to WIKIHOP as it is referenced in the context of the distant supervision assumption.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"LOUIS AUGUSTE\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 4.0,
+                "description": "\"Louis Auguste is mentioned in the context of WIKIHOP's distant supervision assumption.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIDATA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIDATA is used in WIKIHOP for comparison with WIKIPEDIA to identify discrepancies.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIPEDIA is used in WIKIHOP for comparison with WIKIDATA to identify discrepancies.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"SECTION 5.3\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 6.0,
+                "description": "\"Section 5.3 is part of the document where the strategy for validated test sets for WIKIHOP is described.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"DEV SET\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"Dev set is used in WIKIHOP for validation and accuracy measurement.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"LANDIS AND KOCH (1977)\"",
+                "tgt_id": "\"FLEISS’ KAPPA\"",
+                "weight": 6.0,
+                "description": "\"Landis and Koch (1977) are authorities referenced in the context of Fleiss’ kappa and inter-annotator agreement.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"FLEISS’ KAPPA\"",
+                "tgt_id": "\"AMAZON MECHANICAL TURK\"",
+                "weight": 7.0,
+                "description": "\"Fleiss’ kappa is used to measure inter-annotator agreement among annotators on Amazon Mechanical Turk.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            },
+            {
+                "src_id": "\"WODZISAW LSKI (WODZISAW LSKI)\"",
+                "tgt_id": "\"POLAND\"",
+                "weight": 7.0,
+                "description": "\"Wodzisaw lski is a town in Poland, indicating a geographical relationship.\"",
+                "source_id": "chunk-6a1862c1200f3971d9c39eab05cd7fa2"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-ee3008a29166ece6f988d71ef3416028",
+        "entities": [
+            {
+                "entity_name": "\"JOHANNES WELBL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Johannes Welbl is one of the authors of the paper on multi-hop reading comprehension across documents.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"PONTUS STENETORP\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pontus Stenetorp is one of the authors of the paper on multi-hop reading comprehension across documents.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"SEBASTIAN RIEDEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sebastian Riedel is one of the authors of the paper on multi-hop reading comprehension across documents.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"UNIVERSITY COLLEGE LONDON\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"University College London is the institution where Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel are affiliated.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"BLOOMSBURY AI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bloomsbury AI is the second institution where Sebastian Riedel is affiliated.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"MUMBAI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Mumbai, also known as Bombay, is the capital city of the Indian state of Maharashtra and is the most populous city in India.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"ARABIAN SEA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The Arabian Sea is a region of the northern Indian Ocean bounded by Pakistan, Iran, Somalia, the Arabian Peninsula, and India.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"HANGING GARDENS OF MUMBAI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The Hanging Gardens of Mumbai, also known as Pherozeshah Mehta Gardens, are terraced gardens providing sunset views over the Arabian Sea.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"KADLEC ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kadlec et al. are referenced in the paper for their work on Reading Comprehension methods that approach human-level performance.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"SEO ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Seo et al. are referenced for their proposed competitive Reading Comprehension model.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"WEISSENBORN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weißenborn et al. are referenced for their work on Reading Comprehension methods and their proposed competitive model.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"GURULINGAPPA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gurulingappa et al. are referenced for their work on Information Extraction applications, specifically discovering drug-drug interactions.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"CARPINETO AND ROMANO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Carpineto and Romano are referenced for their work that would benefit search applications.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"LIN AND PANTEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lin and Pantel are referenced for their work on Question Answering applications.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIPEDIA is the source of articles used in the WIKIHOP dataset for multi-hop reading comprehension.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIDATA is used as a Knowledge Base to draw upon existing knowledge and serve as ground truth for the datasets.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"DRUGBANK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DRUGBANK is used as a Knowledge Base for the MEDHOP dataset, providing information on drugs and proteins interactions.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"MEDLINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MEDLINE is the source of abstracts used in the MEDHOP dataset for establishing drug-drug interactions.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"MINTZ ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mintz et al. are referenced for their work on distant supervision, a technique utilized to induce the datasets.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"HEWLETT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hewlett et al. are referenced for their similar work on inducing datasets using distant supervision.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "entity_name": "\"JOSHI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joshi et al. are referenced for their similar work on inducing datasets using distant supervision.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JOHANNES WELBL\"",
+                "tgt_id": "\"UNIVERSITY COLLEGE LONDON\"",
+                "weight": 8.0,
+                "description": "\"Johannes Welbl is affiliated with University College London.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"PONTUS STENETORP\"",
+                "tgt_id": "\"UNIVERSITY COLLEGE LONDON\"",
+                "weight": 8.0,
+                "description": "\"Pontus Stenetorp is affiliated with University College London.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"SEBASTIAN RIEDEL\"",
+                "tgt_id": "\"UNIVERSITY COLLEGE LONDON\"",
+                "weight": 8.0,
+                "description": "\"Sebastian Riedel is affiliated with University College London.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"SEBASTIAN RIEDEL\"",
+                "tgt_id": "\"BLOOMSBURY AI\"",
+                "weight": 8.0,
+                "description": "\"Sebastian Riedel is affiliated with Bloomsbury AI.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"HANGING GARDENS OF MUMBAI\"",
+                "tgt_id": "\"MUMBAI\"",
+                "weight": 9.0,
+                "description": "\"The Hanging Gardens of Mumbai are located in Mumbai.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"MUMBAI\"",
+                "tgt_id": "\"ARABIAN SEA\"",
+                "weight": 7.0,
+                "description": "\"Mumbai is bounded by the Arabian Sea.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP and MEDHOP are both datasets introduced in the paper for multi-hop reading comprehension tasks.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"UNIVERSITY COLLEGE LONDON\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP is a dataset devised by researchers affiliated with University College London.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"UNIVERSITY COLLEGE LONDON\"",
+                "weight": 7.0,
+                "description": "\"MEDHOP is a dataset devised by researchers affiliated with University College London.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            },
+            {
+                "src_id": "\"WIKIDATA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 8.0,
+                "description": "\"WIKIDATA serves as a ground truth for the WIKIHOP dataset.\"",
+                "source_id": "chunk-ee3008a29166ece6f988d71ef3416028"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-728223dc801f8e71465cbb47fef4b6e3",
+        "entities": [
+            {
+                "entity_name": "\"SCHOENMACKERS ET AL.\"",
+                "entity_type": "\"EVENT\"",
+                "description": "The event refers to the publication or research conducted by Schoenmackers and colleagues in 2008 and 2010, addressing limited coverage, inefficient inference, and efforts to circumvent sparsity in approaches.",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"LAO AND COHEN, 2010\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Lao and Cohen in 2010, introducing the Path Ranking Algorithm.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"LAO ET AL., 2011\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Lao and colleagues in 2011, further developing the Path Ranking Algorithm.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"GARDNER ET AL., 2013\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Gardner and colleagues in 2013, introducing synthetic links via dense latent embeddings to circumvent sparsity problems.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"BORDES ET AL., 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Bordes and colleagues in 2014, proposing a method using vector addition for composite rule learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"NEELAKANTAN ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Neelakantan and colleagues in 2015, proposing the use of RNNs for composite rule learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"DAS ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Das and colleagues in 2017, also proposing the use of RNNs for composite rule learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"JAIN, 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Jain in 2016, proposing the use of memory networks for composite rule learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"BANKO ET AL., 2007\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Banko and colleagues in 2007, related to information extraction steps in a pipeline.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"BOLLACKER ET AL., 2008\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Bollacker and colleagues in 2008, related to direct human annotation.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"SEO ET AL., 2017A\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Seo and colleagues in 2017a, demonstrating end-to-end language understanding approaches for answering questions directly from text.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"SHEN ET AL.\"",
+                "entity_type": "\"EVENT\"",
+                "description": "The event refers to the publication or research conducted by Shen and colleagues in 2017, demonstrating end-to-end language understanding approaches for answering questions directly from text and related to query reformulation techniques using neural reinforcement learning.",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"FRIED ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Fried and colleagues in 2015, demonstrating the benefits of exploiting information from related documents based on lexical semantic similarity.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"JANSEN ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Jansen and colleagues in 2017, chaining textual background resources for science exam QA.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"WESTON ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Weston and colleagues in 2015, developing memory networks for multi-step reading comprehension.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"SUKHBAATAR ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Sukhbaatar and colleagues in 2015, also(\"entity\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"PENG ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Peng and colleagues in 2015, related to the structure of neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"WEISSENBORN, 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Weissenborn in 2016, contributing to the understanding of neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"XIONG ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Xiong and colleagues in 2017, related to the interaction between question, context, and answer candidates in neural models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"LIU AND PEREZ, 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Liu and Perez in 2017, also related to the structure and iteration of neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"SORDONI ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Sordoni and colleagues in 2016, focusing on the iteration over several times in neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"NEUMANN ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Neumann and colleagues in 2016, also focusing on the iteration over several times in neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"SEO ET AL., 2017B\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Seo and colleagues in 2017b, related to trainable stopping mechanisms in neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"HU ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Hu and colleagues in 2017, also related to trainable stopping mechanisms in neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"GRAVES, 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Graves in 2016, related to trainable stopping mechanisms in neural multi-hop models.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"NOGUEIRA AND CHO\"",
+                "entity_type": "\"EVENT\"",
+                "description": "The event refers to the publication or research conducted by Nogueira and Cho in 2016 and 2017, addressing the expansion of the document set available to a QA system through web navigation and query reformulation techniques using neural reinforcement learning.",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"NARASIMHAN ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Narasimhan and colleagues in 2016, related to query reformulation techniques using neural reinforcement learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"BUCK ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The event refers to the publication or research conducted by Buck and colleagues in 2018, related to query reformulation techniques using neural reinforcement learning.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            },
+            {
+                "entity_name": "\"ALLEN DISTINGUISHED INVESTIGATOR AWARD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Allen Distinguished Investigator Award is an organization that supports research and is mentioned as a supporter of the work in the paper.\"",
+                "source_id": "chunk-728223dc801f8e71465cbb47fef4b6e3"
+            }
+        ],
+        "relationships": []
+    },
+    "6": {
+        "chunk_key": "chunk-023b0108469abe3596a799181e4f77c0",
+        "entities": [
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"RANDOM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Random is a baseline model that selects a random candidate for the task, indicating a non-strategic approach to answer prediction.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"MAX-MENTION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Max-mention is a model that predicts the most frequently mentioned candidate in the support documents, breaking ties randomly.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"MAJORITY-CANDIDATE-PER-QUERY-TYPE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Majority-candidate-per-query-type is a model that predicts the candidate most frequently observed as the true answer in the training set, based on the query type.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"TF-IDF RETRIEVAL-BASED MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"TF-IDF Retrieval-based models are strong QA baselines that search for individual documents based on keywords in the question, typically not combining information across documents.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"DOCUMENT-CUE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Document-cue is a baseline that predicts the candidate with the highest score across document-answer co-occurrences, indicating the presence of certain documents in the support set.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FastQA is an LSTM-based extractive QA model that predicts an answer span within a single document and is adapted for a multi-document setting.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF, or Bidirectional Attention Flow model, is an LSTM-based extractive QA model that predicts an answer span within a single document and is adapted for multi-document settings.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"SECTION 5.2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Section 5.2 describes the process of validating the test set for MEDHOP, which includes samples labeled by a majority of annotators as 'follows' and requiring multiple documents.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"SECTION 5.3\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Section 5.3 is referenced for the evaluation of models on both the full test set and the validated portion of MEDHOP.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"CROWDSOURCING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Crowdsourcing is mentioned as a not feasible method for MEDHOP due to the requirement of specialist knowledge.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"ANNOTATORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Annotators are individuals who label samples for the test set of MEDHOP, with a majority (at least 2 of 3) required to label a sample as 'follows'.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"$20\\%$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$20\\%$ of the MEDHOP test set was manually annotated to identify samples implying the correct answer and requiring multiple documents.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"CLARK ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark et al., 2016 is referenced to support the claim that retrieval-based models are strong QA baselines if candidate answers are provided.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"WELBL ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Welbl et al., 2017 is referenced to support the claim that retrieval-based models are strong QA baselines if candidate answers are provided.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"WHOOSH TEXT RETRIEVAL ENGINE\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The whoosh text retrieval engine is used by the TF-IDF model to search for individual documents based on keywords in the question.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"RAJPURKAR ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajpurkar et al., 2016 is referenced for the method of measuring accuracy based on the exact match between the prediction and answer in the experiments.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"SEO ET AL., 2017A\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Seo et al., 2017a is referenced for the default hyperparameters used in the implementation of the BiDAF model.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pennington et al., 2014 is referenced for the pretrained GloVe embeddings used in both BiDAF and FastQA models.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "entity_name": "\"WEISSENBORN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weissenborn et al., 2017 is referenced for the implementation of the FastQA model used in the experiments.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"MEDHOP\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP and MEDHOP are both datasets used for experiments to evaluate the performance of various models, including baseline models.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"RANDOM\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the Random model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"MAX-MENTION\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the Max-mention model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"MAJORITY-CANDIDATE-PER-QUERY-TYPE\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the Majority-candidate-per-query-type model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"TF-IDF RETRIEVAL-BASED MODELS\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which TF-IDF Retrieval-based models are tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"DOCUMENT-CUE\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the Document-cue model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"FASTQA\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the FastQA model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"BIDAF\"",
+                "weight": 6.0,
+                "description": "\"MEDHOP is a dataset on which the BiDAF model is tested to establish performance baselines.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"SECTION 5.2\"",
+                "tgt_id": "\"ANNOTATORS\"",
+                "weight": 6.0,
+                "description": "\"Section 5.2 describes the process where annotators label samples for the validated test set of MEDHOP.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"SECTION 5.3\"",
+                "tgt_id": "\"ANNOTATORS\"",
+                "weight": 6.0,
+                "description": "\"Section 5.3 involves the evaluation of models on the validated portion of the test set, which includes samples labeled by annotators.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"ANNOTATORS\"",
+                "weight": 7.0,
+                "description": "\"MEDHOP's test set samples are labeled by annotators, with a majority required to label a sample as 'follows'.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"MEDHOP\"",
+                "tgt_id": "\"$20\\%$\"",
+                "weight": 7.0,
+                "description": "\"$20\\%$ of the MEDHOP test set was manually annotated for the purpose of identifying samples requiring multiple documents.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            },
+            {
+                "src_id": "\"TF-IDF RETRIEVAL-BASED MODELS\"",
+                "tgt_id": "\"WHOOSH TEXT RETRIEVAL ENGINE\"",
+                "weight": 8.0,
+                "description": "\"TF-IDF Retrieval-based models use the whoosh text retrieval engine to search for documents based on keywords in the question.\"",
+                "source_id": "chunk-023b0108469abe3596a799181e4f77c0"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-5df9e676a18cd08287218ab75acf0a60",
+        "entities": [
+            {
+                "entity_name": "\"WIKIREADING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WIKIREADING is a dataset analyzed for biases and errors in the context of dataset creation and analysis.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"HEWLETT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hewlett et al. conducted a limited analysis of the WIKIREADING dataset, which is further analyzed for downstream effects on WIKIHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"MEDHOP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"COHEN AND HUNTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cohen and Hunter are authors who noted the exponential growth in the number of publications in molecular biology, influencing the creation of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"HIRSCHMAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hirschman et al. contributed to research efforts in Information Extraction (IE) for biomedical text, relevant to the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"KIM ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kim et al. are researchers whose work in Information Extraction (IE) is related to the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"HERSH ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hersh et al. conducted research in Question Answering (QA) for biomedical text, influencing the development of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"NENTIDIS ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nentidis et al. are researchers whose work on diverse query types in RC datasets is relevant to the MEDHOP dataset construction.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"GURULINGAPPA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gurulingappa et al. focused on explicit mentions of Drug-Drug Interactions (DDIs) in single sentences, contributing to the understanding of DDIs relevant to MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"PERCHA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percha et al. are researchers whose work on DDIs is related to the MEDHOP dataset, focusing on explicit mentions of interactions.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"SEGURA-BEDMAR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Segura-Bedmar et al. are researchers who have worked on explicit mentions of Drug-Drug Interactions (DDIs), relevant to the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"PENG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng et al. showed that cross-sentence relation extraction increases the number of available relations, influencing the approach taken in MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"SWANSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Swanson is associated with the concept of inferring scientific discoveries from established public knowledge, relevant to the promise of multi-hop methods in MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"LEUPROLIDE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Leuprolide is a drug mentioned in the context of causing GnRH receptor-induced synaptic potentiations and is part of the PPI chains relevant to MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"PROGONADOLIBERIN-1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Progonadoliberin-1 is a protein that can block the effects of Leuprolide, as mentioned in the context of Drug-Drug Interactions (DDIs) in MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"TRIPTORELIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Triptorelin is a drug that is a superagonist of the protein Progonadoliberin-1, suggesting an interaction with Leuprolide as described in MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"UROFOLLITROPIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Urofollit(\"entity\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"ASHBURNER ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ashburner et al. are associated with manually curated structured resources that can serve as ground truth or for inducing training data in MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"THE UNIPROT CONSORTIUM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The UniProt Consortium is responsible for providing structured resources that can be used in the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"CRAVEN AND KUMLIEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Craven and Kumlien are researchers whose work on distant supervision is relevant to the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"BOBIC ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bobic et al. are associated with the use of distant supervision for inducing training data, relevant to the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"MEDLINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MEDLINE is the source of research paper abstracts used as documents in the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"DRUGBANK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DRUGBANK is used as a structured knowledge resource in the construction of the MEDHOP dataset, providing information on drug interactions.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"LAW ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Law et al. are associated with DRUGBANK, a structured knowledge resource used in the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"SWISSPROT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SWISSPROT provides information on human proteins used in the construction of the bipartite graph in the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"BAIROCH ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bairoch et al. are associated with SWISSPROT, which provides data on human proteins used in the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"REACTOME\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"REACTOME provides information on protein interactions used in the construction of the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"FABREGAT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fabregat et al. are associated with REACTOME, which provides data on protein interactions used in the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"STENETORP ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stenetorp et al. are associated with the preprocessing pipeline employed for the BioNLP 2011 Shared Task, used in the processing of the MEDLINE release for MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"BIONLP 2011 SHARED TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The BioNLP 2011 Shared Task is an event where a preprocessing pipeline was employed, which is also used in the processing of the MEDLINE release for MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"GNRH RECEPTOR\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"GnRH receptor is mentioned in the context of being induced by the drug Leuprolide and is part of the PPI chains relevant to MEDHOP.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"PROTEIN-PROTEIN INTERACTION (PPI)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Protein-Protein Interaction (PPI) refers to the chains of interactions between proteins that form biomedical pathways and are central to the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"DRUG-DRUG INTERACTIONS (DDIS)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Drug-Drug Interactions (DDIs) are the interactions between drugs that are a central focus of the MEDHOP dataset and biomedical research.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            },
+            {
+                "entity_name": "\"CROSS-SENTENCE RELATION EXTRACTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross-sentence relation extraction is a method shown by Peng et al. to increase the number of available relations, relevant to the MEDHOP dataset.\"",
+                "source_id": "chunk-5df9e676a18cd08287218ab75acf0a60"
+            }
+        ],
+        "relationships": []
+    },
+    "13": {
+        "chunk_key": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0",
+        "entities": [
+            {
+                "entity_name": "\"HANG LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hang Li is an author of the paper 'Towards neural network-based reasoning' in 2015.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"KAM-FAI WONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kam-Fai Wong is an author of the paper 'Towards neural network-based reasoning' in 2015.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"NANYUN PENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nanyun Peng is an author of the paper 'Cross-sentence N-ary relation extraction with graph LSTMs' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"HOIFUNG POON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hoifung Poon is an author of the paper 'Cross-sentence N-ary relation extraction with graph LSTMs' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"CHRIS QUIRK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Quirk is an author of the paper 'Cross-sentence N-ary relation extraction with graph LSTMs' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is an author of the paper 'Cross-sentence N-ary relation extraction with graph LSTMs' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"WEN-TAU YIH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wen-tau Yih is an author of the paper 'Cross-sentence N-ary relation extraction with graph LSTMs' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"JEFFREY PENNINGTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeffrey Pennington is an author of the paper 'GloVe: Global vectors for word representation' in 2014.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author of the paper 'GloVe: Global vectors for word representation' in 2014.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is an author of the paper 'GloVe: Global vectors for word representation' in 2014.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"BETHANY PERCHA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bethany Percha is an author of the paper 'Discovery and explanation of drug-drug interactions via text mining' in 2012.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"YAEL GARTEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yael Garten is an author of the paper 'Discovery and explanation of drug-drug interactions via text mining' in 2012.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"RUSS B ALTMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Russ B Altman is an author of the paper 'Discovery and explanation of drug-drug interactions via text mining' in 2012.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"JOHN ROSS QUINLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Ross Quinlan is an author of the paper 'Learning logical definitions from relations' in 1990.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"PRANAV RAJPURKAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pranav Rajpurkar is an author of the paper 'SQuAD: $100{,}000{+}$ questions for machine comprehension of text' in 2016.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"JIAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jian Zhang is an author of the paper 'SQuAD: $100{,}000{+}$ questions for machine comprehension of text' in 2016.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"KONSTANTIN LOPYREV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Konstantin Lopyrev is an author of the paper 'SQuAD: $100{,}000{+}$ questions for machine comprehension of text' in 2016.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"PERCY LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percy Liang is an author of the paper 'SQuAD: $100{,}000{+}$ questions for machine comprehension of text' in 2016.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"BRADLEY L. RICHARDS\"",
+                "entity_type": "\"PERSON\"<|(\"ENTITY\"",
+                "description": "\"Raymond J. Mooney\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"MATTHEW RICHARDSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew Richardson is an author of the paper 'Markov logic networks' in 2006.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"PEDRO DOMINGOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pedro Domingos is an author of the paper 'Markov logic networks' in 2006.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"SEBASTIAN RIEDEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sebastian Riedel is an author of the paper 'Modeling relations and their mentions without labeled text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"LIMIN YAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Limin Yao is an author of the paper 'Modeling relations and their mentions without labeled text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"ANDREW MCCALLUM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew McCallum is an author of the paper 'Modeling relations and their mentions without labeled text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"STEFAN SCHOENMACKERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stefan Schoenmackers is an author of the paper 'Scaling textual inference to the web' in 2008.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"OREN ETZIONI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oren Etzioni is an author of the paper 'Scaling textual inference to the web' in 2008 and 'Learning first-order horn clauses from web text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"DANIEL S. WELD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel S. Weld is an author of the paper 'Scaling textual inference to the web' in 2008 and 'Learning first-order horn clauses from web text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"JESSE DAVIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jesse Davis is an author of the paper 'Learning first-order horn clauses from web text' in 2010.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"ROY SCHWARTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roy Schwartz is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"MAARTEN SAP\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maarten Sap is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"IOANNIS KONSTAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ioannis Konstas is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"LEILA ZILLES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Leila Zilles is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"YEJIN CHOI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yejin Choi is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"NOAH A. SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noah A. Smith is an author of the paper 'The effect of different writing tasks on linguistic style: A case study of the ROC story cloze task' in 2017.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            },
+            {
+                "entity_name": "\"ISABEL SEGURA-BEDMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Isabel Segura-Bedmar is an author of the paper 'SemEval-2013 Task 9: Extraction of drug-drug interactions from biomedical texts (DDIExtraction 2013)' in 2013.\"",
+                "source_id": "chunk-ba189f767805cf5e5ad6aa58f3e23fb0"
+            }
+        ],
+        "relationships": []
+    },
+    "11": {
+        "chunk_key": "chunk-f5d335fe975530d4c9981fcd36cd0325",
+        "entities": [
+            {
+                "entity_name": "\"KAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kay is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"LISA MATTHEWS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lisa Matthews is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"BRUCE MAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bruce May is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MARIJA MILACIC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Marija Milacic is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"KAREN ROTHFELS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karen Rothfels is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"VERONICA SHAMOVSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Veronica Shamovsky is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MARISSA WEBBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Marissa Webber is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"JOEL WEISER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joel Weiser is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MARK WILLIAMS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Williams is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"GUANMING WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Guanming Wu is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"LINCOLN STEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lincoln Stein is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"HENNING HERMJAKOB\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Henning Hermjakob is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PETER D’EUSTACHIO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter D’Eustachio is one of the authors of the paper 'The Reactome pathway knowledgebase'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"DANIEL FRIED\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Fried is one of the authors of the paper 'Higher-order lexical semantic models for non-factoid answer reranking'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PETER JANSEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter Jansen is one of the authors of the paper 'Higher-order lexical semantic models for non-factoid answer reranking'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"GUSTAVE HAHN-POWELL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gustave Hahn-Powell is one of the authors of the paper 'Higher-order lexical semantic models for non-factoid answer reranking'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MIHAI SURDEANU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mihai Surdeanu is one of the authors of the paper 'Higher-order lexical semantic models for non-factoid answer reranking'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PETER CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter Clark is one of the authors of the paper 'Higher-order lexical semantic models for non-factoid answer reranking'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is one of the authors of the paper 'Improving learning and inference in a large knowledge-base using latent syntactic cues'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PARTHA PRATIM TALUKDAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Partha Pratim Talukdar is one of the authors of the paper 'Improving learning and inference in a large knowledge-base using latent syntactic cues'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"BRYAN KISIEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bryan Kisiel is one of the authors of the paper(\"entity\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"ALEX GRAVES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Graves is the author of the paper 'Adaptive computation time for recurrent neural networks'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"HARSHA GURULINGAPPA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Harsha Gurulingappa is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"ABDUL MATEEN RAJPUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Abdul Mateen Rajput is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"ANGUS ROBERTS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Angus Roberts is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"JULIANE FLUCK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Juliane Fluck is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MARTIN HOFMANN-APITIUS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martin Hofmann-Apitius is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"LUCA TOLDO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luca Toldo is one of the authors of the paper 'Development of a benchmark corpus to support the automatic extraction of drug-related adverse effects from medical case reports'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"KARL MORITZ HERMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karl Moritz Hermann is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"TOMAS KOCISKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomas Kocisky is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"EDWARD GREFENSTETTE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edward Grefenstette is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"LASSE ESPEHOLT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lasse Espeholt is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"WILL KAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Will Kay is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"MUSTAFA SULEYMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mustafa Suleyman is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PHIL BLUNSOM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phil Blunsom is one of the authors of the paper 'Teaching machines to read and comprehend'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"WILLIAM HERSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William Hersh is one of the authors of the paper 'TREC 2007 genomics track overview'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"AARON COHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aaron Cohen is one of the authors of the paper 'TREC 2007 genomics track overview'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"LYNN RUSLEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lynn Ruslen is one of the authors of the paper 'TREC 2007 genomics track overview'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            },
+            {
+                "entity_name": "\"PHOEBE ROBERTS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phoebe Roberts is one of the authors of the paper 'TREC 2007 genomics track overview'.\"",
+                "source_id": "chunk-f5d335fe975530d4c9981fcd36cd0325"
+            }
+        ],
+        "relationships": []
+    },
+    "10": {
+        "chunk_key": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d",
+        "entities": [
+            {
+                "entity_name": "\"BLAKE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Blake is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"DAVID BOTSTEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Botstein is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"HEATHER BUTLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Heather Butler is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"J. MICHAEL CHERRY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"J. Michael Cherry is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"ALLAN P. DAVIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Allan P. Davis is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"KARA DOLINSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kara Dolinski is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"SELINA S. DWIGHT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Selina S. Dwight is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"JANAN T. EPPIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Janan T. Eppig is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MIDORI A. HARRIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Midori A. Harris is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"DAVID P. HILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David P. Hill is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"LAURIE ISSELTARVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Laurie IsselTarver is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"ANDREW KASARSKIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Kasarskis is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"SUZANNA LEWIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Suzanna Lewis is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"JOHN C. MATESE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John C. Matese is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"JOEL E. RICHARDSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joel E. Richardson is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MARTIN RINGWALD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martin Ringwald is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"GERALD M. RUBIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gerald M. Rubin is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"GAVIN SHERLOCK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gavin Sherlock is one of the authors of the paper on Gene Ontology published in Nature Genetics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"AMOS BAIROCH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amos Bairoch is one of the authors of the paper on Swiss-Prot published in Briefings in Bioinformatics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"BRIGITTE BOECKMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brigitte Boeckmann is one of the authors of the paper on Swiss-Prot published in Briefings in Bioinformatics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"SERENELLA FERRO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Serenella Ferro is one of the authors of the paper on Swiss-Prot published in Briefings in Bioinformatics.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MICHELE BANKO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michele Banko is one of the authors of the paper on Open information extraction from the web published in IJCAI’07.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MICHAEL J. CAFARELLA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael J. Cafarella is one of the authors of the paper on Open information extraction from the web published in IJCAI’07.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"STEPHEN SODERLAND\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stephen Soderland is one of the authors of the paper on Open information extraction from the web published in IJCAI’07.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MATT BROADHEAD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Broadhead is one of the authors of the paper on Open information extraction from the web published in IJCAI’07.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"OREN ETZIONI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oren Etzioni is one of the authors of the paper on Open information extraction from the web published in IJCAI’07.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"JONATHAN BERANT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Berant is one of the authors of the paper on Semantic parsing on freebase from question-answer pairs published in EMNLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"ANDREW CHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Chou is one of the authors of the paper on Semantic parsing on freebase from question-answer pairs published in EMNLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"ROY FROSTIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roy Frostig is one of the authors of the paper on Semantic parsing on freebase from question-answer pairs published in EMNLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"PERCY LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percy Liang is one of the authors of the paper on Semantic parsing on freebase from question-answer pairs published in EMNLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"TAMARA BOBIC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tamara Bobic is one of the authors of the paper on Improving distantly supervised extraction of drug-drug and protein-protein interactions published in the Joint Workshop on Unsupervised and Semi-Supervised Learning in NLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"ROMAN KLINGER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roman Klinger is one of the authors of the paper on Improving distantly supervised extraction of drug-drug and protein-protein interactions published in the Joint Workshop on Unsupervised and Semi-Supervised Learning in NLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"PHILIPPE THOMAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philippe Thomas is one of the authors of the paper on Improving distantly supervised extraction of drug-drug and protein-protein interactions published in the Joint Workshop on Unsupervised and Semi-Supervised Learning in NLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"MARTIN HOFMANN-APITIUS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martin Hofmann-Apitius is one of the authors of the paper on Improving distantly supervised extraction of drug-drug and protein-protein interactions published in the Joint Workshop on Unsupervised and Semi-Supervised Learning in NLP.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"KURT BOLLACKER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kurt Bollacker is one of the authors of the paper on Freebase: a collaboratively created graph database for structuring human knowledge published in SIGMOD.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"COLIN EVANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Colin Evans is one of the authors of the paper on Freebase: a collaboratively created graph database for structuring human knowledge published in SIGMOD.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            },
+            {
+                "entity_name": "\"PRAVEEN PARITOSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Praveen Paritosh is one of the authors of the paper on Freebase: a collaboratively created graph database for structuring human knowledge published in SIGMOD.\"",
+                "source_id": "chunk-e4f020bb2b7ceca725ddd6a25aec0e9d"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764",
+        "entities": [
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is a free online encyclopedia containing a vast amount of multi-domain information and structured resources like infoboxes and Wikidata.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikidata is a structured knowledge base that is associated with Wikipedia and contains data in the form of entities, properties, and values.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"MORALES ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Morales et al. are researchers who have used Wikipedia to build datasets for querying single sentences.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"LEVY ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Levy et al. are researchers who have used Wikipedia to build datasets for querying single sentences.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"YANG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang et al. are researchers who have used Wikipedia to build datasets for querying single articles.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"HEWLETT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hewlett et al. are researchers who proposed the Wikireading RC dataset and have used Wikipedia for their research.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"RAJPURKAR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajpurkar et al. are researchers who have used Wikipedia to build datasets for querying single articles.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al. are researchers who rely on entity masking in their work, contrasting with the approach of introducing alternative candidates.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"HILL ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hill et al. are researchers who rely on entity masking in their work, contrasting with the approach of introducing alternative candidates.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"VRANDEˇCI´C\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vrandeˇci´c is associated with the creation or development of Wikidata.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"WIKIREADING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Wikireading is a recently proposed RC dataset where Wikidata tuples are aligned with Wikipedia articles regarding their item.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"LONDON\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"London is a city whose article in Wikipedia is often associated with the United Kingdom as the correct answer, independent of the query.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"UNITED KINGDOM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The United Kingdom is a country that is frequently the correct answer when the article about London is present in the dataset.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"UNITED STATES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The United States is a country whose articles were omitted from the dataset to avoid bias towards a majority class baseline.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"HILL ET AL. (2016)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Hill et al. (2016) conducted research that relied on entity masking, which is contrasted with the approach of introducing alternative candidates.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"ASSEMBLY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Assembly refers to the process of creating a multi-hop dataset with Wikipedia as the document corpus and Wikidata as structured knowledge triples.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"MITIGATING DATASET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Mitigating Dataset refers to the process of addressing spurious correlations between candidates and documents in the multi-document setting.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"FRANCE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"France is an example of a country used in the set of type-consistent candidate expressions for the WIKIDATA property country.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"RUSSIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Russia is an example of a country used in the set of type-consistent candidate expressions for the WIKIDATA property country.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"HANGING GARDENS OF MUMBAI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hanging Gardens of Mumbai is an entity used in the example query, with the property 'country' and an unknown answer.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"S_Q\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"S_q refers to the set of documents in the query, which are highlighted in yellow in the provided figure.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"C_Q\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"C_q refers to the set of candidates in the query, which are indicated by a check or cross for correctness in the provided figure.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"ITEM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"In the context of WIKIDATA tuples, 'item' refers to the subject of the triple, which is used to form the query q.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"PROPERTY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"In the context of WIKIDATA tuples, 'property' refers to the attribute of the triple, which is used to form the query q.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"ANSWER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"In the context of WIKIDATA tuples, 'answer' refers to the object of the triple, which is the goal of the query to predict.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "entity_name": "\"MAJORITY CLASS BASELINE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Majority class baseline refers to a model that predicts the most common class, which would be successful but uninformative for multi-hop reasoning.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 9.0,
+                "description": "\"Wikipedia and Wikidata are associated with each other, with Wikidata providing structured resources for Wikipedia.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"WIKIREADING\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 8.0,
+                "description": "\"Wikireading is an RC dataset that aligns Wikidata tuples with Wikipedia articles regarding their item.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"WIKIREADING\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 8.0,
+                "description": "\"Wikireading uses Wikidata tuples (item, property, answer) to define a slot filling task with Wikipedia articles.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"MORALES ET AL.\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"Morales et al. have used Wikipedia to build datasets for querying single sentences.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"LEVY ET AL.\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"Levy et al. have used Wikipedia to build datasets for querying single sentences.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"YANG ET AL.\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"Yang et al. have used Wikipedia to build datasets for querying single articles.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"HEWLETT ET AL.\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"Hewlett et al. proposed the Wikireading RC dataset and have used Wikipedia for their research.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP is an attempt to construct a cross-document multi-step RC dataset based on Wikipedia.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP uses Wikidata as a structured knowledge source to construct the multi-step RC dataset.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"ASSEMBLY\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"Assembly uses Wikipedia as the document corpus to create a multi-hop dataset.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"ASSEMBLY\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 7.0,
+                "description": "\"Assembly uses Wikidata as structured knowledge triples to create a multi-hop dataset.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            },
+            {
+                "src_id": "\"MITIGATING DATASET\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"Mitigating Dataset addresses the issue of spurious correlations in the multi-document setting, using Wikipedia as the document source.\"",
+                "source_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764"
+            }
+        ]
+    }
+}

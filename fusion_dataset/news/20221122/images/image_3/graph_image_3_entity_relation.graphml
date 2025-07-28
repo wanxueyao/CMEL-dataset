@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Tan- Hairstyle: Short, dark hair with some gray, neatly combed back- Facial hair: Gray beard and mustache- Expression: Serious, neutral expression- Age: Appears to be a middle-aged man- Clothing: Wearing a black hoodie with the hood downOverall, the character gives off a serious and mature vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a portrait of a man with a serious expression. He has short, graying hair and a beard that is predominantly white. His skin tone is medium, and he appears to be middle-aged. He is wearing a black hoodie. The background is blurred but seems to be an indoor setting, possibly a workshop or garage, as there are various objects and tools visible. The overall mood conveyed by the image is one of solemnity and intensity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older man with a serious expression, wearing a black hoodie."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+</node>
+<node id="&quot;BLACK HOODIE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+  <data key="d1">"The man is wearing a black hoodie."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;BLACK HOODIE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is wearing a black hoodie."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

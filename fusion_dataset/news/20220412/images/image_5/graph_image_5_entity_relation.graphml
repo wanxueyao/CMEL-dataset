@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical scene featuring a large, cartoon-style whale lying on its side in a field. The whale is primarily purple with a white belly and a small fin on its back. The background is a gradient of orange at the top, transitioning to yellow towards the bottom, suggesting a warm, possibly sunset or sunrise setting. The ground is illustrated with simple lines representing grass and plants, adding to the playful and imaginative atmosphere of the scene. The overall mood conveyed is one of fantasy and lightheartedness, as the unusual sight of a whale out of water creates a surreal and amusing effect."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+</node>
+<node id="&quot;WHALE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large, purple and white whale lying on a yellow field with green plants around it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A yellow field with green plants scattered throughout."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WHALE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Whale是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHALE&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The whale is resting on the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

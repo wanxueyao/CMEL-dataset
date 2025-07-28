@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the architecture of an extractor used in a neural network model for text summarization. The diagram is divided into three main layers: Word-level RNN, Sentence-level RNN, and Sentence-Level Attention. The Word-level RNN layer consists of nine GRU (Gated Recurrent Unit) blocks, each representing a word in a sentence. These blocks are connected sequentially from left to right, indicating the flow of information through the network. Each GRU block is labeled with a 'w' followed by a subscript number (e.g., w1, w2, ..., w9), representing individual words in the input sequence. The Sentence-level RNN layer contains three GRU blocks, which are connected to specific word-level GRU blocks. These connections are depicted by arrows pointing upwards from the word-level GRU blocks to the sentence-level GRU blocks. The Sentence-Level Attention layer is represented by three circles at the top of the diagram, each containing a value (0.9, 0.2, and 0.5). These values represent the attention weights assigned to each sentence by the model. The attention weights are used to determine the importance of each sentence in the overall summary. The diagram also includes dashed lines connecting the word-level GRU blocks to the corresponding sentence-level GRU blocks, indicating the flow of information between these layers. The overall architecture suggests a hierarchical approach to text summarization, where word-level information is first processed, then aggregated at the sentence level, and finally weighted using attention mechanisms to generate a summary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+</node>
+<node id="&quot;WORD-LEVEL RNN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A recurrent neural network that processes individual words in a sentence, capturing sequential information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+</node>
+<node id="&quot;SENTENCE-LEVEL RNN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A recurrent neural network that processes entire sentences, building on the output of the word-level RNN to understand context and meaning at a higher level."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+</node>
+<node id="&quot;GRU&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Gated Recurrent Unit, a type of recurrent neural network that helps in mitigating the vanishing gradient problem and is used in both the word-level and sentence-level RNNs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+</node>
+<node id="&quot;ATTENTION MECHANISM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A mechanism that allows the model to focus on specific parts of the input sequence, enhancing its ability to make accurate predictions by giving more weight to relevant information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WORD-LEVEL RNN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Word-level RNN是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SENTENCE-LEVEL RNN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sentence-level RNN是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GRU&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GRU是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ATTENTION MECHANISM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Attention Mechanism是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

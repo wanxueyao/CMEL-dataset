@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, light brown bob with bangs- Eyes: Not visible due to the angle and lighting- Expression: Neutral, possibly contemplative or focused- Age: Appears to be a young adult- Clothing: Wearing a patterned shirt with a mix of colors including pink, yellow, and white- Posture: Sitting, with one arm resting on a surfaceOverall, the character gives off a calm and focused vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a person with short, light brown hair styled in a bob cut. The individual is wearing a patterned garment with a mix of colors and designs, including geometric shapes and possibly floral elements. The background includes a large, colorful mural or painting that depicts a stylized face with prominent eyes and a serene expression. The mural has a blend of earthy tones and vibrant colors, creating a warm and artistic atmosphere. The person appears to be seated or standing in front of the mural, contributing to a relaxed and contemplative mood."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with short brown hair, wearing a patterned top, looking to the side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+</node>
+<node id="&quot;PAINTING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A painting with abstract designs and colors in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PAINTING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Painting是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;PAINTING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is positioned in front of the painting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_38_VASE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Partial view of a character's leg- Color: Light blue fabric with a darker blue patch on the upper thigh area- Shape: Cylindrical, representing a leg- Size: Appears to be a medium-sized leg, possibly from an animated character or a plush toy- Material: Fabric, likely soft and plush- Possible function: Part of a larger plush toy or stuffed animal, designed for decorative purposes or as a child's playthingOverall, the object appears to be a part of a larger, soft, plush toy or character, characterized by its light blue color and cylindrical shape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;IMAGE_38_KITE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rabbit- Age: Appears to be an adult rabbit- Color: Light brown with a purple hue on its body- Shape: The rabbit has long ears and a rounded body, typical of its species- Size: The rabbit is depicted in a medium size relative to the surrounding environment- Posture: The rabbit is standing upright, facing forward- Structural Characteristics: The rabbit has long, pointed ears and a small tail, which are distinctive features of rabbitsThe background includes green leaves and pink flowers, suggesting a natural setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;IMAGE_38&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and serene scene set in a lush, green landscape. A small brown rabbit is standing on the grassy ground, facing a purple entrance to its burrow. The rabbit's posture suggests curiosity or anticipation as it looks out from its home. The background features rolling green hills with a single tree standing prominently on the top of the nearest hill. The tree has a full, round canopy of bright green leaves and a sturdy trunk. At the base of the hills, there is a cluster of pink flowers adding a touch of color to the scene. The overall atmosphere is peaceful and idyllic, evoking a sense of calm and simplicity. The illustration style is simple and childlike, with soft colors and gentle lines."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;RABBIT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A small, brown rabbit standing at the entrance of a burrow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;BURROW&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A purple burrow in the side of a green hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;HILL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green hill with a burrow on its side and a tree on top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A tall, green tree standing on top of the hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Pink flowers growing at the base of the hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+</node>
+<edge source="&quot;IMAGE_38_VASE-1.JPG&quot;" target="&quot;BURROW&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_38_vase-1.jpg is a picture of a burrow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38_VASE-1.JPG&quot;" target="&quot;IMAGE_38&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_38_vase-1.jpg是image_38的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38_KITE-0.JPG&quot;" target="&quot;IMAGE_38&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_38_kite-0.jpg是image_38的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rabbit是从image_38中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38&quot;" target="&quot;BURROW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Burrow是从image_38中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38&quot;" target="&quot;HILL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hill是从image_38中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_38中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_38&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_38中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RABBIT&quot;" target="&quot;BURROW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rabbit is standing at the entrance of the burrow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BURROW&quot;" target="&quot;HILL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The burrow is located on the side of the hill."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HILL&quot;" target="&quot;TREE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The tree is standing on top of the hill."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HILL&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The flowers are growing at the base of the hill."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_38.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

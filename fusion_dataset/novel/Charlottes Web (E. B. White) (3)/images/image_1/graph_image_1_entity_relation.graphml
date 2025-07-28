@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_MOTORCYCLE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Elephant- Age: Appears to be an adult elephant- Color: Gray- Shape: The image shows a close-up of the elephant's trunk and part of its head. The trunk is curled, with visible wrinkles and texture, indicating the rough skin characteristic of elephants. The head is partially visible, showing the large ear and part of the eye.- Size: While the full size cannot be determined from this partial image, the visible portion suggests a large animal, consistent with the size of an adult elephant.- Posture: The trunk is extended outward and slightly upward, suggesting a gesture of reaching or grasping."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, styled in a somewhat messy manner- Expression: Focused and determined, with eyes looking forward and mouth slightly open- Age: Appears to be an adult male- Clothing: Wearing a short-sleeved shirt with a collar, pants that are rolled up at the bottom, and shoes- Posture: In motion, running or jogging with one arm bent and the other swinging back, knees lifted, and feet off the ground, suggesting movement and energyOverall, the character appears to be engaged in physical activity, possibly running or jogging, with a sense of urgency or determination."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene of urgency and care. A man, dressed in overalls and a short-sleeved shirt, is kneeling on one knee while pouring water from a bucket onto a pig lying on the ground. The pig appears to be in distress, with its body stretched out and its mouth open as if grunting or gasping for air. The man's posture suggests he is focused and determined, leaning forward with his right arm extended to pour the water and his left hand supporting the bucket. His facial expression conveys concern and attentiveness. The background is minimalistic, with no additional details, emphasizing the interaction between the man and the pig. The overall atmosphere conveyed by the image is one of immediate action and care, possibly indicating a situation where the pig is overheated or in need of cooling down."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man wearing a short-sleeved shirt and pants, holding a bucket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;BUCKET&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A black bucket being held by the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The grass area where the man is pouring water from the bucket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_MOTORCYCLE-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_1_motorcycle-1.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_MOTORCYCLE-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_motorcycle-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BUCKET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bucket是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;BUCKET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is holding the bucket in his hands."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is pouring water from the bucket onto the grass."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BUCKET&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Water from the bucket is being poured onto the grass."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

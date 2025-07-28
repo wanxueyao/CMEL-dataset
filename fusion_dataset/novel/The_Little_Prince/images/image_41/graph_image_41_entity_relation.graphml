@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_41_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky hair, blonde in color- Facial Expression: Smiling with closed eyes, giving a content and peaceful appearance- Age: Appears to be a young boy or teenager- Clothing: Wearing a green outfit that includes a long-sleeved shirt and pants; the outfit has black stripes and a yellow collar- Posture: Sitting with legs crossed and hands resting on the knees, suggesting a relaxed and casual poseOverall, the character appears friendly and approachable, with a cheerful demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<node id="&quot;IMAGE_41&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and poignant scene from the story of 'The Little Prince'. A young boy with golden hair, dressed in a green outfit and wearing a long yellow scarf, is sitting on top of a large, rectangular rock. His posture is relaxed, with his legs dangling over the edge and his head bowed slightly, suggesting a moment of contemplation or sadness. Below him, at the base of the rock, there is a yellow snake with its head raised, facing upwards towards the boy. The snake's body is coiled, and it appears to be motionless. The background is minimalistic, with a light gradient transitioning from green at the top to purple at the bottom, creating a dreamlike atmosphere. In the lower left corner, there is a small plant with a few leaves, adding a touch of nature to the scene. The overall mood conveyed by the image is one of melancholy and introspection, as if the little prince is contemplating a significant decision or event."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with golden hair, wearing a green outfit and a yellow scarf, sitting on the edge of a large rock."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<node id="&quot;ROCK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large, flat-topped rock where The Little Prince is sitting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<node id="&quot;SNAKE&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small, yellow snake standing upright on the ground below the rock."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<node id="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A barren desert landscape with sparse vegetation and rocks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+</node>
+<edge source="&quot;IMAGE_41_PERSON-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_41_person-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_41_PERSON-0.JPG&quot;" target="&quot;IMAGE_41&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_41_person-0.jpg是image_41的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_41&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_41中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_41&quot;" target="&quot;ROCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rock是从image_41中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_41&quot;" target="&quot;SNAKE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Snake是从image_41中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_41&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Desert Landscape是从image_41中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;ROCK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is sitting on top of the rock."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;SNAKE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is looking down at the snake from the rock."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ROCK&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rock is part of the desert landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNAKE&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The snake is in the desert landscape near the rock."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_41.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

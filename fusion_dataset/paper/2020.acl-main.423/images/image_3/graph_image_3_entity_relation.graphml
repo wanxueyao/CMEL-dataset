@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two text blocks with masked words and their possible interpretations. The first block reads: 'The [MASK] fell to the floor.' Below it, there is a list of possible interpretations for the masked word, categorized by their probability and part-of-speech (POS) tag. The top interpretation is 'noun.artifact' with a 52% probability, followed by examples such as 'sword,' 'chair,' etc. The second most probable interpretation is 'noun.person' with a 17% probability, followed by examples like 'man,' 'girl,' etc. The second block reads: 'Gill [MASK] the bread.' Similarly, it lists possible interpretations for the masked word, categorized by their probability and POS tag. The top interpretation is 'verb.contact' with a 33% probability, followed by examples such as 'cut,' 'buttered,' etc. The second most probable interpretation is 'verb.consumption' with a 20% probability, followed by examples like 'ate,' 'chewed,' etc. The third interpretation is 'verb.change' with an 11% probability, followed by examples such as 'heated,' 'baked,' etc. The fourth interpretation is 'verb.possession' with a 6% probability, followed by examples such as 'took,' 'bought,' etc."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+</node>
+<node id="&quot;THE [MASK]&quot;">
+  <data key="d0">"NOUN.ARTIFACT"</data>
+  <data key="d1">"An unspecified object that fell to the floor, with a 52% probability of being an artifact such as a sword or chair."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+</node>
+<node id="&quot;GILL [MASK]&quot;">
+  <data key="d0">"VERB.CONTACT"</data>
+  <data key="d1">"An action performed by Gill on the bread, with a 33% probability of being a contact verb such as cutting or buttering."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+</node>
+<node id="&quot;FELL TO THE FLOOR.&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d1">"The unspecified object experienced a falling action, resulting in its position change to the floor."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;THE BREAD.&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d1">"Gill performed an action on the bread, altering its state through contact."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;THE [MASK]&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The [MASK]是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GILL [MASK]&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Gill [MASK]是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE [MASK]&quot;" target="&quot;FELL TO THE FLOOR.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The unspecified object experienced a falling action, resulting in its position change to the floor."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GILL [MASK]&quot;" target="&quot;THE BREAD.&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Gill performed an action on the bread, altering its state through contact."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

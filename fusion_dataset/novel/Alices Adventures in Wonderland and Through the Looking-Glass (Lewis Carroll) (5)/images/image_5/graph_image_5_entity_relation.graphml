@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of a character that appears to be a queen, given the crown with a large ball on top. The queen has a round face and is depicted in a dynamic pose, as if she is being shaken or jolted. She is wearing a long dress with a pattern that resembles checkered squares, and her arms are extended outward, with one hand pointing forward. Her expression seems to convey surprise or distress. The background is minimalistic, with no distinct features other than the shadowing that suggests movement and depth. The overall atmosphere of the image conveys a sense of chaos or sudden change, fitting the context of Alice shaking the Red Queen into a kitten."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+</node>
+<node id="&quot;KING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A cartoon character wearing a crown and a robe, appearing to be in motion with one arm extended forward and the other bent at the elbow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+</node>
+<node id="&quot;CROWN&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d1">"The king is wearing a crown on his head."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ROBE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d1">"The king is wearing a robe."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ARM MOTION&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d1">"The king's arms are in motion, with one arm extended forward and the other bent at the elbow."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;KING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"King是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;CROWN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The king is wearing a crown on his head."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;ROBE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The king is wearing a robe."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;ARM MOTION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The king's arms are in motion, with one arm extended forward and the other bent at the elbow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

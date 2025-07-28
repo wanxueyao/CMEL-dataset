@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a devastated rural scene, likely in the aftermath of conflict. The foreground shows a dirt road flanked by extensive debris and remnants of destroyed structures. On the left side of the road, there are scattered pieces of burnt wood, metal, and other materials, indicating heavy destruction. A few trees with bare branches suggest it might be early spring or late autumn. In the background, there are partially destroyed buildings, some with visible damage to their roofs and walls. Two individuals, possibly soldiers, are seen walking along the road. One is closer to the foreground on the left side, while the other is further back on the right side. The sky is partly cloudy, providing a stark contrast to the desolate landscape below. The overall atmosphere conveys a sense of desolation and aftermath of a significant event, likely related to military conflict."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<node id="&quot;RUINED BUILDINGS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Several buildings that have been destroyed, leaving only charred remains and rubble."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<node id="&quot;BURNT TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Trees that have been burnt and are now leafless, scattered around the area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<node id="&quot;DIRT ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dirt road running through the center of the image, with debris on both sides."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<node id="&quot;PERSON 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual standing on the left side of the road, possibly surveying the damage."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<node id="&quot;PERSON 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Another individual walking along the road, moving towards the right side of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RUINED BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ruined Buildings是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BURNT TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Burnt Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DIRT ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dirt Road是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PERSON 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person 1是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PERSON 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person 2是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RUINED BUILDINGS&quot;" target="&quot;BURNT TREES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The burnt trees surround the ruined buildings, indicating they were likely affected by the same event."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RUINED BUILDINGS&quot;" target="&quot;DIRT ROAD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The dirt road runs through the middle of the area where the buildings were located, now surrounded by ruins."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BURNT TREES&quot;" target="&quot;DIRT ROAD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The burnt trees line both sides of the dirt road, showing the extent of the destruction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DIRT ROAD&quot;" target="&quot;PERSON 1&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Person 1 is standing on the dirt road, observing the surrounding area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DIRT ROAD&quot;" target="&quot;PERSON 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Person 2 is walking along the dirt road, moving through the damaged landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

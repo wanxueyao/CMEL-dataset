@@ -1,0 +1,206 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Adversarial spelling mistakes inducing sentiment misclassification and word-recognition defenses.' The table is structured with three main columns: Alteration, Movie Review, and Label. Each row represents a different alteration applied to the original movie review and its corresponding label. The first row under 'Original' shows the movie review 'A triumph, relentless and beautiful in its downbeat darkness' with a positive label (+). The second row under 'Swap' shows the altered review 'A triumph, relentless and beuatiful in its downbeat darkness' with a negative label (-). The third row under 'Drop' shows the altered review 'A triumph, relentless and beautiful in its dwnbeat darkness' with a negative label (-). The fourth and fifth rows under '+ Defense' show the reviews 'A triumph, relentless and beautiful in its downbeat darkness' and 'A triumph, relentless and beautiful in its downbeat darkness' with positive labels (+) respectively. The alterations are highlighted in red for swapped or dropped characters and in blue for corrected characters."
+        },
+        {
+            "entity_name": "ALTERATION",
+            "entity_type": "EVENT",
+            "description": "The process of modifying the original movie review to observe changes in sentiment classification.\">"
+        },
+        {
+            "entity_name": "MOVIE REVIEW",
+            "entity_type": "OBJECT",
+            "description": "A piece of text containing an opinion about a movie, used for sentiment analysis.\">"
+        },
+        {
+            "entity_name": "LABEL",
+            "entity_type": "OBJECT",
+            "description": "The classification assigned to the movie review based on its sentiment, either positive (+) or negative (-).\">"
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a schematic sketch of a proposed word recognition system, consisting of two models: a foreground model and a background model. The foreground model is trained on a smaller, domain-specific dataset, while the background model is trained on a larger dataset, such as the IMDB movie corpus. Both models are designed to reconstruct the correct word from the orthography and context of individual words, using synthetically corrupted inputs during training. The foreground model is represented by green circles labeled h1, h2, h3, ..., hn, connected by bidirectional arrows, indicating interactions between these states. The background model is depicted similarly but with gray circles. When the foreground model predicts an unknown (UNK) word, the background model is invoked to provide a prediction. Above the models, there are semi-character representations in blue boxes, which are used as inputs for both models. The text above the blue boxes appears scrambled, suggesting synthetic corruption. The overall layout and design indicate a focus on robust word recognition systems that can handle perturbations and unknown words."
+        },
+        {
+            "entity_name": "BACKGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model represented by a series of interconnected circles labeled h1 to hn, indicating a sequence of states or nodes in the model."
+        },
+        {
+            "entity_name": "FOREGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model similar to the Background Model but with a different color and an 'UNK' label pointing to one of its nodes, suggesting it represents a different set of states or nodes."
+        },
+        {
+            "entity_name": "SEMI-CHARACTER REPRESENTATION",
+            "entity_type": "EVENT",
+            "description": "An event or process indicated by a text box on the right side of the image, possibly describing the method used for representing characters or tokens in the models."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Word Recognition' that provides Word Error Rates (WER) of different spell-corrector models. The table is structured with the following columns: Spell-Corrector, Swap, Drop, Add, Key, and All. Each row represents a different model or strategy. The first row shows the ATD model with error rates of 7.2 for Swap, 12.6 for Drop, 13.3 for Add, 6.9 for Key, and an overall rate of 11.2. The second row shows the ScRNN model trained on a 78K vocabulary with error rates of 6.3 for Swap, 10.2 for Drop, 8.7 for Add, 9.8 for Key, and an overall rate of 8.7. The third section of the table, labeled 'ScRNN (10K) w/ Backoff Variants', includes three rows: Pass-Through with error rates of 8.5 for Swap, 10.5 for Drop, 10.7 for Add, 11.2 for Key, and an overall rate of 10.2; Neutral with error rates of 8.7 for Swap, 10.9 for Drop, 10.8 for Add, 11.4 for Key, and an overall rate of 10.6; and Background with error rates of 5.4 for Swap, 8.1 for Drop, 6.4 for Add, 7.6 for Key, and an overall rate of 6.9. The table highlights the performance of each model across different types of errors and their overall effectiveness."
+        },
+        {
+            "entity_name": "SPELL-CORRECTOR",
+            "entity_type": "ORGANIZATION",
+            "description": "A system used for correcting spelling errors in text, evaluated across different types of errors and models."
+        },
+        {
+            "entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "A specific spell-corrector model that is compared against other models in the table."
+        },
+        {
+            "entity_name": "SCRNN (78K)",
+            "entity_type": "ORGANIZATION",
+            "description": "A spell-corrector model based on a recurrent neural network with 78,000 parameters, evaluated for its performance."
+        },
+        {
+            "entity_name": "SCRNN (10K) W/ BACKOFF VARIANTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A spell-corrector model based on a recurrent neural network with 10,000 parameters and backoff variants, evaluated for its performance."
+        },
+        {
+            "entity_name": "PASS-THROUGH",
+            "entity_type": "ORGANIZATION",
+            "description": "A backoff variant of ScRNN (10K), showing its performance in correcting different types of errors."
+        },
+        {
+            "entity_name": "NEUTRAL",
+            "entity_type": "ORGANIZATION",
+            "description": "Another backoff variant of ScRNN (10K), showing its performance in correcting different types of errors."
+        },
+        {
+            "entity_name": "BACKGROUND",
+            "entity_type": "ORGANIZATION",
+            "description": "Yet another backoff variant of ScRNN (10K), showing its performance in correcting different types of errors."
+        },
+        {
+            "entity_name": "SWAP",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are swapped in a word, used to evaluate the spell-corrector's performance."
+        },
+        {
+            "entity_name": "DROP",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are dropped from a word, used to evaluate the spell-corrector's performance."
+        },
+        {
+            "entity_name": "ADD",
+            "entity_type": "EVENT",
+            "description": "Type of error where extra characters are added to a word, used to evaluate the spell-corrector's performance."
+        },
+        {
+            "entity_name": "KEY",
+            "entity_type": "EVENT",
+            "description": "Type of error where a wrong key is pressed, resulting in a character being replaced, used to evaluate the spell-corrector's performance."
+        },
+        {
+            "entity_name": "ALL",
+            "entity_type": "EVENT",
+            "description": "Overall evaluation metric combining all types of errors, used to assess the spell-corrector's comprehensive performance."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Sentiment Analysis (1-char attack/2-char attack)' that provides the accuracy of various classification models, with and without defenses, under adversarial attacks. The table is divided into four main sections: Word-Level Models, Char-Level Models, Word+Char Models, and Word-piece Models. Each section contains rows representing different models and their performance under various attack types: No attack, Swap, Drop, Add, Key, and All. The columns represent the model's accuracy under these attack types. For example, in the Word-Level Models section, the BiLSTM model has an accuracy of 79.2% under No attack, and its performance drops to 64.3% and 53.6% under Swap attack. The table highlights the significant degradation in classifier performance even with 1-character attacks and shows the robustness conferred by different defenses. Notably, the ScRNN model with pass-through backoff offers better protection, bringing back the adversarial accuracy within a 5% range for the swap attack. The table also indicates the efficacy of different attacks as add > key > drop > swap and the robustness of different models as word-only > word+char > char-only ~ word-piece."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "EVENT",
+            "description": "A table displaying the performance of various models under different attack types. The models are categorized into Word-Level Models, Char-Level Models, Word+Char Models, and Word-piece Models. Each model's performance is measured in terms of accuracy under no attack and various attack types such as Swap, Drop, Add, Key, and All."
+        },
+        {
+            "entity_name": "WORD-LEVEL MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes a section for Word-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."
+        },
+        {
+            "entity_name": "CHAR-LEVEL MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes a section for Char-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."
+        },
+        {
+            "entity_name": "WORD+CHAR MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes a section for Word+Char Models, which shows the performance of BiLSTM models with different configurations under various attack types."
+        },
+        {
+            "entity_name": "WORD-PIECE MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes a section for Word-piece Models, which shows the performance of BERT models with different configurations under various attack types."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Accuracy of BERT, with and without defenses, on MRPC when attacked under the ‘all’ attack setting.' The table is structured with four rows and five columns. The first column lists different models: BERT, BERT + ATD, BERT + Pass-through, and BERT + Neutral. The subsequent columns represent the accuracy percentages under different attack settings: 'No Attack', 'All attacks - 1-char', and 'All attacks - 2-char'. The values are as follows: for 'No Attack', the accuracies are 89.0% for BERT, 89.9% for BERT + ATD, 89.0% for BERT + Pass-through, and 84.0% for BERT + Neutral. Under 'All attacks - 1-char', the accuracies drop to 60.0% for BERT, 75.8% for BERT + ATD, 84.5% for BERT + Pass-through, and 82.5% for BERT + Neutral. Under 'All attacks - 2-char', the accuracies further decrease to 31.0% for BERT, 61.6% for BERT + ATD, 81.5% for BERT + Pass-through, and 82.5% for BERT + Neutral. The table highlights the significant reduction in accuracy for BERT under attack scenarios and the effectiveness of various defense mechanisms in mitigating these attacks."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different BERT models under various attack conditions. The table includes columns for 'No Attack', '1-char', and '2-char' attacks, with rows for different model configurations: BERT, BERT + ATD, BERT + Pass-through, and BERT + Neutral."
+        },
+        {
+            "entity_name": "BERT MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of pre-trained language model used in natural language processing tasks. In this context, it is being tested under different adversarial attack scenarios to measure its robustness."
+        },
+        {
+            "entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "An abbreviation for Adversarial Training Defense, a technique applied to the BERT model to improve its resilience against adversarial attacks."
+        },
+        {
+            "entity_name": "PASS-THROUGH",
+            "entity_type": "ORGANIZATION",
+            "description": "A method applied to the BERT model that allows certain information to bypass the model's layers, potentially affecting its performance under attack."
+        },
+        {
+            "entity_name": "NEUTRAL",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration of the BERT model that has been adjusted to maintain a neutral stance towards potential adversarial inputs, aiming to balance performance and robustness."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Sensitivity Analysis' that provides sensitivity values for word recognizers. The table is divided into two main sections: Closed Vocabulary Models (word-only) and Open Vocab. Models (char/word+char/word-piece). Each section contains rows representing different backoff strategies (Pass-Through, Background, Neutral) and columns representing various types of attacks (Swap, Drop, Add, Key, All). The values in the table are numerical and represent sensitivity percentages. For example, in the Closed Vocabulary Models section, the Pass-Through backoff has sensitivity values of 17.6% for Swap, 19.7% for Drop, 0.8% for Add, 7.3% for Key, and 11.3% for All. In the Open Vocab. Models section, the Pass-Through backoff has significantly higher sensitivity values, such as 39.6% for Swap, 35.3% for Drop, 19.2% for Add, 26.9% for Key, and 30.3% for All. The Neutral backoff shows the lowest sensitivity across all attack types in both model categories."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different models in terms of error rates for various types of errors, including swap, drop, add, key, and all combined. The table is divided into two sections: Closed Vocabulary Models (word-only) and Open Vocab. Models (char/word+char/word-piece). Each section has rows labeled 'Pass-Through', 'Background', and 'Neutral', with corresponding error rates for each type of error."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two scatter plots side by side, each depicting the relationship between sensitivity and word error rate (WER) for different models. The left plot is labeled 'word-only models' and the right plot is labeled 'char-only models'. Each plot has sensitivity on the x-axis and WER on the y-axis. The points in the plots are color-coded to represent different backoff variants: blue for 'Pass-through', orange for 'Background', and green for 'Neutral'. The size of the bubbles indicates robustness. In the left plot, there are three data points: a large green bubble at (10.8, 63.2), a medium-sized blue bubble at (10.8, 63.2), and a small orange bubble at (12.4, 59.6). In the right plot, there are four data points: a large green bubble at (10.8, 55.2), a medium-sized blue bubble at (29.6, 51.6), and a small orange bubble at (10.8, 53.6). The scales for both axes range from 6 to 12 for sensitivity and from 7 to 11 for WER. The plots illustrate the trade-off between sensitivity and WER, with larger bubbles indicating higher robustness."
+        },
+        {
+            "entity_name": "GRAPH 1",
+            "entity_type": "EVENT",
+            "description": "A scatter plot showing the relationship between WER and Sensitivity for Pass-through, Background, and Neutral conditions. The graph has a blue dot labeled 'Pass-through' at coordinates (63.2, 10), an orange dot labeled 'Background' at coordinates (59.6, 7), and a green dot labeled 'Neutral' at coordinates (63.2, 11)."
+        },
+        {
+            "entity_name": "GRAPH 2",
+            "entity_type": "EVENT",
+            "description": "A scatter plot showing the relationship between WER and Sensitivity for different conditions. The graph has a blue dot at coordinates (51.6, 10), a green dot at coordinates (55.2, 11), and an orange dot at coordinates (53.6, 7)."
+        }
+    ]
+}

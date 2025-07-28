@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph titled 'Average GLUE score with different amounts of Common Crawl data for pretraining.' The x-axis represents the amount of training data tokens, ranging from 562M to 18B. The y-axis represents the average GLUE score, ranging from 80 to 81.5. The graph shows a blue line with circular markers indicating the average GLUE scores at different data points. The scores are as follows: 562M tokens have an average GLUE score of approximately 80, 1.1B tokens have a score of about 80.5, 2.25B tokens have a score of around 81, 4.5B tokens have a score of about 81, 9B tokens have a score of approximately 81.5, and 18B tokens have a score of about 81.5. The trend indicates that as the amount of training data increases, the average GLUE score generally improves, with a significant increase between 562M and 1.1B tokens, followed by a more gradual increase thereafter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_8.jpg</data>
+</node>
+<node id="&quot;AVERAGE GLUE SCORE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The average GLUE score is plotted against the number of training data tokens, showing an increasing trend as the number of tokens increases."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_8.jpg</data>
+</node>
+<node id="&quot;TRAIN DATA TOKENS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_8.jpg</data>
+  <data key="d1">"The relationship shows that as the number of train data tokens increases, the average GLUE score also increases."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;AVERAGE GLUE SCORE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Average GLUE score是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AVERAGE GLUE SCORE&quot;" target="&quot;TRAIN DATA TOKENS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The relationship shows that as the number of train data tokens increases, the average GLUE score also increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

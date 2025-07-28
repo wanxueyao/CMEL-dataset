@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: A/B testing by humans comparing model pairs, reporting win rates for A over B (excluding ties).' The table is divided into two main sections. The first section contains dialogues where RetNRef outperforms MemNet, and the second section shows dialogues where RetNRef outperforms Seq2Seq. Each dialogue consists of previous turns by Person 1 and Person 2, followed by predictions for the next utterance by various models. The dialogues are structured as follows:\n\n**First Dialogue (RetNRef vs. MemNet):**\n- Person 1: hey , george here . lets be friends\n- Person 2: hi george , i’m regina . do you enjoy dance ?\n- Seq2Seq: i do not but i do have a lot of time to dance\n- MemNet: hello george my name is pink\n- RetNRef+: i do. i enjoy dance.\n\n**Second Dialogue (RetNRef vs. Seq2Seq):**\n- Person 1: drinking coffee? what time is it there?\n- Person 2: 830 pm haha my dad is a construction worker so he works really late nights\n- Seq2Seq: i am a big guy so i can help you\n- MemNet: yep. moonlight is amazing but northern light grab you too\n- RetNRef+: oh wow, that is a long time\n\nThe table highlights the performance of different models in generating contextually appropriate responses in dialogues."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<node id="&quot;PERSON 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual who is drinking coffee and inquiring about the time. They mention that their dad is a construction worker who works late nights."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<node id="&quot;PERSON 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual who responds to Person 1's inquiries and shares information about their beliefs on energy being spiritual rather than physical."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<node id="&quot;SEQ2SEQ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model used for generating responses based on input sequences, demonstrating its capability to provide contextually relevant replies."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<node id="&quot;MEMNET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model designed to handle memory-based tasks, showcasing its ability to recall and utilize past interactions in generating responses."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<node id="&quot;RETNREF+&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An advanced model that retrieves and references past interactions to generate more accurate and contextually appropriate responses."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PERSON 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person 1是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PERSON 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person 2是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SEQ2SEQ&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Seq2Seq是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;MEMNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MemNet是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;RETNREF+&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetNRef+是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON 1&quot;" target="&quot;PERSON 2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The two individuals are engaged in a conversation where they share personal details and discuss various topics such as time, work schedules, and philosophical beliefs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SEQ2SEQ&quot;" target="&quot;MEMNET&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both models are used for generating responses but differ in their approach; Seq2Seq generates responses based on input sequences while MemNet uses memory-based mechanisms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SEQ2SEQ&quot;" target="&quot;RETNREF+&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both models generate responses but RetNRef+ improves upon Seq2Seq by incorporating retrieval and referencing of past interactions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MEMNET&quot;" target="&quot;RETNREF+&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both models use memory-based mechanisms but RetNRef+ further enhances this by retrieving and referencing past interactions for more accurate responses."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table with two columns, each representing a different persona. Persona 1 has the following attributes: lacto-ovo vegetarian, likes to hike, has red hair, favorite drink is Sprite, and has a pet parrot named Tasha. Persona 2 has the following attributes: brown hair, Latina, mother works for special needs clients, a healer, and loves their family."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+</node>
+<node id="&quot;PERSONA 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A lacto-ovo vegetarian with red hair who enjoys hiking and has a pet parrot named Tasha. Their favorite drink is Sprite."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+</node>
+<node id="&quot;PERSONA 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Latina with brown hair who identifies as a healer and loves her family. Her mother works with special needs clients."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PERSONA 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Persona 1是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PERSONA 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Persona 2是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSONA 1&quot;" target="&quot;PERSONA 2&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both personas share an interest in their families and have distinct personal characteristics and hobbies."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

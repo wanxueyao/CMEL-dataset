@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Sensitivity Analysis' that provides sensitivity values for word recognizers. The table is divided into two main sections: Closed Vocabulary Models (word-only) and Open Vocab. Models (char/word+char/word-piece). Each section contains rows representing different backoff strategies (Pass-Through, Background, Neutral) and columns representing various types of attacks (Swap, Drop, Add, Key, All). The values in the table are numerical and represent sensitivity percentages. For example, in the Closed Vocabulary Models section, the Pass-Through backoff has sensitivity values of 17.6% for Swap, 19.7% for Drop, 0.8% for Add, 7.3% for Key, and 11.3% for All. In the Open Vocab. Models section, the Pass-Through backoff has significantly higher sensitivity values, such as 39.6% for Swap, 35.3% for Drop, 19.2% for Add, 26.9% for Key, and 30.3% for All. The Neutral backoff shows the lowest sensitivity across all attack types in both model categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_6.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of different models in terms of error rates for various types of errors, including swap, drop, add, key, and all combined. The table is divided into two sections: Closed Vocabulary Models (word-only) and Open Vocab. Models (char/word+char/word-piece). Each section has rows labeled 'Pass-Through', 'Background', and 'Neutral', with corresponding error rates for each type of error."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

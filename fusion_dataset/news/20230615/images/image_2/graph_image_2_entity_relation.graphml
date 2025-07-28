@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, slightly tousled- Glasses: Wearing black-framed glasses- Expression: Appears focused or concerned, mouth slightly open- Age: Appears to be a middle-aged man- Clothing: Wearing a denim shirt with the sleeves rolled up, revealing the wrists; white undershirt visible at the collar and cuffs- Accessories: Holding a vintage-style telephone receiver in one hand and a coiled cord in the other, suggesting he is in the middle of a phone callOverall, the character gives off an impression of being engaged in a serious conversation, possibly in a work-related context."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white photograph of a man sitting at a desk in an office environment. The man is wearing glasses and a denim jacket, and he appears to be engaged in a conversation on the phone. He is holding two telephone receivers, one in each hand, suggesting he might be multitasking or handling multiple calls simultaneously. The desk is cluttered with various items, including papers, books, and what appears to be a notebook. In the background, there are shelves filled with books and other materials, indicating a workspace that is both busy and intellectual. Through the window behind him, a cityscape is visible, suggesting that the office is located in a high-rise building. The overall atmosphere conveyed by the image is one of intensity and focus, as the man seems deeply engrossed in his work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with glasses, wearing a denim shirt, holding two telephone receivers to his ears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;DESK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A cluttered desk with papers and books."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;WINDOW&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A window showing a cityscape in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;BOOKSHELF&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A bookshelf filled with books and papers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<node id="&quot;TELEPHONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Two black and white telephone receivers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DESK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Desk是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Window是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BOOKSHELF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bookshelf是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TELEPHONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Telephone是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;DESK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is sitting at the desk."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is sitting near the window."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;BOOKSHELF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The man is sitting near the bookshelf."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TELEPHONE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is holding two telephone receivers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

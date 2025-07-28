@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Skills and their frequency in the sampled data.' The table categorizes different types of commonsense skills and their respective frequencies. The categories listed are: Spatial (41%), Cause &amp; Effect (23%), Has parts (23%), Is member of (17%), Purpose (18%), Social (15%), Activity (8%), Definition (6%), and Preconditions (3%). Each row represents a category of commonsense skill, with the first column listing the category name and the second column providing the definition of the skill. The third column shows the percentage frequency of each skill in the sampled data. For example, 'Spatial' is defined as 'Concept A appears near Concept B' and occurs 41% of the time, while 'Preconditions' is defined as 'Concept A must hold true in order for Concept B to take place' and occurs 3% of the time."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying a list of categories and their definitions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+</node>
+<node id="&quot;CATEGORIES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"List of categories including Spatial, Cause &amp; Effect, Has parts, Is member of, Purpose, Social, Activity, Definition, and Preconditions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+</node>
+<node id="&quot;DEFINITIONS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Descriptions for each category, explaining the relationship between Concept A and Concept B."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+</node>
+<node id="&quot;PERCENTAGES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Numerical values indicating the percentage associated with each category."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CATEGORIES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Categories是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DEFINITIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Definitions是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PERCENTAGES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Percentages是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;CATEGORIES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains the list of categories."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;DEFINITIONS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the definitions for each category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PERCENTAGES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table displays the percentages for each category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATEGORIES&quot;" target="&quot;DEFINITIONS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Each category has a corresponding definition."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATEGORIES&quot;" target="&quot;PERCENTAGES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Each category is associated with a specific percentage."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DEFINITIONS&quot;" target="&quot;PERCENTAGES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The definitions are linked to the percentages for each category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

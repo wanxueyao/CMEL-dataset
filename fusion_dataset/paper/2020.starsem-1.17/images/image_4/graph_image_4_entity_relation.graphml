@@ -1,0 +1,310 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Joint accuracy on the test sets of MultiWOZ 2.0 and 2.1.' The table lists various dialogue state tracking (DST) models and their performance metrics on two datasets, MultiWOZ 2.0 and MultiWOZ 2.1. The table has three columns: 'Models,' 'MultiWOZ 2.0,' and 'MultiWOZ 2.1.' Each row represents a different model and its corresponding joint accuracy percentage on the two datasets. The models listed are SpanPtr, Ptr-DST, DSTreader, TRADE, COMER, DSTQA w/span, DSTQA w/o span+, BERT-DST, MA-DST, SST-2+, and NA-DST. The joint accuracy percentages range from 30.28% to 55.23%. Notable performances include DSTQA w/span with 51.36% on MultiWOZ 2.0 and 49.67% on MultiWOZ 2.1, and SST-2+ with 51.17% on MultiWOZ 2.0 and 55.23% on MultiWOZ 2.1. The footnote indicates that some models require a full ontology and that some results are reported by Eric et al. (2019)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;SPANPTR (XU AND HU, 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Xu and Hu in 2018 for dialogue state tracking. It achieved a joint goal accuracy of 30.28% on MultiWOZ 2.0 and 29.09% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;PTR-DST&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that achieved a joint goal accuracy of 42.17% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DSTREADER (GAO ET AL., 2019B)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Gao et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 39.41% on MultiWOZ 2.0 and 36.40% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;TRADE (WU ET AL., 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Wu et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 48.62% on MultiWOZ 2.0 and 45.60% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;COMER (REN ET AL., 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Ren et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 45.72% on MultiWOZ 2.0."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DSTQA W/SPAN (ZHOU AND SMALL, 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Zhou and Small in 2019 for dialogue state tracking with span. It achieved a joint goal accuracy of 51.36% on MultiWOZ 2.0 and 49.67% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DSTQA W/O SPAN+ (ZHOU AND SMALL, 2019)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Zhou and Small in 2019 for dialogue state tracking without span. It achieved a joint goal accuracy of 51.44% on MultiWOZ 2.0 and 51.17% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-DST (RASTOGI ET AL., 2020)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Rastogi et al. in 2020 for dialogue state tracking using BERT. It achieved a joint goal accuracy of 43.40% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;MA-DST (KUMAR ET AL., 2020)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Kumar et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 51.04% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;SST-2+ (CHEN ET AL., 2020)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Chen et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 51.17% on MultiWOZ 2.0 and 55.23% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;NA-DST (LE ET AL., 2020)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Le et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 50.52% on MultiWOZ 2.0 and 49.04% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DS-SPAN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that achieved a joint goal accuracy of 42.59% on MultiWOZ 2.0 and 40.00% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DS-DST&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that achieved a joint goal accuracy of 52.24% on MultiWOZ 2.0 and 51.21% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;DS-PICKLIST+&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that achieved a joint goal accuracy of 54.39% on MultiWOZ 2.0 and 53.30% on MultiWOZ 2.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+</node>
+<node id="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d1">"The model was evaluated on this dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d1">"The model was evaluated on this dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SPANPTR (XU AND HU, 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SpanPtr (Xu and Hu, 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PTR-DST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ptr-DST是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DSTREADER (GAO ET AL., 2019B)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DSTreader (Gao et al., 2019b)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TRADE (WU ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TRADE (Wu et al., 2019)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;COMER (REN ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"COMER (Ren et al., 2019)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DSTQA W/SPAN (ZHOU AND SMALL, 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DSTQA w/span (Zhou and Small, 2019)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DSTQA W/O SPAN+ (ZHOU AND SMALL, 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DSTQA w/o span+ (Zhou and Small, 2019)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BERT-DST (RASTOGI ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-DST (Rastogi et al., 2020)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MA-DST (KUMAR ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MA-DST (Kumar et al., 2020)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SST-2+ (CHEN ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-2+ (Chen et al., 2020)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;NA-DST (LE ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NA-DST (Le et al., 2020)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-Span是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-DST是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DS-PICKLIST+&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-Picklist+是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPANPTR (XU AND HU, 2018)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPANPTR (XU AND HU, 2018)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PTR-DST&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTREADER (GAO ET AL., 2019B)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTREADER (GAO ET AL., 2019B)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRADE (WU ET AL., 2019)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRADE (WU ET AL., 2019)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMER (REN ET AL., 2019)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTQA W/SPAN (ZHOU AND SMALL, 2019)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTQA W/SPAN (ZHOU AND SMALL, 2019)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTQA W/O SPAN+ (ZHOU AND SMALL, 2019)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DSTQA W/O SPAN+ (ZHOU AND SMALL, 2019)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-DST (RASTOGI ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MA-DST (KUMAR ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-2+ (CHEN ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-2+ (CHEN ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NA-DST (LE ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NA-DST (LE ET AL., 2020)&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-SPAN&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-SPAN&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-DST&quot;" target="&quot;MULTIWOZ 2.0&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-DST&quot;" target="&quot;MULTIWOZ 2.1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model was evaluated on this dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

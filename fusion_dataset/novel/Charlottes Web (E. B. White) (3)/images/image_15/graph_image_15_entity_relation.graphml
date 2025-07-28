@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_15_BENCH-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rat- Age: Appears to be an adult rat based on its size and fur density- Color: Dark fur, possibly black or dark brown- Shape: Typical rodent shape with a long, thin tail; small ears; and a pointed snout- Size: Medium-sized rat, not a large species like a Norway rat but larger than a newborn or juvenile- Posture: Standing on its hind legs, reaching up towards a hole in the wall with one paw extended- Structural Characteristics: Visible whiskers, small eyes, and a long tail that appears to have a pattern of light and dark bandsOverall, the rat appears to be curious or investigative, possibly trying to reach something inside the hole in the wall."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+</node>
+<node id="&quot;IMAGE_15&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration of a rat. The rat is depicted in a dynamic pose, with its front paws raised as if it is climbing or reaching for something. Its eyes are wide open, and its mouth is slightly agape, giving it an expression of determination or effort. The rat's fur is detailed with numerous lines to show texture and volume. Its tail is long and segmented, extending outwards from the bottom of the image. The background consists of horizontal lines, suggesting a surface or wall that the rat is interacting with. There is a small object near the rat's nose, which appears to be a piece of thread or string. The overall atmosphere conveyed by the image is one of action and focus, as the rat seems to be engaged in a task that requires concentration and effort."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+</node>
+<node id="&quot;RAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A rat with a long tail, standing on its hind legs and reaching up towards the ceiling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+</node>
+<node id="&quot;CEILING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The surface of the ceiling that the rat is reaching towards."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+</node>
+<edge source="&quot;IMAGE_15_BENCH-0.JPG&quot;" target="&quot;IMAGE_15&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_15_bench-0.jpg是image_15的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;RAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rat是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;CEILING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ceiling是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAT&quot;" target="&quot;CEILING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The rat is interacting with the ceiling by reaching up towards it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image displays a large, bold black letter 'O' on a white background. The letter 'O' is perfectly circular with uniform thickness in its stroke. There are no other objects, scenes, or background elements present in the image. The simplicity of the image focuses entirely on the letter 'O', which stands out prominently against the stark white backdrop."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+</node>
+<node id="&quot;O&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, bold letter 'O' in black color."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+</node>
+<node id="&quot;WHITE BACKGROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The background is white and contrasts with the black letter 'O'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;O&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"O是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;WHITE BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Background是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;O&quot;" target="&quot;WHITE BACKGROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The letter 'O' is set against a white background, creating a stark contrast."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

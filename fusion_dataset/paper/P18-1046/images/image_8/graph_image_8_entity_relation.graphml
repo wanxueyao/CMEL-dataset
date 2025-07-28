@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Comparison of AUC values between previous studies and our DSGAN method.' The table is structured with four main columns: Model, -, +DSGAN, and p-value. Each row represents a different model configuration and its corresponding AUC values with and without the DSGAN method. The rows are as follows: CNN+ONE (0.177, 0.189, 4.37e-04), CNN+ATT (0.219, 0.226, 8.36e-03), PCNN+ONE (0.206, 0.221, 2.89e-06), and PCNN+ATT (0.253, 0.264, 2.34e-03). The table highlights the improvements in AUC values when using the DSGAN method compared to the baseline models. The p-values indicate the statistical significance of these improvements, all being less than 5e-02."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of different models with and without DSGAN, including CNN+ONE, CNN+ATT, PCNN+ONE, and PCNN+ATT."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;CNN+ONE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that combines Convolutional Neural Network (CNN) with a one-hot encoding scheme."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;CNN+ATT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that combines Convolutional Neural Network (CNN) with an attention mechanism."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;PCNN+ONE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that combines Position-aware Convolutional Neural Network (PCNN) with a one-hot encoding scheme."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;PCNN+ATT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model that combines Position-aware Convolutional Neural Network (PCNN) with an attention mechanism."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<node id="&quot;DSGAN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A generative adversarial network designed to improve the performance of relation extraction models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CNN+ONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN+ONE是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CNN+ATT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN+ATT是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PCNN+ONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PCNN+ONE是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PCNN+ATT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PCNN+ATT是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DSGAN是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN+ONE&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of CNN+ONE improves from 0.177 to 0.189 when DSGAN is added, with a p-value of 4.37e-04."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN+ATT&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of CNN+ATT improves from 0.219 to 0.226 when DSGAN is added, with a p-value of 8.36e-03."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PCNN+ONE&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of PCNN+ONE improves from 0.206 to 0.221 when DSGAN is added, with a p-value of 2.89e-06."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PCNN+ATT&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of PCNN+ATT improves from 0.253 to 0.264 when DSGAN is added, with a p-value of 2.34e-03."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

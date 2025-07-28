@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, neatly styled hair with a side parting- Facial Hair: Light stubble on the chin and upper lip- Expression: Serious or contemplative expression- Age: Appears to be an adult male, possibly in his 30s or 40s- Clothing: Wearing a red suit jacket with a notched lapel, which suggests a formal or professional settingOverall, the individual presents a polished and professional appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Flame- Color: A gradient of colors including yellow, orange, and red, with a bright white at the center indicating intense heat.- Shape: Irregular, with a dynamic and fluid shape that suggests movement and change.- Size: The flame occupies a significant portion of the image, suggesting it is large in scale.- Material: Not applicable, as it is a flame and not a solid object.- Possible function: The flame could be part of a larger scene involving fire, such as a bonfire, fireplace, or industrial setting where flames are used for various purposes like heating or cooking.- Other significant characteristics: The flame has a swirling pattern, which gives it a sense of motion and energy. The bright white at the center indicates a very high temperature, while the outer edges are cooler, transitioning from orange to yellow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a man with short, neatly styled hair and a beard, wearing a red suit jacket. He is standing in profile, facing to the left of the image. The background is filled with warm, reddish hues and appears to be a busy, possibly urban setting with blurred lights and reflections, suggesting a nightlife or evening scene. The overall atmosphere conveyed by the image is one of intensity and drama, with the man's serious expression adding to the sense of tension or anticipation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with short, neatly styled hair and a beard, wearing a red suit jacket and looking to his left."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+</node>
+<node id="&quot;BACKGROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A colorful, blurred background with warm tones and indistinct shapes that suggest a festive or theatrical setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_3_person-1.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-1.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-1.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Background是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;BACKGROUND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing in front of the background, creating a contrast between his sharp appearance and the soft, vibrant backdrop."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

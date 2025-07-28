@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed diagram of a Self-attentive Bi-LSTM-CRF Model used for Named Entity Recognition (NER). The diagram is structured in a hierarchical manner, starting from the bottom with character-level inputs and progressing to the CRF layer at the top. At the bottom, there are characters 'S', 'a', 'n' representing parts of the word 'San'. These characters are fed into a Char Bi-LSTM layer, which processes them sequentially. Above this, there is a Word Embedding layer that takes the word 'flights' as input. This word embedding is then passed through a Word Bi-LSTM layer, which captures the sequential information of the words. The output of the Word Bi-LSTM layer is then fed into a Masked Self-attention mechanism, which allows the model to focus on relevant parts of the input sequence. The output of the self-attention mechanism is combined with global context information and fed into an LSTM Output layer. Finally, the output of this layer is passed to the CRF Layer, which assigns labels to each word. In this case, the labels are 'O', 'O', 'B-LOC', and 'I-LOC', indicating the start and continuation of a location entity. The diagram uses circles and rectangles to represent different layers and arrows to indicate the flow of information. The colors used are primarily orange for the embeddings and outputs, and gray for the layers and labels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;CRF LAYER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A Conditional Random Field (CRF) layer used for sequence labeling tasks, specifically for identifying the beginning and inside of location entities in a sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;GLOBAL CONTEXT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The global context is a feature that captures information from the entire input sequence, which is then fed into the CRF layer to improve the model's performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;LSTM OUTPUT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The output of the Long Short-Term Memory (LSTM) network, which processes the input sequence and generates a sequence of hidden states."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;MASKED SELF-ATTENTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A mechanism used to focus on specific parts of the input sequence, allowing the model to selectively attend to relevant information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;WORD BI-LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A bidirectional LSTM network that processes word-level embeddings, capturing both past and future context for each word in the sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;WORD EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A representation of words as dense vectors, where similar words are mapped to nearby points in space."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAR EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A representation of characters as dense vectors, used to capture subword information and handle out-of-vocabulary words."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAR BI-LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A bidirectional LSTM network that processes character-level embeddings, capturing both past and future context for each character in the sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CRF LAYER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CRF Layer是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;GLOBAL CONTEXT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Global Context是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LSTM OUTPUT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM Output是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MASKED SELF-ATTENTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Masked Self-attention是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WORD BI-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Word Bi-LSTM是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WORD EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Word Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAR EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Char Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAR BI-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Char Bi-LSTM是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CRF LAYER&quot;" target="&quot;GLOBAL CONTEXT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CRF layer uses the global context to make more informed decisions about the labels of each token in the sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CRF LAYER&quot;" target="&quot;LSTM OUTPUT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CRF layer takes the LSTM output as input and uses it to predict the most likely sequence of labels for the input sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM OUTPUT&quot;" target="&quot;MASKED SELF-ATTENTION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The masked self-attention mechanism operates on the LSTM output to generate a contextualized representation of each token."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WORD BI-LSTM&quot;" target="&quot;WORD EMBEDDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Word Bi-LSTM processes the word embeddings to capture the context of each word in the sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR EMBEDDING&quot;" target="&quot;CHAR BI-LSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Char Bi-LSTM processes the character embeddings to capture the context of each character in the sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_VASE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Quidditch- Color: The object has a golden hue with intricate designs and patterns.- Shape: The object appears to be spherical, resembling a ball.- Size: The size is not explicitly clear, but it resembles a standard-sized sports ball.- Material: The material appears to be metallic or gold-plated, giving it a shiny and reflective surface.- Possible function: This object is likely a representation of the Golden Snitch, a key component in the magical sport of Quidditch. It is a small, fast-moving ball that the Seeker must catch to win the game for their team.- Other significant characteristics: The text "CHAPTER ELEVEN QUDDITCH" is prominently displayed on the object, indicating its association with a specific chapter in a book, possibly related to the Harry Potter series where Quidditch originates."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a golden, spherical object with intricate designs and patterns, resembling the Snitch from the game of Quidditch. The sphere is adorned with two sets of wings on either side, giving it an appearance of flight. The background is a light blue sky with subtle cloud patterns, adding to the airy and dynamic atmosphere. Overlaid on the image are the words 'CHAPTER ELEVEN QUIDDITCH' in bold, black text, indicating the title of a chapter likely from a book related to the Harry Potter series. The overall mood conveyed by the image is one of excitement and anticipation, fitting the theme of a Quidditch match."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+</node>
+<node id="&quot;GOLDEN SNITCH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small, golden ball with wings, used in the game of Quidditch."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+</node>
+<node id="&quot;QUIDDITCH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A magical sport played on broomsticks, involving teams of seven players and four types of balls."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_VASE-0.JPG&quot;" target="&quot;GOLDEN SNITCH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_vase-0.jpg is a picture of the Golden Snitch."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_VASE-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_vase-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;GOLDEN SNITCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Golden Snitch是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;QUIDDITCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Quidditch是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOLDEN SNITCH&quot;" target="&quot;QUIDDITCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Golden Snitch is a crucial element in the game of Quidditch, as catching it ends the game and awards 150 points to the team that catches it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

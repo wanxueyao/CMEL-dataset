@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a golf course scene, specifically a hole on a golf course. The foreground shows a sandy area with sparse grass, leading up to a well-maintained green. To the right of the green is a sand bunker, and there is another bunker located further back on the left side of the fairway. The fairway itself is bordered by tall grass and shrubs, creating a natural boundary. In the background, there are trees and a sign indicating the hole number, which is '4'. The overall atmosphere is serene and picturesque, typical of a golf course setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+</node>
+<node id="&quot;GOLF COURSE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A well-maintained golf course with a green, sand bunkers, and surrounding trees."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+</node>
+<node id="&quot;SAND BUNKERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Areas of sand designed to challenge golfers on the golf course."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Green trees bordering the golf course, providing a natural boundary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+</node>
+<node id="&quot;PATHWAY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A narrow pathway leading towards the green on the golf course."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GOLF COURSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Golf Course是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SAND BUNKERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sand Bunkers是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PATHWAY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pathway是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOLF COURSE&quot;" target="&quot;SAND BUNKERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The sand bunkers are part of the golf course design."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOLF COURSE&quot;" target="&quot;TREES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The trees surround the golf course."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOLF COURSE&quot;" target="&quot;PATHWAY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The pathway leads to the green within the golf course."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

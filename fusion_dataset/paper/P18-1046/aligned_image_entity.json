@@ -1,0 +1,58 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Illustration of the distant supervision training data distribution for one relation type",
+        "entity_type": "EVENT",
+        "description": "DSGAN refers to the Generative Adversarial Training for Distant Supervision Relation Extraction, the main topic of the paper.",
+        "reason": "The image illustrates the distribution of distant supervision (DS) training data for one relation type, which is directly related to the concept of DSGAN as described in the text. The image shows the decision boundaries and different types of data points, which are key elements in the adversarial learning framework proposed in the paper.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Figure 2: An overview of the DSGAN training pipeline",
+        "entity_type": "ORGANIZATION",
+        "description": "DSGAN is the organization or project responsible for developing the described generator and discriminator models for sampling from a probability distribution.",
+        "reason": "The image clearly illustrates the training pipeline of a Deep Supervised Generative Adversarial Network (DSGAN), which matches the description of DSGAN in the text. The image shows the four main stages: DS Positive Dataset, Generator, Sampling, and Discriminator, which are all components of the DSGAN system.",
+        "matched_chunk_entity_name": "no match/DSGAN"
+    },
+    "image_3": {
+        "entity_name": "Table 1",
+        "entity_type": "ORGANIZATION",
+        "description": "None.",
+        "reason": "Human check result.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Figure 3",
+        "entity_type": "EVENT",
+        "description": "The Adversarial Learning Process is a strategy used to detect true positive samples from a noisy distant supervision dataset, involving a Generator and a Discriminator.",
+        "reason": "The image depicts the performance changes of the discriminator and generator over epochs for different relation types, which directly aligns with the adversarial learning process described in the text. The graphs show the accuracy and F1 score trends that are characteristic of an adversarial training process.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Figure 4",
+        "entity_type": "EVENT",
+        "description": "The performance change of the discriminator on $N^{D}$ during the training process. Each point in the curves records the prediction accuracy on $N^{D}$ when finishing each epoch. We stop the training process when this accuracy no longer decreases.",
+        "reason": "The image is a line graph depicting the performance change of the discriminator on $N^{D}$ during the training process, which directly aligns with the description of Figure 4 in the text. The x-axis represents the epoch number, and the y-axis shows the accuracy, which matches the content of the image.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Figure 5: Aggregate PR curves of CNN˙based model",
+        "entity_type": "EVENT",
+        "description": "Aggregate PR curves are used to represent the performance of different models, showing the improvement after applying the redistributed dataset.",
+        "reason": "The image is a precision-recall (PR) curve graph comparing four different CNN-based models. The x-axis represents Recall and the y-axis represents Precision, which aligns with the description of aggregate PR curves in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_7": {
+        "entity_name": "Figure 6: Aggregate PR curves of PCNN˙based model",
+        "entity_type": "EVENT",
+        "description": "Aggregate PR curves are used to represent the performance of different models, showing the improvement after applying the redistributed dataset.",
+        "reason": "The image clearly shows the Precision-Recall (PR) curves of four different PCNN-based models, which aligns with the description of 'Aggregate PR curves' in the text. The curves depict the trade-off between precision and recall for the respective models, which is consistent with the information provided in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 2: Comparison of AUC values between previous studies and our DSGAN method.",
+        "entity_type": "TABLE",
+        "description": "The table presents the AUC values for different model configurations with and without the DSGAN method, along with p-values indicating the statistical significance of improvements.",
+        "reason": "The image clearly shows a table labeled 'Table 2' which matches the description provided in the text. The table contains the AUC values for various models both with and without the DSGAN method, as well as the corresponding p-values.",
+        "matched_chunk_entity_name": "no match"
+    }
+}

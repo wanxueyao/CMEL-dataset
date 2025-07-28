@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene of agricultural activity in a wheat field near Kharkiv, Ukraine, captured in April. A blue tractor is prominently positioned in the center of the frame, actively engaged in fertilizing the field. The tractor is moving across the lush green expanse of the wheat field, leaving behind a trail of dust and fertilizer. The field itself is expansive, with rows of young wheat plants visible, indicating early growth stages. In the background, there is a line of trees and shrubs separating the field from what appears to be a forested area. The sky above is clear, suggesting a sunny day, which is typical for springtime in this region. The overall atmosphere conveys a sense of routine agricultural work amidst a backdrop of natural beauty and tranquility. The context provided indicates that this image was taken during a period of significant global concern regarding wheat supply, particularly affecting African nations due to the ongoing conflict between Russia and Ukraine."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+</node>
+<node id="&quot;TRACTOR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A blue tractor with a white cabin, actively spraying or applying something on the field."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large green field with some patches of brown soil and a few scattered dark spots."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A line of trees at the edge of the field, providing a natural boundary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TRACTOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tractor是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRACTOR&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The tractor is operating on the field, likely performing agricultural tasks such as spraying or fertilizing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIELD&quot;" target="&quot;TREES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The field is bordered by a line of trees, which serve as a natural boundary and possibly provide windbreak for the crops."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

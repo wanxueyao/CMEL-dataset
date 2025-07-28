@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_15&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 7: Raw scores (mean ± std.) for all models and human evaluation metrics.' The table presents the results of human evaluations for various configurations of models. The columns represent different evaluation metrics, including Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, Make Sense, and Persona Retrieval. Each row corresponds to a different model or configuration. The first row represents the Human baseline, followed by Greedy Search and Beam Search (beam size 20). Subsequent rows detail various repetition control, question control, specificity control, and response-related control configurations. For example, the Extrep bigram WD -0.5 model scores 2.66 ± 0.56 in Avoiding Repetition, 2.56 ± 0.92 in Engage, and so on. The maximum score for most metrics is 4, except for Avoiding Repetition which has a maximum of 3, and Inquisitive which has an optimal score of 3. The last column, Persona Retrieval, is on a scale from 0 to 1 where higher is better. Notable data points include the Question-controlled CT 7 model scoring 3.07 ± 0.90 in Engage and the Specificity-controlled WD 8 model scoring 3.06 ± 0.80 in Listening."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying various models and their performance metrics in a tabular format. The table includes columns for different evaluation criteria such as Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, Make Sense, and Persona."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+</node>
+<node id="&quot;MODELS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Various models used in the experiment, including Human, Greedy Search, Beam Search, Extrep bigram WD -0.5, Extrep bigram WD -1.25, Extrep bigram WD -3.5, Extrep bigram WD -inf, Repetition-controlled baseline, Question-controlled CT 0, Question-controlled CT 1, Question-controlled CT 4, Question-controlled CT 7, Question-controlled CT 10, Question-controlled CT 10 (boost), Specificity-controlled CT 0, Specificity-controlled CT 2, Specificity-controlled CT 4, Specificity-controlled CT 7, Specificity-controlled CT 9, Specificity-controlled WD -10, Specificity-controlled WD -4, Specificity-controlled WD 4, Specificity-controlled WD 6, Specificity-controlled WD 8, Response-related controlled WD -10, Response-related controlled WD 0, Response-related controlled WD 5, Response-related controlled WD 10, Response-related controlled WD 13."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+</node>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;MODELS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Models是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table displays the performance metrics of the models across various evaluation criteria."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

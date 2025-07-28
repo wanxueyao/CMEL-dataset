@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT.' The table is structured with two main columns: 'Productivity' and 'Coverage'. Each column represents a metric and contains the following rows: 'Train', 'Validation', 'Test', and 'All'. The values for each row are as follows: Train - Productivity: 0.65, Coverage: 0.66; Validation - Productivity: 0.62, Coverage: 0.44; Test - Productivity: 0.52, Coverage: 0.77; All - Productivity: 0.61, Coverage: 0.64. The table highlights the productivity and coverage metrics across different dataset partitions, showing that while the productivity is highest in the training set, the coverage is highest in the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying metrics for productivity and coverage across different datasets: Train, Validation, Test, and All. The table includes numerical values for each dataset under the categories of Productivity and Coverage."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+</node>
+<node id="&quot;PRODUCTIVITY&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d1">"The table provides numerical values for productivity across different datasets, indicating the efficiency or output level of each dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;COVERAGE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d1">"The table provides numerical values for coverage across different datasets, indicating the breadth or scope of each dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PRODUCTIVITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table provides numerical values for productivity across different datasets, indicating the efficiency or output level of each dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;COVERAGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table provides numerical values for coverage across different datasets, indicating the breadth or scope of each dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PRODUCTIVITY&quot;" target="&quot;COVERAGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Productivity and Coverage are two metrics compared across the same datasets in the table, showing their respective values and allowing for analysis of their relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

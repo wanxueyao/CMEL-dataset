@@ -1,0 +1,529 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT, an acronym for Bidirectional Encoder Representations from Transformers, is a neural language model that uses a Transformer encoder and is capable of contextualized word embeddings. It is the basis for SenseBERT, which incorporates word-supersense information into its pre-training. BERT is also referenced in the context of various word embedding techniques and its architecture includes an internal Transformer encoder and an external mapping to the word vocabulary space.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "BERT’S ARCHITECTURE",
+                "BERT",
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a neural language model developed by AI21 Labs that extends BERT by incorporating sense embeddings in addition to word embeddings and positional embeddings, and outputs both word and sense predictions. It predicts masked words and their WordNet supersenses, achieving state-of-the-art performance on the Word in Context task, improving the score of BERTLARGE by 2.5 points.",
+            "source_image_entities": [
+                "SENSEBERT"
+            ],
+            "source_text_entities": [
+                "SENSEBERT",
+                "SENSEBERTLARGE",
+                "SENSEBERT"
+            ]
+        }
+    ],
+    "image_2": "[\n    {\n        \"entity_name\": \"BERT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"BERT is an acronym for Bidirectional Encoder Representations from Transformers, a method used in natural language processing, specifically for pre-training language models. It is also known for employing the same mapping for converting in and out of the Transformer encoder, known as weight tying, which has shown theoretical and practical benefits.\",\n        \"source_image_entities\": [\"VERB SUPERSENSES\", \"NOUN SUPERSENSES\", \"OTHER (ADV./ADJ.)\"],\n        \"source_text_entities\": [\"\\\"BERT\\\"\", \"\\\"BERT\\\"\", \"\\\"BERT\\\"\", \"\\\"BERT\\\"\", \"\\\"BERT\\\"\"]\n    },\n    {\n        \"entity_name\": \"Transformer\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Transformer is a model architecture used in deep learning, particularly in the context of BERT for processing sequences of data like text. It is a component of BERT’s architecture that processes word embeddings through multiple attention-based layers and benefits from weight tying, making input more sensitive to the training signal.\",\n        \"source_image_entities\": [],\n        \"source_text_entities\": [\"\\\"TRANSFORMER\\\"\", \"\\\"TRANSFORMER ENCODER\\\"\", \"\\\"TRANSFORMER ENCODER\\\"\"]\n    },\n    {\n        \"entity_name\": \"SenseBERT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"SenseBERT is a model that extends BERT's capabilities to predict the supersense of every masked word, training a semantic-level language model. It learns supersense vectors and is used for pre-training in the context of supersense prediction.\",\n        \"source_image_entities\": [\"NOUN SUPERSENSES\"],\n        \"source_text_entities\": [\"\\\"SENSEBERT\\\"\", \"\\\"SENSEBERT\\\"\", \"\\\"SENSEBERT\\\"\"]\n    },\n    {\n        \"entity_name\": \"WordNet\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"WordNet is a lexical database for the English language, used in the context of BERT for supersense prediction tasks. It provides supersense information used in the construction of the input vector to the Transformer encoder and is utilized in the construction of allowed supersenses in BERT.\",\n        \"source_image_entities\": [],\n        \"source_text_entities\": [\"\\\"WORDNET\\\"\", \"\\\"WORDNET\\\"\", \"\\\"WORDNET\\\"\", \"\\\"WORDNET\\\"\"]\n    },\n    {\n        \"entity_name\": \"Supersenses\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"Supersenses refer to a broad semantic category that a word can belong to, used in the context of supersense prediction tasks in BERT. Noun Supersenses refers to a subset of supersenses that are semantically similar and are clustered together in the UMAP visualization.\",\n        \"source_image_entities\": [\"VERB SUPERSENSES\", \"NOUN SUPERSENSES\", \"OTHER (ADV./ADJ.)\"],\n        \"source_text_entities\": [\"\\\"SUPERSENSE\\\"\", \"\\\"SUPERSENSE PREDICTION\\\"\", \"\\\"SUPERSENSE\\\"\", \"\\\"SUPERSENSE VECTORS\\\"\", \"\\\"SUPERSENSES\\\"\"]\n    }\n]",
+    "image_3": [
+        {
+            "entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a semantic language model that predicts supersenses and is based on BERT's architecture. It learns supersense vectors and is used for pre-training in the context of supersense prediction. It demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.",
+            "source_image_entities": [
+                "SENSEBERT"
+            ],
+            "source_text_entities": [
+                "SENSEBERT",
+                "SENSEBERT",
+                "SENSEBERT"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is an architecture that employs the same mapping for converting in and out of the Transformer encoder, known as weight tying, which has shown theoretical and practical benefits. It is a model used for various natural language processing tasks, including the prediction of word senses and subword tokens. It serves as a baseline for comparison with SenseBERT in various lexical semantic tasks.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "BERT",
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "Transformer Encoder",
+            "entity_type": "ORGANIZATION",
+            "description": "The Transformer encoder is a component of the BERT architecture that benefits from weight tying, making input more sensitive to the training signal. It is part of the BERT architecture that is used for various natural language processing tasks.",
+            "source_image_entities": [
+                "TRANSFORMER ENCODER"
+            ],
+            "source_text_entities": [
+                "TRANSFORMER ENCODER"
+            ]
+        },
+        {
+            "entity_name": "WordNet",
+            "entity_type": "ORGANIZATION",
+            "description": "WordNet is a lexical database for the English language that provides supersense information used in the construction of the input vector to the Transformer encoder. It is used for selecting additional words to augment BERT's vocabulary based on word frequency and provides supersense information used in the prediction task.",
+            "source_image_entities": [
+                "WORDNET"
+            ],
+            "source_text_entities": [
+                "WORDNET",
+                "WORDNET",
+                "WORDNET"
+            ]
+        },
+        {
+            "entity_name": "UMAP",
+            "entity_type": "GEO",
+            "description": "UMAP is a visualization technique used to display supersense vectors learned by SenseBERT, as shown in Figure 2. It is used to illustrate the resultant mapping of supersenses in SenseBERT.",
+            "source_image_entities": [
+                "UMAP"
+            ],
+            "source_text_entities": [
+                "UMAP",
+                "UMAP"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a semantic language model that predicts supersenses and is based on BERT's architecture. It learns supersense vectors and is used for pre-training in the context of supersense prediction. It demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.",
+            "source_image_entities": [
+                "BASS PLAYER"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is an architecture that employs the same mapping for converting in and out of the Transformer encoder, known as weight tying, which has shown theoretical and practical benefits. It is a model used for various natural language processing tasks, including the prediction of word senses and subword tokens.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"BERT\"",
+                "\"BERT\""
+            ]
+        },
+        {
+            "merged_entity_name": "Transformer Encoder",
+            "entity_type": "ORGANIZATION",
+            "description": "The Transformer encoder is a component of the BERT architecture that benefits from weight tying, making input more sensitive to the training signal.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"TRANSFORMER ENCODER\""
+            ]
+        },
+        {
+            "merged_entity_name": "WordNet",
+            "entity_type": "ORGANIZATION",
+            "description": "WordNet is a lexical database for the English language that provides supersense information used in the construction of the input vector to the Transformer encoder and in the prediction task.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"WORDNET\"",
+                "\"WORDNET\""
+            ]
+        },
+        {
+            "merged_entity_name": "UMAP",
+            "entity_type": "GEO",
+            "description": "UMAP is a visualization technique used to display supersense vectors learned by SenseBERT, as shown in Figure 2.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"UMAP\""
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "SENSEBERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT_BASE is a version of BERT fine-tuned for SenseEval-SS, used for semantic role labeling and predicting supersenses. It is a semantic language model that predicts the missing word's meaning jointly with the standard word-form level language model.",
+            "source_image_entities": [
+                "SENSEBERT_BASE"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "merged_entity_name": "SEMEVAL-SS",
+            "entity_type": "EVENT",
+            "description": "SemEval-SS is an evaluation task for semantic role labeling where the performance of supersense prediction models is evaluated. It is a supersense-based variant of the SemEval WSD test sets, where a model predicts the supersense of a marked word.",
+            "source_image_entities": [
+                "SEMEVAL-SS"
+            ],
+            "source_text_entities": [
+                "SEMEVAL-SS"
+            ]
+        },
+        {
+            "merged_entity_name": "FINE-TUNED",
+            "entity_type": "OBJECT",
+            "description": "Fine-tuning is the process of adjusting the parameters of SenseBERT_BASE to improve performance on SemEval-SS. This involves training the supersense prediction task to predict the WordNet supersenses of a word from the average of the output embeddings at the location of the masked sub-word tokens.",
+            "source_image_entities": [
+                "FINE-TUNED"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a model that learns supersense vectors and is used for pre-training in the context of supersense prediction. It demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.",
+            "source_image_entities": [
+                "TEAM"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "entity_name": "Gene Probes",
+            "entity_type": "OBJECT",
+            "description": "Gene Probes are newly developed tools for genetic research used by a group of individuals in an experiment.",
+            "source_image_entities": [
+                "GENE PROBES",
+                "BATTERY"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "Ringers",
+            "entity_type": "PERSON",
+            "description": "Ringers are ten individuals wearing shirt-sleeves, standing in a circle, with one using their foot to stand ahead of others.",
+            "source_image_entities": [
+                "RINGERS",
+                "FOOT"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "Kick (Sports)",
+            "entity_type": "EVENT",
+            "description": "Kick (Sports) is a synchronized movement in sports that must be coordinated with arm movements.",
+            "source_image_entities": [
+                "KICK (SPORTS)"
+            ],
+            "source_text_entities": [
+                "ARM MOVEMENTS"
+            ]
+        },
+        {
+            "entity_name": "Kick (Drink Strength)",
+            "entity_type": "EVENT",
+            "description": "Kick (Drink Strength) refers to the powerful effect of a drink, such as the sidecar drink.",
+            "source_image_entities": [
+                "KICK (DRINK STRENGTH)",
+                "SIDECAR DRINK"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "Plant (Bug)",
+            "entity_type": "UNKNOWN",
+            "description": "Plant (Bug) refers to the act of placing bugs in the dissident's apartment for surveillance purposes.",
+            "source_image_entities": [
+                "PLANT (BUG)<",
+                "PLANT (BUG)"
+            ],
+            "source_text_entities": [
+                "DISSIDENT'S APARTMENT"
+            ]
+        },
+        {
+            "entity_name": "Plant (Spy)",
+            "entity_type": "UNKNOWN",
+            "description": "Plant (Spy) refers to the act of placing a spy in Moscow for intelligence gathering.",
+            "source_image_entities": [
+                "PLANT (SPY)<",
+                "PLANT (SPY)"
+            ],
+            "source_text_entities": [
+                "MOSCOW"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "BERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT_BASE refers to a version of BERT with 110M parameters and a specific embedding dimension, used for various natural language processing tasks, including the prediction of word senses and subword tokens.",
+            "source_image_entities": [
+                "BERT_BASE"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT_LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT_LARGE refers to a version of BERT with 340M parameters and a different embedding dimension, used for various natural language processing tasks, including the prediction of word senses and subword tokens.",
+            "source_image_entities": [
+                "BERT_LARGE"
+            ],
+            "source_text_entities": [
+                "BERTLARGE"
+            ]
+        },
+        {
+            "merged_entity_name": "SENSEBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a semantic language model that predicts supersenses and is based on BERT's architecture, demonstrating the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.",
+            "source_image_entities": [
+                "SENSEBERT_BASE",
+                "SENSEBERT_LARGE"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "merged_entity_name": "SEMEVAL-SS",
+            "entity_type": "EVENT",
+            "description": "SemEval-SS is an event or task where the performance of supersense prediction models is evaluated, requiring a model to predict the supersense of a marked word, and is used to test the model's lexical semantic awareness.",
+            "source_image_entities": [
+                "SEMEVAL-SS FROZEN",
+                "SEMEVAL-SS FINE-TUNED"
+            ],
+            "source_text_entities": [
+                "SEMEVAL-SS",
+                "SEMEVAL-SS TASK"
+            ]
+        },
+        {
+            "merged_entity_name": "WORD IN CONTEXT (WIC)",
+            "entity_type": "EVENT",
+            "description": "WiC is an event or task where models determine whether underlined words are used in the same or different supersenses, requiring a high level of lexical semantic understanding.",
+            "source_image_entities": [
+                "WORD IN CONTEXT"
+            ],
+            "source_text_entities": [
+                "WORD IN CONTEXT (WIC)",
+                "WORD IN CONTEXT (WIC) TASK"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "SENSEBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a model that demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks, achieving a score of 72.1 in the Word in Context task.",
+            "source_image_entities": [
+                "SENSEBERT"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "entity_name": "WORD IN CONTEXT (WIC) TASK",
+            "entity_type": "EVENT",
+            "description": "The WiC task is a recently introduced binary classification task that requires a model to determine whether an underlined word is used in the same or different supersense within two sentences, as defined over supersenses by Pilehvar and Camacho-Collados (2019).",
+            "source_image_entities": [
+                "WORD IN CONTEXT"
+            ],
+            "source_text_entities": [
+                "WORD IN CONTEXT (WIC) TASK"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a vanilla neural language model compared with SenseBERT in various lexical semantic tasks, focusing on word-level signals, and used as a baseline for comparison in the Word in Context task where it achieved a score of 67.7.",
+            "source_image_entities": [
+                "BERT SENSE EMBEDDINGS"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "ROBERTA",
+            "entity_type": "ORGANIZATION",
+            "description": "RoBERTa is a model that achieved a score of 69.9 in the Word in Context task, as referenced in the work by Liu et al. (2019).",
+            "source_image_entities": [
+                "ROBERTA‡‡"
+            ],
+            "source_text_entities": [
+                "ROBERTA‡‡"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is a model configuration of BERT designed for semantic understanding, with its own set of performance metrics across multiple benchmarks, including the SemEval-SS task and the Word in Context (WiC) task. It demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.",
+            "source_image_entities": [
+                "SENSEBERT_BASE"
+            ],
+            "source_text_entities": [
+                "SENSEBERT"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a vanilla neural language model used as a baseline for comparison with SenseBERT in various lexical semantic tasks, focusing on word-level signals.",
+            "source_image_entities": [
+                "BERT_BASE (OURS)"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "SemEval-SS Task",
+            "entity_type": "EVENT",
+            "description": "The SemEval-SS task is a supersense disambiguation task used to evaluate the model's lexical semantic awareness, requiring a model to predict the supersense of a marked word.",
+            "source_image_entities": [
+                "COLA"
+            ],
+            "source_text_entities": [
+                "SEMEVAL-SS TASK"
+            ]
+        },
+        {
+            "entity_name": "Word in Context (WiC) Task",
+            "entity_type": "EVENT",
+            "description": "The WiC task requires a model to determine whether an underlined word is used in the same or different supersense within two sentences, testing the model's performance on the Word in Context task.",
+            "source_image_entities": [
+                "MRPC"
+            ],
+            "source_text_entities": [
+                "WORD IN CONTEXT (WIC) TASK"
+            ]
+        },
+        {
+            "entity_name": "SuperGLUE Benchmark",
+            "entity_type": "EVENT",
+            "description": "The SuperGLUE benchmark is a recently introduced evaluation framework that includes the WiC task, requiring a high level of lexical semantic understanding, and against which baseline scores have been published.",
+            "source_image_entities": [
+                "SCORE"
+            ],
+            "source_text_entities": [
+                "SUPERGLUE BENCHMARK"
+            ]
+        },
+        {
+            "entity_name": "GLUE Benchmark",
+            "entity_type": "EVENT",
+            "description": "The GLUE benchmark is a testbed for language understanding models, consisting of 9 different NLP tasks, used to verify that SenseBERT gains its lexical semantic knowledge without compromising performance on other downstream tasks.",
+            "source_image_entities": [
+                "MNLI"
+            ],
+            "source_text_entities": [
+                "GLUE BENCHMARK"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "NOUNS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the diagram representing various types of nouns, including attributes, states, persons, groups, locations, acts, artifacts, communications, times, quantities, substances, plants, animals, objects, foods, motives, processes, shapes, feelings, possessions, and phenomena. It is part of the WordNet supersense categories used in the context of SenseBERT.",
+            "source_image_entities": [
+                "NOUNS"
+            ],
+            "source_text_entities": [
+                "WORDNET",
+                "SUPERSENSES"
+            ]
+        },
+        {
+            "entity_name": "VERBS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the diagram representing various types of verbs, including events, contacts, competitions, motions, social interactions, possessions, communications, creations, perceptions, changes, static actions, emotions, weather-related actions, and consumption-related actions. It is part of the WordNet supersense categories used in the context of SenseBERT.",
+            "source_image_entities": [
+                "VERBS"
+            ],
+            "source_text_entities": [
+                "WORDNET",
+                "SUPERSENSES"
+            ]
+        },
+        {
+            "entity_name": "SenseBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "SenseBERT is the model that learns supersense embedding vectors through pre-training, as described in the paper. It is capable of distinguishing between Noun senses and Verb senses, and semantically related supersenses are clustered together in the Dendrogram of Agglomerative hierarchical clustering over the supersense vectors.",
+            "source_image_entities": [
+                "NOUNS",
+                "VERBS"
+            ],
+            "source_text_entities": [
+                "SENSEBERT",
+                "SUPERSENSES",
+                "DENDROGRAM",
+                "AGGLOMERATIVE HIERARCHICAL CLUSTERING"
+            ]
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "Table 5",
+            "entity_type": "CONCEPT",
+            "description": "Table 5 is a comprehensive list of WordNet supersenses presented in the paper's documentation, as mentioned in the text and visualized in the associated image files.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "TABLE 5"
+            ]
+        },
+        {
+            "entity_name": "Dendrogram of Supersense Clustering",
+            "entity_type": "CONCEPT",
+            "description": "The Dendrogram of Supersense Clustering is a tree-like diagram used to illustrate the hierarchical clustering of supersense embedding vectors learned by SenseBERT, as described in the text and represented in Figure 5 and its associated image file.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "DENDROGRAM",
+                "AGGLOMERATIVE HIERARCHICAL CLUSTERING",
+                "FIGURE 5",
+                "IMAGES/IMAGE_10.JPG"
+            ]
+        },
+        {
+            "entity_name": "Supersenses",
+            "entity_type": "CONCEPT",
+            "description": "Supersenses are the broad semantic categories used in WordNet to group words into general classes, as listed in Table 5 and described in the context of SenseBERT's pre-training.",
+            "source_image_entities": [
+                "CATEGORIES"
+            ],
+            "source_text_entities": [
+                "SUPERSENSES",
+                "WORDNET",
+                "SENSEBERT"
+            ]
+        },
+        {
+            "entity_name": "Descriptions of Linguistic Categories",
+            "entity_type": "OBJECT",
+            "description": "Descriptions of linguistic categories provide detailed explanations for each supersense category, complementing the list presented in Table 5 and the supersense clustering shown in Figure 5.",
+            "source_image_entities": [
+                "DESCRIPTIONS"
+            ],
+            "source_text_entities": [
+                "TABLE 5",
+                "DENDROGRAM",
+                "FIGURE 5"
+            ]
+        }
+    ]
+}

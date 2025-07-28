@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Accuracy comparison for simple baseline models on WIKIHOP before and after filtering.' The table contains three rows and four columns. The first column lists the model names: Document-cue, Maj. candidate, and TF-IDF. The second and third columns represent the accuracy values for the unfiltered and filtered datasets, respectively. The accuracy values are as follows: Document-cue has an accuracy of 74.6% for the unfiltered dataset and 36.7% for the filtered dataset. Maj. candidate has an accuracy of 41.2% for the unfiltered dataset and 38.8% for the filtered dataset. TF-IDF has an accuracy of 43.8% for the unfiltered dataset and 25.6% for the filtered dataset. The table highlights the performance differences between the models before and after filtering."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+</node>
+<node id="&quot;DOCUMENT-CUE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event or method used in a document analysis context, achieving a performance score of 74.6 and another metric at 36.7."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+</node>
+<node id="&quot;MAJ. CANDIDATE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A significant candidate in the context of document analysis, with performance metrics of 41.2 and 38.8."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+</node>
+<node id="&quot;TF-IDF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A well-known technique in information retrieval and text mining, showing performance scores of 43.8 and 25.6."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DOCUMENT-CUE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Document-cue是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MAJ. CANDIDATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Maj. candidate是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TF-IDF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TF-IDF是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOCUMENT-CUE&quot;" target="&quot;MAJ. CANDIDATE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Document-cue event is compared against the Maj. candidate for performance evaluation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOCUMENT-CUE&quot;" target="&quot;TF-IDF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The Document-cue event's performance is also contrasted with the TF-IDF technique."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAJ. CANDIDATE&quot;" target="&quot;TF-IDF&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Maj. candidate's performance is benchmarked against the TF-IDF method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

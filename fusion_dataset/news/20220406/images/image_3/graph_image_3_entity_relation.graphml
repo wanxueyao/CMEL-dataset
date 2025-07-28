@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a series of vertical farm environments, showcasing the growth of various crops indoors. The scene is divided into multiple sections, each representing different stages or types of indoor farming. On the left, there are lush green plants growing in vertical stacks, possibly hydroponic systems. In the center, there are rows of plants with red and white striped supports, indicating a structured growing environment. To the right, there is a section with blue lighting, which is likely used for controlled light conditions to optimize plant growth. The overall atmosphere conveys a high-tech and efficient agricultural setup designed for year-round produce. The background includes some dark areas, possibly representing the structural elements of the indoor farm facility."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+</node>
+<node id="&quot;GREEN PLANTS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Rows of green plants in a greenhouse setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+</node>
+<node id="&quot;RED AND WHITE STRIPES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Vertical red and white striped pattern, possibly part of the greenhouse structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+</node>
+<node id="&quot;LIGHTING SYSTEM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Blue lighting system with visible wires and fixtures, likely used for plant growth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+</node>
+<node id="&quot;GREENHOUSE STRUCTURE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The overall structure of the greenhouse, including the walls and roof."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GREEN PLANTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Green Plants是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;RED AND WHITE STRIPES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Red and White Stripes是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LIGHTING SYSTEM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lighting System是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GREENHOUSE STRUCTURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Greenhouse Structure是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GREEN PLANTS&quot;" target="&quot;GREENHOUSE STRUCTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The green plants are growing within the greenhouse structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RED AND WHITE STRIPES&quot;" target="&quot;GREENHOUSE STRUCTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The red and white stripes are part of the greenhouse's structural design."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LIGHTING SYSTEM&quot;" target="&quot;GREENHOUSE STRUCTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The lighting system is installed within the greenhouse structure to support plant growth."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

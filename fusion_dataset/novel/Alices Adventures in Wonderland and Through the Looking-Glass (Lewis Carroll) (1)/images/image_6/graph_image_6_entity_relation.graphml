@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that falls past the shoulders- Expression: Neutral, with a slight frown and eyes looking downward- Age: Appears to be a young girl- Clothing: Wearing a long, puffy-sleeved dress with a high collar and a full skirt; dark stockings and shoes- Posture: Standing with hands clasped in front, slightly hunched overOverall, the character gives off a classic, storybook vibe, reminiscent of a fairy tale or historical setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of a young girl standing next to a small table. The girl has long, wavy hair and is wearing a short-sleeved dress with a full skirt. She is holding a small bottle in her right hand, which has a label that reads 'DRINK ME' in large letters. The girl appears to be examining the bottle closely, with a curious and cautious expression on her face. Her left hand is resting on her waist, and she is wearing knee-high socks and shoes. The table next to her is round and has a simple design with a single leg. The background is minimalistic, with no additional details or objects visible. The overall atmosphere of the image conveys a sense of wonder and caution as the girl contemplates the mysterious contents of the bottle."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and holding a bottle labeled 'DRINK ME' in her hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;BOTTLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small bottle with a label that reads 'DRINK ME', held by Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small table with a single drawer, on which the bottle is placed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BOTTLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bottle是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;BOTTLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is holding the bottle in her hand, preparing to drink from it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is standing next to the table, interacting with the bottle on it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOTTLE&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The bottle is placed on top of the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

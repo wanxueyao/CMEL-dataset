@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male and female- Hairstyle: The male has short hair, and the female has long hair tied in a ponytail.- Clothing: The male is wearing a hat, a coat, and pants. The female is wearing a dress with an apron.- Posture: The male appears to be in a defensive or struggling posture, with his arms raised and his body leaning back. The female is in a forward-leaning posture, with her arms wrapped around the male's neck and her legs bent as if she is pushing or pulling him.- Expression: The male has a surprised or shocked expression, while the female's face is not visible due to the angle.Overall, the scene depicts a dynamic interaction between the two individuals, suggesting a struggle or confrontation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a dramatic scene between two characters. A man, wearing overalls and a hat, is holding an ax in his right hand, seemingly preparing to strike. His facial expression conveys determination or resolve. A young girl, with her hair tied back and wearing a dress, is clinging to the man's arm with both hands, trying to prevent him from using the ax. Her posture and expression suggest desperation and fear. The background is minimalistic, focusing entirely on the interaction between the two characters. The grass at their feet indicates they are outdoors. The overall atmosphere of the image is tense and emotional, capturing a moment of conflict and urgency."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wearing a hat and overalls, holding an axe, appears to be in a struggle with a girl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Has long hair tied in pigtails, wearing a dress and stockings, appears to be trying to stop the man from using the axe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The girl is trying to prevent the man from using the axe."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

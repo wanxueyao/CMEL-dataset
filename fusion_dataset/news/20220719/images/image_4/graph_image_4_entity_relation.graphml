@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_ELEPHANT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Elephant- Age: Appears to be an adult, given the size and development of the tusks and ears- Color: Dark grey with some lighter patches, possibly due to mud or natural pigmentation variations- Shape: Characterized by a large, rounded ear, a long trunk curled upwards, and a massive head- Size: Large, typical of an adult elephant, though exact dimensions cannot be determined from this image alone- Posture: The trunk is raised, which can indicate a variety of behaviors such as smelling, greeting, or expressing excitementOverall, the image captures the distinctive features of an adult elephant, emphasizing its majestic and powerful presence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a close-up photograph of an elephant. The elephant's trunk is curled upwards and slightly to the left, suggesting a playful or curious posture. The skin texture is rough and wrinkled, typical of elephants, with a grayish-brown coloration. The elephant's large ear is prominently visible, covering a significant portion of the right side of the image. The background appears to be a natural setting with blurred greenery, indicating that the photo was likely taken in the wild or a natural habitat. The lighting suggests it is daytime, with sunlight casting shadows on the elephant's face and trunk."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+</node>
+<node id="&quot;ELEPHANT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A large elephant with its trunk raised, showcasing its wrinkled skin and prominent ears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENVIRONMENT&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+  <data key="d1">"The elephant is in a natural environment, possibly a savannah or grassland."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4_ELEPHANT-0.JPG&quot;" target="&quot;ELEPHANT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_elephant-0.jpg is a picture of an elephant."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_ELEPHANT-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_elephant-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ELEPHANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Elephant是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELEPHANT&quot;" target="&quot;ENVIRONMENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The elephant is in a natural environment, possibly a savannah or grassland."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

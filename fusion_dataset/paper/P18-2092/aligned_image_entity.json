@@ -1,0 +1,30 @@
+{
+    "image_1": {
+        "entity_name": "Table 1: Dataset description",
+        "entity_type": "EVENT",
+        "description": "Aspect-level sentiment classification is the task of determining sentiment polarity towards a specific target within a sentence. It is the main focus of the paper, aiming to classify sentiment towards specific aspects within text.",
+        "reason": "The image depicts a table that provides detailed statistics for datasets related to restaurant and laptop reviews, which are used in aspect-level sentiment classification tasks. The table highlights the distribution of sentiment in each dataset, showing a significant number of positive reviews across all datasets. This aligns with the description of aspect-level sentiment classification as the main focus of the paper.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_2": {
+        "entity_name": "Table 2: Average accuracies and Macro-F1 scores over 5 runs with random initialization",
+        "entity_type": "EVENT",
+        "description": "PRET * MULT refers to the combined event of pretraining followed by multi-task learning for fine-tuning the LSTM+ATT model.",
+        "reason": "The image presents a table comparing different methods on four datasets, with 'Ours: PRET+MULT' achieving the highest performance in terms of accuracy and Macro-F1 scores. This matches the description of PRET * MULT as the combination of pretraining and multi-task learning.",
+        "matched_chunk_entity_name": "Table 2"
+    },
+    "image_3": {
+        "entity_name": "Table 3",
+        "entity_type": "ORGANIZATION",
+        "description": "Table 3 presents the results of PRET with different transferred layers, averaged over 5 runs.",
+        "reason": "The image is a table labeled 'Table 3: PRET with different transferred layers.' It shows the average accuracies and Macro-F1 scores for different settings, which directly corresponds to the description of Table 3 in the text.",
+        "matched_chunk_entity_name": "TABLE 3"
+    },
+    "image_4": {
+        "entity_name": "Figure 1: Results of PRET+MULT vs. percentage of document-level training data",
+        "entity_type": "EVENT",
+        "description": "The improvements in model accuracy achieved through the transfer of knowledge from document-level to aspect-level models.",
+        "reason": "The image depicts the performance metrics (accuracy and macro-F1 scores) of different datasets as a function of the percentage of document-level training examples. The text discusses how the performance gains come from PRET, which transfers knowledge from document-level models to aspect-level models. The increasing trends in both graphs align with the concept of 'Performance Gain' as described in the text.",
+        "matched_chunk_entity_name": "no match"
+    }
+}

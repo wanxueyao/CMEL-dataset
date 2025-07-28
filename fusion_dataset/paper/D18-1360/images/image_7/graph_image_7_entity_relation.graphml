@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two bar charts side by side. The left chart is labeled 'MT-ASR' and the right chart is labeled 'CRF-GM'. Both charts have the y-axis labeled as '# Relation Triples' and the x-axis labeled with different relation types. In the left chart, the relation types are 'Conjunction', 'Used for', and 'Used for (Reverse)'. The number of relation triples for 'Conjunction' is 80, for 'Used for' is 10, and for 'Used for (Reverse)' is 4. In the right chart, the relation types are 'Hyponym of', 'Conjunction', 'Used for', and 'Used for (Reverse)'. The number of relation triples for 'Hyponym of' is 25, for 'Conjunction' is 4, for 'Used for' is 2, and for 'Used for (Reverse)' is 2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+</node>
+<node id="&quot;MT-ASR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A system or model used for automatic speech recognition, as indicated by the bar chart on the left."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+</node>
+<node id="&quot;CRF-GM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A system or model using Conditional Random Fields and Graphical Models, as indicated by the bar chart on the right."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+</node>
+<node id="&quot;CONJUNCTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The event of using conjunctions in relation to other terms, as shown by both bar charts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+</node>
+<node id="&quot;USED FOR (REVERSE)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The reverse usage of 'used for' relationships, as shown by both bar charts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;MT-ASR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MT-ASR是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CRF-GM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CRF-GM是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Conjunction是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;USED FOR (REVERSE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Used for (Reverse)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MT-ASR&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"MT-ASR has a high number of triples related to conjunctions, indicating a strong relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MT-ASR&quot;" target="&quot;USED FOR (REVERSE)&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"MT-ASR has a low number of triples related to the reverse usage of 'used for', indicating a weak relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CRF-GM&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"CRF-GM has a moderate number of triples related to conjunctions, indicating a moderate relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CRF-GM&quot;" target="&quot;USED FOR (REVERSE)&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"CRF-GM has a low number of triples related to the reverse usage of 'used for', indicating a weak relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

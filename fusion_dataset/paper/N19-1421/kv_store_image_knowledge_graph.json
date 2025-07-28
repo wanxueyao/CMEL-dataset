@@ -1,0 +1,469 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a concept map illustrating the spatial relationships of various elements associated with a river. The central node, labeled 'river', is connected to other nodes through directed edges labeled 'AtLocation'. The nodes connected to the 'river' node are 'pebble', 'stream', 'bank', and 'canyon' on one side, and 'waterfall', 'bridge', and 'valley' on the other side. The connections from 'river' to 'pebble', 'stream', 'bank', and 'canyon' are depicted with red arrows, while the connections to 'waterfall', 'bridge', and 'valley' are shown with blue dashed arrows. This diagram represents a specific subgraph from ConceptNet, indicating the locations where these elements can be found relative to a river."
+        },
+        {
+            "entity_name": "RIVER",
+            "entity_type": "UNKNOWN",
+            "description": "river是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "PEBBLE",
+            "entity_type": "UNKNOWN",
+            "description": "pebble是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "STREAM",
+            "entity_type": "UNKNOWN",
+            "description": "stream是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "BANK",
+            "entity_type": "UNKNOWN",
+            "description": "bank是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "CANYON",
+            "entity_type": "UNKNOWN",
+            "description": "canyon是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "WATERFALL",
+            "entity_type": "UNKNOWN",
+            "description": "waterfall是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "BRIDGE",
+            "entity_type": "UNKNOWN",
+            "description": "bridge是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "VALLEY",
+            "entity_type": "UNKNOWN",
+            "description": "valley是从image_1中提取的实体。"
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the generation process of multiple-choice questions for COMMONSENSEQA using the CONCEPTNET knowledge base. The process is divided into several steps. Initially, subgraphs are extracted from CONCEPTNET, which is represented by a graph with nodes and edges. The nodes are colored in red, green, and blue, representing different concepts, while the edges are depicted as lines connecting these nodes. Next, crowdworkers are involved to author questions based on these subgraphs. For example, one question asks about dust in a house, with options including attic, yard, street, bed, and desert. Another question inquires about finding glass outside, with options like bar, fork, car, sand, and wine. A third question explores what makes someone happy, with options such as laugh, sad, fall, blue, and feel. Crowdworkers also add distractors to each question. Following this, the questions are filtered by quality, with some being discarded due to low quality. Finally, relevant snippets are collected via a search engine to provide context for each question. The flowchart uses arrows to indicate the sequence of these steps, and the overall process is designed to generate high-quality, commonsense-based multiple-choice questions."
+        },
+        {
+            "entity_name": "CROWDWORKERS",
+            "entity_type": "ORGANIZATION",
+            "description": "Individuals who contribute to the creation and refinement of questions and distractors in a collaborative process."
+        },
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "A semantic network that provides a platform for extracting subgraphs and filtering edges based on predefined rules."
+        },
+        {
+            "entity_name": "QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "The primary output of the crowdworkers, consisting of inquiries about various topics such as dust locations, glass finding, and emotional states."
+        },
+        {
+            "entity_name": "DISTRACTORS",
+            "entity_type": "OBJECT",
+            "description": "Incorrect options added by crowdworkers to multiple-choice questions to challenge the respondent's understanding and attention."
+        },
+        {
+            "entity_name": "SUBGRAPHS",
+            "entity_type": "OBJECT",
+            "description": "Extracted portions of ConceptNet that represent relationships between concepts relevant to the generated questions."
+        },
+        {
+            "entity_name": "RULES",
+            "entity_type": "OBJECT",
+            "description": "Criteria used to filter edges within ConceptNet to ensure the relevance and quality of the extracted subgraphs."
+        },
+        {
+            "entity_name": "QUALITY FILTERING",
+            "entity_type": "EVENT",
+            "description": "Process where crowdworkers evaluate and select high-quality questions from the pool of generated questions."
+        },
+        {
+            "entity_name": "SEARCH ENGINE",
+            "entity_type": "ORGANIZATION",
+            "description": "Tool used to collect relevant snippets that provide additional context or verification for the questions."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Measurement' that provides key statistics for COMMONSENSEQA. The table is structured with two main columns: Measurement and Value. Each row represents a specific measurement and its corresponding value. The measurements and their values are as follows: '# CONCEPTNET distinct question nodes' (2,254), '# CONCEPTNET distinct answer nodes' (12,094), '# CONCEPTNET distinct nodes' (12,107), '# CONCEPTNET distinct relation labels' (22), 'average question length (tokens)' (13.41), 'long questions (more than 20 tokens)' (10.3%), 'average answer length (tokens)' (1.5), '# answers with more than 1 token' (44%), '# of distinct words in questions' (14,754), and '# of distinct words in answers' (4,911). The table highlights the dataset's significant size and the detailed annotations across its splits."
+        },
+        {
+            "entity_name": "CONCEPTNET DISTINCT QUESTION NODES",
+            "entity_type": "EVENT",
+            "description": "The number of distinct question nodes in CONCEPTNET is 2,254."
+        },
+        {
+            "entity_name": "CONCEPTNET DISTINCT ANSWER NODES",
+            "entity_type": "EVENT",
+            "description": "The number of distinct answer nodes in CONCEPTNET is 12,094."
+        },
+        {
+            "entity_name": "CONCEPTNET DISTINCT NODES",
+            "entity_type": "EVENT",
+            "description": "The total number of distinct nodes in CONCEPTNET is 12,107."
+        },
+        {
+            "entity_name": "CONCEPTNET DISTINCT RELATION LABELS",
+            "entity_type": "EVENT",
+            "description": "The number of distinct relation labels in CONCEPTNET is 22."
+        },
+        {
+            "entity_name": "AVERAGE QUESTION LENGTH (TOKENS)",
+            "entity_type": "EVENT",
+            "description": "The average length of questions in tokens is 13.41."
+        },
+        {
+            "entity_name": "LONG QUESTIONS (MORE THAN 20 TOKENS)",
+            "entity_type": "EVENT",
+            "description": "The percentage of questions that are longer than 20 tokens is 10.3%."
+        },
+        {
+            "entity_name": "AVERAGE ANSWER LENGTH (TOKENS)",
+            "entity_type": "EVENT",
+            "description": "The average length of answers in tokens is 1.5."
+        },
+        {
+            "entity_name": "ANSWERS WITH MORE THAN 1 TOKEN",
+            "entity_type": "EVENT",
+            "description": "The percentage of answers that have more than one token is 44%."
+        },
+        {
+            "entity_name": "DISTINCT WORDS IN QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "The number of distinct words in questions is 14,754."
+        },
+        {
+            "entity_name": "DISTINCT WORDS IN ANSWERS",
+            "entity_type": "UNKNOWN",
+            "description": "distinct words in answers是从image_3中提取的实体。"
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Top CONCEPTNET relations in COMMONSENSEQA, along with their frequency in the data and an example question.' The table is structured with three main columns: Relation, Formulated question example, and %. Each row represents a different relation and its corresponding formulated question example and percentage. The relations listed are AtLocation (47.3%), Causes (17.3%), CapableOf (9.4%), Antonym (8.5%), HasSubevent (3.6%), HasPrerequisite (3.3%), CausesDesire (2.1%), Desires (1.7%), PartOf (1.6%), and HasProperty (1.2%). The example questions for each relation are provided, with the first answer (A) being the correct answer."
+        },
+        {
+            "entity_name": "ATLOCATION",
+            "entity_type": "RELATION",
+            "description": "A relation indicating the location where an entity is found. For example, 'Where would I not want a fox? A. hen house, B. england, C. mountains, D. ...' with 47.3% occurrence."
+        },
+        {
+            "entity_name": "CAUSES",
+            "entity_type": "RELATION",
+            "description": "A relation indicating the result caused by an action or event. For example, 'What is the hopeful result of going to see a play? A. being entertained, B. meet, C. sit, D. ...' with 17.3% occurrence."
+        },
+        {
+            "entity_name": "CAPABLEOF",
+            "entity_type": "RELATION",
+            "description": "A relation indicating the capability of an entity to perform an action. For example, 'Why would a person put flowers in a room with dirty gym socks? A. smell good, B. many colors, C. continue to grow , D. ...' with 9.4% occurrence."
+        },
+        {
+            "entity_name": "ANTONYM",
+            "entity_type": "RELATION",
+            "description": "A relation indicating the opposite meaning of a word or concept. For example, 'Someone who had a very bad flight might be given a trip in this to make up for it? A. first class, B. reputable, C. propitious, D. ...' with 8.5% occurrence."
+        },
+        {
+            "entity_name": "HASSUBEVENT",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a sub-event within a larger event. For example, 'How does a person begin to attract another person for reproducing? A. kiss, B. genetic mutation, C. have sex , D. ...' with 3.6% occurrence."
+        },
+        {
+            "entity_name": "HASPREREQUISITE",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a prerequisite for an action or event. For example, 'If I am tilting a drink toward my face, what should I do before the liquid spills over? A. open mouth, B. eat first, C. use glass , D. ...' with 3.3% occurrence."
+        },
+        {
+            "entity_name": "CAUSESDESIRE",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a desire caused by an action or event. For example, 'What do parents encourage kids to do when they experience boredom? A. read book, B. sleep, C. travel , D. ...' with 2.1% occurrence."
+        },
+        {
+            "entity_name": "DESIRES",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a desire or wish of an entity. For example, 'What do all humans want to experience in their own home? A. feel comfortable, B. work hard, C. fall in love , D. ...' with 1.7% occurrence."
+        },
+        {
+            "entity_name": "PARTOF",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a part that belongs to a whole. For example, 'What would someone wear to protect themselves from a cannon? A. body armor, B. tank, C. hat , D. ...' with 1.6% occurrence."
+        },
+        {
+            "entity_name": "HASPROPERTY",
+            "entity_type": "RELATION",
+            "description": "A relation indicating a property or characteristic of an entity. For example, 'What is a reason to pay your television bill? A. legal, B. obsolete, C. entertaining , D. ...' with 1.2% occurrence."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram consisting of three separate flowcharts, each addressing a different question. The first flowchart asks, 'Where are Rosebushes typically found outside of large buildings?' It shows a sequence of nodes connected by labeled edges. The nodes are: Building, Courtyard, Flowers, and Rosebushes. The edges are labeled as 'Has parts', 'Spatial', and 'Is member of'. The second flowchart asks, 'Where would you get a Balalaika if you do not have one?' It has nodes for Balalaika, Instrument, Music store, and Get instruments. The edges are labeled 'Is member of', 'Spatial', and 'Purpose'. The third flowchart asks, 'I want to use string to keep something from moving, how should I do it?' It includes nodes for Something, String, Tie around, and Keep from moving. The edges are labeled 'Spatial', 'Activity', and 'Cause & effect'. Each node is represented by a circle, and the edges are depicted as lines connecting the circles with labels indicating the relationship between the concepts."
+        },
+        {
+            "entity_name": "BUILDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A large structure with multiple parts including a courtyard."
+        },
+        {
+            "entity_name": "COURTYARD",
+            "entity_type": "GEO",
+            "description": "An outdoor area that is part of the building and contains various elements such as flowers."
+        },
+        {
+            "entity_name": "FLOWERS",
+            "entity_type": "OBJECT",
+            "description": "Plants that are members of the courtyard, including rosebushes."
+        },
+        {
+            "entity_name": "ROSEBUSHES",
+            "entity_type": "OBJECT",
+            "description": "Specific type of flower found in the courtyard outside of large buildings."
+        },
+        {
+            "entity_name": "BALALAIKA",
+            "entity_type": "OBJECT",
+            "description": "A musical instrument that is a member of the instrument category."
+        },
+        {
+            "entity_name": "INSTRUMENT",
+            "entity_type": "OBJECT",
+            "description": "A tool used for making music, which includes the balalaika."
+        },
+        {
+            "entity_name": "MUSIC STORE",
+            "entity_type": "ORGANIZATION",
+            "description": "A place where one can purchase instruments such as the balalaika."
+        },
+        {
+            "entity_name": "SOMETHING",
+            "entity_type": "OBJECT",
+            "description": "An unspecified object that needs to be kept from moving."
+        },
+        {
+            "entity_name": "STRING",
+            "entity_type": "OBJECT",
+            "description": "A material used to tie around objects to keep them from moving."
+        },
+        {
+            "entity_name": "TIE AROUND",
+            "entity_type": "UNKNOWN",
+            "description": "Tying string around something is an activity that keeps it from moving."
+        },
+        {
+            "entity_name": "KEEP FROM MOVING",
+            "entity_type": "UNKNOWN",
+            "description": "Tying string around something causes it to stay in place."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Skills and their frequency in the sampled data.' The table categorizes different types of commonsense skills and their respective frequencies. The categories listed are: Spatial (41%), Cause & Effect (23%), Has parts (23%), Is member of (17%), Purpose (18%), Social (15%), Activity (8%), Definition (6%), and Preconditions (3%). Each row represents a category of commonsense skill, with the first column listing the category name and the second column providing the definition of the skill. The third column shows the percentage frequency of each skill in the sampled data. For example, 'Spatial' is defined as 'Concept A appears near Concept B' and occurs 41% of the time, while 'Preconditions' is defined as 'Concept A must hold true in order for Concept B to take place' and occurs 3% of the time."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying a list of categories and their definitions."
+        },
+        {
+            "entity_name": "CATEGORIES",
+            "entity_type": "OBJECT",
+            "description": "List of categories including Spatial, Cause & Effect, Has parts, Is member of, Purpose, Social, Activity, Definition, and Preconditions."
+        },
+        {
+            "entity_name": "DEFINITIONS",
+            "entity_type": "OBJECT",
+            "description": "Descriptions for each category, explaining the relationship between Concept A and Concept B."
+        },
+        {
+            "entity_name": "PERCENTAGES",
+            "entity_type": "OBJECT",
+            "description": "Numerical values indicating the percentage associated with each category."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed pie chart titled 'Distribution of the first and second words in questions.' The chart is divided into multiple segments, each representing different categories of questions. The inner part of the chart displays words and their frequency, while the outer part provides example questions. The segments are color-coded and labeled with percentages indicating the frequency of each category. For instance, 'What' constitutes 21% of the questions, 'Where' accounts for 18%, 'When' makes up 7%, 'If' represents 7%, 'Why' comprises 2%, 'The' takes up 13%, 'James' and 'John' each contribute 2%, and 'Other' covers 37%. Each segment also includes an example question related to the category. For example, under 'What,' an example question is 'What could 1.5% have what?'. The chart provides a comprehensive overview of the distribution and examples of the first and second words in questions."
+        },
+        {
+            "entity_name": "CHART",
+            "entity_type": "OBJECT",
+            "description": "A colorful pie chart with various categories and percentages."
+        },
+        {
+            "entity_name": "CATEGORIES",
+            "entity_type": "OBJECT",
+            "description": "Different categories such as 'When', 'What', 'Where', etc., each with associated questions."
+        },
+        {
+            "entity_name": "PERCENTAGES",
+            "entity_type": "OBJECT",
+            "description": "Numerical values representing the distribution of categories."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Baseline models along with their characteristics.' The table has three columns: Model, Training, and Context. Each row represents a different model and its corresponding characteristics. The models listed are VecSim, LM1B, QABILINEAR, QACOMPARE, ESIM, GPT, BERT, and BIDAF++. The 'Training' column indicates whether the model was trained on COMMONSENSEQA or not, marked with a checkmark (✓) for yes and an 'X' for no. The 'Context' column shows whether the model uses extra context as input, also marked with a checkmark (✓) for yes and an 'X' for no. Specifically, VecSim, LM1B, QABILINEAR, QACOMPARE, ESIM, GPT, and BERT do not use extra context, while BIDAF++ does. VecSim, LM1B, QABILINEAR, QACOMPARE, ESIM, GPT, and BERT were not trained on COMMONSENSEQA, whereas BIDAF++ was."
+        },
+        {
+            "entity_name": "VECSIM",
+            "entity_type": "UNKNOWN",
+            "description": "VecSim是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "LM1B",
+            "entity_type": "UNKNOWN",
+            "description": "LM1B是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "QABILINEAR",
+            "entity_type": "UNKNOWN",
+            "description": "QABILINEAR是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "QACOMPARE",
+            "entity_type": "UNKNOWN",
+            "description": "QACOMPARE是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "ESIM",
+            "entity_type": "UNKNOWN",
+            "description": "ESIM是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "GPT",
+            "entity_type": "UNKNOWN",
+            "description": "GPT是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "UNKNOWN",
+            "description": "BERT是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "BIDAF++",
+            "entity_type": "UNKNOWN",
+            "description": "BIDAF++是从image_8中提取的实体。"
+        },
+        {
+            "entity_name": "TRAINING",
+            "entity_type": "UNKNOWN",
+            "description": "VecSim does not require training data."
+        },
+        {
+            "entity_name": "CONTEXT",
+            "entity_type": "UNKNOWN",
+            "description": "VecSim does not consider context information."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that compares the performance of various models on two different splits: Random split and Question concept split. The table has four columns: Model, Accuracy for Random split, SANITY for Random split, Accuracy for Question concept split, and SANITY for Question concept split. The rows list different models and their respective performance metrics. For example, BERT-LARGE achieves an accuracy of 55.9% and a SANITY score of 92.3% on the Random split, and 63.6% accuracy with 93.2% SANITY on the Question concept split. Other models listed include VecSim+Numberbatch, LM1B-REP, LM1B-CONCAT, VecSim+GloVe, GPT, ESIM+ELMo, ESIM+GloVe, QABilinear+GloVe, ESIM+Numberbatch, QABilinear+Numberbatch, QACompare+GloVe, QACompare+Numberbatch, and BiDAF++. The human performance is also included at the bottom, achieving 88.9% accuracy. The table highlights the superior performance of BERT-LARGE compared to other models."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of various models on two different splits: Random split and Question concept split. The table includes columns for Model, Accuracy, and SANITY scores."
+        },
+        {
+            "entity_name": "RANDOM SPLIT",
+            "entity_type": "EVENT",
+            "description": "A method of splitting data where the data points are randomly assigned to either the training or testing set."
+        },
+        {
+            "entity_name": "QUESTION CONCEPT SPLIT",
+            "entity_type": "EVENT",
+            "description": "A method of splitting data based on the underlying concepts of the questions, ensuring that similar concepts do not appear in both the training and testing sets."
+        },
+        {
+            "entity_name": "ACCURACY",
+            "entity_type": "OBJECT",
+            "description": "A metric used to evaluate the performance of a model, representing the percentage of correct predictions."
+        },
+        {
+            "entity_name": "SANITY",
+            "entity_type": "OBJECT",
+            "description": "A metric used to evaluate the robustness of a model, indicating how well the model performs under adversarial conditions."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Test set accuracy for all models' and 'Table 6: BERT-LARGE baseline analysis'. The table is divided into six columns: Category, Formulated question example, Correct answer, Distractor, Accuracy, and %. Each row represents a different category of questions. The categories include Surface clues, Negation / Antonym, Factoid knowledge, Bad granularity, and Conjunction. For each category, two examples of formulated questions are provided along with the correct answer, one distractor, model accuracy, and frequency in the dataset. The predicted answer is in bold. For instance, under the Surface clues category, the first example question is 'If someone laughs after surprising them they have a good sense of what?' with the correct answer being 'humor' and the distractor being 'laughter'. The accuracy for this category is 77.7 and the frequency is 35%. Similarly, other categories provide their respective examples, answers, distractors, accuracies, and frequencies. The table highlights the performance of BERT-LARGE on different types of questions, showing varying levels of accuracy across categories."
+        },
+        {
+            "entity_name": "SURFACE CLUES",
+            "entity_type": "CATEGORY",
+            "description": "A category that includes questions about common sense and everyday scenarios, such as how an automobile might get off a freeway or what someone with a good sense of humor might do."
+        },
+        {
+            "entity_name": "NEGATION / ANTONYM",
+            "entity_type": "CATEGORY",
+            "description": "A category that involves questions requiring the identification of opposites or negations, such as where a pillow case might be stored if not in use or where a stapler might be if it cannot be found."
+        },
+        {
+            "entity_name": "FACTOID KNOWLEDGE",
+            "entity_type": "CATEGORY",
+            "description": "A category that tests factual knowledge, including questions about the number of hours in a day or the geographic area where a lizard is likely to be found."
+        },
+        {
+            "entity_name": "BAD GRANULARITY",
+            "entity_type": "CATEGORY",
+            "description": "A category that deals with questions at an inappropriate level of detail, such as where a well-used toy car might be found or where one might be while buying pork chops at a corner shop."
+        },
+        {
+            "entity_name": "CONJUNCTION",
+            "entity_type": "CATEGORY",
+            "description": "A category that combines multiple concepts in a single question, such as what can be used to store a book while traveling or what can be done on a hot day to enjoy something cool and sweet."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a graph that plots the development accuracy of BERT-LARGE trained with varying amounts of data. The x-axis represents the number of instances on a logarithmic scale, ranging from 10^2 to 10^5. The y-axis represents the development accuracy, ranging from 0.2 to 1.0. There are three lines plotted: a dashed blue line labeled 'question concept', an orange dashed line labeled 'random', and a dotted cyan line labeled 'human performance'. The 'question concept' line starts at approximately 0.4 accuracy with 10^2 instances and increases steadily to about 0.75 accuracy with 10^5 instances. The 'random' line starts at approximately 0.3 accuracy with 10^2 instances and increases to about 0.8 accuracy with 10^5 instances. The 'human performance' line is a horizontal line at approximately 0.9 accuracy, indicating the upper bound of performance."
+        },
+        {
+            "entity_name": "GRAPH",
+            "entity_type": "EVENT",
+            "description": "A graph showing the development of accuracy with increasing number of instances for different methods: 'question concept', 'random', and 'human performance'."
+        },
+        {
+            "entity_name": "QUESTION CONCEPT",
+            "entity_type": "UNKNOWN",
+            "description": "The 'question concept' method is represented by blue dots and a dashed line on the graph, showing its accuracy as the number of instances increases."
+        },
+        {
+            "entity_name": "RANDOM",
+            "entity_type": "UNKNOWN",
+            "description": "The 'random' method is represented by orange dots and a dashed line on the graph, showing its accuracy as the number of instances increases."
+        },
+        {
+            "entity_name": "HUMAN PERFORMANCE",
+            "entity_type": "UNKNOWN",
+            "description": "The 'human performance' is represented by a dotted cyan line on the graph, indicating a benchmark for comparison."
+        }
+    ]
+}

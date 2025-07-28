@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Accuracy of BERT, with and without defenses, on MRPC when attacked under the ‘all’ attack setting.' The table is structured with four rows and five columns. The first column lists different models: BERT, BERT + ATD, BERT + Pass-through, and BERT + Neutral. The subsequent columns represent the accuracy percentages under different attack settings: 'No Attack', 'All attacks - 1-char', and 'All attacks - 2-char'. The values are as follows: for 'No Attack', the accuracies are 89.0% for BERT, 89.9% for BERT + ATD, 89.0% for BERT + Pass-through, and 84.0% for BERT + Neutral. Under 'All attacks - 1-char', the accuracies drop to 60.0% for BERT, 75.8% for BERT + ATD, 84.5% for BERT + Pass-through, and 82.5% for BERT + Neutral. Under 'All attacks - 2-char', the accuracies further decrease to 31.0% for BERT, 61.6% for BERT + ATD, 81.5% for BERT + Pass-through, and 82.5% for BERT + Neutral. The table highlights the significant reduction in accuracy for BERT under attack scenarios and the effectiveness of various defense mechanisms in mitigating these attacks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of different BERT models under various attack conditions. The table includes columns for 'No Attack', '1-char', and '2-char' attacks, with rows for different model configurations: BERT, BERT + ATD, BERT + Pass-through, and BERT + Neutral."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A type of pre-trained language model used in natural language processing tasks. In this context, it is being tested under different adversarial attack scenarios to measure its robustness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<node id="&quot;ATD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An abbreviation for Adversarial Training Defense, a technique applied to the BERT model to improve its resilience against adversarial attacks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<node id="&quot;PASS-THROUGH&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A method applied to the BERT model that allows certain information to bypass the model's layers, potentially affecting its performance under attack."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<node id="&quot;NEUTRAL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A configuration of the BERT model that has been adjusted to maintain a neutral stance towards potential adversarial inputs, aiming to balance performance and robustness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ATD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ATD是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PASS-THROUGH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pass-through是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;NEUTRAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Neutral是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT MODEL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains data on the performance of the BERT model under different conditions, including no attack and various types of adversarial attacks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ATD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes a row for the BERT model with ATD applied, showing how this defense mechanism affects the model's performance under attack."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PASS-THROUGH&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The table includes a row for the BERT model with the pass-through method applied, demonstrating its impact on the model's robustness."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;NEUTRAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes a row for the BERT model with the neutral configuration, showing its performance balance between accuracy and robustness."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

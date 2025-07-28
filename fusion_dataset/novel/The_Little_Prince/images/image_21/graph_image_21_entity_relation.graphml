@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_21_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Bird- Age: Adult- Color: Predominantly white with shades of gray on the wings and tail- Shape: The bird has a robust body with a rounded head, a short beak, and a long, curved tail. The wings are spread out, indicating flight.- Size: Appears to be a medium-sized bird, based on the proportion of the wings to the body.- Posture: The bird is in mid-flight, with its wings fully extended and its tail fanned out.Overall, the bird appears to be in motion, capturing a moment of flight with its wings spread wide and its tail providing balance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+</node>
+<node id="&quot;IMAGE_21_ZEBRA-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Dog- Age: Adult- Color: The dog is depicted in a monochromatic style, with shades of gray and black- Shape: The dog has a muscular build with a broad chest and powerful legs. It is in an aggressive stance, with its front legs extended forward and its hind legs pushing off the ground.- Size: The dog appears to be large, based on its proportions and muscle definition.- Posture: The dog is in a dynamic pose, suggesting movement or action. Its head is turned to the side, and its mouth is open, showing teeth in a snarl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+</node>
+<node id="&quot;IMAGE_21&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration of a dog in an aggressive posture. The dog appears to be snarling, with its mouth open, teeth bared, and ears laid back. Its front paws are off the ground, suggesting it is either jumping or lunging forward. The tail is raised high, adding to the sense of aggression. The overall style of the drawing is sketchy, with loose lines and shading that give it a dynamic and intense feel. The background is plain, which emphasizes the dog's dramatic pose and expression."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+</node>
+<node id="&quot;DOG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A dog in a dynamic pose, with its body arched and one leg raised, appearing to be in motion or performing a trick."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+</node>
+<node id="&quot;POSE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d1">"The dog is in a specific pose that suggests movement or a trick being performed."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_21_PERSON-1.JPG&quot;" target="&quot;DOG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_21_person-1.jpg is a picture of a dog."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_21_PERSON-1.JPG&quot;" target="&quot;IMAGE_21&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_21_person-1.jpg是image_21的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_21_ZEBRA-0.JPG&quot;" target="&quot;DOG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_21_zebra-0.jpg is a picture of a dog."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_21_ZEBRA-0.JPG&quot;" target="&quot;IMAGE_21&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_21_zebra-0.jpg是image_21的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_21&quot;" target="&quot;DOG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dog是从image_21中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOG&quot;" target="&quot;POSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The dog is in a specific pose that suggests movement or a trick being performed."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_21.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Fair- Hairstyle: Dark hair, styled in a bun with a headpiece that includes a crown-like element and feathers- Facial Expression: Stern and serious- Age: Appears to be an adult woman- Clothing: Wearing a blue dress with gold trim and a white collar with black diamond patterns; the sleeves are puffed and also have gold trim- Accessories: Earrings and a necklace are visible, adding to the regal appearance- Posture: Sitting upright, with one hand resting on her hip and the other holding a scepter or similar objectOverall, the character appears to be a queen or a figure of royalty, given the crown and the regal attire."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and colorful scene featuring a character resembling the Queen of Hearts from Lewis Carroll's 'Alice's Adventures in Wonderland'. The queen is dressed in a vibrant, ornate costume with a blue dress adorned with gold and red patterns. She wears a large, triangular black hat with a golden crown on top. Her expression is stern and commanding, with her mouth set in a firm line. In her left hand, she holds a plate with several red tarts, each topped with what appears to be jam or jelly. To her right, there is a smaller figure, possibly a card soldier, who is also dressed in a similar style with a crown and holding a scepter. The background features a lush garden with green hedges shaped like hearts and flowers, adding to the fantastical atmosphere. Butterflies can be seen fluttering around, enhancing the magical setting. The overall mood of the image conveys a sense of authority and fantasy, typical of the story's themes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A regal figure with a stern expression, wearing a crown and holding a plate of tarts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;KING OF HEARTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A smaller figure standing behind the Queen, also wearing a crown and holding a scepter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;GARDEN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A lush garden with green hedges shaped like hearts and red flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;TARTS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A plate of red tarts being held by the Queen."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of the Queen of Hearts."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Queen of Hearts是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;KING OF HEARTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"King of Hearts是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;GARDEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Garden是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TARTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tarts是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUEEN OF HEARTS&quot;" target="&quot;KING OF HEARTS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The King stands behind the Queen, possibly indicating a relationship of authority or partnership."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUEEN OF HEARTS&quot;" target="&quot;GARDEN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Queen is situated in the garden, suggesting she has dominion over this area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUEEN OF HEARTS&quot;" target="&quot;TARTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Queen is holding a plate of tarts, indicating ownership or presentation of these items."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

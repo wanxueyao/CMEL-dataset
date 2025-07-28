@@ -1,0 +1,333 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed flowchart illustrating a framework for credibility assessment. The chart is divided into two main parts: the upper part and the lower part. The upper part of the pipeline combines the article and claim embeddings to get the claim-specific attention weights. This process involves concatenating the claim word embeddings (represented by blue circles) and passing them through a bidirectional LSTM (depicted as a series of interconnected boxes with arrows indicating the flow of information). The output from the bidirectional LSTM is then fed into a dense layer, which generates attention weights. These attention weights are used to weight the inner product of the article source embedding (red circles) and the claim source embedding (blue circles). The weighted inner product is then averaged and concatenated with the claim source embedding. The concatenated features are passed through two dense layers, which ultimately predict the credibility score of the claim. The lower part of the pipeline captures the article representation through the bidirectional LSTM. The attention-focused article representation, along with the source embeddings, is passed through dense layers to predict the credibility score of the claim."
+        },
+        {
+            "entity_name": "CLAIM WORD EMBEDDINGS",
+            "entity_type": "OBJECT",
+            "description": "A set of word embeddings representing the claim text."
+        },
+        {
+            "entity_name": "ARTICLE WORD EMBEDDINGS",
+            "entity_type": "OBJECT",
+            "description": "A set of word embeddings representing the article text."
+        },
+        {
+            "entity_name": "BIDIRECTIONAL LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A neural network layer that processes sequences in both forward and backward directions."
+        },
+        {
+            "entity_name": "CONCATENATE",
+            "entity_type": "ORGANIZATION",
+            "description": "An operation that combines multiple inputs into a single vector."
+        },
+        {
+            "entity_name": "DENSE LAYER",
+            "entity_type": "ORGANIZATION",
+            "description": "A fully connected neural network layer."
+        },
+        {
+            "entity_name": "SOFTMAX",
+            "entity_type": "ORGANIZATION",
+            "description": "A function used to convert a vector of real numbers into a probability distribution."
+        },
+        {
+            "entity_name": "ATTENTION WEIGHTS",
+            "entity_type": "OBJECT",
+            "description": "Weights assigned to each input in the attention mechanism."
+        },
+        {
+            "entity_name": "INNER PRODUCT",
+            "entity_type": "ORGANIZATION",
+            "description": "An operation that computes the dot product between two vectors."
+        },
+        {
+            "entity_name": "CLAIM SOURCE EMBEDDING",
+            "entity_type": "OBJECT",
+            "description": "A vector representation of the source of the claim."
+        },
+        {
+            "entity_name": "ARTICLE SOURCE EMBEDDING",
+            "entity_type": "OBJECT",
+            "description": "A vector representation of the source of the article."
+        },
+        {
+            "entity_name": "CONCATENATE FEATURES",
+            "entity_type": "ORGANIZATION",
+            "description": "An operation that combines multiple feature vectors into a single vector."
+        },
+        {
+            "entity_name": "CREDIBILITY SCORE",
+            "entity_type": "OBJECT",
+            "description": "The output score indicating the credibility of the claim."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Data statistics (SN: Snopes, PF: PolitiFact, NT: NewsTrust, SE: SemEval)' that provides statistical information about four datasets used for evaluating the credibility and stance of social media content. The table is structured with five main columns: Dataset, SN, PF, NT, and SE. Each column represents a different dataset and contains the following rows: 'Total claims', 'True claims', 'False claims', 'Unverified claims', 'Claim sources', 'Articles', and 'Article sources'. The 'Total claims' row shows the total number of claims in each dataset: SN has 4341 claims, PF has 3568 claims, NT has 5344 claims, and SE has 272 claims. The 'True claims' row indicates the number of true claims: SN has 1164 true claims, PF has 1867 true claims, NT has no true claims listed, and SE has 127 true claims. The 'False claims' row shows the number of false claims: SN has 3177 false claims, PF has 1701 false claims, NT has no false claims listed, and SE has 50 false claims. The 'Unverified claims' row indicates the number of unverified claims: SN has no unverified claims listed, PF has no unverified claims listed, NT has no unverified claims listed, and SE has 95 unverified claims. The 'Claim sources' row shows the number of claim sources: SN has no claim sources listed, PF has 95 claim sources, NT has 161 claim sources, and SE has 10 claim sources. The 'Articles' row indicates the number of articles: SN has 29242 articles, PF has 29556 articles, NT has 25128 articles, and SE has 3717 articles. The 'Article sources' row shows the number of article sources: SN has 336 article sources, PF has 336 article sources, NT has 251 article sources, and SE has 89 article sources. The table highlights the significant differences in the size and composition of the datasets."
+        },
+        {
+            "entity_name": "DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A collection of data organized into different categories such as SN, PF, NT, and SE."
+        },
+        {
+            "entity_name": "SN",
+            "entity_type": "EVENT",
+            "description": "Category in the dataset with 4341 total claims, 1164 true claims, 3177 false claims, and 29242 articles from 336 sources."
+        },
+        {
+            "entity_name": "PF",
+            "entity_type": "EVENT",
+            "description": "Category in the dataset with 3568 total claims, 1867 true claims, 1701 false claims, and 29556 articles from 336 sources. It has 95 claim sources."
+        },
+        {
+            "entity_name": "NT",
+            "entity_type": "EVENT",
+            "description": "Category in the dataset with 5344 total claims and 25128 articles from 251 sources. It has 161 claim sources."
+        },
+        {
+            "entity_name": "SE",
+            "entity_type": "EVENT",
+            "description": "Category in the dataset with 272 total claims, 127 true claims, 50 false claims, and 95 unverified claims. It has 3717 articles from 89 sources."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Model parameters used for each dataset (SN: Snopes, PF: PolitiFact, NT: NewsTrust, SE: SemEval)'. The table is structured with the following columns: Parameter, SN, PF, NT, and SE. Each row represents a different parameter used in the model. The parameters listed are Word embedding length, Claim source embedding length, Article source embedding length, LSTM size (for each pass), Size of fully connected layers, and Dropout. The values for these parameters are as follows: Word embedding length is 100 for SN, PF, and SE, and 300 for NT. Claim source embedding length is not applicable for SN, 4 for PF and SE, and 8 for NT. Article source embedding length is 8 for SN and NT, and 4 for PF and SE. LSTM size (for each pass) is 64 for SN, PF, and NT, and 16 for SE. Size of fully connected layers is 32 for SN and PF, 64 for NT, and 8 for SE. Dropout is 0.5 for SN and PF, and 0.3 for NT and SE."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying parameters for different models: SN, PF, NT, and SE. The parameters include word embedding length, claim source embedding length, article source embedding length, LSTM size, size of fully connected layers, and dropout."
+        },
+        {
+            "entity_name": "SN",
+            "entity_type": "ORGANIZATION",
+            "description": "Model with a word embedding length of 100, no claim source embedding, article source embedding length of 8, LSTM size of 64, fully connected layer size of 32, and dropout of 0.5."
+        },
+        {
+            "entity_name": "PF",
+            "entity_type": "ORGANIZATION",
+            "description": "Model with a word embedding length of 100, claim source embedding length of 4, article source embedding length of 4, LSTM size of 64, fully connected layer size of 32, and dropout of 0.5."
+        },
+        {
+            "entity_name": "NT",
+            "entity_type": "ORGANIZATION",
+            "description": "Model with a word embedding length of 300, claim source embedding length of 8, article source embedding length of 8, LSTM size of 64, fully connected layer size of 64, and dropout of 0.3."
+        },
+        {
+            "entity_name": "SE",
+            "entity_type": "ORGANIZATION",
+            "description": "Model with a word embedding length of 100, claim source embedding length of 4, article source embedding length of 4, LSTM size of 16, fully connected layer size of 8, and dropout of 0.3."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "LSTM-TEXT",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration used for text analysis, achieving 64.65% accuracy on true claims and 64.21% on false claims in the Snopes dataset, with a Macro F1-Score of 0.66 and AUC of 0.70."
+        },
+        {
+            "entity_name": "CNN-TEXT",
+            "entity_type": "ORGANIZATION",
+            "description": "Another configuration used for text analysis, achieving 67.15% accuracy on true claims and 63.14% on false claims in the Snopes dataset, with a Macro F1-Score of 0.66 and AUC of 0.72."
+        },
+        {
+            "entity_name": "DISTANT SUPERVISION",
+            "entity_type": "ORGANIZATION",
+            "description": "A method that achieved the highest accuracy among the listed configurations for the Snopes dataset, with 83.21% on true claims and 80.78% on false claims, a Macro F1-Score of 0.82, and an AUC of 0.88."
+        },
+        {
+            "entity_name": "DECLARE (PLAIN)",
+            "entity_type": "ORGANIZATION",
+            "description": "Configuration of DeClarE model without additional features, achieving 74.37% accuracy on true claims and 78.57% on false claims in the Snopes dataset, with a Macro F1-Score of 0.78 and AUC of 0.83."
+        },
+        {
+            "entity_name": "DECLARE (PLAIN+ATTN)",
+            "entity_type": "ORGANIZATION",
+            "description": "Configuration of DeClarE model with attention mechanism, achieving 78.34% accuracy on true claims and 78.91% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.85."
+        },
+        {
+            "entity_name": "DECLARE (PLAIN+SREMB)",
+            "entity_type": "ORGANIZATION",
+            "description": "Configuration of DeClarE model with sentence embeddings, achieving 77.43% accuracy on true claims and 79.80% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.85."
+        },
+        {
+            "entity_name": "DECLARE (FULL)",
+            "entity_type": "ORGANIZATION",
+            "description": "The full configuration of DeClarE model, achieving 78.96% accuracy on true claims and 78.32% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.86."
+        },
+        {
+            "entity_name": "SNOPES",
+            "entity_type": "EVENT",
+            "description": "A dataset used for evaluating the performance of different configurations on fact-checking tasks, showing varied results across different models."
+        },
+        {
+            "entity_name": "POLITIFACT",
+            "entity_type": "EVENT",
+            "description": "Another dataset used for evaluating the performance of different configurations on fact-checking tasks, showing varied results across different models."
+        },
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_4 is a table labeled 'Table 3: Comparison of various approaches for credibility classification on Snopes and PolitiFact datasets.' The table is structured with columns such as Dataset, Configuration, True Claims Accuracy (%), False Claims Accuracy (%), Macro F1-Score, and AUC. For the Snopes dataset, the configurations include LSTM-text, CNN-text, Distant Supervision, DeClarE (Plain), DeClarE (Plain+Attn), DeClarE (Plain+SrEmb), and DeClarE (Full). The True Claims Accuracy (%) ranges from 64.65 to 78.96, False Claims Accuracy (%) ranges from 64.21 to 80.78, Macro F1-Score values range from 0.66 to 0.79, and AUC values range from 0.70 to 0.86. For the PolitiFact dataset, the configurations are the same, with True Claims Accuracy (%) ranging from 63.19 to 67.32, False Claims Accuracy (%) ranging from 61.96 to 69.62, Macro F1-Score values ranging from 0.63 to 0.68, and AUC values ranging from 0.66 to 0.75."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that compares the performance of different configurations for credibility regression on the NewsTrust dataset, measured by Mean Squared Error (MSE). The table has two columns: 'Configuration' and 'MSE'. The rows under 'Configuration' list various models and their respective MSE values. The configurations listed are: CNN-text with an MSE of 0.53, CCRF+SVR with an MSE of 0.36, LSTM-text with an MSE of 0.35, DistantSup with an MSE of 0.35, DeClarE (Plain) with an MSE of 0.34, and DeClarE (Full) with an MSE of 0.29. The lowest MSE value, indicating the best performance, is achieved by DeClarE (Full)."
+        },
+        {
+            "entity_name": "CONFIGURATION",
+            "entity_type": "EVENT",
+            "description": "List of different configurations used for a machine learning task, including CNN-text, CCRF+SVR, LSTM-text, DistantSup, DeClarE (Plain), and DeClarE (Full)."
+        },
+        {
+            "entity_name": "MSE",
+            "entity_type": "ORGANIZATION",
+            "description": "Mean Squared Error, a metric used to evaluate the performance of the different configurations."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Comparison of various approaches for credibility classification on SemEval dataset.' The table is structured with three main columns: Configuration, Macro Accuracy, and RMSE. Each row represents a different configuration and contains the following values: 'IITP (Open)' with Macro Accuracy of 0.39 and RMSE of 0.746, 'NileTMRG (Close)' with Macro Accuracy of 0.54 and RMSE of 0.673, 'DeClarE (Plain)' with Macro Accuracy of 0.46 and RMSE of 0.687, and 'DeClarE (Full)' with Macro Accuracy of 0.57 and RMSE of 0.604. The table highlights the performance of different configurations in terms of Macro Accuracy and RMSE, with DeClarE (Full) showing the best performance."
+        },
+        {
+            "entity_name": "IITP (OPEN)",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration with a macro accuracy of 0.39 and an RMSE of 0.746."
+        },
+        {
+            "entity_name": "NILETMRG (CLOSE)",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration with a macro accuracy of 0.54 and an RMSE of 0.673."
+        },
+        {
+            "entity_name": "DECLARE (PLAIN)",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration with a macro accuracy of 0.46 and an RMSE of 0.687."
+        },
+        {
+            "entity_name": "DECLARE (FULL)",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration with a macro accuracy of 0.57 and an RMSE of 0.604."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of three subfigures labeled (a), (b), and (c). Subfigure (a) shows a scatter plot with projections of article representations using PCA. The points are colored in red and green, representing non-credible and credible articles, respectively. DeClarE obtains clear separation between these two categories. Subfigure (b) is another scatter plot showing projections of article source representations using PCA. Various news sources are labeled, including CNN, NYTimes, WashingtonPost, DailyCurrant, Huzlers, EmpireNews, NationalReport, WorldNewsDailyReport, FoxNews, BBC, USA Today, and WSJ. DeClarE clearly separates fake news sources from authentic ones. Subfigure (c) is a third scatter plot showing projections of claim source representations using PCA. Politicians such as Bernie Sanders, Barack Obama, Ted Cruz, Rudy Giuliani, Hillary Clinton, Mike Pence, Paul Ryan, Donald Trump, and Mitch McConnell are labeled. DeClarE clusters politicians of similar ideologies close to each other in the embedding space."
+        },
+        {
+            "entity_name": "DECLARE",
+            "entity_type": "ORGANIZATION",
+            "description": "A system that uses PCA to project article and claim source representations, distinguishing between credible and non-credible sources."
+        },
+        {
+            "entity_name": "PCA",
+            "entity_type": "EVENT",
+            "description": "Principal Component Analysis, a statistical procedure used to reduce the dimensionality of data while retaining trends and patterns."
+        },
+        {
+            "entity_name": "NON-CREDIBLE ARTICLES",
+            "entity_type": "OBJECT",
+            "description": "Articles identified as fake or unreliable by DeClarE, represented in red in the projections."
+        },
+        {
+            "entity_name": "CREDIBLE ARTICLES",
+            "entity_type": "OBJECT",
+            "description": "Articles identified as true or reliable by DeClarE, represented in green in the projections."
+        },
+        {
+            "entity_name": "FAKE NEWS SOURCES",
+            "entity_type": "ORGANIZATION",
+            "description": "Sources of information that spread false or misleading content, clustered separately from authentic sources in the projections."
+        },
+        {
+            "entity_name": "AUTHENTIC NEWS SOURCES",
+            "entity_type": "ORGANIZATION",
+            "description": "Sources of information that provide accurate and reliable content, clustered separately from fake news sources in the projections."
+        },
+        {
+            "entity_name": "POLITICIANS",
+            "entity_type": "PERSON",
+            "description": "Individuals holding political offices, such as Bernie Sanders, Barack Obama, Hillary Clinton, etc., clustered based on their ideological similarities in the projections."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Interpretation via attention (weights)' that provides examples of claims and their credibility analysis. The table is structured with four main rows, each containing a claim, its verdict (True or False), and highlighted words that indicate the basis for the credibility assessment. The first row contains a false claim by Barbara Boxer about Fiorina's plan to slash Social Security and Medicare, with highlighted words such as 'barely true' and 'sketchy evidence.' The second row contains a true claim by Hillary Clinton about the gun epidemic being the leading cause of death for young African-American men, with highlighted words like 'leading cause of death' and 'gun epidemic.' The third row contains a false claim about Coca-Cola's original diet cola drink, TaB, taking its name from an acronym, with highlighted words such as 'untrue' and 'completely untrue.' The fourth row contains a true claim about household paper shredders posing a danger to children and pets, with highlighted words like 'reveals' and 'documenting reports.' The table uses darker shades to indicate higher weights given to the corresponding words, which are relevant to the claim and help in assessing its credibility."
+        },
+        {
+            "entity_name": "BARBARA BOXER",
+            "entity_type": "PERSON",
+            "description": "A U.S. politician who made a claim about Carly Fiorina's plan regarding Social Security and Medicare."
+        },
+        {
+            "entity_name": "CARLY FIORINA",
+            "entity_type": "PERSON",
+            "description": "A Republican challenger whose plan was discussed by Barbara Boxer in terms of its impact on Social Security and Medicare."
+        },
+        {
+            "entity_name": "SOCIAL SECURITY",
+            "entity_type": "ORGANIZATION",
+            "description": "A federal insurance program that provides income to retired workers and disabled people."
+        },
+        {
+            "entity_name": "MEDICARE",
+            "entity_type": "ORGANIZATION",
+            "description": "A federal health insurance program for individuals aged 65 and older, certain younger people with disabilities, and people with End-Stage Renal Disease."
+        },
+        {
+            "entity_name": "HILLARY CLINTON",
+            "entity_type": "PERSON",
+            "description": "A Democratic nominee who provided a statistic on firearm homicides and the victimization of black males during the first presidential debate."
+        },
+        {
+            "entity_name": "THE GUN EPIDEMIC",
+            "entity_type": "EVENT",
+            "description": "The leading cause of death of young African-American men, according to data from the Centers for Disease Control and Prevention."
+        },
+        {
+            "entity_name": "COCA-COLA",
+            "entity_type": "ORGANIZATION",
+            "description": "A company known for its soft drinks, including the original diet cola drink, TaB."
+        },
+        {
+            "entity_name": "TAB",
+            "entity_type": "PRODUCT",
+            "description": "The first diet cola drink produced by Coca-Cola in 1952."
+        },
+        {
+            "entity_name": "HOUSEHOLD PAPER SHREDDERS",
+            "entity_type": "OBJECT",
+            "description": "Devices used for shredding paper to protect personal information and prevent identity theft."
+        },
+        {
+            "entity_name": "CHILDREN",
+            "entity_type": "PERSON",
+            "description": "Young individuals who may be at risk when using household paper shredders."
+        },
+        {
+            "entity_name": "PETS",
+            "entity_type": "ANIMAL",
+            "description": "Domestic animals that may be at risk when using household paper shredders."
+        }
+    ]
+}

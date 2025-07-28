@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_28_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that flows down past the shoulders- Eyes: Closed, with long eyelashes- Expression: Appears to be in a state of distress or exhaustion, with hands raised to the sides of the head- Age: Appears to be an adult woman- Clothing: Wearing a crown and a dress with a high collar and puffed sleeves; the dress has a fitted bodice and a full skirt- Accessories: A necklace with large beads around the neck- Posture: Sitting with legs crossed, leaning slightly forwardOverall, the character appears to be a queen or princess in a moment of despair or fatigue."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+</node>
+<node id="&quot;IMAGE_28&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a young girl sitting on the ground. She has long, wavy hair and is wearing a dress with a puffed sleeve and a high collar. On her head, she is wearing a crown that appears to be made of metal or gold, with pointed tips and a spherical ornament at the top. The girl is holding the crown with both hands, as if adjusting it or ensuring it stays in place. Her expression seems contemplative or slightly puzzled, possibly indicating surprise or curiosity about the crown. The background is minimalistic, with vertical lines suggesting grass or a similar texture. The overall atmosphere of the image conveys a sense of wonder and whimsy, fitting the context of Alice's adventures."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a crown and a dress, sitting on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+</node>
+<node id="&quot;CROWN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A crown worn by Alice on her head."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+</node>
+<node id="&quot;DRESS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A dress worn by Alice, covering her body."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+</node>
+<edge source="&quot;IMAGE_28_PERSON-0.JPG&quot;" target="&quot;IMAGE_28&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_28_person-0.jpg是image_28的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;CROWN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Crown是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;DRESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dress是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;CROWN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is wearing the crown on her head."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;DRESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is wearing the dress."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

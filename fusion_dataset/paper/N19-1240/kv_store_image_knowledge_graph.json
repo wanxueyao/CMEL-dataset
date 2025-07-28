@@ -1,0 +1,352 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a text excerpt from a document discussing the WIKIHOP dataset. The excerpt includes two highlighted sentences in green and a dashed arrow connecting them, indicating a relationship or flow of information between the sentences. The first sentence reads: 'Thorildsplan is a small park in Kristineberg in Stockholm, named in 1925 after the writer [...].' The second sentence reads: 'Stockholm is the capital of Sweden and the most populous city in [...].' Below these sentences, there is a query in red text: 'country Thorildsplan.' Underneath the query, there are candidate answers listed as Denmark, Finland, Sweden, Italy, etc., with the correct answer highlighted in blue as 'Sweden.' The overall layout suggests a question-answering task where the user must determine the correct country based on the given information."
+        },
+        {
+            "entity_name": "THORILDSPLAN",
+            "entity_type": "GEO",
+            "description": "A small park located in Kristineberg, Stockholm. It was named in 1925 after a writer."
+        },
+        {
+            "entity_name": "STOCKHOLM",
+            "entity_type": "GEO",
+            "description": "The capital city of Sweden and the most populous city in the country."
+        },
+        {
+            "entity_name": "SWEDEN",
+            "entity_type": "GEO",
+            "description": "A Scandinavian country known for its natural beauty, cultural heritage, and progressive policies."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a graph representation of supporting documents organized as nodes and edges. The nodes are mentions of either candidate entities or query entities, with the same color indicating they refer to the same entity (exact match, coreference, or both). There are three types of connections between nodes: solid edges indicate co-occurrence in the same document, dashed edges connect mentions that exactly match, and a bold-red line indicates a coreference. The graph is divided into three clusters enclosed by dashed ellipses, each cluster containing nodes of different colors (white, green, and blue). Within each cluster, nodes are connected by various types of edges. For example, within the top cluster, there is a bold-red line connecting two green nodes, indicating a coreference. The bottom-right cluster contains a mix of white, green, and blue nodes, all interconnected by solid and dashed edges. The overall structure suggests a network of entities and their relationships based on document co-occurrence, exact matches, and coreferences."
+        },
+        {
+            "entity_name": "CLUSTER 1",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster consisting of three nodes, two white and one green, with connections between them."
+        },
+        {
+            "entity_name": "CLUSTER 2",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster consisting of three nodes, two white and one blue, with connections between them."
+        },
+        {
+            "entity_name": "CLUSTER 3",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster consisting of five nodes, three white, one green, and one blue, with connections between them."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: WIKIHOP dataset statistics from Welbl et al. (2018)' that provides statistical information about the WIKIHOP dataset. The table is structured with four main columns: Min, Max, Avg., and Median. Each row represents different metrics of the dataset and contains the following values: '# candidates' (Min: 2, Max: 79, Avg.: 19.8, Median: 14), '# documents' (Min: 3, Max: 63, Avg.: 13.7, Median: 11), and '# tokens/doc.' (Min: 4, Max: 2,046, Avg.: 100.4, Median: 91). The table highlights the variability in the number of candidates, documents, and document length across samples in the WIKIHOP dataset."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying statistical data with columns for Min, Max, Avg., and Median, and rows for # candidates, # documents, and # tokens/doc."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Accuracy of different models on WIKIHOP closed test set and public validation set.' The table is structured with two main columns: Unmasked and Masked, each further divided into Test and Dev (Development) sets. The rows represent various models and their respective accuracy scores. The models listed are Human, FastQA, BiDAF, Coref-GRU, MHPGM, Weaver / Jenga, MHQA-GRN, Entity-GCN without coreference (single model), Entity-GCN with coreference (single model), and Entity-GCN* (ensemble 5 models). The accuracy scores for the Unmasked Test set range from 25.7% for FastQA to 74.1% for Human. For the Unmasked Dev set, the scores range from 56.0% for Coref-GRU to 68.5% for Entity-GCN*. For the Masked Test set, the scores range from 35.8% for FastQA to 71.6% for Entity-GCN*. For the Masked Dev set, the scores range from 54.5% for BiDAF to 70.5% for Entity-GCN without coreference (single model). The table highlights the performance of Entity-GCN models, which outperform recent prior work without learning any language model but relying on a pretrained one (ELMo – without fine-tuning it) and applying R-GCN to reason among entities in the text."
+        },
+        {
+            "entity_name": "HUMAN (WELBL ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Welbl et al. in 2018."
+        },
+        {
+            "entity_name": "FASTQA (WELBL ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Welbl et al. in 2018."
+        },
+        {
+            "entity_name": "BIDAF (WELBL ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Welbl et al. in 2018."
+        },
+        {
+            "entity_name": "COREF-GRU (DHINGRA ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Dhingra et al. in 2018."
+        },
+        {
+            "entity_name": "MHPGM (BAUER ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Bauer et al. in 2018."
+        },
+        {
+            "entity_name": "WEAVER / JENGA (RAISON ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Raison et al. in 2018."
+        },
+        {
+            "entity_name": "MHQA-GRN (SONG ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Song et al. in 2018."
+        },
+        {
+            "entity_name": "ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)",
+            "entity_type": "ORGANIZATION",
+            "description": "A single model of Entity-GCN without coreference."
+        },
+        {
+            "entity_name": "ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)",
+            "entity_type": "ORGANIZATION",
+            "description": "A single model of Entity-GCN with coreference."
+        },
+        {
+            "entity_name": "ENTITY-GCN* (ENSEMBLE 5 MODELS)",
+            "entity_type": "ORGANIZATION",
+            "description": "An ensemble of 5 models of Entity-GCN."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Ablation study on WIKIHOP validation set.' The table compares the performance of different models in two settings: unmasked and masked. The first row shows the full model (ensemble) with a score of 68.5 in the unmasked setting and 71.6 in the masked setting. The second row shows the full model (single) with a mean score of 65.1 ± 0.11 in the unmasked setting and 70.4 ± 0.12 in the masked setting. The subsequent rows show various ablations of the full model, such as GloVe with R-GCN, GloVe without R-GCN, No R-GCN, No relation types, No DOC-BASED, No MATCH, No COREF, No COMPLEMENT, and Induced edges. For example, GloVe with R-GCN scores 59.2 in the unmasked setting and 11.1 in the masked setting, while GloVe without R-GCN scores 51.2 in the unmasked setting and 11.6 in the masked setting. The table highlights the importance of each component in the full model by showing how the removal of each component affects the performance."
+        },
+        {
+            "entity_name": "MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A table comparing different models and their performance on unmasked and masked tasks."
+        },
+        {
+            "entity_name": "UNMASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on unmasked tasks."
+        },
+        {
+            "entity_name": "MASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on masked tasks."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_6 is a table labeled 'Table 4: Accuracy and precision at K (P@K in the table) analysis overall and per query type.' The table is structured with columns: Relation, Accuracy, P@2, P@5, Avg. |C_q|, and Supports. It is divided into overall performance and specific query types. For overall performance, 'overall (ensemble)' has an accuracy of 68.5%, P@2 of 81.0%, P@5 of 94.1%, Avg. |C_q| of 20.4 ± 16.6, and 5129 supports. 'Overall (single model)' has an accuracy of 65.3%, P@2 of 79.7%, P@5 of 92.9%, Avg. |C_q| of 20.4 ± 16.6, and 5129 supports. The best performing relations are 'member_of_political_party' with an accuracy of 85.5%, P@2 of 95.7%, P@5 of 98.6%, Avg. |C_q| of 5.4 ± 2.4, and 70 supports; 'record_label' with an accuracy of 83.0%, P@2 of 93.6%, P@5 of 99.3%, Avg. |C_q| of 12.4 ± 6.1, and 283 supports; and 'publisher' with an accuracy of 81.5%, P@2 of 96.3%, P@5 of 100.0%, Avg. |C_q| of 9.6 ± 5.1, and 54 supports. The worst performing relations are 'place_of_birth' with an accuracy of 51.0%, P@2 of 67.2%, P@5 of 86.8%, Avg. |C_q| of 27.2 ± 14.5, and 309 supports; 'place_of_death' with an accuracy of 50.0%, P@2 of 67.3%, P@5 of 89.1%, Avg. |C_q| of 25.1"
+        },
+        {
+            "entity_name": "OVERALL (ENSEMBLE)",
+            "entity_type": "UNKNOWN",
+            "description": "overall (ensemble)是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "OVERALL (SINGLE MODEL)",
+            "entity_type": "UNKNOWN",
+            "description": "overall (single model)是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "MEMBER_OF_POLITICAL_PARTY",
+            "entity_type": "UNKNOWN",
+            "description": "member_of_political_party是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "RECORD_LABEL",
+            "entity_type": "UNKNOWN",
+            "description": "record_label是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "PUBLISHER",
+            "entity_type": "UNKNOWN",
+            "description": "publisher是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "PLACE_OF_BIRTH",
+            "entity_type": "UNKNOWN",
+            "description": "place_of_birth是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "PLACE_OF_DEATH",
+            "entity_type": "UNKNOWN",
+            "description": "place_of_death是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "INCEPTION",
+            "entity_type": "UNKNOWN",
+            "description": "inception是从image_6中提取的实体。"
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart with two sets of data. The x-axis represents the candidate set size, ranging from 0 to 65. The y-axis represents accuracy, ranging from 0 to 1.0. The blue bars represent the accuracy of the best single model with respect to the candidate set size on the validation set. The orange bars represent the rescaled data distributions per number of candidates. A dashed black line at approximately 0.687 indicates the average accuracy. The Pearson’s correlation coefficient between the candidate set size and accuracy is -0.687 (p<10^-7), indicating a significant negative correlation."
+        },
+        {
+            "entity_name": "HISTOGRAM",
+            "entity_type": "EVENT",
+            "description": "A histogram displaying two sets of data, one in blue and the other in orange. The blue bars represent a distribution that fluctuates around a value of 0.6, while the orange bars show a decreasing trend starting from a high value at the beginning and tapering off towards zero."
+        },
+        {
+            "entity_name": "BLUE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The blue bars are part of the histogram and represent a set of data that fluctuates around a value of 0.6."
+        },
+        {
+            "entity_name": "ORANGE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The orange bars are part of the histogram and represent a set of data that shows a decreasing trend."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a graph that plots the accuracy of a model against the nodes set size. The x-axis represents the nodes set size, ranging from 0 to 200. The y-axis represents the accuracy, ranging from 0 to 1.0. The blue bars represent the accuracy values for different nodes set sizes. The orange bars represent the rescaled data distributions per number of nodes. A dashed black line at approximately 0.65 on the y-axis indicates the average accuracy. The accuracy values fluctuate around the average line, with some values above and some below. The rescaled data distribution bars show a decreasing trend as the nodes set size increases, starting high and gradually decreasing to almost zero at the higher end of the nodes set size."
+        },
+        {
+            "entity_name": "GRAPH",
+            "entity_type": "EVENT",
+            "description": "A bar chart with two sets of data. The x-axis ranges from 0 to 200, and the y-axis ranges from 0 to 1.0. One set of data is represented by blue bars, while the other is represented by brown bars."
+        },
+        {
+            "entity_name": "BLUE BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The blue bars represent one set of data in the graph."
+        },
+        {
+            "entity_name": "BROWN BARS",
+            "entity_type": "UNKNOWN",
+            "description": "The brown bars represent another set of data in the graph."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Model architecture' that outlines the architecture of a machine learning model. The table is structured with multiple rows and columns, detailing the components of the model. The first row specifies the input as 'query ELMo 3072-dim' and 'candidates ELMo 3072-dim'. The second row describes the layers used in the model: '2 layers bi-LSTM [256, 128]-dim' for the query and '1 layer FF 256-dim' for the candidates. The third row indicates a concatenation step resulting in a 512-dimensional vector. The fourth row shows a two-layer feed-forward (FF) network with dimensions [1024, 512]-dim, producing outputs denoted as '{x̂}_i^N'. The fifth row lists three layers of R-GCN, each with 512 dimensions and shared parameters. The sixth row mentions a concatenation with q resulting in a 768-dimensional vector. The seventh row details a three-layer feed-forward network with dimensions [256, 128, 1]-dim. The final row specifies the output as 'probabilities over C_q'."
+        },
+        {
+            "entity_name": "INPUT - Q, {V_I}_{I=1}^N",
+            "entity_type": "EVENT",
+            "description": "The input consists of a query and a set of candidates. The query is represented by 'q' and the candidates are denoted as '{v_i}_{i=1}^N'."
+        },
+        {
+            "entity_name": "QUERY ELMO 3072-DIM",
+            "entity_type": "OBJECT",
+            "description": "The query is processed using ELMo embeddings with a dimensionality of 3072."
+        },
+        {
+            "entity_name": "CANDIDATES ELMO 3072-DIM",
+            "entity_type": "OBJECT",
+            "description": "The candidates are also processed using ELMo embeddings with a dimensionality of 3072."
+        },
+        {
+            "entity_name": "2 LAYERS BI-LSTM [256, 128]-DIM",
+            "entity_type": "OBJECT",
+            "description": "The query is passed through a two-layer bidirectional LSTM network with hidden dimensions of 256 and 128."
+        },
+        {
+            "entity_name": "1 LAYER FF 256-DIM",
+            "entity_type": "OBJECT",
+            "description": "The candidates are passed through a single-layer feedforward network with a hidden dimension of 256."
+        },
+        {
+            "entity_name": "CONCATENATION 512-DIM",
+            "entity_type": "OBJECT",
+            "description": "The outputs from the LSTM and feedforward networks are concatenated into a vector of 512 dimensions."
+        },
+        {
+            "entity_name": "2 LAYER FF [1024, 512]-DIM: : {X̂_I}_{I=1}^N",
+            "entity_type": "OBJECT",
+            "description": "The concatenated vector is then passed through a two-layer feedforward network with hidden dimensions of 1024 and 512."
+        },
+        {
+            "entity_name": "3 LAYERS R-GCN 512-DIM EACH (SHARED PARAMETERS)",
+            "entity_type": "OBJECT",
+            "description": "The output from the feedforward network is fed into a three-layer Relational Graph Convolutional Network (R-GCN) with shared parameters, each layer having a dimensionality of 512."
+        },
+        {
+            "entity_name": "CONCATENATION WITH Q 768-DIM",
+            "entity_type": "OBJECT",
+            "description": "The output from the R-GCN is concatenated with the original query 'q', resulting in a vector of 768 dimensions."
+        },
+        {
+            "entity_name": "3 LAYERS FF [256,128,1]-DIM",
+            "entity_type": "OBJECT",
+            "description": "The concatenated vector is passed through a three-layer feedforward network with hidden dimensions of 256, 128, and 1."
+        },
+        {
+            "entity_name": "OUTPUT - PROBABILITIES OVER C_Q",
+            "entity_type": "EVENT",
+            "description": "The final output is a set of probabilities over the candidate set 'C_q', indicating the likelihood of each candidate being the correct match for the query."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Samples from WIKIHOP set where Entity-GCN fails.' The table is structured with multiple rows and columns. Each row represents a sample ID, query, gold answer, predicted answer, and their respective probabilities. The columns are as follows: 'ID', 'Query', 'Gold answer', 'Predicted answer', and the probability values for both the gold and predicted answers. \\n\\nFor example, the first row has the following details: \\n- ID: WH_dev_2257 \\n- Query: inception (of) Derrty Entertainment \\n- Gold answer: 2003 (p = 14.1) \\n- Predicted answer: 2000 (p = 15.8) \\n\\nSupport texts are provided for each sample to explain the context of the query and the answers. For instance, Support 1 for the first sample states that Derrty Entertainment is a record label founded by [...], and the first album released under Derrty Entertainment was Nelly's Country Grammar. Support 2 mentions that Country Grammar is the debut single by American rapper Nelly, produced by Jason Epperson, and released in 2000. \\n\\nThe footnote explains that there is ambiguity between two entities since the city Eslov is located in the Scania County (English name of Skane County). The model assigns high probability to the city and cannot select the county. \\n\\nThe context discusses the performance of the Entity-GCN model and its failure cases in the WIKIHOP dataset."
+        },
+        {
+            "entity_name": "DERRTY ENTERTAINMENT",
+            "entity_type": "ORGANIZATION",
+            "description": "A record label founded by an unspecified individual. The first album released under this label was Nelly's 'Country Grammar' in 2000."
+        },
+        {
+            "entity_name": "NELLY",
+            "entity_type": "PERSON",
+            "description": "An American rapper whose debut single 'Country Grammar' was produced by Jason Epperson and released in 2000."
+        },
+        {
+            "entity_name": "COUNTRY GRAMMAR",
+            "entity_type": "EVENT",
+            "description": "The debut single by Nelly, produced by Jason Epperson and released in 2000."
+        },
+        {
+            "entity_name": "JASON EPPERSON",
+            "entity_type": "PERSON",
+            "description": "A music producer who produced Nelly's debut single 'Country Grammar'."
+        },
+        {
+            "entity_name": "ADOLPH ZUKOR",
+            "entity_type": "PERSON",
+            "description": "An individual associated with the Famous Players-Lasky Corporation, which was formed from the merger of his Famous Players Film Company and the Jesse L. Lasky Feature Play Company."
+        },
+        {
+            "entity_name": "JESSE L. LASKY",
+            "entity_type": "PERSON",
+            "description": "An individual associated with the Famous Players-Lasky Corporation, which was formed from the merger of Adolph Zukor's Famous Players Film Company and his own Feature Play Company."
+        },
+        {
+            "entity_name": "FAMOUS PLAYERS-LASKY CORPORATION",
+            "entity_type": "ORGANIZATION",
+            "description": "A corporation formed from the merger of Adolph Zukor's Famous Players Film Company and Jesse L. Lasky's Feature Play Company."
+        },
+        {
+            "entity_name": "FORBIDDEN PARADISE",
+            "entity_type": "EVENT",
+            "description": "A drama film produced by Famous Players-Lasky Corporation."
+        },
+        {
+            "entity_name": "ERIK PENSER",
+            "entity_type": "PERSON",
+            "description": "A Swedish individual born on August 22, 1942, in Eslöv, Skåne."
+        },
+        {
+            "entity_name": "ESLÖV",
+            "entity_type": "GEO",
+            "description": "A location in Skåne where Erik Penser was born."
+        },
+        {
+            "entity_name": "SKÅNE COUNTY",
+            "entity_type": "GEO",
+            "description": "A county in Sweden, sometimes referred to as 'Scania County' in English."
+        }
+    ]
+}

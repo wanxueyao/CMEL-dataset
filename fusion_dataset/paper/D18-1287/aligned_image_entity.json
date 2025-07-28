@@ -1,0 +1,86 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Example instructions from our two tasks:LANI (left) and CHAI (right)",
+        "entity_type": "EVENT",
+        "description": "LANI is a benchmark for instruction following, specifically a navigation task used to evaluate the model's performance.",
+        "reason": "The image on the left depicts an outdoor scene with a well and a cactus, which aligns with the navigation task described in the text. The instructions provided also correspond to a navigation task, making LANI the most appropriate match.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Figure 2",
+        "entity_type": "ORGANIZATION",
+        "description": "LINGUNET is an architecture inspired by the U-NET image generation method, used for generating a probability distribution over pixels in a feature map based on natural language instructions.",
+        "reason": "The image clearly shows the architecture of LINGUNET, which processes natural language instructions and panoramic images to predict goal locations and generate actions. The diagram includes components such as text kernels, feature maps, and an RNN for action generation, all of which are consistent with the description of LINGUNET in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_3": {
+        "entity_name": "Table 1: Summary statistics of the two corpora",
+        "entity_type": "CONCEPT",
+        "description": "The image is a table labeled 'Dataset Statistic' that provides statistical information about two datasets: LANI and CHAI. The table is structured with the following columns: Number paragraphs, Mean instructions per paragraph, Mean actions per instruction, Mean tokens per instruction, and Vocabulary size.",
+        "reason": "The image clearly shows a table labeled 'Dataset Statistic' which matches the description provided in the text. The table provides detailed statistics for the LANI and CHAI datasets, aligning with the content of the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "LANI",
+        "entity_type": "EVENT",
+        "description": "LANI is an event or task designed to evaluate an agent's ability to follow navigation instructions in an environment with landmarks.",
+        "reason": "The image depicts a top-down view of an outdoor environment with various objects and a path marked by colored dots, which aligns with the description of the LANI task. The presence of a drone icon at the start of the path indicates the starting position of the agent, and the overall setup matches the LANI task described in the text.",
+        "matched_chunk_entity_name": "LANI"
+    },
+    "image_5": {
+        "entity_name": "Figure 3: Segmented instructions in the LANI domain",
+        "entity_type": "EVENT",
+        "description": "LANI is an event or task designed to evaluate an agent's ability to follow navigation instructions in an environment with landmarks.",
+        "reason": "The image depicts a set of instructions for navigating an environment, which aligns with the description of LANI as an event that evaluates an agent's ability to follow navigation instructions. The text also mentions LANI as a task for evaluating how well an agent can follow navigation instructions.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Table 2: Qualitative analysis of the LANI and CHAI corpora",
+        "entity_type": "EVENT",
+        "description": "The event involves a detailed comparison between two corpora, LANI and CHAI, based on various categories such as spatial relations, conjunctions, temporal coordination, constraints, co-reference, and comparatives.",
+        "reason": "The image is a table labeled 'Table 2: Qualitative analysis of the LANI and CHAI corpora.' It provides a detailed comparison between two corpora, LANI and CHAI, based on various categories. The table is structured with the following columns: Category, Count (with sub-columns for LANI and CHAI), and Example. The rows represent different categories analyzed in the corpora.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_7": {
+        "entity_name": "Figure 4: Scenario and segmented instruction from the CHAI corpus",
+        "entity_type": "ORGANIZATION",
+        "description": "CHAI is an organization that combines navigation and manipulation tasks in a simulated household environment, using the CHALET simulator.",
+        "reason": "The image depicts a table labeled 'Figure 4: Scenario and segmented instruction from the CHAI corpus.' The text information also mentions CHAI as an organization that uses the CHALET simulator for creating a complex, simulated household environment. This matches with the content of the image which shows instructions related to household tasks and navigation.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 3: Performance on the development data.",
+        "entity_type": "TABLE",
+        "description": "The table compares the performance of different methods on two datasets, LANI and CHAI. Each dataset has four metrics: SD (Success Distance), TC (Time to Completion), SD (Success Distance), and MA (Mean Accuracy). The methods evaluated include STOP, RANDOMWALK, MOSTFREQUENT, MISRA17, CHAPLOT18, and Our Approach (OA).",
+        "reason": "The image is a table labeled 'Table 3: Performance on the development data.' which matches the description provided in the text. The table contains the performance metrics for different methods on the LANI and CHAI datasets, aligning with the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "Table 4: Performance on the held-out test dataset/Table 5: Development goal prediction performance",
+        "entity_type": "TABLE",
+        "description": "The table compares different methods in terms of stop distance and task completion for LANI, and stop distance and manipulation accuracy for CHAI.",
+        "reason": "The image clearly shows a table labeled 'Table 4: Performance on the held-out test dataset.' which aligns with the description provided in the text. The table includes metrics such as stop distance (SD) and task completion (TC) for LANI, and stop distance (SD) and manipulation accuracy (MA) for CHAI, matching the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_10": {
+        "entity_name": "Table 6: Mean goal prediction error for LANI instructions with and without the analysis categories we used in Table 2.",
+        "entity_type": "TABLE",
+        "description": "The table highlights the mean goal prediction error for each category when the analysis is present versus absent, along with the statistical significance of the difference as indicated by the p-values.",
+        "reason": "The image clearly shows a table labeled 'Table 6' which matches the description provided in the text. The table contains data on mean goal prediction error for different categories, which aligns with the content of the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_11": {
+        "entity_name": "Figure 5: Likert rating histogram for expert human follower and our approach for LANI.",
+        "entity_type": "EVENT",
+        "description": "A process used to assess the performance of approaches by comparing generated paths with instructions on a Likert scale.",
+        "reason": "The image is a bar chart showing the Likert rating histogram for expert human follower and our approach for LANI, which directly corresponds to the concept of 'Human Evaluation' in the text. The chart compares the ratings given by human raters and the approach being evaluated, aligning with the description of 'Human Evaluation' as a process using a Likert scale.",
+        "matched_chunk_entity_name": "Human Evaluation"
+    },
+    "image_12": {
+        "entity_name": "Figure 6: Goal prediction",
+        "entity_type": "EVENT",
+        "description": "Goal prediction is an event in the CHAI corpus where an additional RNN predicts the sequence of intermediate goals given the instruction only.",
+        "reason": "The image depicts probability maps overlaid on observed panoramas, which are indicative of goal prediction. The text also mentions goal prediction as a key component of the model being evaluated.",
+        "matched_chunk_entity_name": "Goal prediction"
+    }
+}

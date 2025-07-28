@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_23_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, curly hair, depicted in a stylized manner- Expression: Neutral to slightly smiling expression with closed eyes- Age: Appears to be an adult male- Clothing: Wearing a sleeveless top and pants; the clothing style is simple and cartoonish- Posture: Sitting position with one leg crossed over the other, hands resting on the lapOverall, the character has a relaxed and casual posture, depicted in a simplified, cartoon-like drawing style."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+</node>
+<node id="&quot;IMAGE_23&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a simple black-and-white sketch of a young boy standing on one leg, holding the other knee with both hands. The boy has short, spiky hair and is wearing a short-sleeved shirt and pants. He appears to be in a playful or whimsical pose, as if he is balancing or dancing. The background is plain and unadorned, which places full focus on the figure. The drawing style is loose and expressive, with visible brush strokes and lines that give it a hand-drawn, artistic feel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with spiky hair, wearing a light-colored shirt and pants, standing on one leg."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+</node>
+<node id="&quot;STOOL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small stool with a round seat and three legs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+</node>
+<edge source="&quot;IMAGE_23_PERSON-0.JPG&quot;" target="&quot;BOY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_23_person-0.jpg is a picture of a boy."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23_PERSON-0.JPG&quot;" target="&quot;IMAGE_23&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_23_person-0.jpg是image_23的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_23&quot;" target="&quot;STOOL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stool是从image_23中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;STOOL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The boy is balancing on one leg next to the stool."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_23.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

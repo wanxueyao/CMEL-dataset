@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph depicting the Federal Funds Target Rate from the year 2000 to 2023. The x-axis represents the years, starting from 2000 and ending at 2023, with markers at every five-year interval. The y-axis represents the interest rate in percentage, ranging from 0% to 7%. The data points are connected by an orange line, showing fluctuations in the interest rate over time. There are three shaded areas labeled 'RECESSIONS', indicating periods of economic recession. The first recession period is between 2001 and 2002, the second one is around 2008, and the third one is around 2020. The graph shows a significant drop in the interest rate during each recession period, followed by a gradual increase. Notably, the interest rate reached its peak at approximately 6% in 2000, dropped to around 1% during the 2008 recession, and remained close to 0% until 2020. After 2020, there is a sharp increase in the interest rate, reaching around 5% by the end of 2023. The graph also includes a note stating 'No change' near the end of the timeline, indicating that the interest rate might remain stable or unchanged after 2023."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A line graph showing the percentage of something over time from 2000 to 2020. The graph has shaded areas labeled 'RECESSIONS' indicating periods of economic downturn."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+</node>
+<node id="&quot;RECESSIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Periods on the graph marked by shaded areas indicating times of economic recession."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+</node>
+<node id="&quot;NO CHANGE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A label on the graph indicating a period where there was no significant change in the measured percentage."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;RECESSIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RECESSIONS是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NO CHANGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"No change是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;RECESSIONS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph visually represents data that includes periods of economic recessions, which are highlighted for emphasis."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;NO CHANGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The graph includes a label indicating a period of no significant change, providing context for interpreting the data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

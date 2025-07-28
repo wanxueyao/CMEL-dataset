@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, wavy hair with a side parting, light brown in color- Eyes: Not clearly visible due to the angle and lighting- Expression: Neutral, possibly focused or contemplative- Age: Appears to be a young adult- Clothing: Wearing a dark-colored suit jacket over a checkered shirt with a tie; the shirt has a wide collar typical of past fashion trends- Posture: Standing with one arm slightly raised, holding an object that appears to be a microphoneOverall, the individual gives off a formal and somewhat retro vibe, suggesting a setting from a past era, possibly related to performance or public speaking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white photograph of a young man playing an electric guitar. He has shoulder-length hair and is wearing a dark suit jacket over a light-colored shirt with a tie. The guitar is a Fender Stratocaster, characterized by its distinctive shape and the three single-coil pickups. The man appears to be focused on his performance, with his eyes slightly closed and his mouth open as if he is singing or expressing emotion through his music. The background is dark, which helps to highlight the figure and the guitar. The overall atmosphere conveys a sense of intensity and passion, typical of a live music performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+</node>
+<node id="&quot;MUSICIAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person with long hair, wearing a dark suit and tie, playing an electric guitar."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+</node>
+<node id="&quot;ELECTRIC GUITAR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white electric guitar being played by the musician."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+</node>
+<node id="&quot;MICROPHONE STAND&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A microphone stand positioned near the musician."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;MUSICIAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of a musician."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MUSICIAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Musician是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ELECTRIC GUITAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Electric Guitar是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MICROPHONE STAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Microphone Stand是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MUSICIAN&quot;" target="&quot;ELECTRIC GUITAR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The musician is playing the electric guitar."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MUSICIAN&quot;" target="&quot;MICROPHONE STAND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The microphone stand is positioned near the musician, likely for singing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

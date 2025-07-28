@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a watercolor illustration depicting a serene and expansive landscape. The scene features a vast, open sky with soft, pastel clouds that blend into the horizon. In the foreground, there are sparse trees with bare branches on the left and right sides of the image, suggesting a winter or early spring setting. The ground is covered in snow, adding to the cold atmosphere. A body of water, possibly a lake or river, stretches across the middle of the image, reflecting the sky and contributing to the overall sense of tranquility. Above the water, a single red bird is flying, its bright color standing out against the muted background. The text overlay reads 'CHAPTER THIRTEEN NICHOLAS FLAMEL,' indicating that this image is likely an introductory page for a chapter in a book."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;NICHOLAS FLAMEL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The name of the chapter, suggesting a significant figure or topic in the narrative."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;CHAPTER THIRTEEN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Indicates the progression in the story, marking a new section or turning point."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+</node>
+<node id="&quot;WATERCOLOR LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A serene watercolor painting featuring a mountainous landscape with trees and a bird in flight, setting a tranquil scene for the chapter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;NICHOLAS FLAMEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nicholas Flamel是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CHAPTER THIRTEEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter Thirteen是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WATERCOLOR LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Watercolor Landscape是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NICHOLAS FLAMEL&quot;" target="&quot;CHAPTER THIRTEEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chapter is named after Nicholas Flamel, indicating his importance to the events or revelations in this part of the story."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER THIRTEEN&quot;" target="&quot;WATERCOLOR LANDSCAPE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The landscape serves as a visual introduction to Chapter Thirteen, possibly symbolizing the setting or mood of the upcoming narrative."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (4)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

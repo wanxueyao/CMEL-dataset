@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. It shows a large hand reaching down towards a small rabbit that appears to be falling or being pushed out of a window. The rabbit is dressed in a vest and bow tie, giving it a somewhat human-like appearance. The background includes a window with broken glass, suggesting that the rabbit has fallen through it. There is also a flower pot on a windowsill, adding to the indoor setting. The overall atmosphere conveys a sense of urgency and surprise, as the rabbit looks startled and the hand looms ominously above it. The illustration style is detailed and expressive, capturing the whimsical and fantastical elements of the story."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+</node>
+<node id="&quot;HAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large hand reaching down towards the rabbit, with long fingers and a detailed texture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+</node>
+<node id="&quot;RABBIT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A surprised-looking rabbit wearing a waistcoat, being grabbed by the large hand from above."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+</node>
+<node id="&quot;WINDOW&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small window with a flower pot on the sill, through which the rabbit is trying to escape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hand是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rabbit是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Window是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HAND&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The hand is grabbing the rabbit as it tries to escape through the window."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RABBIT&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The rabbit is attempting to escape through the window, which is too small for it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

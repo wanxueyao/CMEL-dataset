@@ -1,0 +1,79 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1",
+        "entity_type": "GEO",
+        "description": "River is a source concept in the COMMONSENSEQA dataset, used to generate questions about related target concepts.",
+        "reason": "The image depicts a concept map with 'river' as the central node, connected to other nodes such as 'pebble', 'stream', 'bank', and 'canyon'. This aligns with the description of 'river' as a source concept in the text, which is used to generate questions about related target concepts.",
+        "matched_chunk_entity_name": "Figure 1/River"
+    },
+    "image_2": {
+        "entity_name": "Figure 2: COMMONSENSEQA",
+        "entity_type": "EVENT",
+        "description": "COMMONSENSEQA is an event or process where commonsense questions are generated and evaluated, aiming to test models' understanding of commonsense knowledge.",
+        "reason": "The image clearly illustrates the generation process of multiple-choice questions for COMMONSENSEQA using the CONCEPTNET knowledge base. The flowchart shows the steps involved in extracting subgraphs from CONCEPTNET, authoring questions, adding distractors, filtering by quality, and collecting relevant snippets via a search engine. This aligns with the description of COMMONSENSEQA as an event where commonsense questions are generated and evaluated.",
+        "matched_chunk_entity_name": "Figure 2/COMMONSENSEQA"
+    },
+    "image_3": {
+        "entity_name": "Table 1: Key statistics for COMMONSENSEQA",
+        "entity_type": "EVENT",
+        "description": "COMMONSENSEQA is an event or process where commonsense questions are generated and evaluated, aiming to test models' understanding of commonsense knowledge.",
+        "reason": "The image depicts a table labeled 'Measurement' that provides key statistics for COMMONSENSEQA. The table includes information about the number of distinct nodes, relations, and other metrics related to the generation and evaluation of commonsense questions in the COMMONSENSEQA dataset.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Table 2",
+        "entity_type": "TABLE",
+        "description": "A table labeled 'Table 2: Top CONCEPTNET relations in COMMONSENSEQA, along with their frequency in the data and an example question.' The table is structured with three main columns: Relation, Formulated question example, and %. Each row represents a different relation and its corresponding formulated question example and percentage.",
+        "reason": "The image clearly shows a table labeled 'Table 2' which matches the description provided in the text. The table contains information about CONCEPTNET relations used in COMMONSENSEQA, including their frequency and example questions.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Figure 3",
+        "entity_type": "IMAGE",
+        "description": "The image is a diagram consisting of three separate flowcharts, each addressing a different question. The first flowchart asks, 'Where are Rosebushes typically found outside of large buildings?' It shows a sequence of nodes connected by labeled edges. The nodes are: Building, Courtyard, Flowers, and Rosebushes. The edges are labeled as 'Has parts', 'Spatial', and 'Is member of'. The second flowchart asks, 'Where would you get a Balalaika if you do not have one?' It has nodes for Balalaika, Instrument, Music store, and Get instruments. The edges are labeled 'Is member of', 'Spatial', and 'Purpose'. The third flowchart asks, 'I want to use string to keep something from moving, how should I do it?' It includes nodes for Something, String, Tie around, and Keep from moving. The edges are labeled 'Spatial', 'Activity', and 'Cause & effect'. Each node is represented by a circle, and the edges are depicted as lines connecting the circles with labels indicating the relationship between the concepts.",
+        "reason": "The image clearly depicts three flowcharts that align with the content described in the text. Each flowchart addresses a specific question and contains nodes and edges that represent the relationships between concepts.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Table 3: Skills and their frequency in the sampled data",
+        "entity_type": "TABLE",
+        "description": "The image is a table labeled 'Table 3: Skills and their frequency in the sampled data.' The table categorizes different types of commonsense skills and their respective frequencies. The categories listed are: Spatial (41%), Cause & Effect (23%), Has parts (23%), Is member of (17%), Purpose (18%), Social (15%), Activity (8%), Definition (6%), and Preconditions (3%). Each row represents a category of commonsense skill, with the first column listing the category name and the second column providing the definition of the skill. The third column shows the percentage frequency of each skill in the sampled data.",
+        "reason": "The image clearly depicts a table that matches the description provided in the text. The table lists various commonsense skills and their frequencies, which aligns with the content of Table 3 mentioned in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_7": {
+        "entity_name": "Figure 4",
+        "entity_type": "GEO",
+        "description": "Figure 4 is a visual representation of the distribution of the first and second words in questions, showing the frequency of different categories and providing example questions.",
+        "reason": "The image clearly depicts a pie chart titled 'Distribution of the first and second words in questions,' which aligns with the description of Figure 4 in the text. The chart provides a comprehensive overview of the distribution and examples of the first and second words in questions, matching the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 4: Baseline models along with their characteristics.",
+        "entity_type": "TABLE",
+        "description": "The table lists various baseline models used in the evaluation of COMMONSENSEQA, detailing whether they were trained on COMMONSENSEQA and whether they use extra context as input.",
+        "reason": "The image clearly shows a table labeled 'Table 4: Baseline models along with their characteristics.' which matches the description provided in the text. The table includes information about different models and their characteristics, aligning with the content of the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "Table 5",
+        "entity_type": "GEO",
+        "description": "Table 5 presents the test set results for all models and setups in the COMMONSENSEQA dataset evaluation.",
+        "reason": "The image is a table that compares the performance of various models on two different splits: Random split and Question concept split. This aligns with the description of Table 5 in the text, which provides test set results for all models and setups.",
+        "matched_chunk_entity_name": "TABLE 5"
+    },
+    "image_10": {
+        "entity_name": "Table 6",
+        "entity_type": "GEO",
+        "description": "Table 6 provides BERT-LARGE baseline analysis with examples, correct answers, distractors, model accuracy, and frequency in the dataset.",
+        "reason": "The image is a table labeled 'Table 5: Test set accuracy for all models' and 'Table 6: BERT-LARGE baseline analysis'. The text information mentions Table 6 specifically as providing BERT-LARGE baseline analysis, which matches the content of the image.",
+        "matched_chunk_entity_name": "TABLE 6"
+    },
+    "image_11": {
+        "entity_name": "Figure 5: Development accuracy for BERT-LARGE trained with varying amounts of data",
+        "entity_type": "ORGANIZATION",
+        "description": "BERT-LARGE is a pre-trained language model that achieves high accuracy in various natural language processing tasks.",
+        "reason": "The image depicts the development accuracy of BERT-LARGE trained with varying amounts of data, which aligns with the text discussing the performance of BERT-LARGE on the COMMONSENSEQA dataset.",
+        "matched_chunk_entity_name": "Figure 5"
+    }
+}

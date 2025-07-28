@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that falls over the shoulders- Expression: Neutral, with a thoughtful or contemplative look- Age: Appears to be a young girl- Clothing: Wearing a long, flowing dress with puffed sleeves and a fitted bodice; the dress has a high waistline and a full skirt- Posture: Sitting on the ground with one leg bent and the other extended; hands are clasped together near the faceOverall, the character gives off a serene and introspective vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the classic story 'Alice in Wonderland.' The main character, Alice, is shown kneeling on the ground with her hand resting on her chin, deep in thought. She has long, flowing hair and is dressed in a dress with puffed sleeves and a full skirt. Her posture and expression convey a sense of curiosity and contemplation. To her left, there is a small rabbit standing upright, facing away from Alice. The rabbit appears to be wearing a waistcoat and holding a watch, which are characteristic features of the White Rabbit from the story. The background is a simple, darkened area that contrasts with the lighter figure of Alice, emphasizing her as the focal point of the image. The overall atmosphere is one of wonder and confusion, reflecting Alice's state of mind as she tries to make sense of her strange surroundings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, kneeling and looking at a small rabbit."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;RABBIT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small rabbit standing on its hind legs, wearing a waistcoat and holding a watch."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rabbit是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is observing the rabbit, which appears to be in a hurry and is checking its watch."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

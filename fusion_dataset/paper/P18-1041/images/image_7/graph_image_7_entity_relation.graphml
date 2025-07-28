@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Test accuracy for LSTM model trained on original/shuffled training set.' The table is structured with two main columns: Datasets and the corresponding accuracies for the Original and Shuffled training sets. The rows represent three distinct datasets: Yahoo, Yelp P., and SNLI. The accuracies are as follows: for the Yahoo dataset, the Original training set has an accuracy of 72.78%, and the Shuffled training set has an accuracy of 72.89%. For the Yelp P. dataset, the Original training set has an accuracy of 95.11%, and the Shuffled training set has an accuracy of 93.49%. For the SNLI dataset, the Original training set has an accuracy of 78.02%, and the Shuffled training set has an accuracy of 77.68%. The table highlights the performance comparison between the LSTM model trained on the original dataset and the same model trained on a shuffled dataset, indicating that the word-order information does not significantly affect the test accuracy for the Yahoo and SNLI datasets but shows a slight decrease for the Yelp P. dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+</node>
+<node id="&quot;DATASETS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table listing three datasets: Yahoo, Yelp P., and SNLI, with their original and shuffled performance metrics."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+</node>
+<node id="&quot;YAHOO&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The first dataset in the table, showing an original performance of 72.78 and a shuffled performance of 72.89."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+</node>
+<node id="&quot;YELP P.&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The second dataset in the table, showing an original performance of 95.11 and a shuffled performance of 93.49."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+</node>
+<node id="&quot;SNLI&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The third dataset in the table, showing an original performance of 78.02 and a shuffled performance of 77.68."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;DATASETS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Datasets是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;YAHOO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Yahoo是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Yelp P.是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SNLI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SNLI是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

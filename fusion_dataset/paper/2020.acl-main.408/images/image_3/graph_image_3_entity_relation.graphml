@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;DATASET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A collection of data used for various tasks such as evidence inference, Boolean questions (BoolQ), movie reviews, FEVER, MultiRC, CoS-E, and e-SNLI."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;COHEN Κ&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A statistical measure of inter-annotator agreement."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;F1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A measure of a test's accuracy, considering both the precision and the recall of the test to compute the score."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;P&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Precision, which is the ratio of correctly identified positive observations to the total predicted positives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;R&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Recall, which measures the proportion of actual positives that are correctly identified."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;#ANNOTATORS/DOC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The number of annotators per document in the dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;#DOCUMENTS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The total number of documents in the dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_3 is a table labeled "Table 2: Human agreement with respect to rationales." It provides statistical information about the agreement of annotators on various datasets. The table includes columns such as Dataset, Cohen κ (with standard deviation), F1 (with standard deviation), P (Precision with standard deviation), R (Recall with standard deviation), #Annotators/doc, and #Documents. The datasets represented in the table are Evidence Inference, BoolQ, Movie Reviews, FEVER, MultiRC, CoS-E, and e-SNLI. For Evidence Inference, all values are marked with a dash (-) indicating no data or not applicable. BoolQ has Cohen κ: 0.618 ± 0.194, F1: 0.617 ± 0.227, P: 0.647 ± 0.260, R: 0.726 ± 0.217, with 3 annotators per document and 199 documents. Movie Reviews has Cohen κ: 0.712 ± 0.135, F1: 0.799 ± 0.138, P: 0.693 ± 0.153, R: 0.989 ± 0.102, with 2 annotators per document and 96 documents. FEVER has Cohen κ: 0.854 ± 0.196, F1: 0.871 ± 0.197, P: 0.931 ± 0.205, R: 0.855 ± 0.198, with 2 annotators per document and 24 documents. MultiRC has Cohen κ: 0.728 ± 0.268, F1: 0.749 ± 0.265, P: 0.695 ± 0.284, R: 0.910 ± 0.259, with 2 annotators per document and 99 documents. CoS-E has Cohen κ: 0.619 ± 0.308, F1: 0.654 ± 0.317, P: 0.626 ± 0.319, R: 0.792 ± 0.371, with 2 annotators per document and 100 documents. e-SNLI has Cohen κ: 0.743 ± 0.162, F1: 0.799 ± 0</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+</node>
+<edge source="&quot;DATASET&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dataset是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COHEN Κ&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cohen κ是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;F1&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"F1是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;P&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"P是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;R&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"R是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;#ANNOTATORS/DOC&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"#Annotators/doc是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;#DOCUMENTS&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"#Documents是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

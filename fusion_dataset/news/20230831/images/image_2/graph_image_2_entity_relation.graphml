@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_CAR-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Bicycle- Color: Predominantly black with some reflective elements- Shape: Traditional bicycle shape with two wheels, a frame, handlebars, and a seat- Size: Appears to be a standard adult-sized bicycle- Material: Likely made of metal for the frame and wheels, with rubber tires and possibly some plastic components- Possible function: Used for transportation or recreation- Other significant characteristics: Equipped with reflectors for safety, suggesting it is designed for use on roads or paths where visibility is important. The design indicates it may be used for both casual riding and commuting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2_BENCH-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Hive- Color: The hive is primarily made of wood, which has a natural brown color. There are also blue and white markings on the front panel.- Shape: Rectangular with a flat top and bottom.- Size: The hive appears to be of a standard size for beekeeping, large enough to house multiple frames of honeycomb.- Material: Wood, likely pine or cedar, commonly used in beekeeping for its durability and resistance to pests.- Possible function: This object is a beehive, used for housing bees in an apiary. It provides a controlled environment for the bees to build their combs, store honey, and raise their young. The hive can be opened to allow beekeepers to inspect the colony and extract honey.Overall, the hive is a functional piece of equipment in beekeeping, designed to support the health and productivity of a bee colony while allowing for easy access by the beekeeper."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene of destruction and devastation caused by Hurricane Idalia in Keaton Beach, Florida. A white pickup truck is partially submerged in water, tilted to one side, indicating the force of the floodwaters. The truck is located near a body of water, possibly a canal or a flooded area, with debris scattered around it. In the background, there is a stilt house elevated above the ground, which appears to have sustained some damage. The house has a deck with railings, and American flags are visible, suggesting a residential area. The surrounding area is littered with various pieces of debris, including what appears to be parts of structures and other materials. Palm trees and other vegetation are present, some of which appear damaged or uprooted due to the storm. The overall atmosphere conveys a sense of aftermath and destruction, with the landscape heavily impacted by the hurricane's surge and winds."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;DAMAGED TRUCK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white truck is partially submerged in water, indicating damage from a flood or storm."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;STILT HOUSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A house built on stilts with a deck and American flags, suggesting it's a residential property affected by the disaster."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;FLOODED AREA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An area with standing water, debris, and damaged structures, indicating recent flooding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;PALM TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Several palm trees are visible, some of which appear to be damaged or uprooted."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<node id="&quot;DEBRIS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Scattered debris including wood planks and other materials, likely from damaged buildings or structures."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_CAR-0.JPG&quot;" target="&quot;DAMAGED TRUCK&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_2_car-0.jpg is a picture of a damaged truck."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_CAR-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_car-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_BENCH-1.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_bench-1.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DAMAGED TRUCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Damaged Truck是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;STILT HOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stilt House是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flooded Area是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PALM TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Palm Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DEBRIS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Debris是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED TRUCK&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The truck is located within the flooded area, indicating it was affected by the flood."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STILT HOUSE&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The stilt house is situated near the flooded area, suggesting it may have been impacted by the flood."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOODED AREA&quot;" target="&quot;PALM TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The palm trees are located around the flooded area, some showing signs of damage from the flood."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOODED AREA&quot;" target="&quot;DEBRIS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The debris is scattered throughout the flooded area, indicating the aftermath of the flood."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

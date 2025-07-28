@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_TEDDY BEAR-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: This appears to be a fictional or cartoonish creature rather than a real animal.- Color: The creature has a pink body with a lighter, almost white, underbelly. There are red and white checkered patterns on its tail.- Shape: The creature has a rounded head with large, expressive eyes that have yellow sclera and black pupils. It has a small mouth with a protruding tongue. Its body is elongated and somewhat cylindrical, leading into a tail that ends in a tuft of fur.- Size: The creature is depicted in a close-up, so it is difficult to determine the actual size, but it appears to be small enough to be handheld.- Posture: The creature is standing upright on two legs, with its arms hanging down by its sides. Its posture suggests it is relaxed or at ease.- Structural Characteristics: The creature has a fluffy texture, especially noticeable around its neck and tail. Its limbs are short and stubby, ending in what appear to be small paws."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_DOG-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Dog- Age: Appears to be an adult- Color: Black with a pinkish hue on the fur, especially noticeable on the ears and around the neck- Shape: The dog has a broad face with large, floppy ears that hang down. The eyes are of different colors, one being amber and the other blue, which is a characteristic known as heterochromia. The nose is black and prominent.- Size: The size is not fully discernible due to the partial view, but the dog appears to be of a medium to large breed.- Posture: The dog's head is tilted slightly to one side, giving it a curious or playful expression.Overall, the dog exhibits unique and striking features, particularly the heterochromia and the unusual pinkish hue on its fur."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration featuring a black dog with one brown eye and one blue eye, giving it a heterochromatic appearance. The dog has a somber expression and floppy ears. It is holding a pink stuffed toy in its mouth, which appears to be a plush creature with long limbs and a small head. The background is a simple, light gray circle that frames the dog's face, emphasizing its features and the toy. The overall mood of the image conveys a sense of melancholy or pensiveness, as the dog's expression and the choice of toy suggest a playful yet sad demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;DOG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A black dog with one brown eye and one blue eye, holding a pink toy in its mouth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+</node>
+<node id="&quot;TOY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A pink stuffed toy with long limbs and a checkered pattern on one of its legs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_TEDDY BEAR-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_teddy bear-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_DOG-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_dog-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DOG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dog是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Toy是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOG&quot;" target="&quot;TOY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The dog is holding the toy in its mouth."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

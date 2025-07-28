@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: We train on HOTPOTQA using standard distractors (Original) or using adversarial distractors (Adversarial).' The table is structured with two main columns under the header 'Training Data': 'Original' and 'Adversarial.' Each of these columns is further divided into rows corresponding to different types of evaluation data. The rows are labeled as follows: 'Original,' 'Adversarial,' and '+ Type.' The values in the table represent performance metrics, likely accuracy or F1 scores, for different combinations of training and evaluation data. The exact values are as follows: For 'Original' training data, the 'Original' evaluation data yields a score of 67.08, while 'Adversarial' evaluation data yields 59.12. For 'Adversarial' training data, 'Original' evaluation data results in a score of 46.84, and 'Adversarial' evaluation data results in 60.10. The '+ Type' row shows a score of 40.73 for 'Original' evaluation data and 58.42 for 'Adversarial' evaluation data. The table highlights the performance differences when using original versus adversarial distractors during training and evaluation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance of a model on original and adversarial data for both training and evaluation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+</node>
+<node id="&quot;ORIGINAL TRAINING DATA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d1">"The table shows the performance of the model when trained on original data."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ADVERSARIAL TRAINING DATA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d1">"The table shows the performance of the model when trained on adversarial data."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ORIGINAL EVALUATION DATA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d1">"The table shows the performance of the model when evaluated on original data."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ADVERSARIAL EVALUATION DATA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d1">"The table shows the performance of the model when evaluated on adversarial data."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;+ TYPE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d1">"The table includes an additional row labeled '+ Type' which may indicate a different type of data or processing."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ORIGINAL TRAINING DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table shows the performance of the model when trained on original data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ADVERSARIAL TRAINING DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table shows the performance of the model when trained on adversarial data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ORIGINAL EVALUATION DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table shows the performance of the model when evaluated on original data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ADVERSARIAL EVALUATION DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table shows the performance of the model when evaluated on adversarial data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;+ TYPE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes an additional row labeled '+ Type' which may indicate a different type of data or processing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a timeline illustrating the long-term and short-term interests in news reading. The timeline is marked with specific events and their corresponding timestamps. Starting from the left, the first event is labeled '2017 NBA Championship Celebration From Warriors' at timestamp t1. Moving right, the next event is 'Bohemian Rhapsody Is Highest-Grossing Musician Biopic Ever' at timestamp ti. Following this, the event 'Rami Malek Wins the 2019 Oscar' is marked at timestamp ti+1. Finally, the last event on the timeline is 'Oklahoma City Thunder vs. Golden State Warriors' at timestamp tj. The timeline is depicted as a horizontal arrow with these events marked at different points along its length. Each event is enclosed in a box with a distinct color: blue for the NBA Championship, green for Bohemian Rhapsody, yellow for Rami Malek's Oscar win, and blue again for the basketball game. The background of the image is white, and the text is clearly legible."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+</node>
+<node id="&quot;2017 NBA CHAMPIONSHIP CELEBRATION FROM WARRIORS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where the Golden State Warriors celebrated their 2017 NBA Championship."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+</node>
+<node id="&quot;RAMI MALEK WINS THE 2019 OSCAR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where Rami Malek won an Oscar in 2019 for his role in 'Bohemian Rhapsody'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+</node>
+<node id="&quot;BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event marking 'Bohemian Rhapsody' becoming the highest-grossing musician biopic ever."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+</node>
+<node id="&quot;OKLAHOMA CITY THUNDER VS. GOLDEN STATE WARRIORS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A basketball game between the Oklahoma City Thunder and the Golden State Warriors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;2017 NBA CHAMPIONSHIP CELEBRATION FROM WARRIORS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"2017 NBA Championship Celebration From Warriors是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;RAMI MALEK WINS THE 2019 OSCAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rami Malek Wins the 2019 Oscar是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bohemian Rhapsody Is Highest-Grossing Musician Biopic Ever是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;OKLAHOMA CITY THUNDER VS. GOLDEN STATE WARRIORS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Oklahoma City Thunder vs. Golden State Warriors是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;2017 NBA CHAMPIONSHIP CELEBRATION FROM WARRIORS&quot;" target="&quot;RAMI MALEK WINS THE 2019 OSCAR&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both events are related to the entertainment industry, with one being a sports celebration and the other an award ceremony."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAMI MALEK WINS THE 2019 OSCAR&quot;" target="&quot;BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both events are related to the success of 'Bohemian Rhapsody', with one being an award win and the other a box office record."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER&quot;" target="&quot;OKLAHOMA CITY THUNDER VS. GOLDEN STATE WARRIORS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both events involve the Golden State Warriors, with one being a championship celebration and the other a game."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

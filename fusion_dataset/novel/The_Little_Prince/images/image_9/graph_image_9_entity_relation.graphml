@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a simple line drawing of a rectangular box. The box has three small circles on its front face, which could represent buttons or knobs. The drawing is minimalistic, with no additional details or background elements. The lines are clean and the overall style is schematic, suggesting it might be a conceptual representation rather than a detailed depiction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_9.jpg</data>
+</node>
+<node id="&quot;BOX&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A simple, rectangular box with three circular holes on its top surface."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_9.jpg</data>
+</node>
+<node id="&quot;HOLES&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_9.jpg</data>
+  <data key="d1">"The holes are part of the box, located on its top surface."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BOX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Box是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOX&quot;" target="&quot;HOLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The holes are part of the box, located on its top surface."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

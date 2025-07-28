@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of the White Rabbit from Lewis Carroll's 'Alice in Wonderland.' The rabbit is depicted standing upright, dressed in a formal outfit that includes a coat adorned with heart patterns. The coat has large buttons and a prominent bow tie. The rabbit holds a trumpet in one hand and a parchment-scroll in the other. The rabbit's expression appears hurried or anxious, as indicated by its wide eyes and slightly open mouth. The background is minimalistic, with no additional details, focusing attention on the rabbit's actions and attire. The overall atmosphere conveyed is one of urgency and formality, fitting the character's role in the story."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+</node>
+<node id="&quot;WHITE RABBIT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A rabbit dressed in a formal outfit with a coat adorned with heart patterns, holding a trumpet and a scroll."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+</node>
+<node id="&quot;TRUMPET&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+  <data key="d1">"The White Rabbit is holding the trumpet in one hand."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SCROLL&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+  <data key="d1">"The White Rabbit is holding the scroll in the other hand."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WHITE RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Rabbit是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE RABBIT&quot;" target="&quot;TRUMPET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The White Rabbit is holding the trumpet in one hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE RABBIT&quot;" target="&quot;SCROLL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The White Rabbit is holding the scroll in the other hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

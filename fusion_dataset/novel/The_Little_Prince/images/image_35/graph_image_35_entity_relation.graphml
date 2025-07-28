@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_35_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, blonde hair, styled in a simple manner- Eyes: Not distinctly visible due to the style of the illustration- Expression: Neutral, with a slight downward gaze- Age: Appears to be a young boy or teenager- Clothing: Wearing a long, light beige robe with long sleeves; the robe has a brown belt around the waist; red shoes are visible at the bottom- Posture: Standing upright with arms hanging loosely by the sidesOverall, the character gives off a calm and somewhat solemn vibe, possibly depicting a historical or fantasy setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<node id="&quot;IMAGE_35_CAKE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Christmas tree- Color: The tree is primarily green with red and white ornaments.- Shape: The tree has a traditional conical shape, typical of Christmas trees.- Size: The image does not provide a scale, but the tree appears to be a medium-sized representation.- Material: The tree appears to be made of a fabric or paper material, possibly part of a greeting card or decoration.- Possible function: This object likely serves a decorative purpose, commonly used during the holiday season to celebrate Christmas.- Other significant characteristics: The tree is adorned with round, red ornaments that have white highlights, giving them a shiny appearance. The base of the tree is not visible, suggesting it may be a cut-out or a flat representation rather than a three-dimensional object."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<node id="&quot;IMAGE_35&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration from the book 'The Little Prince' by Antoine de Saint-Exupéry. It depicts a young boy with golden hair and a long, flowing robe standing in front of a wall. The boy has a solemn expression on his face, and his eyes are closed, suggesting a sense of sadness or contemplation. He is surrounded by two large rose bushes, each adorned with numerous red roses. The background is a plain, earthy brown wall with a small opening or window on the right side. The overall atmosphere of the image conveys a sense of loneliness and melancholy, as the boy appears to be reflecting on his experiences and the realization that his beloved flower is not unique as he once believed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with golden hair, wearing a gray outfit with a belt and a yellow scarf."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<node id="&quot;ROSE BUSH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green bush with red roses, located to the left of The Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<node id="&quot;WALL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A tall, brown wall behind The Little Prince and the rose bush."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+</node>
+<edge source="&quot;IMAGE_35_PERSON-1.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_35_person-1.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35_PERSON-1.JPG&quot;" target="&quot;IMAGE_35&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_35_person-1.jpg是image_35的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35_CAKE-0.JPG&quot;" target="&quot;ROSE BUSH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_35_cake-0.jpg is a picture of a rose bush."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35_CAKE-0.JPG&quot;" target="&quot;IMAGE_35&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_35_cake-0.jpg是image_35的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_35中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35&quot;" target="&quot;ROSE BUSH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rose Bush是从image_35中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_35&quot;" target="&quot;WALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wall是从image_35中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;ROSE BUSH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is standing next to the rose bush, looking at it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;WALL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is standing in front of the wall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_35.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

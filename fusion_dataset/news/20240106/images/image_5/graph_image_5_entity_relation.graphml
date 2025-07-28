@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Fair- Hairstyle: Short, neatly combed gray hair- Eyes: Blue, looking directly at the camera- Expression: Neutral with a slight smile- Age: Appears to be middle-aged or older- Clothing: Wearing a brown suit jacket, white dress shirt, and black tie- Posture: Head and shoulders visible, facing forwardOverall, the individual presents a professional and composed demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Knitted sweater- Color: The sweater has a pattern consisting of alternating squares in shades of orange, blue, and black.- Shape: The visible portion shows a segment of the sweater with a diamond-shaped pattern.- Size: Only a small portion of the sweater is visible, so the full size cannot be determined, but it appears to be a typical garment size.- Material: The texture suggests it is made from knitted yarn or wool.- Possible function: This object is likely intended for wearing as a piece of clothing, providing warmth and style.Overall, the sweater appears to be a cozy, stylish garment with a vibrant, geometric pattern."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a portrait of a middle-aged man with short, neatly combed gray hair. He has light skin and is wearing a brown suit jacket over a white dress shirt paired with a patterned tie featuring red, yellow, and blue squares. The background is a gradient of muted colors, transitioning from a lighter shade at the top to a darker shade at the bottom. The man has a calm and composed expression, with a slight smile that conveys a sense of warmth and approachability. The lighting is soft and even, highlighting his facial features without creating harsh shadows. The overall mood of the image is professional and dignified, suitable for a formal portrait or an official photograph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older man with short, graying hair, wearing a suit and tie, smiling at the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+</node>
+<node id="&quot;SUIT&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d1">"The man is wearing a suit."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TIE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d1">"The man is wearing a tie as part of his suit."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_5_tie-1.jpg is a picture of the tie worn by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_tie-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;SUIT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is wearing a suit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TIE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is wearing a tie as part of his suit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a title page for Chapter Three of a book, titled 'The Letters From No One'. The title is prominently displayed in the center of the image on a piece of parchment held by two clawed hands. The background features a watercolor illustration of a dragon with a light blue and white color scheme. The dragon's claws are gripping the edges of the parchment, which has a slightly worn and aged appearance. The text on the parchment reads: 'CHAPTER THREE THE LETTERS FROM NO ONE'. The overall atmosphere of the image is whimsical and magical, suggesting a fantasy setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;CHAPTER THREE TITLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The title 'Chapter Three: The Letters From No One' is prominently displayed on a piece of parchment held by a creature with clawed hands, suggesting the beginning of a new narrative segment in a story or book."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;CREATURE'S HANDS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Two clawed hands are holding the parchment. The hands appear to belong to a non-human creature, possibly a dragon or other mythical being, given the claws and texture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;PARCHMENT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An old, textured piece of parchment that the creature's hands are holding. It has a historical or ancient appearance, fitting for a story setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CHAPTER THREE TITLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter Three Title是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CREATURE'S HANDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Creature's Hands是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PARCHMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Parchment是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

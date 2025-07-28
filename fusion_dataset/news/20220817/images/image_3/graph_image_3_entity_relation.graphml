@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, slightly receding hairline- Facial Hair: Light stubble on the chin and upper lip- Expression: Serious, focused gaze to the side- Age: Appears to be a middle-aged man- Clothing: Wearing a dark blue suit jacket, white dress shirt, and a striped tie in shades of blue and gray- Posture: Standing with one hand adjusting the suit jacket, suggesting a formal or professional settingOverall, the individual presents a formal and professional appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Necktie- Color: Dark blue with light blue and white diagonal stripes- Shape: Rectangular, tapering to a point at the bottom- Size: Standard length for an adult necktie, approximately 50-60 inches long- Material: Likely made of silk or a similar fabric, given the smooth texture and slight sheen- Possible function: Worn around the neck, typically over a dress shirt and under a jacket, as part of formal or business attireOverall, this necktie appears to be a classic accessory suitable for professional settings or formal events."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_TIE-3.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Necktie- Color: Dark blue with a subtle pattern that includes lighter blue and possibly silver or white accents- Shape: Rectangular, typical of a necktie, with a pointed end- Size: Appears to be a standard-sized necktie, though the exact dimensions cannot be determined from this view- Material: Likely made of a fabric such as silk or polyester, given the sheen and texture visible- Possible function: Worn around the neck, typically over a dress shirt, as a formal accessory in men's attireOverall, the necktie appears to be a high-quality, formal accessory suitable for business or formal events."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_TIE-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Necktie- Color: Dark blue with light blue diagonal stripes- Shape: Rectangular, tapering to a point at the bottom- Size: Standard length and width for a necktie, approximately 5 cm wide at the widest point and around 140 cm long- Material: Likely made of fabric, possibly silk or polyester- Possible function: Worn around the neck, typically over a shirt and under a jacket, as part of formal or business attireOverall, the necktie appears to be a classic accessory suitable for formal occasions or business settings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a man in a formal setting, likely exiting or entering a building. He is dressed in a dark blue suit with a white dress shirt and a striped tie. His posture suggests he is adjusting his jacket or possibly preparing to button it. The background features a modern glass door with a metal frame, indicating an office or corporate environment. The man has short dark hair and a beard, and he appears to be looking slightly to his left with a serious expression. The lighting is bright, suggesting daytime, and the overall atmosphere conveys a sense of professionalism and formality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with short dark hair and a beard, wearing a dark suit, white shirt, and striped tie. He appears to be adjusting his tie while standing in front of a glass door."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<node id="&quot;GLASS DOOR&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A clear glass door with a metal frame, part of a building entrance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_tie-1.jpg is a picture of the tie worn by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-1.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_tie-1.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-3.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_3_tie-3.jpg is a picture of the tie worn by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-3.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_tie-3.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-2.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_3_tie-2.jpg is a picture of the tie worn by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-2.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_tie-2.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GLASS DOOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Glass Door是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;GLASS DOOR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing in front of the glass door, possibly exiting or entering the building."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

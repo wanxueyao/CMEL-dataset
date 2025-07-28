@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_39&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white sketch depicting a fountain set in what appears to be a garden or courtyard. The fountain is centrally located and has a rounded basin with water flowing from the top, creating a small pool at the base. Surrounding the fountain are several trees and plants, which are drawn with simple lines and dots to represent leaves. The background includes a wall or structure that partially encloses the area, adding to the sense of a private or secluded space. The overall atmosphere conveyed by the sketch is one of tranquility and calmness, suggesting a peaceful setting where one might go to relax or reflect."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+</node>
+<node id="&quot;FOUNTAIN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A central water fountain with a curved basin and a spout from which water flows."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Several trees surrounding the fountain, with branches extending over it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+</node>
+<node id="&quot;WALL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A wall behind the fountain, partially covered by the trees."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+</node>
+<edge source="&quot;IMAGE_39&quot;" target="&quot;FOUNTAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fountain是从image_39中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_39&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_39中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_39&quot;" target="&quot;WALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wall是从image_39中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOUNTAIN&quot;" target="&quot;TREES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The trees are positioned around the fountain, providing a natural frame."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOUNTAIN&quot;" target="&quot;WALL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The fountain is situated in front of the wall, creating a focal point in the scene."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREES&quot;" target="&quot;WALL&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The trees partially obscure the wall, blending the natural and man-made elements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_39.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

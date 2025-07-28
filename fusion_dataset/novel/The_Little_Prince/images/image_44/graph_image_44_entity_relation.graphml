@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_44_KITE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Yellow- Hairstyle: Spiky, yellow hair standing upright- Clothing: Wearing a yellow suit with a high collar and long sleeves; blue shoes with white soles- Posture: Bent forward with one arm raised above the head and the other arm bent at the elbow, giving an impression of exhaustion or defeatOverall, the character appears to be in a state of fatigue or despair, emphasized by the dramatic posture and the vibrant yellow color scheme."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+</node>
+<node id="&quot;IMAGE_44_KITE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Star- Color: Yellow- Shape: Five-pointed star- Size: Small, relative to the frame- Material: Appears to be a flat, two-dimensional representation, possibly a sticker or digital graphic- Possible function: Often used as a decorative element, symbol of excellence, or in various forms of media and communication to denote positive attributes or achievementsOverall, the star is a simple yet universally recognized symbol with a bright yellow color that stands out against the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+</node>
+<node id="&quot;IMAGE_44&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and surreal scene featuring a yellow humanoid figure with spiky hair, dressed in a yellow outfit. The figure is leaning forward with its arms raised above its head, as if in a state of despair or exhaustion. The posture suggests a sense of weariness or defeat. The figure's feet are blue, adding a contrasting element to the otherwise monochromatic yellow appearance. The background is minimalistic, with a light blue line at the bottom that could represent the horizon or a boundary. Above the figure, there is a single yellow star in the sky, which appears to be the focus of the figure's gaze. The overall atmosphere conveyed by the image is one of solitude and contemplation, with a hint of melancholy. The simplicity of the background emphasizes the emotional state of the figure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+</node>
+<node id="&quot;LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A small, yellow-haired boy dressed in a yellow outfit with blue shoes, standing on a planet and looking up."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+</node>
+<node id="&quot;STAR&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A single, bright star located above the Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+</node>
+<edge source="&quot;IMAGE_44_KITE-0.JPG&quot;" target="&quot;LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_44_kite-0.jpg is a picture of the Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_44_KITE-0.JPG&quot;" target="&quot;IMAGE_44&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_44_kite-0.jpg是image_44的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_44_KITE-1.JPG&quot;" target="&quot;STAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_44_kite-1.jpg is a picture of a star."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_44_KITE-1.JPG&quot;" target="&quot;IMAGE_44&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_44_kite-1.jpg是image_44的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_44&quot;" target="&quot;LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Little Prince是从image_44中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_44&quot;" target="&quot;STAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Star是从image_44中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LITTLE PRINCE&quot;" target="&quot;STAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is gazing at the star, indicating a sense of wonder or curiosity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_44.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

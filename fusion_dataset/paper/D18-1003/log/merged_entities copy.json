@@ -1,0 +1,243 @@
+{
+    "chunk-25501327c836a6075b447873d9408629": [
+        {
+            "entity_name": "DeClarE",
+            "entity_type": "EVENT",
+            "description": "DeClarE is an end-to-end neural network model for evidence-aware credibility assessment of arbitrary textual claims, which incorporates external evidence, language style, and trustworthiness of sources without manual intervention. It is designed to overcome limitations of prior works by providing an automated, accurate, and transparent approach to fact-checking.",
+            "source_entities": [
+                "DECLARE"
+            ]
+        },
+        {
+            "entity_name": "Fact-Checking Websites",
+            "entity_type": "ORGANIZATION",
+            "description": "Fact-checking websites like Snopes.com and PolitiFact.com are platforms where claims are manually assessed for credibility and presented with evidence. They serve as references in the paper for the societal challenge of misinformation and the need for automated fact-checking tools.",
+            "source_entities": [
+                "SNOPES.COM",
+                "POLITIFACT.COM"
+            ]
+        },
+        {
+            "entity_name": "Research on Truth Discovery",
+            "entity_type": "PERSON",
+            "description": "Research on truth discovery, as referenced by Li et al. (2016), focuses on structured facts and credibility assessment, contributing to the understanding of misinformation and the development of automated fact-checking methods.",
+            "source_entities": [
+                "LI ET AL. (2016)"
+            ]
+        },
+        {
+            "entity_name": "Credibility Assessment Methods",
+            "entity_type": "PERSON",
+            "description": "Credibility assessment methods, including works by Popat et al. (2017), Rashkin et al. (2017), and Wang (2017), are referenced for their approaches to assessing the credibility of claims using external evidence, neural networks, and language style analysis.",
+            "source_entities": [
+                "POPAT ET AL. (2017)",
+                "RASHKIN ET AL. (2017)",
+                "WANG (2017)"
+            ]
+        },
+        {
+            "entity_name": "Gun Epidemic Claim",
+            "entity_type": "EVENT",
+            "description": "The Gun Epidemic Claim refers to a statement about the gun epidemic being the leading cause of death among young African-American men, used as an example in the paper to demonstrate the credibility assessment process of DeClarE.",
+            "source_entities": [
+                "GUN EPIDEMIC",
+                "YOUNG AFRICAN-AMERICAN MEN"
+            ]
+        }
+    ],
+    "chunk-b2d3ca77559605515b9380d661fe5f71": [
+        {
+            "entity_name": "BIDIRECTIONAL LONG SHORT-TERM MEMORY (LSTM) NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "An organization that utilizes a bidirectional LSTM network to create a representation of an article for credibility assessment, capturing both past and future features in text.",
+            "source_entities": [
+                "BIDIRECTIONAL LONG SHORT-TERM MEMORY (LSTM) NETWORK",
+                "GRAVES ET AL. (2005)"
+            ]
+        },
+        {
+            "entity_name": "ATTENTION MECHANISM",
+            "entity_type": "ORGANIZATION",
+            "description": "An organization that implements an attention mechanism to focus on salient words in articles with respect to claims, enhancing model transparency and interpretability.",
+            "source_entities": [
+                "ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "CREDIBILITY ANALYSIS",
+            "entity_type": "EVENT",
+            "description": "The event of analyzing the credibility of claims using an end-to-end neural network model, which includes input representations, article representation through biLSTM, and claim-specific attention weights.",
+            "source_entities": [
+                "CREDIBILITY ANALYSIS",
+                "END-TO-END NEURAL NETWORK MODEL"
+            ]
+        },
+        {
+            "entity_name": "POPAT ET AL., 2017",
+            "entity_type": "PERSON",
+            "description": "Researchers whose prior work is referenced in the context of the article and claim interaction, contrasting with the current model that considers both.",
+            "source_entities": [
+                "POPAT ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "RASHKIN ET AL., 2017",
+            "entity_type": "PERSON",
+            "description": "Researchers whose prior work is referenced in the context of the article and claim interaction, contrasting with the current model that considers both.",
+            "source_entities": [
+                "RASHKIN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "WANG, 2017",
+            "entity_type": "PERSON",
+            "description": "A researcher whose prior work is referenced in the context of the article and claim interaction, contrasting with the current model that considers both.",
+            "source_entities": [
+                "WANG, 2017"
+            ]
+        }
+    ],
+    "chunk-00ddfd9cd488b6232700a4f410715880": [
+        {
+            "entity_name": "Claim",
+            "entity_type": "Event",
+            "description": "The claim is an event that is being evaluated for credibility within the context of fact-checking, and it is represented by an overall input claim generated by averaging word embeddings.",
+            "source_entities": [
+                "CLAIM",
+                "$\\BAR{C}$"
+            ]
+        },
+        {
+            "entity_name": "Article",
+            "entity_type": "Event",
+            "description": "The article is an event that contains terms and representations relevant to the claim's credibility, including combined representations of article terms and the claim, claim-specific representations, and attention-focused representations.",
+            "source_entities": [
+                "ARTICLE",
+                "$\\HAT{A}_{K}$",
+                "$A_{K}^{\\PRIME}$",
+                "$\\ALPHA_{K}$",
+                "$G$"
+            ]
+        },
+        {
+            "entity_name": "Credibility Score",
+            "entity_type": "Event",
+            "description": "The credibility score is an event that represents the aggregated evaluation of an article's credibility, calculated by combining different feature representations and processed through fully connected layers to generate a credibility label or score for the claim.",
+            "source_entities": [
+                "CREDIBILITY SCORE",
+                "$D_{1}$",
+                "$D_{2}$",
+                "CRED"
+            ]
+        },
+        {
+            "entity_name": "Credibility Label",
+            "entity_type": "Event",
+            "description": "The credibility label is an event that classifies the credibility of a claim as either true or false, generated from the final output of the fully connected layers in the model.",
+            "source_entities": [
+                "CREDIBILITY LABEL"
+            ]
+        }
+    ],
+    "chunk-20dde6ce8918177c443c210520290855": null,
+    "chunk-5c10727c37b415aa074a7d364148dfb3": [
+        {
+            "entity_name": "DeClarE",
+            "entity_type": "ORGANIZATION",
+            "description": "DeClarE is an organization that has developed a system for credibility classification and regression tasks, utilizing biLSTM, attention mechanism, and source embeddings.",
+            "source_entities": [
+                "DECLARE"
+            ]
+        },
+        {
+            "entity_name": "Keras (Tensorflow)",
+            "entity_type": "ORGANIZATION",
+            "description": "Keras is a deep learning library used to implement the system with a Tensorflow backend, which serves as the machine learning framework.",
+            "source_entities": [
+                "KERAS",
+                "TENSORFLOW"
+            ]
+        },
+        {
+            "entity_name": "Adam Optimizer (Kingma and Ba)",
+            "entity_type": "CONCEPT",
+            "description": "The Adam optimizer, used in the system, is a method proposed by Kingma and Ba in 2014 for optimizing model parameters.",
+            "source_entities": [
+                "KINGMA AND BA"
+            ]
+        },
+        {
+            "entity_name": "Credibility Assessment Models",
+            "entity_type": "CONCEPT",
+            "description": "Includes various approaches for credibility assessment such as LSTM-text, CNN-text, Distant Supervision, and DeClarE with its different configurations.",
+            "source_entities": [
+                "LSTM-TEXT",
+                "CNN-TEXT",
+                "DISTANT SUPERVISION",
+                "BILSTM",
+                "ATTENTION MECHANISM",
+                "SOURCE EMBEDDINGS"
+            ]
+        },
+        {
+            "entity_name": "CCRF+SVR",
+            "entity_type": "CONCEPT",
+            "description": "CCRF+SVR is a model based on Continuous Conditional Random Field and Support Vector Regression proposed by Mukherjee and Weikum in 2015, used for credibility regression.",
+            "source_entities": [
+                "CCRF+SVR",
+                "MUKHERJEE AND WEIKUM"
+            ]
+        },
+        {
+            "entity_name": "SemEval Task Approaches",
+            "entity_type": "CONCEPT",
+            "description": "Includes NileTMRG and IITP, the best performing approaches for the close and open variants of the SemEval task, proposed by Enayet and El-Beltagy, and Singh et al., respectively.",
+            "source_entities": [
+                "NILETMRG",
+                "IITP",
+                "ENAYET AND EL-BELTAGY",
+                "SINGH ET AL."
+            ]
+        },
+        {
+            "entity_name": "Evaluation Metrics",
+            "entity_type": "CONCEPT",
+            "description": "Includes Macro F1-score, Area-Under-Curve (AUC), and Mean Square Error (MSE), measures used to evaluate the performance of models in credibility classification and regression tasks.",
+            "source_entities": [
+                "MACRO F1-SCORE",
+                "AREA-UNDER-CURVE (AUC)",
+                "MEAN SQUARE ERROR (MSE)"
+            ]
+        },
+        {
+            "entity_name": "ROC Curve",
+            "entity_type": "CONCEPT",
+            "description": "ROC curve is a graphical plot used to evaluate the diagnostic ability of a binary classifier system, specifically mentioned in the context of AUC.",
+            "source_entities": [
+                "RECEIVER OPERATING CHARACTERISTIC CURVE"
+            ]
+        }
+    ],
+    "chunk-ffaeb6179029526d2930f24a0dfecfe0": [
+        {
+            "entity_name": "DeClarE",
+            "entity_type": "ORGANIZATION",
+            "description": "DeClarE is an approach for credibility classification that comes in two variants: DeClare (Plain) which uses only biLSTM, and DeClarE (Full) which is an end-to-end system incorporating biLSTM, attention, and source embeddings, outperforming other approaches. It demonstrates clear separability between credible and non-credible articles and is capable of differentiating between fake news sources and mainstream news sources, as well as locating politicians with similar ideologies close to each other in the embedding space.",
+            "source_entities": [
+                "DECLARE (PLAIN)",
+                "DECLARE (FULL)"
+            ]
+        },
+        {
+            "entity_name": "Figure 2",
+            "entity_type": "EVENT",
+            "description": "Figure 2 comprises three parts: Figure 2a shows the projections of article representations using PCA, illustrating DeClarE's separability between credible and non-credible articles; Figure 2b displays the projections of claim and article source embeddings, with DeClarE separating fake news sources from mainstream ones; Figure 2c shows the projections of claim sources from PolitiFact, with DeClarE locating politicians with similar ideologies close to each other.",
+            "source_entities": [
+                "FIGURE 2A",
+                "FIGURE 2B",
+                "FIGURE 2C"
+            ]
+        }
+    ],
+    "chunk-101f0875273837303b3cfec95f006024": null
+}

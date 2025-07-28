@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a close-up of the capital letter 'S' in a serif font. The letter is black and set against a white background. The 'S' is stylized with smooth curves and sharp serifs at the top and bottom, typical of serif typefaces. There are no other objects, people, or scenes present in the image. The focus is solely on the letter, which occupies most of the frame."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+</node>
+<node id="&quot;S&quot;">
+  <data key="d0">"CHARACTER"</data>
+  <data key="d1">"A large, black, serif-style letter S prominently displayed in the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+</node>
+<node id="&quot;WHITE BACKGROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The background of the image is a plain white surface."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;S&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"S是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;WHITE BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Background是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;S&quot;" target="&quot;WHITE BACKGROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The letter S is set against the white background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

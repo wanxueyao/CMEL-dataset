@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Figure 4: Scenario and segmented instruction from the CHAI corpus.' The table is divided into two main sections: 'Scenario' and 'Written Instructions.' The 'Scenario' section describes a situation where an individual has several hours before guests arrive for a dinner party. The tasks include preparing meat dishes, putting them in the sink, removing items from the kitchen and bathroom that are not suitable for guests to see (like soaps and dish cleaning items), and placing these items in cupboards. Additionally, it involves putting dirty dishes around the house in the dishwasher and closing it. The 'Written Instructions' section provides step-by-step instructions for executing the scenario. These instructions include opening the cupboard above the sink, putting specific items like cereal, sponge, and dishwashing soap into the cupboard, closing the cupboard, picking up meats and putting them into the sink, opening the dishwasher, grabbing dirty dishes on the counter, and putting the dishes into the dishwasher."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;SINK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Located in the kitchen, used for washing dishes and meats."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;CUPBOARD&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Located above the sink, used for storing cereal, sponge, and dishwashing soap."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;MEATS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various meat dishes prepared for the dinner party."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;DISHWASHER&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Appliance used for cleaning dirty dishes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;COUNTER&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Surface in the kitchen where dirty dishes are placed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;CEREAL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Food item stored in the cupboard."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;SPONGE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Cleaning tool stored in the cupboard."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;DISHWASHING SOAP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Cleaning product stored in the cupboard."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+</node>
+<node id="&quot;DIRTY DISHES&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d1">"The dirty dishes are put into the dishwasher for cleaning."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SINK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sink是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CUPBOARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cupboard是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;MEATS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Meats是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;DISHWASHER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dishwasher是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;COUNTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Counter是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CEREAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cereal是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SPONGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sponge是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;DISHWASHING SOAP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dishwashing Soap是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SINK&quot;" target="&quot;MEATS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The meats are put into the sink for preparation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CUPBOARD&quot;" target="&quot;CEREAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cereal is stored in the cupboard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CUPBOARD&quot;" target="&quot;SPONGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The sponge is stored in the cupboard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CUPBOARD&quot;" target="&quot;DISHWASHING SOAP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The dishwashing soap is stored in the cupboard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISHWASHER&quot;" target="&quot;DIRTY DISHES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The dirty dishes are put into the dishwasher for cleaning."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COUNTER&quot;" target="&quot;DIRTY DISHES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The dirty dishes are placed on the counter before being put into the dishwasher."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

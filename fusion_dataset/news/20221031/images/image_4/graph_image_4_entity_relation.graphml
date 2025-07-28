@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Dark- Hairstyle: Short, dark hair- Clothing: Wearing a headband and what appears to be traditional or ceremonial attire, which is golden in color- Posture: Side profile, looking to the left with a serious expression- Accessories: The headband is prominent, suggesting a possible cultural or ritualistic significanceOverall, the character appears to have a dignified and solemn demeanor, possibly indicating a role of importance or tradition."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a person with short hair, wearing glasses and a headband, standing in front of a colorful, abstract background. The background consists of vibrant hues of pink, yellow, green, and blue, creating a dynamic and lively atmosphere. The person is dressed in a brownish-yellow garment that appears to be a traditional or cultural outfit. The overall mood of the image conveys a sense of energy and creativity, with the abstract background enhancing the artistic feel of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person with glasses and a headband, wearing a yellow top, looking upwards."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+</node>
+<node id="&quot;PROJECTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A colorful abstract projection in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_person-0.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PROJECTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Projection是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON&quot;" target="&quot;PROJECTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The person is standing in front of the projection, appearing to be engaged with it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

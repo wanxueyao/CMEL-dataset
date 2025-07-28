@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_16_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, styled in two braids that fall over the shoulders- Expression: Neutral, with a slight frown and eyes looking downward, giving an impression of contemplation or sadness- Age: Appears to be a young girl, possibly around 8-10 years old- Clothing: Wearing a long-sleeved dress with a high collar and cuffs that appear to be turned back; the dress has a simple, modest design typical of historical or fantasy settings- Posture: Sitting with knees drawn up to her chest, arms resting on her knees, and hands clasped togetherOverall, the character gives off a somber, reflective vibe, potentially from a historical or fantasy context."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;IMAGE_16&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from a barnyard. A young girl with braided hair is kneeling on the ground, observing two geese and a rat. The girl is dressed in a short-sleeved shirt and pants, with her hair tied back in two braids. One of the geese is standing upright, looking towards the right side of the image, while the other goose is sitting on a nest. The rat is positioned in front of the nest, appearing to be interacting with the egg inside. In the background, there is a wooden fence and a spider web with a spider hanging from it. The overall atmosphere of the image conveys a sense of curiosity and interaction between the girl and the animals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with braided hair, wearing a short-sleeved shirt and pants, kneeling near the animals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;GOOSE 1&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A goose standing on the left side of the image, facing the girl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;GOOSE 2&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A goose sitting on the ground, facing the girl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;RAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A rat sitting on the ground, facing the geese."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<node id="&quot;SPIDER WEB&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A spider web in the upper left corner of the image, with a spider on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+</node>
+<edge source="&quot;IMAGE_16_PERSON-0.JPG&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_16_person-0.jpg is a picture of a girl."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16_PERSON-0.JPG&quot;" target="&quot;IMAGE_16&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_16_person-0.jpg是image_16的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;GOOSE 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Goose 1是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;GOOSE 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Goose 2是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;RAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rat是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_16&quot;" target="&quot;SPIDER WEB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider Web是从image_16中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;GOOSE 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is kneeling near Goose 1, observing it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;GOOSE 2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is kneeling near Goose 2, observing it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;RAT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The girl is kneeling near the rat, observing it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;SPIDER WEB&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The spider web is above the girl, adding to the scene's atmosphere."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOSE 1&quot;" target="&quot;GOOSE 2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Goose 1 is standing next to Goose 2."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOSE 1&quot;" target="&quot;RAT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Goose 1 is standing near the rat."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOSE 2&quot;" target="&quot;RAT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Goose 2 is sitting near the rat."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_16.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

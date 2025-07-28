@@ -1,0 +1,281 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "MORPHOLOGICAL PARSER MORPA",
+            "entity_type": "EVENT",
+            "description": "MORPA is a scientific concept used in the paper to illustrate the problem of cross-sentence relations in scientific articles, and it is a method designed to reduce ambiguity in text-to-speech systems through morphological parsing.",
+            "source_image_entities": [
+                "MORPHOLOGICAL PARSER MORPA"
+            ],
+            "source_text_entities": [
+                "MORPHOLOGICAL PASER (MORPA)"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "SCIERC",
+            "entity_type": "DATASET",
+            "description": "SCIERC is a dataset created for scientific information extraction, which includes annotations for entities, relations, and coreference clusters. It extends previous datasets SemEval 2017 and SemEval 2018 by extending entity types, relation types, relation coverage, and adding cross-sentence relations using coreference links. It includes annotations for scientific entities, their relations, and coreference clusters for 500 scientific abstracts taken from 12 AI conference/workshop proceedings in four AI communities from the Semantic Scholar Corpus.",
+            "source_image_entities": [
+                "SCIERC"
+            ],
+            "source_text_entities": [
+                "SCIERC",
+                "SCIERC",
+                "SCIERC"
+            ]
+        },
+        {
+            "merged_entity_name": "SEMEVAL 17",
+            "entity_type": "EVENT",
+            "description": "SemEval 17 is an event that includes 500 paragraphs from articles in the domains of computer science, physics, and material science for scientific information extraction. It includes three types of entities (called keyphrases): Tasks, Methods, and Materials and two relation types: hyponym-of and synonym-of. It is mostly designed for entity recognition and covers only two relation types.",
+            "source_image_entities": [
+                "SEMEVAL 17"
+            ],
+            "source_text_entities": [
+                "SEMEVAL 17",
+                "SEMEVAL 17",
+                "SEMEVAL 17",
+                "SEMEVAL 17"
+            ]
+        },
+        {
+            "merged_entity_name": "SEMEVAL 18",
+            "entity_type": "EVENT",
+            "description": "SemEval 18 is an event focused on predicting relations between entities within scientific articles. It consists of six relation types and is designed to classify a relation between a pair of entities, but only intra-sentence relations are annotated.",
+            "source_image_entities": [
+                "SEMEVAL 18"
+            ],
+            "source_text_entities": [
+                "SEMEVAL 18",
+                "SEMEVAL 18",
+                "SEMEVAL 18"
+            ]
+        }
+    ],
+    "image_3": [
+    ],
+    "image_4": [
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIIE is a unified framework evaluated on SCIERC and SemEval 17 datasets for various tasks including entity recognition, relation extraction, and coreference resolution. It is also a system used for extracting information from scientific documents to create knowledge graphs.",
+            "source_image_entities": [
+                "SCIIE"
+            ],
+            "source_text_entities": [
+                "SCIIE"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "Statistical Machine Translation (SMT)",
+            "entity_type": "GEO",
+            "description": "Statistical Machine Translation (SMT) is a method for translating text from one language to another using statistical models, and it is a scientific term and a node in the knowledge graph, connected to other nodes through various relation types.",
+            "source_image_entities": [
+                "SMT"
+            ],
+            "source_text_entities": [
+                "STATISTICAL MACHINE TRANSLATION (SMT)"
+            ]
+        },
+        {
+            "merged_entity_name": "GRAMMATICAL ERROR CORRECTION",
+            "entity_type": "GEO",
+            "description": "Grammatical Error Correction is the process of identifying and correcting grammatical errors in text, and it is a scientific term and a node in the knowledge graph, connected to SMT through a Used-for relation type.",
+            "source_image_entities": [
+                "GRAMMATICAL ERROR CORRECTION"
+            ],
+            "source_text_entities": [
+                "GRAMMATICAL ERROR CORRECTION"
+            ]
+        },
+        {
+            "merged_entity_name": "Automatic Speech Recognition (ASR)",
+            "entity_type": "OBJECT",
+            "description": "Automatic Speech Recognition (ASR) is the task of converting spoken language into text, and it is a technology mentioned in the context of relation types between pairs of entities in the knowledge graph.",
+            "source_image_entities": [
+                "ASR"
+            ],
+            "source_text_entities": [
+                "AUTOMATIC SPEECH RECOGNITION (ASR)"
+            ]
+        }
+    ],
+    "image_6": [
+    ],
+    "image_7": [
+    ],
+    "image_8": [
+        {
+            "merged_entity_name": "SCIIE",
+            "entity_type": "MODEL",
+            "description": "SCIIE is a state-of-the-art model for scientific information extraction, achieving an F1 score of 68.1 on the development set and 64.2 on the test set, and is used for extracting entities, their relations, and coreference clusters within documents.",
+            "source_image_entities": [
+                "SCIIE"
+            ],
+            "source_text_entities": [
+                "SCIIE MODEL",
+                "SCIIE"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM+CRF",
+            "entity_type": "MODEL",
+            "description": "LSTM+CRF is a state-of-the-art NER system that applies CRF on top of LSTM for named entity tagging, used as a baseline for comparison with SCIIE, achieving an F1 score of 66.5 on the development set and 62.0 on the test set.",
+            "source_image_entities": [
+                "LSTM+CRF"
+            ],
+            "source_text_entities": [
+                "LSTM+CRF"
+            ]
+        },
+        {
+            "merged_entity_name": "E2E REL",
+            "entity_type": "MODEL",
+            "description": "E2E Rel is a state-of-the-art joint entity and relation extraction system that has been used in scientific literature and serves as a baseline for comparison with SCIIE, achieving an F1 score of 66.4 on the development set and 61.2 on the test set.",
+            "source_image_entities": [
+                "E2E REL"
+            ],
+            "source_text_entities": [
+                "E2E REL",
+                "E2E REL"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "MULTI TASK (SCIIE)",
+            "entity_type": "EVENT",
+            "description": "Multi Task (SciIE) is a multi-task learning framework evaluated on SCIERC and SemEval 17 datasets for various tasks including entity recognition, relation extraction, and coreference resolution. It improves performance across all tasks by sharing span representations and leveraging cross-sentence information.",
+            "source_image_entities": [
+                "MULTI TASK (SCIIE)"
+            ],
+            "source_text_entities": [
+                "SCIIE"
+            ]
+        },
+        {
+            "entity_name": "ENTITY RECOGNITION",
+            "entity_type": "EVENT",
+            "description": "Entity recognition is one of the tasks in the dataset where performance is evaluated, and it benefits from multi-task learning with coreference resolution and relation extraction.",
+            "source_image_entities": [
+                "ENTITY REC."
+            ],
+            "source_text_entities": [
+                "ENTITY RECOGNITION"
+            ]
+        },
+        {
+            "entity_name": "RELATION EXTRACTION",
+            "entity_type": "EVENT",
+            "description": "Relation extraction is a task that benefits significantly from multi-tasking with coreference resolution, showing a 7.1% relative improvement when combined.",
+            "source_image_entities": [
+                "RELATION"
+            ],
+            "source_text_entities": [
+                "RELATION EXTRACTION"
+            ]
+        },
+        {
+            "entity_name": "COREF.",
+            "entity_type": "EVENT",
+            "description": "Coreference resolution is a task that shows improvement when combined with other tasks in multi-task learning, with a 4.9% relative improvement when multitasked with relation extraction.",
+            "source_image_entities": [
+                "COREF."
+            ],
+            "source_text_entities": [
+                "COREFERENCE RESOLUTION"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "merged_entity_name": "MACHINE TRANSLATION",
+            "entity_type": "EVENT",
+            "description": "Machine Translation (MT) is a technology in NLP that is mentioned in the context of relation types between pairs of entities in the knowledge graph, showing a significant increase in performance around 2010 according to the trend line from 1995 to 2015.",
+            "source_image_entities": [
+                "MACHINE TRANSLATION"
+            ],
+            "source_text_entities": [
+                "MACHINE TRANSLATION (MT)"
+            ]
+        },
+        {
+            "merged_entity_name": "SPEECH RECOGNITION",
+            "entity_type": "EVENT",
+            "description": "Speech Recognition (ASR) is a technology in the field of speech where neural networks have been applied, showing a significant increase in performance around 2010 according to the trend line from 1995 to 2015.",
+            "source_image_entities": [
+                "SPEECH RECOGNITION"
+            ],
+            "source_text_entities": [
+                "AUTOMATIC SPEECH RECOGNITION (ASR)"
+            ]
+        }
+    ],
+    "image_11": [
+    ],
+    "image_12": [
+        {
+            "merged_entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIIE is a unified framework evaluated on SCIERC and SemEval 17 datasets for various tasks including entity recognition, relation extraction, and coreference resolution. It is also the SciIE model evaluated in the table.",
+            "source_image_entities": [
+                "SCIIE"
+            ],
+            "source_text_entities": [
+                "SCIIE"
+            ]
+        },
+        {
+            "merged_entity_name": "SPAN IDENTIFICATION",
+            "entity_type": "EVENT",
+            "description": "Span identification is a task in the table where models are evaluated on their performance in identifying spans of text, and it is also a task in SemEval 17 that aims at identifying spans of entities.",
+            "source_image_entities": [
+                "SPAN INDENTIFICATION"
+            ],
+            "source_text_entities": [
+                "SPAN IDENTIFICATION"
+            ]
+        },
+        {
+            "merged_entity_name": "KEYPHRASE EXTRACTION",
+            "entity_type": "EVENT",
+            "description": "A task in the table where models are evaluated on their performance in extracting keyphrases from text, and it is also a task in SemEval 17 with the same setting as entity and relation extraction in SCIERC.",
+            "source_image_entities": [
+                "KEYPHRASE EXTRACTION"
+            ],
+            "source_text_entities": [
+                "KEYPHRASE EXTRACTION"
+            ]
+        },
+        {
+            "merged_entity_name": "RELATION EXTRACTION",
+            "entity_type": "EVENT",
+            "description": "A task in the table where models are evaluated on their performance in extracting relations between entities in text, and it is also a task that benefits significantly from multi-tasking with coreference resolution.",
+            "source_image_entities": [
+                "RELATION EXTRACTION"
+            ],
+            "source_text_entities": [
+                "RELATION EXTRACTION"
+            ]
+        },
+        {
+            "merged_entity_name": "LUAN 2017",
+            "entity_type": "PERSON",
+            "description": "The author of the model evaluated in the table, and refers to a group of researchers whose work has been used in scientific term extraction and keyphrase extraction, serving as a baseline for comparison.",
+            "source_image_entities": [
+                "(LUAN 2017)"
+            ],
+            "source_text_entities": [
+                "LUAN ET AL., 2017B"
+            ]
+        }
+    ],
+    "image_13": [
+    ],
+    "image_14": [
+    ]
+}

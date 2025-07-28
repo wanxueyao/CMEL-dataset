@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair- Clothing: Wearing a black jacket with a high collar and what appears to be a hood; the jacket has a textured pattern- Posture: Standing with arms at sides, facing away from the viewer- Accessories: There is a strap visible over the right shoulder, possibly from a bag or cameraOverall, the person gives off an impression of being prepared for cold weather or outdoor activities, given the style of the jacket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Bird- Color: Predominantly black with a white patch on the wing- Shape: The bird appears to be in a flying posture, with wings extended and slightly curved upwards- Size: The bird seems to be of medium size, though exact dimensions cannot be determined from this partial view- Posture: The bird is captured mid-flight, suggesting movement and agilityOverall, the bird exhibits characteristics typical of many avian species adapted for flight, with a streamlined body and distinct coloration that may serve various purposes such as camouflage or signaling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a lively beach scene with several surfers enjoying the waves. The main focus is on a group of people engaged in surfing activities. In the foreground, two individuals are standing in shallow water, possibly preparing to enter the waves or having just finished their ride. One of them appears to be wearing a wetsuit and holding a surfboard. Further back, multiple surfers are visible in various stages of their activity: some are paddling out to catch a wave, while others are riding the waves. One surfer is notably airborne, performing a jump or trick above a breaking wave. The ocean is depicted with rolling waves, indicating active surfing conditions. The sky is clear with a warm, golden hue, suggesting either early morning or late afternoon light. The overall atmosphere conveys a sense of excitement and enjoyment associated with surfing. The background shows the horizon where the sea meets the sky, adding depth to the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<node id="&quot;SURFERS 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Group of surfers in the water, some standing on their boards and others lying down, all wearing wetsuits."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<node id="&quot;OCEAN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Body of water with waves suitable for surfing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<node id="&quot;WAVES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Waves in the ocean that the surfers are riding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;SURFERS 1&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of a surfer in a wetsuit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-2.JPG&quot;" target="&quot;SURFERS 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-2.jpg is a picture of a surfer in a wetsuit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-2.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-2.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SURFERS 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Surfers 1是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;OCEAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ocean是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WAVES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Waves是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221031/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

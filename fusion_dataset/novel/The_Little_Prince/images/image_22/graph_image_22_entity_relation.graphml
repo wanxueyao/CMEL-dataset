@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_22_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, blonde hair, styled upwards- Eyes: Not visible due to the angle and style of the drawing- Expression: Neutral, with a slight smile- Age: Appears to be a young boy- Clothing: Wearing a light blue turtleneck sweater, yellow pants, and green shoes- Posture: Sitting on a chair with one leg crossed over the other, hands resting on the lapOverall, the character gives off a casual and relaxed vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+</node>
+<node id="&quot;IMAGE_22&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration of a young boy with short, curly hair and a crown-like headpiece. He is kneeling on the ground, wearing a light green outfit with a high collar and a long, flowing green cape that extends behind him. His expression appears thoughtful or contemplative as he looks down at two large, yellow boxes that he is holding open with both hands. To his left, there is a small red flower with a single stem and a few leaves, which stands out against the plain background. The overall atmosphere of the image is whimsical and somewhat melancholic, suggesting a sense of wonder and introspection. The simplicity of the background focuses attention on the boy and the flower, creating a poignant scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with golden hair, wearing a green outfit and a long green scarf, kneeling on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+</node>
+<node id="&quot;BOXES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Two yellow boxes that The Little Prince is holding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+</node>
+<node id="&quot;ROSE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small red rose with a single stem and leaf, located to the left of The Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+</node>
+<edge source="&quot;IMAGE_22_PERSON-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_22_person-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22_PERSON-0.JPG&quot;" target="&quot;IMAGE_22&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_22_person-0.jpg是image_22的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boxes是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rose是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is holding two yellow boxes in his hands."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is kneeling near a small red rose."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

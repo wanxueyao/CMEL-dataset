@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: WIKIHOP dataset statistics from Welbl et al. (2018)' that provides statistical information about the WIKIHOP dataset. The table is structured with four main columns: Min, Max, Avg., and Median. Each row represents different metrics of the dataset and contains the following values: '# candidates' (Min: 2, Max: 79, Avg.: 19.8, Median: 14), '# documents' (Min: 3, Max: 63, Avg.: 13.7, Median: 11), and '# tokens/doc.' (Min: 4, Max: 2,046, Avg.: 100.4, Median: 91). The table highlights the variability in the number of candidates, documents, and document length across samples in the WIKIHOP dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_3.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying statistical data with columns for Min, Max, Avg., and Median, and rows for # candidates, # documents, and # tokens/doc."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

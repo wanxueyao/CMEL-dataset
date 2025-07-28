@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_18_BENCH-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Pig- Age: Adult- Color: The image is in black and white, so the pig appears to be a light color with darker spots or markings.- Shape: The pig has a robust, rounded body with a large head, small ears, and a short snout. Its legs are sturdy and short.- Size: The pig appears to be of average adult size for its species.- Posture: The pig is depicted in a side view, standing on all fours with its head turned slightly towards the viewer.- Structural Characteristics: The pig's body is covered in what appears to be coarse hair or bristles, and it has a tail that is curved upwards.Additionally, there is a wolf-like creature depicted above the pig, partially obscured by a wooden fence. The wolf has a fierce expression, with pointed ears, a long snout, and visible teeth. It appears to be observing the pig from behind the fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+</node>
+<node id="&quot;IMAGE_18&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene with two farm animals. In the foreground, there is a pig walking towards the right side of the image. The pig appears to be in motion, with its legs positioned as if it is running or trotting. Its body is robust and rounded, typical of a domesticated pig. Behind a wooden fence, an old sheep is looking over the top rail. The sheep has a thick, woolly coat and a somewhat stern expression on its face. The sheep's head is turned slightly to the left, and it seems to be observing the pig intently. The fence is made of horizontal wooden planks, and there is a post visible on the right side of the image. The background is minimalistic, with some grass at the bottom and no other significant details. The overall atmosphere conveyed by the image is one of tension and concern, reflecting the emotional state of the characters described in the context."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+</node>
+<node id="&quot;SHEEP&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A sheep with a thick, curly wool coat and small horns, peeking over a wooden fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A pig with a smooth body and a curly tail, walking in front of the fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence with vertical posts and horizontal rails, separating the sheep from the pig."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+</node>
+<edge source="&quot;IMAGE_18_BENCH-0.JPG&quot;" target="&quot;IMAGE_18&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_18_bench-0.jpg是image_18的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sheep是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sheep is behind the fence, looking over it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;PIG&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The sheep is observing the pig from behind the fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The pig is in front of the fence, walking away from it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

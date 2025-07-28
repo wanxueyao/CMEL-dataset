@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair- Hairstyle: Short, dark brown hair- Facial Expression: Intense and focused, with a grimace that suggests exertion or determination- Age: Appears to be an adult, possibly in his 30s- Clothing: Wearing a bright yellow sleeveless shirt with black accents on the shoulders and sides, paired with a matching yellow wristband on the left wrist- Posture: The person is captured mid-action, with the right arm extended forward and the left arm bent at the elbow, suggesting a dynamic movement such as swinging a racket or throwing a ballOverall, the individual appears to be engaged in a physically demanding activity, likely a sport, given the athletic attire and intense expression."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image captures a moment of intense emotion on a clay tennis court. A male tennis player, wearing a bright yellow shirt and a matching wristband, is depicted in a celebratory pose with his right fist clenched and raised high. His facial expression conveys a mix of joy, relief, and triumph. The background shows the characteristic orange-red surface of a clay court, with the net visible in the foreground. The player's hair is dark and slightly tousled, suggesting recent physical exertion. The overall atmosphere of the image is one of victory and elation, capturing a significant moment of achievement in a tennis match."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+</node>
+<node id="&quot;RAFAEL NADAL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A tennis player wearing a yellow shirt and wristband, celebrating with a clenched fist on a clay court."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+</node>
+<node id="&quot;CLAY COURT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An orange clay tennis court with a white net."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;RAFAEL NADAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_person-0.jpg is a picture of Rafael Nadal."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;RAFAEL NADAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rafael Nadal是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;CLAY COURT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Clay Court是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAFAEL NADAL&quot;" target="&quot;CLAY COURT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Rafael Nadal is playing tennis on the clay court."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

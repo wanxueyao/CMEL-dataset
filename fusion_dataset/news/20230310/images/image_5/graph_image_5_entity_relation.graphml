@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Short, light-colored hair- Clothing: Wearing a short-sleeved, blue t-shirt and dark shorts- Posture: Bent forward with arms raised above the head, possibly in a stretching or reaching motionOverall, the person appears to be engaged in a physical activity that involves bending and stretching."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Fair- Hairstyle: Short, wavy hair, light blonde in color- Facial Expression: Neutral to slightly smiling, with a gentle and approachable demeanor- Age: Appears to be a young woman, possibly in her early twenties- Clothing: Wearing a white top that has a fluffy, textured appearance, resembling feathers or fur; the garment covers the shoulders and upper chest area- Posture: Sitting or positioned in a way that only the upper part of the body is visibleOverall, the character gives off a soft, delicate, and somewhat ethereal vibe due to the texture and style of the clothing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_TV-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Fireplace- Color: The fire is a mix of orange and yellow, with some blue flames at the base.- Shape: Rectangular opening with a visible flame inside.- Size: The fireplace appears to be of standard size for a home setting, though the exact dimensions cannot be determined from this angle.- Material: Likely made of metal or ceramic, common materials for fireplaces.- Possible Function: Used for heating and ambiance in a living space.Overall, the image depicts a lit fireplace that adds warmth and a cozy atmosphere to the room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts an indoor scene where an older man is practicing his golf swing. He is wearing a blue shirt and dark shorts, and he appears to be in the middle of a powerful swing with a golf club. The background features sheer white curtains that allow diffused light to enter the room, creating a soft and serene atmosphere. To the left of the man, there is an old-fashioned television set displaying a black-and-white image of a young boy. The television is placed on a small stand, and the overall setting suggests a living room or a similar domestic environment. The man's posture and the motion blur of the golf club indicate a dynamic and energetic activity, contrasting with the calm and static surroundings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older man with white hair, wearing a blue shirt and shorts, swinging a golf club indoors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;TELEVISION&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small, old-fashioned television set displaying an image of a child."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;GOLF CLUB&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A black golf club being swung by the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<node id="&quot;ROOM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An indoor room with sheer white curtains covering large windows."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-2.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-2.jpg is a picture of an older man with white hair, wearing a blue shirt and shorts, swinging a golf club indoors."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-2.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-2.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TV-1.JPG&quot;" target="&quot;TELEVISION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_tv-1.jpg is a picture of a television."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TV-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_tv-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TELEVISION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Television是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GOLF CLUB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Golf Club是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Room是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

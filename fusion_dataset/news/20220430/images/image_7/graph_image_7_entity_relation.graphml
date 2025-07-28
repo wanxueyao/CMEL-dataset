@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair- Headgear: Wearing a black beanie- Posture: Back facing the camera, making it impossible to determine facial expression or other facial features- Clothing: Dark-colored top, possibly a hoodie or jacket, with the hood not wornOverall, the person appears to be dressed in casual, possibly cold-weather clothing, given the beanie and the type of top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a person standing in front of a large painting, viewed from behind. The individual is wearing a black hat and a dark jacket, facing a vibrant artwork that dominates the frame. The painting itself is a vivid representation of an artist's studio, characterized by a bold orange background. Various objects are scattered throughout the painting, including easels, paintings within paintings, sculptures, and other artistic paraphernalia. The objects are rendered in a variety of colors and shapes, creating a dynamic and lively scene. The overall atmosphere conveyed by the painting is one of creativity and artistic expression. The person appears to be observing the artwork intently, suggesting a moment of contemplation or appreciation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person with short hair, wearing a black hat and a dark jacket, standing in front of a large painting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+</node>
+<node id="&quot;PAINTING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, colorful painting with various abstract shapes and figures on an orange background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_person-0.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PAINTING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Painting是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON&quot;" target="&quot;PAINTING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The person is observing the painting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

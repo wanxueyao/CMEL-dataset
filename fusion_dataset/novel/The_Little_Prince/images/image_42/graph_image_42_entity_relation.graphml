@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_42&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white sketch of a figure standing with a slightly hunched posture. The figure has short, curly hair and is depicted in a simplistic, almost abstract style. The figure's arms are crossed over their chest, and they appear to be looking downward or forward with a neutral or contemplative expression. The background consists of curved lines that give the impression of a barren landscape or perhaps a desert. The overall atmosphere conveyed by the image is one of solitude and introspection, with the figure appearing isolated and possibly burdened or lost in thought."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_42.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person with curly hair, wearing a necklace and pants, standing with arms crossed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_42.jpg</data>
+</node>
+<node id="&quot;SHADOW&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_42.jpg</data>
+  <data key="d1">"The person is casting a shadow on the ground."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_42&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_42中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_42.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON&quot;" target="&quot;SHADOW&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The person is casting a shadow on the ground."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_42.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;ENGLISH WSJ&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;META BILSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Bohnet et al. in 2018 for sequence tagging tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Devlin et al. in 2018 for sequence tagging tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-Tagger with a focal loss component."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-Tagger with a dynamic loss component."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT-TAGGER+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BERT-Tagger with a dynamic sampling component."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENGLISH TWEETS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score on tweets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;FASTTEXT+CNN+CRF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Godin in 2019 for sequence tagging tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_4 is a table labeled 'Table 4: Experimental results for English POS datasets.' It is divided into two main sections, representing the English WSJ and English Tweets datasets. Each section contains rows corresponding to different models used for part-of-speech tagging. The columns in the table are 'Model,' 'Prec.' (Precision), 'Rec.' (Recall), and 'F1' (F1 Score). For the English WSJ dataset, the models listed are Meta BiLSTM, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. Meta BiLSTM has an F1 score of 98.23, while BERT-Tagger has a precision of 99.21, recall of 98.36, and F1 score of 98.86. BERT-Tagger+FL has a precision of 98.36, recall of 98.97, and F1 score of 98.88 (+0.02). BERT-Tagger+DL has a precision of 99.34, recall of 98.22, and F1 score of 98.91 (+0.05). BERT-Tagger+DSC has a precision of 99.41, recall of 98.93, and F1 score of 99.38 (+0.52). For the English Tweets dataset, the models listed are FastText+CNN+CRF, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. FastText+CNN+CRF has an F1 score of 91.78, while BERT-Tagger has a precision of 92.33, recall of 91.98, and F1 score of 92.34. BERT-Tagger+FL has a precision of 91.24, recall of 93.22, and F1 score of 92.47 (+0.13). BERT-Tagger+DL has a precision of 91.4</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+</node>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English WSJ是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;META BILSTM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Meta BiLSTM model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+FL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+FL model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+DL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DL model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH WSJ&quot;" target="&quot;BERT-TAGGER+DSC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DSC model was evaluated on the English WSJ dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;META BILSTM&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Meta BiLSTM是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER&quot;" target="&quot;ENGLISH TWEETS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+FL&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+FL是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+FL&quot;" target="&quot;ENGLISH TWEETS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+FL model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DL&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+DL是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DL&quot;" target="&quot;ENGLISH TWEETS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DL model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DSC&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-Tagger+DSC是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT-TAGGER+DSC&quot;" target="&quot;ENGLISH TWEETS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT-Tagger+DSC model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH TWEETS&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English Tweets是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH TWEETS&quot;" target="&quot;FASTTEXT+CNN+CRF&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The FastText+CNN+CRF model was evaluated on the English Tweets dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTTEXT+CNN+CRF&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastText+CNN+CRF是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

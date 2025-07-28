@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed diagram illustrating a word + character level neural network architecture for Named Entity Recognition (NER). The diagram is divided into three main sections labeled B-ORG, I-ORG, and O. Each section contains a sequence of nodes representing different components of the model. The nodes are color-coded: purple nodes represent word-level features, blue nodes represent character-level features, and red nodes represent label predictions. The arrows between the nodes indicate the flow of information through the network. The B-ORG section starts with a node labeled 'Best' followed by a sequence of nodes representing individual characters (B', 'e', 's', 't). The I-ORG section starts with a node labeled 'Buy' followed by a sequence of nodes representing individual characters (B', 'u', 'y). The O section represents other entities and follows a similar structure. The diagram also includes connections between the word-level and character-level features, as well as connections to the label prediction nodes. The overall architecture shows how the model processes both word and character-level information to predict entity labels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+</node>
+<node id="&quot;BEST&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The word 'Best' is part of an organization name, indicated by the B-ORG tag."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+</node>
+<node id="&quot;BUY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The word 'Buy' is part of an organization name, indicated by the I-ORG tag."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+</node>
+<node id="&quot;'">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The punctuation mark ',' is part of the organization name, indicated by the O tag."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+</node>
+<node id="&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d1">"image_3"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BEST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Best是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BUY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Buy是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEST&quot;" target="&quot;BUY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"'Best' and 'Buy' are parts of the same organization name, with 'Best' being the beginning (B-ORG) and 'Buy' being a continuation (I-ORG)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEST&quot;" target="&quot;'">
+  <data key="d3">8.0</data>
+  <data key="d4">"'Best' and ',' are parts of the same organization name, with 'Best' being the beginning (B-ORG) and ',' being a separator (O)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BUY&quot;" target="&quot;'">
+  <data key="d3">8.0</data>
+  <data key="d4">"'Buy' and ',' are parts of the same organization name, with 'Buy' being a continuation (I-ORG) and ',' being a separator (O)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;'" target="&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

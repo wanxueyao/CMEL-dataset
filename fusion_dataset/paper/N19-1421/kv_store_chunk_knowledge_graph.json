@@ -1,0 +1,1682 @@
+{
+    "2": {
+        "chunk_key": "chunk-cb4af706ef03830180bcf9f857a43b1a",
+        "entities": [
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Mechanical Turk is used for crowdsourcing workers to generate and validate commonsense questions.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"GOOGLE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Google is used for issuing web queries to add textual context to each question in the data generation process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"FIGURE 2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 2 is a visual representation of the COMMONSENSEQA generation process, showing the input and output of the process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"FIGURE 1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 1 illustrates the process of creating question sets from triplets in CONCEPTNET for crowdsourcing.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"CROWDSOURCING WORKERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Crowdsourcing workers are individuals who contribute to the generation and validation of commonsense questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"QUESTION CONCEPT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The question concept is the starting point for generating multiple-choice questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"ANSWER CONCEPT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The answer concept is the target that crowdsourcing workers aim to correctly answer in the multiple-choice questions generated for COMMONSENSEQA.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"DISTRACTORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Distractors are additional incorrect answers added to questions in the COMMONSENSEQA process to make them more challenging.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"WEB SNIPPETS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Web snippets are textual contexts retrieved from search engines to provide relevant context to each question in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"VERIFIERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Verifiers are a group of workers responsible for the quality check of the generated questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"NLP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NLP likely refers to the field of Natural Language Processing, which is relevant to the context of generating and understanding commonsense questions.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"EDIT DISTANCE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Edit distance is a measure used to filter triplets in the CONCEPTNET knowledge base, ensuring diversity in the questions generated for COMMONSENSEQA.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"COMMONSENSE RELATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Commonsense relations are the types of connections between concepts in CONCEPTNET that carry commonsense knowledge used in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "entity_name": "\"NATURAL LANGUAGE CONCEPTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Natural language concepts are the nodes in CONCEPTNET that represent ideas used to generate questions for the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CONCEPTNET\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 9.0,
+                "description": "\"CONCEPTNET provides the knowledge base for generating questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"AMAZON MECHANICAL TURK\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 8.0,
+                "description": "\"Amazon Mechanical Turk workers are used to generate and validate questions for the COMMONSENSEQA event.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"GOOGLE\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"Google is utilized to add textual context to questions in the COMMONSENSEQA process by issuing web queries.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"FIGURE 2\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 6.0,
+                "description": "\"Figure 2 summarizes the COMMONSENSEQA generation process, visually depicting the steps involved.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"FIGURE 1\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 6.0,
+                "description": "\"Figure 1 is part of the explanation of how question sets are created for the COMMONSENSEQA event.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"CROWDSOURCING WORKERS\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 7.0,
+                "description": "\"Crowdsourcing workers use CONCEPTNET to generate and validate questions based on the triplets extracted from the knowledge base.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"QUESTION CONCEPT\"",
+                "tgt_id": "\"ANSWER CONCEPT\"",
+                "weight": 8.0,
+                "description": "\"The question concept and answer concept are the two main components used to create multiple-choice questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"DISTRACTORS\"",
+                "tgt_id": "\"QUESTION CONCEPT\"",
+                "weight": 6.0,
+                "description": "\"Distractors are incorrect answers added to multiple-choice questions to increase difficulty, in relation to the question concept.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"WEB SNIPPETS\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"Web snippets provide contextual information to enhance the COMMONSENSEQA questions, aiding in their comprehension.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"VERIFIERS\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"Verifiers ensure the quality of the questions generated for the COMMONSENSEQA event by annotating and validating them.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"NLP\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 5.0,
+                "description": "\"NLP is related to the use and exploration of commonsense relations within CONCEPTNET for generating questions.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"EDIT DISTANCE\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 5.0,
+                "description": "\"Edit distance is a criterion used within CONCEPTNET to filter triplets for the COMMONSENSEQA question generation process.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"COMMONSENSE RELATIONS\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 9.0,
+                "description": "\"Commonsense relations are the types of edges in CONCEPTNET that represent the connections between natural language concepts.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            },
+            {
+                "src_id": "\"NATURAL LANGUAGE CONCEPTS\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 9.0,
+                "description": "\"Natural language concepts are the nodes in CONCEPTNET that are connected by commonsense relations to form triplets.\"",
+                "source_id": "chunk-cb4af706ef03830180bcf9f857a43b1a"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-f5be032ebca37bc05b42262776d7c6e6",
+        "entities": [
+            {
+                "entity_name": "\"JONATHAN HERZIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Herzig is the individual who completed this work as partial fulfillment for his PhD degree and was supported by a Google PhD fellowship.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"GOOGLE PHD FELLOWSHIP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Google PhD fellowship is a program that supported Jonathan Herzig's PhD research.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"THE ISRAEL SCIENCE FOUNDATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Israel Science Foundation is an organization that partially supported the research with grant 942/16.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"THE BLAVATNIK COMPUTER SCIENCE RESEARCH FUND\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Blavatnik Computer Science Research Fund is an organization that partially supported the research.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"THE YANDEX INITIATIVE FOR MACHINE LEARNING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Yandex Initiative for Machine Learning is an organization that partially supported the research.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"ACL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ACL (Association for Computational Linguistics) is an organization that hosts conferences where research like the roc story cloze task is presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"ARXIV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"arXiv is an organization that provides a platform for researchers to upload preprints of their papers in various fields, including the ones mentioned in the text.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"AI2 REASONING CHALLENGE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AI2 Reasoning Challenge (ARC) is an event where question answering capabilities are tested, as mentioned in the text.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE 2013 WORKSHOP ON AUTOMATED KNOWLEDGE BASE CONSTRUCTION, AKBC ’13\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proceedings of the 2013 Workshop on Automated Knowledge Base Construction, AKBC ’13 is an event where a paper on reporting bias and knowledge acquisition was presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Advances in Neural Information Processing Systems is an event where research on teaching machines to read and comprehend was presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Association for Computational Linguistics (ACL) is an organization that hosts conferences where research like TriviaQA is presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"AAAI SPRING SYMPOSIUM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AAAI Spring Symposium is an event that focuses on logical formalizations of commonsense reasoning, where the Winograd schema challenge was presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"CYC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cyc is a project aimed at creating a large-scale knowledge infrastructure, as mentioned in the text.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"NORTH AMERICAN ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (NAACL)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"North American Association for Computational Linguistics (NAACL) is an organization that hosts conferences where research on understanding commonsense stories is presented.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"WORKSHOP ON COGNITIVE COMPUTING AT NIPS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Workshop on Cognitive Computing at NIPS is an event where the MS MARCO dataset was introduced.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"TEDDINGTON CONFERENCE ON THE MECHANIZATION OF THOUGHT PROCESSES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Teddington Conference on the Mechanization of Thought Processes is an event where programs with common sense were discussed.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "entity_name": "\"MACHINE INTELLIGENCE 4\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Machine Intelligence 4 is an event where philosophical problems from the standpoint of artificial intelligence were discussed.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"GOOGLE PHD FELLOWSHIP\"",
+                "weight": 7.0,
+                "description": "\"Jonathan Herzig received support for his PhD research from the Google PhD fellowship.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"THE ISRAEL SCIENCE FOUNDATION\"",
+                "weight": 7.0,
+                "description": "\"Jonathan Herzig's research was partially supported by The Israel Science Foundation grant 942/16.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"THE BLAVATNIK COMPUTER SCIENCE RESEARCH FUND\"",
+                "weight": 7.0,
+                "description": "\"Jonathan Herzig's research was partially supported by The Blavatnik Computer Science Research Fund.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"THE YANDEX INITIATIVE FOR MACHINE LEARNING\"",
+                "weight": 7.0,
+                "description": "\"Jonathan Herzig's research was partially supported by The Yandex Initiative for Machine Learning.\"",
+                "source_id": "chunk-f5be032ebca37bc05b42262776d7c6e6"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-cfaffefba68322e03269130cbe10d877",
+        "entities": [
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe is a pre-trained word embedding model developed by Pennington et al., 2014.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"NUMBERBATCH CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Numberbatch CONCEPTNET is a pre-trained word embedding model developed by Speer et al., 2017.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"ESIM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ESIM is a model combined with ELMo contextual representations for natural language processing tasks.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo is a pre-trained language model that provides contextual word representations.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"BERT-LARGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-LARGE is a pre-trained language model that achieves high accuracy in various natural language processing tasks.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"GPT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GPT is a pre-trained language model that has shown capability in natural language understanding tasks.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COMMONSENSEQA is a dataset designed to test commonsense knowledge, containing 12,247 examples.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is used for generating difficult questions at scale for the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"JONATHAN HERZIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Herzig is a PhD candidate whose work contributed to the development of the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"AMT MASTER WORKERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"AMT master workers are a group of experienced workers who were not used in the human accuracy testing phase of the COMMONSENSEQA task.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"BIDAF++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BIDAF++ is a model that uses web snippets as context and was evaluated for its performance on the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"SANITY MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SANITY models are a set of models trained on the COMMONSENSEQA dataset, achieving high performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"THE ISRAEL SCIENCE FOUNDATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Israel Science Foundation is an entity that partially supported the research related to the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"THE BLAVATNIK COMPUTER SCIENCE RESEARCH FUND\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Blavatnik Computer Science Research Fund is an entity that provided partial support for the research on the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"THE YANDEX INITIATIVE FOR MACHINE LEARNING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Yandex Initiative for Machine Learning is an entity that supported the research related to the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"HUMAN EVALUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Evaluation is the process of testing human accuracy by gathering answers from workers on the COMMONSENSEQA task.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"TABLE 5\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 5 presents the test set results for all models and setups in the COMMONSENSEQA dataset evaluation.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"TABLE 6\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 6 provides BERT-LARGE baseline analysis with examples, correct answers, distractors, model accuracy, and frequency in the dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"FIGURE 5\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 5 shows the development accuracy for BERT-LARGE trained with varying amounts of data.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_9.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"images/image_9.jpg is an image file referenced in the text, likely showing an image related to the COMMONSENSEQA dataset or models' performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_10.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"images/image_10.jpg is an image file referenced in the text, likely showing an image related to the COMMONSENSEQA dataset or models' performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_11.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"images/image_11.jpg is an image file referenced in the text, likely showing an image related to the COMMONSENSEQA dataset or models' performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"GLOVE\"",
+                "tgt_id": "\"ESIM\"",
+                "weight": 6.0,
+                "description": "\"ESIM is combined with GloVe embeddings for improved performance in natural language tasks.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"NUMBERBATCH CONCEPTNET\"",
+                "tgt_id": "\"ESIM\"",
+                "weight": 6.0,
+                "description": "\"ESIM is also combined with Numberbatch CONCEPTNET embeddings for performance enhancement.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"BERT-LARGE\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 8.0,
+                "description": "\"BERT-LARGE is evaluated on the COMMONSENSEQA dataset and achieves the best performance among baselines.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"GPT\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 5.0,
+                "description": "\"GPT is evaluated on the COMMONSENSEQA dataset, showing its ability to store commonsense knowledge.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"Jonathan Herzig's PhD work is related to the creation and analysis of the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"AMT MASTER WORKERS\"",
+                "tgt_id": "\"HUMAN EVALUATION\"",
+                "weight": 5.0,
+                "description": "\"AMT master workers were not involved in the Human Evaluation phase of the COMMONSENSEQA task.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"BIDAF++\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 6.0,
+                "description": "\"BIDAF++ was evaluated on the COMMONSENSEQA dataset, showing that using web snippets as context does not lead to high performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"SANITY MODELS\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 8.0,
+                "description": "\"SANITY models were trained on the COMMONSENSEQA dataset and achieved very high performance.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"THE ISRAEL SCIENCE FOUNDATION\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 6.0,
+                "description": "\"The Israel Science Foundation supported the research that contributed to the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            },
+            {
+                "src_id": "\"THE BLAVATNIK COMPUTER SCIENCE RESEARCH FUND\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 6.0,
+                "description": "\"The Blavatnik Computer Science Research Fund supported the research that contributed to the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-cfaffefba68322e03269130cbe10d877"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-d14992c2a3231645807ccbf44cdcdad5",
+        "entities": [
+            {
+                "entity_name": "\"ALON TALMOR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alon Talmor is one of the authors of the COMMONSENSEQA challenge paper, affiliated with the School of Computer Science, Tel-Aviv University and the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"JONATHAN HERZIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Herzig is one of the authors of the COMMONSENSEQA challenge paper, affiliated with the School of Computer Science, Tel-Aviv University and the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"NICHOLAS LOURIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nicholas Lourie is one of the authors of the COMMONSENSEQA challenge paper, affiliated with the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"JONATHAN BERANT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Berant is one of the authors of the COMMONSENSEQA challenge paper, affiliated with the School of Computer Science, Tel-Aviv University.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"SCHOOL OF COMPUTER SCIENCE, TEL-AVIV UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The School of Computer Science, Tel-Aviv University is an institution where two of the authors of the COMMONSENSEQA paper are affiliated.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"ALLEN INSTITUTE FOR ARTIFICIAL INTELLIGENCE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Allen Institute for Artificial Intelligence is an organization where two of the authors of the COMMONSENSEQA paper are affiliated.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COMMONSENSEQA is a challenging new dataset for commonsense question answering presented in the paper, aiming to investigate question answering with prior knowledge.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is a knowledge base from which the COMMONSENSEQA dataset extracts multiple target concepts that have the same semantic relation to a single source concept.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"BERT-LARGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-large is a model used as a baseline in the COMMONSENSEQA challenge, achieving 56% accuracy, well below human performance.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"SIMON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Simon is mentioned in an example question about spatial relations and common sense understanding.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"LAWN MOWER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Lawn Mower is used in an example question to illustrate common sense knowledge about spatial relations.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"RIVER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"River is a source concept in the COMMONSENSEQA dataset, used to generate questions about related target concepts.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"WATERFALL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Waterfall is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"BRIDGE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Bridge is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"VALLEY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Valley is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"PEBBLES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Pebbles are mentioned as a distractor in a question about the location on a river to see water falling without getting wet.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"MOUNTAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Mountain is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"STREAM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Stream is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"BOTTOM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Bottom is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"ISLAND\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Island is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "entity_name": "\"BANK\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Bank is mentioned as a distractor in a question about crossing the river with feet wet but body dry.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ALON TALMOR\"",
+                "tgt_id": "\"SCHOOL OF COMPUTER SCIENCE, TEL-AVIV UNIVERSITY\"",
+                "weight": 8.0,
+                "description": "\"Alon Talmor is affiliated with the School of Computer Science, Tel-Aviv University.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"ALON TALMOR\"",
+                "tgt_id": "\"ALLEN INSTITUTE FOR ARTIFICIAL INTELLIGENCE\"",
+                "weight": 8.0,
+                "description": "\"Alon Talmor is affiliated with the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"SCHOOL OF COMPUTER SCIENCE, TEL-AVIV UNIVERSITY\"",
+                "weight": 8.0,
+                "description": "\"Jonathan Herzig is affiliated with the School of Computer Science, Tel-Aviv University.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"JONATHAN HERZIG\"",
+                "tgt_id": "\"ALLEN INSTITUTE FOR ARTIFICIAL INTELLIGENCE\"",
+                "weight": 8.0,
+                "description": "\"Jonathan Herzig is affiliated with the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"NICHOLAS LOURIE\"",
+                "tgt_id": "\"ALLEN INSTITUTE FOR ARTIFICIAL INTELLIGENCE\"",
+                "weight": 8.0,
+                "description": "\"Nicholas Lourie is affiliated with the Allen Institute for Artificial Intelligence.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"JONATHAN BERANT\"",
+                "tgt_id": "\"SCHOOL OF COMPUTER SCIENCE, TEL-AVIV UNIVERSITY\"",
+                "weight": 8.0,
+                "description": "\"Jonathan Berant is affiliated with the School of Computer Science, Tel-Aviv University.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 9.0,
+                "description": "\"The COMMONSENSEQA dataset is based on knowledge encoded in CONCEPTNET.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"BERT-LARGE\"",
+                "weight": 7.0,
+                "description": "\"BERT-large is used as a baseline model in the COMMONSENSEQA challenge.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"SIMON\"",
+                "tgt_id": "\"LAWN MOWER\"",
+                "weight": 6.0,
+                "description": "\"In the example question, Simon is inferred to be close to the Lawn Mower, which is probably outdoors and situated at street level.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"RIVER\"",
+                "tgt_id": "\"WATERFALL\"",
+                "weight": 7.0,
+                "description": "\"Waterfall is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"RIVER\"",
+                "tgt_id": "\"BRIDGE\"",
+                "weight": 7.0,
+                "description": "\"Bridge is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"RIVER\"",
+                "tgt_id": "\"VALLEY\"",
+                "weight": 7.0,
+                "description": "\"Valley is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"WATERFALL\"",
+                "tgt_id": "\"BRIDGE\"",
+                "weight": 5.0,
+                "description": "\"Both Waterfall and Bridge are target concepts related to the source concept 'River' in the COMMONSENSEQA dataset and are used as distractors for each other in different questions.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"WATERFALL\"",
+                "tgt_id": "\"VALLEY\"",
+                "weight": 5.0,
+                "description": "\"Both Waterfall and Valley are target concepts related to the source concept 'River' in the COMMONSENSEQA dataset and are used as distractors for each other in different questions.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            },
+            {
+                "src_id": "\"BRIDGE\"",
+                "tgt_id": "\"VALLEY\"",
+                "weight": 5.0,
+                "description": "\"Both Bridge and Valley are target concepts related to the source concept 'River' in the COMMONSENSEQA dataset and are used as distractors for each other in different questions.\"",
+                "source_id": "chunk-d14992c2a3231645807ccbf44cdcdad5"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd",
+        "entities": [
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COMMONSENSEQA is an event or process where commonsense questions are generated and evaluated, aiming to test models' understanding of commonsense knowledge.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is a knowledge base used as the input for generating commonsense questions in the COMMONSENSEQA process.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"BERT-LARGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-LARGE is a pre-trained model developed by Devlin et al. (2018), which when fine-tuned on COMMONSENSEQA, achieves the best performance among evaluated models.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. are the creators of BERT-LARGE, a model that has been fine-tuned and evaluated on the COMMONSENSEQA dataset.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"GORDON AND VAN DURME\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gordon and Van Durme are researchers cited in the text, contributing to the understanding of reporting bias on the web.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"MCCARTHY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McCarthy is a researcher mentioned in the text, associated with early work on reasoning about an environment in natural language.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"WINOGRAD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Winograd is a researcher mentioned in the text, known for the Winograd Schema Challenge, a benchmark for machine common sense.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"LEVESQUE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Levesque is a researcher who created the Winograd Schema Challenge, a dataset for evaluating machine common sense.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"ROEMMELE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roemmele et al. are researchers responsible for the Choice of Plausible Alternatives (COPA) dataset, which is used for evaluating cause or effect relations.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al. are researchers behind the JHU Ordinal Commonsense Inference dataset, which focuses on predicting relations between situations.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"MOSTAFAZADEH ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mostafazadeh et al. are the creators of the Story Cloze Test (ROC Stories), a dataset that evaluates the ability to choose plausible story endings.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"ZELLERS ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zellers et al. are researchers behind the Situations with Adversarial Generations (SWAG) dataset, which asks models to predict what happens next in a scenario.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. are researchers who have worked on LM-based techniques for fine-tuning pre-trained language models on target tasks.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"GURURANGAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gururangan et al. are researchers who have investigated the difficulty of creating benchmarks that measure program understanding rather than distributional biases.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"POLIAK ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Poliak et al. are researchers who have also investigated the challenges in creating benchmarks for common sense in natural language datasets.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"DAVIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Davis is a researcher who created SQUABU, a small hand-curated test of common sense and science questions.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"OSTERMANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ostermann et al. are researchers who have focused on science questions that often require common sense, in addition to specialized scientific knowledge.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"WINOGRAD, 1972\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Winograd's work in 1972 is an event in AI history, where leveraging a world-model for deeper language understanding is explored.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"MCCARTHY AND HAYES, 1969\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"McCarthy and Hayes' work in 1969 is an event in AI, where commonsense representations and inference procedures are explored.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"KOWALSKI AND SERGOT, 1986\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Kowalski and Sergot's work in 1986 is an event in AI, where commonsense representations and inference procedures are further explored.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"LENAT, 1995\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Lenat's work in 1995 is an event in AI, where large-scale commonsense knowledge-bases are developed.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"SPEER ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Speer et al.'s work in 2017 is an event in AI, contributing to the development of large-scale commonsense knowledge-bases.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"ZELLERS ET AL., 2018B\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Zellers et al.'s work in 2018 is an event in AI, where the Situations with Adversarial Generations (SWAG) dataset is introduced.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Radford et|\"entity\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"SCHWARTZ ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Schwartz et al.'s work in 2017 is an event in AI, where annotation artifacts in the Story Cloze Test are investigated.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"CAI ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cai et al.'s work in 2017 is an event in AI, where annotation artifacts in the Story Cloze Test are further investigated.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"CLARK ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Clark et al.'s work in 2018 is an event in AI, where question answering that utilizes common sense, particularly in science questions, is studied.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"MIHAYLOV ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Mihaylov et al.'s work in 2018 is an event in AI, focusing on question answering that requires common sense in the context of science questions.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"MACHINE COMMON SENSE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Machine common sense refers to the knowledge of and ability to reason about an open-ended world, which is critical for natural language understanding.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"NATURAL LANGUAGE UNDERSTANDING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Natural language understanding is the ability of a system to comprehend and process human language in a manner similar to human understanding.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"REPORTING BIAS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Reporting bias refers to the倾向 of not reporting certain types of information due to its being considered trivial or obvious, which affects the availability of background knowledge on the web.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"FINE-TUNING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Fine-tuning is the process of further training a pre-trained model on a specific task, with the aim of adapting it to that task.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "entity_name": "\"READING COMPREHENSION (RC) MODELS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Reading comprehension (RC",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 9.0,
+                "description": "\"COMMONSENSEQA utilizes CONCEPTNET as the basis for generating commonsense questions.\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            },
+            {
+                "src_id": "\"BERT-LARGE\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 1.0,
+                "description": "\"BERT-LARGE is fine-tuned on the COMMON(\"entity\"",
+                "source_id": "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-99b5850d62dc696916d752de07f5e29b",
+        "entities": [
+            {
+                "entity_name": "\"LM1B-REP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LM1B-REP is a model that clusters questions based on their first two words and rephrases them to contain the answer, covering 35% of the development set.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"QABILINEAR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"QABILINEAR is a model proposed by Yu et al. (2014) for QA, which scores answers using a bilinear model and trains with cross-entropy loss.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"QACOMPARE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"QACOMPARE is a model similar to an NLI model from Liu et al. (2016), representing the interaction between the question and candidate answer, and predicting an answer score.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"ESIM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"BIDAF++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BIDAF++ is a state-of-the-art RC model that uses Google web snippets as context, augmented with a self-attention layer and ELMo representations, adapted for multiple-choice settings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"GENERATIVE PRE-TRAINED TRANSFORMER (GPT)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GPT is a method proposed by Radford et al. (2018) for adapting pre-trained LMs to perform a wide range of tasks, applied to COMMONSENSEQA by encoding questions and candidate answers as sequences.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model that fine-tunes a language model and holds state-of-the-art across a broad range of tasks, using a masked language modeling objective and fine-tuning pre-trained weights for COMMONSENSEQA.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COMMONSENSEQA is the task used to evaluate and fine-tune models like BERT and GPT, with a focus on accuracy and understanding of commonsense knowledge.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"SWAG\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SWAG is an event or task for which BERT's hyper-parameters were set, as mentioned in the context of fine-tuning BERT.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"ROC STORIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROC Stories is an event or task for which the GPT model's pre-trained LM and hyper-parameters were used, as referenced in the GPT model's application to COMMONSENSEQA.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"LIU ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al. (2016) are the authors associated with the NLI model that QACOMPARE is similar to, representing the interaction between the question and candidate answer.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"CHEN ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al. (2016) are the authors of the ESIM model, a strong NLI model used with modifications for candidate answers.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"SEO ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Seo et al. (2016) are the authors who originally developed BIDAF, which was later augmented to form BIDAF++.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"PETERS ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al. (2018) are associated with the development of ELMo representations, which are used in the BIDAF++ model.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"HUANG ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Huang et al. (2018) are associated with the development of ELMo representations, which are used in the BIDAF++ model.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. (2018) proposed the GPT model for adapting pre-trained LMs to perform a wide range of tasks, including COMMONSENSEQA.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. (2018) are associated with the development of BERT, which uses a masked language modeling objective for various tasks.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL. (2014)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pennington et al. (2014) are the authors behind the development of 300d GloVe embeddings, used in pre-trained word embeddings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"SPEER ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Speer et al. (2017) are the authors behind the development of 300d Numberbatch CONCEPTNET node embeddings, used in pre-trained word embeddings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"ZELLERS ET AL. (2018B)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zellers et al. (2018b) are associated with modifications made to the ESIM model, changing the output layer size to the number of candidate answers.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"NUMBERBATCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Numberbatch is the source of the 300d CONCEPTNET node embeddings used in pre-trained word embeddings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is related to the node embeddings used in pre-trained word embeddings, developed by Speer et al. (2017).\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo representations are used in the BIDAF++ model, contributing to its ability to adapt to multiple-choice settings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"QABILINEAR\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"QABILINEAR is a model used in the COMMONSENSEQA task for scoring answers with a bilinear model.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"QACOMPARE\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"QACOMPARE is a model used in the COMMONSENSEQA task, representing the interaction between questions and candidate answers.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"ESIM\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"ESIM is a model used in the COMMONSENSEQA task, with modifications to the output layer size for candidate answers.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"BIDAF++\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"BIDAF++ is a model used in the COMMONSENSEQA task, adapted with a self-attention layer and ELMo representations for multiple-choice settings.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"GENERATIVE PRE-TRAINED TRANSFORMER (GPT)\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"GPT is a model applied to the COMMONSENSEQA task by encoding questions and candidate answers as sequences.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"COMMONSENSEQA\"",
+                "weight": 7.0,
+                "description": "\"BERT is a model fine-tuned for the COMMONSENSEQA task, using a masked language modeling objective.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            },
+            {
+                "src_id": "\"LIU ET AL. (2016)\"",
+                "tgt_id": "\"QACOMPARE\"",
+                "weight": 9.0,
+                "description": "\"QACOMPARE is similar to the NLI model from Liu et al. (2016), representing the interaction between questions and candidate answers.\"",
+                "source_id": "chunk-99b5850d62dc696916d752de07f5e29b"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-99344acce29ea58b84549ff8ca8655a5",
+        "entities": [
+            {
+                "entity_name": "\"ALLEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Allen is the author of a paper presented at NAACL in 2016, focusing on a corpus and cloze evaluation for deeper understanding of commonsense stories.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"NORTH AMERICAN ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (NAACL)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NAACL is an organization that hosts conferences, such as the one where Allen presented his paper on commonsense stories.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"T. NGUYEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"T. Nguyen is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"M. ROSENBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"M. Rosenberg is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"X. SONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"X. Song is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"J. GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"J. Gao is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"S. TIWARY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"S. Tiwary is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"R. MAJUMDER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"R. Majumder is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"L. DENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"L. Deng is one of the authors of the MS MARCO dataset paper presented at the Workshop on Cognitive Computing at NIPS in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"WORKSHOP ON COGNITIVE COMPUTING AT NIPS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Workshop on Cognitive Computing at NIPS is an event where the MS MARCO dataset paper was presented in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"SIMON OSTERMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Simon Ostermann is an author of the Mcscript dataset paper published in CoRR in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"ASHUTOSH MODI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ashutosh Modi is an author of the Mcscript dataset paper published in CoRR in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"MICHAEL ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Roth is an author of the Mcscript dataset paper published in CoRR in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"STEFAN THATER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stefan Thater is an author of the Mcscript dataset paper published in CoRR in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"MANFRED PINKAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Manfred Pinkal is an author of the Mcscript dataset paper published in CoRR in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"CORR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CoRR is an organization that hosts papers, such as the Mcscript dataset paper published by Ostermann et al. in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"J. PENNINGTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"J. Pennington is an author of the GloVe word representation paper presented at EMNLP in 2014.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"R. SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"R. Socher is an author of the GloVe word representation paper presented at EMNLP in 2014.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"C. D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"C. D. Manning is an author of the GloVe word representation paper presented at EMNLP in 2014.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING (EMNLP)(\"ENTITY\"",
+                "entity_type": "\"MATTHEW E. PETERS\"",
+                "description": "\"person\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"MARK NEUMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Neumann is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"MOHIT IYYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Iyyer is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Clark is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author of a paper on deep contextualized word representations presented at NAACL in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"ADAM POLIAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Poliak is an author of a paper on hypothesis only baselines in natural language inference presented at $\\ast S E M$ in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"JASON NARADOWSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason Naradowsky is an author of a paper on hypothesis only baselines in natural language inference presented at $\\ast S E M$ in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"APARAJITA HALDAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aparajita Haldar is an author of a paper on hypothesis only baselines in natural language inference presented at $\\ast S E M$ in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"RACHEL RUDINGER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rachel Rudinger is an author of a paper on hypothesis only baselines in natural language inference presented at $\\ast S E M$ in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"BENJAMIN VAN DURME\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Van Durme is an author of a paper on hypothesis only baselines in natural language inference presented at $\\ast S E M$ in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"A. RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A. Radford is an author of a technical report on improving language understanding by generative pre-training from OpenAI in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"K. NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"K. Narasimhan is an author of a technical report on improving language understanding by generative pre-training from OpenAI in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"T. SALIMANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"T. Salimans is an author of a technical report on improving language understanding by generative pre-training from OpenAI in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"I. SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"I. Sutskever is an author of a technical report on improving language understanding by generative pre-training from OpenAI in 2018.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"P. RAJPURKAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"P. Rajpurkar is an author of the SQuAD dataset paper presented at EMNLP in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"J. ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"J. Zhang is an author of the SQuAD dataset paper presented at EMNLP in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            },
+            {
+                "entity_name": "\"K. LOPYREV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"K. Lopyrev is an author of the SQuAD dataset paper presented at EMNLP in 2016.\"",
+                "source_id": "chunk-99344acce29ea58b84549ff8ca8655a5"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-301b78a85599c18fac1069528e3a5e54",
+        "entities": [
+            {
+                "entity_name": "\"COMMONSENSEQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"COMMONSENSEQA is a dataset that focuses on commonsense questions, building on CONCEPTNET and aiming to challenge current NLU models.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"CONCEPTNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CONCEPTNET is a knowledge base containing concepts and relations, which COMMONSENSEQA is built upon.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"PERSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Person is a question concept in COMMONSENSEQA, representing a category of questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"HUMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Human is a question concept in COMMONSENSEQA, related to questions about human behavior or characteristics.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"WATER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Water is a question concept in COMMONSENSEQA, likely related to geographical or natural phenomena.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"CAT\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Cat is a question concept in COMMONSENSEQA, possibly related to geographical分布 or as a concept in questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"QUESTION FORMULATORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Question formulators are individuals who contributed to the creation of questions for COMMONSENSEQA, with a significant contribution from a smaller group of workers.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"LOBUE AND YATES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"LoBue and Yates are referenced in the analysis of commonsense skills needed to answer questions in COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"VECSIM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"VECSIM is a model used as a baseline in the evaluation of COMMONSENSEQA, based on cosine similarity of pre-trained word embeddings.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"TRINH AND LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Trinh and Le are referenced in the context of the LM1B model used as a baseline in the evaluation of COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"JOZEFOWICZ ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jozefowicz et al. are associated with the pre-trained large language model (LM) used in the LM1B variations for evaluating COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"CHELBA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chelba et al. are referenced in relation to the One Billion Words Benchmark, which the LM model was pre-trained on for evaluating COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"AUDIENCES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Audiences are mentioned in the context of a question in COMMONSENSEQA, relating to social conventions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"ATLOCATION RELATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AtLocation is a CONCEPTNET relation used in COMMONSENSEQA to generate questions probing relationships between concepts.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"DEVELOPMENT SET\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Development set is a part of COMMONSENSEQA used for analysis and model training.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"ANSWER CONCEPT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Answer concept refers to the concept that is the correct answer in a question from COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"LATENT CONCEPTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Latent concepts are concepts that appear in the question or are implied, which are part of the commonsense skills needed to answer questions in COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"LABELED EDGES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Labeled edges describe the commonsense skill that relates answer concepts to other concepts in the annotations of COMMONSENSEQA questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"FIRST NAMES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"First names are used by question formulators in COMMONSENSEQA to create context stories for questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"HYPOTHETICAL QUESTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Hypothetical question refers to the use of 'if' to present hypothetical scenarios in questions formulated for COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"WHWORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"WHwords are words used as the first word in questions, representing a high variability in question language in COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"ONE BILLION WORDS BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"One Billion Words Benchmark is an event or dataset that the LM model was pre-trained on for evaluating COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"LM1B-CONCAT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"LM1B-CONCAT is a variation of the LM1B model where answers are concatenated to the question for evaluation in COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"LM1B-REP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"LM1B-REP is a variation of the LM1B model where questions are rephrased as declarative sentences for evaluation in COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "entity_name": "\"HIGH-FREQUENCY PREFIXES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"High-frequency prefixes are patterns that cover a significant portion of the development set in COMMONSENSEQA, used to rephrase questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"CONCEPTNET\"",
+                "weight": 9.0,
+                "description": "\"COMMONSENSEQA builds upon and utilizes the concepts and relations found in CONCEPTNET.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"PERSON\"",
+                "weight": 7.0,
+                "description": "\"COMMONSENSEQA includes 'Person' as a top-5 question concept, indicating its relevance in the dataset.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"HUMAN\"",
+                "weight": 7.0,
+                "description": "\"COMMONSENSEQA includes 'Human' as a question concept, related to human behavior or characteristics.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"WATER\"",
+                "weight": 7.0,
+                "description": "\"COMMONSENSEQA includes 'Water' as a question concept, likely related to geographical or natural phenomena.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"CAT\"",
+                "weight": 7.0,
+                "description": "\"COMMONSENSEQA includes 'Cat' as a question concept, possibly related to geographical distribution or as a concept in questions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"QUESTION FORMULATORS\"",
+                "weight": 8.0,
+                "description": "\"Question formulators contributed to the creation of questions for COMMONSENSEQA, with a significant portion coming from a smaller group of workers.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"VECSIM\"",
+                "weight": 7.0,
+                "description": "\"VECSIM is used as a baseline model in the evaluation of COMMONSENSEQA.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"TRINH AND LE\"",
+                "weight": 1.0,
+                "description": "\"(\"entity\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"AUDIENCES\"",
+                "weight": 6.0,
+                "description": "\"COMMONSENSEQA includes questions related to 'Audiences', focusing on social conventions.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"ATLOCATION RELATION\"",
+                "weight": 7.0,
+                "description": "\"COMMONSENSEQA generates questions from the AtLocation relation, probing relationships between concepts.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"DEVELOPMENT SET\"",
+                "weight": 8.0,
+                "description": "\"COMMONSENSEQA uses a development set for analysis and model training.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"ANSWER CONCEPT\"",
+                "weight": 9.0,
+                "description": "\"COMMONSENSEQA questions have an 'Answer concept' which is the correct answer to the question.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            },
+            {
+                "src_id": "\"COMMONSENSEQA\"",
+                "tgt_id": "\"LATENT CONCEPTS\"",
+                "weight": 8.0,
+                "description": "\"COMMONSENSEQA questions involve 'Latent concepts' that are either in the question or implied.\"",
+                "source_id": "chunk-301b78a85599c18fac1069528e3a5e54"
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the training pipeline of a Deep Supervised Generative Adversarial Network (DSGAN). The process is divided into four main stages: DS Positive Dataset, Generator, Sampling, and Discriminator. In the DS Positive Dataset stage, multiple bags of positive samples are shown, labeled as Bag_{k-1}, Bag_k, and Bag_{k+1}. Each bag contains sentences denoted as s_1, s_2, ..., s_n. The Generator (G) takes these sentences as input and outputs probabilities p_1, p_2, ..., p_n for each sentence. These probabilities range from 0.02 to 0.90. The Sampling stage then divides the generated samples into two categories: low-confidence samples with label = 1 and high-confidence samples with label = 0. The low-confidence samples are fed into the Discriminator (D), which treats them as negative samples, while the high-confidence samples are treated as positive samples. The Discriminator's goal is to minimize the probability of the high-confidence samples being true positives. The network parameters \\theta_G and \\theta_D are updated after processing one bag B_i. Pre-training is also indicated on the right side of the flowchart, where the Discriminator is pre-trained on both DS positive and negative datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<node id="&quot;DS POSITIVE DATASET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset containing positive examples used for training the generator and discriminator in a machine learning model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<node id="&quot;GENERATOR (G)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A machine learning model component that generates samples from a given dataset, aiming to fool the discriminator into classifying these samples as real."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<node id="&quot;SAMPLING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of selecting samples from the output of the generator, categorizing them into high-confidence and low-confidence samples based on their probability scores."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<node id="&quot;DISCRIMINATOR (D)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A machine learning model component that distinguishes between real and generated samples, providing feedback to the generator to improve its performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<node id="&quot;PRE-TRAINING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The initial phase of training where the discriminator is trained using both positive and negative datasets before it interacts with the generator."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DS POSITIVE DATASET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS Positive Dataset是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;GENERATOR (G)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Generator (G)是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SAMPLING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sampling是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DISCRIMINATOR (D)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Discriminator (D)是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pre-training是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS POSITIVE DATASET&quot;" target="&quot;GENERATOR (G)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The DS Positive Dataset provides the input data for the Generator to learn from and generate new samples."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GENERATOR (G)&quot;" target="&quot;SAMPLING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Generator outputs samples which are then evaluated by the Sampling process to determine their confidence levels."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GENERATOR (G)&quot;" target="&quot;DISCRIMINATOR (D)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Discriminator provides feedback to the Generator during training, helping it to improve its ability to generate realistic samples."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SAMPLING&quot;" target="&quot;DISCRIMINATOR (D)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Sampling process sends high-confidence samples to the Discriminator for evaluation, while low-confidence samples are discarded or retrained."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISCRIMINATOR (D)&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Discriminator undergoes pre-training using labeled data before it starts interacting with the Generator."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

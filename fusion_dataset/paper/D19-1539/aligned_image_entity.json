@@ -1,0 +1,65 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Illustration of the model",
+        "entity_type": "EVENT",
+        "description": "The event described in the text is a new approach for pretraining a bi-directional transformer model that provides significant performance gains across a variety of language understanding problems. The model solves a cloze-style word reconstruction task, where each word is ablated and must be predicted given the rest of the text.",
+        "reason": "The image depicts a flowchart illustrating a model architecture that closely aligns with the description provided in the text. The model combines forward and backward states to predict the center token, which is consistent with the 'cloze-driven pretraining' approach mentioned in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Figure 2: Illustration of fine-tuning for a downstream task",
+        "entity_type": "EVENT",
+        "description": "The process of adjusting a pretrained model for specific downstream tasks, as illustrated in Figure 2.",
+        "reason": "The image depicts the fine-tuning process for a downstream task in a neural network model, which aligns with the description of 'Fine-tuning' in the text. The image shows the flow of information through multiple layers and the combination of outputs, which is consistent with the fine-tuning process described in the text.",
+        "matched_chunk_entity_name": "Fine-tuning"
+    },
+    "image_3": {
+        "entity_name": "Table 1: Hyper-parameters for our models",
+        "entity_type": "TABLE",
+        "description": "A table providing detailed information about the hyper-parameters of three different models: CNN Base, CNN Large, and BPE Large. The table includes columns for Model, Parameters, Updates, Blocks, FFN Dim, Attn Heads (final layer), Query formation (final layer), and Train time (days).",
+        "reason": "The image clearly shows a table labeled 'Table 1: Hyper-parameters for our models,' which matches the description provided in the text. The table contains the specified details about the three models, aligning with the content of the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Table 2: Test results as per the GLUE evaluation server",
+        "entity_type": "ORGANIZATION",
+        "description": "GLUE is an evaluation benchmark that includes multiple natural language understanding tasks.",
+        "reason": "The image presents test results as per the GLUE evaluation server, which evaluates various models on different natural language processing tasks. The table lists the performance of these models on different datasets and metrics, all of which are part of the GLUE benchmark.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 3: CoNLL-2003 Named Entity Recognition results",
+        "entity_type": "EVENT",
+        "description": "The CoNLL 2003 NER task involves segmenting and labeling spans of text as Person, Organization, Location, or Miscellaneous.",
+        "reason": "The image is a table that presents the F1 scores for different models on the CoNLL 2003 Named Entity Recognition (NER) task. The table lists various models and their corresponding F1 scores on both development and test datasets, which aligns with the description of the CoNLL 2003 NER task in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Table 4: Penn Treebank Constituency Parsing results",
+        "entity_type": "EVENT",
+        "description": "The table presents the F1 scores for different models on the development (dev) and test sets. It contains four rows and three columns. The first column lists the models: ELMo_BASE, CNN Large + ELMo, and CNN Large + fine-tune. The second column shows the dev F1 scores: 95.2 for ELMo_BASE, 95.1 for CNN Large + ELMo, and 95.5 for CNN Large + fine-tune. The third column shows the test F1 scores: 95.1 for ELMo_BASE, 95.2 for CNN Large + ELMo, and 95.6 for CNN Large + fine-tune.",
+        "reason": "The image is a table labeled 'Table 3: CoNLL-2003 Named Entity Recognition results.' The content of the table matches the description provided in the text, which details the F1 scores for different models on the development and test sets.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_7": {
+        "entity_name": "Table 5: Different loss functions on the development sets of GLUE",
+        "entity_type": "EVENT",
+        "description": "GLUE benchmark is a standard for evaluating the performance of language models, showing large gains for the presented pretraining architecture.",
+        "reason": "The image is a table comparing different model configurations on various tasks from the GLUE benchmark. The text also discusses the GLUE benchmark and its tasks in detail, making it the most relevant entity.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Figure 3: Average GLUE score with different amounts of Common Crawl data for pretraining",
+        "entity_type": "EVENT",
+        "description": "GLUE benchmark is a standard for evaluating the performance of language models, showing large gains for the presented pretraining architecture.",
+        "reason": "The image depicts a line graph titled 'Average GLUE score with different amounts of Common Crawl data for pretraining.' The text information also mentions the GLUE benchmark and its results extensively, indicating that the GLUE benchmark is the central theme of both the image and the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "Table 6: Effect of different domains and amount of data for pretraining on the development sets of GLUE",
+        "entity_type": "TABLE",
+        "description": "The table presents the impact of varying amounts of training data from different domains on the performance of a model across multiple natural language understanding tasks.",
+        "reason": "The image is a table labeled 'Table 6: Effect of different domains and amount of data for pretraining on the development sets of GLUE', which matches the description in the text. The table shows the results of experiments with different datasets and metrics, aligning with the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    }
+}

@@ -1,0 +1,836 @@
+{
+    "image_1": [
+        {
+            "entity_name": "LOW-LEVEL CONTROLLABLE ATTRIBUTES",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes repetition, specificity, response-relatedness, and question-asking as its sub-attributes, which are important factors for chitchat dialogue controlled by neural text generation methods.",
+            "source_image_entities": [
+                "LOW-LEVEL CONTROLLABLE ATTRIBUTES"
+            ],
+            "source_text_entities": [
+                "PERSONACHAT"
+            ]
+        },
+        {
+            "entity_name": "HUMAN JUDGMENT OF CONVERSATIONAL ASPECTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes avoiding repetition, interestingness, making sense, fluency, listening, and inquisitiveness as its sub-aspects, which are high-level aspects of conversation related to human judgments of full conversations.",
+            "source_image_entities": [
+                "HUMAN JUDGMENT OF CONVERSATIONAL ASPECTS"
+            ],
+            "source_text_entities": [
+                "PERSONACHAT"
+            ]
+        },
+        {
+            "entity_name": "HUMAN JUDGMENT OF OVERALL QUALITY",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes humanness and engagingness as its sub-aspects, which are used to evaluate the overall quality of conversations in dialogue systems.",
+            "source_image_entities": [
+                "HUMAN JUDGMENT OF OVERALL QUALITY"
+            ],
+            "source_text_entities": [
+                "CONVAI2 COMPETITION"
+            ]
+        },
+        {
+            "entity_name": "STANFORD UNIVERSITY",
+            "entity_type": "ORGANIZATION",
+            "description": "Stanford University is an educational institution where some of the authors of the paper are affiliated, and it contributes to the study of controllable neural text generation.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "STANFORD UNIVERSITY"
+            ]
+        },
+        {
+            "entity_name": "FACEBOOK AI RESEARCH",
+            "entity_type": "ORGANIZATION",
+            "description": "Facebook AI Research is the organization where some of the authors of the paper are affiliated, and it contributes to the study of controllable neural text generation.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "FACEBOOK AI RESEARCH"
+            ]
+        },
+        {
+            "entity_name": "PERSONACHAT",
+            "entity_type": "EVENT",
+            "description": "PersonaChat is a task used in the paper to conduct experiments on multi-turn interactive conversations, focusing on the balance between simplicity and detail, staying on topic and changing it, asking questions and answering them.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "PERSONACHAT"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "WEIGHTED DECODING",
+            "entity_type": "EVENT",
+            "description": "Weighted Decoding (WD) is a decoding method that increases or decreases the probability of words with certain features, used to control conversational attributes such as repetition, specificity, and response-relatedness. It involves applying a positive or negative weight to n-gram based decoding features or NIDF to adjust the model's output accordingly.",
+            "source_image_entities": [
+                "BASELINE RESPONSE",
+                "WEIGHTED DECODING RESPONSE"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING",
+                "WEIGHTED DECODING",
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "CONDITIONAL TRAINING",
+            "entity_type": "EVENT",
+            "description": "Conditional Training (CT) is a method used to learn a sequence-to-sequence model with a discrete control variable, which can be binary or bucketed. It is used to control conversational attributes such as specificity and response-relatedness by adjusting the model during training to produce outputs with desired attributes. This method can be applied simultaneously with Weighted Decoding.",
+            "source_image_entities": [
+                "CONDITIONAL TRAINING RESPONSE"
+            ],
+            "source_text_entities": [
+                "CONDITIONAL TRAINING (CT)",
+                "CONDITIONAL TRAINING",
+                "CONDITIONAL TRAINING"
+            ]
+        }
+    ],
+    "image_3": "[\n    {\n        \"entity_name\": \"COFFEE\",\n        \"entity_type\": \"OBJECT\",\n        \"description\": \"A beverage often consumed by the person, especially when not playing the piano, which can include various types of coffee drinks such as espresso and tea.\",\n        \"source_image_entities\": [\"COFFEE\"],\n        \"source_text_entities\": [\"DRINKS\"]\n    },\n    {\n        \"entity_name\": \"PIANO\",\n        \"entity_type\": \"OBJECT\",\n        \"description\": \"A musical instrument played by the person, which they do not engage with while getting coffee.\",\n        \"source_image_entities\": [\"PIANO\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"STARBUCKS\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A place where the person frequently gets coffee, likely offering a variety of coffee beverages.\",\n        \"source_image_entities\": [\"STARBUCKS\"],\n        \"source_text_entities\": [\"COFFEE\"]\n    }\n]",
+    "image_4": [
+        {
+            "merged_entity_name": "QUESTION-CONTROLLED CT",
+            "entity_type": "EVENT",
+            "description": "A curve representing the percentage of utterances containing '?' as a function of the Question-Asking Control Level (CT). The curve starts at 0% and rises to approximately 95% at the highest CT level. It is controlled via conditional training, which is effective in controlling question-asking at the distributional, dialogue level.",
+            "source_image_entities": [
+                "QUESTION-CONTROLLED CT"
+            ],
+            "source_text_entities": [
+                "CONDITIONAL TRAINING",
+                "QUESTION-ASKING"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION-CONTROLLED CT W/ REP CTRL",
+            "entity_type": "EVENT",
+            "description": "A curve representing the percentage of utterances containing '?' with repetition control. This curve is generally below the Question-controlled CT curve, indicating that repetition control reduces the frequency of question-asking. It involves the extrep bigram weighted decoding feature, which discourages bigrams that have appeared in previous utterances.",
+            "source_image_entities": [
+                "QUESTION-CONTROLLED CT W/ REP CTRL"
+            ],
+            "source_text_entities": [
+                "REPETITION",
+                "EXTREP BIGRAM WEIGHTED DECODING FEATURE"
+            ]
+        },
+        {
+            "merged_entity_name": "TARGET FOR QUESTION-CONTROLLED CT",
+            "entity_type": "EVENT",
+            "description": "A dotted line representing the target percentage of utterances containing '?' for the Question-controlled CT. This line is linear and rises from 0% to 100% as CT increases, aiming to control question-asking rates in the model's responses.",
+            "source_image_entities": [
+                "TARGET FOR QUESTION-CONTROLLED CT"
+            ],
+            "source_text_entities": [
+                "QUESTION-ASKING",
+                "MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "BEAM SEARCH BASELINE",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the performance of a beam search algorithm without any control over question-asking. It remains constant at around 80% across all CT levels.",
+            "source_image_entities": [
+                "BEAM SEARCH BASELINE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "REPETITION-CONTROLLED BASELINE",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the performance of a repetition-controlled algorithm. It remains constant at around 50% across all CT levels.",
+            "source_image_entities": [
+                "REPETITION-CONTROLLED BASELINE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "GOLD DATA",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the ideal or 'gold' standard for the percentage of utterances containing '?'. It remains constant at around 100% across all CT levels.",
+            "source_image_entities": [
+                "GOLD DATA"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "ENGAGINGNESS GRAPHS",
+            "entity_type": "EVENT",
+            "description": "Three graphs displaying the engagingness of different methods and control levels, including the comparison of baseline and controlled models as discussed in the human evaluation process.",
+            "source_image_entities": [
+                "ENGAGINGNESS GRAPHS"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION"
+            ]
+        },
+        {
+            "merged_entity_name": "GREEDY METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a green bar, and compared to other methods like weighted decoding and repetition-controlled methods in the human evaluation.",
+            "source_image_entities": [
+                "GREEDY METHOD"
+            ],
+            "source_text_entities": [
+                "MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "BEAM SEARCH (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a blue bar, and evaluated for its performance in engagingness and other conversational aspects in the human evaluation.",
+            "source_image_entities": [
+                "BEAM SEARCH (WD) METHOD"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING MODELS"
+            ]
+        },
+        {
+            "merged_entity_name": "REPETITION-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a purple bar, focusing on repetition control which showed huge improvements over the beam search baseline in all metrics.",
+            "source_image_entities": [
+                "REPETITION-CONTROLLED (WD) METHOD"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a pink bar, and evaluated for its performance in engagingness and specificity in the human evaluation.",
+            "source_image_entities": [
+                "SPECIFICITY-CONTROLLED (WD) METHOD"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION-CONTROLLED (CT) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a gray bar, and found to improve inquisitiveness and interestingness over the repetition-controlled baseline in the human evaluation.",
+            "source_image_entities": [
+                "QUESTION-CONTROLLED (CT) METHOD"
+            ],
+            "source_text_entities": [
+                "QUESTION-ASKING"
+            ]
+        },
+        {
+            "merged_entity_name": "HUMAN METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by an orange bar, and compared to the model's performance in the human evaluation process.",
+            "source_image_entities": [
+                "HUMAN METHOD"
+            ],
+            "source_text_entities": [
+                "HUMAN-HUMAN CONVERSATIONS"
+            ]
+        }
+    ],
+    "image_6": "[\n    {\n        \"entity_name\": \"CONDITIONAL TRAINING\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"Conditional training is a method used to control question-asking in dialogue systems, with the ability to adjust the rate of questions asked by the model. It is effective in controlling question-asking at the distributional, dialogue level, and preferable to weighted decoding as it allows achieving a range of question rates without introducing the risk of degenerate output. It requires retraining and examples of the controllable attribute but is safer and more direct in capturing the attribute of interest compared to weighted decoding.\",\n        \"source_image_entities\": [\"INTERESTINGNESS\"],\n        \"source_text_entities\": [\"\\\"CONDITIONAL TRAINING\\\"\"]\n    },\n    {\n        \"entity_name\": \"WEIGHTED DECODING\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"Weighted decoding is another method used to control question-asking in dialogue systems, which can encourage or discourage questions by assigning weights to interrogative words.\",\n        \"source_image_entities\": [\"INTERESTINGNESS\"],\n        \"source_text_entities\": [\"\\\"WEIGHTED DECODING\\\"\"]\n    },\n    {\n        \"entity_name\": \"QUESTION-ASKING\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"Question-asking is the act of inquiring information within a dialogue, which is controlled in this context to study the trade-offs between too few or too many questions.\",\n        \"source_image_entities\": [\"INQUISITIVENESS\"],\n        \"source_text_entities\": [\"\\\"QUESTION-ASKING\\\"\"]\n    },\n    {\n        \"entity_name\": \"HUMAN EVALUATION\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"Human evaluation is the process considered for assessing the dialogue system's performance in controlling question-asking using the conditional training method.\",\n        \"source_image_entities\": [\"HUMAN\"],\n        \"source_text_entities\": [\"\\\"HUMAN EVALUATION\\\"\"]\n    },\n    {\n        \"entity_name\": \"RESPONSE-RELATEDNESS\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"Response-relatedness is a controllable attribute evaluated to assess the coherence of responses in conversations.\",\n        \"source_image_entities\": [\"MAKING SENSE\"],\n        \"source_text_entities\": [\"\\\"RESPONSE-RELATEDNESS\\\"\"]\n    },\n    {\n        \"entity_name\": \"REPETITION CONTROL\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Repetition control is a method used to evaluate the performance of different search methods in terms of avoiding repetition in responses or text generation, with specific models and algorithms designed to control for repetition.\",\n        \"source_image_entities\": [\"AVOIDING REPETITION\", \"REPETITION-CONTROLLED (WD)\"],\n        \"source_text_entities\": [\"\\\"REPETITION-CONTROLLED BASELINE\\\"\", \"\\\"REPETITION\\\"\", \"\\\"EXTREP BIGRAM WEIGHTED DECODING FEATURE\\\"\"]\n    },\n    {\n        \"entity_name\": \"SPECIFICITY CONTROL\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Specificity control is a method used to evaluate the performance of different search methods in terms of how specific the generated responses or text are, with specific models and algorithms designed to control for specificity.\",\n        \"source_image_entities\": [\"SPECIFICITY-CONTROLLED (WD)\"],\n        \"source_text_entities\": [\"\\\"SPECIFICITY\\\"\", \"\\\"SPECIFICITY-CONTROLLED (CT)\\\"\"]\n    },\n    {\n        \"entity_name\": \"QUESTION-CONTROLLED\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Question-controlled is a type of algorithm that controls for question-answering ability in the generated text, using context tracking as a measure.\",\n        \"source_image_entities\": [\"QUESTION-CONTROLLED (CT)\"],\n        \"source_text_entities\": [\"\\\"QUESTION-ASKING\\\"\", \"\\\"QUESTION-CONTROLLED (CT)\\\"\"]\n    }\n]",
+    "image_7": [
+        {
+            "entity_name": "SPECIFICITY WD (WEIGHT = 4)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 75.5%, preferred for providing more information, describing life in more detail, and being funny. It is more specific than the repetition-controlled baseline and about as specific as the gold data, maximizing engagingness.",
+            "source_image_entities": [
+                "SPECIFICITY WD (WEIGHT = 4)"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY"
+            ]
+        },
+        {
+            "entity_name": "SPECIFICITY WD (WEIGHT = 6)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 84.1%, preferred for providing more information, having a better flow, and being more descriptive. It is rated more interesting, engaging, and a better listener than the repetition-controlled baseline, but at the cost of reduced fluency and making sense.",
+            "source_image_entities": [
+                "SPECIFICITY WD (WEIGHT = 6)"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY"
+            ]
+        },
+        {
+            "entity_name": "SPECIFICITY CT (Z = 7)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 56.2%, preferred for providing more information, having a better flow, and seeming more interested. It shows similar results to the WD with weight = 4, but with smaller improvements.",
+            "source_image_entities": [
+                "SPECIFICITY CT (Z = 7)"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY"
+            ]
+        }
+    ],
+    "image_8": "[\n    {\n        \"entity_name\": \"Anu Venkatesh\",\n        \"entity_type\": \"PERSON\",\n        \"description\": \"Anu Venkatesh is a contributor to the paper on evaluating and comparing conversational agents in Advances in Neural Information Processing Systems, Conversational AI Workshop and expresses enthusiasm for coffee and interest in learning French.\",\n        \"source_image_entities\": [\"PERSON_1\"],\n        \"source_text_entities\": [\"\\\"ANU VENKATESH\\\"\"]\n    },\n    {\n        \"entity_name\": \"Chandra Khatri\",\n        \"entity_type\": \"PERSON\",\n        \"description\": \"Chandra Khatri is a contributor to the paper on evaluating and comparing conversational agents in Advances in Neural Information Processing Systems, Conversational AI Workshop and shares a love for coffee and discusses favorite colors.\",\n        \"source_image_entities\": [\"PERSON_2\"],\n        \"source_text_entities\": [\"\\\"CHANDRA KHATRI\\\"\"]\n    }\n]",
+    "image_9": [
+        {
+            "entity_name": "Human Evaluation Questionnaire Design",
+            "entity_type": "Event",
+            "description": "Human Evaluation Questionnaire Design is an event where questions and multiple-choice options are presented for evaluation purposes, as detailed in the provided text.",
+            "source_image_entities": [
+                "SPEAKER 1",
+                "SPEAKER 2"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "entity_name": "Example Conversations from Human Evaluation",
+            "entity_type": "Event",
+            "description": "Example Conversations from Human Evaluation is an event showcasing different types of conversations for evaluation, as detailed in the provided text.",
+            "source_image_entities": [
+                "SPEAKER 1",
+                "SPEAKER 2"
+            ],
+            "source_text_entities": [
+                "EXAMPLE CONVERSATIONS FROM HUMAN EVALUATION"
+            ]
+        },
+        {
+            "entity_name": "Control Settings for All Configurations",
+            "entity_type": "Event",
+            "description": "Control Settings for All Configurations is an event where different configurations are set for human evaluation, as detailed in the provided text.",
+            "source_image_entities": [
+                "SPEAKER 1",
+                "SPEAKER 2"
+            ],
+            "source_text_entities": [
+                "CONTROL SETTINGS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "entity_name": "Automatic Metrics for All Configurations",
+            "entity_type": "Event",
+            "description": "Automatic Metrics for All Configurations is an event where metrics are computed for all model configurations that were human-evaluated, as detailed in the provided text.",
+            "source_image_entities": [
+                "SPEAKER 1",
+                "SPEAKER 2"
+            ],
+            "source_text_entities": [
+                "AUTOMATIC METRICS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "entity_name": "Human Evaluation Results for All Configurations",
+            "entity_type": "Event",
+            "description": "Human Evaluation Results for All Configurations is an event where results of human evaluations for different models are presented, as detailed in the provided text.",
+            "source_image_entities": [
+                "SPEAKER 1",
+                "SPEAKER 2"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "merged_entity_name": "ENGAGINGNESS",
+            "entity_type": "EVENT",
+            "description": "A measure of how much the user enjoyed talking to another user, with options ranging from 'Not at all' to 'A lot', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "ENGAGINGNESS"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "INTERESTINGNESS",
+            "entity_type": "EVENT",
+            "description": "An assessment of how interesting or boring the conversation was, with options ranging from 'Very boring' to 'Very interesting', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "INTERESTINGNESS"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "INQUISITIVENESS",
+            "entity_type": "EVENT",
+            "description": "Evaluates how much the user tried to get to know the other person, with options from 'Didn’t ask about me at all' to 'Asked about me too much', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "INQUISITIVENESS"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "LISTENING",
+            "entity_type": "EVENT",
+            "description": "Measures how attentive the user was during the conversation, with options from 'Always ignored what I said' to 'Always paid attention to what I said', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "LISTENING"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "AVOIDING REPETITION",
+            "entity_type": "EVENT",
+            "description": "Assesses the repetitiveness of the user's responses, with options from 'Repeated themselves over and over' to 'Always said something new', as part of the human evaluation questionnaire design and controlled via weighted decoding.",
+            "source_image_entities": [
+                "AVOIDING REPETITION"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING",
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "FLUENCY",
+            "entity_type": "EVENT",
+            "description": "Evaluates the naturalness of the user's English, with options from 'Very unnatural' to 'Very natural', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "FLUENCY"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "MAKING SENSE",
+            "entity_type": "EVENT",
+            "description": "Determines how often the user made sense in their responses, with options from 'Never made any sense' to 'Everything made perfect sense', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "MAKING SENSE"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "HUMANNESS",
+            "entity_type": "EVENT",
+            "description": "Assesses whether the user is perceived as a bot or a human, with options from 'Definitely a bot' to 'Definitely a human', as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "HUMANNESS"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "PERSONA RETRIEVAL",
+            "entity_type": "EVENT",
+            "description": "Determines which persona the user thinks the other user was given for the conversation, as part of the human evaluation questionnaire design.",
+            "source_image_entities": [
+                "PERSONA RETRIEVAL"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        }
+    ],
+    "image_11": [
+        {
+            "merged_entity_name": "HUMAN EVALUATION QUESTIONNAIRE DESIGN",
+            "entity_type": "EVENT",
+            "description": "Human evaluation questionnaire design is an event where questions and multiple-choice options are presented for evaluation purposes, as detailed in the provided text.",
+            "source_image_entities": [
+                "HUMAN (A)",
+                "BOT (A)",
+                "HUMAN (B)",
+                "BOT (B)",
+                "HUMAN (C)",
+                "BOT (C)",
+                "HUMAN (D)",
+                "BOT (D)"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN"
+            ]
+        },
+        {
+            "merged_entity_name": "EXAMPLE CONVERSATIONS FROM HUMAN EVALUATION",
+            "entity_type": "EVENT",
+            "description": "Example conversations from human evaluation is an event showcasing different types of conversations for evaluation, including conversations with humans and bots as described in the image entities.",
+            "source_image_entities": [
+                "HUMAN (A)",
+                "BOT (A)",
+                "HUMAN (B)",
+                "BOT (B)",
+                "HUMAN (C)",
+                "BOT (C)",
+                "HUMAN (D)",
+                "BOT (D)"
+            ],
+            "source_text_entities": [
+                "EXAMPLE CONVERSATIONS FROM HUMAN EVALUATION"
+            ]
+        },
+        {
+            "merged_entity_name": "CONTROL SETTINGS FOR ALL CONFIGURATIONS",
+            "entity_type": "EVENT",
+            "description": "Control settings for all configurations is an event where different configurations are set for human evaluation, involving various models and parameters as mentioned in the text.",
+            "source_image_entities": [
+                "HUMAN (A)",
+                "BOT (A)",
+                "HUMAN (B)",
+                "BOT (B)",
+                "HUMAN (C)",
+                "BOT (C)",
+                "HUMAN (D)",
+                "BOT (D)"
+            ],
+            "source_text_entities": [
+                "CONTROL SETTINGS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "AUTOMATIC METRICS FOR ALL CONFIGURATIONS",
+            "entity_type": "EVENT",
+            "description": "Automatic metrics for all configurations is an event where metrics are computed for all model configurations that were human-evaluated, as referenced in the text.",
+            "source_image_entities": [
+                "HUMAN (A)",
+                "BOT (A)",
+                "HUMAN (B)",
+                "BOT (B)",
+                "HUMAN (C)",
+                "BOT (C)",
+                "HUMAN (D)",
+                "BOT (D)"
+            ],
+            "source_text_entities": [
+                "AUTOMATIC METRICS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS",
+            "entity_type": "EVENT",
+            "description": "Human evaluation results for all configurations is an event where results of human evaluations for different models are presented, including the performance of various conversational agents.",
+            "source_image_entities": [
+                "HUMAN (A)",
+                "BOT (A)",
+                "HUMAN (B)",
+                "BOT (B)",
+                "HUMAN (C)",
+                "BOT (C)",
+                "HUMAN (D)",
+                "BOT (D)"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS"
+            ]
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "EXTREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the model, used in the context of controlling repetition in dialogue systems.",
+            "source_image_entities": [
+                "EXTREP_BIGRAM(W, Y<T, X)"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "EXTREP_UNIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if a non-stopword appears in a previous utterance by the model, used in the context of controlling repetition in dialogue systems.",
+            "source_image_entities": [
+                "EXTREP_UNIGRAM(W, Y<T, X)"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "INTREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears earlier in the hypothesis, used in the context of controlling repetition in dialogue systems.",
+            "source_image_entities": [
+                "INTREP_BIGRAM(W, Y<T, X)"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "INTREP_UNIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if a non-stopword appears earlier in the hypothesis, used in the context of controlling repetition in dialogue systems.",
+            "source_image_entities": [
+                "INTREP_UNIGRAM(W, Y<T, X)"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "PARTNERREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the partner, used in the context of controlling repetition in dialogue systems.",
+            "source_image_entities": [
+                "PARTNERREP_BIGRAM(W, Y<T, X)"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING"
+            ]
+        }
+    ],
+    "image_13": [
+        {
+            "merged_entity_name": "REPETITION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the repetition of words or phrases in generated text, with different weightings applied to external, internal, and partner repetitions, as detailed in Table 4 and Table 5.",
+            "source_image_entities": [
+                "REPETITION CONTROL"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING",
+                "CONDITIONAL TRAINING",
+                "REPETITION-CONTROLLED BASELINE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the generation of questions in text, with different settings for the number of questions generated, as part of the human evaluation process and detailed in Table 5.",
+            "source_image_entities": [
+                "QUESTION CONTROL"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)",
+                "CONDITIONAL TRAINING"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the specificity of generated text, with different weightings applied to NIDF scores, as part of the human evaluation process and detailed in Table 5.",
+            "source_image_entities": [
+                "SPECIFICITY CONTROL"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the relevance of generated responses to input prompts, with different weightings applied to cosine similarity scores, as part of the human evaluation process and detailed in Table 5 and Table 8.",
+            "source_image_entities": [
+                "RESPONSE-RELATED CONTROL"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS",
+                "RESPONSE-RELATED CONTROLLED WD 0"
+            ]
+        },
+        {
+            "merged_entity_name": "METRICS",
+            "entity_type": "OBJECT",
+            "description": "Numerical values representing the performance of different language models under various conditions, such as weightings for bigram and unigram repetitions, NIDF scores, cosine similarity, and presence of question marks, as presented in Table 6 and Table 7.",
+            "source_image_entities": [
+                "METRICS"
+            ],
+            "source_text_entities": [
+                "AUTOMATIC METRICS FOR ALL CONFIGURATIONS",
+                "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying various data points and metrics related to language model performance, including repetition control, question control, specificity control, and response-related control, as detailed in Table 4, Table 5, Table 6, and Table 7.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "TABLE 4",
+                "TABLE 5",
+                "TABLE 6",
+                "TABLE 7",
+                "TABLE 8"
+            ]
+        }
+    ],
+    "image_14": [
+        {
+            "merged_entity_name": "REPETITION METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics showing the percentage of external, internal, and partner repetitions for bigram and unigram models, used in the human evaluation process to assess conversational models.",
+            "source_image_entities": [
+                "REPETITION METRICS"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING",
+                "CONDITIONAL TRAINING"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics indicating the specificity of responses using NIDF values, part of the human evaluation process to measure the distinctiveness of generated responses.",
+            "source_image_entities": [
+                "SPECIFICITY METRICS"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$)"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics measuring the cosine similarity between responses and questions, used to evaluate the relevance and appropriateness of responses in conversational models.",
+            "source_image_entities": [
+                "RESPONSE-RELATED METRICS"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics tracking the presence of question marks in responses, indicating the frequency of question-asking by conversational models, which is part of the human evaluation criteria.",
+            "source_image_entities": [
+                "QUESTION METRICS"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)",
+                "CONDITIONAL TRAINING"
+            ]
+        }
+    ],
+    "image_15": [
+        {
+            "merged_entity_name": "MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "Various models used in the experiment, including Human, Greedy Search, Beam Search, Repetition-controlled baseline, Question-controlled CT models, Specificity-controlled models, and Response-related controlled models. These models are evaluated based on different criteria such as Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, Make Sense, and Persona.",
+            "source_image_entities": [
+                "MODELS"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE MODEL",
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)",
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )",
+                "BEAM SEARCH BASELINE MODEL",
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ],
+    "image_16": [
+        {
+            "merged_entity_name": "TABLE",
+            "entity_type": "EVENT",
+            "description": "A table displaying various models and their performance metrics across different categories such as Avoiding Repetition, Engagement, Fluency, Humanness, Inquisitiveness, Interestingness, Listening, and Making Sense. It includes details from human evaluation questionnaire design, control settings for all configurations, automatic metrics for all configurations, and human evaluation results for all configurations.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "HUMAN EVALUATION QUESTIONNAIRE DESIGN",
+                "CONTROL SETTINGS FOR ALL CONFIGURATIONS",
+                "AUTOMATIC METRICS FOR ALL CONFIGURATIONS",
+                "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains the performance metrics of different models including Human, Greedy Search, Beam Search, Extrep bigram WD, Question-controlled CT, Specificity-controlled CT, Specificity-controlled WD, and Response-related controlled WD. These models are part of the human evaluation process and are compared in terms of their ability to control repetition and other dialogue attributes.",
+            "source_image_entities": [
+                "MODELS"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)",
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )",
+                "BEAM SEARCH BASELINE MODEL",
+                "REPETITION-CONTROLLED BASELINE MODEL",
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        },
+        {
+            "merged_entity_name": "CATEGORIES",
+            "entity_type": "UNKNOWN",
+            "description": "The table evaluates the models across multiple categories such as Avoiding Repetition, Engagement, Fluency, Humanness, Inquisitiveness, Interestingness, Listening, and Making Sense. These categories are used in the human evaluation process to assess the performance of different models in dialogue systems.",
+            "source_image_entities": [
+                "CATEGORIES"
+            ],
+            "source_text_entities": [
+                "Avoiding Repetition",
+                "Engagement",
+                "Fluency",
+                "Humanness",
+                "Inquisitiveness",
+                "Interestingness",
+                "Listening",
+                "Making Sense"
+            ]
+        }
+    ],
+    "image_17": [
+        {
+            "merged_entity_name": "BEAM SEARCH BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "Beam search baseline is a model used in the chat UI for comparison purposes, represented by a green dashed line.",
+            "source_image_entities": [
+                "GREEDY SEARCH BASELINE"
+            ],
+            "source_text_entities": [
+                "BEAM SEARCH BASELINE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "REPETITION-CONTROLLED BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "Repetition-controlled baseline is a model used as a reference point for comparison in human evaluations, represented by a purple dotted line.",
+            "source_image_entities": [
+                "REPETITION-CONTROLLED BASELINE"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION-ASKING CONTROL LEVEL (CT)",
+            "entity_type": "EVENT",
+            "description": "The top second graph from the left showing the question-asking control level with CT, which is an organization or model involved in the human evaluation process.",
+            "source_image_entities": [
+                "QUESTION-ASKING CONTROL LEVEL (CT)"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY CONTROL LEVEL (WD)",
+            "entity_type": "EVENT",
+            "description": "The top fourth graph from the left showing the specificity control level with WD, which is an organization or model involved in the human evaluation process.",
+            "source_image_entities": [
+                "SPECIFICITY CONTROL LEVEL (WD)"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED CONTROLLED MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "Response-related controlled models are a group of models that introduce repetition controls to block certain types of repetition, including the Response-related controlled WD 0 model which has increased repetition control but no response-relatedness control.",
+            "source_image_entities": [
+                "RESPONSE-RELATEDNESS CONTROL LEVEL (WD)"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ]
+}

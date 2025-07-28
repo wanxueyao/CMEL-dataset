@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Ablation study on WIKIHOP validation set.' The table compares the performance of different models in two settings: unmasked and masked. The first row shows the full model (ensemble) with a score of 68.5 in the unmasked setting and 71.6 in the masked setting. The second row shows the full model (single) with a mean score of 65.1 ± 0.11 in the unmasked setting and 70.4 ± 0.12 in the masked setting. The subsequent rows show various ablations of the full model, such as GloVe with R-GCN, GloVe without R-GCN, No R-GCN, No relation types, No DOC-BASED, No MATCH, No COREF, No COMPLEMENT, and Induced edges. For example, GloVe with R-GCN scores 59.2 in the unmasked setting and 11.1 in the masked setting, while GloVe without R-GCN scores 51.2 in the unmasked setting and 11.6 in the masked setting. The table highlights the importance of each component in the full model by showing how the removal of each component affects the performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+</node>
+<node id="&quot;MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table comparing different models and their performance on unmasked and masked tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+</node>
+<node id="&quot;UNMASKED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The column in the table representing the performance of models on unmasked tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+</node>
+<node id="&quot;MASKED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The column in the table representing the performance of models on masked tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Model是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;UNMASKED&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"unmasked是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MASKED&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"masked是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;UNMASKED&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model's performance is evaluated on the unmasked task."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;MASKED&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The model's performance is evaluated on the masked task."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

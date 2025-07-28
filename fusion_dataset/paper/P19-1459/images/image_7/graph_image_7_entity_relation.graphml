@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the results for BERT Large on an adversarial test set with adversarial training and validation sets. The table has four rows and four columns. The first column lists different versions of BERT: 'BERT', 'BERT (W)', 'BERT (R, W)', and 'BERT (C, W)'. The subsequent columns are labeled 'Mean', 'Median', and 'Max', representing statistical measures of performance. The values in the 'Mean' column are as follows: BERT has a mean of 0.504 ± 0.01, BERT (W) has 0.501 ± 0.00, BERT (R, W) has 0.500 ± 0.00, and BERT (C, W) has 0.501 ± 0.01. The 'Median' column shows that all versions have a median of 0.500 or 0.501. The 'Max' column indicates the maximum values: BERT has 0.533, BERT (W) has 0.502, BERT (R, W) has 0.502, and BERT (C, W) has 0.518. The table highlights the performance metrics of different BERT configurations on the adversarial dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the performance metrics of different BERT models, including mean, median, and max values for each model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The base BERT model with a mean test score of 0.504, a median of 0.505, and a maximum of 0.533."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT (W)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The BERT model with weight adjustment, having a mean test score of 0.501, a median of 0.501, and a maximum of 0.502."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT (R, W)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The BERT model with both regularization and weight adjustment, showing a mean test score of 0.500, a median of 0.500, and a maximum of 0.502."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT (C, W)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The BERT model with both class weighting and weight adjustment, featuring a mean test score of 0.501, a median of 0.500, and a maximum of 0.518."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT (W)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (W)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT (R, W)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (R, W)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT (C, W)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (C, W)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the performance metrics of the base BERT model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT (W)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the performance metrics of the BERT model with weight adjustment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT (R, W)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the performance metrics of the BERT model with both regularization and weight adjustment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BERT (C, W)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the performance metrics of the BERT model with both class weighting and weight adjustment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

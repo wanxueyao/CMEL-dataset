@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Effect of linguistic similarity and pre-training on BLEU'. The table is structured with four main columns: Dataset, Lang. Family, std, and pre. Each row represents a different language pair, with the source language (ES, FR, IT, RU, HE) mapped to the target language PT (Portuguese). The 'Lang. Family' column indicates the most recent common ancestor of the source and target languages. The 'std' column shows the standard BLEU scores for each language pair, while the 'pre' column displays the BLEU scores after pre-training, along with the improvement in parentheses. The exact values are as follows: ES → PT has a std score of 17.8 and a pre score of 24.8 (+7.0); FR → PT has a std score of 12.4 and a pre score of 18.1 (+5.7); IT → PT has a std score of 14.5 and a pre score of 19.2 (+4.7); RU → PT has a std score of 2.4 and a pre score of 8.6 (+6.2); HE → PT has a std score of 3.0 and a pre score of 11.9 (+8.9). The table highlights the effect of linguistic similarity and pre-training on BLEU scores across different language pairs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+</node>
+<node id="&quot;DATASET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A table comparing different language translation datasets and their performance metrics, specifically focusing on translations to Portuguese (PT)."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+</node>
+<node id="&quot;LANG. FAMILY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The linguistic family of the languages being compared in the dataset, including West-Iberian, Western Romance, Romance, Indo-European, and a pair with no common linguistic family."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+</node>
+<node id="&quot;STD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Standard deviation metric used to evaluate the performance of the language translation models."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+</node>
+<node id="&quot;PRE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Precision metric used to evaluate the performance of the language translation models, showing improvements over the standard deviation for each language pair."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DATASET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dataset是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;LANG. FAMILY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lang. Family是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;STD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"std是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PRE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"pre是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;LANG. FAMILY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The dataset includes various language pairs categorized by their linguistic family, which impacts the translation performance."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;STD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The dataset provides standard deviation scores for evaluating the consistency of translation performance across different language pairs."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;PRE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The dataset also provides precision scores, indicating the accuracy of translations and highlighting improvements over the standard deviation for each language pair."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

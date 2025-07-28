@@ -1,0 +1,58 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Framework for credibility assessment",
+        "entity_type": "EVENT",
+        "description": "DeClarE refers to the end-to-end model for evidence-aware credibility assessment of arbitrary textual claims presented in the paper.",
+        "reason": "The image depicts a detailed flowchart of a framework for credibility assessment, which aligns with the description of DeClarE as an end-to-end model for assessing the credibility of claims. The image shows the process of combining article and claim embeddings, using bidirectional LSTMs, and generating attention weights, which are key components of the DeClarE model.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Table 1",
+        "entity_type": "EVENT",
+        "description": "Table 1 is an event in the text where data statistics for various datasets are presented.",
+        "reason": "The image clearly shows a table labeled 'Table 1: Data statistics' that provides statistical information about four datasets used for evaluating the credibility and stance of social media content. This matches with the description of Table 1 in the text.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_3": {
+        "entity_name": "Table 2",
+        "entity_type": "EVENT",
+        "description": "Table 2 is an event in the text where model parameters used for each dataset are presented.",
+        "reason": "The image clearly shows a table labeled 'Table 2: Model parameters used for each dataset (SN: Snopes, PF: PolitiFact, NT: NewsTrust, SE: SemEval)'. The content of the table matches the description provided in the text, including the parameters and their values for each dataset.",
+        "matched_chunk_entity_name": "TABLE 2"
+    },
+    "image_4": {
+        "entity_name": "Table 3: Comparison of various approaches for credibility classification on Snopes and PolitiFact datasets.",
+        "entity_type": "TABLE",
+        "description": "The table compares the performance of different models in terms of True Claims Accuracy (%), False Claims Accuracy (%), Macro F1-Score, and AUC for the Snopes and PolitiFact datasets.",
+        "reason": "The image is a table labeled 'Table 3' which matches the description provided in the text. The table contains data comparing various approaches for credibility classification on the Snopes and PolitiFact datasets, which aligns with the content of the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 4: Comparison of various approaches for credibility regression on NewsTrust dataset",
+        "entity_type": "EVENT",
+        "description": "The table compares the performance of different configurations for credibility regression on the NewsTrust dataset, measured by Mean Squared Error (MSE). The table has two columns: 'Configuration' and 'MSE'. The rows under 'Configuration' list various models and their respective MSE values. The configurations listed are: CNN-text with an MSE of 0.53, CCRF+SVR with an MSE of 0.36, LSTM-text with an MSE of 0.35, DistantSup with an MSE of 0.35, DeClarE (Plain) with an MSE of 0.34, and DeClarE (Full) with an MSE of 0.29. The lowest MSE value, indicating the best performance, is achieved by DeClarE (Full).",
+        "reason": "The image clearly shows a table that matches the description provided in the text. The table lists various configurations and their corresponding MSE values, which aligns with the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Table 5",
+        "entity_type": "EVENT",
+        "description": "Table 5 is the source of comparison data for various approaches for credibility classification on the SemEval dataset.",
+        "reason": "The image depicts a table labeled 'Table 5: Comparison of various approaches for credibility classification on SemEval dataset.' The table provides performance metrics for different configurations, which aligns with the description of Table 5 in the text.",
+        "matched_chunk_entity_name": "TABLE 5"
+    },
+    "image_7": {
+        "entity_name": "Figure 2: Dissecting the article, article source and claim source representations learned by DeClarE",
+        "entity_type": "ORGANIZATION",
+        "description": "DeClarE is an automated end-to-end neural network model for evidence-aware credibility assessment of natural language claims.",
+        "reason": "The image depicts the projections of article representations, source representations, and claim source representations using PCA. These projections are used to analyze the performance of DeClarE in separating credible from non-credible articles, fake news sources from authentic ones, and clustering politicians with similar ideologies. The text also mentions DeClarE as a key system being evaluated and compared with other approaches.",
+        "matched_chunk_entity_name": "Figure 2A, Figure 2B, Figure 2C"
+    },
+    "image_8": {
+        "entity_name": "Table 6",
+        "entity_type": "EVENT",
+        "description": "Table 6 is a table labeled 'Interpretation via attention (weights)' that provides examples of claims and their credibility analysis. It contains four main rows, each containing a claim, its verdict (True or False), and highlighted words that indicate the basis for the credibility assessment.",
+        "reason": "The image clearly shows Table 6 with the structure described in the text information. The table includes examples of claims and their credibility analysis, which aligns with the description provided in the text.",
+        "matched_chunk_entity_name": "TABLE 6"
+    }
+}

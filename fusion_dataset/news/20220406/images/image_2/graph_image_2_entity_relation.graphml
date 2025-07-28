@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a series of large industrial pipes, likely part of a gas pipeline system. The pipes are metallic and have a silver-gray color, with visible seams and joints where they are connected. They are arranged in a vertical orientation, creating a pattern of parallel lines that extend from the bottom to the top of the image. The pipes appear to be insulated, as indicated by the segmented sections and the presence of what looks like insulation material around them. The background is mostly out of focus, but it suggests an industrial setting with some structures and possibly other equipment. The lighting is natural, casting shadows that highlight the cylindrical shapes and the texture of the pipes. The overall atmosphere is one of industrial functionality and robustness, with no human presence or activity depicted."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+</node>
+<node id="&quot;PIPES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Large, metallic industrial pipes arranged in a series with bends and connections."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Industrial building partially visible behind the pipes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PIPES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pipes是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIPES&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pipes are part of the industrial infrastructure associated with the building."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

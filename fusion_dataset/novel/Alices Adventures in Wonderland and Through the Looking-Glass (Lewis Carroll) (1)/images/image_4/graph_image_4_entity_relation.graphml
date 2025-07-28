@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rabbit- Age: Adult- Color: White with black spots and stripes on the clothing- Shape: Upright posture, standing on hind legs- Size: Appears to be of average size for a rabbit- Posture: Standing upright like a human, giving it an anthropomorphic appearance- Structural Characteristics: Wearing a checkered coat with a belt, holding a watch in one paw, and has long ears and a bushy tailOverall, the rabbit is depicted in a whimsical, storybook style, dressed in human-like clothing and engaged in human-like activities."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of a rabbit dressed in human clothing, standing upright on its hind legs. The rabbit is wearing a checkered vest and a waistcoat, with a white shirt underneath. It has a long necktie and is holding a pocket watch in its right hand, which it appears to be checking. The rabbit also has a walking stick under its left arm. The background shows a grassy field with some tall grass and a dandelion. The rabbit looks hurried and concerned, as if it is running late for an important appointment. The overall atmosphere of the image conveys a sense of urgency and anxiety."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;WHITE RABBIT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A rabbit dressed in a checkered vest and pants, holding a pocket watch and an umbrella, appearing to be in a hurry."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;POCKET WATCH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A round, metallic object held by the White Rabbit, used for telling time."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;UMBRELLA&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A long, thin object carried over the shoulder of the White Rabbit, typically used for protection from rain."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Green grassy area where the White Rabbit is standing, with some flowers and plants around."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;WHITE RABBIT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_person-0.jpg is a picture of the White Rabbit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WHITE RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Rabbit是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;POCKET WATCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pocket Watch是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;UMBRELLA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Umbrella是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE RABBIT&quot;" target="&quot;POCKET WATCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The White Rabbit is holding the pocket watch in his hand, checking the time."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE RABBIT&quot;" target="&quot;UMBRELLA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The White Rabbit is carrying the umbrella over his shoulder."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE RABBIT&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The White Rabbit is standing on the grassy area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_24_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, curly hair, light brown- Eyes: Not visible due to the angle and resolution- Expression: Not clearly visible, but appears to be focused or concentrating- Age: Appears to be an adult male- Clothing: Wearing a green sweater with a high collar and long sleeves; white pants that appear to be loose-fitting- Posture: Sitting on the ground with one leg bent and the other extended, leaning forward slightly with one arm raised and the other resting on the knee- Accessories: Holding a purple staff or rod in the right hand, which is raised above the headOverall, the character gives off a dynamic and somewhat playful vibe, possibly engaged in some form of activity or performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<node id="&quot;IMAGE_24&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and imaginative scene featuring a young boy standing on a small, round planet. The boy is dressed in a light blue outfit with a green collar and cuffs, and he has curly brown hair. He is holding a long, yellow object that resembles a sword or a staff, pointing it upwards. The planet is drawn with a simple line, suggesting its spherical shape, and there are a few small plants growing on it. The boy appears to be gazing at the sky, possibly contemplating or daydreaming. The background is plain, with a few stars scattered around, adding to the celestial atmosphere. The overall mood of the image is one of wonder and contemplation, as if the boy is on a journey of self-discovery."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with curly hair, wearing a blue outfit, holding a yellow sword, and standing on a small planet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<node id="&quot;PLANET&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small, round planet with a few scattered flowers and a single rose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<node id="&quot;ROSE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A red rose with green leaves, located on the planet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<node id="&quot;SWORD&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A yellow sword held by The Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+</node>
+<edge source="&quot;IMAGE_24_PERSON-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_24_person-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_24_PERSON-0.JPG&quot;" target="&quot;IMAGE_24&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_24_person-0.jpg是image_24的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_24&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_24中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_24&quot;" target="&quot;PLANET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Planet是从image_24中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_24&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rose是从image_24中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_24&quot;" target="&quot;SWORD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sword是从image_24中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;PLANET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is standing on the planet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is taking care of the rose on the planet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;SWORD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is holding the sword."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_24.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

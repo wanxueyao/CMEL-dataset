@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a pseudocode representation of an algorithm titled 'Algorithm for Identifying Question Operations'. The algorithm is structured as a procedure named CATEGORIZE, which takes three parameters: question, entity1, and entity2. The procedure begins by calling a function f(question, entity1, entity2) to determine coordination and preconjunct values. It then checks if the question is either or both from the coordination and preconjunct values. Next, it calls another function f_head(question, entity1, entity2) to determine the head entity. The algorithm then proceeds with a series of conditional statements based on specific keywords in the question (e.g., more, most, less, earlier, etc.). Depending on these keywords and the existence of the head entity, the algorithm assigns a discrete_operation value, which can be one of the following: 'Which is greater', 'Is greater', 'Which is smaller', 'Is smaller', 'Which is true', 'Intersection', 'Or', 'And', 'Is equal', 'Not equal'. The final step returns the discrete_operation value."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+</node>
+<node id="&quot;CATEGORIZE FUNCTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A function named CATEGORIZE that takes three parameters: a question and two entities. It processes the question to determine the type of operation needed based on keywords and the relationship between the entities."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+</node>
+<node id="&quot;QUESTION&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The first parameter of the CATEGORIZE function, representing the question to be analyzed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+</node>
+<node id="&quot;ENTITY1&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The second parameter of the CATEGORIZE function, representing the first entity in the question."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+</node>
+<node id="&quot;ENTITY2&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The third parameter of the CATEGORIZE function, representing the second entity in the question."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CATEGORIZE FUNCTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CATEGORIZE Function是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;QUESTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"question是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ENTITY1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"entity1是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ENTITY2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"entity2是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATEGORIZE FUNCTION&quot;" target="&quot;QUESTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CATEGORIZE function processes the question to determine the type of operation needed based on keywords and the relationship between the entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATEGORIZE FUNCTION&quot;" target="&quot;ENTITY1&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CATEGORIZE function uses entity1 as one of the entities in the question to determine the type of operation needed."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATEGORIZE FUNCTION&quot;" target="&quot;ENTITY2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CATEGORIZE function uses entity2 as one of the entities in the question to determine the type of operation needed."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

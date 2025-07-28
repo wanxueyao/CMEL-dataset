@@ -1,0 +1,226 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bipartite graph illustrating the connections between entities, documents, and a knowledge base (KB). The graph consists of three main sections: Entities on the left, Documents in the middle, and KB on the right. Each entity is represented by a colored circle with a label (e.g., s, o, o', o'), and each document is depicted as a yellow box containing lines of text. The KB section contains tuples in the form (s, r, o) representing relationships between subjects (s), relations (r), and objects (o). Bold edges indicate the traversal path for the first fact in the small KB, connecting entities and documents. Yellow highlighting marks documents in $S_{q}$ and candidates in $C_{q}$. A check mark indicates a correct candidate, while a cross symbolizes a false candidate. The graph demonstrates multihop reasoning beyond co-reference resolution within a single document."
+        },
+        {
+            "entity_name": "S",
+            "entity_type": "PERSON",
+            "description": "A blue node representing a subject in the knowledge base."
+        },
+        {
+            "entity_name": "R",
+            "entity_type": "ORGANIZATION",
+            "description": "A green node representing a relationship or predicate in the knowledge base."
+        },
+        {
+            "entity_name": "O",
+            "entity_type": "GEO",
+            "description": "A yellow node representing an object in the knowledge base."
+        },
+        {
+            "entity_name": "O'",
+            "entity_type": "EVENT",
+            "description": "A black node representing another object in the knowledge base."
+        },
+        {
+            "entity_name": "O''",
+            "entity_type": "PERSON",
+            "description": "A red node representing yet another object in the knowledge base."
+        },
+        {
+            "entity_name": "",
+            "entity_type": "UNKNOWN",
+            "description": "image_1"
+        },
+        {
+            "entity_name": "S'",
+            "entity_type": "UNKNOWN",
+            "description": "Another subject s' is related to the same relationship r."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that provides statistics for two datasets, WIKIHOP and MEDHOP. The table has four columns: 'Documents', 'Tokens', 'Vocab. Size', and 'Mention Tokens'. For WIKIHOP, the values are as follows: 'Documents' - 43,738, 'Tokens' - 5,129, 'Vocab. Size' - 2,451, and 'Mention Tokens' - 51,318. For MEDHOP, the values are: 'Documents' - 1,620, 'Tokens' - 342, 'Vocab. Size' - 546, and 'Mention Tokens' - 2,508. The table highlights the significant differences in the size and complexity of the two datasets."
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset used for machine reading comprehension tasks, containing 43,738 questions and 51,318 total entries."
+        },
+        {
+            "entity_name": "MEDHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "Another dataset used for medical-related machine reading comprehension tasks, containing 1,620 questions and 2,508 total entries."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Candidates and documents per sample and document length statistics.' The table is divided into two main sections, one for WH (WIKIHOP) and one for MH (MEDHOP). Each section contains four columns: min, max, avg, and median. For WH, the rows are as follows: '# cand. – WH' with values 2, 79, 19.8, and 14; '# docs. – WH' with values 3, 63, 13.7, and 11; '# tok/doc – WH' with values 4, 2,046, 100.4, and 91. For MH, the rows are as follows: '# cand. – MH' with values 2, 9, 8.9, and 9; '# docs. – MH' with values 5, 64, 36.4, and 29; '# tok/doc – MH' with values 5, 458, 253.9, and 264. The table provides statistical information about the number of candidates, documents, and tokens per document for both WIKIHOP and MEDHOP datasets."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying statistical data with two categories: WH and MH. The table includes columns for minimum, maximum, average, and median values of candidates, documents, and tokens per document for both categories."
+        },
+        {
+            "entity_name": "WH",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains data for the WH category, including statistics on the number of candidates, documents, and tokens per document."
+        },
+        {
+            "entity_name": "MH",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains data for the MH category, including statistics on the number of candidates, documents, and tokens per document."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Accuracy comparison for simple baseline models on WIKIHOP before and after filtering.' The table contains three rows and four columns. The first column lists the model names: Document-cue, Maj. candidate, and TF-IDF. The second and third columns represent the accuracy values for the unfiltered and filtered datasets, respectively. The accuracy values are as follows: Document-cue has an accuracy of 74.6% for the unfiltered dataset and 36.7% for the filtered dataset. Maj. candidate has an accuracy of 41.2% for the unfiltered dataset and 38.8% for the filtered dataset. TF-IDF has an accuracy of 43.8% for the unfiltered dataset and 25.6% for the filtered dataset. The table highlights the performance differences between the models before and after filtering."
+        },
+        {
+            "entity_name": "DOCUMENT-CUE",
+            "entity_type": "EVENT",
+            "description": "An event or method used in a document analysis context, achieving a performance score of 74.6 and another metric at 36.7."
+        },
+        {
+            "entity_name": "MAJ. CANDIDATE",
+            "entity_type": "PERSON",
+            "description": "A significant candidate in the context of document analysis, with performance metrics of 41.2 and 38.8."
+        },
+        {
+            "entity_name": "TF-IDF",
+            "entity_type": "ORGANIZATION",
+            "description": "A well-known technique in information retrieval and text mining, showing performance scores of 43.8 and 25.6."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Test accuracies for the WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setup.' The table is structured with rows representing different models and columns representing test accuracies under various conditions. The models listed are Random, Max-mention, Majority-candidate-per-query-type, TF-IDF, Document-cue, FastQA, and BiDAF. Each model has corresponding accuracy values for standard and masked setups, further divided into test and test* (validated portion of the dataset). For example, the Random model has accuracies of 11.5 and 12.2 for standard test and test*, respectively, and 12.2 and 13.0 for masked test and test*. The highest accuracies are highlighted in bold, such as 58.4 and 67.3 for Majority-candidate-per-query-type in the standard setup. The context indicates that among the neural models, BiDAF is overall the strongest across both datasets."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of various models on different test sets, including 'standard' and 'masked' categories. The table includes columns for 'test' and 'test*' results."
+        },
+        {
+            "entity_name": "RANDOM MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that selects answers randomly, used as a baseline in the comparison."
+        },
+        {
+            "entity_name": "MAX-MENTION MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that selects the answer with the highest mention count in the text."
+        },
+        {
+            "entity_name": "MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that selects the majority candidate for each query type."
+        },
+        {
+            "entity_name": "TF-IDF MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that uses Term Frequency-Inverse Document Frequency to select answers."
+        },
+        {
+            "entity_name": "DOCUMENT-CUE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that uses document cues to select answers."
+        },
+        {
+            "entity_name": "FASTQA MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model designed for fast question answering."
+        },
+        {
+            "entity_name": "BIDAF MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bidirectional Attention Flow model, a neural network architecture for machine reading comprehension."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "BIDAF",
+            "entity_type": "MODEL",
+            "description": "A model that performs on the WikiHop and MedHop datasets, achieving various scores on standard and gold chain tests."
+        },
+        {
+            "entity_name": "BIDAF MASK",
+            "entity_type": "MODEL",
+            "description": "A variant of the BiDAF model that includes a masking mechanism, showing improved performance on both WikiHop and MedHop datasets."
+        },
+        {
+            "entity_name": "FASTQA",
+            "entity_type": "MODEL",
+            "description": "Another model tested on WikiHop and MedHop datasets, with its own set of scores for standard and gold chain tests."
+        },
+        {
+            "entity_name": "FASTQA MASK",
+            "entity_type": "MODEL",
+            "description": "A variant of the FastQA model that incorporates a masking mechanism, demonstrating different performance levels on the same datasets."
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating models in question-answering tasks, with results presented for both standard and gold chain tests."
+        },
+        {
+            "entity_name": "MEDHOP",
+            "entity_type": "DATASET",
+            "description": "Another dataset used for evaluating models in question-answering tasks, also showing results for standard and gold chain tests."
+        },
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_6 is a table that compares the test accuracy of various models on two datasets, WIKIHOP and MEDHOP. The table is divided into four main columns: 'standard' and 'gold chain' for both WIKIHOP and MEDHOP. Each column further splits into 'test' and 'test*' sub-columns. The rows represent different models: BiDAF, BiDAF mask, FastQA, and FastQA mask. The table provides the following accuracies:\n\nFor WIKIHOP standard, the accuracies are: BiDAF (42.9), BiDAF mask (54.5), FastQA (25.7), FastQA mask (35.8). For WIKIHOP gold chain, the accuracies are: BiDAF (57.9), BiDAF mask (81.2), FastQA (44.5), FastQA mask (65.3). For MEDHOP standard, the accuracies are: BiDAF (47.8), BiDAF mask (33.7), FastQA (23.1), FastQA mask (31.3). For MEDHOP gold chain, the accuracies are: BiDAF (86.4), BiDAF mask (99.3), FastQA (54.6), FastQA mask (51.8).\n\nThe asterisked values (test*) represent validated samples, with the following accuracies: For WIKIHOP standard, the accuracies are: BiDAF (49.7), BiDAF mask (59.8), FastQA (27.2), FastQA mask (38.0). For WIKIHOP gold chain, the accuracies are: BiDAF (63.4), BiDAF mask (85.7), FastQA (53.5), FastQA mask (70.0). For MEDHOP standard, the accuracies are: BiDAF (61.2), BiDAF mask (42.9), FastQA (24.5), FastQA mask (30.6)"
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table comparing the test accuracy of different models on two datasets, WIKIHOP and MEDHOP. The table has four rows and five columns. The first column lists the models: BiDAF, BiDAF rem, FastQA, and FastQA rem. The subsequent columns show the test accuracy for each model on the WIKIHOP and MEDHOP datasets, with both 'test' and 'test*' conditions. The values are as follows: BiDAF on WIKIHOP test is 54.5, test* is 59.8; on MEDHOP test is 33.7, test* is 42.9. BiDAF rem on WIKIHOP test is 44.6, test* is 57.7; on MEDHOP test is 30.4, test* is 36.7. FastQA on WIKIHOP test is 35.8, test* is 38.0; on MEDHOP test is 31.3, test* is 30.6. FastQA rem on WIKIHOP test is 38.0, test* is 41.2; on MEDHOP test is 28.6, test* is 24.5. The table highlights the performance differences between the models and conditions."
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "A dataset used for evaluating machine reading comprehension systems, specifically focusing on the task of multi-hop question answering where information from multiple documents is required to answer a question."
+        },
+        {
+            "entity_name": "MEDHOP",
+            "entity_type": "EVENT",
+            "description": "Another dataset used for evaluating machine reading comprehension systems, similar to WIKIHOP but possibly with a different focus or set of questions."
+        },
+        {
+            "entity_name": "BIDAF",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used for machine reading comprehension tasks. It stands for Bidirectional Attention Flow and is known for its effectiveness in understanding and answering questions based on given passages."
+        },
+        {
+            "entity_name": "BIDAF REM",
+            "entity_type": "ORGANIZATION",
+            "description": "A variant or modified version of the BiDAF model, possibly with some adjustments or improvements made to it."
+        },
+        {
+            "entity_name": "FASTQA",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model used for machine reading comprehension tasks. It is designed to be faster than BiDAF while still providing good performance."
+        },
+        {
+            "entity_name": "FASTQA REM",
+            "entity_type": "ORGANIZATION",
+            "description": "A variant or modified version of the FastQA model, possibly with some adjustments or improvements made to it."
+        }
+    ]
+}

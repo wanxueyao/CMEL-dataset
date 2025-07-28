@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_29&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a whimsical scene. It shows a small, insect-like creature with wings that resemble thin slices of bread and butter, a body shaped like a crust, and a head that appears to be a lump of sugar. The creature is crawling on the ground, which is depicted with a textured surface suggesting rough terrain or perhaps a close-up view of a leaf. The background includes a few scattered rocks or pebbles, adding to the natural setting. The overall style of the illustration is reminiscent of classic children's book art, with exaggerated features and a playful, imaginative quality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, and appearing to be in a state of confusion or surprise as she seems to be floating or falling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+</node>
+<node id="&quot;ROCKS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Various rocks and boulders scattered around the scene, some large and some small, contributing to the rocky terrain."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+</node>
+<node id="&quot;WATER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A body of water surrounding the rocks, depicted with wavy lines indicating its fluid nature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+</node>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;ROCKS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rocks是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_29&quot;" target="&quot;WATER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Water是从image_29中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;ROCKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is positioned among the rocks, suggesting she may have fallen or is about to land on them."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;WATER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is near the water, which could imply she is at risk of falling into it or has just emerged from it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ROCKS&quot;" target="&quot;WATER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rocks are situated within the water, creating a rugged landscape where the two elements interact."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_29.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

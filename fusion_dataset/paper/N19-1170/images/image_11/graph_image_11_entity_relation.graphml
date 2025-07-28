@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a composite of four conversation screenshots labeled (a), (b), (c), and (d). Each screenshot represents a different type of dialogue interaction, likely for the purpose of evaluating conversational AI systems. The conversations are structured as text exchanges between a human and a bot. \n\n(a) Baseline: The conversation starts with the human asking about the bot's profession, leading to a discussion about religious beliefs and personal interests. The bot consistently responds with 'I am a buddhist. What about you?' regardless of the human's input. \n\n(b) Repetition-controlled baseline: This conversation begins with the human introducing themselves as a little girl living in the cloud and feeling lonely. The bot engages in a friendly chat, discussing hobbies like being a superhero and enjoying shopping and chocolate. \n\n(c) Question-controlled CT: The human initiates the conversation by asking how the bot is doing today, leading to a discussion about pets and books. The bot mentions walking dogs for a living and enjoying reading Harry Potter. \n\n(d) Specificity-controlled WD: The conversation starts with the human asking about the bot's day, leading to a discussion about music and professions. The bot expresses enjoyment in playing piano and singing along to folk music and mentions working as an auditor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;HUMAN (A)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The human in conversation (a) is a Christian, works on their parent's farm, and likes country music. They live in a small town called Ila."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;BOT (A)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The bot in conversation (a) is a Buddhist and likes music."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;HUMAN (B)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The human in conversation (b) is a little girl who lives in the cloud and has superpowers. She enjoys shopping and her favorite food is pizza."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;BOT (B)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The bot in conversation (b) enjoys shopping and loves chocolate."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;HUMAN (C)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The human in conversation (c) is great, works or spends time with kitties, and likes legal and psychological thrillers. They work in construction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;BOT (C)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The bot in conversation (c) is doing well, walks dogs for a living, and enjoys reading Harry Potter books."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;HUMAN (D)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The human in conversation (d) is doing well, plays piano and sings along to folk music. They work as an auditor and a stunt double, and enjoy reading a lot of books."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<node id="&quot;BOT (D)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The bot in conversation (d) wishes they could spend more time with their family and enjoys spending time with them."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;HUMAN (A)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (a)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BOT (A)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bot (a)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;HUMAN (B)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (b)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BOT (B)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bot (b)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;HUMAN (C)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (c)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BOT (C)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bot (c)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;HUMAN (D)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (d)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;BOT (D)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bot (d)是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

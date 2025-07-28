@@ -1,0 +1,185 @@
+{
+    "chunk-9468ec3da6121b9b6d5fade7b9b6d529": [
+        {
+            "entity_name": "Retrieve and Refine Model (RetrieveNRefine, RetNRef)",
+            "entity_type": "Model",
+            "description": "A model developed to combine the advantages of retrieval and sequence generation models in dialogue tasks, involving first retrieving a response and then refining it using a sequence generator. It has variants RetrieveNRefine+ and RetrieveNRefine++.",
+            "source_entities": [
+                "RETRIEVE AND REFINE MODEL",
+                "RETRIEVENREFINE",
+                "RETRIEVENREFINE+",
+                "RETRIEVENREFINE++"
+            ]
+        },
+        {
+            "entity_name": "ConvAI2",
+            "entity_type": "Dataset",
+            "description": "A chit-chat task dataset used to evaluate dialogue models, aimed at getting to know the other speaker's profile. It is also the challenge task where the Retrieve and Refine model showed superior performance in human evaluations compared to standard retrieval and generation models.",
+            "source_entities": [
+                "CONVAI2",
+                "CONVAI2 DATASET"
+            ]
+        },
+        {
+            "entity_name": "Facebook AI Research",
+            "entity_type": "Organization",
+            "description": "The organization where Jason Weston, Emily Dinan, and Alexander H. Miller work and conduct research on sequence generation models for dialogue, including the development of the Retrieve and Refine model.",
+            "source_entities": [
+                "FACEBOOK AI RESEARCH"
+            ]
+        },
+        {
+            "entity_name": "Seq2Seq",
+            "entity_type": "Model",
+            "description": "A sequence generation model used in the Retrieve and Refine model, which is a 2-layer LSTM with attention.",
+            "source_entities": [
+                "SEQ2SEQ"
+            ]
+        },
+        {
+            "entity_name": "Key-Value Memory Network",
+            "entity_type": "Model",
+            "description": "Used as the retriever in the Retrieve and Refine model, attending over the dialogue history to learn input and candidate retrieval embeddings that match using cosine similarity.",
+            "source_entities": [
+                "KEY-VALUE MEMORY NETWORK"
+            ]
+        },
+        {
+            "entity_name": "ParlAI",
+            "entity_type": "Platform",
+            "description": "The platform where the code for both the Seq2Seq model and the Key-Value Memory Network used in the Retrieve and Refine model is available.",
+            "source_entities": [
+                "PARLAI"
+            ]
+        }
+    ],
+    "chunk-37b2c513f34ad862572c4f65b340a087": [
+        {
+            "entity_name": "ConvAI2",
+            "entity_type": "Event",
+            "description": "ConvAI2 is a challenge dataset used for conversational AI, involving dialogues between crowdworkers acting as personas, and is based on a modified version of the PersonaChat dataset. It consists of around 160,000 utterances in approximately 11,000 dialogues, with 2000 dialogues for validation and test using non-overlapping personas.",
+            "source_entities": [
+                "\"CONVAI2\"",
+                "\"PERSONACHAT\""
+            ]
+        },
+        {
+            "entity_name": "Memory Network",
+            "entity_type": "Organization",
+            "description": "Memory Network is a model approach used for retriever models in conversational AI, introduced by Zhang et al., 2018, and is mentioned as the best performing existing retriever model.",
+            "source_entities": [
+                "\"MEMORY NETWORK\"",
+                "\"ZHANG ET AL., 2018\""
+            ]
+        },
+        {
+            "entity_name": "RetNRef",
+            "entity_type": "Organization",
+            "description": "RetNRef is a model that improves upon Seq2Seq models by using retrieval methods to generate more human-like responses in conversational AI. It makes some improvements in word statistics, such as doubling the use of rare words, but still not close to human statistics.",
+            "source_entities": [
+                "\"RETNREF\"",
+                "\"SEQ2SEQ\""
+            ]
+        },
+        {
+            "entity_name": "RetNRef++",
+            "entity_type": "Organization",
+            "description": "RetNRef++ is a variant of the RetNRef model that truncates dialogue history and focuses more on the retrieval utterance to improve perplexity. It boosts the use of the retrieval and makes the word statistics much closer to human ones, showing that the model can generate novel content when it wants to.",
+            "source_entities": [
+                "\"RETNREF++\"",
+                "\"RETRIEVENREFINE++\""
+            ]
+        },
+        {
+            "entity_name": "1155 Personas",
+            "entity_type": "Geo",
+            "description": "1155 personas represent the number of possible personas created by a set of workers for the conversational dataset used in ConvAI2, which involves crowdworkers acting as these personas in dialogues.",
+            "source_entities": [
+                "\"1155 PERSONAS\"",
+                "\"CROWDWORKERS\""
+            ]
+        },
+        {
+            "entity_name": "11,000 Dialogues",
+            "entity_type": "Geo",
+            "description": "11,000 dialogues represent the total number of dialogues in the ConvAI2 dataset, each involving conversations between crowdworkers, and resulting in around 160,000 utterances.",
+            "source_entities": [
+                "\"11,000 DIALOGUES\"",
+                "\"160,000 UTTERANCES\""
+            ]
+        },
+        {
+            "entity_name": "Perplexity Dialogue",
+            "entity_type": "Event",
+            "description": "Perplexity Dialogue is the challenge of evaluating dialogue systems, which is known to be hard due to the many valid answers with little word overlap. It is particularly flawed for retrieve and refine cases, as models might focus on refining different but equally valid responses pointed out by the retrieval.",
+            "source_entities": [
+                "\"PERPLEXITY DIALOGUE\"",
+                "\"WORD STATISTICS\""
+            ]
+        },
+        {
+            "entity_name": "Word Overlap",
+            "entity_type": "Event",
+            "description": "Word overlap is a metric used to measure the similarity between retrieved and generated sentences in RetNRef variants to evaluate model performance, showing that RetNRef has >80% word overlap with the retriever output around half (53%) of the time.",
+            "source_entities": [
+                "\"WORD OVERLAP\"",
+                "\"WORD STATISTICS\""
+            ]
+        }
+    ],
+    "chunk-e416fee05590e29a85925404eab016a6": null,
+    "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4": [
+        {
+            "entity_name": "RetNRef++ (RetNRef)",
+            "entity_type": "ORGANIZATION",
+            "description": "RetNRef++ is an advanced model used in dialogue systems that demonstrates improved engagement quality by referencing conditioned retrieved sentences. It outperforms other models like Memory Network and Seq2Seq with a win rate of approximately 54%. RetNRef++ is capable of effectively learning when to choose the retrieval utterance and when to generate instead, showing a higher win rate against Memory Networks. It is also compared directly against humans in A/B tests, showing a higher win rate for RetNRef.",
+            "source_entities": [
+                "RETNREF++",
+                "RETNREF"
+            ]
+        },
+        {
+            "entity_name": "Sprite",
+            "entity_type": "GEO",
+            "description": "Sprite is a beverage that is mentioned in the dialogue as a favorite of both Person 1 and Person 2, indicating its preference in the context of the conversation.",
+            "source_entities": [
+                "SPRITE"
+            ]
+        },
+        {
+            "entity_name": "Dr. Pepper",
+            "entity_type": "GEO",
+            "description": "Dr. Pepper is a beverage mentioned in the dialogue as a favorite of Person 2, highlighting their personal preference in the context of the conversation.",
+            "source_entities": [
+                "DR. PEPPER"
+            ]
+        },
+        {
+            "entity_name": "Nissan Sentra",
+            "entity_type": "GEO",
+            "description": "Nissan Sentra is a car model mentioned in the text as being owned by Person 2, providing context about their personal possessions.",
+            "source_entities": [
+                "NISSAN SENTRA"
+            ]
+        },
+        {
+            "entity_name": "Tasha",
+            "entity_type": "PERSON",
+            "description": "Tasha is Person 1's pet parrot, mentioned as accompanying them on hikes, indicating the close relationship and activities they share.",
+            "source_entities": [
+                "TASHA"
+            ]
+        }
+    ],
+    "chunk-c02a07f6a200bca352b89a081c2fd544": [
+        {
+            "entity_name": "Iulian V Serban (Iulian Vlad Serban)",
+            "entity_type": "PERSON",
+            "description": "Iulian V Serban is an author of the papers 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation' and 'Generative deep neural networks for dialogue: A short review'.",
+            "source_entities": [
+                "IULIAN V SERBAN",
+                "IULIAN VLAD SERBAN"
+            ]
+        }
+    ]
+}

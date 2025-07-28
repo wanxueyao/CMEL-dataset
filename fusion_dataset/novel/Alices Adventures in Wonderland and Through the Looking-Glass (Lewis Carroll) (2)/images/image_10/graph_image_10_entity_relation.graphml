@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration from the classic story 'Alice's Adventures in Wonderland.' It depicts a scene where Alice, a young girl with long hair tied back, stands on the right side of the image. She is wearing a dress and appears to be looking up at a large caterpillar that is sitting atop a mushroom. The caterpillar is anthropomorphized, wearing a jacket and smoking a hookah, which it holds with one hand while resting its other arm on the mushroom. The caterpillar is encircled by a large ring of smoke from the hookah. The background is filled with tall grass and leaves, adding to the whimsical and fantastical atmosphere of the scene. The overall mood conveyed is one of curiosity and surrealism, as Alice encounters this unusual creature in a dreamlike world."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, standing and looking up at the caterpillar."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+</node>
+<node id="&quot;CATERPILLAR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large caterpillar sitting on a mushroom, smoking a hookah and wearing a jacket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+</node>
+<node id="&quot;MUSHROOM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large mushroom on which the caterpillar is sitting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+</node>
+<node id="&quot;HOOKAH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A hookah from which the caterpillar is smoking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;CATERPILLAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Caterpillar是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;MUSHROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mushroom是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;HOOKAH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hookah是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;CATERPILLAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is observing the caterpillar as it smokes the hookah."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATERPILLAR&quot;" target="&quot;MUSHROOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The caterpillar is sitting on top of the mushroom."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CATERPILLAR&quot;" target="&quot;HOOKAH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The caterpillar is using the hookah to smoke."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

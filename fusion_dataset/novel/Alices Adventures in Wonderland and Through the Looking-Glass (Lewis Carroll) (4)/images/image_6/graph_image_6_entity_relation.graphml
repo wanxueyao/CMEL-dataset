@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, styled in two braids tied with ribbons- Expression: Neutral, focused on an object or direction outside the frame- Age: Appears to be a young girl- Clothing: Wearing a long, puffy-sleeved dress with a high collar and a full skirt; the dress has a patterned bodice and a solid skirt; also wearing striped stockings and shoes- Posture: Bent forward slightly with one arm extended outward, as if reaching for something or about to take a stepOverall, the character gives off a vintage, storybook vibe, reminiscent of classic illustrations from children's literature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, curly hair- Expression: Distressed or in pain, with eyes closed and mouth open- Age: Appears to be an adult- Clothing: Wearing a white shirt with a bow tie, suspenders, and a hat; pants are loose-fitting and baggy- Posture: Bent forward with hands on head, suggesting distress or confusionOverall, the character appears to be in a state of distress or confusion, possibly a comedic or cartoonish representation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. On the left side, there is a character who appears to be Tweedledum, characterized by his round face, large eyes, and exaggerated expression of anger and frustration. He is wearing a hat and a coat, and his posture suggests he is in the middle of a tantrum, with one arm raised and the other clutching an object that resembles a rattle. His eyes are wide open, and his mouth is agape, indicating a state of intense emotion. To his right stands Alice, a young girl with long, curly hair, dressed in a dress with a frilly collar and striped stockings. She has a calm and composed demeanor, extending her hand towards Tweedledum in a gesture of soothing or calming him down. The background is filled with swirling lines and shapes, suggesting movement and chaos, which adds to the overall atmosphere of tension and confusion. The illustration captures a moment of conflict and misunderstanding between Alice and Tweedledum, highlighting the absurdity and whimsical nature of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long, curly hair, wearing a dress and striped stockings, extending her hand towards another character."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+</node>
+<node id="&quot;DODO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A whimsical, bird-like creature with a large body, small head, and expressive face, appearing to be in distress."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;DODO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-1.jpg is a picture of Dodo."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DODO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dodo是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;DODO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is interacting with the Dodo, who appears to be upset or in distress."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

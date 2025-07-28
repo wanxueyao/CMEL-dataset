@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_17_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Short, curly hair- Facial Expression: Distressed or alarmed, with wide eyes and an open mouth- Age: Appears to be an adult- Clothing: Wearing a crown and a striped garment that resembles traditional royal attire- Posture: Being squeezed by a large hand, which is causing the character to appear compressed and distressedOverall, the character appears to be a caricature of a king or a royal figure in a state of distress due to being squeezed by a large hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;IMAGE_17&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from a story. It shows a small, plump king wearing a crown and holding a scepter. The king appears to be in distress or surprise, with his mouth wide open and eyes bulging. He is being held up by a large hand that seems to belong to an unseen person. The king's body is wrapped in bandages, suggesting he has been injured or is being treated. The background is minimalistic, with no additional details, focusing the viewer's attention on the interaction between the hand and the king. The overall atmosphere conveyed is one of surprise and perhaps a touch of humor, as the king's exaggerated expression adds a comedic element to the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;KING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A cartoon character wearing a crown and holding a scepter, appearing distressed as he is being squeezed by a large hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;HAND&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, disembodied hand squeezing the king."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+</node>
+<edge source="&quot;IMAGE_17_PERSON-0.JPG&quot;" target="&quot;KING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_17_person-0.jpg is a picture of a king."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17_PERSON-0.JPG&quot;" target="&quot;IMAGE_17&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_17_person-0.jpg是image_17的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;KING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"King是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;HAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hand是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING&quot;" target="&quot;HAND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The king is being squeezed by the large hand, indicating a sense of control or oppression."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,414 @@
+{
+    "chunk-9705c1be981fe537fcfa695340dc636a": [
+        {
+            "entity_name": "Stanford University",
+            "entity_type": "ORGANIZATION",
+            "description": "Stanford University is an educational institution where some of the authors of the paper are affiliated.",
+            "source_entities": [
+                "\"STANFORD UNIVERSITY\""
+            ]
+        },
+        {
+            "entity_name": "Facebook AI Research",
+            "entity_type": "ORGANIZATION",
+            "description": "Facebook AI Research is the organization where some of the authors of the paper are affiliated.",
+            "source_entities": [
+                "\"FACEBOOK AI RESEARCH\""
+            ]
+        },
+        {
+            "entity_name": "Abigail See",
+            "entity_type": "PERSON",
+            "description": "Abigail See is one of the authors of the paper, affiliated with Stanford University.",
+            "source_entities": [
+                "\"ABIGAIL SEE\""
+            ]
+        },
+        {
+            "entity_name": "Stephen Roller",
+            "entity_type": "PERSON",
+            "description": "Stephen Roller is one of the authors of the paper, affiliated with Facebook AI Research.",
+            "source_entities": [
+                "\"STEPHEN ROLLER\""
+            ]
+        },
+        {
+            "entity_name": "Douwe Kiela",
+            "entity_type": "PERSON",
+            "description": "Douwe Kiela is one of the authors of the paper, affiliated with Facebook AI Research.",
+            "source_entities": [
+                "\"DOUWE KIELA\""
+            ]
+        },
+        {
+            "entity_name": "Jason Weston",
+            "entity_type": "PERSON",
+            "description": "Jason Weston is one of the authors of the paper, affiliated with Facebook AI Research.",
+            "source_entities": [
+                "\"JASON WESTON\""
+            ]
+        },
+        {
+            "entity_name": "PersonaChat",
+            "entity_type": "EVENT",
+            "description": "PersonaChat is a task used in the paper to conduct experiments on multi-turn interactive conversations.",
+            "source_entities": [
+                "\"PERSONACHAT\""
+            ]
+        },
+        {
+            "entity_name": "NeurIPS ConvAI2 competition",
+            "entity_type": "EVENT",
+            "description": "NeurIPS ConvAI2 competition is an event where the best model from the paper matches the performance of the winning entry.",
+            "source_entities": [
+                "\"NEURIPS CONVAI2 COMPETITION\""
+            ]
+        }
+    ],
+    "chunk-bf66f6f22e5b9575c46238ccab2836a8": [
+        {
+            "entity_name": "Li et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Li et al. is a research group that has worked on single-turn response generation with control and contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "LI ET AL.",
+                "LI ET AL., 2016A",
+                "LI ET AL., 2017A"
+            ]
+        },
+        {
+            "entity_name": "Shen et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Shen et al. is a research group that has contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "SHEN ET AL.",
+                "SHEN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Xing et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Xing et al. is a research group that has worked on controllable neural text generation.",
+            "source_entities": [
+                "XING ET AL.",
+                "XING ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Zhang et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Zhang et al. is a research group that has developed the PersonaChat dataset and contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "ZHANG ET AL.",
+                "ZHANG ET AL., 2018A",
+                "ZHANG ET AL., 2018B"
+            ]
+        },
+        {
+            "entity_name": "NeurIPS 2018 ConvAI2 Challenge",
+            "entity_type": "EVENT",
+            "description": "NeurIPS 2018 ConvAI2 Challenge is a competition where models were evaluated based on automatic metrics and human judgment.",
+            "source_entities": [
+                "NEURIPS 2018 CONVAI2 CHALLENGE",
+                "CONVAI2 COMPETITION"
+            ]
+        }
+    ],
+    "chunk-01da31c71e06892fb52b24a57d9339ad": [
+        {
+            "entity_name": "Conditional Training (CT)",
+            "entity_type": "Event",
+            "description": "Conditional Training (CT) is a method used to learn a sequence-to-sequence model with a discrete control variable. It involves annotating training data with the attribute to control, using embeddings to represent the control variable, and optimizing the cross-entropy loss to train the model. CT models are initialized with parameters from a baseline sequence-to-sequence model and fine-tuned on the PersonaChat training set.",
+            "source_entities": [
+                "\"CONDITIONAL TRAINING (CT)\"",
+                "\"FAN ET AL., 2018\"",
+                "\"KIKUCHI ET AL., 2016\"",
+                "\"PENG ET AL., 2018\"",
+                "\"DISCRETE CONTROL VARIABLE\"",
+                "\"EMBEDDING\"",
+                "\"CROSS-ENTROPY LOSS\"",
+                "\"PERSONACHAT\"",
+                "\"START SYMBOL\""
+            ]
+        },
+        {
+            "entity_name": "Weighted Decoding (WD)",
+            "entity_type": "Event",
+            "description": "Weighted Decoding (WD) is a decoding method that increases or decreases the probability of words with certain features, applied only at test time without changing the training method. WD requires the controllable attribute to be defined at the word-level and uses decoding features with associated weights to modify word probabilities. It can be applied simultaneously with Conditional Training.",
+            "source_entities": [
+                "\"WEIGHTED DECODING (WD)\"",
+                "\"GHAZVININEJAD ET AL., 2017\"",
+                "\"RNN\"",
+                "\"DECODING FEATURE\"",
+                "\"HYPERPARAMETER\""
+            ]
+        },
+        {
+            "entity_name": "Sequence-to-Sequence Model",
+            "entity_type": "Concept",
+            "description": "The sequence-to-sequence model is a type of model used in the context of Conditional Training and Weighted Decoding. It is capable of choosing the value of the controlled attribute for any particular utterance and is optimized using cross-entropy loss in the case of Conditional Training.",
+            "source_entities": [
+                "\"SEQUENCE-TO-SEQUENCE MODEL\""
+            ]
+        },
+        {
+            "entity_name": "Control Attribute",
+            "entity_type": "Concept",
+            "description": "The control attribute refers to the attribute of the output that is controlled at the dialogue level in Conditional Training and Weighted Decoding. It can be a binary attribute like question-asking or a continuous attribute represented in a bucketed form.",
+            "source_entities": [
+                "\"CONTROL ATTRIBUTE\""
+            ]
+        },
+        {
+            "entity_name": "Validation Set",
+            "entity_type": "Concept",
+            "description": "The validation set is used to determine the convergence of lossCT in the fine-tuning of Conditional Training models. It is a subset of data used for evaluating the model's performance during the training process.",
+            "source_entities": [
+                "\"VALIDATION SET\""
+            ]
+        }
+    ],
+    "chunk-b6fc9ca9b139955a3cf8698c53a63d18": [
+        {
+            "entity_name": "NIDF (Normalized Inverse Document Frequency)",
+            "entity_type": "CONCEPT",
+            "description": "NIDF is a measure of word rareness used to control specificity in sequence-to-sequence models. It is calculated by normalizing the Inverse Document Frequency (IDF), which is defined as the logarithm of the total number of responses R divided by the number of responses containing a specific word c_w. NIDF ranges from 0 to 1, with min.idf and max.idf representing the minimum and maximum IDF values across the vocabulary.",
+            "source_entities": [
+                "\"NIDF\"",
+                "\"R\"",
+                "\"C_W\"",
+                "\"MIN.IDF\"",
+                "\"MAX.IDF\""
+            ]
+        },
+        {
+            "entity_name": "Repetition",
+            "entity_type": "CONCEPT",
+            "description": "Repetition is a conversational attribute that includes three types: external repetition (self-repetition across utterances), internal repetition (self-repetition within utterances), and partner repetition (repeating the conversational partner). It is controlled using weighted decoding with features like extrep bigram, intrep bigram, partnerrep bigram, extrep unigram, and intrep unigram, which identify repeating bigrams and content words.",
+            "source_entities": [
+                "\"REPETITION\"",
+                "\"EXTERNAL REPETITION\"",
+                "\"INTERNAL REPETITION\"",
+                "\"PARTNER REPETITION\"",
+                "\"EXTREP BIGRAM\"",
+                "\"INTREP BIGRAM\"",
+                "\"PARTNERREP BIGRAM\"",
+                "\"EXTREP UNIGRAM\"",
+                "\"INTREP UNIGRAM\""
+            ]
+        },
+        {
+            "entity_name": "Weighted Decoding",
+            "entity_type": "CONCEPT",
+            "description": "Weighted decoding is a technique used to control conversational attributes by adjusting the probability of words based on their scores with respect to certain features. It can be applied to control attributes such as repetition, specificity, and response-relatedness. A positive weight increases the probability of words that score highly with respect to a feature, while a negative weight decreases their probability.",
+            "source_entities": [
+                "\"WEIGHTED DECODING\"",
+                "\"EXTREP BIGRAM\"",
+                "\"INTREP BIGRAM\"",
+                "\"PARTNERREP BIGRAM\"",
+                "\"EXTREP UNIGRAM\"",
+                "\"INTREP UNIGRAM\""
+            ]
+        },
+        {
+            "entity_name": "Conditional Training",
+            "entity_type": "CONCEPT",
+            "description": "Conditional training is a method applied to control conversational attributes by training a model under specific conditions and then applying weighted decoding at test time. It can be used in conjunction with weighted decoding to control attributes such as specificity and response-relatedness.",
+            "source_entities": [
+                "\"CONDITIONAL TRAINING\""
+            ]
+        },
+        {
+            "entity_name": "Response-Relatedness",
+            "entity_type": "CONCEPT",
+            "description": "Response-relatedness is a conversational attribute that ensures responses are related to the partner's last utterance in a conversation. It is controlled using the decoding feature resp rel, which measures the relatedness between the response and the partner's utterance.",
+            "source_entities": [
+                "\"RESPONSE-RELATEDNESS\"",
+                "\"RESP REL\""
+            ]
+        }
+    ],
+    "chunk-cb1496866355af9e7e6b4ccb451766fd": null,
+    "chunk-2db2df383f9e0dcc2bfa014fdfd468b1": [
+        {
+            "entity_name": "Conditional Training",
+            "entity_type": "Event",
+            "description": "A method used to control question-asking in dialogue systems, with the ability to adjust the rate of questions asked by the model. It is effective in controlling question-asking at the distributional, dialogue level, and preferable to weighted decoding as it allows achieving a range of question rates without introducing the risk of degenerate output. It requires retraining and examples of the controllable attribute but is safer and more direct in capturing the attribute of interest compared to weighted decoding.",
+            "source_entities": [
+                "\"CONDITIONAL TRAINING\"",
+                "CT MODEL"
+            ]
+        },
+        {
+            "entity_name": "Weighted Decoding",
+            "entity_type": "Event",
+            "description": "A method used to control question-asking in dialogue systems by assigning weights to interrogative words. It can encourage or discourage questions but has unintended side-effects and risks going off-distribution when the weight is too strong. It is slower at test time and does not require retraining or examples of the controllable attribute, but it can control any computable feature.",
+            "source_entities": [
+                "\"WEIGHTED DECODING\"",
+                "IS QN WORD $(W)$",
+                "EXTREP BIGRAM",
+                "$Z\\;=\\;10\\;(B O O S T)$"
+            ]
+        },
+        {
+            "entity_name": "Question-asking",
+            "entity_type": "Event",
+            "description": "The act of inquiring information within a dialogue, which is controlled in this context to study the trade-offs between too few or too many questions. It is controlled using conditional training and weighted decoding methods to find the optimal balance.",
+            "source_entities": [
+                "\"QUESTION-ASKING\""
+            ]
+        },
+        {
+            "entity_name": "Human Evaluation",
+            "entity_type": "Event",
+            "description": "The process considered for assessing the dialogue system's performance in controlling question-asking using the conditional training method. It is used to evaluate the effectiveness of the control methods in achieving the desired question-asking rates.",
+            "source_entities": [
+                "\"HUMAN EVALUATION\""
+            ]
+        },
+        {
+            "entity_name": "Dialogue System Model",
+            "entity_type": "Organization",
+            "description": "The model refers to the dialogue system being trained and evaluated for its ability to control question-asking and maintain semantic relatedness in responses. It is trained using conditional training and weighted decoding methods.",
+            "source_entities": [
+                "\"MODEL\""
+            ]
+        },
+        {
+            "entity_name": "Control Variable $z$",
+            "entity_type": "Concept",
+            "description": "The control variable $z$ is used in conditional training to represent different settings for controlling question-asking rates in the model's responses. It has 11 possible values, with $z=i$ meaning that the model should produce, on average, utterances containing ‘?’ with probability $i/10$.",
+            "source_entities": [
+                "\"$Z$\""
+            ]
+        },
+        {
+            "entity_name": "Cosine Similarity",
+            "entity_type": "Concept",
+            "description": "The overall cosine similarity between the partner’s last utterance and the model’s response, used as an ineffective method to control response-relatedness.",
+            "source_entities": [
+                "\"$\\MATHTT{C O S\\_S I M}(\\MATHTT{S E N T\\_E M B}(Y),\\MATHTT{S E N T}$ EMB(ℓ))\""
+            ]
+        },
+        {
+            "entity_name": "Utterance $y$",
+            "entity_type": "Concept",
+            "description": "An instance of speech or writing, considered in the context of whether it contains a question mark or not, used to define the control variable $z$ for conditional training.",
+            "source_entities": [
+                "\"UTTERANCE $Y$\""
+            ]
+        },
+        {
+            "entity_name": "Appendix F",
+            "entity_type": "Document",
+            "description": "Appendix F is referenced as the location where exact numbers related to the control methods and their effects can be found.",
+            "source_entities": [
+                "\"APPENDIX F\""
+            ]
+        }
+    ],
+    "chunk-44f4fb5bff825e761bf2d6022ff9e493": null,
+    "chunk-52f18fc482be6f297ab38f40ffc0749a": [
+        {
+            "entity_name": "Figure 3 and Figure 4",
+            "entity_type": "GEO",
+            "description": "Figures referenced in the text to discuss the performance of different models in terms of engagingness, specificity, and interestingness.",
+            "source_entities": [
+                "FIGURE 3",
+                "FIGURE 4"
+            ]
+        },
+        {
+            "entity_name": "Appendix H",
+            "entity_type": "GEO",
+            "description": "Appendix referenced for further discussion on control settings and their evaluation in terms of response-relatedness and interestingness.",
+            "source_entities": [
+                "APPENDIX H"
+            ]
+        },
+        {
+            "entity_name": "images/image_7.jpg",
+            "entity_type": "GEO",
+            "description": "A source for additional visual data related to the study, mentioned in the context of the A/B interestingness evaluation process.",
+            "source_entities": [
+                "IMAGES/IMAGE_7.JPG"
+            ]
+        },
+        {
+            "entity_name": "Table 3",
+            "entity_type": "GEO",
+            "description": "Table referenced to show A/B tests comparing various specificity-controlled models to the repetition-controlled baseline on interestingness.",
+            "source_entities": [
+                "TABLE 3"
+            ]
+        },
+        {
+            "entity_name": "Figure 7",
+            "entity_type": "GEO",
+            "description": "Figure mentioned in the context of the A/B interestingness evaluation process, where crowdworkers were shown two conversations and asked to choose which model was more interesting.",
+            "source_entities": [
+                "FIGURE 7"
+            ]
+        }
+    ],
+    "chunk-cf711e589066a10a0dcbe740d428a710": [],
+    "chunk-33f0349892df7c41e5fbf4bb581ea98a": [],
+    "chunk-8254eb704a12c68df90e37de4dd27b96": [
+        {
+            "entity_name": "Repetition-controlled baseline",
+            "entity_type": "ORGANIZATION",
+            "description": "Repetition-controlled baseline is a model used as a reference point for comparison in human evaluations, involved in the A/B test UI comparison, and is also known as 'Repetition-controlled baseline model' and 'Repetition-controlled baseline+' in different contexts.",
+            "source_entities": [
+                "REPETITION-CONTROLLED BASELINE MODEL",
+                "REPETITION-CONTROLLED BASELINE",
+                "REPETITION-CONTROLLED BASELINE+"
+            ]
+        },
+        {
+            "entity_name": "Human evaluation results",
+            "entity_type": "EVENT",
+            "description": "Human evaluation results is an event where the outcomes of human evaluations for different models are presented, including raw scores and calibrated scores, detailed in Tables 7 and 8.",
+            "source_entities": [
+                "HUMAN EVALUATION RESULTS FOR ALL CONFIGURATIONS",
+                "TABLE 7",
+                "TABLE 8"
+            ]
+        },
+        {
+            "entity_name": "Figures in the text",
+            "entity_type": "GEO",
+            "description": "Figures in the text refer to various geographical locations within the document where different types of information are presented, including screenshots of UIs, example conversations, and plots of human evaluation results.",
+            "source_entities": [
+                "FIGURE 3",
+                "FIGURE 4",
+                "FIGURE 5",
+                "FIGURE 6",
+                "FIGURE 7",
+                "FIGURE 8",
+                "FIGURE 9"
+            ]
+        },
+        {
+            "entity_name": "Tables in the text",
+            "entity_type": "GEO",
+            "description": "Tables in the text refer to various geographical locations within the document where different types of data are detailed, including binary features for controlling repetition, control settings for configurations, automatic metrics for model configurations, and scores for human evaluation metrics.",
+            "source_entities": [
+                "TABLE 4",
+                "TABLE 5",
+                "TABLE 6",
+                "TABLE 7",
+                "TABLE 8"
+            ]
+        },
+        {
+            "entity_name": "Controlled models in human evaluation",
+            "entity_type": "ORGANIZATION",
+            "description": "Controlled models in human evaluation include various models that are evaluated based on different control settings, such as 'Question-controlled CT', 'Specificity-controlled WD', and 'Response-related controlled models', which introduce repetition controls to block certain types of repetition.",
+            "source_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)",
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )",
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ]
+}

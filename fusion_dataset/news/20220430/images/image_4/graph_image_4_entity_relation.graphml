@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_TRAIN-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Fire truck- Color: Primarily red, with some white and reflective elements- Shape: Rectangular, with a boxy structure typical of fire trucks- Size: Large, occupying most of the frame- Material: Metal, with reflective surfaces for visibility- Possible function: Used by firefighters to transport equipment and personnel to emergency scenes- Other significant characteristics: Equipped with lights on top, which are illuminated, suggesting it is in use or ready for deployment; the lighting conditions suggest it is either dusk or night"</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a large industrial complex, specifically an oil refinery. The scene is set during twilight or early evening, as indicated by the sky transitioning from blue to shades of orange and pink. Dominating the foreground is a tall, cylindrical chimney painted in alternating bands of red and white. This chimney is a prominent feature of the refinery and stands out against the sky. Surrounding the chimney are numerous interconnected structures and frameworks, indicative of the intricate network of pipes, tanks, and processing units typical of an oil refinery. These structures are illuminated by artificial lighting, casting a warm glow that contrasts with the cooler tones of the sky. The background features a clear horizon with a few scattered clouds, adding depth to the scene. The overall atmosphere conveys a sense of industrial activity and complexity, highlighting the scale and intricacy of modern refining operations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<node id="&quot;INDUSTRIAL COMPLEX&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A large industrial complex with multiple interconnected buildings and structures, illuminated at dusk. The complex features a prominent tall chimney and various other industrial equipment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<node id="&quot;CHIMNEY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A tall, cylindrical structure with a red and white striped pattern, standing prominently within the industrial complex."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<node id="&quot;BUILDINGS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Multiple interconnected buildings with intricate frameworks, part of the industrial complex."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<node id="&quot;EQUIPMENT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various pieces of industrial equipment and machinery scattered throughout the complex."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_TRAIN-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_train-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;INDUSTRIAL COMPLEX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Industrial Complex是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;CHIMNEY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chimney是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Buildings是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;EQUIPMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Equipment是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INDUSTRIAL COMPLEX&quot;" target="&quot;CHIMNEY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chimney is a significant component of the industrial complex, serving as a focal point within the structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INDUSTRIAL COMPLEX&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The buildings are integral parts of the industrial complex, forming its structural backbone."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INDUSTRIAL COMPLEX&quot;" target="&quot;EQUIPMENT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The equipment is essential for the operations within the industrial complex, contributing to its functionality."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

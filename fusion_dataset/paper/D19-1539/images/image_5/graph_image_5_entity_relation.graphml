@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the F1 scores for different models on the CoNLL 2003 Named Entity Recognition (NER) task. The table has two main columns: 'dev F1' and 'test F1', which represent the F1 scores on the development and test datasets, respectively. The rows list various models and their corresponding F1 scores. The first row shows the model 'ELMo_BASE' with dev F1 of 95.7 and test F1 of 92.2. The second row lists 'CNN Large + ELMo' with slightly higher scores at 96.4 for dev F1 and 93.2 for test F1. The third row, 'CNN Large + fine-tune', achieves the highest scores in this set with 96.9 for dev F1 and 93.5 for test F1. The fourth and fifth rows present the BERT models, 'BERT_BASE' and 'BERT_LARGE', with dev F1 scores of 96.4 and 96.6, respectively, and test F1 scores of 92.4 and 92.8, respectively. The table highlights the performance comparison among these models, showing that the CNN Large model with fine-tuning performs the best."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<node id="&quot;ELMO_BASE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that achieves a dev F1 score of 95.7 and a test F1 score of 92.2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<node id="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that combines CNN Large with ELMo, achieving a dev F1 score of 96.4 and a test F1 score of 93.2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<node id="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that combines CNN Large with fine-tuning, achieving a dev F1 score of 96.9 and a test F1 score of 93.5."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT_BASE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that achieves a dev F1 score of 96.4 and a test F1 score of 92.4."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT_LARGE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that achieves a dev F1 score of 96.6 and a test F1 score of 92.8."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ELMO_BASE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ELMo_BASE是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Large + ELMo是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Large + fine-tune是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT_BASE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT_BASE是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT_LARGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT_LARGE是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CNN Large + ELMo model improves upon the ELMo_BASE model in both dev and test F1 scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CNN Large + fine-tune model improves upon the ELMo_BASE model in both dev and test F1 scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;BERT_BASE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_BASE model performs similarly to the ELMo_BASE model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;BERT_LARGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_LARGE model performs similarly to the ELMo_BASE model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + ELMO&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CNN Large + fine-tune model outperforms the CNN Large + ELMo model in both dev and test F1 scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + ELMO&quot;" target="&quot;BERT_BASE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_BASE model performs similarly to the CNN Large + ELMo model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + ELMO&quot;" target="&quot;BERT_LARGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_LARGE model performs similarly to the CNN Large + ELMo model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + FINE-TUNE&quot;" target="&quot;BERT_BASE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_BASE model performs similarly to the CNN Large + fine-tune model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + FINE-TUNE&quot;" target="&quot;BERT_LARGE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The BERT_LARGE model performs similarly to the CNN Large + fine-tune model in dev F1 score but slightly worse in test F1 score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT_BASE&quot;" target="&quot;BERT_LARGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BERT_LARGE model performs slightly better than the BERT_BASE model in both dev and test F1 scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

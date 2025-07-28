@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram consisting of three separate flowcharts, each addressing a different question. The first flowchart asks, 'Where are Rosebushes typically found outside of large buildings?' It shows a sequence of nodes connected by labeled edges. The nodes are: Building, Courtyard, Flowers, and Rosebushes. The edges are labeled as 'Has parts', 'Spatial', and 'Is member of'. The second flowchart asks, 'Where would you get a Balalaika if you do not have one?' It has nodes for Balalaika, Instrument, Music store, and Get instruments. The edges are labeled 'Is member of', 'Spatial', and 'Purpose'. The third flowchart asks, 'I want to use string to keep something from moving, how should I do it?' It includes nodes for Something, String, Tie around, and Keep from moving. The edges are labeled 'Spatial', 'Activity', and 'Cause &amp; effect'. Each node is represented by a circle, and the edges are depicted as lines connecting the circles with labels indicating the relationship between the concepts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A large structure with multiple parts including a courtyard."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;COURTYARD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An outdoor area that is part of the building and contains various elements such as flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Plants that are members of the courtyard, including rosebushes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;ROSEBUSHES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Specific type of flower found in the courtyard outside of large buildings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;BALALAIKA&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A musical instrument that is a member of the instrument category."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;INSTRUMENT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tool used for making music, which includes the balalaika."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;MUSIC STORE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A place where one can purchase instruments such as the balalaika."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;SOMETHING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An unspecified object that needs to be kept from moving."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;STRING&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A material used to tie around objects to keep them from moving."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+</node>
+<node id="&quot;TIE AROUND&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d1">"Tying string around something is an activity that keeps it from moving."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;KEEP FROM MOVING&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d1">"Tying string around something causes it to stay in place."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;COURTYARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Courtyard是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ROSEBUSHES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rosebushes是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BALALAIKA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Balalaika是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;INSTRUMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Instrument是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MUSIC STORE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Music store是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SOMETHING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Something是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;STRING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"String是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BUILDING&quot;" target="&quot;COURTYARD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The courtyard is a part of the building."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COURTYARD&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Flowers are members of the courtyard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOWERS&quot;" target="&quot;ROSEBUSHES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Rosebushes are a specific type of flower found in the courtyard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BALALAIKA&quot;" target="&quot;INSTRUMENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The balalaika is a member of the instrument category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INSTRUMENT&quot;" target="&quot;MUSIC STORE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Instruments, including the balalaika, can be obtained from a music store."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SOMETHING&quot;" target="&quot;STRING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"String is used to tie around something to keep it from moving."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STRING&quot;" target="&quot;TIE AROUND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Tying string around something is an activity that keeps it from moving."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TIE AROUND&quot;" target="&quot;KEEP FROM MOVING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Tying string around something causes it to stay in place."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

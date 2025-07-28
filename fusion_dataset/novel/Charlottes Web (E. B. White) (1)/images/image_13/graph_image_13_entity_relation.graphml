@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_13&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white line drawing of a small pig lying down on the ground. The pig appears to be resting or sleeping, with its body curled up in a relaxed position. Its head is nestled into its front legs, and its eyes are closed, suggesting a state of rest or sleep. The pig's fur is depicted with fine lines, giving it a textured appearance. The background is minimalistic, with only a few lines indicating some grass or hay beneath the pig. The overall atmosphere conveyed by the image is one of tranquility and peacefulness, as the pig seems content and at ease in its environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A pig is lying down on the grass, appearing to be sleeping or resting. The pig has a rounded body, small ears, and a short tail."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The grass is depicted as a patch of ground with individual blades drawn around the pig, indicating the pig is resting on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+</node>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pig is lying on the grass, suggesting a relationship where the grass serves as the surface for the pig's rest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

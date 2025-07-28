@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_HANDBAG-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Duffel bag- Color: Bright orange- Shape: Cylindrical with a wider base, tapering slightly towards the top- Size: Appears to be medium-sized, suitable for travel or sports equipment- Material: Seems to be made of a durable fabric, possibly nylon or polyester, with a smooth texture- Possible function: Used for carrying and transporting items, likely for activities such as sports, gym, or short trips- Other significant characteristics: Equipped with a sturdy handle at the top for easy carrying; the design suggests it is meant for practical use and high visibilityOverall, the duffel bag appears to be a functional and eye-catching piece of luggage, designed for durability and ease of transport."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_CAR-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Car- Color: Dark, possibly black or dark blue- Shape: Partial view of the side profile, showing a sleek and modern design- Size: Appears to be a full-sized vehicle, likely an SUV or crossover based on the visible proportions- Material: Standard automotive materials, including metal and plastic components- Possible function: Personal transportation vehicle, designed for passenger use with potential advanced features given the modern appearanceThe car has a glossy finish, indicating it is well-maintained or new. The visible part of the car includes a door handle, a portion of the window, and what appears to be a side mirror or lighting element at the top right corner. The design suggests a contemporary model with a focus on aesthetics and possibly advanced technology."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, styled neatly- Eyes: Not visible due to the angle and focus on the side profile- Expression: Neutral, focused, possibly concentrating on an activity- Age: Appears to be a young adult or teenager- Clothing: Wearing a white polo shirt with short sleeves; bright yellow shorts- Accessories: No visible accessories- Posture: Side profile, slightly bent forward, suggesting movement or actionOverall, the character appears to be engaged in some form of physical activity, possibly sports, given the attire and posture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a male tennis player walking outdoors, likely at the U.S. Open tennis tournament. He is carrying a large red duffel bag over his shoulder and is dressed in a white shirt and bright yellow shorts. The background features a hedge with the 'US Open' logo prominently displayed on it. The setting appears to be a parking lot or an outdoor area near the tennis courts, as indicated by the presence of a car and a parking sign. The atmosphere suggests a professional environment, possibly during a break or after a match. The player's posture and the way he carries his bag suggest he is either arriving at or leaving the venue."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man wearing a white shirt and yellow shorts, carrying a red sports bag."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;US OPEN SIGN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A sign with the US Open logo on a hedge."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;CAR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A black car parked near the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<node id="&quot;PARKING LOT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A parking lot with wet ground, indicating recent rain."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_HANDBAG-2.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_handbag-2.jpg is a picture of the red sports bag carried by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_HANDBAG-2.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_handbag-2.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_CAR-1.JPG&quot;" target="&quot;CAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_car-1.jpg is a picture of a car."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_CAR-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_car-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;US OPEN SIGN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"US Open Sign是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Car是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PARKING LOT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Parking Lot是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;US OPEN SIGN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing next to the US Open sign."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;CAR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is walking towards the car."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;PARKING LOT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The man is standing in the parking lot."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;US OPEN SIGN&quot;" target="&quot;PARKING LOT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The sign is located in the parking lot."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

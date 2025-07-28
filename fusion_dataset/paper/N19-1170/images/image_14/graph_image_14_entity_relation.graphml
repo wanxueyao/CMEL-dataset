@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_14&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed table labeled 'Automatic metrics for all configurations'. The table is divided into several columns and rows, presenting various metrics computed over a validation set for different model configurations. The columns are as follows: 'Repetition', which is further subdivided into 'External' (with sub-columns 'Bigram' and 'Unigram) and 'Internal' (with sub-columns 'Bigram' and 'Unigram), and 'Partner Rep.' (with a single 'Bigram' column); 'Specificity'; 'Response-rel'; and 'Questions'. Each of these main columns contains multiple rows corresponding to different configurations or baselines. For example, the 'Gold Data and baselines' section includes 'Gold Data', 'Greedy Search', and 'Beam Search (beam size 20)'. Specific values include 'Gold Data' having an External Bigram of 4.65%, External Unigram of 9.62%, Internal Bigram of 0.38%, Internal Unigram of 0.97%, Partner Rep. Bigram of 5.10%, Specificity of 0.2119, Response-rel Cos sim of 0.1691, and Questions Has '?' of 28.80%. Other configurations show varying percentages and values, such as 'Beam Search (beam size 20)' with External Bigram at 46.85% and External Unigram at 44.15%. The table also includes sections for 'Repetition control (WD)', 'Question control (CT)', 'Specificity control (CT)', 'Specificity control (WD)', and 'Response-related control (WD)', each with specific values for the aforementioned metrics."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying various data points and metrics related to repetition, specificity, response-related control, and questions in a conversational model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<node id="&quot;REPETITION METRICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Metrics showing the percentage of external, internal, and partner repetitions for bigram and unigram models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY METRICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Metrics indicating the specificity of responses using NIDF values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<node id="&quot;RESPONSE-RELATED METRICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Metrics measuring the cosine similarity between responses and questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<node id="&quot;QUESTION METRICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Metrics tracking the presence of question marks in responses."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+</node>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;REPETITION METRICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Repetition Metrics是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;SPECIFICITY METRICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity Metrics是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;RESPONSE-RELATED METRICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Response-related Metrics是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;QUESTION METRICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question Metrics是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;REPETITION METRICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains data on repetition metrics."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SPECIFICITY METRICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains data on specificity metrics."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RESPONSE-RELATED METRICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains data on response-related metrics."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;QUESTION METRICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains data on question metrics."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

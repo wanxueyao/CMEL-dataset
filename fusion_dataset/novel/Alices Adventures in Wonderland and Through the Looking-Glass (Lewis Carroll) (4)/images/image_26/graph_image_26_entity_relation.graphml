@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_26&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting two characters in a humorous and exaggerated manner. The character on the left appears to be an older man with wild hair, wearing a large hat and a long coat. He is sitting on a wooden fence, his legs dangling over one side, and he seems to be in a state of distress or discomfort. His posture is awkward, with one arm hanging down and the other bent at the elbow. The character on the right is a skeleton, standing upright and leaning against the fence with its arms crossed. The skeleton has a comical expression, with its head tilted slightly and its eyes wide open. The background shows a natural setting with trees and bushes, and the ground is covered with leaves and small plants. The overall atmosphere is whimsical and surreal, with a touch of absurdity and humor. The illustration style is detailed and expressive, capturing the exaggerated features and emotions of the characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with wild hair, wearing a large hat and coat, sitting on a wooden fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence with the man sitting on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Trees in the background behind the fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+</node>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is sitting on the fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is in front of the trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FENCE&quot;" target="&quot;TREES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The fence is in front of the trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

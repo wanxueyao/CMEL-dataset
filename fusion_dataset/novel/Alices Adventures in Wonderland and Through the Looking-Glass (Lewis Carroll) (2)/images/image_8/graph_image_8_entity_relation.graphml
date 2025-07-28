@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8_ZEBRA-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Reptile, specifically a lizard- Posture: The lizard is depicted in an upright position, with its body extended vertically and its head raised high- Color: The image is monochromatic, so the color cannot be determined, but it is illustrated with various shades of gray to indicate texture and depth- Shape: The lizard has a long, slender body with a distinct tail that curves at the end. Its limbs are short and positioned on either side of its body, with visible claws on its feet- Size: The lizard appears to be of a moderate size relative to the industrial elements it is perched upon, suggesting it could be a species adapted to urban or industrial environments- Structural Characteristics: The lizard's skin is textured with scales, and its body tapers towards the tail. It is depicted emerging from a pipe or chimney, which adds to the industrial context of the illustrationOverall, the image portrays a lizard in an unusual setting, blending natural and man-made elements in a striking composition."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a lizard-like creature emerging from a chimney. The creature appears to be in a state of distress or surprise, with its body partially out of the chimney and its tail still inside. The creature's limbs are spread out, and it has a long, slender body with a pointed tail. The chimney itself is depicted with a sense of motion, as if the creature is being expelled forcefully. There are wavy lines around the creature, suggesting smoke or steam emanating from the chimney. The overall atmosphere of the image conveys a sense of urgency and chaos, as if the creature has been unexpectedly ejected from the chimney."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+</node>
+<node id="&quot;LIZARD&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A lizard is depicted in an upright position, with its body elongated and its limbs spread out. It appears to be emerging from a chimney or similar structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+</node>
+<node id="&quot;CHIMNEY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A stone chimney with a damaged top, emitting smoke. The lizard is emerging from this chimney."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8_ZEBRA-0.JPG&quot;" target="&quot;LIZARD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_8_zebra-0.jpg is a picture of a lizard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8_ZEBRA-0.JPG&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_8_zebra-0.jpg是image_8的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;LIZARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lizard是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CHIMNEY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chimney是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LIZARD&quot;" target="&quot;CHIMNEY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The lizard is emerging from the chimney, suggesting a relationship where the chimney serves as a habitat or point of emergence for the lizard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

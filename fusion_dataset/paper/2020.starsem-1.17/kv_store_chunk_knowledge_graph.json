@@ -1,0 +1,2051 @@
+{
+    "2": {
+        "chunk_key": "chunk-3833266841eb207cc0ecb59f88a8c765",
+        "entities": [
+            {
+                "entity_name": "\"DS-DST MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DS-DST model is the proposed dual strategy model for Dialogue State Tracking (DST), utilizing BERT for encoding and slot gate classification.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al., 2019 are the authors associated with the pre-trained BERT model used in the DS-DST model.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are referenced for their work on slot gate classification in multidomain dialogues.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"XU AND HU, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xu and Hu, 2018 are referenced for their work on slot gate classification in the context of the DS-DST model.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a pre-trained model used in the DS-DST model for encoding information about the dialogue context and each domain-slot pair.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"DIALOGUE CONTEXT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dialogue Context refers to the conversation history up to a certain turn, denoted as $X_t$, which includes pairs of system and user utterances.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"DOMAIN-SLOT PAIRS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Domain-Slot Pairs are the combinations of domains and slots being discussed in the dialogue, represented as ${\\cal S}$.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"NON-CATEGORICAL SLOTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Non-Categorical Slots are domain-slot pairs treated as non-categorical, utilizing a two-way linear mapping to find text spans.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"CATEGORICAL SLOTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Categorical Slots are domain-slot pairs treated as categorical, selecting the most plausible values from the picklists based on contextual representation.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"PICKLIST\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Picklist refers to the list of possible candidate values for each categorical slot, denoted as $\\{V_{1},\\ldots,V_{L}\\}$.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"SLOT GATE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Slot Gate is a classification module designed to predict the appearance of domain-slot pairs at each turn of the dialogue.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "entity_name": "\"MULTIDOMAIN DIALOGUES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Multidomain Dialogues are dialogues that involve multiple domains, making the prediction of domain-slot pairs more complex.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DS-DST MODEL\"",
+                "tgt_id": "\"DEVLIN ET AL., 2019\"",
+                "weight": 8.0,
+                "description": "\"The DS-DST model utilizes the pre-trained BERT model by Devlin et al., 2019 for encoding dialogue context and domain-slot pairs.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"DS-DST MODEL\"",
+                "tgt_id": "\"WU ET AL., 2019\"",
+                "weight": 7.0,
+                "description": "\"The DS-DST model follows the slot gate classification approach by Wu et al., 2019 for predicting domain-slot pair appearances in dialogue turns.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"DS-DST MODEL\"",
+                "tgt_id": "\"XU AND HU, 2018\"",
+                "weight": 7.0,
+                "description": "\"The DS-DST model is influenced by the work of Xu and Hu, 2018 in designing its slot gate classification module.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"DIALOGUE CONTEXT\"",
+                "weight": 9.0,
+                "description": "\"BERT encodes the dialogue context to obtain contextualized representations for domain-slot pairs.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"DOMAIN-SLOT PAIRS\"",
+                "weight": 9.0,
+                "description": "\"BERT encodes each domain-slot pair to obtain contextualized representations conditioned on the domain-slot information.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"NON-CATEGORICAL SLOTS\"",
+                "tgt_id": "\"CATEGORICAL SLOTS\"",
+                "weight": 8.0,
+                "description": "\"Non-Categorical Slots and Categorical Slots are two different types of domain-slot pairs handled differently in the DS-DST model.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"CATEGORICAL SLOTS\"",
+                "tgt_id": "\"PICKLIST\"",
+                "weight": 8.0,
+                "description": "\"Categorical Slots select the most plausible values from the picklist based on the contextual representation.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"SLOT GATE\"",
+                "tgt_id": "\"DOMAIN-SLOT PAIRS\"",
+                "weight": 9.0,
+                "description": "\"Slot Gate classifies whether a domain-slot pair appears at each turn of the dialogue, playing a crucial role in DST.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            },
+            {
+                "src_id": "\"MULTIDOMAIN DIALOGUES\"",
+                "tgt_id": "\"SLOT GATE\"",
+                "weight": 7.0,
+                "description": "\"The complexity of multidomain dialogues necessitates the use of a slot gate to predict domain-slot pair appearances accurately.\"",
+                "source_id": "chunk-3833266841eb207cc0ecb59f88a8c765"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-66776e940011a1a6551ba1d5b182197d",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a pre-trained model used as a feature extractor in the described model architecture for slot-value prediction tasks.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.0 is an event or dataset referenced in the text, which contains dialogues used for training and evaluation in the domain-slot prediction model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.1 is an event or dataset referenced in the text, which is an updated version of MultiWOZ 2.0 and contains dialogues for the domain-slot prediction model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"DOMAIN-SLOT PAIR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Domain-Slot Pair refers to the combination of a domain and a slot for which predictions are made in the model, such as 'hotel' and 'price range'.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"SLOT GATE CLASSIFICATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Slot Gate Classification is a part of the model that classifies whether a slot is active in a given context, using a cross-entropy loss function.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"NON-CATEGORICAL SLOT-VALUE PREDICTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Non-Categorical Slot-Value Prediction is the process of mapping slot values to spans in the dialog context, using token-level representations and a two-way linear mapping.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"CATEGORICAL SLOT-VALUE PREDICTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Categorical Slot-Value Prediction involves predicting values for categorical slots from a list of candidate values, using a pre-trained BERT model and cosine similarity for relevance scoring.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$W_{G A T E}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Learnable parameters used in the slot gate classification of the model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$B_{G A T E}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Bias term used in the slot gate classification of the model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{L}_{G A T E}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The cross-entropy loss function used for slot gate classification.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$Y_{T J}^{G A T E}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"One-hot gate label for the jth domain-slot pair at the tth turn in slot gate classification.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\ALPHA_{T J}^{S T A R T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Start vector obtained from the two-way linear mapping for non-categorical slots.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\ALPHA_{T J}^{E N D}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"End vector obtained from the two-way linear mapping for non-categorical slots.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$W_{S P A N}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Learnable parameters used in the two-way linear mapping for non-categorical slots.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$B_{S P A N}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Bias term used in the two-way linear mapping for non-categorical slots.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$P_{T J}^{S T A R T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Probability of the ith word being the start position of the span in non-categorical slot-value prediction.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{L}_{S T A R T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Loss function for the start position prediction in non-categorical slot-value prediction.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$Y_{T J}^{S T A R T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"One-hot start position label for the jth domain-slot pair at the tth turn in non-categorical slot-value prediction.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{L}_{E N D}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Loss function for the end position prediction in non-categorical slot-value prediction.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{L}_{S P A N}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Total loss for non-categorical slot-value prediction, summation of $\\mathcal{L}_{s t a r t}$ and $\\mathcal{L}_{e n d}$.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$Y_{L}^{\\MATHRM{CLS}}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Aggregated representation of each candidate value obtained from a separate pre-trained BERT model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$R_{T J}^{\\MATHRM{CLS}}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Aggregated representation from the slot-context encoder used in the calculation of relevance score.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Margin used in the hinge loss function to enlarge the difference between the similarity of $r_{t j}^{\\mathrm{CLS}}$ to the target value and that to the most similar value in the candidate-value list.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{L}_{P I C K L I S T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Hinge loss function used to enlarge the difference between the similarity of $r_{t j}^{\\mathrm{CLS}}$ to the target value and that to the most similar value in the candidate-value list.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"SLOT GATE CLASSIFICATION\"",
+                "weight": 8.0,
+                "description": "\"BERT is used as a feature extractor in the Slot Gate Classification part of the model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"NON-CATEGORICAL SLOT-VALUE PREDICTION\"",
+                "weight": 8.0,
+                "description": "\"BERT provides token-level representations used in the Non-Categorical Slot-Value Prediction process.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"CATEGORICAL SLOT-VALUE PREDICTION\"",
+                "weight": 8.0,
+                "description": "\"BERT is used to get aggregated representations of candidate values in Categorical Slot-Value Prediction.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "src_id": "\"MULTIWOZ 2.0\"",
+                "tgt_id": "\"DOMAIN-SLOT PAIR\"",
+                "weight": 7.0,
+                "description": "\"MultiWOZ 2.0 contains dialogues that are used to form Domain-Slot Pairs for the model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "src_id": "\"MULTIWOZ 2.1\"",
+                "tgt_id": "\"DOMAIN-SLOT PAIR\"",
+                "weight": 7.0,
+                "description": "\"MultiWOZ 2.1 contains dialogues that are used to form Domain-Slot Pairs for the model.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            },
+            {
+                "src_id": "\"$W_{G A T E}$\"",
+                "tgt_id": "\"$\\MATHCAL{L}_{G A T E}$\"",
+                "weight": 7.0,
+                "description": "\"$W_{g a t e}$ is used in the calculation of the loss function $\\mathcal{L}_{g a t e}$.\"",
+                "source_id": "chunk-66776e940011a1a6551ba1d5b182197d"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-0674e6b156ddc1542ca4a1c858314e2e",
+        "entities": [
+            {
+                "entity_name": "\"DS-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DS-DST is a method used for multi-domain dialog state tracking, which shows significant improvement over DS-Span in certain slots.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"DS-PICKLIST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"DS-SPAN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "DS-Span is a proposed method that treats all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.1 is the test set used to evaluate the performance of dialog state tracking methods like DS-DST, DS-Picklist, and DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"NOREEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noreen is referenced in the context of a statistical test used to determine the significance of differences in performance between dialog state tracking methods.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"HOTEL-TYPE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hotel-type is a slot in the dialog state tracking task where the type of hotel is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"ATTRACTIONTYPE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Attractiontype is a slot in the dialog state tracking task where the type of attraction is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"ATTRACTION-NAME\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Attraction-name is a slot in the dialog state tracking task where the name of the attraction is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"HOTEL-INTERNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hotel-internet is a slot in the dialog state tracking task where the availability of internet in hotels is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"HOTELPARKING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hotelparking is a slot in the dialog state tracking task where the availability of parking at hotels is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"TAXI-LEAVE AT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Taxi-leave at is a time-related slot in the dialog state tracking task where the time for a taxi to leave is determined, where DS-Span and DS-DST underperform.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"TRAINARRIVE BY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Trainarrive by is a time-related slot in the dialog state tracking task where the time for a train to arrive is determined, where DS-Span and DS-DST underperform.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"#UNFOUND\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"#Unfound refers to the number of slots whose values cannot be found through span matching in the dialog context, impacting the performance of DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"#RELATIVE_TURNS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"#Relative_Turns refers to the number of dialogue turns where the slot type is mentioned, used to evaluate the performance of dialog state tracking methods.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "entity_name": "\"#RECOVER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"#Recover indicates the number of values correctly predicted by DS-DST or DS-Picklist, showing their effectiveness in predicting missing values.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"MULTIWOZ 2.1\"",
+                "weight": 8.0,
+                "description": "\"DS-DST is evaluated on the MultiWOZ 2.1 test set, showing significant improvement over the DS-Span baseline for certain slots.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"DS-PICKLIST\"",
+                "tgt_id": "\"MULTIWOZ 2.1\"",
+                "weight": 8.0,
+                "description": "\"DS-Picklist is evaluated on the MultiWOZ 2.1 test set, showing significant improvement over the DS-Span baseline for certain slots.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"DS-SPAN\"",
+                "tgt_id": "\"MULTIWOZ 2.1\"",
+                "weight": 6.0,
+                "description": "\"DS-Span is evaluated on the MultiWOZ 2.1 test set, where it underperforms compared to DS-DST and DS-Picklist in certain slots.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"NOREEN\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 5.0,
+                "description": "\"Noreen's statistical test is used to evaluate the performance of DS-DST against DS-Span, indicating significant differences.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"NOREEN\"",
+                "tgt_id": "\"DS-SPAN\"",
+                "weight": 5.0,
+                "description": "\"Noreen's statistical test is used to evaluate the performance of DS-Span, showing it to be less effective than DS-DST and DS-Picklist.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"HOTEL-TYPE\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 8.0,
+                "description": "\"DS-DST shows significant improvement in predicting the hotel-type slot over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"ATTRACTIONTYPE\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 8.0,
+                "description": "\"DS-DST shows significant improvement in predicting the attractiontype slot over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"ATTRACTION-NAME\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 8.0,
+                "description": "\"DS-DST shows significant improvement in predicting the attraction-name slot over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"HOTEL-INTERNET\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 8.0,
+                "description": "\"DS-DST shows significant improvement in predicting the hotel-internet slot over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"HOTELPARKING\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 8.0,
+                "description": "\"DS-DST shows significant improvement in predicting the hotelparking slot over DS-Span.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"TAXI-LEAVE AT\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 4.0,
+                "description": "\"DS-DST underperforms in predicting the taxi-leave at slot due to lack of span matching in the dialogue context.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            },
+            {
+                "src_id": "\"TRAINARRIVE BY\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 4.0,
+                "description": "\"DS-DST underperforms in predicting the trainarrive by slot due to lack of span matching in the dialogue context.\"",
+                "source_id": "chunk-0674e6b156ddc1542ca4a1c858314e2e"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-212df6f08b9496aebe049dddcfe0c79c",
+        "entities": [
+            {
+                "entity_name": "\"GAO ET AL., 2019B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gao et al., 2019b are researchers who contributed to the field of machine reading comprehensions.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"ASAI ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Asai et al., 2019 are researchers who contributed to the field of machine reading comprehensions.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"RASTOGI ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rastogi et al., 2020 are researchers who provided heuristics for differentiating between categorical and non-categorical slots.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a pre-trained model used in the DualStrategy Dialog State Tracking model for encoding inputs.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.0 is an event or dataset where the DualStrategy Dialog State Tracking model achieved state of the art performance.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.1 is an event or dataset where the DualStrategy Dialog State Tracking model achieved competitive performance.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"BUDZIANOWSKI ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Budzianowski et al., 2018 are researchers associated with the development of MultiWOZ 2.0.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"ERIC ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric et al., 2019 are researchers associated with the development of MultiWOZ 2.1.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"WILLIAMS ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Williams et al., 2013 are researchers who contributed to the development of Dialogue State Tracking Challenges.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"HENDERSON ET AL., 2014A,B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Henderson et al., 2014a,b are researchers who contributed to the development of Dialogue State Tracking Challenges.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"KIM ET AL., 2016, 2017, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kim et al., 2016, 2017, 2019 are researchers who contributed to the development of Dialogue State Tracking Challenges.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"XU AND HU, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xu and Hu, 2018 are researchers who proposed a method to extract slot values through span matching with start and end positions in the dialog context.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al., 2019 are researchers associated with the development of the BERT model.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al., 2018 are researchers associated with the development of the GPT model.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"LEI ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lei et al., 2018 are researchers who explored generative approaches for multi-domain DST.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are researchers who explored generative approaches for multi-domain DST.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"LE ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Le et al., 2020 are researchers who explored generative approaches for multi-domain DST.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"MULTI-DOMAIN DST\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Multi-domain DST refers to dialog state tracking across multiple domains with many slots, a hot research topic in recent years.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"DIALOGUE STATE TRACKING CHALLENGES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Dialogue State Tracking Challenges are events that have contributed to the development of the field, with various researchers contributing over the years.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"RAMADAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ramadan et al., 2018 are researchers who have worked on slot value constraints within a full ontology.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"LIU AND LANE, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu and Lane, 2017 are researchers who have worked on slot value constraints within a full ontology.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"ZHONG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhong et al., 2018 are researchers who have worked on slot value constraints within a full ontology.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"SUMBT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SUMBT is a model that employs BERT to extract representations of candidate values.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "entity_name": "\"BERT-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-DST is a model that adopts BERT to encode the inputs of the user turn as well as the previous system turn.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MULTI-DOMAIN DST\"",
+                "tgt_id": "\"DIALOGUE STATE TRACKING CHALLENGES\"",
+                "weight": 7.0,
+                "description": "\"Multi-domain DST has been a hot research topic during the development of Dialogue State Tracking Challenges.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "src_id": "\"SUMBT\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"SUMBT employs BERT to extract representations of candidate values.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            },
+            {
+                "src_id": "\"BERT-DST\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT-DST adopts BERT to encode the inputs of the user turn as well as the previous system turn.\"",
+                "source_id": "chunk-212df6f08b9496aebe049dddcfe0c79c"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-d342986fead6b9e93e3b5e50b8194cac",
+        "entities": [
+            {
+                "entity_name": "\"JIAN-GUO ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jian-Guo Zhang is an author affiliated with the University of Illinois at Chicago, contributing to the research on Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"KAZUMA HASHIMOTO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kazuma Hashimoto is an author affiliated with Salesforce Research, Palo Alto, involved in the development of a dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"CHIEN-SHENG WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chien-Sheng Wu is an author affiliated with Salesforce Research, Palo Alto, working on the dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"YAO WAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yao Wan is an author affiliated with Huazhong University of Science and Technology, Wuhan, China, contributing to the DST research.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"PHILIP S. M\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philip S. M is an author affiliated with Salesforce Research, Palo Alto, involved in the development of the dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author affiliated with Salesforce Research, Palo Alto, contributing to the research on Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"CAIMING XIONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Caiming Xiong is an author affiliated with Salesforce Research, Palo Alto, involved in the development of the dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"UNIVERSITY OF ILLINOIS AT CHICAGO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The University of Illinois at Chicago is an institution where research on Dialog State Tracking is conducted by Jian-Guo Zhang.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"SALESFORCE RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Salesforce Research is an organization where Kazuma Hashimoto, Chien-Sheng Wu, Philip S. M, Richard Socher, and Caiming Xiong work on DST models.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"HUAZHONG UNIVERSITY OF SCIENCE AND TECHNOLOGY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Huazhong University of Science and Technology is an institution where Yao Wan works and contributes to the research on Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"CHICAGO\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Chicago is the location of the University of Illinois at Chicago, where research on Dialog State Tracking is conducted.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"PALO ALTO\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Palo Alto is the location of Salesforce Research, where several authors are affiliated and contribute to the DST research.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"WUHAN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Wuhan is the location of Huazhong University of Science and Technology, where Yao Wan is affiliated and contributes to DST research.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"DIALOG STATE TRACKING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Dialog State Tracking is the event or process being researched, which involves tracking user goals and intentions in task-oriented dialog systems.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"BERT-BASED MODEL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The BERT-based model is an event or development in the field of DST, introduced to balance ontology-based and ontology-free methods.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"DUALSTRATEGY DIALOG STATE TRACKING MODEL (DS-DST)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The DualStrategy Dialog State Tracking model (DS-DST) is an event or development in DST, designed to handle both categorical and non-categorical slots.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is referenced as the basis for a model that balances ontology-based and ontology-free methods in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.0 is the noisy setting of the MultiWOZ datasets used for evaluating the performance of Dialog State Tracking models.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.1 is the cleaner setting of the MultiWOZ datasets used for evaluating the performance of Dialog State Tracking models.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"YOUNG ET AL., 2013\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Young et al., 2013 is a reference to prior work in Dialog State Tracking, indicating its historical significance in the field.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"GAO ET AL., 2019A\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Gao et al., 2019a is a reference to a study that highlights the importance of Dialog State Tracking in task-oriented dialog systems.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"ZHOU AND SMALL, 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Zhou and Small, 2019 introduced a question-asking model and dynamic knowledge graph to address issues in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"RASTOGI ET AL., 2020\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Rastogi et al., 2020 is a reference to a study that introduced a BERT-based model to balance ontology-based and ontology-free methods in DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Devlin et al., 2019 is a reference to the original BERT model, which has influenced the development of DST models.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Lee et al., 2019 is a reference to a study that indicates the need for more research on the use of pre-trained models in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"RAMADAN ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Ramadan et al., 2018 is a reference to a study on ontology-based approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"ZHONG ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Zhong et al., 2018 is a reference to a study on ontology-based approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2020\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Chen et al., 2020 is a reference to a study on ontology-based approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"GAO ET AL., 2019B\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Gao et al., 2019b is a reference to a study on ontology-free approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"XU AND HU, 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Xu and Hu, 2018 is a reference to a study on ontology-free approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Wu et al., 2019 is a reference to a study that discusses the computational expense of ontology-based approaches in Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JIAN-GUO ZHANG\"",
+                "tgt_id": "\"UNIVERSITY OF ILLINOIS AT CHICAGO\"",
+                "weight": 8.0,
+                "description": "\"Jian-Guo Zhang is affiliated with the University of Illinois at Chicago for his research on Dialog State Tracking.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "src_id": "\"KAZUMA HASHIMOTO\"",
+                "tgt_id": "\"SALESFORCE RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Kazuma Hashimoto is affiliated with Salesforce Research, contributing to the development of the dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "src_id": "\"CHIEN-SHENG WU\"",
+                "tgt_id": "\"SALESFORCE RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Chien-Sheng Wu is affiliated with Salesforce Research and works on the dual-strategy model for DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            },
+            {
+                "src_id": "\"DUALSTRATEGY DIALOG STATE TRACKING MODEL (DS-DST)\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 8.0,
+                "description": "\"The DualStrategy Dialog State Tracking model (DS-DST) adapts the BERT model to handle both categorical and non-categorical slots in DST.\"",
+                "source_id": "chunk-d342986fead6b9e93e3b5e50b8194cac"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-b7e67152e09814a094103db45b53d4c0",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a pre-trained model used in natural language processing, specifically with the 'bert-base-uncased' configuration.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"BERTADAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BertAdam is an optimizer used in the fine-tuning process of the BERT model, as referenced by Devlin et al., 2019.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"DS-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DS-DST is a model mentioned in the context of using a constant margin $\\lambda$ set to 0.5, indicating its role in the fine-tuning process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"DS-PICKLIST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MultiWOZ 2.0 is a dataset used for training, with an initial learning rate set to $1e-4$ and a learning rate warmup proportion of 0.1.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MultiWOZ 2.1 is another dataset used for training, with the same parameters as MultiWOZ 2.0.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2019\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lee et al., 2019 refers to a study that details a learning rate decay mechanism followed in the training process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"MUL0729\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MUL0729 is a dialogue identifier in the validation set of MultiWOZ 2.1, where DS-Span predicts hotel type and hotel internet incorrectly.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"PMUL2428\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PMUL2428 is another dialogue identifier in the validation set of MultiWOZ 2.1, with predicted dialog states presented in Table 8.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"HOTEL TYPE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hotel type is a geo-related entity mentioned in the context of DS-Span's incorrect prediction for dialogue MUL0729.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"HOTEL INTERNET\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hotel internet is another geo-related entity with a predicted error by DS-Span in dialogue MUL0729, where 'yes' is incorrectly predicted instead of 'free wifi'.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"TAXI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Taxi is a geo-related entity involved in the predicted state for dialogue PMUL2428 at the $6_{th}$ turn, which DS-Span fails to predict correctly.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"DEPARTURE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Departure is a geo-related entity associated with the taxi state predicted incorrectly by DS-Span in dialogue PMUL2428.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"FUNKY FUN HOUSE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Funky fun house is a geo-related entity that is part of the incorrectly predicted state <taxi, departure, funky fun house> by DS-Span in dialogue PMUL2428.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"WORDPIECE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordPiece tokenization is used in the BERT model, with a maximum input sequence length set to 512.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The constant margin $\\lambda$ is set to 0.5 for the DS-DST and DS-Picklist models, indicating its role in the model configuration.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"1E-4\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The initial learning rate is set to $1e-4$ for the MultiWOZ 2.0 and MultiWOZ 2.1 datasets, indicating its importance in the training process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"0.1\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The proportion for learning rate warmup is set to 0.1 for the MultiWOZ 2.0 and MultiWOZ 2.1 datasets, showing its role in the training setup.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"16\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The batch size is set to 16, which is a parameter in the training process of the models.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"5\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The maximum number of training epochs is set to 5, which is a parameter in the model training process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"1,000\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The joint accuracy on the validation set is checked after every 1,000 iterations, indicating its role in monitoring the training progress.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"DSSPAN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSSpan is a model that predicts dialog states and is evaluated on its performance in predicting specific values in the dialogues.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "entity_name": "\"FREE WIFI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Free wifi is a value related to hotel internet that DS-Span fails to predict correctly in the context of dialogue MUL0729.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"BERTADAM\"",
+                "weight": 8.0,
+                "description": "\"BERT model parameters are updated using the BertAdam optimizer during the fine-tuning process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"DS-DST\"",
+                "weight": 7.0,
+                "description": "\"BERT is used in the fine-tuning process where DS-DST is one of the models that utilizes a constant margin $\\lambda$.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"DS-PICKLIST\"",
+                "weight": 7.0,
+                "description": "\"BERT is used in the fine-tuning process where DS-Picklist is another model that uses a constant margin $\\lambda$.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"MULTIWOZ 2.0\"",
+                "weight": 7.0,
+                "description": "\"BERT is employed for fine-tuning using the MultiWOZ 2.0 dataset with specific learning rate parameters.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"WORDPIECE\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"WordPiece tokenization is used in conjunction with the BERT model for processing input sequences.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"$\\LAMBDA$\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The constant margin $\\lambda$ is a parameter used in the BERT model fine-tuning process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"1E-4\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The initial learning rate of $1e-4$ is a parameter used in the BERT model fine-tuning process for the MultiWOZ datasets.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"0.1\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The learning rate warmup proportion of 0.1 is a parameter used in the BERT model fine-tuning process for the MultiWOZ datasets.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"16\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The batch size of 16 is a parameter used in the BERT model fine-tuning process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"5\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The maximum number of training epochs, set to 5, is a parameter used in the BERT model fine-tuning process.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"1,000\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The BERT model's training progress is monitored by checking the joint accuracy on the validation set after every 1,000 iterations.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"DSSPAN\"",
+                "tgt_id": "\"MUL0729\"",
+                "weight": 8.0,
+                "description": "\"DSSpan predicts dialog states for the dialogue MUL0729, including incorrect predictions for hotel type and hotel internet.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            },
+            {
+                "src_id": "\"DSSPAN\"",
+                "tgt_id": "\"PMUL2428\"",
+                "weight": 8.0,
+                "description": "\"DSSpan predicts dialog states for the dialogue PMUL2428, including an incorrect prediction for the state <taxi, departure, funky fun house>.\"",
+                "source_id": "chunk-b7e67152e09814a094103db45b53d4c0"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc",
+        "entities": [
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"MultiWOZ 2.0 is a multi-domain dialogue corpus with seven distinct domains and over 10,000 dialogues.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"MultiWOZ 2.1 is an updated version of MultiWOZ 2.0 with dataset corrections, including dialog states, spelling errors, dialogue utterance corrections, and mis-annotations.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"BUDZIANOWSKI ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Budzianowski et al., 2018 are the authors associated with the creation of the MultiWOZ 2.0 dataset.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"ERIC ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric et al., 2019 are the authors associated with the creation of the MultiWOZ 2.1 dataset and provided details on dataset corrections.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are referenced for their work on ignoring hospital and police domains in experiments and for providing a data pre-processing script.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"XU AND HU, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xu and Hu, 2018 are the authors of the SpanPtr model, which applies a RNN-based pointer network for finding text spans.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"GAO ET AL., 2019B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gao et al., 2019b are the authors of the DSTreader model, which models DST from the perspective of machine reading comprehensions.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"ZHOU AND SMALL, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhou and Small, 2019 are the authors of the DSTQA model, which applies a dynamically-evolving knowledge graph for DST.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"REN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ren et al., 2019 are the authors of the COMER model, which applies BERT for generating slot sequences in the belief state.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"RASTOGI ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rastogi et al., 2020 are the authors of the BERT-DST model, which uses BERT for schema element embeddings and dialogue state tracking.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"SPANPTR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SpanPtr is a model that applies a RNN-based pointer network to find text spans with start and end pointers for each domain-slot pair.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"PTR-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ptr-DST is a variant of SpanPtr that deals with categorical slots, following the DS-DST approach.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"DSTREADER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSTreader is a model that models DST from the perspective of machine reading comprehensions and uses pre-trained BERT as initial word embeddings.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"DSTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSTQA is a model that applies a dynamically-evolving knowledge graph and generates questions for the values of a domain-slot pair.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"TRADE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"TRADE is a model that contains a slot gate module for slots classification and a pointer generator for states generation.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"COMER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"COMER is a model that applies BERT as contextualized word embeddings and generates slot sequences in the belief state, then value sequences for each slot.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"BERT-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-DST is a model that uses BERT to obtain schema element embeddings and encode system as well as user utterances for dialogue state tracking.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"HOSPITAL DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hospital domain is one of the domains in the MultiWOZ datasets, but it is ignored in the experiments due to a low number of dialogues.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"POLICE DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Police domain is another domain in the MultiWOZ datasets that is ignored in the experiments due to a low number of dialogues.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"TRAIN DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Train domain is one of the five domains adopted in the experiments, focusing on dialogues related to train-related inquiries.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"RESTAURANT DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Restaurant domain is one of the five domains adopted in the experiments, focusing on dialogues related to restaurant-related inquiries.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"HOTEL DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hotel domain is one of the five domains adopted in the experiments, focusing on dialogues related to hotel-related inquiries.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"TAXI DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Taxi domain is one of the five domains adopted in the experiments, focusing on dialogues related to taxi-related inquiries.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"ATTRACTION DOMAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Attraction domain is one of the five domains adopted in the experiments, focusing on dialogues related to attraction-related inquiries.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"DOMAIN-SLOT PAIRS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Domain-slot pairs refer to the combination of domain-specific slots that are used in the dialogues for the purpose of dialogue state tracking.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"DIALOGUE STATE TRACKING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Dialogue state tracking is the process of identifying and tracking the state of a dialogue, which is a central task in the context of the MultiWOZ datasets.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"STRING MATCHING\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"String matching is a technique used to find spans for non-categorical slots by comparing ground truth values with dialog contexts.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"ONTOLOGY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Ontology refers to the partial or full schema that is used in dialogue state tracking to define the structure of the dialogues.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"SST-2\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"SST-2 is a dataset mentioned in the text, though its specific relation to the other entities is not detailed in the provided text.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "entity_name": "\"CHEN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al. are referenced in the text, but their specific contribution or relation to the other entities is not detailed in the provided text.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MULTIWOZ 2.0\"",
+                "tgt_id": "\"HOSPITAL DOMAIN\"",
+                "weight": 4.0,
+                "description": "\"MultiWOZ 2.0 includes the hospital domain, which is ignored in the experiments.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "src_id": "\"MULTIWOZ 2.0\"",
+                "tgt_id": "\"POLICE DOMAIN\"",
+                "weight": 4.0,
+                "description": "\"MultiWOZ 2.0 includes the police domain, which is ignored in the experiments.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "src_id": "\"MULTIWOZ 2.1\"",
+                "tgt_id": "\"HOSPITAL DOMAIN\"",
+                "weight": 4.0,
+                "description": "\"MultiWOZ 2.1 includes the hospital domain, which is ignored in the experiments.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "src_id": "\"MULTIWOZ 2.1\"",
+                "tgt_id": "\"POLICE DOMAIN\"",
+                "weight": 4.0,
+                "description": "\"MultiWOZ 2.1 includes the police domain, which is ignored in the experiments.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            },
+            {
+                "src_id": "\"DIALOGUE STATE TRACKING\"",
+                "tgt_id": "\"DOMAIN-SLOT PAIRS\"",
+                "weight": 8.0,
+                "description": "\"Dialogue state tracking involves tracking the state of domain-slot pairs during a dialogue.\"",
+                "source_id": "chunk-4a88ef391418e2f5c8b39687aa4cd0cc"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-f62a8c110929832aa89c04f4579fcabf",
+        "entities": [
+            {
+                "entity_name": "\"ERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ERT is mentioned in the context of contextualized word embeddings and slot sequences generation in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"BERT-DST\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BERT-DST is an event or model described by Rastogi et al., 2020, which uses BERT for schema element embeddings and dialogue state tracking with a pointer-generator copying mechanism.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"SST-2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SST-2 is an event or model mentioned by Chen et al., 2020, which uses a graph neural network to incorporate slot relations and model slot interactions.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"DS-DST\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"DS-DST is a proposed dual strategy model for DST, capable of handling both non-categorical and categorical slots, following heuristics from Rastogi et al., 2020.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"DS-SPAN\"",
+                "entity_type": "\"EVENT\"",
+                "description": "DS-Span is a proposed method that treats all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"DS-PICKLIST\"",
+                "entity_type": "\"EVENT\"",
+                "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MultiWOZ 2.0 is a dataset used for evaluating dialogue state tracking models, mentioned in the context of test set results.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MultiWOZ 2.1 is a dataset used for evaluating dialogue state tracking models, mentioned in the context of test set results and model comparisons.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"RASTOGI ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rastogi et al., 2020 are authors referenced for their work on dialogue state tracking and the BERT-DST model.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"XU AND HU (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xu and Hu (2018) are authors referenced for their work related to DS-Span, treating domain-slot pairs as noncategorical slots.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"GAO ET AL. (2019B)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gao et al. (2019b) are authors referenced for their work related to DS-Span, treating domain-slot pairs as noncategorical slots.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al., 2019 are authors referenced for their work related to DS-Picklist, assuming a full ontology and treating domain-slot pairs as categorical slots.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2020 are authors referenced for their work on SST-2, using a graph neural network for dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2020 are authors referenced for their work on ToD-BERT, a large pre-trained model based on several task-oriented dialogue datasets.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"NOREEN, 1989\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noreen, 1989 is referenced for the bootstrap resampling method used to test the significance of performance differences in slot-level accuracy.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"MULTIWOZ DATASETS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MultiWOZ datasets are used for dialogue state tracking and are referenced for their non-categorical slots.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"TABLE 4\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 4 is referenced for details on categorical and non-categorical slots for DS-DST.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model used for obtaining schema element embeddings and encoding system and user utterances in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"SPANPTR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SpanPtr is a method compared with DS-Span, using BERT for dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"COMMER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"COMMER is a model that uses a pre-trained BERT model for dialogue context embeddings in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"DSTREADER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSTreader is a model that uses a pre-trained BERT model for word embeddings in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "entity_name": "\"TOD-BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ToD-BERT is a large pre-trained model based on several task-oriented dialogue datasets, used for dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT-DST\"",
+                "tgt_id": "\"RASTOGI ET AL., 2020\"",
+                "weight": 8.0,
+                "description": "\"BERT-DST is a model described by Rastogi et al., 2020, indicating their contribution to the field of dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"RASTOGI ET AL., 2020\"",
+                "weight": 1.0,
+                "description": "\"DS-DST follows heuristics from Rastogi et al.(\"entity\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"DS-DST uses BERT for encoding system and user utterances in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-SPAN\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"DS-Span employs the strength of BERT for dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"DS-SPAN\"",
+                "weight": 6.0,
+                "description": "\"DS-DST and DS-Span are compared in terms of performance in multi-domain DST.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"DS-PICKLIST\"",
+                "weight": 6.0,
+                "description": "\"DS-DST and DS-Picklist are compared in terms of DST performance, with DS-Picklist showing improvement when a full ontology is available.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-SPAN\"",
+                "tgt_id": "\"SPANPTR\"",
+                "weight": 7.0,
+                "description": "\"DS-Span outperforms SpanPtr by 10.91% in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"BERT-DST\"",
+                "weight": 7.0,
+                "description": "\"DS-DST outperforms BERT-DST by 7.81% on MultiWOZ 2.1 in dialogue state tracking.\"",
+                "source_id": "chunk-f62a8c110929832aa89c04f4579fcabf"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-9ea56e64633d44e846e55b17f2865108",
+        "entities": [
+            {
+                "entity_name": "\"DS-SPAN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "DS-Span is a proposed method that treats all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"DS-DST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DS-DST is a model compared with DS-Span and DS-Picklist in the context of multi-domain dialog state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"DS-PICKLIST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.0 is a dataset mentioned in the context of dialog state tracking research, with noted annotation errors, ambiguity, and inconsistency.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.1 is a dataset mentioned in the context of dialog state tracking research, with noted annotation errors, ambiguity, and inconsistency.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MULTIWOZ 2.2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiWOZ 2.2 is the latest dataset with higher quality and consistency, mentioned in the context of dialog state tracking research.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"NSF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF is an organization that supports the work described in the paper through grants.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SALESFORCE RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Salesforce Research is an organization that contributed to the work through insightful discussions.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"BUDZIANOWSKI ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Budzianowski et al., 2018 are authors who contributed to the MultiWOZ 2.0 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"ERIC ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric et al., 2019 are authors who contributed to the MultiWOZ 2.1 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"ZANG ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zang et al., 2020 are authors who contributed to the MultiWOZ 2.2 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are authors whose pre-processing ways are followed by some papers for the evaluation of the MultiWOZ dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"GABRIEL STANOVSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gabriel Stanovsky is an author who worked on evaluating question answering evaluation.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SAMEER SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sameer Singh is an author who worked on evaluating question answering evaluation.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is an author who worked on evaluating question answering evaluation.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"LU CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lu Chen is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"BOER LV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Boer Lv is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"CHI WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chi Wang is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SU ZHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Su Zhu is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"BOWEN TAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bowen Tan is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"KAI YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kai Yu is an author who worked on schema-guided multi-domain dialogue state tracking.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is an author who worked on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is an author who worked on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is an author who worked on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is an author who worked on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MIHAIL ERIC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mihail Eric is an author who worked on MultiWOZ 2.1.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"RAHUL GOEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rahul Goel is an author who worked on MultiWOZ 2.1.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SHACHI PAUL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shachi Paul is an author who worked on MultiWOZ 2.1.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"ABHISHEK SETHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Abhishek Sethi is an author who worked on both MultiWOZ 2.1 and Dialog state tracking: A neural reading comprehension approach.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SANCHIT AGARWAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sanchit Agarwal is an author who worked on both MultiWOZ 2.1 and Dialog state tracking: A neural reading comprehension approach.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"SHUYANG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shuyang Gao is an author who worked on Dialog state tracking: A neural reading comprehension approach.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"TAGYOUNG CHUNG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tagyoung Chung is an author who worked on Dialog state tracking: A neural reading comprehension approach.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "entity_name": "\"MATTHEW HENDERSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew Henderson is an author who worked on several dialog state tracking challenges.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DS-SPAN\"",
+                "tgt_id": "\"MULTIWOZ 2.0\"",
+                "weight": 8.0,
+                "description": "\"DS-Span is a model that achieves state of the art results on the MultiWOZ 2.0 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"MULTIWOZ 2.0\"",
+                "weight": 7.0,
+                "description": "\"DS-DST is a model that is compared with DS-Span on the MultiWOZ 2.0 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "src_id": "\"DS-SPAN\"",
+                "tgt_id": "\"MULTIWOZ 2.1\"",
+                "weight": 7.0,
+                "description": "\"DS-Span is a model that achieves competitive results on the MultiWOZ 2.1 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "src_id": "\"DS-DST\"",
+                "tgt_id": "\"MULTIWOZ 2.1\"",
+                "weight": 7.0,
+                "description": "\"DS-DST is a model that is compared with DS-Span on the MultiWOZ 2.1 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "src_id": "\"NSF\"",
+                "tgt_id": "\"SALESFORCE RESEARCH\"",
+                "weight": 6.0,
+                "description": "\"NSF supports the work that involves Salesforce Research members in insightful discussions.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            },
+            {
+                "src_id": "\"BUDZIANOWSKI ET AL., 2018\"",
+                "tgt_id": "\"MULTIWOZ 2.0\"",
+                "weight": 10.0,
+                "description": "\"Budzianowski et al., 2018 are the authors of the MultiWOZ 2.0 dataset.\"",
+                "source_id": "chunk-9ea56e64633d44e846e55b17f2865108"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-e584b0ec5e814f387a8facb9f9a9c502",
+        "entities": [
+            {
+                "entity_name": "\"HARO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Haro is one of the authors of the paper 'The fourth dialog state tracking challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"RAFAEL E BANCHS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rafael E Banchs is one of the authors of the paper 'The fourth dialog state tracking challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"JASON D WILLIAMS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason D Williams is one of the authors of the paper 'The fourth dialog state tracking challenge' and 'Pomdp-based statistical spoken dialog systems: A review'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"MATTHEW HENDERSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew Henderson is one of the authors of the paper 'The fourth dialog state tracking challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"SEOKHWAN KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Seokhwan Kim is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"MICHEL GALLEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michel Galley is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"CHULAKA GUNASEKARA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chulaka Gunasekara is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"SUNGJIN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sungjin Lee is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ADAM ATKINSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Atkinson is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"BAOLIN PENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Baolin Peng is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"HANNES SCHULZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hannes Schulz is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"JINCHAO LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jinchao Li is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"MAHMOUD ADADA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mahmoud Adada is one of the authors of the paper 'The eighth dialog system technology challenge'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ADARSH KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adarsh Kumar is one of the authors of the paper 'Ma-dst: Multi-attention based scalable dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"PETER KU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter Ku is one of the authors of the paper 'Ma-dst: Multi-attention based scalable dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ANUJ KUMAR GOYAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anuj Kumar Goyal is one of the authors of the paper 'Ma-dst: Multi-attention based scalable dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ANGELIKI METALLINOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Angeliki Metallinou is one of the authors of the paper 'Ma-dst: Multi-attention based scalable dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"DILEK HAKKANI-TUR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dilek Hakkani-Tur is one of the authors of the paper 'Ma-dst: Multi-attention based scalable dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"HUNG LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hung Le is one of the authors of the paper 'Non-autoregressive dialog state tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard(\"entity\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"HWARAN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hwaran Lee is one of the authors of the paper 'Sumbt: Slot-utterance matching for universal and scalable belief tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"JINSIK LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jinsik Lee is one of the authors of the paper 'Sumbt: Slot-utterance matching for universal and scalable belief tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"TAE-YOON KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tae-Yoon Kim is one of the authors of the paper 'Sumbt: Slot-utterance matching for universal and scalable belief tracking'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"WENQIANG LEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wenqiang Lei is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"XISEN JIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xisen Jin is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"MIN-YEN KAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Min-Yen Kan is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ZHAOCHUN REN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhaochun Ren is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"XIANGNAN HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiangnan He is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"DAWEI YIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dawei Yin is one of the authors of the paper 'Sequicity: Simplifying task-oriented dialogue systems with single sequence-to-sequence architectures'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"KEVIN LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Lin is one of the authors of the paper 'Adversarial ranking for language generation'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"DIANQI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dianqi Li is one of the authors of the paper 'Adversarial ranking for language generation'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"XIAODONG HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaodong He is one of the authors of the paper 'Adversarial ranking for language generation'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ZHENGYOU ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhengyou Zhang is one of the authors of the paper 'Adversarial ranking for language generation'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"MING-TING SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Ting Sun is one of the authors of the paper 'Adversarial ranking for language generation'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"BING LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bing Liu is one of the authors of the paper 'An end-to-end trainable neural network model with belief tracking for task-oriented dialog'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"IAN LANE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ian Lane is one of the authors of the paper 'An end-to-end trainable neural network model with belief tracking for task-oriented dialog'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"ERIC W. NOREEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric W. Noreen is the author of the book 'Computer-Intensive Methods for Testing Hypotheses: An Introduction'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            },
+            {
+                "entity_name": "\"LIN QIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lin Qiu is one of the authors of the paper 'Dynamically fused graph network for multi-hop reasoning'.\"",
+                "source_id": "chunk-e584b0ec5e814f387a8facb9f9a9c502"
+            }
+        ],
+        "relationships": []
+    }
+}

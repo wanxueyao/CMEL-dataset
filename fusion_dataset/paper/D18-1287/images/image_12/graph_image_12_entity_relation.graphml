@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two distinct sections. The top section shows a panoramic view with a probability map overlaid on it, representing the goal prediction probability maps \( P_g \) for LANI. The probability map is characterized by a gradient of colors ranging from blue to yellow, indicating different probabilities. The background appears to be an outdoor scene with grass and a fence. The bottom section displays another panoramic view, this time for CHAI, with a similar probability map overlay. This section seems to depict an indoor environment, possibly a kitchen or a room with cabinets and a dining area. The text 'curve around big rock keeping it to your left' is written in the middle of the image, suggesting navigation instructions. The overall image conveys the concept of goal prediction in the context of instruction following tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+</node>
+<node id="&quot;BIG ROCK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large rock in the outdoor environment that requires navigation around it by keeping it to the left."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+</node>
+<node id="&quot;OUTDOOR ENVIRONMENT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An open area with grass and a path that curves around the big rock."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+</node>
+<node id="&quot;INDOOR ENVIRONMENT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An interior space with a kitchen, dining room, and other furnishings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;BIG ROCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Big Rock是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;OUTDOOR ENVIRONMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Outdoor Environment是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;INDOOR ENVIRONMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Indoor Environment是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIG ROCK&quot;" target="&quot;OUTDOOR ENVIRONMENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The big rock is located within the outdoor environment and serves as a landmark for navigation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;OUTDOOR ENVIRONMENT&quot;" target="&quot;INDOOR ENVIRONMENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The outdoor environment is adjacent to the indoor environment, suggesting a transition from outside to inside."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

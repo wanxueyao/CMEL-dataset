@@ -1,0 +1,467 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a dialog state tracking example for booking a hotel and reserving a restaurant. The dialog is structured into turns, with each turn containing a user utterance (in grey) and a system utterance (in orange). The dialog state tracker (in green) tracks all the <domain, slot, value> triplets until the current turn. The blue color denotes the new state appearing at that turn. The conversation begins with the user stating they are looking for a cheap hotel. The system responds by asking if the user has a specific area in mind. The user then specifies they need parking. The system finds a cheap hotel with parking and asks if the user wants to book it. The user confirms and provides details for 6 people staying for 3 nights starting on Tuesday. The system confirms the booking and provides a reference number. The user then requests to book an expensive restaurant with Japanese food. The dialog state tracker updates accordingly with each turn."
+        },
+        {
+            "entity_name": "HOTEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A cheap hotel with parking facilities, booked for 6 people for 3 nights starting on Tuesday."
+        },
+        {
+            "entity_name": "RESTAURANT",
+            "entity_type": "ORGANIZATION",
+            "description": "An expensive restaurant serving Japanese food."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed diagram illustrating the architecture of a proposed DS-DST model. The left part of the diagram represents a fixed BERT model, which acts as a feature extractor and outputs representations of values in the candidate-value list for each categorical slot (marked in purple). This part includes nodes labeled 'CLS', 'v1', ..., 'vc', and 'SEP', with arrows indicating the flow of information through the network. The right part of the diagram shows another fine-tuned BERT model that outputs representations for the concatenation of each domain-slot pair and the recent dialog context. This section includes nodes labeled 'r^CLS', 'r1', ..., 'rn', 'r^SEP', 'rn+2', ..., 'rK', with arrows indicating the flow of information. Above this section, there are two bar charts labeled 'Start Vector Distribution' and 'End Vector Distribution', showing the distribution of start and end positions for non-categorical slots in the dialog context. Below the BERT models, there are boxes labeled 'Candidate-Value List', 'Domain-Slot Pair', and 'Recent Dialog Context', providing examples of the types of data these models process. The Candidate-Value List includes examples such as 'cheap', 'expensive', 'moderate'. The Domain-Slot Pair includes examples like 'hotel, price range', 'taxi, arrive by'. The Recent Dialog Context includes an example dialogue snippet."
+        },
+        {
+            "entity_name": "COSINE SIMILARITY MATCHING",
+            "entity_type": "EVENT",
+            "description": "The process of matching using cosine similarity between the candidate-value list and the BERT output vectors."
+        },
+        {
+            "entity_name": "CANDIDATE-VALUE LIST",
+            "entity_type": "OBJECT",
+            "description": "A list containing values such as 'cheap', 'expensive', and 'moderate' for comparison with the BERT output."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bidirectional Encoder Representations from Transformers model used for generating vector representations of input text."
+        },
+        {
+            "entity_name": "CLS",
+            "entity_type": "OBJECT",
+            "description": "Special token in BERT representing the classification token at the beginning of a sequence."
+        },
+        {
+            "entity_name": "SEP",
+            "entity_type": "OBJECT",
+            "description": "Special token in BERT representing the separation token used to separate sentences in a sequence."
+        },
+        {
+            "entity_name": "START VECTOR DISTRIBUTION",
+            "entity_type": "OBJECT",
+            "description": "Distribution of start vectors indicating the probability of each token being the start of an entity."
+        },
+        {
+            "entity_name": "END VECTOR DISTRIBUTION",
+            "entity_type": "OBJECT",
+            "description": "Distribution of end vectors indicating the probability of each token being the end of an entity."
+        },
+        {
+            "entity_name": "DOMAIN-SLOT PAIR",
+            "entity_type": "OBJECT",
+            "description": "Pair consisting of a domain (e.g., hotel) and a slot (e.g., price range) used for specifying information in a dialogue system."
+        },
+        {
+            "entity_name": "RECENT DIALOG CONTEXT",
+            "entity_type": "OBJECT",
+            "description": "Contextual information from recent dialogues, including system and user utterances."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that provides dataset information for MultiWOZ 2.0 and MultiWOZ 2.1. The table is divided into two main sections: the top section lists five selected domains (Hotel, Train, Restaurant, Attraction, Taxi) along with their respective slots, and the bottom section shows the number of dialogues for each domain across three datasets (Train, Validation, Test). Each domain has multiple slots associated with it. For example, the Hotel domain includes slots such as price range, type, parking, book stay, book day, book people, area, stars, internet, and name. The Train domain includes destination, day, departure, arrive by, book people, leave at, and so on. The Restaurant domain includes food, price range, area, name, book time, book day, book people, and more. The Attraction domain includes area, name, and type. The Taxi domain includes leave at, destination, departure, and arrive by. The bottom section shows the number of dialogues for each domain in the Train, Validation, and Test datasets. For instance, the Hotel domain has 3381 dialogues in the Train set, 416 in the Validation set, and 394 in the Test set. Similarly, the Train domain has 3103 dialogues in the Train set, 484 in the Validation set, and 494 in the Test set. The Restaurant domain has 3813 dialogues in the Train set, 438 in the Validation set, and 437 in the Test set. The Attraction domain has 2717 dialogues in the Train set, 401 in the Validation set, and 395 in the Test set. The Taxi domain has 1654 dialogues in the Train set, 207 in the Validation set, and 195 in the Test set."
+        },
+        {
+            "entity_name": "DOMAIN",
+            "entity_type": "ORGANIZATION",
+            "description": "A table categorizing different domains such as Hotel, Train, Restaurant, Attraction, and Taxi."
+        },
+        {
+            "entity_name": "SLOTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A list of attributes or parameters associated with each domain, such as price range, type, parking, etc."
+        },
+        {
+            "entity_name": "TRAIN",
+            "entity_type": "EVENT",
+            "description": "A dataset split for the Train phase, containing 3381 entries."
+        },
+        {
+            "entity_name": "VALIDATION",
+            "entity_type": "EVENT",
+            "description": "A dataset split for the Validation phase, containing 416 entries."
+        },
+        {
+            "entity_name": "TEST",
+            "entity_type": "EVENT",
+            "description": "A dataset split for the Test phase, containing 394 entries."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Joint accuracy on the test sets of MultiWOZ 2.0 and 2.1.' The table lists various dialogue state tracking (DST) models and their performance metrics on two datasets, MultiWOZ 2.0 and MultiWOZ 2.1. The table has three columns: 'Models,' 'MultiWOZ 2.0,' and 'MultiWOZ 2.1.' Each row represents a different model and its corresponding joint accuracy percentage on the two datasets. The models listed are SpanPtr, Ptr-DST, DSTreader, TRADE, COMER, DSTQA w/span, DSTQA w/o span+, BERT-DST, MA-DST, SST-2+, and NA-DST. The joint accuracy percentages range from 30.28% to 55.23%. Notable performances include DSTQA w/span with 51.36% on MultiWOZ 2.0 and 49.67% on MultiWOZ 2.1, and SST-2+ with 51.17% on MultiWOZ 2.0 and 55.23% on MultiWOZ 2.1. The footnote indicates that some models require a full ontology and that some results are reported by Eric et al. (2019)."
+        },
+        {
+            "entity_name": "SPANPTR (XU AND HU, 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Xu and Hu in 2018 for dialogue state tracking. It achieved a joint goal accuracy of 30.28% on MultiWOZ 2.0 and 29.09% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "PTR-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a joint goal accuracy of 42.17% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "DSTREADER (GAO ET AL., 2019B)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Gao et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 39.41% on MultiWOZ 2.0 and 36.40% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "TRADE (WU ET AL., 2019)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Wu et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 48.62% on MultiWOZ 2.0 and 45.60% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "COMER (REN ET AL., 2019)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Ren et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 45.72% on MultiWOZ 2.0."
+        },
+        {
+            "entity_name": "DSTQA W/SPAN (ZHOU AND SMALL, 2019)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Zhou and Small in 2019 for dialogue state tracking with span. It achieved a joint goal accuracy of 51.36% on MultiWOZ 2.0 and 49.67% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "DSTQA W/O SPAN+ (ZHOU AND SMALL, 2019)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Zhou and Small in 2019 for dialogue state tracking without span. It achieved a joint goal accuracy of 51.44% on MultiWOZ 2.0 and 51.17% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "BERT-DST (RASTOGI ET AL., 2020)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Rastogi et al. in 2020 for dialogue state tracking using BERT. It achieved a joint goal accuracy of 43.40% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "MA-DST (KUMAR ET AL., 2020)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Kumar et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 51.04% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "SST-2+ (CHEN ET AL., 2020)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Chen et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 51.17% on MultiWOZ 2.0 and 55.23% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "NA-DST (LE ET AL., 2020)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Le et al. in 2020 for dialogue state tracking. It achieved a joint goal accuracy of 50.52% on MultiWOZ 2.0 and 49.04% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "DS-SPAN",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a joint goal accuracy of 42.59% on MultiWOZ 2.0 and 40.00% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a joint goal accuracy of 52.24% on MultiWOZ 2.0 and 51.21% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "DS-PICKLIST+",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a joint goal accuracy of 54.39% on MultiWOZ 2.0 and 53.30% on MultiWOZ 2.1."
+        },
+        {
+            "entity_name": "MULTIWOZ 2.0",
+            "entity_type": "UNKNOWN",
+            "description": "The model was evaluated on this dataset."
+        },
+        {
+            "entity_name": "MULTIWOZ 2.1",
+            "entity_type": "UNKNOWN",
+            "description": "The model was evaluated on this dataset."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Joint accuracy on the test sets of MultiWOZ 2.1.' The table compares the joint accuracy of different dialogue state tracking (DST) models. It contains two columns: 'Models' and 'Joint Accuracy'. The rows under 'Models' include BERT-DST (Rastogi et al., 2020), DS-DST, BERT-DST-Picklist (single turn), BERT-DST-Picklist (whole dialog history), ToD-BERT (Wu et al., 2020), and DS-Picklist. The corresponding 'Joint Accuracy' values are as follows: BERT-DST has 43.40%, DS-DST has 51.21%, BERT-DST-Picklist (single turn) has 39.86%, BERT-DST-Picklist (whole dialog history) has 46.42%, ToD-BERT has 48.00%, and DS-Picklist has 53.30%. The table highlights the performance differences among these models, with DS-Picklist achieving the highest joint accuracy."
+        },
+        {
+            "entity_name": "BERT-DST (RASTOGI ET AL., 2020)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Rastogi et al. in 2020 for dialogue state tracking with a joint accuracy of 43.40%."
+        },
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "MODEL",
+            "description": "A model for dialogue state tracking with a joint accuracy of 51.21%."
+        },
+        {
+            "entity_name": "BERT-DST-PICKLIST (SINGLE TURN)",
+            "entity_type": "MODEL",
+            "description": "A variant of BERT-DST that uses picklist information for a single turn with a joint accuracy of 39.86%."
+        },
+        {
+            "entity_name": "BERT-DST-PICKLIST (WHOLE DIALOG HISTORY)",
+            "entity_type": "MODEL",
+            "description": "A variant of BERT-DST that uses picklist information for the whole dialog history with a joint accuracy of 46.42%."
+        },
+        {
+            "entity_name": "TOD-BERT (WU ET AL., 2020)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Wu et al. in 2020 for task-oriented dialogue with a joint accuracy of 48.00%."
+        },
+        {
+            "entity_name": "DS-PICKLIST",
+            "entity_type": "MODEL",
+            "description": "A model for dialogue state tracking that uses picklist information with a joint accuracy of 53.30%."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: The slot-level accuracy on the test set of MultiWOZ 2.1.' It provides a detailed comparison of slot-level accuracy for three different models: DS-Span, DS-DST, and DS-Picklist. The table is structured with rows representing various slot types and columns representing the models and their respective accuracies. Each row includes the slot name and the accuracy values for each model, along with the improvement or degradation compared to DS-Span in parentheses. Significant improvements are highlighted in bold. The slots are categorized into categorical and non-categorical slots, separated by a dashed line. The categorical slots include hotel-type, attraction-name, restaurant-name, hotel-internet, hotel-parking, attraction-type, hotel-name, hotel-area, restaurant-area, attraction-area, hotel-price range, train-departure, restaurant-food, restaurant-price range, taxi-departure, taxi-destination, hotel-stars, train-destination, train-day, hotel-book day, restaurant-book day, train-leave at, train-arrive by, train-book people, restaurant-book time, taxi-leave at, hotel-book people, taxi-arrive by, hotel-book stay, and restaurant-book people. The average accuracy for each model is provided at the bottom of the table: DS-Span at 96.38%, DS-DST at 97.35%, and DS-Picklist at 97.40%. The table highlights significant improvements for some slots, particularly hotel-type, attraction-type, attraction-name, hotel-internet, and hotel-parking."
+        },
+        {
+            "entity_name": "DS-SPAN",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used for slot filling in dialogue systems, with an average accuracy of 96.38% across various slots such as hotel-type, attraction-name, and restaurant-name."
+        },
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "An advanced version of the DS-Span model, showing improvements in accuracy for most slots, with an overall average accuracy of 97.35%."
+        },
+        {
+            "entity_name": "DS-PICKLIST",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model used for slot filling, which performs slightly better than DS-DST on average, achieving an average accuracy of 97.40% across all slots."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Statistics of Top-10 slots on the MultiWOZ 2.1 validation set based on (#Unfound / #Relative_Turns)'. The table is structured with four main columns: Slot Name, DS-Span (#Unfound / #Relative_Turns), DS-DST, and DS-Picklist. Each row represents a specific slot name and its corresponding statistics. The rows are as follows: hotel-type (667/1395, 86.36%, 85.91%), hotel-parking (419/1048, 89.50%, 86.63%), hotel-internet (421/1124, 95.72%, 94.54%), taxi-leave at (73/364, 0.00%, 43.84%), attraction-name (215/1261, 70.23%, 74.42%), attraction-type (270/1658, 84.81%, 84.07%), train-leave at (181/1164, 2.21%, 41.44%), hotel-area (168/1452, 51.19%, 58.93%), train-arrive by (125/1428, 9.60%, 79.20%), and attraction-area (177/1620, 67.23%, 71.75%). The table highlights the performance of three different methods (DS-Span, DS-DST, and DS-Picklist) in predicting slot values that cannot be found through span matching in the dialog context. The percentages indicate the accuracy of each method in recovering the missing values."
+        },
+        {
+            "entity_name": "HOTEL-TYPE",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the type of hotel."
+        },
+        {
+            "entity_name": "HOTEL-PARKING",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying if the hotel has parking."
+        },
+        {
+            "entity_name": "HOTEL-INTERNET",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying if the hotel has internet."
+        },
+        {
+            "entity_name": "TAXI-LEAVE AT",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the time a taxi leaves."
+        },
+        {
+            "entity_name": "ATTRACTION-NAME",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the name of an attraction."
+        },
+        {
+            "entity_name": "ATTRACTION-TYPE",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the type of attraction."
+        },
+        {
+            "entity_name": "TRAIN-LEAVE AT",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the time a train leaves."
+        },
+        {
+            "entity_name": "HOTEL-AREA",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the area of the hotel."
+        },
+        {
+            "entity_name": "TRAIN-ARRIVE BY",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the time a train arrives."
+        },
+        {
+            "entity_name": "ATTRACTION-AREA",
+            "entity_type": "EVENT",
+            "description": "A slot in a dialogue system for specifying the area of an attraction."
+        },
+        {
+            "entity_name": "DS-SPAN",
+            "entity_type": "UNKNOWN",
+            "description": "The hotel-type slot is used in the DS-Span model to determine the type of hotel."
+        },
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "UNKNOWN",
+            "description": "The hotel-type slot is used in the DS-DST model to determine the type of hotel."
+        },
+        {
+            "entity_name": "DS-PICKLIST",
+            "entity_type": "UNKNOWN",
+            "description": "The hotel-type slot is used in the DS-Picklist model to determine the type of hotel."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "USER",
+            "entity_type": "PERSON",
+            "description": "The individual seeking information and making requests regarding hotel, attraction, and train details."
+        },
+        {
+            "entity_name": "SYSTEM",
+            "entity_type": "ORGANIZATION",
+            "description": "The automated system providing responses and information based on the user's queries."
+        },
+        {
+            "entity_name": "HOTEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A 4-star hotel located in the north side of Cambridge, offering free internet and parking."
+        },
+        {
+            "entity_name": "ATTRACTION",
+            "entity_type": "GEO",
+            "description": "Swimming pools located in the north area of the city, specifically Jesus Green Outdoor Pool and Kings Hedges Learner Pool."
+        },
+        {
+            "entity_name": "TRAIN",
+            "entity_type": "ORGANIZATION",
+            "description": "Trains departing from Norwich to Cambridge on Wednesday, with specific times and booking details."
+        },
+        {
+            "entity_name": "CAMBRIDGE",
+            "entity_type": "GEO",
+            "description": "The city where the hotel, attractions, and train station are located."
+        },
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_8 is a table labeled 'Table 6: Predicted dialog states on the MultiWOZ 2.1 validation set'. The table is divided into three main sections, each representing a different dialogue scenario between a user and a system. These sections include the Hotel Booking Scenario, Swimming Pool Recommendation Scenario, and Train Booking Scenario. Each section contains a conversation log and the corresponding ground truths and predictions from three different models: DS-Span, DS-DST, and DS-Picklist. \n\nIn the Hotel Booking Scenario, the user is looking for an expensive 4-star hotel with free internet and parking on the north side of Cambridge. The DS-Picklist model correctly predicts all attributes, while DS-Span and DS-DST miss some details. In the Swimming Pool Recommendation Scenario, the user asks for a good pool to visit on the north side of the city. The DS-DST and DS-Picklist models correctly predict all attributes, while DS-Span incorrectly predicts the type. In the Train Booking Scenario, the user inquires about trains leaving for Cambridge on Wednesday. All three models, DS-Span, DS-DST, and DS-Picklist, correctly predict all attributes.\n\nThe table highlights the performance of different models in predicting dialog states, with DS-Picklist generally performing better in terms of string matching."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that documents a dialogue interaction between a user and a system, focusing on the booking of a train from Ely to Cambridge and subsequently finding a place to stay. The table is structured into multiple turns, each representing a step in the dialogue. Each turn includes the user's query, the ground truths, and the predictions made by two models: DS-Span and DS-DST. The ground truths and predictions are represented as triplets indicating the type of information (e.g., train, hotel), the specific attribute (e.g., destination, stars), and the value (e.g., cambridge, 4). For example, in Turn 1, the user asks about trains from Ely to Cambridge, and both models correctly predict the departure and destination. In subsequent turns, the dialogue progresses with the user specifying more details such as the desired arrival time, day of travel, and the need for a 4-star hotel. Notably, in Turn 6, DS-Span incorrectly predicts the hotel internet as 'no' instead of 'yes', which is indicated by the ground truth and DS-DST. The table highlights the accuracy and discrepancies in the predictions made by the models compared to the ground truths."
+        },
+        {
+            "entity_name": "TRAIN",
+            "entity_type": "EVENT",
+            "description": "A train service from Ely to Cambridge with 70 available trains."
+        },
+        {
+            "entity_name": "ELY",
+            "entity_type": "GEO",
+            "description": "The departure location for the train service."
+        },
+        {
+            "entity_name": "CAMBRIDGE",
+            "entity_type": "GEO",
+            "description": "The destination location for the train service."
+        },
+        {
+            "entity_name": "SUNDAY",
+            "entity_type": "EVENT",
+            "description": "The day of the week on which the user wishes to travel, specifically for departing and arriving by 11:30 AM."
+        },
+        {
+            "entity_name": "11:30 AM",
+            "entity_type": "EVENT",
+            "description": "The specific time by which the user wishes to arrive in Cambridge."
+        },
+        {
+            "entity_name": "TR4212",
+            "entity_type": "EVENT",
+            "description": "A specific train number that arrives at 9:52 AM."
+        },
+        {
+            "entity_name": "GUESTHOUSE",
+            "entity_type": "ORGANIZATION",
+            "description": "An accommodation type the user is interested in, specifically a 4-star guesthouse in the east area with free WiFi for 4 people for 5 nights starting on Sunday."
+        },
+        {
+            "entity_name": "ALLENBELL",
+            "entity_type": "ORGANIZATION",
+            "description": "The name of the guesthouse where the reservation has been confirmed for 5 nights starting on Sunday."
+        },
+        {
+            "entity_name": "SLIVABU",
+            "entity_type": "ORGANIZATION",
+            "description": "The reference number for the confirmed reservation at Allenbell guesthouse."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that documents a dialogue interaction between a user and a system, detailing the booking process for a restaurant named Nandos on Monday at 15:00 for 6 people. The table is structured into multiple turns of conversation, each turn containing the user's request, the system's response, and the ground truths along with predictions from two models, DS-Span and DS-DST. The ground truths include various attributes such as the restaurant name, booking day, time, number of people, attraction area, and taxi details. The predictions from DS-Span and DS-DST are compared against these ground truths. For instance, in Turn 2, the ground truth includes <restaurant, book day, monday>, <restaurant, name, nandos>, <restaurant, book time, 15:00>, <restaurant, book people, 6>. Both DS-Span and DS-DST correctly predict these values. In Turn 3, the ground truth includes an additional attribute <attraction, area, east>, which both models also predict correctly. However, in Turn 6, DS-Span fails to predict the state <taxi, departure, funky fun house> correctly, while DS-DST does. The table highlights the accuracy of the models in predicting the dialog states across different turns."
+        },
+        {
+            "entity_name": "NANDOS",
+            "entity_type": "ORGANIZATION",
+            "description": "A restaurant where the user wants to book a table for 6 people on Monday at 15:00."
+        },
+        {
+            "entity_name": "MONDAY",
+            "entity_type": "EVENT",
+            "description": "The day of the week when the user wants to book a table at Nandos."
+        },
+        {
+            "entity_name": "15:00",
+            "entity_type": "EVENT",
+            "description": "The time when the user wants to book a table at Nandos."
+        },
+        {
+            "entity_name": "6 PEOPLE",
+            "entity_type": "PERSON",
+            "description": "The number of guests for whom the user wants to book a table at Nandos."
+        },
+        {
+            "entity_name": "HVB51VAM",
+            "entity_type": "ORGANIZATION",
+            "description": "The reference number for the reservation at Nandos."
+        },
+        {
+            "entity_name": "FUNKY FUN HOUSE",
+            "entity_type": "ORGANIZATION",
+            "description": "An attraction located in the east area that the user is interested in visiting."
+        },
+        {
+            "entity_name": "EAST AREA",
+            "entity_type": "GEO",
+            "description": "The location where the Funky Fun House is situated."
+        },
+        {
+            "entity_name": "01223304705",
+            "entity_type": "ORGANIZATION",
+            "description": "The phone number for the Funky Fun House."
+        },
+        {
+            "entity_name": "WHITE AUDI TAXI",
+            "entity_type": "ORGANIZATION",
+            "description": "The taxi booked by the system to transport the user from Funky Fun House to Nandos."
+        },
+        {
+            "entity_name": "07057575130",
+            "entity_type": "ORGANIZATION",
+            "description": "The contact number for the White Audi Taxi."
+        }
+    ]
+}

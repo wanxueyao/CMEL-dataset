@@ -1,0 +1,320 @@
+{
+    "image_1": [
+        {
+            "entity_name": "ERASER Benchmark",
+            "entity_type": "EVENT",
+            "description": "ERASER Benchmark, or Evaluating Rationales And Simple English Reasoning, is a proposed benchmark to advance research on interpretable models in NLP, comprising multiple datasets and tasks with human annotations of 'rationales'. It includes diverse NLP datasets repurposed and augmented from existing corpora, featuring human rationales for decisions, along with starter code and tools, baseline models, and standardized metrics for rationales.",
+            "source_image_entities": [
+                "ERASER"
+            ],
+            "source_text_entities": [
+                "ERASER BENCHMARK"
+            ]
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "EVENT",
+            "description": "E-SNLI is an event showcasing a natural language inference example with a hypothesis and premise about a man in an orange vest and a pickup truck, which is one of the datasets included in the ERASER Benchmark.",
+            "source_image_entities": [
+                "E-SNLI"
+            ],
+            "source_text_entities": [
+                "ERASER"
+            ]
+        },
+        {
+            "entity_name": "COMMONSENSE EXPLANATIONS (COS-E)",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSE EXPLANATIONS (COS-E) is an event presenting a question about where to find the most amount of leaves, with multiple-choice answers, which is one of the datasets included in the ERASER Benchmark.",
+            "source_image_entities": [
+                "COMMONSENSE EXPLANATIONS (COS-E)"
+            ],
+            "source_text_entities": [
+                "ERASER"
+            ]
+        },
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "EVENT",
+            "description": "EVIDENCE INFERENCE is an event involving a medical article and a prompt asking about the effect of furosemide on breathlessness during exercise compared to a placebo, which is one of the datasets included in the ERASER Benchmark.",
+            "source_image_entities": [
+                "EVIDENCE INFERENCE"
+            ],
+            "source_text_entities": [
+                "ERASER"
+            ]
+        }
+    ],
+    "image_2": "[\n    {\n        \"entity_name\": \"ERASER\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.\",\n        \"source_image_entities\": [\"EVIDENCE INFERENCE\", \"BOOLQ\", \"MOVIE REVIEWS\", \"FEVER\", \"MULTIRC\", \"COS-E\", \"E-SNLI\"],\n        \"source_text_entities\": [\"ERASER\", \"ERASER\"]\n    },\n    {\n        \"entity_name\": \"MOVIE REVIEWS\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"A dataset with 1600 training, 200 development, and 200 test samples. It contains 774 tokens and includes positive/negative sentiment labels on movie reviews.\",\n        \"source_image_entities\": [\"MOVIE REVIEWS\"],\n        \"source_text_entities\": [\"MOVIE REVIEWS\"]\n    },\n    {\n        \"entity_name\": \"FEVER\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"A dataset with 97957 training, 6122 development, and 6111 test samples. It contains 327 tokens and is short for Fact Extraction and VERification, used for verifying claims from textual sources.\",\n        \"source_image_entities\": [\"FEVER\"],\n        \"source_text_entities\": [\"FEVER\"]\n    },\n    {\n        \"entity_name\": \"MULTIRC\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"A dataset with 24029 training, 3214 development, and 4848 test samples. It contains 303 tokens and is composed of questions with multiple correct answers that depend on information from multiple sentences.\",\n        \"source_image_entities\": [\"MULTIRC\"],\n        \"source_text_entities\": [\"MULTIRC\"]\n    },\n    {\n        \"entity_name\": \"COS-E\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"A dataset with 8733 training, 1092 development, and 1092 test samples. It contains 28 tokens and comprises multiple-choice questions and answers with supporting rationales.\",\n        \"source_image_entities\": [\"COS-E\"],\n        \"source_text_entities\": [\"COMMONSENSE EXPLANATIONS (COS-E)\"]\n    },\n    {\n        \"entity_name\": \"E-SNLI\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"A dataset with 911938 training, 16449 development, and 16429 test samples. It contains 16 tokens and augments the SNLI corpus with rationales marked in the premise and/or hypothesis.\",\n        \"source_image_entities\": [\"E-SNLI\"],\n        \"source_text_entities\": [\"E-SNLI\"]\n    }\n]",
+    "image_3": [
+        {
+            "merged_entity_name": "DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A collection of data used for various tasks such as evidence inference, Boolean questions (BoolQ), movie reviews, FEVER, MultiRC, CoS-E, and e-SNLI, including datasets like Movie Reviews, FEVER, MultiRC, Commonsense Explanations (CoS-E), and e-SNLI.",
+            "source_image_entities": [
+                "DATASET"
+            ],
+            "source_text_entities": [
+                "MOVIE REVIEWS",
+                "FEVER",
+                "MULTIRC",
+                "COMMONSENSE EXPLANATIONS (COS-E)",
+                "E-SNLI"
+            ]
+        },
+        {
+            "merged_entity_name": "COHEN Κ",
+            "entity_type": "EVENT",
+            "description": "A statistical measure of inter-annotator agreement, mentioned in the context of human agreement over extracted rationales, with a high Cohen κ indicating substantial or better agreement.",
+            "source_image_entities": [
+                "COHEN Κ"
+            ],
+            "source_text_entities": [
+                "COHEN $\\KAPPA$"
+            ]
+        },
+        {
+            "merged_entity_name": "F1 SCORE",
+            "entity_type": "EVENT",
+            "description": "A measure of a test's accuracy, considering both the precision and the recall of the test to compute the score, used here to calculate an F1 score based on partial matches for rationale extraction.",
+            "source_image_entities": [
+                "F1"
+            ],
+            "source_text_entities": [
+                "F1 SCORE"
+            ]
+        },
+        {
+            "merged_entity_name": "P",
+            "entity_type": "EVENT",
+            "description": "Precision, which is the ratio of correctly identified positive observations to the total predicted positives, and is used to derive token-level F1 scores.",
+            "source_image_entities": [
+                "P"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "R",
+            "entity_type": "EVENT",
+            "description": "Recall, which measures the proportion of actual positives that are correctly identified, and is used to derive token-level F1 scores.",
+            "source_image_entities": [
+                "R"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "#ANNOTATORS/DOC",
+            "entity_type": "EVENT",
+            "description": "The number of annotators per document in the dataset, with human agreement over extracted rationales reported for multiple annotators and documents in Table 2.",
+            "source_image_entities": [
+                "#ANNOTATORS/DOC"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "#DOCUMENTS",
+            "entity_type": "EVENT",
+            "description": "The total number of documents in the dataset, with comprehensive rationale annotations collected on a subset of the validation and test data for some datasets.",
+            "source_image_entities": [
+                "#DOCUMENTS"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "FOREST",
+            "entity_type": "GEO",
+            "description": "Forest is a natural environment with trees and plants, indicated by the red bar in the bar chart and mentioned in the context of Commonsense Explanations (CoS-E) dataset for scoring metrics comprehensiveness and sufficiency.",
+            "source_image_entities": [
+                "FOREST"
+            ],
+            "source_text_entities": [
+                "COMMONSENSE EXPLANATIONS (COS-E)"
+            ]
+        },
+        {
+            "merged_entity_name": "FLOWERS",
+            "entity_type": "GEO",
+            "description": "Flowers represent flowering plants, indicated by the blue bars in the bar chart.",
+            "source_image_entities": [
+                "FLOWERS"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "FIELD",
+            "entity_type": "GEO",
+            "description": "Field represents an open area of land, indicated by the blue bars in the bar chart.",
+            "source_image_entities": [
+                "FIELD"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "GROUND",
+            "entity_type": "GEO",
+            "description": "Ground represents the surface of the earth, indicated by the blue bars in the bar chart.",
+            "source_image_entities": [
+                "GROUND"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "COMPOST PILE",
+            "entity_type": "OBJECT",
+            "description": "Compost pile represents decomposing organic matter, indicated by the blue bars in the bar chart.",
+            "source_image_entities": [
+                "COMPOST PILE"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "EVENT",
+            "description": "EVIDENCE INFERENCE is an event or dataset used for evaluating the performance of models, particularly those that comprise very long inputs exceeding the token limit for BERT models.",
+            "source_image_entities": [
+                "EVIDENCE INFERENCE"
+            ],
+            "source_text_entities": [
+                "EVIDENCE INFERENCE"
+            ]
+        },
+        {
+            "entity_name": "BOOLQ",
+            "entity_type": "EVENT",
+            "description": "BOOLQ is an event or dataset that comprises very long inputs, exceeding the token limit for BERT models.",
+            "source_image_entities": [
+                "BOOLQ"
+            ],
+            "source_text_entities": [
+                "BOOLQ"
+            ]
+        },
+        {
+            "entity_name": "MOVIE REVIEWS",
+            "entity_type": "EVENT",
+            "description": "MOVIE REVIEWS is one of the datasets where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.",
+            "source_image_entities": [
+                "MOVIE REVIEWS"
+            ],
+            "source_text_entities": [
+                "MOVIES"
+            ]
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "EVENT",
+            "description": "FEVER is one of the datasets mentioned where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.",
+            "source_image_entities": [
+                "FEVER"
+            ],
+            "source_text_entities": [
+                "FEVER"
+            ]
+        },
+        {
+            "entity_name": "MULTIRC",
+            "entity_type": "EVENT",
+            "description": "MULTIRC is an event or dataset used for evaluating the performance of models.",
+            "source_image_entities": [
+                "MULTIRC"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "COS-E",
+            "entity_type": "EVENT",
+            "description": "COS-E is a dataset used to illustrate the scoring metrics comprehensiveness and sufficiency, and is also one of the datasets where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.",
+            "source_image_entities": [
+                "COS-E"
+            ],
+            "source_text_entities": [
+                "COS-E",
+                "COS-E",
+                "COS-E"
+            ]
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "EVENT",
+            "description": "E-SNLI is an event or dataset used for evaluating the performance of models, particularly BertTo-Bert for CoS-E, and is also one of the datasets where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.",
+            "source_image_entities": [
+                "E-SNLI"
+            ],
+            "source_text_entities": [
+                "E-SNLI",
+                "ESNLI"
+            ]
+        }
+    ],
+    "image_6": "[\n    {\n        \"entity_name\": \"GLOVE + LSTM - ATTENTION\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines GloVe embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"GLOVE + LSTM - ATTENTION\"],\n        \"source_text_entities\": [\"ATTENTION\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"GLOVE + LSTM - GRADIENT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines GloVe embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"GLOVE + LSTM - GRADIENT\"],\n        \"source_text_entities\": [\"SIMPLE GRADIENTS\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"GLOVE + LSTM - LIME\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines GloVe embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"GLOVE + LSTM - LIME\"],\n        \"source_text_entities\": [\"LIME\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"GLOVE + LSTM - RANDOM\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines GloVe embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"GLOVE + LSTM - RANDOM\"],\n        \"source_text_entities\": [\"RANDOM\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"BERT+LSTM - ATTENTION\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines BERT embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"BERT+LSTM - ATTENTION\"],\n        \"source_text_entities\": [\"ATTENTION\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"BERT+LSTM - GRADIENT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines BERT embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"BERT+LSTM - GRADIENT\"],\n        \"source_text_entities\": [\"SIMPLE GRADIENTS\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"BERT+LSTM - LIME\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines BERT embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"BERT+LSTM - LIME\"],\n        \"source_text_entities\": [\"LIME\", \"ERASER BENCHMARK\"]\n    },\n    {\n        \"entity_name\": \"BERT+LSTM - RANDOM\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"A model configuration that combines BERT embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks, as evaluated in the ERASER benchmark.\",\n        \"source_image_entities\": [\"BERT+LSTM - RANDOM\"],\n        \"source_text_entities\": [\"RANDOM\", \"ERASER BENCHMARK\"]\n   ",
+    "image_7": "[\n    {\n        \"entity_name\": \"FEVER\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"FEVER is a dataset with 2915 train documents, 570 validation documents, and 614 test documents. The train set has 97957 instances, the validation set has 6122 instances, and the test set has 6111 instances. The rationale percentage is 20.0% for the train set and 21.6% for the validation set. It is also a benchmark event that involves processing and repartitioning of validation sets and dealing with claims and evidence. The dataset is mentioned as an exception for the use of bert-base-uncased as a token embedder.\",\n        \"source_image_entities\": [\"FEVER\"],\n        \"source_text_entities\": [\"FEVER\", \"FEVER\", \"THORNE ET AL.\", \"PEARCE\", \"SCHUSTER ET AL.\", \"SPEER\"]\n    },\n    {\n        \"entity_name\": \"BOOLQ\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"BOOLQ is a dataset with 4518 train documents, 1092 validation documents, and 2294 test documents. The train set has 6363 instances, the validation set has 1491 instances, and the test set has 2817 instances. The rationale percentage is 6.64% for the train set and 7.13% for the validation set. It is also an event where a dataset required substantial processing, including identifying source paragraphs and repartitioning for testing. Amazon Mechanical Turk is a platform used to collect reference comprehensive rationales for the BoolQ dataset. The Levenshtein distance ratio is a measure used to determine the similarity between two strings, with a score of at least 90 required for the BoolQ dataset.\",\n        \"source_image_entities\": [\"BOOLQ\"],\n        \"source_text_entities\": [\"BOOLQ\", \"BOOLQ\", \"AMAZON MECHANICAL TURK\", \"LEVENSHTEIN DISTANCE RATIO\"]\n    },\n    {\n        \"entity_name\": \"E-SNLI\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"E-SNLI is a dataset with 911938 train documents, 16328 validation documents, and 16299 test documents. The train set has 549309 instances, the validation set has 9823 instances, and the test set has 9807 instances. The rationale percentage is 27.3% for the train set and 25.6% for the validation set. It is also an event where minimal processing was performed, involving the separation of premise and hypothesis statements.\",\n        \"source_image_entities\": [\"E-SNLI\"],\n        \"source_text_entities\": [\"E-SNLI\", \"E-SNLI\", \"CAMBURU ET AL.\"]\n    },\n    {\n        \"entity_name\": \"EVIDENCE INFERENCE\",\n        \"entity_type\": \"DATASET\",\n        \"description\": \"EVIDENCE INFERENCE is a dataset with 1924 train documents, 247 validation documents, and 240 test documents. The train set has 7958 instances, the validation set has 972 instances, and the test set has 959 instances. The rationale percentage is 1.34% for the train set and 1.38% for the validation set. It is also an event that uses a different embedding method and is mentioned in the context of model training. SciSpacy is a library used for tokenization in Evidence Inference, developed by Neumann et al. in 2019.\",\n        \"source_image_entities\": [\"EVIDENCE INFERENCE\"],\n        \"source_text_entities\": [\"EVIDENCE INFERENCE\", \"EVIDENCE INFERENCE\", \"SCISPACY\", \"NEUMANN ET AL.\"]\n    }\n]",
+    "image_8": [
+        {
+            "entity_name": "Movie Reviews",
+            "entity_type": "Dataset",
+            "description": "Movie Reviews is a dataset used for evaluating model recall of rationales, where minimal processing was performed. It was studied by Zaidan and Eisner in 2008 and involves the use of the ninth fold as the validation set and annotations collected on the tenth fold for comprehensive evaluation.",
+            "source_image_entities": [
+                "DATASETS"
+            ],
+            "source_text_entities": [
+                "ZAIDAN AND EISNER",
+                "MOVIE REVIEWS"
+            ]
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "Dataset",
+            "description": "FEVER, or Fact Extraction and VERification, is a dataset that underwent substantial processing, including the deletion of the 'Not Enough Info' claim class, repartitioning of the validation set, and ensuring no document overlap between train, validation, and test sets. It was worked on by Thorne et al. in 2018 and is associated with the creation of the FEVER symmetric dataset by Schuster et al. in 2019, as well as encoding error cleanup by Speer in 2019.",
+            "source_image_entities": [
+                "DATASETS"
+            ],
+            "source_text_entities": [
+                "FEVER",
+                "THORNE ET AL.",
+                "SCHUSTER ET AL.",
+                "PEARCE",
+                "SPEER"
+            ]
+        },
+        {
+            "entity_name": "BoolQ",
+            "entity_type": "Dataset",
+            "description": "The BoolQ dataset required substantial processing, including the identification of source paragraphs from the Wikipedia archive and the removal of instances where the Levenshtein distance ratio did not reach a score of at least 90. It was worked on by Clark et al. in 2019. For public release, the official validation set was used for testing, and the train set was repartitioned into training and validation sets.",
+            "source_image_entities": [
+                "DATASETS"
+            ],
+            "source_text_entities": [
+                "BOOLQ",
+                "CLARK ET AL."
+            ]
+        },
+        {
+            "entity_name": "e-SNLI",
+            "entity_type": "Dataset",
+            "description": "e-SNLI is a dataset where minimal processing was performed, primarily involving the separation of premise and hypothesis statements into separate documents. It was worked on by Camburu et al. in 2018.",
+            "source_image_entities": [
+                "DATASETS"
+            ],
+            "source_text_entities": [
+                "E-SNLI",
+                "CAMBURU ET AL."
+            ]
+        },
+        {
+            "entity_name": "Commonsense Explanations (CoS-E)",
+            "entity_type": "Dataset",
+            "description": "Commonsense Explanations (CoS-E) is a dataset that underwent minimal processing, primarily the deletion of questions without a rationale. It was worked on by Rajani et al. in 2019.",
+            "source_image_entities": [
+                "DATASETS"
+            ],
+            "source_text_entities": [
+                "COMMONSENSE EXPLANATIONS (COS-E)",
+                "RAJANI ET AL."
+            ]
+        }
+    ]
+}

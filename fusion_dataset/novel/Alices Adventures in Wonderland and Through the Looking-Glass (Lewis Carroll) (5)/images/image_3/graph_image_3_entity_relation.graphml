@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a whimsical and surreal scene. The main figure appears to be a leg of mutton, which is anthropomorphized with a head and arms. The leg of mutton is standing on a plate, wearing what looks like a hat or a flower on its head, and it has a somewhat dignified posture. It is holding a small object in one hand, possibly a napkin or a piece of paper. The background is abstract, with indistinct shapes and lines that suggest a chaotic or dreamlike setting. The overall atmosphere is one of absurdity and fantasy, fitting the context of a story where food items come to life and interact with human characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+</node>
+<node id="&quot;HUMPTY DUMPTY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large, egg-shaped character with a human face and limbs, wearing a long coat and standing on a wall."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+</node>
+<node id="&quot;WALL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A curved surface on which Humpty Dumpty is standing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HUMPTY DUMPTY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Humpty Dumpty是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wall是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMPTY DUMPTY&quot;" target="&quot;WALL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Humpty Dumpty is standing on the wall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

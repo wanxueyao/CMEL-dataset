@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_30&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from 'Alice's Adventures in Wonderland.' It features three main characters: Alice, the Gryphon, and the Mock Turtle. Alice is seated on the ground, looking up at the two creatures with a curious and slightly bewildered expression. The Gryphon, a mythical creature with the head of an eagle and the body of a lion, is on the left side of the image. It has its wings spread out and appears to be speaking or gesturing towards Alice. The Mock Turtle, a turtle-like creature with a sad and somewhat resigned expression, is on the right side of the image. It stands upright on its hind legs and seems to be engaged in conversation with Alice. The background shows a rocky landscape with a large rock formation behind Alice and a distant sea visible in the background. The overall atmosphere is one of whimsy and surrealism, characteristic of the story. The illustration captures the interaction between the characters, conveying a sense of dialogue and storytelling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, sitting on the ground, looking up at a Gryphon and a Mock Turtle."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<node id="&quot;GRYPHON&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A mythical creature with the body of a lion and the head and wings of an eagle, standing to the left of Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<node id="&quot;MOCK TURTLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A creature resembling a hybrid between a turtle and a calf, standing to the right of Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<node id="&quot;ROCKY LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A rocky terrain with a large rock formation behind Alice, Gryphon, and Mock Turtle."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<node id="&quot;OCEAN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The ocean is visible in the background, suggesting a coastal setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+</node>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;GRYPHON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Gryphon是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;MOCK TURTLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mock Turtle是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;ROCKY LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rocky Landscape是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;OCEAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ocean是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;GRYPHON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is sitting next to the Gryphon, which appears to be speaking or singing to her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;MOCK TURTLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is also sitting next to the Mock Turtle, which appears to be speaking or singing to her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;ROCKY LANDSCAPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is situated within the rocky landscape, with a large rock formation directly behind her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;OCEAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The ocean is in the background, providing a scenic backdrop for Alice's interaction with the Gryphon and Mock Turtle."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRYPHON&quot;" target="&quot;MOCK TURTLE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Gryphon and Mock Turtle are standing opposite each other, both appearing to engage with Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

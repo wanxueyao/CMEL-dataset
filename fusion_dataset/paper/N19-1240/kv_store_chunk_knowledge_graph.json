@@ -1,0 +1,2131 @@
+{
+    "3": {
+        "chunk_key": "chunk-6b837a91c4873bc2038ec11246b9353a",
+        "entities": [
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo is a pre-trained encoder used in the experiments for producing representations of candidate mentions in context.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe is used as an alternative to ELMo for non-contextualized word representations in the experiments.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is a dataset used for training, validation/development, and testing of the model, with specific query-document samples.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"WELBL ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Welbl et al., 2018 are the authors who constructed the WIKIHOP dataset and are referenced for its description.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"R-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"R-GCN refers to the Relational Graph Convolutional Network model used in the experiments, with a gated version of the original propagation rule.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"DOC-BASED\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"DOC-BASED is one of the available relations used in the R-GCN model, indicating a type of edge annotation.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"MATCH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MATCH is one of the available relations used in the R-GCN model, indicating a type of edge annotation.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"COREF\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"COREF is one of the available relations used in the R-GCN model, indicating a type of edge annotation.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"COMPLEMENT\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"COMPLEMENT is one of the available relations used in the R-GCN model, indicating a type of edge annotation.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{H}_{I}^{(0)}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\mathbf{h}_{i}^{(0)}$ represents the initial hidden node representation in the R-GCN model, initialized with query-aware encodings.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{U}_{I}^{(\\ELL)}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\mathbf{u}_{i}^{(\\ell)}$ represents the update message to the ith node in the R-GCN model at layer $\\ell$.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"${\\MATHCAL{N}}_{I}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"${\\mathcal{N}}_{i}$ represents the set of indices of nodes neighboring the ith node in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"${\\MATHCAL{R}}_{I J}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"${\\mathcal{R}}_{i j}$ represents the set of edge annotations between nodes i and j in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"${\\BF A}_{I}^{(\\ELL)}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"${\\bf a}_{i}^{(\\ell)}$ represents the gate levels computed for the ith node at layer $\\ell$ in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{H}_{I}^{(\\ELL+1)}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\mathbf{h}_{i}^{(\\ell+1)}$ represents the updated representation of the ith node at layer $\\ell+1$ in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$\\PHI(\\CDOT)$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\phi(\\cdot)$ represents any nonlinear function used in the R-GCN model, specifically the tanh function.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$F_{S}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$f_{s}$ is a parametrized function specific to a node representation in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$F_{R}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$f_{r}$ is a parametrized function specific to an edge type in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "entity_name": "\"$F_{A}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$f_{a}$ is a parametrized transformation used in the computation of gate levels in the R-GCN model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ELMO\"",
+                "tgt_id": "\"GLOVE\"",
+                "weight": 6.0,
+                "description": "\"ELMo and GloVe are both used in the experiments for producing representations, with ELMo being contextualized and GloVe being non-contextualized.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "src_id": "\"ELMO\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"ELMo is used in the experiments that utilize the WIKIHOP dataset for training, validation, and testing.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"DOC-BASED\"",
+                "weight": 7.0,
+                "description": "\"R-GCN uses DOC-BASED as one of the available relations for edge annotations in the model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            },
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"MATCH\"",
+                "weight": 7.0,
+                "description": "\"R-GCN uses MATCH as one of the available relations for edge annotations in the model.\"",
+                "source_id": "chunk-6b837a91c4873bc2038ec11246b9353a"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-58bed125e330c1a287e0baef935f2136",
+        "entities": [
+            {
+                "entity_name": "\"R-GCN-LAYERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"R-GCN-layers refer to the layers used in a graph convolutional network, maintaining the dimensionality of node representations.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"MLP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MLP stands for multi-layer perceptron, a type of neural network used in the described model.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is an event or dataset used for evaluating model performance with different numbers of R-GCN-layers.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"ADAM OPTIMIZER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Adam optimizer is an optimization algorithm used for training the models, referenced in the context of Kingma and Ba's work.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"DROPOUT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dropout is a regularization technique used to prevent overfitting, with various drop rates mentioned.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"ENTITY-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Entity-GCN is a model evaluated for its performance and instances of failure in the WIKIHOP development set. It is also analyzed in terms of its accuracy with respect to the input graph size, specifically candidate and node set sizes.",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"ESLÖV\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Eslöv is a city mentioned in the context of ambiguity in model prediction between city and county entities.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"SCANIA COUNTY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Scania County, also known as Skåne County, is a geographical entity where the city of Eslöv is located.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"KINGMA AND BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kingma and Ba are the authors of the 2015 paper where the Adam optimizer was introduced.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"SRIVASTAVA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Srivastava et al. are the authors of the 2014 paper related to the dropout technique used in the model.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"VALIDATION SET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The validation set is used to evaluate the model's performance and to apply early-stopping based on accuracy.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"TABLE 6\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 6 presents samples from the WIKIHOP development set where Entity-GCN fails, indicating model shortcomings.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"FIGURE 3\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Figure 3 shows the model performance in relation to the input graph size, specifically candidate and node set sizes.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"TABLE 5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 5 describes the model architecture, providing details on the components and structure of the model.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "entity_name": "\"PEARSON’S CORRELATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pearson’s correlation is a statistical measure used to assess the relationship between two variables, mentioned in the context of model performance and set sizes.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"R-GCN-LAYERS\"",
+                "tgt_id": "\"MLP\"",
+                "weight": 8.0,
+                "description": "\"The R-GCN-layers and MLP are components of the model architecture, with the latter taking the output of the former.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"R-GCN-LAYERS\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"The performance of R-GCN-layers is evaluated using the WIKIHOP dataset, with specific observations made about the number of layers.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"ADAM OPTIMIZER\"",
+                "tgt_id": "\"MLP\"",
+                "weight": 6.0,
+                "description": "\"The Adam optimizer is used in the training process of the MLP model.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"DROPOUT\"",
+                "tgt_id": "\"MLP\"",
+                "weight": 6.0,
+                "description": "\"Dropout is employed in conjunction with the MLP to combat overfitting during training.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"Entity-GCN's performance is analyzed on the WIKIHOP development set, with specific failures reported.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"ESLÖV\"",
+                "tgt_id": "\"SCANIA COUNTY\"",
+                "weight": 5.0,
+                "description": "\"Eslöv is a city located within Scania County, creating ambiguity in the model's predictions.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"KINGMA AND BA\"",
+                "tgt_id": "\"ADAM OPTIMIZER\"",
+                "weight": 9.0,
+                "description": "\"Kingma and Ba introduced the Adam optimizer in their 2015 paper.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"SRIVASTAVA ET AL.\"",
+                "tgt_id": "\"DROPOUT\"",
+                "weight": 9.0,
+                "description": "\"Srivastava et al. are associated with the concept of dropout, as they wrote the 2014 paper on the subject.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"VALIDATION SET\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 8.0,
+                "description": "\"The Entity-GCN model's performance is evaluated using the accuracy on the validation set.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"TABLE 6\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 8.0,
+                "description": "\"Table 6 reports specific instances where Entity-GCN fails, providing insight into the model's performance.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"FIGURE 3\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 8.0,
+                "description": "\"Figure 3 illustrates the performance of Entity-GCN in relation to the size of the input graph.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"TABLE 5\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 8.0,
+                "description": "\"Table 5 describes the architecture of Entity-GCN, detailing its components and structure.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            },
+            {
+                "src_id": "\"PEARSON’S CORRELATION\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 7.0,
+                "description": "\"Pearson’s correlation is used to measure the relationship between model performance and set sizes for Entity-GCN.\"",
+                "source_id": "chunk-58bed125e330c1a287e0baef935f2136"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-5a1a3958377fab2e9f4d27bf18183d9a",
+        "entities": [
+            {
+                "entity_name": "\"R-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"R-GCN is a component of a model that contributes to its performance in multi-hop reasoning and entity relation tasks.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo is a model that, when replaced by GloVe in the R-GCN system, still yields competitive results in terms of accuracy.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe is a model that can replace ELMo in the R-GCN system, maintaining competitive accuracy levels.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"WELBL ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Welbl et al., 2018 are referenced for their baselines in accuracy comparison with the R-GCN model.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"DHINGRA ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dhingra et al., 2018 are referenced for their Coref-GRU model, which is outperformed by the R-GCN model.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"WIKIPHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIPHOP is an event or dataset used to test the effectiveness of the R-GCN model in multi-hop inference.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"ENTITY-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Entity-GCN is a model evaluated for its performance and instances of failure in the WIKIHOP development set. It is also analyzed in terms of its accuracy with respect to the input graph size, specifically candidate and node set sizes.",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"DOC-BASED\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"DOC-BASED refers to connections of mentions that co-occur in the same document, which the model uses effectively.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"MATCH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MATCH refers to connections between mentions that match exactly, which play a less significant role in the model.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"COREF\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"COREF refers to edges predicted by the coreference system, which also play a marginal role in the model.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"COREF-GRU\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Coref-GRU is a model developed by Dhingra et al. (2018), which is outperformed by the R-GCN model without accessing context.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 is referenced multiple times in the text, showing comparisons between different models and their performances.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"WIKIHOP VALIDATION SET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP validation set is the dataset used to evaluate the performance of different models, particularly the Entity-GCN.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"INDUCED EDGES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Induced edges refer to the experiment where edges are not predetermined but predicted, showing a drop in performance.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"BILINEAR FUNCTION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bilinear function is used to predict the importance of a single edge connecting two nodes in the 'Induced edges' experiment.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"SECTION 2.3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Section 2.3 is referenced as the source of information regarding the query-dependent representation of mentions.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"MASKED SETTINGS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Masked settings refer to the scenario where the coreference resolution system is not applied due to masking.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"UNMASKED SETTING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Unmasked setting refers to the scenario where mentions to an entity may differ and the coreference system may not retrieve them, making the task harder.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"MASK1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MASK1 is an example of a unique surface form used to refer to an entity within and across documents in the masked version.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"US AND UNITED STATES\"",
+                "entity_type": "\"GEO\"",
+                "description": "A geo-location used to illustrate entity mention differences and the concept of different degrees of granularity in entity mentions, compared with 'US' and 'London'.",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A source of information that may have mismatches with what is annotated in Wikidata, affecting model performance and used as a reference for model comparison.",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"ELMO\"",
+                "weight": 7.0,
+                "description": "\"R-GCN component is part of a system that can be used with ELMo, showing competitive results.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"GLOVE\"",
+                "weight": 7.0,
+                "description": "\"R-GCN component is part of a system that can be used with GloVe, showing competitive results.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"WELBL ET AL., 2018\"",
+                "weight": 8.0,
+                "description": "\"R-GCN outperforms the baselines set by Welbl et al., 2018 in terms of accuracy.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"R-GCN\"",
+                "tgt_id": "\"DHINGRA ET AL., 2018\"",
+                "weight": 8.0,
+                "description": "\"R-GCN outperforms the Coref-GRU model by Dhingra et al., 2018 in terms of accuracy.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"DOC-BASED\"",
+                "weight": 7.0,
+                "description": "\"Entity-GCN makes better use of DOC-BASED connections than MATCH or COREF connections.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"MATCH\"",
+                "weight": 5.0,
+                "description": "\"Entity-GCN uses MATCH connections, but they play a less significant role than DOC-BASED connections.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"COREF\"",
+                "weight": 4.0,
+                "description": "\"Entity-GCN uses COREF connections, but they play a marginal role in the model.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"COREF-GRU\"",
+                "tgt_id": "\"R-GCN\"",
+                "weight": 8.0,
+                "description": "\"The R-GCN model outperforms the Coref-GRU model, which is developed by Dhingra et al. (2018).\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 7.0,
+                "description": "\"Table 3 shows comparisons between the Entity-GCN model and other models, indicating its performance.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"WIKIHOP VALIDATION SET\"",
+                "weight": 8.0,
+                "description": "\"The Entity-GCN model is evaluated on the WIKIHOP validation set to measure its performance.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"INDUCED EDGES\"",
+                "tgt_id": "\"BILINEAR FUNCTION\"",
+                "weight": 7.0,
+                "description": "\"The 'Induced edges' experiment uses a bilinear function to predict the importance of edges, showing a drop in performance.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"BILINEAR FUNCTION\"",
+                "tgt_id": "\"SECTION 2.3\"",
+                "weight": 6.0,
+                "description": "\"The bilinear function used in the 'Induced edges' experiment is explained in Section 2.3.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            },
+            {
+                "src_id": "\"MASKED SETTINGS\"",
+                "tgt_id": "\"UNMASKED SETTING\"",
+                "weight": 6.0,
+                "description": "\"The masked settings and unmasked setting are two different scenarios in which the coreference resolution system's performance is evaluated.\"",
+                "source_id": "chunk-5a1a3958377fab2e9f4d27bf18183d9a"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-e338f2b5d38281269693e22e586485ad",
+        "entities": [
+            {
+                "entity_name": "\"WELBL ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Welbl et al. (2018) are researchers who published results related to multi-hop QA and are referenced for their work on human performance benchmarks.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is an event or setting used for testing and training models in the context of multi-hop question answering, created by Welbl et al. (2018).\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"ENTITY-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Entity-GCN is a model evaluated for its performance and instances of failure in the WIKIHOP development set. It is also analyzed in terms of its accuracy with respect to the input graph size, specifically candidate and node set sizes.",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A source of information that may have mismatches with what is annotated in Wikidata, affecting model performance and used as a reference for model comparison.",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A knowledge base that contains annotations that may differ from information in Wikipedia, impacting model accuracy and used for comparison with Wikipedia.",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"LEE ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al. (2017) are referenced for their end-to-end coreference resolution system used to identify mentions in the Entity graph.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF is a model mentioned for comparison, indicating it is slower to train than the proposed model in the text.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo is a contextualized embedding model used to obtain initial representations of nodes in the proposed approach.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"RNN ENCODERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RNN encoders are mentioned as an alternative to the approach used in the Entity-GCN model for obtaining node representations.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"GRAPH NEURAL NETWORKS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A type of model that has been successful on various NLP tasks, including document level modeling, and mentioned in the context of multi-document QA and knowledge base reasoning.",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"RELATIONAL GRAPH CONVOLUTIONAL NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"A relational graph convolutional network is part of the Entity-GCN model, responsible for propagating information through the entity graph.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"DOCUMENT ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"A document encoder is used in the Entity-GCN model to obtain representations of mentions in context.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"VRANDEˇCI´C\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vrandeˇci´c is the author referenced for the use of WIKIDATA as a knowledge base.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"QUERY/QUESTION\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The query/question is part of the WIKIHOP dataset, representing the input for which the model must find the correct answer.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"SUPPORTING DOCUMENTS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Supporting documents are part of the WIKIHOP dataset, provided to the QA system to help find the correct answer to a query.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"CANDIDATE ANSWERS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Candidate answers are part of the WIKIHOP dataset, representing potential answers to a query.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"SUBJECT ENTITY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The subject entity is part of the triples in the knowledge base, representing one component of the relation.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"OBJECT ENTITY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The object entity is part of the triples in the knowledge base, representing another component of the relation.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "entity_name": "\"UNIDIRECTIONAL RELATION\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The unidirectional relation is part of the triples in the knowledge base, connecting subject and object entities.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WELBL ET AL. (2018)\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 9.0,
+                "description": "\"Welbl et al. (2018) created the WIKIHOP event for testing multi-hop QA models.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 8.0,
+                "description": "\"Entity-GCN is a model that achieves improvements over previous results in the WIKIHOP setting.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP uses WIKIPEDIA as a corpus for assembling the dataset.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP uses WIKIDATA as a knowledge base for constructing the dataset.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"ENTITY-GCN\"",
+                "tgt_id": "\"LEE ET AL. (2017)\"",
+                "weight": 6.0,
+                "description": "\"Entity-GCN utilizes the coreference resolution system by Lee et al. (2017) to create an entity graph.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 7.0,
+                "description": "\"Entity-GCN is compared to BiDAF, showing it is faster to train.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"ELMO\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 7.0,
+                "description": "\"Entity-GCN substitutes ELMo with simple pre-trained word embeddings and still performs on par with other techniques.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"RNN ENCODERS\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 7.0,
+                "description": "\"Entity-GCN does not use RNN encoders, instead relying on contextualized embeddings and graph neural networks.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"GRAPH NEURAL NETWORKS\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 9.0,
+                "description": "\"Entity-GCN uses graph neural networks for information propagation across documents.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"RELATIONAL GRAPH CONVOLUTIONAL NETWORK\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 9.0,
+                "description": "\"The relational graph convolutional network is a component of the Entity-GCN model.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            },
+            {
+                "src_id": "\"DOCUMENT ENCODER\"",
+                "tgt_id": "\"ENTITY-GCN\"",
+                "weight": 8.0,
+                "description": "\"The document encoder is a component of the Entity-GCN model used to obtain representations of mentions in context.\"",
+                "source_id": "chunk-e338f2b5d38281269693e22e586485ad"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-fca1831ae9d052bbbba5616ba543e7fa",
+        "entities": [
+            {
+                "entity_name": "\"NICOLA DE CAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nicola De Cao is an individual affiliated with the University of Edinburgh and University of Amsterdam, with an email address nicola.decao@uva.nl.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"WILKER AZIZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wilker Aziz is an individual affiliated with the University of Amsterdam, with an email address w.aziz@uva.nl.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"IVAN TITOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ivan Titov is an individual affiliated with the University of Edinburgh and University of Amsterdam, with an email address ititov@inf.ed.ac.uk.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"UNIVERSITY OF EDINBURGH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The University of Edinburgh is an educational institution where Nicola De Cao and Ivan Titov are affiliated.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"UNIVERSITY OF AMSTERDAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The University of Amsterdam is an educational institution where Nicola De Cao, Wilker Aziz, and Ivan Titov are affiliated.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is a multi-document question answering dataset created by Welbl et al., 2018, which requires multi-step reasoning and information combination from different documents.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"SQUAD\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SQuAD is a large-scale reading comprehension dataset created by Rajpurkar et al., 2016, enabling end-to-end training of neural models.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"CNN/DAILY MAIL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CNN/Daily Mail is a large-scale reading comprehension dataset created by Hermann et al., 2015, enabling end-to-end training of neural models.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"NARRATIVEQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NarrativeQA is a large-scale reading comprehension dataset created by Kocisky et al., 2018, designed to require reasoning within documents.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"TRIVIAQA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"TriviaQA is a large-scale reading comprehension dataset created by Joshi et al., 2017, designed to require reasoning within documents.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"RACE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RACE is a large-scale reading comprehension dataset created by Lai et al., 2017, designed to require reasoning within documents.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BiDAF is a standard RNN-based reading comprehension model used for comparison with the Entity-GCN method.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"FastQA is another RNN-based reading comprehension model used for comparison with the Entity-GCN method.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"ELMo stands for Embeddings from Language Models and is used to obtain initial (local) representations of nodes in the Entity-GCN method.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"RNN\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"RNN stands for Recurrent Neural Network, a type of neural network used in some reading comprehension models.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"TRANSFORMER-LIKE SELF-ATTENTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Transformer-like self-attention is a mechanism used in some neural networks, mentioned in comparison to the Entity-GCN method.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"JUMP-LINKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Jump-links are used in the method by Dhingra et al. (2018) to augment RNNs with co-reference edges for multi-hop reasoning.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"WEAVER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Weaver is a method that uses document concatenation in a multi-hop setting, as mentioned in the paper.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"MHPGM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"MHPGM is another method that uses document concatenation in a multi-hop setting, as mentioned in the paper.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"DHINGRA ET AL. (2018)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Dhingra et al. (2018) published a paper where they augmented RNNs with jump-links corresponding to co-reference edges for multi-hop reasoning.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"RAISON ET AL. (2018)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Raison et al. (2018) published a paper where they used document concatenation in a multi-hop setting.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"BAUER ET AL. (2018)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Bauer et al. (2018) published a paper where they used document concatenation in a multi-hop setting, referred to as MHPGM.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"KIPF AND WELLING (2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Kipf and Welling (2017) are referenced for their work on graph convolutional networks used in the Entity-GCN method.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL. (2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Vaswani et al. (2017) are referenced for their work on transformer-like self-attention mechanisms.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"WELBL ET AL. (2018)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Welbl et al. (2018) created the WIKIHOP dataset to facilitate the development of systems dealing with multi-document question answering scenarios.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"SEO ET AL. (2016)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Seo et al. (2016) developed the BiDAF model, an RNN-based reading comprehension model.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"XIONG ET AL. (2016)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Xiong et al. (2016) contributed to the development of neural models for reading comprehension tasks.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"SHEN ET AL. (2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Shen et al. (2017) contributed to the development of neural models for reading comprehension tasks.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "entity_name": "\"WEISSENBORN ET AL. (2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Weissenborn et al. (2017",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"NICOLA DE CAO\"",
+                "tgt_id": "\"UNIVERSITY OF EDINBURGH\"",
+                "weight": 8.0,
+                "description": "\"Nicola De Cao is affiliated with the University of Edinburgh.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "src_id": "\"NICOLA DE CAO\"",
+                "tgt_id": "\"UNIVERSITY OF AMSTERDAM\"",
+                "weight": 8.0,
+                "description": "\"Nicola De Cao is affiliated with the University of Amsterdam.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "src_id": "\"WILKER AZIZ\"",
+                "tgt_id": "\"UNIVERSITY OF AMSTERDAM\"",
+                "weight": 8.0,
+                "description": "\"Wilker Aziz is affiliated with the University of Amsterdam.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "src_id": "\"IVAN TITOV\"",
+                "tgt_id": "\"UNIVERSITY OF EDINBURGH\"",
+                "weight": 8.0,
+                "description": "\"Ivan Titov is affiliated with the University of Edinburgh.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "src_id": "\"IVAN TITOV\"",
+                "tgt_id": "\"UNIVERSITY OF AMSTERDAM\"",
+                "weight": 8.0,
+                "description": "\"Ivan Titov is affiliated with the University of Amsterdam.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            },
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"SQUAD\"",
+                "weight": 7.0,
+                "description": "\"WIKIHOP is a dataset that requires multi-step reasoning and information combination from different documents, unlike SQuAD.\"",
+                "source_id": "chunk-fca1831ae9d052bbbba5616ba543e7fa"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784",
+        "entities": [
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is a dataset used for training, validation/development, and test in various experiments, with specific query-documents samples in different sets.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"WELBL ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Welbl et al. (2018) is the group of authors who constructed the WIKIHOP dataset and provided statistics and comparisons for different models.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"ENTITYGCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A model that performs well or poorly on certain types of questions, mentioned in the context of multi-document question answering and its performance on questions regarding places.",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF is a standard reading comprehension model compared in the experiment, with performance and training time details provided.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FastQA is another standard reading comprehension model mentioned in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"COREF-GRU\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Coref-GRU is a model compared in the experiment, focusing on coreference.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"MHPGM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MHPGM is a model included in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"WEAVER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Weaver is a model mentioned in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"MHQA-GRN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MHQA-GRN is a model from a recent arXiv preprint, included in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMo is a pretrained model used in Entity-GCN without fine-tuning, crucial for the model's performance.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe is a model used in the ablation study to replace ELMo, providing a comparison of performance without context sensitivity.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"R-GCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"R-GCN is a component of the Entity-GCN model, used for reasoning among entities in the text.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"BAUER ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bauer et al. (2018) is the group of authors associated with the MHPGM model, which is included in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"RAISON ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Raison et al. (2018) is the group of authors associated with the Weaver model, which is mentioned in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"SONG ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Song et al. (2018) is the group of authors associated with the MHQA-GRN model, which is included in the comparison of results.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"SEO ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seo et al. (2016) is the group of authors associated with the BiDAF model, which is compared in the experiment.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"WEISSENBORN ET AL. (2017)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Weissenborn et al. (2017) is the group of authors associated with the FastQA model, which is compared in the experiment.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL. (2014)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Pennington et al. (2014) is the group of authors associated with the GloVe model, which is used in the ablation study.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"TITAN X GPU\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Titan X GPU is the technology used for processing, with BiDAF and Entity-GCN processing speeds compared.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 1 provides dataset statistics for the WIKIHOP dataset, including number of candidates and documents per sample and document length.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 2 shows the accuracy of different models on the WIKIHOP closed test set and public validation set.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 is used in the ablation study to analyze the effect of different components on the model's performance.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"FIGURE 1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 1 is referenced to illustrate how the model would function without context awareness in the ablation study.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"STOCKHOLM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Stockholm is used as an example in the ablation study to demonstrate the model's performance without context.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "entity_name": "\"SWEDEN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Sweden is used as an example in the ablation study to demonstrate the model's performance without context.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIHOP\"",
+                "tgt_id": "\"WELBL ET AL. (2018)\"",
+                "weight": 9.0,
+                "description": "\"Welbl et al. (2018) constructed the WIKIHOP dataset and provided its statistics and comparisons.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"ENTITYGCN\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 8.0,
+                "description": "\"EntityGCN is a model tested on the WIKIHOP dataset, showing improved performance.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"BiDAF is a model compared with results on the WIKIHOP dataset.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"FASTQA\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"FastQA is a model compared with results on the WIKIHOP dataset.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"COREF-GRU\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"Coref-GRU is a model compared with results on the WIKIHOP dataset.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"MHPGM\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"MHPGM is a model compared with results on the WIKIHOP dataset.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"WEAVER\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 7.0,
+                "description": "\"Weaver is a model compared with results on the WIKIHOP dataset.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"MHQA-GRN\"",
+                "tgt_id": "\"WIKIHOP\"",
+                "weight": 1.0,
+                "description": "\"MHQA-GRN is a model compared with results on(\"entity\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"BAUER ET AL. (2018)\"",
+                "tgt_id": "\"MHPGM\"",
+                "weight": 9.0,
+                "description": "\"Bauer et al. (2018) is the group of authors associated with the MHPGM model.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"RAISON ET AL. (2018)\"",
+                "tgt_id": "\"WEAVER\"",
+                "weight": 9.0,
+                "description": "\"Raison et al. (2018) is the group of authors associated with the Weaver model.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            },
+            {
+                "src_id": "\"SONG ET AL. (2018)\"",
+                "tgt_id": "\"MHQA-GRN\"",
+                "weight": 9.0,
+                "description": "\"Song et al. (2018) is the group of authors associated with the MHQA-GRN model.\"",
+                "source_id": "chunk-68c4bae8c1bcb46ee6b8cbe64ec9a784"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4",
+        "entities": [
+            {
+                "entity_name": "\"ALEC RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alec Radford is an author of a technical report on improving language understanding with unsupervised learning from OpenAI.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"KARTHIK NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karthik Narasimhan is an author of a technical report on improving language understanding with unsupervised learning from OpenAI.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"TIM SALIMANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Salimans is an author of a technical report on improving language understanding with unsupervised learning from OpenAI.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of a technical report on improving language understanding with unsupervised learning from OpenAI and is also associated with a paper on Dropout.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"MARTIN RAISON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martin Raison is an author of a paper on Weaver: Deep coencoding of questions and documents for machine reading.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"PIERRE-EMMANUEL MAZARE´\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pierre-Emmanuel Mazare´ is an author of a paper on Weaver: Deep coencoding of questions and documents for machine reading.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"RAJARSHI DAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajarshi Das is an author of a paper on Weaver: Deep coencoding of questions and documents for machine reading.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ANTOINE BORDES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Antoine Bordes is an author of a paper on Weaver: Deep coencoding of questions and documents for machine reading.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"PRANAV RAJPURKAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pranav Rajpurkar is an author of a paper on SQuAD: $100{,}000{+}$ questions for machine comprehension of text.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"JIAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jian Zhang is an author of a paper on SQuAD: $100{,}000{+}$ questions for machine comprehension of text.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"KONSTANTIN LOPYREV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Konstantin Lopyrev is an author of a paper on SQuAD: $100{,}000{+}$ questions for machine comprehension of text.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"PERCY LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percy Liang is an author of a paper on SQuAD: $100{,}000{+}$ questions for machine comprehension of text.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"MICHAEL SCHLICHTKRULL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Schlichtkrull is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"THOMAS N. KIPF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thomas N. Kipf is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"PETER BLOEM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter Bloem is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"RIANNE VAN DEN BERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rianne van den Berg is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"IVAN TITOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ivan Titov is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"MAX WELLING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Max Welling is an author of a paper on modeling relational data with graph convolutional networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"MINJOON SEO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minjoon Seo is an author of a paper on bidirectional attention flow for machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ANIRUDDHA KEMBHAVI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"An(\"entity\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"HANNANEH HAJISHIRZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hannaneh Hajishirzi is an author of a paper on bidirectional attention flow for machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"YELONG SHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yelong Shen is an author of a paper on Reasonet: Learning to stop reading in machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"PO-SEN HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Po-Sen Huang is an author of a paper on Reasonet: Learning to stop reading in machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is an author of a paper on Reasonet: Learning to stop reading in machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"WEIZHU CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weizhu Chen is an author of a paper on Reasonet: Learning to stop reading in machine comprehension.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"LINFENG SONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Linfeng Song is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ZHIGUO WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhiguo Wang is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"MO YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mo Yu is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"YUE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yue Zhang is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"RADU FLORIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radu Florian is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"DANIEL GILDEA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Gildea is an author of a paper on Exploring Graph-structured Passage Representation for Multihop Reading Comprehension with Graph Neural Networks.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"NITISH SRIVASTAVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nitish Srivastava is an author of a paper on Dropout: A simple way to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"GEOFFREY HINTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Geoffrey Hinton is an author of a paper on Dropout: A simple way to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ALEX KRIZHEVSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Krizhevsky is an author of a paper on Dropout: A simple way to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"RUSLAN SALAKHUTDINOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ruslan Salakhutdinov is an author of a paper on Dropout: A simple way to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"ASHISH VASWANI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ashish Vaswani is an author of a paper on Attention is all you need.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"NOAM SHAZEER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noam Shazeer is an author of a paper on Attention is all you need.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"NIKI PARMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Niki Parmar is an author of a paper on Attention is all you need.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            },
+            {
+                "entity_name": "\"JAKOB USZKOREIT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jakob Uszkoreit is an author of a paper on Attention is all you need.\"",
+                "source_id": "chunk-9e0acd1c83c83e208b30b92a28f4a3a4"
+            }
+        ],
+        "relationships": []
+    },
+    "6": {
+        "chunk_key": "chunk-93e927343e457bf92ee7a74ecfafb2b1",
+        "entities": [
+            {
+                "entity_name": "\"ENTITYGCN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A model that performs well or poorly on certain types of questions, mentioned in the context of multi-document question answering and its performance on questions regarding places.",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A source of information that may have mismatches with what is annotated in Wikidata, affecting model performance and used as a reference for model comparison.",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"WIKIDATA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "A knowledge base that contains annotations that may differ from information in Wikipedia, impacting model accuracy and used for comparison with Wikipedia.",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"BIDAF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiDAF is a model applied to multi-document question answering, focusing on single document QA.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"FASTQA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FastQA is another model applied to multi-document question answering, also focusing on single document QA.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"COREFGRU\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CorefGRU is a model that encodes relations between entity mentions in the document, similar to EntityGCN.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"MHPGM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MHPGM is a model that uses a multi-attention mechanism in combination with external commonsense relations for reasoning.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"WEAVER / JENGA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Weaver / Jenga is a deep coencoding model that processes concatenated documents and the query for multi-document QA.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"SAP INNOVATION CENTER NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SAP Innovation Center Network supports the project described in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"ERC STARTING GRANT BROADSEM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ERC Starting Grant BroadSem supports the project described in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"DUTCH ORGANIZATION FOR SCIENTIFIC RESEARCH (NWO) VIDI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dutch Organization for Scientific Research (NWO) VIDI supports the project described in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"WILKER AZIZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wilker Aziz is an individual supported by the Dutch Organisation for Scientific Research (NWO) VICI Grant.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"JOHANNES WELBL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Johannes Welbl is a person who helped test the system on WIKIHOP.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"WIKIHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WIKIHOP is an event or dataset used for testing the system mentioned in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"GRAPH NEURAL NETWORKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "A type of model that has been successful on various NLP tasks, including document level modeling, and mentioned in the context of multi-document QA and knowledge base reasoning.",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"AVG. $|C_{Q}|$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Avg. $|C_{q}|$ refers to the average number of candidates with one standard deviation in the context of query analysis.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"US AND UNITED STATES\"",
+                "entity_type": "\"GEO\"",
+                "description": "A geo-location used to illustrate entity mention differences and the concept of different degrees of granularity in entity mentions, compared with 'US' and 'London'.",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"LONDON\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"London is mentioned as an example of a place that could be considered correct in a different degree of granularity compared to 'UK'.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"UK\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"UK is used in comparison with 'London' to illustrate the concept of different degrees of granularity in entity mentions.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"PEARSON’S CORRELATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pearson’s correlation is used to measure the relationship between accuracy and the number of candidate answers.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"GRAPH CONVOLUTIONAL ENCODERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Graph convolutional encoders are a type of model used for syntax-related tasks in NLP, as referenced in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"DUTCH ORGANISATION FOR SCIENTIFIC RESEARCH (NWO) VICI GRANT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dutch Organisation for Scientific Research (NWO) VICI Grant supports Wilker Aziz, as mentioned in the text.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"FIGURE 3\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Figure 3 is referenced in the text as a source of plots related to model performance and graph size.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"TABLE 6\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 6 is mentioned as a source of reported samples in the supplement material.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"SONG ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Song et al. (2018) is referenced as concurrent work in the context of graph neural networks in multidocument QA.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"SCHLICHTKRULL ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schlichtkrull et al. (2018) is referenced for using GCNs to capture reasoning chains in a knowledge base.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"MARCHEGGIANI AND TITOV (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Marcheggiani and Titov (2017) is referenced in the context of graph neural networks' success in NLP tasks.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"BASTINGS ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bastings et al. (2017) is referenced in the context of graph neural networks' success in NLP tasks.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL. (2018A)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al. (2018a) is referenced in the context of graph neural networks' success in NLP tasks.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"PENG ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng et al. (2017) is referenced in the context of graph neural networks applied to document level modeling.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL. (2018B)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al. (2018b",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ENTITYGCN\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"EntityGCN's performance is affected by mismatches between WIKIPEDIA and WIKIDATA annotations.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "src_id": "\"ENTITYGCN\"",
+                "tgt_id": "\"WIKIDATA\"",
+                "weight": 6.0,
+                "description": "\"EntityGCN's performance is affected by mismatches between WIKIPEDIA and WIKIDATA annotations.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "src_id": "\"BIDAF\"",
+                "tgt_id": "\"FASTQA\"",
+                "weight": 7.0,
+                "description": "\"BiDAF and FastQA are both models applied to multi-document question answering, focusing on single document QA.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "src_id": "\"COREFGRU\"",
+                "tgt_id": "\"ENTITYGCN\"",
+                "weight": 7.0,
+                "description": "\"CorefGRU and EntityGCN both encode relations between entity mentions in the document, but use different methods.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            },
+            {
+                "src_id": "\"MHPGM\"",
+                "tgt_id": "\"WEAVER / JENGA\"",
+                "weight": 7.0,
+                "description": "\"MHPGM and Weaver / Jenga are both models applied to multi-document question answering with different mechanisms.\"",
+                "source_id": "chunk-93e927343e457bf92ee7a74ecfafb2b1"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-16a889dd9a6291bb9f96fc416a0d6f91",
+        "entities": [
+            {
+                "entity_name": "\"INNOVATION CENTER NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Innovation Center Network is an organization that supports research and development projects.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"ERC STARTING GRANT BROADSEM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ERC Starting Grant BroadSem is a grant program that supports early-career researchers, with the specific project BroadSem having the identifier 678254.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"DUTCH ORGANIZATION FOR SCIENTIFIC RESEARCH (NWO)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "The Dutch Organization for Scientific Research (NWO) is an organization that funds scientific research, providing grants such as VIDI 639.022.518 and VICI Grant nr. 277-89-002 to support researchers like Wilker Aziz.",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"WILKER AZIZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wilker Aziz is an individual who is supported by the Dutch Organization for Scientific Research (NWO) through a VICI Grant.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"JOOST BASTINGS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joost Bastings is a researcher involved in the field of natural language processing, as evidenced by his publication at the 2017 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"IVAN TITOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ivan Titov is a researcher in the field of natural language processing, with a publication co-authored with Wilker Aziz and others in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"DIEGO MARCHEGGIANI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Diego Marcheggiani is a researcher who has co-authored a publication with Wilker Aziz and others, focusing on syntax-aware neural machine translation.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"KHALIL SIMAAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Khalil Simaan is a researcher involved in the field of natural language processing, with a publication co-authored with Wilker Aziz and others in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"LISA BAUER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lisa Bauer is a researcher who has published on commonsense for generative multi-hop question answering tasks at the 2018 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"YICHENG WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yicheng Wang is a researcher who has co-authored a publication with Lisa Bauer and Mohit Bansal in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"MOHIT BANSAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Bansal is a researcher who has co-authored a publication with Lisa Bauer and Yicheng Wang in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is a researcher who has contributed to the field of language understanding with the BERT model, as indicated by his 2018 publication.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is a researcher who has co-authored the publication introducing the BERT model in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is a researcher who has contributed to the BERT model and has co-authored a publication on neural coreference resolution in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is a researcher who has co-authored the publication introducing the BERT model in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"BHUWAN DHINGRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bhuwan Dhingra is a researcher who has co-authored a publication on neural models for reasoning over multiple mentions in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"QIAO JIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qiao Jin is a researcher who has co-authored a publication with Bhuwan Dhingra and others in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"ZHILIN YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhilin Yang is a researcher who has co-authored a publication with Bhuwan Dhingra and others in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"WILLIAM COHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William Cohen is a researcher who has co-authored a(\"entity\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"KARL MORITZ HERMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karl Moritz Hermann is a researcher who has co-authored a publication on teaching machines to read and comprehend in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"TOMAS KOCISKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomas Kocisky is a researcher who has co-authored publications on teaching machines to read and comprehend in 2015 and the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"EDWARD GREFENSTETTE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edward Grefenstette is a researcher who has co-authored publications on teaching machines to read and comprehend in 2015 and the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"LASSE ESPEHOLT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lasse Espeholt is a researcher who has co-authored a publication on teaching machines to read and comprehend in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"WILL KAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Will Kay is a researcher who has co-authored a publication on teaching machines to read and comprehend in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"MUSTAFA SULEYMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mustafa Suleyman is a researcher who has co-authored a publication on teaching machines to read and comprehend in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"PHIL BLUNSOM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phil Blunsom is a researcher who has co-authored publications on teaching machines to read and comprehend in 2015 and the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"MANDAR JOSHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mandar Joshi is a researcher who has co-authored a publication on TriviaQA: A large scale distantly supervised challenge dataset for reading comprehension in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"EUNSOL CHOI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eunsol Choi is a researcher who has co-authored a publication with Mandar Joshi and others on TriviaQA in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"DANIEL WELD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Weld is a researcher who has co-authored a publication with Mandar Joshi and others on TriviaQA in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is a researcher who has co-authored publications on TriviaQA in 2017 and end-to-end neural coreference resolution in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"DIEDERIK P KINGMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Diederik P Kingma is a researcher who has co-authored a publication on Adam: A method for stochastic optimization in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"JIMMY BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jimmy Ba is a researcher who has co-authored a publication with Diederik P Kingma on Adam: A method for stochastic optimization in 2015.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"MAX WELLING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Max Welling is a researcher who has co-authored a publication on semisupervised classification with graph convolutional networks in 2017.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"JONATHAN SCHWARZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Schwarz is a researcher who has co-authored a publication on the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"CHRIS DYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Dyer is a researcher who has co-authored a publication on the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            },
+            {
+                "entity_name": "\"GABOR MELIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gabor Melis is a researcher who has co-authored a publication on the NarrativeQA reading comprehension challenge in 2018.\"",
+                "source_id": "chunk-16a889dd9a6291bb9f96fc416a0d6f91"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-43d01e9d8327207075edce24c3998824",
+        "entities": [
+            {
+                "entity_name": "\"LEE ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al. (2017) are the authors of the coreference resolution study mentioned in the text.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"KIPF AND WELLING (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kipf and Welling (2017) are the authors of the graph convolutional network (GCN) algorithm referenced in the text.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"SCHLICHTKRULL ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schlichtkrull et al. (2018) are the authors of the relational-GCNs algorithm, an extended version of the GCN algorithm.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"PETERS ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al. (2018) are the authors of the ELMo pre-trained bi-directional language model used in the text.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"MIKOLOV ET AL. (2013)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mikolov et al. (2013) are the authors of the word2vec model, which is mentioned in the text for comparison with ELMo.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL. (2014)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pennington et al. (2014) are the authors of the GloVe model, which is mentioned as an alternative to ELMo in the text.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"SUPPORTING DOCUMENTS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Supporting documents are the documents used to organize mentions of candidate entities or query entities in a graph structure.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"ENTITY GRAPH\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Entity graph is the structure where nodes represent mentions of entities and are connected by different types of relations.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"QUERY ENTITIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Query entities are the entities that are being queried within the context of the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"CANDIDATE ENTITIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Candidate entities are the entities that are considered as potential answers within the context of the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"DOC-BASED EDGES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"DOC-BASED edges are the connections in the entity graph that represent co-occurrence of mentions within the same document.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"MATCH EDGES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"MATCH edges are the connections in the entity graph that represent identical named entity mentions.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"COREF EDGES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"COREF edges are the connections in the entity graph that represent mentions in the same coreference chain.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"COMPLEMENT EDGE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"COMPLEMENT edge is the relation added between any two nodes in the entity graph that are not connected by any other relations.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"R-GCN\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"R-GCN refers to the relational graph convolutional network used for multi-step reasoning in the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"ELMo is the pre-trained bi-directional language model used for encoding words in supporting documents and queries.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"NODES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Nodes in the entity graph represent mentions of either candidate entities or query entities and are connected by different types of relations.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"MENTIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Mentions are instances of entities within the text that are represented as nodes in the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"COREFERENCE CHAINS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coreference chains are sequences of mentions that the external coreference system predicts to be referring to the same entity.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"EXTERNAL COREFERENCE SYSTEM\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The external coreference system is used to predict coreference chains, which are then represented as COREF edges in the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"FULLY CONNECTED GRAPH\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A fully connected graph is the theoretical construct against which the entity graph's connectivity is compared to identify COMPLEMENT edges.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"NODE REPRESENTATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Node representations are the continuous annotations associated with each node in the entity graph, representing an entity in the context it was mentioned.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"DIFFERENTIABLE MESSAGE PASSING ALGORITHM\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The differentiable message passing algorithm is used to propagate information through the entity graph, parameterized by a graph convolutional network.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"MULTI-STEP REASONING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Multi-step reasoning is the process by which the model updates node representations in the entity graph through layers of R-GCN.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"NODE INDICES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Node indices are the identifiers for nodes in the entity graph, used to determine which nodes are mentions of a specific candidate answer.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"PARAMETERIZED AFFINE TRANSFORMATION\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The parameterized affine transformation is used in the calculation of the probability of selecting a candidate as an answer in the entity graph.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"CONTEXTUALIZED WORD REPRESENTATIONS\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Contextualized word representations are the type of word encodings provided by ELMo, which depend on the entire text excerpt for each token representation.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"CHARACTER-BASED INPUT REPRESENTATION\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Character-based input representation is the method by which ELMo processes text, analyzing characters to create contextualized word representations.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "entity_name": "\"NON-CONTEXTUALIZED WORD REPRESENTATIONS\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Non-contextualized word representations, such as those provided by GloVe, are word encodings that do not depend on the context of the entire text excerpt.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"NODES\"",
+                "tgt_id": "\"MENTIONS\"",
+                "weight": 7.0,
+                "description": "\"Nodes in the entity graph represent mentions, which are the instances of entities within the text.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "src_id": "\"NODES\"",
+                "tgt_id": "\"COREFERENCE CHAINS\"",
+                "weight": 7.0,
+                "description": "\"Nodes in the entity graph can be connected by COREF edges, indicating that the mentions are in the same coreference chain.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "src_id": "\"EXTERNAL COREFERENCE SYSTEM\"",
+                "tgt_id": "\"COREFERENCE CHAINS\"",
+                "weight": 8.0,
+                "description": "\"The external coreference system predicts coreference chains, which are sequences of mentions that refer to the same entity.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "src_id": "\"NODE REPRESENTATIONS\"",
+                "tgt_id": "\"MENTIONS\"",
+                "weight": 7.0,
+                "description": "\"Node representations in the entity graph represent mentions of entities, capturing the context in which they were mentioned.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "src_id": "\"MULTI-STEP REASONING\"",
+                "tgt_id": "\"NODE REPRESENTATIONS\"",
+                "weight": 9.0,
+                "description": "\"Multi-step reasoning involves updating node representations in the entity graph through layers of R-GCN.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            },
+            {
+                "src_id": "\"PARAMETERIZED AFFINE TRANSFORMATION\"",
+                "tgt_id": "\"NODE INDICES\"",
+                "weight": 6.0,
+                "description": "\"The parameterized affine transformation is used in conjunction with node indices to calculate the probability of selecting a candidate answer.\"",
+                "source_id": "chunk-43d01e9d8327207075edce24c3998824"
+            }
+        ]
+    }
+}

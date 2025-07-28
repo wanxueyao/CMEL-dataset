@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Short, gray hair- Facial Expression: Not fully visible due to the mask, but appears to be focused or serious- Age: Appears to be an older adult- Clothing: Wearing a dark blue polo shirt with short sleeves- Accessories: Wearing a white face mask covering the nose and mouth- Posture: Standing with one arm raised, possibly gesturing or pointingOverall, the individual appears to be engaged in an activity that requires communication or direction, indicated by the raised arm and the face mask suggesting a setting where health precautions are being observed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, blonde hair, styled in a casual manner- Face: Wearing a white face mask that covers the nose and mouth- Expression: Not visible due to the face mask- Age: Appears to be an adult, but exact age is not discernible- Clothing: Wearing a blue jacket with a high collar- Posture: Bent forward slightly, suggesting movement or actionOverall, the person appears to be engaged in an activity that requires wearing a face mask, possibly for health or safety reasons."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts two individuals in a kitchen or food preparation area. Both individuals are wearing face masks, indicating a setting that requires health and safety precautions. The person on the left is seated and appears to be handling a large box of baked goods, possibly donuts or pastries. The box is open, revealing several rows of these items. The individual on the right is standing and holding up a plastic bag containing what looks like a sandwich or some other type of food item. The background shows various kitchen equipment and supplies, including stacked boxes, a coffee machine, and a bottle of hand sanitizer. The overall atmosphere suggests a scene of food distribution or preparation, possibly in a charitable or community service context."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wearing a face mask, blue shirt, and engaged in sorting food items on the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wearing a face mask, dark shirt, and holding a bag of food above his head."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;FOOD ITEMS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various packaged food items on the table and in boxes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;BOXES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Cardboard boxes containing food items."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Large table with food items and boxes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<node id="&quot;KITCHEN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The setting is a kitchen with cabinets and appliances."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;FOOD ITEMS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Food Items是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boxes是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;KITCHEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Kitchen是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;MAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are working together in the kitchen, sorting and handling food items."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;FOOD ITEMS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is sorting through the food items on the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is near the boxes filled with food items."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;FOOD ITEMS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is holding up a bag of food, likely sorting or distributing it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is standing next to the boxes filled with food items."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOOD ITEMS&quot;" target="&quot;BOXES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The food items are contained within the cardboard boxes."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOOD ITEMS&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The food items are placed on the table for sorting and distribution."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;KITCHEN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table is located within the kitchen setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

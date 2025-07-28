@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating a model architecture. At the top, there is a gray block labeled 'comb' with an arrow pointing upwards labeled 'b'. This block receives inputs from two sets of blocks below it. On the left side, there are green blocks labeled 'Block_N' and 'Block_1', arranged in a hierarchical structure with arrows pointing upwards. The green blocks represent standard transformer decoder blocks that operate left to right by masking future time-steps. On the right side, there are blue blocks also labeled 'Block_N' and 'Block_1', similarly arranged in a hierarchical structure with arrows pointing upwards. The blue blocks represent blocks that operate right to left. At the bottom, there are arrows labeled '&lt;s&gt;' pointing towards the 'Block_1' blocks on both sides. Additionally, there are two arrows pointing towards the 'comb' block from the 'Block_N' blocks on both sides. One arrow is green and points from the left, while the other is blue and points from the right. The overall structure suggests a model that combines forward and backward states for predicting the center token."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+</node>
+<node id="&quot;COMB&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A central block that combines inputs from two different paths."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+</node>
+<node id="&quot;BLOCK_N&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A higher-level block in the processing path, represented in green and blue."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+</node>
+<node id="&quot;BLOCK_1&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A lower-level block in the processing path, represented in green and blue."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+</node>
+<node id="&quot;&lt;S&gt;&lt;S&gt;&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d1">"Block_1 blocks receive input from the start symbols &lt;s&gt;.("</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;COMB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"comb是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BLOCK_N&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Block_N是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BLOCK_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Block_1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMB&quot;" target="&quot;BLOCK_N&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The comb block receives input from Block_N blocks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLOCK_N&quot;" target="&quot;BLOCK_1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Each Block_N is composed of multiple Block_1 blocks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLOCK_1&quot;" target="&quot;&lt;S&gt;&lt;S&gt;&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Block_1 blocks receive input from the start symbols &lt;s&gt;.("</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

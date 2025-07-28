@@ -1,0 +1,174 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the word-level neural network architecture for Named Entity Recognition (NER). The diagram is structured into five layers: Label, Word Representation, Word LSTM-B, Word LSTM-F, and Word Embedding. Each layer is represented by a series of boxes connected by arrows, indicating the flow of information through the network. The 'Label' layer at the top shows the tags assigned to each word, such as B-ORG, I-ORG, O, B-PER, and I-PER. The 'Word Representation' layer below it contains boxes representing the input words. The 'Word LSTM-B' and 'Word LSTM-F' layers are bidirectional Long Short-Term Memory networks that process the word representations in both forward and backward directions. The 'Word Embedding' layer at the bottom represents the initial word embeddings. The words 'Best', 'Buy', 's', 'CEO', 'Hubert', and 'Joly' are shown at the bottom, with their corresponding labels above them."
+        },
+        {
+            "entity_name": "BEST BUY",
+            "entity_type": "ORGANIZATION",
+            "description": "A retail company labeled as B-ORG and I-ORG in the sequence."
+        },
+        {
+            "entity_name": "HUBERT JOLY",
+            "entity_type": "PERSON",
+            "description": "An individual labeled as B-PER and I-PER in the sequence, possibly the CEO of Best Buy."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the character-level neural network architecture for Named Entity Recognition (NER). The diagram is structured in four rows. The top row, labeled 'Label', shows a sequence of labels: B-ORG repeated eight times followed by two O labels. The second row, labeled 'Char Representation', displays a series of boxes with arrows pointing upwards, indicating the representation of characters. The third row, labeled 'Char LSTM-B', shows a sequence of blue boxes connected by arrows, representing the forward pass of the Bi-directional Long Short-Term Memory (Bi-LSTM) network. The fourth row, labeled 'Char LSTM-F', mirrors the third row but represents the backward pass of the Bi-LSTM network. The bottom row, labeled 'Characters', shows the actual characters corresponding to the labels: 'B', 'e', 's', 't', '_', 'B', 'u', 'y', ',', and 's'. Each character is represented by a red box. The diagram visually explains how each character is processed through the Bi-LSTM layers to predict the label for each character."
+        },
+        {
+            "entity_name": "CHAR LSTM-B",
+            "entity_type": "ORGANIZATION",
+            "description": "A component of the model that processes characters in a backward direction, contributing to the representation of each character in the sequence."
+        },
+        {
+            "entity_name": "CHAR LSTM-F",
+            "entity_type": "ORGANIZATION",
+            "description": "A component of the model that processes characters in a forward direction, contributing to the representation of each character in the sequence."
+        },
+        {
+            "entity_name": "CHAR EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A layer that converts character inputs into dense vectors of fixed size, which are then used as input to the Char LSTMs."
+        },
+        {
+            "entity_name": "CHARACTERS",
+            "entity_type": "EVENT",
+            "description": "The sequence of individual letters or symbols being processed by the model, starting with 'B' and ending with 's'."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed diagram illustrating a word + character level neural network architecture for Named Entity Recognition (NER). The diagram is divided into three main sections labeled B-ORG, I-ORG, and O. Each section contains a sequence of nodes representing different components of the model. The nodes are color-coded: purple nodes represent word-level features, blue nodes represent character-level features, and red nodes represent label predictions. The arrows between the nodes indicate the flow of information through the network. The B-ORG section starts with a node labeled 'Best' followed by a sequence of nodes representing individual characters (B', 'e', 's', 't). The I-ORG section starts with a node labeled 'Buy' followed by a sequence of nodes representing individual characters (B', 'u', 'y). The O section represents other entities and follows a similar structure. The diagram also includes connections between the word-level and character-level features, as well as connections to the label prediction nodes. The overall architecture shows how the model processes both word and character-level information to predict entity labels."
+        },
+        {
+            "entity_name": "BEST",
+            "entity_type": "ORGANIZATION",
+            "description": "The word 'Best' is part of an organization name, indicated by the B-ORG tag."
+        },
+        {
+            "entity_name": "BUY",
+            "entity_type": "ORGANIZATION",
+            "description": "The word 'Buy' is part of an organization name, indicated by the I-ORG tag."
+        },
+        {
+            "entity_name": "'",
+            "entity_type": "ORGANIZATION",
+            "description": "The punctuation mark ',' is part of the organization name, indicated by the O tag."
+        },
+        {
+            "entity_name": "",
+            "entity_type": "UNKNOWN",
+            "description": "image_3"
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the architecture of a neural network model for Named Entity Recognition (NER). The diagram is divided into three main sections labeled B-ORG, I-ORG, and O. Each section contains a sequence of colored boxes representing different components of the model. The boxes are connected by arrows indicating the flow of information through the network. The B-ORG section has a sequence of blue boxes with labels 'Bes', 'est', 'Best'. The I-ORG section has a sequence of blue boxes with labels 'Buy', 'Buy', 'Buy'. The O section has a sequence of blue boxes with labels '\\u03A6', '\\u03A6', 's'. Each box in the sequence is connected to a larger box above it, which represents the output of the model. The larger boxes are connected by arrows to other components of the model, including LSTM layers and CRF layers. The diagram also includes red boxes at the bottom, which represent the input tokens. The overall structure of the model is designed to process sequences of words and characters to identify named entities."
+        },
+        {
+            "entity_name": "BEST",
+            "entity_type": "ORGANIZATION",
+            "description": "The word 'Best' is part of an organization name, indicated by the B-ORG tag."
+        },
+        {
+            "entity_name": "BUY",
+            "entity_type": "ORGANIZATION",
+            "description": "The word 'Buy' is part of an organization name, indicated by the I-ORG tag."
+        },
+        {
+            "entity_name": "'S",
+            "entity_type": "ORGANIZATION",
+            "description": "The apostrophe and 's' are part of an organization name, indicated by the O tag."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that compares the performance of various machine learning and neural network models for named entity recognition tasks. The table is divided into four main sections: Feature-engineered machine learning systems, Feature-inferring neural network word models, Feature-inferring neural network character models, and Feature-inferring neural network word + character models. Each section lists different models along with their respective performance metrics on different datasets (Dict, SP, DU, EN, GE). For example, in the Feature-engineered machine learning systems section, Carreras et al. (2002) binary AdaBoost classifiers achieve 81.39% on Dict and 77.05% on SP. In the Feature-inferring neural network word models section, Collobert et al. (2011) Vanilla NN +SLL / Conv-CRF achieves 81.47% on EN. The table highlights the best-performing models in bold, such as Agerri and Rigau (2016) achieving 84.16% on Dict, 85.04% on SP, 91.36% on EN, and 76.42% on GE. The table also includes a final section for Feature-inferring neural network word + character + affix models, where Yadav et al. (2018) report results with 100 and 150 Epochs."
+        },
+        {
+            "entity_name": "FEATURE-ENGINEERED MACHINE LEARNING SYSTEMS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use traditional machine learning algorithms with handcrafted features for tasks such as named entity recognition. Examples include AdaBoost classifiers, Maximum Entropy models, and SVMs with class weights.\">"
+        },
+        {
+            "entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from word-level inputs for tasks such as named entity recognition. Examples include Vanilla NN + SLL / Conv-CRF, Bi-LSTM+CRF, and Win-BiLSTM (English), FF (German).\">"
+        },
+        {
+            "entity_name": "FEATURE-INFERRING NEURAL NETWORK CHARACTER MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from character-level inputs for tasks such as named entity recognition. Examples include BTS and CharNER.\">"
+        },
+        {
+            "entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from both word-level and character-level inputs for tasks such as named entity recognition. Examples include Yang et al. (2017), Luo (2015), and Chiu and Nichols (2015).\">"
+        },
+        {
+            "entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from word-level, character-level, and affix-level inputs for tasks such as named entity recognition. Examples include Re-implementation of Lample et al. (2016) and Yadav et al. (2018).\">"
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Comparison of NER systems in four languages: CoNLL 2002 Spanish (SP), CoNLL 2002 Dutch (DU), CoNLL 2003 English (EN), and CoNLL 2003 German (GE)'. The table is structured with multiple columns and rows. The columns are labeled as follows: 'Dict', 'MedLine (80.10%)', 'DrugBank (19.90%)', and 'Complete dataset'. Each of these main columns is further divided into sub-columns labeled 'P' (Precision), 'R' (Recall), and 'F1'. The rows represent different NER systems and their performance metrics. The first row under 'Feature-engineered machine learning systems' shows the results for Rocktäschel et al. (2013), with 'Yes' indicating the use of dictionary lookups. The precision, recall, and F1 scores for MedLine are 60.70, 55.80, and 58.10 respectively; for DrugBank, they are 88.10, 87.50, and 87.80; and for the complete dataset, they are 73.40, 69.80, and 71.50. The next three rows show the results for Liu et al. (2015) with different configurations: baseline, MED. emb., and state of the art. The last two rows under 'NN word model' and 'NN word + character model' show the results for Chalapathy et al. (2016) and Yadav et al. (2018). The best performance in each category is highlighted in bold. For example, the highest F1 score for MedLine is 69 for the NN word + character + affix model by Yadav et al. (2018)."
+        },
+        {
+            "entity_name": "FEATURE-ENGINEERED MACHINE LEARNING SYSTEMS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of machine learning systems that use handcrafted features to improve performance.\">"
+        },
+        {
+            "entity_name": "ROCKTÄSCHEL ET AL. (2013)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2013 who developed a feature-engineered machine learning system for text classification tasks.\">"
+        },
+        {
+            "entity_name": "LIU ET AL. (2015)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2015 who developed multiple versions of a feature-engineered machine learning system, including a baseline, a model with medical embeddings, and a state-of-the-art model.\">"
+        },
+        {
+            "entity_name": "CHALAPATHY ET AL. (2016)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2016 who developed a neural network word model for text classification tasks.\">"
+        },
+        {
+            "entity_name": "YADAV ET AL. (2018)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2018 who developed neural network models using words, characters, and affixes for text classification tasks.\">"
+        },
+        {
+            "entity_name": "MEDLINE",
+            "entity_type": "GEO",
+            "description": "A dataset used for evaluating the performance of different machine learning systems on text classification tasks related to medical literature.\">"
+        },
+        {
+            "entity_name": "DRUGBANK",
+            "entity_type": "GEO",
+            "description": "A dataset used for evaluating the performance of different machine learning systems on text classification tasks related to drug information.\">"
+        },
+        {
+            "entity_name": "COMPLETE DATASET",
+            "entity_type": "GEO",
+            "description": "A combined dataset used for evaluating the overall performance of different machine learning systems on text classification tasks.\">"
+        }
+    ]
+}

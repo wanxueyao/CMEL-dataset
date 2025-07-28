@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the architecture of SenseBERT, an extension of BERT (Bidirectional Encoder Representations from Transformers). The diagram is divided into two parts: (a) BERT and (b) SenseBERT. In part (a), the input sequence $x^{(1)}$ to $x^{(N)}$ is shown with a [MASK] token included. These inputs are mapped through a matrix $W$ to produce $Wx^{(j)}$ for each token. Positional embeddings $p^{(j)}$ are added to these transformed inputs before they are fed into a Transformer encoder. The output of the Transformer encoder is then used to predict words $y^{words}$ through a matrix $W^T$. In part (b), SenseBERT adds an additional mapping $S$ for supersenses. The input sequence is similarly mapped through $W$ and $S$, producing $Wx^{(j)}$ and $SMx^{(j)}$ respectively. Positional embeddings $p^{(j)}$ are added to these transformed inputs before they are fed into the same Transformer encoder. The outputs are used to predict both words $y^{words}$ through $W^T$ and supersenses $y^{senses}$ through $S^T$. The diagram uses color coding to differentiate between word-level and supersense-level information, with pink representing word-level information and blue representing supersense-level information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A diagram illustrating the BERT model architecture, showing the input sequence with a masked token, the embedding layer, and the transformer encoder outputting word predictions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+</node>
+<node id="&quot;SENSEBERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A diagram illustrating the SenseBERT model architecture, which extends BERT by incorporating sense embeddings in addition to word embeddings and positional embeddings, and outputs both word and sense predictions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SENSEBERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SenseBERT是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;SENSEBERT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"SenseBERT is an extension of BERT, adding sense embeddings to improve semantic understanding and disambiguation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

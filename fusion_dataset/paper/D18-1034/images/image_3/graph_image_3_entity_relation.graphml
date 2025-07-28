@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: NER $F_{1}$ scores' that provides comparative results for Named Entity Recognition (NER) across different models and languages. The table is structured with the following columns: Model, Spanish, Dutch, German, and Extra Resources. Each row represents a different model or method used for NER. The rows include various models such as Täckström et al. (2012), Nothman et al. (2013), Tsai et al. (2016), Ni et al. (2017), Mayhew et al. (2017), and our methods. The values in the Spanish, Dutch, and German columns represent the $F_{1}$ scores for each model in these respective languages. For example, Täckström et al. (2012) has an $F_{1}$ score of 59.30 for Spanish, 58.40 for Dutch, and 40.40 for German. Our methods are listed at the bottom with their respective $F_{1}$ scores and standard deviations. The footnote indicates that approaches marked with an asterisk (*) use more resources than ours, and those marked with a dagger (†) use multiple languages for transfer. The context discusses the challenges in cross-lingual settings and the comparison with dictionary-based translation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;TÄCKSTRÖM ET AL. (2012)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A research group that published a paper in 2012, using a parallel corpus for their work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;NOTHMAN ET AL. (2013)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A research group that published a paper in 2013, utilizing Wikipedia as an extra resource."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;TSAI ET AL. (2016)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A research group that published a paper in 2016, also using Wikipedia as an extra resource."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;NI ET AL. (2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A research group that published a paper in 2017, leveraging Wikipedia, a parallel corpus, and a 5K dictionary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAYHEW ET AL. (2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A research group that published a paper in 2017, using Wikipedia and a 1M dictionary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;MAYHEW ET AL. (2017) (ONLY ENG. DATA)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A subset of the Mayhew et al. (2017) research group's work, focusing only on English data with a 1M dictionary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET (ID.C.)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A method developed by our team, achieving scores of 71.14 ± 0.60 for Spanish, 70.24 ± 1.18 for Dutch, and 57.03 ± 0.25 for German."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET (ID.C.) + SELF-ATT.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BWET (id.c.), incorporating self-attention, achieving higher scores across all languages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET (ADV.)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another method developed by our team, achieving scores of 70.54 ± 0.85 for Spanish, 70.13 ± 1.04 for Dutch, and 55.71 ± 0.47 for German."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET (ADV.) + SELF-ATT.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BWET (adv.), incorporating self-attention, achieving higher scores across all languages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A baseline method developed by our team, achieving scores of 71.33 ± 1.26 for Spanish, 69.39 ± 0.53 for Dutch, and 56.95 ± 1.20 for German."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET + SELF-ATT.&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BWET, incorporating self-attention, achieving higher scores across all languages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET ON DATA FROM MAYHEW ET AL. (2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Our method applied to the dataset used by Mayhew et al. (2017), achieving scores of 66.53 ± 1.12 for Spanish, 69.24 ± 0.66 for Dutch, and 55.39 ± 0.98 for German."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;BWET + SELF-ATT. ON DATA FROM MAYHEW ET AL. (2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An enhanced version of BWET on the dataset used by Mayhew et al. (2017), incorporating self-attention, achieving higher scores across all languages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<node id="&quot;OUR SUPERVISED RESULTS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The best performance achieved by our team using a supervised approach, achieving scores of 86.26 ± 0.40 for Spanish, 86.40 ± 0.17 for Dutch, and 78.16 ± 0.45 for German."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TÄCKSTRÖM ET AL. (2012)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Täckström et al. (2012)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NOTHMAN ET AL. (2013)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nothman et al. (2013)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TSAI ET AL. (2016)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tsai et al. (2016)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NI ET AL. (2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ni et al. (2017)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAYHEW ET AL. (2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mayhew et al. (2017)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MAYHEW ET AL. (2017) (ONLY ENG. DATA)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mayhew et al. (2017) (only Eng. data)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET (ID.C.)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET (id.c.)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET (ID.C.) + SELF-ATT.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET (id.c.) + self-att.是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET (ADV.)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET (adv.)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET (ADV.) + SELF-ATT.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET (adv.) + self-att.是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET + SELF-ATT.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET + self-att.是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET ON DATA FROM MAYHEW ET AL. (2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET on data from Mayhew et al. (2017)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BWET + SELF-ATT. ON DATA FROM MAYHEW ET AL. (2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BWET + self-att. on data from Mayhew et al. (2017)是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;OUR SUPERVISED RESULTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Our supervised results是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

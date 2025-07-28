@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Accuracies for the balanced futureprediction task.' The table is structured with three main columns: Feature set, # features, and Accuracy. Each row represents a different feature set used in the prediction task and contains the following information: \n- Bag of words: 5,000 features, 56.7% accuracy. \n- Sentiment lexicon: 4 features, 55.4% accuracy. \n- Politeness strategies: 38 features, 60.5% accuracy. \n- Prompt types: 12 features, 59.2% accuracy. \n- Pragmatic (all): 50 features, 61.6% accuracy. \n- Interlocutor features: 5 features, 51.2% accuracy. \n- Trained toxicity: 2 features, 60.5% accuracy. \n- Toxicity + Pragmatic: 52 features, 64.9% accuracy. \n- Humans: 72.0% accuracy. \nThe table highlights the performance of various feature sets in predicting future interactions, with the highest accuracy achieved by combining trained toxicity with pragmatic features at 64.9%. The reference point of human annotators achieves an accuracy of 72.0%, providing a benchmark for the model's performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying the accuracy of different feature sets used in a machine learning model for predicting human behavior."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;BAG OF WORDS&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 5,000 individual words used to represent text data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;SENTIMENT LEXICON&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 4 sentiment-related terms used to gauge the emotional tone of text data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;POLITENESS STRATEGIES&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 38 strategies used to measure politeness in text data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;PROMPT TYPES&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 12 different types of prompts used to elicit responses from participants."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;PRAGMATIC (ALL)&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A comprehensive feature set consisting of 50 pragmatic features used to understand the context and implications of text data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;INTERLOCUTOR FEATURES&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 5 characteristics of conversation partners used to predict their behavior."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;TRAINED TOXICITY&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A feature set consisting of 2 trained models used to detect toxic language in text data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;TOXICITY + PRAGMATIC&quot;">
+  <data key="d0">"FEATURE_SET"</data>
+  <data key="d1">"A combined feature set consisting of 52 features that include both toxicity and pragmatic elements."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<node id="&quot;HUMANS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The reference point for comparison, representing the accuracy of human predictions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BAG OF WORDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bag of words是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SENTIMENT LEXICON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sentiment lexicon是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;POLITENESS STRATEGIES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Politeness strategies是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PROMPT TYPES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Prompt types是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PRAGMATIC (ALL)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pragmatic (all)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;INTERLOCUTOR FEATURES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Interlocutor features是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TRAINED TOXICITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trained toxicity是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TOXICITY + PRAGMATIC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Toxicity + Pragmatic是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HUMANS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Humans是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;BAG OF WORDS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Bag of words feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SENTIMENT LEXICON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Sentiment lexicon feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;POLITENESS STRATEGIES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Politeness strategies feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PROMPT TYPES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Prompt types feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PRAGMATIC (ALL)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Pragmatic (all) feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;INTERLOCUTOR FEATURES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Interlocutor features feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TRAINED TOXICITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Trained toxicity feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TOXICITY + PRAGMATIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of the Toxicity + Pragmatic feature set."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;HUMANS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes the accuracy of human predictions as a reference point."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

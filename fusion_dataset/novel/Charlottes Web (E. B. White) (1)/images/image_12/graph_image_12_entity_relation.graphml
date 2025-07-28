@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a scene on a rainy day. In the foreground, there is a lamb standing in a muddy area with puddles of water. The lamb has a woolly coat and appears to be looking upwards, possibly at the rain or something out of the frame. Behind the lamb, there is a wooden fence with a small hole through which a pig's face is visible. The pig looks curious and is peering through the hole. The background shows raindrops falling, adding to the atmosphere of the scene. The overall mood conveyed is one of solitude and perhaps a bit of melancholy due to the rainy weather and the solitary figure of the lamb."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+</node>
+<node id="&quot;SHEEP&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A sheep standing in the rain with its head turned to the side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A pig peeking through a hole in a wooden fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence with a hole through which a pig is peeking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+</node>
+<node id="&quot;RAIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rain falling on the sheep and the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+</node>
+<node id="&quot;GROUND&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d1">"The rain is falling on the ground where the sheep is standing."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sheep是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;RAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rain是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;PIG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The sheep is standing near the pig, which is peeking through the fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sheep is standing in front of the fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;RAIN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rain is falling on the sheep."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pig is behind the fence, peeking through a hole."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAIN&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rain is falling on the ground where the sheep is standing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

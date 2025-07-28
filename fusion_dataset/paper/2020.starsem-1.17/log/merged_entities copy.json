@@ -1,0 +1,270 @@
+{
+    "chunk-d342986fead6b9e93e3b5e50b8194cac": [
+        {
+            "entity_name": "DIALOG STATE TRACKING",
+            "entity_type": "EVENT",
+            "description": "Dialog State Tracking (DST) is a core component in task-oriented dialog systems, aiming to estimate users' goals and intentions based on conversation history. It involves tracking all the <domain, slot, value> triplets accumulated across the conversational turns. The research focuses on improving DST by using a dual-strategy model that balances ontology-based and ontology-free methods.",
+            "source_entities": [
+                "DIALOG STATE TRACKING",
+                "BERT-BASED MODEL",
+                "DUALSTRATEGY DIALOG STATE TRACKING MODEL (DS-DST)"
+            ]
+        },
+        {
+            "entity_name": "MULTIWOZ DATASETS",
+            "entity_type": "EVENT",
+            "description": "The MultiWOZ datasets are used for evaluating the performance of Dialog State Tracking models. They consist of two settings: MultiWOZ 2.0, which is a noisy setting, and MultiWOZ 2.1, which is a cleaner setting. The dual-strategy model for DST has been evaluated on these datasets and performs competitively and robustly across both settings.",
+            "source_entities": [
+                "MULTIWOZ 2.0",
+                "MULTIWOZ 2.1"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT (Bidirectional Encoder Representations from Transformers) is the basis for a model that balances ontology-based and ontology-free methods in Dialog State Tracking. It has influenced the development of DST models, including the BERT-based model introduced by Rastogi et al., 2020, and the DualStrategy Dialog State Tracking model (DS-DST).",
+            "source_entities": [
+                "BERT",
+                "BERT-BASED MODEL",
+                "RASTOGI ET AL., 2020",
+                "DEVLIN ET AL., 2019"
+            ]
+        }
+    ],
+    "chunk-212df6f08b9496aebe049dddcfe0c79c": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a pre-trained model used in the DualStrategy Dialog State Tracking model for encoding inputs, and it is also associated with the development of the BERT model as mentioned by Devlin et al., 2019.",
+            "source_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2019"
+            ]
+        },
+        {
+            "entity_name": "Dialogue State Tracking Challenges",
+            "entity_type": "EVENT",
+            "description": "Dialogue State Tracking Challenges are events that have contributed to the development of the field, with various researchers contributing over the years, including Williams et al., 2013; Henderson et al., 2014a,b; and Kim et al., 2016, 2017, 2019.",
+            "source_entities": [
+                "DIALOGUE STATE TRACKING CHALLENGES",
+                "WILLIAMS ET AL., 2013",
+                "HENDERSON ET AL., 2014A,B",
+                "KIM ET AL., 2016, 2017, 2019"
+            ]
+        },
+        {
+            "entity_name": "MultiWOZ",
+            "entity_type": "EVENT",
+            "description": "MultiWOZ is a dataset series where the DualStrategy Dialog State Tracking model achieved state of the art performance on MultiWOZ 2.0 and competitive performance on MultiWOZ 2.1. The datasets are associated with Budzianowski et al., 2018 for MultiWOZ 2.0 and Eric et al., 2019 for MultiWOZ 2.1.",
+            "source_entities": [
+                "MULTIWOZ 2.0",
+                "MULTIWOZ 2.1",
+                "BUDZIANOWSKI ET AL., 2018",
+                "ERIC ET AL., 2019"
+            ]
+        }
+    ],
+    "chunk-3833266841eb207cc0ecb59f88a8c765": [
+        {
+            "entity_name": "DS-DST MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-DST model is the proposed dual strategy model for Dialogue State Tracking (DST), utilizing BERT for encoding and slot gate classification. It involves encoding the dialogue context and each domain-slot pair, and classifying the appearance of domain-slot pairs at each turn of the dialogue.",
+            "source_entities": [
+                "DS-DST MODEL",
+                "BERT",
+                "SLOT GATE",
+                "DIALOGUE CONTEXT",
+                "DOMAIN-SLOT PAIRS"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a pre-trained model used in the DS-DST model for encoding information about the dialogue context and each domain-slot pair. It provides contextualized representations conditioned on the domain-slot information and is fine-tuned during the training process.",
+            "source_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2019"
+            ]
+        },
+        {
+            "entity_name": "SLOT GATE",
+            "entity_type": "CONCEPT",
+            "description": "Slot Gate is a classification module designed to predict the appearance of domain-slot pairs at each turn of the dialogue, following the work of Wu et al., 2019 and Xu and Hu, 2018. It classifies whether a domain-slot pair is not mentioned, the user can accept any values, or the slot should be processed with a real value.",
+            "source_entities": [
+                "SLOT GATE",
+                "WU ET AL., 2019",
+                "XU AND HU, 2018"
+            ]
+        },
+        {
+            "entity_name": "DOMAIN-SLOT PAIRS",
+            "entity_type": "CONCEPT",
+            "description": "Domain-Slot Pairs are the combinations of domains and slots being discussed in the dialogue, represented as ${\\cal S}$. They are divided into non-categorical and categorical slots, with non-categorical slots utilizing a two-way linear mapping to find text spans and categorical slots selecting the most plausible values from the picklists based on contextual representation.",
+            "source_entities": [
+                "DOMAIN-SLOT PAIRS",
+                "NON-CATEGORICAL SLOTS",
+                "CATEGORICAL SLOTS",
+                "PICKLIST"
+            ]
+        }
+    ],
+    "chunk-66776e940011a1a6551ba1d5b182197d": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a pre-trained model used as a feature extractor in the described model architecture for slot-value prediction tasks. It is utilized in both categorical and non-categorical slot-value predictions, providing aggregated representations of candidate values and dialog context.",
+            "source_entities": [
+                "\"BERT\"",
+                "$Y_{L}^{\\MATHRM{CLS}}$",
+                "$R_{T J}^{\\MATHRM{CLS}}$"
+            ]
+        },
+        {
+            "entity_name": "MultiWOZ 2.0 and MultiWOZ 2.1",
+            "entity_type": "EVENT",
+            "description": "MultiWOZ 2.0 and MultiWOZ 2.1 are datasets referenced in the text, containing dialogues used for training and evaluation in the domain-slot prediction model. MultiWOZ 2.1 is an updated version of MultiWOZ 2.0.",
+            "source_entities": [
+                "\"MULTIWOZ 2.0\"",
+                "\"MULTIWOZ 2.1\""
+            ]
+        }
+    ],
+    "chunk-4a88ef391418e2f5c8b39687aa4cd0cc": null,
+    "chunk-f62a8c110929832aa89c04f4579fcabf": [
+        {
+            "entity_name": "DS-Span",
+            "entity_type": "EVENT",
+            "description": "DS-Span is a proposed method that treats all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).",
+            "source_entities": [
+                "DS-SPAN",
+                "DS-SPAN"
+            ]
+        },
+        {
+            "entity_name": "DS-Picklist",
+            "entity_type": "EVENT",
+            "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+            "source_entities": [
+                "DS-PICKLIST",
+                "DS-PICKLIST"
+            ]
+        },
+        {
+            "entity_name": "MultiWOZ Datasets",
+            "entity_type": "GEO",
+            "description": "MultiWOZ 2.0 and MultiWOZ 2.1 are datasets used for evaluating dialogue state tracking models, mentioned in the context of test set results and model comparisons.",
+            "source_entities": [
+                "MULTIWOZ 2.0",
+                "MULTIWOZ 2.1",
+                "MULTIWOZ DATASETS"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model used for obtaining schema element embeddings and encoding system and user utterances in dialogue state tracking. It is used in various models and methods for dialogue state tracking, including BERT-DST, DS-Span, and DS-DST.",
+            "source_entities": [
+                "BERT",
+                "BERT-DST",
+                "SPANPTR",
+                "COMMER",
+                "DSTREADER"
+            ]
+        },
+        {
+            "entity_name": "ToD-BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "ToD-BERT is a large pre-trained model based on several task-oriented dialogue datasets, used for dialogue state tracking. It is compared with other models in the paper.",
+            "source_entities": [
+                "TOD-BERT"
+            ]
+        }
+    ],
+    "chunk-0674e6b156ddc1542ca4a1c858314e2e": [
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-DST is a method used for multi-domain dialog state tracking, showing significant improvement over DS-Span in certain slots like hotel-type, attraction-type, attraction-name, hotel-internet, and hotelparking. It is effective in predicting missing values and is part of the analysis to understand the improvement in dialog state tracking.",
+            "source_entities": [
+                "\"DS-DST\"",
+                "\"HOTEL-TYPE\"",
+                "\"ATTRACTIONTYPE\"",
+                "\"ATTRACTION-NAME\"",
+                "\"HOTEL-INTERNET\"",
+                "\"HOTELPARKING\""
+            ]
+        },
+        {
+            "entity_name": "DS-Picklist",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-Picklist is another method used for dialog state tracking, showing significant improvement over DS-Span in certain slots like hotel-type, attraction-type, attraction-name, hotel-internet, and hotelparking. It is effective in predicting missing values and is part of the analysis to understand the improvement in dialog state tracking.",
+            "source_entities": [
+                "\"DS-PICKLIST\"",
+                "\"HOTEL-TYPE\"",
+                "\"ATTRACTIONTYPE\"",
+                "\"ATTRACTION-NAME\"",
+                "\"HOTEL-INTERNET\"",
+                "\"HOTELPARKING\""
+            ]
+        },
+        {
+            "entity_name": "MultiWOZ 2.1",
+            "entity_type": "EVENT",
+            "description": "MultiWOZ 2.1 is the test set used to evaluate the performance of dialog state tracking methods like DS-DST, DS-Picklist, and DS-Span. It includes various slots such as hotel-type, attraction-type, attraction-name, hotel-internet, hotelparking, taxi-leave at, and trainarrive by, which are used to assess the accuracy of these methods.",
+            "source_entities": [
+                "\"MULTIWOZ 2.1\"",
+                "\"HOTEL-TYPE\"",
+                "\"ATTRACTIONTYPE\"",
+                "\"ATTRACTION-NAME\"",
+                "\"HOTEL-INTERNET\"",
+                "\"HOTELPARKING\"",
+                "\"TAXI-LEAVE AT\"",
+                "\"TRAINARRIVE BY\""
+            ]
+        },
+        {
+            "entity_name": "#Unfound",
+            "entity_type": "CONCEPT",
+            "description": "#Unfound refers to the number of slots whose values cannot be found through span matching in the dialog context, impacting the performance of DS-Span and other dialog state tracking methods.",
+            "source_entities": [
+                "\"#UNFOUND\"",
+                "\"DS-SPAN\""
+            ]
+        },
+        {
+            "entity_name": "#Relative_Turns",
+            "entity_type": "CONCEPT",
+            "description": "#Relative_Turns refers to the number of dialogue turns where the slot type is mentioned, used to evaluate the performance of dialog state tracking methods like DS-DST, DS-Picklist, and DS-Span.",
+            "source_entities": [
+                "\"#RELATIVE_TURNS\"",
+                "\"DS-DST\"",
+                "\"DS-PICKLIST\"",
+                "\"DS-SPAN\""
+            ]
+        },
+        {
+            "entity_name": "#Recover",
+            "entity_type": "CONCEPT",
+            "description": "#Recover indicates the number of values correctly predicted by DS-DST or DS-Picklist, showing their effectiveness in predicting missing values and improving the performance of dialog state tracking.",
+            "source_entities": [
+                "\"#RECOVER\"",
+                "\"DS-DST\"",
+                "\"DS-PICKLIST\""
+            ]
+        }
+    ],
+    "chunk-9ea56e64633d44e846e55b17f2865108": [
+        {
+            "entity_name": "MultiWOZ",
+            "entity_type": "EVENT",
+            "description": "MultiWOZ is a series of datasets used in dialog state tracking research, with versions 2.0, 2.1, and 2.2 mentioned. The datasets have issues with annotation errors, ambiguity, and inconsistency, but the latest version, MultiWOZ 2.2, has higher quality and consistency.",
+            "source_entities": [
+                "MULTIWOZ 2.0",
+                "MULTIWOZ 2.1",
+                "MULTIWOZ 2.2"
+            ]
+        }
+    ],
+    "chunk-e584b0ec5e814f387a8facb9f9a9c502": [],
+    "chunk-b7e67152e09814a094103db45b53d4c0": null
+}

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Descriptions of crowdsourcing jobs, with relevant statistics.' The table is divided into two main sections. The first section, labeled 'Job 1: Ends in personal attack,' describes a task where three annotators are shown a conversation and asked to determine if its last comment is a personal attack toward someone else in the conversation. The statistics provided are: 367 annotators, 4,022 conversations, and an agreement rate of 67.8%. The second section, labeled 'Job 2: Civil start,' describes another task where conversations are split into snippets of three consecutive comments. Three annotators are asked to determine whether any of the comments in a snippet is toxic. The statistics for this job are: 247 annotators, 1,252 conversations, 2,181 snippets, and an agreement rate of 87.5%. The table highlights the different approaches used in analyzing conversational toxicity and the level of agreement among annotators."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+</node>
+<node id="&quot;JOB 1: ENDS IN PERSONAL ATTACK.&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where three annotators are shown a conversation and asked to determine if the last comment is a personal attack toward someone else in the conversation. The task involves 367 annotators, 4,022 conversations, and has an agreement rate of 67.8%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+</node>
+<node id="&quot;JOB 2: CIVIL START.&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event where conversations are split into snippets of three consecutive comments. Three annotators are asked to determine if any of the comments in a snippet are toxic. The task involves 247 annotators, 1,252 conversations, 2,181 snippets, and has an agreement rate of 87.5%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;JOB 1: ENDS IN PERSONAL ATTACK.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Job 1: Ends in personal attack.是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;JOB 2: CIVIL START.&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Job 2: Civil start.是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JOB 1: ENDS IN PERSONAL ATTACK.&quot;" target="&quot;JOB 2: CIVIL START.&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both jobs involve the use of annotators to analyze conversations for specific types of comments, with Job 1 focusing on personal attacks and Job 2 on toxicity within snippets of comments."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

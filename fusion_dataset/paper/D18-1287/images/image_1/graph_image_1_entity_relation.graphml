@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_SINK-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Not identifiable from the image alone- Color: Dark, possibly black or dark blue- Shape: Rectangular with a flat surface and sharp edges- Size: Appears to be relatively small, but exact dimensions are not clear due to lack of scale- Material: Likely made of metal or plastic, given the smooth and reflective surface- Possible function: Could be a lid, cover, or part of a larger object, but specific function is not determinable from the image aloneOverall, the object appears to be a simple, dark-colored rectangular item with a smooth surface."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two distinct scenes. On the left, there is an outdoor scene featuring a grassy area with a blue fence in the background. In front of the fence, there is a well with a wooden bucket attached to it. To the right of the well, there is a cactus plant. The sky is dark, suggesting it might be nighttime or a stormy day. On the right, there is an indoor kitchen scene with a tiled wall and a countertop. On the countertop, there is a sink with a faucet, a sponge, a dishwashing soap bottle, and a plate with some food on it. Above the sink, there are three cabinets with open doors, and inside one of the cabinets, there is a bottle of wine. The instructions below each scene provide guidance for navigating or performing tasks related to the images."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;HYDRANT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Red fire hydrant located in the grassy area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;BLUE FENCE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A blue fence situated behind the hydrant."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;CACTUS&quot;">
+  <data key="d0">"PLANT"</data>
+  <data key="d1">"Green cactus plant near the blue fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;WELL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Stone well located to the right of the blue fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;SINK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Metal sink with a faucet, sponge, and dishwashing soap on the counter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;CEREAL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Bowl of cereal placed next to the sink."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;SPONGE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Orange sponge resting on the counter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<node id="&quot;DISHWASHING SOAP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Green bottle of dishwashing soap on the counter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_SINK-1.JPG&quot;" target="&quot;SINK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_sink-1.jpg is a picture of a sink."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_SINK-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_sink-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HYDRANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hydrant是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BLUE FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Blue Fence是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CACTUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cactus是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Well是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SINK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sink是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CEREAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cereal是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SPONGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sponge是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DISHWASHING SOAP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dishwashing Soap是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HYDRANT&quot;" target="&quot;BLUE FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hydrant is located in front of the blue fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLUE FENCE&quot;" target="&quot;CACTUS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The cactus is located near the blue fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLUE FENCE&quot;" target="&quot;WELL&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The well is located to the right side of the blue fence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SINK&quot;" target="&quot;CEREAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bowl of cereal is placed next to the sink."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SINK&quot;" target="&quot;SPONGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sponge is resting on the counter next to the sink."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SINK&quot;" target="&quot;DISHWASHING SOAP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The dishwashing soap is placed on the counter next to the sink."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

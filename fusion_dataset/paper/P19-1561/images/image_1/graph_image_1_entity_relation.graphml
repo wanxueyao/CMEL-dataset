@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Adversarial spelling mistakes inducing sentiment misclassification and word-recognition defenses.' The table is structured with three main columns: Alteration, Movie Review, and Label. Each row represents a different alteration applied to the original movie review and its corresponding label. The first row under 'Original' shows the movie review 'A triumph, relentless and beautiful in its downbeat darkness' with a positive label (+). The second row under 'Swap' shows the altered review 'A triumph, relentless and beuatiful in its downbeat darkness' with a negative label (-). The third row under 'Drop' shows the altered review 'A triumph, relentless and beautiful in its dwnbeat darkness' with a negative label (-). The fourth and fifth rows under '+ Defense' show the reviews 'A triumph, relentless and beautiful in its downbeat darkness' and 'A triumph, relentless and beautiful in its downbeat darkness' with positive labels (+) respectively. The alterations are highlighted in red for swapped or dropped characters and in blue for corrected characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+</node>
+<node id="&quot;ALTERATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of modifying the original movie review to observe changes in sentiment classification."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+</node>
+<node id="&quot;MOVIE REVIEW&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A piece of text containing an opinion about a movie, used for sentiment analysis."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+</node>
+<node id="&quot;LABEL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The classification assigned to the movie review based on its sentiment, either positive (+) or negative (-)."&gt;</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ALTERATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alteration是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;MOVIE REVIEW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Movie Review是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;LABEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Label是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALTERATION&quot;" target="&quot;MOVIE REVIEW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Alteration event modifies the Movie Review to test the robustness of sentiment analysis models."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOVIE REVIEW&quot;" target="&quot;LABEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Label is derived from the sentiment expressed in the Movie Review."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

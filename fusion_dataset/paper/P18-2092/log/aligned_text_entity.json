@@ -1,0 +1,190 @@
+{
+    "image_1": [
+        {
+            "entity_name": "LSTM",
+            "entity_type": "CONCEPT",
+            "description": "LSTM refers to Long Short-Term Memory networks, which are used to capture sequential patterns in data. It is also the name of a type of recurrent neural network architecture used for capturing sequential information in the given text.",
+            "source_image_entities": [
+                "LSTM"
+            ],
+            "source_text_entities": [
+                "LSTM",
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "YEARS",
+            "entity_type": "EVENT",
+            "description": "The years 2014, 2015, and 2016 are significant as they represent the years of the SemEval challenges where public datasets for aspect-level sentiment classification were used in the paper's experiments.",
+            "source_image_entities": [
+                "YEARS"
+            ],
+            "source_text_entities": [
+                "SEMEVAL 2014",
+                "SEMEVAL 2015",
+                "SEMEVAL 2016"
+            ]
+        },
+        {
+            "entity_name": "ASPECT-LEVEL SENTIMENT CLASSIFICATION",
+            "entity_type": "EVENT",
+            "description": "Aspect-level sentiment classification is the task of determining sentiment polarity towards a specific target within a sentence. It is the main focus of the paper, aiming to classify sentiment towards specific aspects within text, and involves the use of models like LSTM+ATT for this purpose.",
+            "source_image_entities": [
+                "DATASET TYPES"
+            ],
+            "source_text_entities": [
+                "ASPECT-LEVEL SENTIMENT CLASSIFICATION",
+                "LSTM+ATT"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "Table 1",
+            "entity_type": "OBJECT",
+            "description": "Table 1 presents the statistics of the resulting datasets after removing samples with conflicting polarities, showcasing the performance of various methods across four datasets (D1, D2, D3, D4) with metrics Accuracy and Macro-F1. The table includes methods from Tang et al. (2016a), Wang et al. (2016), Tang et al. (2016b), Chen et al. (2017), LSTM, LSTM+ATT, Ours: PRET, Ours: MULT, and Ours: PRET+MULT.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "TABLE 1"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM refers to a type of recurrent neural network architecture used for capturing sequential information in the given text, and is also the Long Short-Term Memory model used in the experiments for comparison.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "LSTM",
+                "LSTM"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM+ATT is the baseline model used in the text, which is an LSTM model extended with an attention mechanism, and is used in the experiments for comparison.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "LSTM+ATT",
+                "LSTM+ATT"
+            ]
+        },
+        {
+            "merged_entity_name": "PRET",
+            "entity_type": "EVENT",
+            "description": "PRET refers to the pretraining event where document-level examples are used to initialize the LSTM+ATT model's parameters, and also refers to the process of transferring knowledge from document-level models to aspect-level models, which is the central event in the described study.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "PRET",
+                "PRET"
+            ]
+        },
+        {
+            "merged_entity_name": "MULT",
+            "entity_type": "EVENT",
+            "description": "MULT refers to the multi-task learning event where document-level and aspect-level classification tasks are trained simultaneously, and is also used as discussed above and is part of the PRET+MULT combination.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "MULT",
+                "MULT"
+            ]
+        },
+        {
+            "merged_entity_name": "PRET * MULT",
+            "entity_type": "EVENT",
+            "description": "PRET * MULT refers to the combined event of pretraining followed by multi-task learning for fine-tuning the LSTM+ATT model, and also refers to the combined event of PRET and MULT, which overall yields better results.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "PRET * MULT",
+                "PRET+MULT"
+            ]
+        }
+    ],
+    "image_3": "[\n    {\n        \"entity_name\": \"LSTM Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The LSTM model, a type of recurrent neural network architecture, shows varying performance across different datasets (D1, D2, D3, D4) with accuracy ranging from 71.04% to 83.85% and Macro-F1 scores between 65.30 and 67.85.\",\n        \"source_image_entities\": [\"LSTM ONLY\"],\n        \"source_text_entities\": [\"\\\"LSTM\\\"\"]\n    },\n    {\n        \"entity_name\": \"Embeddings Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Embeddings model, utilizing continuous word embeddings, demonstrates performance metrics with accuracy between 69.12% and 84.12% and Macro-F1 scores ranging from 65.06 to 70.11 across datasets D1 to D4.\",\n        \"source_image_entities\": [\"EMBEDDINGS ONLY\"],\n        \"source_text_entities\": [\"\\\"MIKOLOV ET AL., 2013\\\"\", \"\\\"$\\\\MATHBF{E}$\\\", \\\"$V$\\\", \\\"$d$\\\", \"\\\"GLOVE VECTORS\\\"\"]\n    },\n    {\n        \"entity_name\": \"Output Layer Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The model with only the output layer component active exhibits performance metrics with accuracy scores from 76.88% to 82.55% and Macro-F1 scores between 64.49 and 66.81 for datasets D1 to D4.\",\n        \"source_image_entities\": [\"OUTPUT LAYER ONLY\"],\n        \"source_text_entities\": [\"\\\"$\\\\MATHBF{W}_{O}$\\\"\", \"\\\"$\\\\MATHBF{B}_{O}$\\\"\"]\n    },\n    {\n        \"entity_name\": \"LSTM Exclusion Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The model setting excluding the LSTM component still achieves performance metrics with accuracy between 77.45% and 84.80% and Macro-F1 scores ranging from 66.63 to 70.27 across datasets D1 to D4.\",\n        \"source_image_entities\": [\"WITHOUT LSTM\"],\n        \"source_text_entities\": [\"\\\"LSTM\\\"\"]\n    },\n    {\n        \"entity_name\": \"Embeddings Exclusion Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The model setting without the embeddings component still manages to achieve performance metrics with accuracy scores from 77.97% to 83.94% and Macro-F1 scores between 65.56 and 68.79 for datasets D1 to D4.\",\n        \"source_image_entities\": [\"WITHOUT EMBEDDINGS\"],\n        \"source_text_entities\": [\"\\\"MIKOLOV ET AL., 2013\\\"\", \"\\\"$\\\\MATHBF{E}$\\\", \\\"$V$\\\", \\\"$d$\\\", \"\\\"GLOVE VECTORS\\\"\"]\n    },\n    {\n        \"entity_name\": \"Output Layer Exclusion Model Performance\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The model setting without the output layer component still shows performance metrics with accuracy between 78.36% and 84.71% and Macro-F1 scores ranging from 67.68 to 70.48 across datasets D1 to D4.\",\n        \"source_image_entities\": [\"WITHOUT OUTPUT LAYER\"],\n        \"source_text_entities\": [\"\\\"$\\\\MATHBF{W}_{O}$\\\"\", \"\\\"$\\\\MATHBF{B}_{O}$\\\"\"]\n    }\n]",
+    "image_4": [
+        {
+            "entity_name": "D1",
+            "entity_type": "ORGANIZATION",
+            "description": "D1 is a domain that uses the Yelp dataset for PRET and MULT, and is one of the datasets used in the study to evaluate the performance of PRET and LSTM models. The label distribution is extremely unbalanced on this dataset.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "D1",
+                "D1"
+            ]
+        },
+        {
+            "entity_name": "D2",
+            "entity_type": "ORGANIZATION",
+            "description": "D2 is a domain that uses the Electronics dataset for PRET, and is another dataset used in the study to evaluate the performance of PRET and LSTM models.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "D2",
+                "D2"
+            ]
+        },
+        {
+            "entity_name": "D3",
+            "entity_type": "ORGANIZATION",
+            "description": "D3 is a domain that uses the Yelp dataset for PRET and MULT, and is a dataset used in the study, noted for its extremely unbalanced label distribution. The improvements on macro-F1 scores for D3 are sharp when changing the percentage from 0 to 0.4.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "D3",
+                "D3",
+                "D3"
+            ]
+        },
+        {
+            "entity_name": "D4",
+            "entity_type": "ORGANIZATION",
+            "description": "D4 is a domain that uses the Yelp dataset for PRET and MULT, and is a dataset used in the study, also noted for its extremely unbalanced label distribution. The improvements on macro-F1 scores for D4 are sharp when changing the percentage from 0 to 0.4.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "D4",
+                "D4",
+                "D4"
+            ]
+        },
+        {
+            "entity_name": "PRET",
+            "entity_type": "ORGANIZATION",
+            "description": "PRET is a model used in the experiments for document-level examples and is part of the PRET+MULT combination. It refers to the process of transferring knowledge from document-level models to aspect-level models, which is the central event in the described study.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "PRET",
+                "PRET"
+            ]
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM refers to the Long Short-Term Memory model, which is a type of recurrent neural network used in the study for comparison. It refers to the Long Short-Term Memory model used in the experiments for comparison.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "LSTM",
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "MULT",
+            "entity_type": "ORGANIZATION",
+            "description": "MULT is a model used in the experiments as discussed above and is part of the PRET+MULT combination.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "MULT"
+            ]
+        }
+    ]
+}

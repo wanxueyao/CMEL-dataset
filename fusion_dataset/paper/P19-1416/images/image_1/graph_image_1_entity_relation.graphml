@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the process of a single-paragraph BERT model in answering questions. The flowchart consists of multiple rows, each representing a question and its corresponding paragraph. Each row contains four main components: 'Question', 'Paragraph', 'BERT', and two output fields labeled 'y_empty' and 'span/yes/no'. The 'Question' column lists the input questions, while the 'Paragraph' column shows the paragraphs that are read by the BERT model. The 'BERT' component represents the model's processing of the paragraph to generate scores. The 'y_empty' field indicates the score for an empty answer, and the 'span/yes/no' field provides the final answer from the paragraph. The paragraph with the lowest 'y_empty' score is chosen as the final answer. The flowchart uses different colors to distinguish between the components: 'Question' is in light blue, 'Paragraph' is in yellow, 'BERT' is in dark blue, and the output fields are in green. The red box highlights the 'y_empty' field with the lowest score, indicating the selected paragraph for the final answer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;QUESTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A query posed to the system, seeking information from a given paragraph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;PARAGRAPH 1&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The first text block containing information relevant to the question."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A deep learning model used for natural language processing tasks, including reading comprehension."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;Y_EMPTY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An output indicating whether the answer is empty or not."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;SPAN/YES/NO&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An output indicating the type of answer: a span of text, yes, or no."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<node id="&quot;PARAGRAPH 2&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The second text block containing information relevant to the question."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;QUESTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PARAGRAPH 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Paragraph 1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;Y_EMPTY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"y_empty是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SPAN/YES/NO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"span/yes/no是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PARAGRAPH 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Paragraph 2是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION&quot;" target="&quot;PARAGRAPH 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The question is related to the information in Paragraph 1."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION&quot;" target="&quot;PARAGRAPH 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The question is related to the information in Paragraph 2."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PARAGRAPH 1&quot;" target="&quot;BERT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BERT processes the information in Paragraph 1 to generate an answer."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;PARAGRAPH 2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT processes the information in Paragraph 2 to generate an answer."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;Y_EMPTY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BERT outputs y_empty to indicate if the answer is empty."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;SPAN/YES/NO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"BERT outputs span/yes/no to indicate the type of answer."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

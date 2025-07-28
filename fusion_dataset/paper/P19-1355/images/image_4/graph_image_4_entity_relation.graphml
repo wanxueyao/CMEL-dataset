@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;T2T_BASE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses P100x8 hardware, consumes 1415.78 watts of power, runs for 12 hours, generates 27 kWh of energy, emits 26 kg of CO2, and incurs a cloud compute cost ranging from $41 to $140."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;T2T_BIG&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses P100x8 hardware, consumes 1515.43 watts of power, runs for 84 hours, generates 201 kWh of energy, emits 192 kg of CO2, and incurs a cloud compute cost ranging from $289 to $981."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;ELMO&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses P100x3 hardware, consumes 517.66 watts of power, runs for 336 hours, generates 275 kWh of energy, emits 262 kg of CO2, and incurs a cloud compute cost ranging from $433 to $1472."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;BERT_BASE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses TPUv2x16 hardware, runs for 96 hours, and incurs a cloud compute cost ranging from $2074 to $6912."&lt;SEP&gt;"A model that uses V100x64 hardware, consumes 12,041.51 watts of power, runs for 79 hours, generates 1507 kWh of energy, emits 1438 kg of CO2, and incurs a cloud compute cost ranging from $3751 to $12,571."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;NAS&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses P100x8 hardware, consumes 1515.43 watts of power, runs for 274,120 hours, generates 656,347 kWh of energy, emits 626,155 kg of CO2, and incurs a cloud compute cost ranging from $942,973 to $3,201,722."&lt;SEP&gt;"A model that uses TPUv2x1 hardware, runs for 32,623 hours, and incurs a cloud compute cost ranging from $44,055 to $146,848."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;GPT-2&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that uses TPUv3x32 hardware, runs for 168 hours, and incurs a cloud compute cost ranging from $12,902 to $43,008."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_4 is a table labeled 'Table 3: Estimated cost of training a model in terms of CO2 emissions (lbs) and cloud compute cost (USD).' The table is structured with columns such as Model, Hardware, Power (W), Hours, kWhPUE, CO2e, and Cloud compute cost. It represents different models and their corresponding hardware specifications and costs. The models listed include T2T_base, T2T_big, ELMo, BERT_base (with two different hardware configurations), NAS (with two different hardware configurations), and GPT-2. The power consumption for TPUs is not provided due to lack of public information. Notable data points include T2T_base on P100x8 hardware consuming 1415.78 W over 12 hours, resulting in 27 kWhPUE and 26 lbs of CO2e, with a cloud compute cost of $41-$140. T2T_big on the same hardware consumes 1515.43 W over 84 hours, resulting in 201 kWhPUE and 192 lbs of CO2e, with a cloud compute cost of $289-$981. ELMo on P100x3 hardware consumes 517.66 W over 336 hours, resulting in 275 kWhPUE and 262 lbs of CO2e, with a cloud compute cost of $433-$1472. BERT_base on V100x64 hardware consumes 12,041.51 W over 79 hours, resulting in 1507 kWhPUE and 1438 lbs of CO2e, with a cloud compute cost of $3751-$12,571. BERT_base on TPUv2x16 hardware has no power consumption listed but takes 96 hours, with a cloud compute cost of $2074-$6912. NAS on P100x8 hardware consumes 1515.43 W over 274,120 hours, resulting in 656,347 kWhPUE and 626,155 lbs of CO2e, with a cloud compute cost of $942,973-$3,201,722. NAS on TPUv2x1 hardware has no power consumption listed but takes 32,623 hours, with a cloud compute cost of $44,055-$146,848. GPT-2 on TPUv3x32 hardware</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+</node>
+<node id="&quot;P100X8&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The T2T_base model uses P100x8 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;P100X3&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The ELMo model uses P100x3 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;V100X64&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The BERT_base model uses V100x64 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TPUV2X16&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The BERT_base model uses TPUv2x16 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TPUV2X1&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The NAS model uses TPUv2x1 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TPUV3X32&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d1">"The GPT-2 model uses TPUv3x32 hardware."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;T2T_BASE&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"T2T_base是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;T2T_BASE&quot;" target="&quot;P100X8&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The T2T_base model uses P100x8 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;T2T_BIG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"T2T_big是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;T2T_BIG&quot;" target="&quot;P100X8&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The T2T_big model uses P100x8 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ELMo是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO&quot;" target="&quot;P100X3&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The ELMo model uses P100x3 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT_BASE&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"BERT_base是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT_BASE&quot;" target="&quot;V100X64&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT_base model uses V100x64 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT_BASE&quot;" target="&quot;TPUV2X16&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT_base model uses TPUv2x16 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NAS&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">20.0</data>
+  <data key="d4">"NAS是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NAS&quot;" target="&quot;P100X8&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The NAS model uses P100x8 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NAS&quot;" target="&quot;TPUV2X1&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The NAS model uses TPUv2x1 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GPT-2&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GPT-2是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GPT-2&quot;" target="&quot;TPUV3X32&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The GPT-2 model uses TPUv3x32 hardware."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

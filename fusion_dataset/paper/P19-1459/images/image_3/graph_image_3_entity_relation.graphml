@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the processing of an argument-warrant pair using the BERT (Bidirectional Encoder Representations from Transformers) model. The diagram is divided into three main sections: input tokens, BERT layers, and output embeddings. At the top, there are input tokens represented by green boxes with labels such as 'v_CLS', 'v_1(c)', 'v_a(c)', 'v_1(r)', 'v_b(r)', 'v_SEP', 'v_1(w)', and 'v_c(w)'. These tokens correspond to different parts of the input text, including the claim, reason, and warrant. The tokens are connected to the BERT layers, which are depicted as a series of interconnected circles within a blue rectangle labeled 'BERT'. The BERT layers process the input tokens and produce output embeddings, represented by yellow boxes at the bottom with labels such as 'E_CLS', 'E_1(c)', 'E_a(c)', 'E_1(r)', 'E_b(r)', 'E_SEP', 'E_1(w)', and 'E_c(w)'. These embeddings are then used for further processing. The diagram also includes hexagonal shapes at the bottom representing the original text segments, labeled as 'Claim', 'Reason', and 'Warrant'. The overall structure shows how the BERT model processes the input text and generates embeddings for each segment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A deep learning model used for natural language processing tasks. It is a transformer-based model that uses bidirectional training to understand the context of words in a sentence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+</node>
+<node id="&quot;CLAIM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The initial statement or proposition that is being argued or supported."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+</node>
+<node id="&quot;REASON&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The explanation or justification provided to support the claim."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+</node>
+<node id="&quot;WARRANT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The underlying assumption or principle that connects the reason to the claim."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CLAIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Claim是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;REASON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Reason是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WARRANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Warrant是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;CLAIM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT processes the claim as part of its input to understand and analyze the argument structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;REASON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT processes the reason as part of its input to understand and analyze the argument structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;WARRANT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"BERT processes the warrant as part of its input to understand and analyze the argument structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLAIM&quot;" target="&quot;REASON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The reason supports the claim by providing an explanation or justification."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLAIM&quot;" target="&quot;WARRANT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The warrant connects the claim and the reason, establishing the logical basis for the argument."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REASON&quot;" target="&quot;WARRANT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The warrant underpins the reason, explaining how it logically supports the claim."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

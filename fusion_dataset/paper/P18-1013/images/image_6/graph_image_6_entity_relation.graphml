@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents ROUGE F-1 scores of various abstractive summarization methods on the CNN/Daily Mail test set. The table has four columns: Method, ROUGE-1, ROUGE-2, and ROUGE-L. Each row represents a different method and its corresponding ROUGE scores. The methods listed are HierAttn (Nallapati et al., 2016b), DeepRL (Paulus et al., 2017), pointer-generator (See et al., 2017), GAN (Liu et al., 2017), two-stage (ours), end2end w/o inconsistency loss (ours), end2end w/ inconsistency loss (ours), and lead-3 (See et al., 2017). The ROUGE-1 scores range from 32.75 to 40.68, with the highest score achieved by the end2end w/ inconsistency loss model. The ROUGE-2 scores range from 12.21 to 17.97, with the highest score also achieved by the end2end w/ inconsistency loss model. The ROUGE-L scores range from 29.01 to 37.13, with the highest score again achieved by the end2end w/ inconsistency loss model. The table highlights the performance of the two-stage and end2end models developed by the authors, which outperform other baseline models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;HIERATTN (NALLAPATI ET AL., 2016B)*&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A method for text summarization that uses hierarchical attention mechanisms. It achieved ROUGE-1 of 32.75, ROUGE-2 of 12.21, and ROUGE-L of 29.01."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;DEEPRL (PAULUS ET AL., 2017)*&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A reinforcement learning-based method for text summarization. It achieved ROUGE-1 of 39.87, ROUGE-2 of 15.82, and ROUGE-L of 36.90."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;POINTER-GENERATOR (SEE ET AL., 2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A neural network model for text summarization that combines a pointer mechanism with a generator. It achieved ROUGE-1 of 39.53, ROUGE-2 of 17.28, and ROUGE-L of 36.38."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;GAN (LIU ET AL., 2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A generative adversarial network-based method for text summarization. It achieved ROUGE-1 of 39.92, ROUGE-2 of 17.65, and ROUGE-L of 36.71."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;TWO-STAGE (OURS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Our two-stage method for text summarization. It achieved ROUGE-1 of 39.97, ROUGE-2 of 17.43, and ROUGE-L of 36.34."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;END2END W/O INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Our end-to-end method for text summarization without inconsistency loss. It achieved ROUGE-1 of 40.19, ROUGE-2 of 17.67, and ROUGE-L of 36.68."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;END2END W/ INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Our end-to-end method for text summarization with inconsistency loss. It achieved ROUGE-1 of 40.68, ROUGE-2 of 17.97, and ROUGE-L of 37.13."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<node id="&quot;LEAD-3 (SEE ET AL., 2017)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A baseline method for text summarization that selects the first three sentences of a document as the summary. It achieved ROUGE-1 of 40.34, ROUGE-2 of 17.70, and ROUGE-L of 36.57."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;HIERATTN (NALLAPATI ET AL., 2016B)*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"HierAttn (Nallapati et al., 2016b)*是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DEEPRL (PAULUS ET AL., 2017)*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DeepRL (Paulus et al., 2017)*是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;POINTER-GENERATOR (SEE ET AL., 2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"pointer-generator (See et al., 2017)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GAN (LIU ET AL., 2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GAN (Liu et al., 2017)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TWO-STAGE (OURS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"two-stage (ours)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;END2END W/O INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"end2end w/o inconsistency loss (ours)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;END2END W/ INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"end2end w/ inconsistency loss (ours)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;LEAD-3 (SEE ET AL., 2017)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"lead-3 (See et al., 2017)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIERATTN (NALLAPATI ET AL., 2016B)*&quot;" target="&quot;DEEPRL (PAULUS ET AL., 2017)*&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are methods for text summarization, but DeepRL uses reinforcement learning while HierAttn uses hierarchical attention mechanisms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POINTER-GENERATOR (SEE ET AL., 2017)&quot;" target="&quot;GAN (LIU ET AL., 2017)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are neural network models for text summarization, but GAN uses adversarial training while pointer-generator uses a combination of pointer and generator mechanisms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POINTER-GENERATOR (SEE ET AL., 2017)&quot;" target="&quot;LEAD-3 (SEE ET AL., 2017)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are methods for text summarization proposed by See et al., but lead-3 is a simple baseline while pointer-generator is a more complex neural network model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWO-STAGE (OURS)&quot;" target="&quot;END2END W/O INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are our methods for text summarization, but the end2end method does not use inconsistency loss."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;END2END W/O INCONSISTENCY LOSS (OURS)&quot;" target="&quot;END2END W/ INCONSISTENCY LOSS (OURS)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are our end-to-end methods for text summarization, but one uses inconsistency loss and the other does not."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

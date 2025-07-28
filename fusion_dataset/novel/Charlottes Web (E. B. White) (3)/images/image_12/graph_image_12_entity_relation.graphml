@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene with a boy and a pig. The boy, who appears to be young and has tousled hair, is leaning over a large pig that is lying on the ground. The boy's expression is one of concern or curiosity as he looks down at the pig. The pig is depicted with a round body and a long snout, and it seems to be in a state of distress or exhaustion. To the right of the pig, there is a wooden crate, which adds to the rural or farm setting of the scene. The overall atmosphere conveyed by the image is one of care and attention, as the boy seems to be tending to the pig. The illustration style is detailed and expressive, capturing the emotions and actions of the characters vividly."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with messy hair, wearing a short-sleeved shirt and shorts, leaning over a large object."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+</node>
+<node id="&quot;LARGE OBJECT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A sizable, round object covered in a textured material, possibly fabric or burlap, with two protruding elements that resemble ears."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+</node>
+<node id="&quot;CRATE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden crate with visible slats and nails, positioned upright next to the large object."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;LARGE OBJECT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Large Object是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;CRATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Crate是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;LARGE OBJECT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The boy is leaning over and interacting with the large object, possibly inspecting or playing with it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;CRATE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The boy is near the crate, which may be related to the activity he is engaged in with the large object."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE OBJECT&quot;" target="&quot;CRATE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The large object is positioned next to the crate, suggesting they are part of the same scene or activity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

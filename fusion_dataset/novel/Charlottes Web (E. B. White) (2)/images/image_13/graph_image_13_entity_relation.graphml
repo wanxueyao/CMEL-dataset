@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_13&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a dramatic scene involving a spider and a fish. The spider, positioned on the right side of the image, is shown in the act of capturing a fish that has become entangled in its web. The web is stretched across the water, with several strands clearly visible, creating a sense of tension and struggle. The fish, located towards the center-left of the image, is depicted with its body partially submerged in the water, causing ripples to spread outwards. The spider's posture is dynamic, with its legs extended as it works to secure the fish. Surrounding the scene are tall grasses or reeds, adding to the natural setting. The overall atmosphere conveyed by the image is one of intense action and survival, highlighting the spider's determination and the fish's plight."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+</node>
+<node id="&quot;SPIDER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A spider is depicted in the center of the image, actively weaving a web over the water. The spider's body is detailed with segments and legs that are engaged in the task of web construction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+</node>
+<node id="&quot;WEB&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The web is intricately drawn, spanning across the water and connecting to the grass on either side. It appears to be in the process of being woven by the spider."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+</node>
+<node id="&quot;WATER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A calm body of water is shown beneath the spider and its web. Ripples are visible on the surface, indicating the disturbance caused by the spider's activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Tall blades of grass are illustrated on both sides of the water, providing a natural setting for the scene. The grass is depicted as bending slightly, possibly due to a breeze or the weight of the web."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+</node>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;SPIDER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;WEB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Web是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;WATER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Water是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER&quot;" target="&quot;WEB&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The spider is in the process of weaving the web, which is directly connected to its body and legs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER&quot;" target="&quot;WATER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The spider is positioned above the water, causing ripples as it weaves its web."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WEB&quot;" target="&quot;WATER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The web is stretched over the water, creating a bridge between the grass on either side."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WEB&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The web is attached to the grass, using it as an anchor point for its structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WATER&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The grass is growing alongside the water, framing the scene naturally."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

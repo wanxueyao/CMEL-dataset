@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table comparing different translations of a sentence from Portuguese to English. The table has four rows and two columns. The first column is labeled 'source' and contains the original Portuguese text: '( risos ) e é que chris é un grande avogado , pero non sabía case nada sobre lexislación de patentes e absolutamente nada sobre xenética .'. The second column is labeled 'reference' and contains the reference translation in English: '( laughter ) now chris is a really brilliant lawyer , but he knew almost nothing about patent law and certainly nothing about genetics .'. The third row is labeled 'bi:std' and contains the text: '( laughter ) and i ’m not a little bit of a little bit of a little bit of and ( laughter ) and i ’m going to be able to be a lot of years .'. The fourth row is labeled 'multi:pre-align' and contains the text: '( laughter ) and chris is a big lawyer , but i did n’t know almost anything about patent legislation and absolutely nothing about genetic .'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+</node>
+<node id="&quot;CHRIS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A lawyer who is described as brilliant but lacks knowledge in patent law and genetics."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+</node>
+<node id="&quot;LAWYER&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The profession of Chris, indicating his role and expertise."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+</node>
+<node id="&quot;PATENT LAW&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The legal framework concerning patents, an area where Chris has little knowledge."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+</node>
+<node id="&quot;GENETICS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The scientific study of genes and heredity, an area where Chris has no knowledge."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CHRIS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chris是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;LAWYER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lawyer是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PATENT LAW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Patent Law是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GENETICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Genetics是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHRIS&quot;" target="&quot;LAWYER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Chris is a lawyer by profession."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHRIS&quot;" target="&quot;PATENT LAW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Chris has almost no knowledge about patent law."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHRIS&quot;" target="&quot;GENETICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Chris knows absolutely nothing about genetics."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,80 @@
+{
+    "image_1": [],
+    "image_2": [
+    ],
+    "image_3": [],
+    "image_4": [
+        {
+            "entity_name": "CONTEXT VECTOR",
+            "entity_type": "CONCEPT",
+            "description": "Context vector is a function of the updated word attention and is used in the decoding process to generate the summary. It is denoted as h*(α^t) and is used to facilitate abstractive summarization.",
+            "source_image_entities": [
+                "CONTEXT VECTOR"
+            ],
+            "source_text_entities": [
+                "CONTEXT VECTOR"
+            ]
+        },
+        {
+            "entity_name": "FINAL WORD DISTRIBUTION P_FINAL",
+            "entity_type": "CONCEPT",
+            "description": "Final Word Distribution p_final is the final probability of each word being decoded, influenced by the updated word attention. It is denoted as $P_{w}^{final}(\\hat{\\alpha}^{t})$ and is used to generate the summary word-by-word.",
+            "source_image_entities": [
+                "FINAL WORD DISTRIBUTION P_FINAL"
+            ],
+            "source_text_entities": [
+                "FINAL WORD DISTRIBUTION"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "ROUGE-1",
+            "entity_type": "ORGANIZATION",
+            "description": "ROUGE-1 is a metric used to evaluate the quality of text summaries by comparing a generated summary against reference summaries. It measures the overlap of unigrams between the candidate and reference texts, and is used as an evaluation metric in the study.",
+            "source_image_entities": [
+                "ROUGE-1"
+            ],
+            "source_text_entities": [
+                "ROUGE-1"
+            ]
+        },
+        {
+            "merged_entity_name": "ROUGE-2",
+            "entity_type": "ORGANIZATION",
+            "description": "ROUGE-2 is similar to ROUGE-1 but measures the overlap of bigrams instead of unigrams, and is used as an evaluation metric in the study.",
+            "source_image_entities": [
+                "ROUGE-2"
+            ],
+            "source_text_entities": [
+                "ROUGE-2"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "TWO-STAGE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Two-Stage model is a text summarization method that outperforms the pointer-generator model on ROUGE-1 and ROUGE-2 scores. It achieved ROUGE-1 of 39.97, ROUGE-2 of 17.43, and ROUGE-L of 36.34.",
+            "source_image_entities": ["TWO-STAGE (OURS)"],
+            "source_text_entities": ["TWO-STAGES MODEL"]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "POINTER-GENERATOR (SEE ET AL., 2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A method developed by See et al. in 2017, with scores of 3.18 for informativity, 3.36 for conciseness, and 3.47 for readability. It is a pointer-generator model used for abstractive summarization and serves as a baseline model in the current study.",
+            "source_image_entities": [
+                "POINTER-GENERATOR (SEE ET AL., 2017)"
+            ],
+            "source_text_entities": [
+                "POINTER-GENERATOR MODEL"
+            ]
+        }
+    ],
+    "image_8": [
+    ],
+    "image_9": [
+    ]    
+}

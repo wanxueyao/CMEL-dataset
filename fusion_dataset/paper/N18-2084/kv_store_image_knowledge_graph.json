@@ -1,0 +1,320 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Number of sentences for each language pair.' The table is structured with the following columns: Dataset, train, dev, and test. Each row represents a different language pair and its corresponding number of sentences in the train, dev, and test datasets. The rows are as follows: GL → EN with 10,017 sentences in train, 682 in dev, and 1,007 in test; PT → EN with 51,785 sentences in train, 1,193 in dev, and 1,803 in test; AZ → EN with 5,946 sentences in train, 671 in dev, and 903 in test; TR → EN with 182,450 sentences in train, 4,045 in dev, and 5,029 in test; BE → EN with 4,509 sentences in train, 248 in dev, and 664 in test; RU → EN with 208,106 sentences in train, 4,805 in dev, and 5,476 in test. The table highlights the significant variation in dataset sizes across different language pairs."
+        },
+        {
+            "entity_name": "DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A collection of data used for training, development, and testing machine learning models."
+        },
+        {
+            "entity_name": "TRAIN",
+            "entity_type": "EVENT",
+            "description": "The phase of the dataset used to train machine learning models."
+        },
+        {
+            "entity_name": "DEV",
+            "entity_type": "EVENT",
+            "description": "The phase of the dataset used for model development and tuning."
+        },
+        {
+            "entity_name": "TEST",
+            "entity_type": "EVENT",
+            "description": "The phase of the dataset used to evaluate the final performance of a trained model."
+        },
+        {
+            "entity_name": "GL → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Galician to English."
+        },
+        {
+            "entity_name": "PT → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Portuguese to English."
+        },
+        {
+            "entity_name": "AZ → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Azerbaijani to English."
+        },
+        {
+            "entity_name": "TR → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Turkish to English."
+        },
+        {
+            "entity_name": "BE → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Belarusian to English."
+        },
+        {
+            "entity_name": "RU → EN",
+            "entity_type": "GEO",
+            "description": "Translation task from Russian to English."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Effect of pre-training on BLEU score over six languages.' The table is structured with rows representing different language pairs and columns indicating the BLEU scores for systems using either random initialization (std) or pre-training (pre) on both the source and target sides. The language pairs are as follows: GL → EN, PT → EN, AZ → EN, TR → EN, BE → EN, and RU → EN. For each language pair, there are four values corresponding to the BLEU scores under different conditions: std → std, pre → std, std → pre, and pre → pre. The exact numbers are as follows: GL → EN has scores of 2.2, 13.2, 2.8, and 12.8 respectively; PT → EN has scores of 26.2, 30.3, 26.1, and 30.8; AZ → EN has scores of 1.3, 2.0, 1.6, and 2.0; TR → EN has scores of 14.9, 17.6, 14.7, and 17.9; BE → EN has scores of 1.6, 2.5, 1.3, and 3.0; RU → EN has scores of 18.5, 21.2, 18.7, and 21.1. The table highlights the significant gains from pre-training in higher-resource languages, with an approximate 3 BLEU points increase for all three language pairs. In contrast, for extremely low-resource languages, the gains are either quite small or negligible."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying translation performance metrics from various source languages to English, with columns for 'Src → Trg', 'std std', 'pre std', 'std pre', and 'pre pre'."
+        },
+        {
+            "entity_name": "GL → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Galician to English."
+        },
+        {
+            "entity_name": "PT → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Portuguese to English."
+        },
+        {
+            "entity_name": "AZ → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Azerbaijani to English."
+        },
+        {
+            "entity_name": "TR → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Turkish to English."
+        },
+        {
+            "entity_name": "BE → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Belarusian to English."
+        },
+        {
+            "entity_name": "RU → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Russian to English."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two graphs that illustrate the BLEU scores and the gain in BLEU scores for different language pairs as a function of training set size. The top graph shows the BLEU scores for Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En) translations. The x-axis represents the training set size, ranging from 0.2 to 1.0, while the y-axis represents the BLEU score, ranging from 5 to 30. The lines are color-coded: blue for Pt→En, red for Tr→En, and green for Ru→En. Each language pair has two lines, one solid and one dashed, representing standard (std) and pre-trained (pre) models, respectively. The bottom graph shows the gain in BLEU scores (BLEU(pre) - BLEU(std)) for the same language pairs. The x-axis is the same as the top graph, while the y-axis ranges from 2 to 14. The points are marked with circles and connected by lines, with colors corresponding to the language pairs. The data points indicate that the gain in BLEU scores is highest when the baseline system is poor but not too poor, usually with a baseline BLEU score in the range of 3-4."
+        },
+        {
+            "entity_name": "GRAPH 1",
+            "entity_type": "EVENT",
+            "description": "A line graph showing the BLEU scores for different language translations as a function of training set size. The languages include Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En). Each language has two lines representing standard (std) and pre-trained (pre) models."
+        },
+        {
+            "entity_name": "GRAPH 2",
+            "entity_type": "EVENT",
+            "description": "A line graph showing the difference in BLEU scores between pre-trained and standard models for the same language translations as Graph 1. The languages are Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En)."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Effect of linguistic similarity and pre-training on BLEU'. The table is structured with four main columns: Dataset, Lang. Family, std, and pre. Each row represents a different language pair, with the source language (ES, FR, IT, RU, HE) mapped to the target language PT (Portuguese). The 'Lang. Family' column indicates the most recent common ancestor of the source and target languages. The 'std' column shows the standard BLEU scores for each language pair, while the 'pre' column displays the BLEU scores after pre-training, along with the improvement in parentheses. The exact values are as follows: ES → PT has a std score of 17.8 and a pre score of 24.8 (+7.0); FR → PT has a std score of 12.4 and a pre score of 18.1 (+5.7); IT → PT has a std score of 14.5 and a pre score of 19.2 (+4.7); RU → PT has a std score of 2.4 and a pre score of 8.6 (+6.2); HE → PT has a std score of 3.0 and a pre score of 11.9 (+8.9). The table highlights the effect of linguistic similarity and pre-training on BLEU scores across different language pairs."
+        },
+        {
+            "entity_name": "DATASET",
+            "entity_type": "EVENT",
+            "description": "A table comparing different language translation datasets and their performance metrics, specifically focusing on translations to Portuguese (PT).\">"
+        },
+        {
+            "entity_name": "LANG. FAMILY",
+            "entity_type": "ORGANIZATION",
+            "description": "The linguistic family of the languages being compared in the dataset, including West-Iberian, Western Romance, Romance, Indo-European, and a pair with no common linguistic family.\">"
+        },
+        {
+            "entity_name": "STD",
+            "entity_type": "PERSON",
+            "description": "Standard deviation metric used to evaluate the performance of the language translation models.\">"
+        },
+        {
+            "entity_name": "PRE",
+            "entity_type": "PERSON",
+            "description": "Precision metric used to evaluate the performance of the language translation models, showing improvements over the standard deviation for each language pair.\">"
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Effect of pre-training on multilingual translation into English.' The table is structured with two main columns: 'unaligned' and 'aligned.' Each row represents a different language pair, with the source language (GL, PT, AZ, TR, BE, RU) translated into English (EN). The rows are as follows: GL → EN with values 12.8 for unaligned and 11.5 (-1.3) for aligned; PT → EN with values 30.8 for unaligned and 30.6 (-0.2) for aligned; AZ → EN with values 2.0 for unaligned and 2.1 (+0.1) for aligned; TR → EN with values 17.9 for unaligned and 17.7 (-0.2) for aligned; BE → EN with values 3.0 for unaligned and 3.0 (+0.0) for aligned; RU → EN with values 21.1 for unaligned and 21.4 (+0.3) for aligned. The table highlights the effect of alignment on the translation quality, with some languages showing slight improvements and others showing slight declines."
+        },
+        {
+            "entity_name": "DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A structured table displaying translation performance metrics between different language pairs, specifically from various languages to English (EN), with columns for 'unaligned' and 'aligned' conditions."
+        },
+        {
+            "entity_name": "GL → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Galician (GL) to English (EN), showing a score of 12.8 in the unaligned condition and 11.5 in the aligned condition, with a decrease of 1.3."
+        },
+        {
+            "entity_name": "PT → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Portuguese (PT) to English (EN), showing a score of 30.8 in the unaligned condition and 30.6 in the aligned condition, with a decrease of 0.2."
+        },
+        {
+            "entity_name": "AZ → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Azerbaijani (AZ) to English (EN), showing a score of 2.0 in the unaligned condition and 2.1 in the aligned condition, with an increase of 0.1."
+        },
+        {
+            "entity_name": "TR → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Turkish (TR) to English (EN), showing a score of 17.9 in the unaligned condition and 17.7 in the aligned condition, with a decrease of 0.2."
+        },
+        {
+            "entity_name": "BE → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Belarusian (BE) to English (EN), showing a score of 3.0 in both unaligned and aligned conditions, with no change."
+        },
+        {
+            "entity_name": "RU → EN",
+            "entity_type": "EVENT",
+            "description": "Translation event from Russian (RU) to English (EN), showing a score of 21.1 in the unaligned condition and 21.4 in the aligned condition, with an increase of 0.3."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Correlation between word embedding alignment and BLEU score in bilingual translation task.' The table is structured with the following columns: Train, Eval, bi, std, pre, and align. Each row represents different language pairs and their corresponding BLEU scores under various conditions. The rows are as follows: GL + PT evaluated on GL with scores of 2.2 for bi, 17.5 for std, 20.8 for pre, and 22.4 for align; AZ + Tr evaluated on AZ with scores of 1.3 for bi, 5.4 for std, 5.9 for pre, and 7.5 for align; BE + Ru evaluated on BE with scores of 1.6 for bi, 10.0 for std, 7.9 for pre, and 9.6 for align. The table highlights the correlation between word embedding alignment and BLEU scores in bilingual translation tasks."
+        },
+        {
+            "entity_name": "GL + PT",
+            "entity_type": "EVENT",
+            "description": "Training phase involving GL and PT datasets."
+        },
+        {
+            "entity_name": "GL",
+            "entity_type": "EVENT",
+            "description": "Evaluation phase using the GL dataset."
+        },
+        {
+            "entity_name": "BI",
+            "entity_type": "ORGANIZATION",
+            "description": "Bi-directional model evaluation metric."
+        },
+        {
+            "entity_name": "STD",
+            "entity_type": "ORGANIZATION",
+            "description": "Standard model evaluation metric."
+        },
+        {
+            "entity_name": "PRE",
+            "entity_type": "ORGANIZATION",
+            "description": "Pre-trained model evaluation metric."
+        },
+        {
+            "entity_name": "ALIGN",
+            "entity_type": "ORGANIZATION",
+            "description": "Alignment model evaluation metric."
+        },
+        {
+            "entity_name": "AZ + TR",
+            "entity_type": "EVENT",
+            "description": "Training phase involving AZ and Tr datasets."
+        },
+        {
+            "entity_name": "AZ",
+            "entity_type": "EVENT",
+            "description": "Evaluation phase using the AZ dataset."
+        },
+        {
+            "entity_name": "BE + RU",
+            "entity_type": "EVENT",
+            "description": "Training phase involving BE and Ru datasets."
+        },
+        {
+            "entity_name": "BE",
+            "entity_type": "EVENT",
+            "description": "Evaluation phase using the BE dataset."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table comparing different translations of a sentence from Portuguese to English. The table has four rows and two columns. The first column is labeled 'source' and contains the original Portuguese text: '( risos ) e é que chris é un grande avogado , pero non sabía case nada sobre lexislación de patentes e absolutamente nada sobre xenética .'. The second column is labeled 'reference' and contains the reference translation in English: '( laughter ) now chris is a really brilliant lawyer , but he knew almost nothing about patent law and certainly nothing about genetics .'. The third row is labeled 'bi:std' and contains the text: '( laughter ) and i ’m not a little bit of a little bit of a little bit of and ( laughter ) and i ’m going to be able to be a lot of years .'. The fourth row is labeled 'multi:pre-align' and contains the text: '( laughter ) and chris is a big lawyer , but i did n’t know almost anything about patent legislation and absolutely nothing about genetic .'."
+        },
+        {
+            "entity_name": "CHRIS",
+            "entity_type": "PERSON",
+            "description": "A lawyer who is described as brilliant but lacks knowledge in patent law and genetics."
+        },
+        {
+            "entity_name": "LAWYER",
+            "entity_type": "ORGANIZATION",
+            "description": "The profession of Chris, indicating his role and expertise."
+        },
+        {
+            "entity_name": "PATENT LAW",
+            "entity_type": "EVENT",
+            "description": "The legal framework concerning patents, an area where Chris has little knowledge."
+        },
+        {
+            "entity_name": "GENETICS",
+            "entity_type": "EVENT",
+            "description": "The scientific study of genes and heredity, an area where Chris has no knowledge."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Example translations of GL→EN'. The table is divided into two main sections: (a) Pairwise comparison between two bilingual models and (b) Pairwise comparison between two multilingual models. Each section contains rows with different phrases or words and their corresponding translation statistics. For example, in the bilingual model comparison, the phrase 'so' has a score of 2/0 for bi:std and 0/53 for bi:pre. Similarly, in the multilingual model comparison, the word 'here' has a score of 6/0 for multi:std and 0/14 for multi:pre+align. The table provides detailed scores for various phrases and words, indicating how often each system generates these n-grams. Notable entries include 'laughter', 'people', 'several', 'you’re going', and 'testosterone', among others, with specific scores that highlight the performance differences between the systems."
+        },
+        {
+            "entity_name": "BI:STD",
+            "entity_type": "EVENT",
+            "description": "A list of words and their frequency counts under the 'bi:std' category, including terms like 'so', 'laughter', 'and', 'they were', etc., with corresponding frequency ratios."
+        },
+        {
+            "entity_name": "BI:PRE",
+            "entity_type": "EVENT",
+            "description": "A list of words and their frequency counts under the 'bi:pre' category, including terms like 'about', 'people', 'or', 'these', etc., with corresponding frequency ratios."
+        },
+        {
+            "entity_name": "MULTI:STD",
+            "entity_type": "EVENT",
+            "description": "A list of words and their frequency counts under the 'multi:std' category, including terms like 'here', 'again', 'several', 'you’re going', etc., with corresponding frequency ratios."
+        },
+        {
+            "entity_name": "MULTI:PRE+ALIGN",
+            "entity_type": "EVENT",
+            "description": "A list of words and their frequency counts under the 'multi:pre+align' category, including terms like 'on the', 'like', 'should', 'court', etc., with corresponding frequency ratios."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart titled 'F-measure of Target Words'. The x-axis represents the frequency in the training corpus, ranging from 0 to 1000+. The y-axis represents the F-measure, ranging from 0 to 0.8. There are two sets of bars for each frequency category: blue bars labeled 'std' and red bars labeled 'pre'. The F-measure values for each frequency category are as follows: 0 (std: 0.0, pre: 0.0), 1-2 (std: 0.0, pre: 0.0), 3 (std: 0.05, pre: 0.1), 4 (std: 0.05, pre: 0.15), 5-9 (std: 0.15, pre: 0.25), 10-99 (std: 0.45, pre: 0.55), 100-999 (std: 0.55, pre: 0.6), and 1000+ (std: 0.65, pre: 0.7). The chart shows that pre-training improves the accuracy of translation for the entire vocabulary, particularly for words of low frequency in the training corpus."
+        },
+        {
+            "entity_name": "GRAPH",
+            "entity_type": "EVENT",
+            "description": "A bar chart comparing the F-measure of two methods, 'std' and 'pre', across different frequency ranges in a training corpus."
+        },
+        {
+            "entity_name": "FREQUENCY IN TRAINING CORPUS",
+            "entity_type": "UNKNOWN",
+            "description": "The graph displays the F-measure for different frequency ranges in the training corpus."
+        },
+        {
+            "entity_name": "F-MEASURE",
+            "entity_type": "UNKNOWN",
+            "description": "The graph shows the F-measure values for both 'std' and 'pre' methods."
+        }
+    ]
+}

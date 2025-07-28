@@ -1,0 +1,207 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a conversation thread from a Wikipedia talk page discussing the reliability of sources for an article about the Dyatlov Pass Incident. The conversation is divided into two sections, A and B, each representing different exchanges between editors. In section A, the discussion revolves around the inclusion of a source that mentions an altercation with a foreign intelligence group. Editor A1 questions why this source is not mentioned in the article, acknowledging its weak points but arguing for its existence. Editor A2 responds by challenging the idea of including a bad source just because it exists. In section B, the discussion focuses on the reliability of the St. Petersburg Times as a source. Editor B1 expresses doubt about relying heavily on this single source, especially since it speculates about missile launches and UFOs, and suggests finding corroborating sources. Editor B2 assumes the reliability of the St. Petersburg Times to be similar to other mainstream news sources. The text is presented in a clear, readable format with each editor's comments distinctly separated."
+        },
+        {
+            "entity_name": "A1",
+            "entity_type": "PERSON",
+            "description": "Individual questioning the omission of an altercation with a foreign intelligence group in an article and discussing the reliability of sources."
+        },
+        {
+            "entity_name": "A2",
+            "entity_type": "PERSON",
+            "description": "Individual challenging the inclusion of a potentially unreliable source in an article based on its existence."
+        },
+        {
+            "entity_name": "B1",
+            "entity_type": "PERSON",
+            "description": "Individual querying the reliability of the St. Petersburg Times as a source for Wikipedia and expressing concerns about the article's reliance on a single, speculative source."
+        },
+        {
+            "entity_name": "B2",
+            "entity_type": "PERSON",
+            "description": "Individual providing an opinion on the reliability of the St. Petersburg Times, comparing it to other mainstream news sources."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Descriptions of crowdsourcing jobs, with relevant statistics.' The table is divided into two main sections. The first section, labeled 'Job 1: Ends in personal attack,' describes a task where three annotators are shown a conversation and asked to determine if its last comment is a personal attack toward someone else in the conversation. The statistics provided are: 367 annotators, 4,022 conversations, and an agreement rate of 67.8%. The second section, labeled 'Job 2: Civil start,' describes another task where conversations are split into snippets of three consecutive comments. Three annotators are asked to determine whether any of the comments in a snippet is toxic. The statistics for this job are: 247 annotators, 1,252 conversations, 2,181 snippets, and an agreement rate of 87.5%. The table highlights the different approaches used in analyzing conversational toxicity and the level of agreement among annotators."
+        },
+        {
+            "entity_name": "JOB 1: ENDS IN PERSONAL ATTACK.",
+            "entity_type": "EVENT",
+            "description": "An event where three annotators are shown a conversation and asked to determine if the last comment is a personal attack toward someone else in the conversation. The task involves 367 annotators, 4,022 conversations, and has an agreement rate of 67.8%."
+        },
+        {
+            "entity_name": "JOB 2: CIVIL START.",
+            "entity_type": "EVENT",
+            "description": "An event where conversations are split into snippets of three consecutive comments. Three annotators are asked to determine if any of the comments in a snippet are toxic. The task involves 247 annotators, 1,252 conversations, 2,181 snippets, and has an agreement rate of 87.5%."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Prompt types automatically extracted from talk page conversations, with interpretations and examples from the data.' The table is structured with three main columns: Prompt Type, Description, and Examples. Each row represents a different prompt type and contains the following information:\\n\\n1. **Factual check**: Statements about article content, pertaining to or contending issues like factual accuracy. Examples include 'The terms are used interchangeably in the US.' and 'The census is not talking about families here.'\\n\\n2. **Moderation**: Rebukes or disputes concerning moderation decisions such as blocks and reversions. Examples include 'If you continue, you may be blocked from editing.' and 'He’s accused me of being a troll.'\\n\\n3. **Coordination**: Requests, questions, and statements of intent pertaining to collaboratively editing an article. Examples include 'It’s a long list so I could do with your help.' and 'Let me know if you agree with this and I’ll go ahead [...]' \\n\\n4. **Casual remark**: Casual, highly conversational aside-remarks. Examples include 'What’s with this flag image?' and 'I’m surprised there wasn’t an article before.'\\n\\n5. **Action statement**: Requests, statements, and explanations about various editing actions. Examples include 'Please consider improving the article to address the issues [...]' and 'The page was deleted as self-promotion.'\\n\\n6. **Opinion**: Statements seeking or expressing opinions about editing challenges and decisions. Examples include 'I think that it should be the other way around.' and 'This article seems to have a lot of bias.'\\n\\nThe table highlights the variety of prompt types found in Wikipedia talk page conversations, ranging from factual checks and moderation disputes to coordination requests and casual remarks."
+        },
+        {
+            "entity_name": "FACTUAL CHECK",
+            "entity_type": "EVENT",
+            "description": "Statements about article content, pertaining to or contending issues like factual accuracy."
+        },
+        {
+            "entity_name": "MODERATION",
+            "entity_type": "EVENT",
+            "description": "Rebukes or disputes concerning moderation decisions such as blocks and reversions."
+        },
+        {
+            "entity_name": "COORDINATION",
+            "entity_type": "EVENT",
+            "description": "Requests, questions, and statements of intent pertaining to collaboratively editing an article."
+        },
+        {
+            "entity_name": "CASUAL REMARK",
+            "entity_type": "EVENT",
+            "description": "Casual, highly conversational aside-remarks."
+        },
+        {
+            "entity_name": "ACTION STATEMENT",
+            "entity_type": "EVENT",
+            "description": "Requests, statements, and explanations about various editing actions."
+        },
+        {
+            "entity_name": "OPINION",
+            "entity_type": "EVENT",
+            "description": "Statements seeking or expressing opinions about editing challenges and decisions."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a set of three scatter plots labeled A, B, and C, which display log-odds ratios of politeness strategies and prompt types in the first and second comments of conversations that turn awry versus those that stay on-track. Each plot has a vertical axis listing various linguistic features such as 'Direct question', '2nd person start', 'Prompt: Factual check', etc., and a horizontal axis representing the log-odds ratio ranging from -0.5 to 0.5. The plots are divided into two categories: 'on-track' and 'awry'. Plot A shows the log-odds ratios for the first and second comments in general, with purple and green markers denoting the first and second comments, respectively. Points are solid if they reflect significant (p<0.05) log-odds ratios with an effect size of at least 0.2. Plot B and C focus on attacker-initiated and non-attacker-initiated conversations, respectively, with different markers for comments authored by the attacker and non-attacker. Significant differences are indicated by asterisks (*) and plus signs (+) for the first and second comments, respectively. For example, in Plot A, 'Direct question' and '2nd person start' have significant log-odds ratios, while 'Gratitude' and 'Greetings' do not. In Plot B, 'Direct question' and '2nd person start' also show significant differences, but 'Gratitude' and 'Greetings' do not. In Plot C, 'Direct question' and '2nd person start' again show significant differences, but 'Gratitude' and 'Greetings' do not."
+        },
+        {
+            "entity_name": "DIRECT QUESTION",
+            "entity_type": "EVENT",
+            "description": "An event where a direct question is asked, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "2ND PERSON START",
+            "entity_type": "EVENT",
+            "description": "An event where a statement or question begins with the second person pronoun, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "PROMPT: FACTUAL CHECK",
+            "entity_type": "EVENT",
+            "description": "An event where a prompt is given for a factual check, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "PLEASE START",
+            "entity_type": "EVENT",
+            "description": "An event where a request to start is made, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "2ND PERSON",
+            "entity_type": "EVENT",
+            "description": "An event involving the use of the second person pronoun, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "1ST PERSON START",
+            "entity_type": "EVENT",
+            "description": "An event where a statement or question begins with the first person pronoun, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "PROMPT: COORDINATION",
+            "entity_type": "EVENT",
+            "description": "An event where a prompt is given for coordination, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "HEDGE (LEXICON)",
+            "entity_type": "EVENT",
+            "description": "An event involving the use of hedging words from the lexicon, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "GRATITUDE",
+            "entity_type": "EVENT",
+            "description": "An event expressing gratitude, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "HEDGE (DEP. TREE)",
+            "entity_type": "EVENT",
+            "description": "An event involving the use of hedging words from the dependency tree, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "PROMPT: OPINION",
+            "entity_type": "EVENT",
+            "description": "An event where a prompt is given for an opinion, marked with symbols indicating its significance in the data."
+        },
+        {
+            "entity_name": "GREETINGS",
+            "entity_type": "EVENT",
+            "description": "An event involving greetings, marked with symbols indicating its significance in the data."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Accuracies for the balanced futureprediction task.' The table is structured with three main columns: Feature set, # features, and Accuracy. Each row represents a different feature set used in the prediction task and contains the following information: \\n- Bag of words: 5,000 features, 56.7% accuracy. \\n- Sentiment lexicon: 4 features, 55.4% accuracy. \\n- Politeness strategies: 38 features, 60.5% accuracy. \\n- Prompt types: 12 features, 59.2% accuracy. \\n- Pragmatic (all): 50 features, 61.6% accuracy. \\n- Interlocutor features: 5 features, 51.2% accuracy. \\n- Trained toxicity: 2 features, 60.5% accuracy. \\n- Toxicity + Pragmatic: 52 features, 64.9% accuracy. \\n- Humans: 72.0% accuracy. \\nThe table highlights the performance of various feature sets in predicting future interactions, with the highest accuracy achieved by combining trained toxicity with pragmatic features at 64.9%. The reference point of human annotators achieves an accuracy of 72.0%, providing a benchmark for the model's performance."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the accuracy of different feature sets used in a machine learning model for predicting human behavior."
+        },
+        {
+            "entity_name": "BAG OF WORDS",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 5,000 individual words used to represent text data."
+        },
+        {
+            "entity_name": "SENTIMENT LEXICON",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 4 sentiment-related terms used to gauge the emotional tone of text data."
+        },
+        {
+            "entity_name": "POLITENESS STRATEGIES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 38 strategies used to measure politeness in text data."
+        },
+        {
+            "entity_name": "PROMPT TYPES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 12 different types of prompts used to elicit responses from participants."
+        },
+        {
+            "entity_name": "PRAGMATIC (ALL)",
+            "entity_type": "FEATURE_SET",
+            "description": "A comprehensive feature set consisting of 50 pragmatic features used to understand the context and implications of text data."
+        },
+        {
+            "entity_name": "INTERLOCUTOR FEATURES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 5 characteristics of conversation partners used to predict their behavior."
+        },
+        {
+            "entity_name": "TRAINED TOXICITY",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 2 trained models used to detect toxic language in text data."
+        },
+        {
+            "entity_name": "TOXICITY + PRAGMATIC",
+            "entity_type": "FEATURE_SET",
+            "description": "A combined feature set consisting of 52 features that include both toxicity and pragmatic elements."
+        },
+        {
+            "entity_name": "HUMANS",
+            "entity_type": "PERSON",
+            "description": "The reference point for comparison, representing the accuracy of human predictions."
+        }
+    ]
+}

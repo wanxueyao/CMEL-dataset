@@ -1,0 +1,177 @@
+{
+    "chunk-d14992c2a3231645807ccbf44cdcdad5": [
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "KNOWLEDGE BASE",
+            "description": "CONCEPTNET is a knowledge base used in the COMMONSENSEQA dataset to extract multiple target concepts that have the same semantic relation to a single source concept, enabling the creation of questions that require commonsense knowledge.",
+            "source_entities": [
+                "CONCEPTNET",
+                "ORGANIZATION"
+            ]
+        },
+        {
+            "entity_name": "BERT-LARGE",
+            "entity_type": "MODEL",
+            "description": "BERT-large is a model used as a baseline in the COMMONSENSEQA challenge, achieving 56% accuracy, which is significantly below human performance.",
+            "source_entities": [
+                "BERT-LARGE",
+                "ORGANIZATION"
+            ]
+        }
+    ],
+    "chunk-7ad4ce910fe31d36c7f8fb4572ba28bd": [
+        {
+            "entity_name": "BERT-LARGE",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model developed by Devlin et al. (2018), which when fine-tuned on COMMONSENSEQA, achieves the best performance among evaluated models.",
+            "source_entities": [
+                "BERT-LARGE",
+                "DEVLIN ET AL."
+            ]
+        },
+        {
+            "entity_name": "COMMONSENSEQA",
+            "entity_type": "DATASET",
+            "description": "A new QA dataset centered around common sense, containing 12,247 examples, generated and evaluated to test models' understanding of commonsense knowledge.",
+            "source_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "KNOWLEDGE BASE",
+            "description": "A knowledge base used as the input for generating commonsense questions in the COMMONSENSEQA process.",
+            "source_entities": [
+                "CONCEPTNET"
+            ]
+        },
+        {
+            "entity_name": "Gordon and Van Durme",
+            "entity_type": "RESEARCHERS",
+            "description": "Researchers cited in the text, contributing to the understanding of reporting bias on the web.",
+            "source_entities": [
+                "GORDON AND VAN DURME"
+            ]
+        },
+        {
+            "entity_name": "Machine Common Sense",
+            "entity_type": "CONCEPT",
+            "description": "The knowledge of and ability to reason about an open-ended world, which is critical for natural language understanding.",
+            "source_entities": [
+                "MACHINE COMMON SENSE",
+                "NATURAL LANGUAGE UNDERSTANDING"
+            ]
+        },
+        {
+            "entity_name": "Reporting Bias",
+            "entity_type": "CONCEPT",
+            "description": "The倾向 of not reporting certain types of information due to its being considered trivial or obvious, which affects the availability of background knowledge on the web.",
+            "source_entities": [
+                "REPORTING BIAS"
+            ]
+        },
+        {
+            "entity_name": "Fine-tuning",
+            "entity_type": "CONCEPT",
+            "description": "The process of further training a pre-trained model on a specific task, with the aim of adapting it to that task.",
+            "source_entities": [
+                "FINE-TUNING"
+            ]
+        },
+        {
+            "entity_name": "Reading Comprehension (RC) Models",
+            "entity_type": "MODEL",
+            "description": "Models that utilize web snippets extracted from Google search on top of the question itself for reading comprehension tasks.",
+            "source_entities": [
+                "READING COMPREHENSION (RC) MODELS"
+            ]
+        }
+    ],
+    "chunk-cb4af706ef03830180bcf9f857a43b1a": [
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions. It contains 32 million triplets and is used to filter triplets based on certain criteria for the COMMONSENSEQA process.",
+            "source_entities": [
+                "CONCEPTNET",
+                "COMMONSENSE RELATIONS",
+                "NATURAL LANGUAGE CONCEPTS"
+            ]
+        },
+        {
+            "entity_name": "AMAZON MECHANICAL TURK",
+            "entity_type": "ORGANIZATION",
+            "description": "Amazon Mechanical Turk is used for crowdsourcing workers to generate and validate commonsense questions. It is also used to add additional distractors to each formulated question to make the task more challenging.",
+            "source_entities": [
+                "AMAZON MECHANICAL TURK",
+                "CROWDSOURCING WORKERS",
+                "DISTRACTORS",
+                "VERIFIERS"
+            ]
+        },
+        {
+            "entity_name": "GOOGLE",
+            "entity_type": "ORGANIZATION",
+            "description": "Google is used for issuing web queries to add textual context to each question in the data generation process. It provides web snippets that are used to give relevant context to each question in the COMMONSENSEQA dataset.",
+            "source_entities": [
+                "GOOGLE",
+                "WEB SNIPPETS"
+            ]
+        },
+        {
+            "entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context. It involves extracting triplets from CONCEPTNET, crowdsourcing questions and distractors through Amazon Mechanical Turk, and adding textual context through Google search snippets.",
+            "source_entities": [
+                "COMMONSENSEQA",
+                "QUESTION CONCEPT",
+                "ANSWER CONCEPT",
+                "FIGURE 1",
+                "FIGURE 2"
+            ]
+        },
+        {
+            "entity_name": "NLP",
+            "entity_type": "ORGANIZATION",
+            "description": "NLP likely refers to the field of Natural Language Processing, which is relevant to the context of generating and understanding commonsense questions. It is related to the process of filtering triplets and generating questions in the COMMONSENSEQA process.",
+            "source_entities": [
+                "NLP",
+                "EDIT DISTANCE"
+            ]
+        }
+    ],
+    "chunk-301b78a85599c18fac1069528e3a5e54": null,
+    "chunk-99b5850d62dc696916d752de07f5e29b": [
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is related to the node embeddings used in pre-trained word embeddings, developed by Speer et al. (2017), and is also the source of the 300d Numberbatch CONCEPTNET node embeddings used in pre-trained word embeddings.",
+            "source_entities": [
+                "CONCEPTNET",
+                "NUMBERBATCH"
+            ]
+        },
+        {
+            "entity_name": "ELMo",
+            "entity_type": "ORGANIZATION",
+            "description": "ELMo representations are used in the BIDAF++ model, contributing to its ability to adapt to multiple-choice settings, and are associated with the works of Peters et al. (2018) and Huang et al. (2018).",
+            "source_entities": [
+                "ELMO",
+                "PETERS ET AL. (2018)",
+                "HUANG ET AL. (2018)"
+            ]
+        }
+    ],
+    "chunk-cfaffefba68322e03269130cbe10d877": null,
+    "chunk-f5be032ebca37bc05b42262776d7c6e6": [
+        {
+            "entity_name": "ACL",
+            "entity_type": "ORGANIZATION",
+            "description": "ACL (Association for Computational Linguistics) is an organization that hosts conferences where research in computational linguistics and natural language processing is presented, including the roc story cloze task and TriviaQA.",
+            "source_entities": [
+                "ACL",
+                "ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL)"
+            ]
+        }
+    ]
+}

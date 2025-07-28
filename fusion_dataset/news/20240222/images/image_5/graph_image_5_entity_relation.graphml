@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Dark skin tone- Hairstyle: Hair is styled in a high bun, with some hair wrapped around the base of the bun- Facial Expression: Serious and contemplative, with her chin resting on her hand- Age: Appears to be an adult woman- Clothing: Wearing a light-colored blazer with a notched lapel, over a dark top- Accessories: Large, dangling earringsOverall, the character gives off a thoughtful and composed demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Sword- Color: The sword has a metallic silver blade with a golden hilt.- Shape: The blade is straight and double-edged, tapering to a sharp point. The hilt includes a crossguard and a pommel, which appears to be ornately designed.- Size: The sword is relatively large, suggesting it is a two-handed weapon.- Material: The blade appears to be made of steel or another metal, while the hilt seems to be crafted from gold or a gold-like material.- Possible Function: This sword is likely intended for ceremonial use or as a decorative piece due to its elaborate design, though it could also serve a practical function in combat.Overall, the sword exudes an air of nobility and power, with its intricate design and high-quality materials indicating it may belong to a person of significant status or importance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a portrait of a person with dark skin, wearing a light gray blazer over a white shirt. The individual has their hair styled in a high bun and is adorned with large, round earrings. They are resting their chin on their hand, which is positioned near their face, suggesting a thoughtful or contemplative pose. The background is a gradient of warm tones, transitioning from a lighter shade at the top to a darker shade at the bottom, creating a soft and intimate atmosphere. The lighting highlights the person's facial features and the texture of their clothing, adding depth to the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with her hair styled in a bun, wearing a light-colored blazer and earrings, resting her chin on her hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+</node>
+<node id="&quot;EARRINGS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d1">"The woman is wearing earrings."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;BLAZER&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d1">"The woman is wearing a blazer."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HAND POSITION&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d1">"The woman has her chin resting on her hand."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_5_tie-1.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_tie-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;EARRINGS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is wearing earrings."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BLAZER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing a blazer."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;HAND POSITION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman has her chin resting on her hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

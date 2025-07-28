@@ -1,0 +1,37 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1",
+        "entity_type": "CONCEPT",
+        "description": "The process of aligning word embeddings from different languages into a shared space.",
+        "reason": "The image depicts the projection of word embeddings from Spanish to English, which is a key concept in the text. The image shows the initial distribution of word embeddings and the result after projecting them into a shared space, highlighting the nearest neighbor relationship between 'trastorno' (Spanish) and 'disorder' (English). This matches the description of cross-lingual projection in the text.",
+        "matched_chunk_entity_name": "Figure 1"
+    },
+    "image_2": {
+        "entity_name": "Figure 2 Self-attentive Bi-LSTM-CRF Model",
+        "entity_type": "EVENT",
+        "description": "The event of introducing a self-attention mechanism to deal with divergence of word order in the paper's described model.",
+        "reason": "The image clearly shows the architecture of a Self-attentive Bi-LSTM-CRF Model used for Named Entity Recognition (NER). The diagram includes layers such as Char Embedding, Word Embedding, Word Bi-LSTM, Masked Self-attention, and CRF Layer, which aligns with the description of the model in the text.",
+        "matched_chunk_entity_name": "Self-attentive Bi-LSTM-CRF Model/Figure 2"
+    },
+    "image_3": {
+        "entity_name": "Table 1",
+        "entity_type": "EVENT",
+        "description": "Table 1 presents the results of transferring from English to other languages and comparisons with previous studies.",
+        "reason": "The image is a table labeled 'Table 1: NER $F_{1}$ scores' that provides comparative results for Named Entity Recognition (NER) across different models and languages. The text also mentions Table 1 in the context of presenting results on transferring from English to other languages alongside results from previous studies, which aligns with the content of the image.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_4": {
+        "entity_name": "Table 2",
+        "entity_type": "EVENT",
+        "description": "Table 2 compares different ways of using bilingual word embeddings within the method.",
+        "reason": "The image is a table that presents NER F1 scores for different models applied to Spanish, Dutch, and German languages. This matches the description of Table 2 in the text, which compares different ways of using bilingual word embeddings.",
+        "matched_chunk_entity_name": "Table 2"
+    },
+    "image_5": {
+        "entity_name": "Table 3",
+        "entity_type": "EVENT",
+        "description": "Comparison of different ways of using bilingual word embeddings, within our method (NER $F_{1}$ ).",
+        "reason": "Table 3 is the presentation of results for the Named Entity Recognition (NER) task on Uyghur language, comparing different approaches.",
+        "matched_chunk_entity_name": "Table 3"
+    }
+}

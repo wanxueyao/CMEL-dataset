@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a starling bird perched on a tree branch. The bird has a distinctive appearance with a glossy black plumage adorned with small white spots, particularly noticeable on its wings and back. Its beak is pointed and orange, contrasting sharply with its dark feathers. The bird's posture is slightly hunched as it clings to the branch, which is bare of leaves, suggesting it might be late autumn or winter. The background is a clear blue sky, indicating a bright day with no clouds. The overall scene conveys a sense of stillness and tranquility, with the bird appearing to be in a state of rest or observation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+</node>
+<node id="&quot;BIRD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A black bird with white spots and an orange beak, perched on a tree branch."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+</node>
+<node id="&quot;TREE BRANCH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A light brown tree branch with some small buds."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BIRD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bird是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TREE BRANCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree Branch是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIRD&quot;" target="&quot;TREE BRANCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bird is perched on the tree branch."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

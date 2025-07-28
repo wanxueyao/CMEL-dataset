@@ -1,0 +1,391 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "ALTERATION",
+            "entity_type": "EVENT",
+            "description": "The process of modifying the original movie review to observe changes in sentiment classification, inspired by psycholinguistic studies which demonstrated that humans can comprehend text altered by jumbling internal characters, provided that the first and last characters of each word remain unperturbed.",
+            "source_image_entities": [
+                "ALTERATION"
+            ],
+            "source_text_entities": [
+                "ADVERSARIAL SPELLING MISTAKES"
+            ]
+        },
+        {
+            "merged_entity_name": "MOVIE REVIEW",
+            "entity_type": "OBJECT",
+            "description": "A piece of text containing an opinion about a movie, used for sentiment analysis, which can be degraded by adversarial edits such as dropping, adding, and swapping internal characters within words.",
+            "source_image_entities": [
+                "MOVIE REVIEW"
+            ],
+            "source_text_entities": [
+                "WORD-ONLY, CHAR-ONLY, WORD+CHAR, AND WORD-PIECE"
+            ]
+        },
+        {
+            "merged_entity_name": "LABEL",
+            "entity_type": "OBJECT",
+            "description": "The classification assigned to the movie review based on its sentiment, either positive (+) or negative (-), which can be affected by adversarial spelling mistakes causing misclassification.",
+            "source_image_entities": [
+                "LABEL"
+            ],
+            "source_text_entities": [
+                "DOWNSTREAM CLASSIFIER"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "BACKGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Background Model is a more generic word recognition model trained on a larger, less-specialized corpus, such as the IMDB movie corpus. It is used as a fallback when the Foreground Model predicts UNK, particularly for rare and unobserved words. It is designed to reconstruct the correct word from the orthography and context of the individual words, using synthetically corrupted inputs during training.",
+            "source_image_entities": [
+                "BACKGROUND MODEL"
+            ],
+            "source_text_entities": [
+                "BACKGROUND MODEL"
+            ]
+        },
+        {
+            "entity_name": "FOREGROUND MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Foreground Model is a specific word recognition model trained on an in-domain corpus to focus on frequent words. It is designed to predict UNK for rare and unseen words and is similar to the Background Model but with a different color and an 'UNK' label pointing to one of its nodes. This model is best for training on a precise, domain-specific dataset and is used in conjunction with the Background Model for handling rare words.",
+            "source_image_entities": [
+                "FOREGROUND MODEL"
+            ],
+            "source_text_entities": [
+                "FOREGROUND MODEL"
+            ]
+        },
+        {
+            "entity_name": "SEMI-CHARACTER REPRESENTATION",
+            "entity_type": "EVENT",
+            "description": "The Semi-Character Representation refers to the method used for representing characters or tokens in the models, particularly in the context of the ScRNN (Semi-character based RNN) proposed by Sakaguchi et al. (2017) for word recognition. This event or process is indicated by a text box on the right side of the image and is integral to how the ScRNN model processes sentences with misspelled characters and predicts the correct words.",
+            "source_image_entities": [
+                "SEMI-CHARACTER REPRESENTATION"
+            ],
+            "source_text_entities": [
+                "SEMI-CHARACTER REPRESENTATION"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "SPELL-CORRECTOR",
+            "entity_type": "ORGANIZATION",
+            "description": "A system used for correcting spelling errors in text, evaluated across different types of errors and models, including the effectiveness on keyboard attacks but poor performance on other attack types, particularly the add attack strategy.",
+            "source_image_entities": [
+                "SPELL-CORRECTOR"
+            ],
+            "source_text_entities": [
+                "ATD SPELL CORRECTOR"
+            ]
+        },
+        {
+            "entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "A specific spell-corrector model that is compared against other models in the table, predicting 11.2 words incorrectly for every 100 words in the 'all' setting.",
+            "source_image_entities": [
+                "ATD"
+            ],
+            "source_text_entities": [
+                "ATD"
+            ]
+        },
+        {
+            "entity_name": "SCRNN MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A spell-corrector model based on a recurrent neural network evaluated for its performance, with variations that reconstruct better than ATD and vanilla ScRNN models, particularly effective with pass-through backoff against adversarial attacks.",
+            "source_image_entities": [
+                "SCRNN (78K)",
+                "SCRNN (10K) W/ BACKOFF VARIANTS"
+            ],
+            "source_text_entities": [
+                "SCRNN",
+                "SCRNN MODEL"
+            ]
+        },
+        {
+            "entity_name": "SWAP ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are swapped in a word, used to evaluate the spell-corrector's performance, considered less threatening than add and key attacks.",
+            "source_image_entities": [
+                "SWAP"
+            ],
+            "source_text_entities": [
+                "SWAP ATTACK"
+            ]
+        },
+        {
+            "entity_name": "DROP ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where characters are dropped from a word, used to evaluate the spell-corrector's performance, considered less threatening than add and key attacks.",
+            "source_image_entities": [
+                "DROP"
+            ],
+            "source_text_entities": [
+                "DROP ATTACK"
+            ]
+        },
+        {
+            "entity_name": "ADD ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where extra characters are added to a word, used to evaluate the spell-corrector's performance, posing a greater threat than swap and drop attacks.",
+            "source_image_entities": [
+                "ADD"
+            ],
+            "source_text_entities": [
+                "ADD ATTACK"
+            ]
+        },
+        {
+            "entity_name": "KEY ATTACK",
+            "entity_type": "EVENT",
+            "description": "Type of error where a wrong key is pressed, resulting in a character being replaced, used to evaluate the spell-corrector's performance, posing a greater threat than swap and drop attacks.",
+            "source_image_entities": [
+                "KEY"
+            ],
+            "source_text_entities": [
+                "ADD AND KEY ATTACKS"
+            ]
+        },
+        {
+            "entity_name": "ALL ATTACK",
+            "entity_type": "EVENT",
+            "description": "Overall evaluation metric combining all types of errors, used to assess the spell-corrector's comprehensive performance, including all types of adversarial attacks.",
+            "source_image_entities": [
+                "ALL"
+            ],
+            "source_text_entities": [
+                "ALL ATTACK"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "WORD-LEVEL MODELS",
+            "entity_type": "MODEL",
+            "description": "Word-Level Models refer to BiLSTM models with different configurations under various attack types, which are part of the table displaying the performance of various models under different attack types.",
+            "source_image_entities": [
+                "WORD-LEVEL MODELS"
+            ],
+            "source_text_entities": [
+                "WORD-ONLY"
+            ]
+        },
+        {
+            "entity_name": "CHAR-LEVEL MODELS",
+            "entity_type": "MODEL",
+            "description": "Char-Level Models refer to BiLSTM models with different configurations under various attack types, which are part of the table displaying the performance of various models under different attack types.",
+            "source_image_entities": [
+                "CHAR-LEVEL MODELS"
+            ],
+            "source_text_entities": [
+                "CHAR-ONLY"
+            ]
+        },
+        {
+            "entity_name": "WORD+CHAR MODELS",
+            "entity_type": "MODEL",
+            "description": "Word+Char Models refer to BiLSTM models with different configurations under various attack types, which are part of the table displaying the performance of various models under different attack types.",
+            "source_image_entities": [
+                "WORD+CHAR MODELS"
+            ],
+            "source_text_entities": [
+                "WORD+CHAR"
+            ]
+        },
+        {
+            "entity_name": "WORD-PIECE MODELS",
+            "entity_type": "MODEL",
+            "description": "Word-Piece Models refer to BERT models with different configurations under various attack types, which are part of the table displaying the performance of various models under different attack types.",
+            "source_image_entities": [
+                "WORD-PIECE MODELS"
+            ],
+            "source_text_entities": [
+                "WORD-PIECE TOKENIZATION"
+            ]
+        },
+        {
+            "entity_name": "TABLE 3",
+            "entity_type": "EVENT",
+            "description": "Table 3 is a table displaying the performance of various classification models, with and without defenses, under adversarial attacks. It includes the accuracy of models and how they are affected by different attack types such as Swap, Drop, Add, Key, and All.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "TABLE 3"
+            ]
+        },
+        {
+            "entity_name": "ADVERSARIAL ATTACKS",
+            "entity_type": "EVENT",
+            "description": "Adversarial attacks are attacks that involve editing individual characters in input sentences and are used to evaluate the robustness of models. These attacks include Swap, Drop, Add, and Key attacks, which significantly degrade classifier performance.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ADD AND KEY ATTACKS",
+                "SWAP AND DROP ATTACKS",
+                "CHARACTER-LEVEL ADVERSARIAL ATTACKS"
+            ]
+        },
+        {
+            "entity_name": "SENTIMENT ANALYSIS",
+            "entity_type": "EVENT",
+            "description": "Sentiment Analysis is a downstream task used to evaluate the robustness of models against adversarial attacks, particularly with char-level attacks, and to verify if the sentiment of reviews is preserved.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "SENTIMENT ANALYSIS",
+                "HUMAN INTELLIGIBILITY"
+            ]
+        },
+        {
+            "entity_name": "PARAPHRASE DETECTION",
+            "entity_type": "EVENT",
+            "description": "Paraphrase Detection is a downstream task used to evaluate the robustness of models against adversarial attacks, specifically testing BERT's accuracy under various attack and defense settings.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "PARAPHRASE DETECTION",
+                "MRPC"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "BERT MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a fine-tuned model used for sentiment analysis and paraphrase detection, setting a new state-of-the-art on several NLP benchmarks. It is a type of pre-trained language model used in natural language processing tasks and is being tested under different adversarial attack scenarios to measure its robustness.",
+            "source_image_entities": [
+                "BERT MODEL"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "ATD",
+            "entity_type": "ORGANIZATION",
+            "description": "ATD, which stands for Adversarial Training Defense, is a technique applied to the BERT model to improve its resilience against adversarial attacks. It is also a model that predicts 11.2 words incorrectly for every 100 words and is compared with ScRNN models for word recognition accuracy.",
+            "source_image_entities": [
+                "ATD"
+            ],
+            "source_text_entities": [
+                "ATD"
+            ]
+        },
+        {
+            "merged_entity_name": "PASS-THROUGH",
+            "entity_type": "ORGANIZATION",
+            "description": "Pass-through is a method applied to the BERT model that allows certain information to bypass the model's layers, potentially affecting its performance under attack. The ScRNN model with pass-through backoff offers better protection against adversarial attacks, especially for swap attack.",
+            "source_image_entities": [
+                "PASS-THROUGH"
+            ],
+            "source_text_entities": [
+                "SCRNN MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "NEUTRAL",
+            "entity_type": "ORGANIZATION",
+            "description": "A configuration of the BERT model that has been adjusted to maintain a neutral stance towards potential adversarial inputs, aiming to balance performance and robustness. The backoff neutral variation has the lowest sensitivity due to mapping UNK predictions to a fixed neutral word, resulting in the highest robustness on most of the attack types for all four model classes.",
+            "source_image_entities": [
+                "NEUTRAL"
+            ],
+            "source_text_entities": [
+                "BACKGROUND MODELS",
+                "SECTION $\\S\\ 4.3"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "ScRNN Model",
+            "entity_type": "ORGANIZATION",
+            "description": "ScRNN is a model used for word recognition, with variations that reconstruct better than ATD and vanilla ScRNN models. It offers better protection against adversarial attacks, especially for swap attack, and is effective under other attack classes, mitigating the adversarial effect in wordpiece models by 21%, character-only models by 19%, and in word, and word+char models by over 4.5%.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"SCRNN\"",
+                "\"ATD\"",
+                "\"SCRNN MODEL\""
+            ]
+        },
+        {
+            "entity_name": "BERT Model",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a fine-tuned model used for sentiment analysis and paraphrase detection, setting a new state-of-the-art on several NLP benchmarks. Its accuracy is significantly degraded by 1-2 character attacks, dropping from 89% to 31%, but can be defended by word recognition models, with both pass-through and neutral variants recovering most of the accuracy.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"BERT\"",
+                "\"BERT\""
+            ]
+        },
+        {
+            "entity_name": "Adversarial Attacks",
+            "entity_type": "EVENT",
+            "description": "Adversarial attacks include character-level edits and are categorized into swap, drop, add, and key attacks. The efficacy of different attacks is ordered as add > key > drop > swap. These attacks significantly degrade classifier performance, with even 1-character attacks causing substantial decreases in accuracy.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"ADD AND KEY ATTACKS\"",
+                "\"SWAP AND DROP ATTACKS\"",
+                "\"CHARACTER-LEVEL ADVERSARIAL ATTACKS\""
+            ]
+        },
+        {
+            "entity_name": "Defense Methods",
+            "entity_type": "EVENT",
+            "description": "Defense methods against adversarial attacks include Data Augmentation (DA), Adversarial Training (Adv), and ATD spell corrector. However, DA and Adv are not effective in this case, and the ATD spell corrector, while effective on keyboard attacks, performs poorly on other attack types, particularly the add attack strategy.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"DATA AUGMENTATION (DA)\"",
+                "\"ADVERSARIAL TRAINING (ADV)\"",
+                "\"ATD SPELL CORRECTOR\""
+            ]
+        },
+        {
+            "entity_name": "Word Error Rates (WER)",
+            "entity_type": "EVENT",
+            "description": "Word Error Rates (WER) is a metric used to calculate the performance of models in word recognition tasks. Lower WER is necessary but not sufficient for a solid defense; a low sensitivity is also required. Background models are used as a backoff alternative due to their lower WER, especially under swap and drop attacks.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"WORD ERROR RATES (WER)\"",
+                "\"BACKGROUND MODELS\""
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "ScRNN Model",
+            "entity_type": "ORGANIZATION",
+            "description": "ScRNN is a model used for word recognition, with variations that reconstruct better than ATD and vanilla ScRNN models. The ScRNN model with pass-through backoff offers better protection against adversarial attacks, especially for swap attack, bringing back the adversarial accuracy within 5% range for the swap attack. It is also effective under other attack classes, and can mitigate the adversarial effect in wordpiece models by 21%, character-only models by 19%, and in word, and word+char models by over 4.5%.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "\"SCRNN\"",
+                "\"SCRNN MODEL\""
+            ]
+        },
+        {
+            "merged_entity_name": "Word Error Rates (WER)",
+            "entity_type": "EVENT",
+            "description": "Word Error Rates (WER) is a metric used to calculate the performance of models in word recognition tasks. It is visualized in GRAPH 1 and GRAPH 2, where the relationship between WER and Sensitivity for Pass-through, Background, and Neutral conditions is depicted. Lower WER is necessary but not sufficient for a solid defense; a low sensitivity is also required.",
+            "source_image_entities": [
+                "GRAPH 1",
+                "GRAPH 2"
+            ],
+            "source_text_entities": [
+                "\"WORD ERROR RATES (WER)\""
+            ]
+        }
+    ]
+}

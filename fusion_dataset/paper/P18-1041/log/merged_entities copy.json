@@ -1,0 +1,231 @@
+{
+    "chunk-e0ebb8ded3819f66510c1caedfb42c07": null,
+    "chunk-b645d9c5da818cb28134c78c33a7c37d": [
+        {
+            "entity_name": "SWEMs (Simple Word-Embedding Models)",
+            "entity_type": "CONCEPT",
+            "description": "SWEMs stands for Simple Word-Embedding Models, a class of models that investigate the raw modeling capacity of word embeddings without additional compositional parameters. Variants include SWEM-aver, SWEM-max, SWEM-concat, and SWEM-hier.",
+            "source_entities": [
+                "SWEMS",
+                "SWEM-AVER",
+                "SWEM-MAX",
+                "SWEM-CONCAT",
+                "SWEM-HIER"
+            ]
+        },
+        {
+            "entity_name": "CNN Text Models (Convolutional Neural Network Text Models)",
+            "entity_type": "CONCEPT",
+            "description": "CNN text models utilize convolutional neural networks for text analysis. They can be single-layer or deep, multi-layer models.",
+            "source_entities": [
+                "DEEP CNN TEXT MODELS",
+                "SINGLELAYER CNN TEXT MODEL"
+            ]
+        }
+    ],
+    "chunk-17ab6c2bb0d2cdb200916102c59e9778": [
+        {
+            "entity_name": "GloVe word embeddings",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe word embeddings are used for initializing all models in the experiments and are developed by Pennington et al., 2014.",
+            "source_entities": [
+                "GLOVE WORD EMBEDDINGS",
+                "PENNINGTON ET AL., 2014"
+            ]
+        },
+        {
+            "entity_name": "Adam",
+            "entity_type": "PERSON",
+            "description": "Adam is the optimization algorithm used to optimize all models, with learning rate selected from a given set, and is referenced by Kingma and Ba, 2014.",
+            "source_entities": [
+                "ADAM",
+                "KINGMA AND BA, 2014"
+            ]
+        },
+        {
+            "entity_name": "Dropout regularization",
+            "entity_type": "CONCEPT",
+            "description": "Dropout regularization is employed on the word embedding layer and final MLP layer with a selected dropout rate, as referenced by Srivastava et al., 2014.",
+            "source_entities": [
+                "DROPOUT REGULARIZATION",
+                "SRIVASTAVA ET AL., 2014"
+            ]
+        },
+        {
+            "entity_name": "Multilayer Perceptron (MLP)",
+            "entity_type": "ORGANIZATION",
+            "description": "Multilayer Perceptron (MLP) is used as a layer in the models for learning refined word embeddings, with ReLU activation used in the 300-dimensional MLP layer.",
+            "source_entities": [
+                "MULTILAYER PERCEPTRON (MLP)",
+                "RELU ACTIVATION"
+            ]
+        }
+    ],
+    "chunk-156a1e35714463aabe81efd03d2bb137": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM is a model variant used in sentiment analysis and text sequence matching. It has several variants, including SWEM-max, SWEM-aver, and SWEM-concat, each with different performance characteristics. SWEM-max is known for its sparse word embeddings, while SWEM-concat shows the best performance among SWEM variants by combining features from SWEM-max and SWEM-aver.",
+            "source_entities": [
+                "\"SWEM\"",
+                "\"SWEM-MAX\"",
+                "\"SWEM-AVER\"",
+                "\"SWEM-CONCAT\""
+            ]
+        },
+        {
+            "entity_name": "Yahoo (Yahoo! Answer)",
+            "entity_type": "ORGANIZATION",
+            "description": "Yahoo is the source of the datasets used for training the SWEM-max model and for comparison with GloVe embeddings. The datasets are used to analyze the performance of different models and word embeddings.",
+            "source_entities": [
+                "\"YAHOO\"",
+                "\"YAHOO! ANSWER\""
+            ]
+        }
+    ],
+    "chunk-f513c5de611803566998ac79f309def6": [
+        {
+            "entity_name": "SWEM (SWEM-hier)",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM is a model compared with CNN and LSTM models in terms of performance on various tasks, particularly in sentiment analysis. SWEM-hier is a variant of the SWEM model that incorporates hierarchical pooling operation and shows improved performance in sentiment analysis tasks.",
+            "source_entities": [
+                "SWEM",
+                "SWEM-HIER"
+            ]
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM is a model that captures word-order information and is used for comparison with SWEM on various tasks, including sentiment analysis. It is also used to examine the importance of word-order features by training on shuffled and original datasets.",
+            "source_entities": [
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN is a model used for comparison with SWEM and LSTM, capturing word-order information within text sequences.",
+            "source_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "Datasets for sentiment analysis and text classification",
+            "entity_type": "GEO",
+            "description": "This includes Yahoo, SNLI, Yelp Polarity, MR, SST-1, SST-2, Subj, and TREC datasets, which are used to evaluate the performance of LSTM and SWEM models, particularly for topic categorization, textual entailment, and sentiment analysis.",
+            "source_entities": [
+                "YAHOO",
+                "SNLI",
+                "YELP POLARITY",
+                "MR",
+                "SST-1",
+                "SST-2",
+                "SUBJ",
+                "TREC"
+            ]
+        },
+        {
+            "entity_name": "Datasets for sequence tagging tasks",
+            "entity_type": "GEO",
+            "description": "This includes CoNLL2000 and CoNLL2003 datasets, which are used to evaluate the performance of SWEM on sequence tagging tasks.",
+            "source_entities": [
+                "CONLL2000",
+                "CONLL2003"
+            ]
+        },
+        {
+            "entity_name": "Tables and sections in the document",
+            "entity_type": "EVENT",
+            "description": "This includes Table 6, Table 7, Table 8, Section 4.2.1, Section 3.3, and Section 4.3, which present test accuracies, discuss the importance of word-order information, detail the hierarchical pooling operation, and discuss the performance of SWEM-hier on sentiment analysis tasks.",
+            "source_entities": [
+                "TABLE 6",
+                "TABLE 7",
+                "TABLE 8",
+                "SECTION 4.2.1",
+                "SECTION 3.3",
+                "SECTION 4.3"
+            ]
+        },
+        {
+            "entity_name": "Subspace Training",
+            "entity_type": "EVENT",
+            "description": "Subspace training is a method used to measure model complexity in text classification problems, as discussed in Section 5.1, and referenced from Li et al., 2018.",
+            "source_entities": [
+                "SUBSPACE TRAINING",
+                "LI ET AL., 2018"
+            ]
+        }
+    ],
+    "chunk-d762a89dc693820486c0957ced302e5e": [
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "SWEM is a model used in text classification problems, with variants including SWEM-max, SWEM-concat, and SWEMhier. It is compared with CNN and LSTM models for representing text sequences on various NLP datasets.",
+            "source_entities": [
+                "SWEM-MAX",
+                "SWEM-CONCAT",
+                "SWEMHIER"
+            ]
+        },
+        {
+            "entity_name": "Li et al., 2018",
+            "entity_type": "PERSON",
+            "description": "Li et al., 2018 are referenced for their work on subspace training in text classification problems, which involves constraining the optimization of trainable parameters in a subspace of low dimension.",
+            "source_entities": [
+                "LI ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "Zhang et al., 2015b",
+            "entity_type": "PERSON",
+            "description": "Zhang et al., 2015b are referenced for their work on text classification in Chinese, specifically on the Sogou news corpus dataset.",
+            "source_entities": [
+                "ZHANG ET AL., 2015B"
+            ]
+        },
+        {
+            "entity_name": "ICLR",
+            "entity_type": "EVENT",
+            "description": "ICLR is a conference where several referenced papers on text classification and sentence embeddings were presented.",
+            "source_entities": [
+                "ICLR"
+            ]
+        },
+        {
+            "entity_name": "Fine-grained analysis of sentence embeddings",
+            "entity_type": "EVENT",
+            "description": "Fine-grained analysis of sentence embeddings is a topic discussed in a referenced paper by authors Yossi Adi, Einat Kermany, Yonatan Belinkov, Ofer Lavi, and Yoav Goldberg.",
+            "source_entities": [
+                "FINE-GRAINED ANALYSIS OF SENTENCE EMBEDDINGS",
+                "EINAT KERMANY",
+                "YONATAN BELINKOV",
+                "OFER LAVI",
+                "YOAV GOLDBERG"
+            ]
+        },
+        {
+            "entity_name": "A simple but tough-to-beat baseline for sentence embeddings",
+            "entity_type": "EVENT",
+            "description": "A simple but tough-to-beat baseline for sentence embeddings is a topic discussed in a referenced paper by authors Sanjeev Arora, Yingyu Liang, and Tengyu Ma.",
+            "source_entities": [
+                "A SIMPLE BUT TOUGH-TO-BEAT BASELINE FOR SENTENCE EMBEDDINGS",
+                "SANJEEV ARORA",
+                "YINGYU LIANG",
+                "TENGYU MA"
+            ]
+        },
+        {
+            "entity_name": "A neural probabilistic language model",
+            "entity_type": "EVENT",
+            "description": "A neural probabilistic language model is a topic discussed in a referenced paper by authors Yoshua Bengio, Réjean Ducharme, Pascal Vincent, and Christian Jauvin.",
+            "source_entities": [
+                "A NEURAL PROBABILISTIC LANGUAGE MODEL",
+                "YOSHUA BENGIO",
+                "RÉJEAN DUCHARME",
+                "PASCAL VINCENT",
+                "CHRISTIAN JAUVIN"
+            ]
+        }
+    ],
+    "chunk-a5877fac67633a73a05026418a3515b4": []
+}

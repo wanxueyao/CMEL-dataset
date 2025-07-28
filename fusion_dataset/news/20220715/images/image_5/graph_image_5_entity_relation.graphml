@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair- Hairstyle: Short, gray hair, combed to the side- Facial Expression: Serious, focused gaze downward- Age: Appears to be an older adult- Clothing: Wearing a dark suit with a white shirt and a blue tie- Posture: Sitting, with hands resting on a surface in front of himOverall, the individual appears to be engaged in a formal or professional setting, possibly during a meeting or conference."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a man in formal attire, seated on an ornate golden chair with intricate carvings. He is wearing a dark suit with a light blue tie and a white shirt. The background features a rich red wall with a decorative pattern, suggesting a formal or official setting. The man appears to be engaged in a serious activity, possibly delivering a speech or addressing an audience. The atmosphere conveyed is one of formality and gravity, indicative of a significant event or announcement."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+</node>
+<node id="&quot;MARIO DRAGHI&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man dressed in a dark suit and blue tie, seated on an ornate golden chair with a red upholstered background, appearing to be in a formal setting such as a parliament or legislative assembly."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+</node>
+<node id="&quot;ORNATE GOLDEN CHAIR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An intricately designed golden chair with detailed carvings, supporting the person in the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+</node>
+<node id="&quot;RED UPHOLSTERED BACKGROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A richly colored red upholstered backdrop that forms the setting behind the person, suggesting a formal and possibly governmental environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;MARIO DRAGHI&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of Mario Draghi."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MARIO DRAGHI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mario Draghi是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ORNATE GOLDEN CHAIR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ornate Golden Chair是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RED UPHOLSTERED BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Red Upholstered Background是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MARIO DRAGHI&quot;" target="&quot;ORNATE GOLDEN CHAIR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The person is seated on the ornate golden chair, indicating a position of importance or authority."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MARIO DRAGHI&quot;" target="&quot;RED UPHOLSTERED BACKGROUND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The person is positioned in front of the red upholstered background, which enhances the formality and significance of the setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9_BED-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Rodent, specifically a rat- Age: Adult- Color: Dark fur with lighter underbelly- Shape: Elongated body with a long, scaly tail and small ears- Size: Relatively large for a rat, possibly a Norway rat or similar species- Posture: Lying on its side, appearing to be dead or unconscious- Structural Characteristics: Visible whiskers, small eyes, and a pointed snoutOverall, the rat appears to be in a state of rest or incapacitation, with detailed fur texture and anatomical features clearly depicted."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration of a rat lying on its side. The rat appears to be in a state of discomfort or exhaustion, with its eyes closed and mouth slightly open. Its body is swollen, particularly around the stomach area, which is depicted as being as big around as a jelly jar. The rat's fur is detailed with individual strands visible, giving it a textured appearance. The tail is long and thin, curving upwards. The background consists of wooden planks, suggesting a barn or similar rustic setting. The overall atmosphere conveyed by the image is one of fatigue and possibly pain, aligning with the context provided about the rat's overindulgence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;RAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A rat lying down with its body stretched out, tail curved, and head resting near a wooden structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;WOODEN STRUCTURE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A vertical wooden structure next to which the rat is resting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9_BED-0.JPG&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_9_bed-0.jpg是image_9的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;RAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rat是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;WOODEN STRUCTURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wooden Structure是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAT&quot;" target="&quot;WOODEN STRUCTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The rat is resting near the wooden structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, curly hair that appears to be blonde or light-colored, styled in a somewhat messy manner with some strands falling forward- Clothing: Wearing a dress with a pinafore over it; the dress has a high collar and long sleeves, while the pinafore is sleeveless and reaches down to the knees; also wearing striped stockings and shoes- Posture: Standing with her back slightly arched and her head tilted upwards, giving an impression of curiosity or wonder- Accessories: There is a ribbon tied around the waist of the pinaforeOverall, the character appears to be a young girl with a curious and whimsical demeanor, possibly from a storybook or illustration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. It shows Alice, a young girl with long hair, standing between two large, round characters who appear to be Tweedledum and Tweedledee. Alice is dressed in a dress with a white apron and is holding a small object in her hand. The character on the left, Tweedledum, is wearing a tall hat and a coat with a belt around his waist. He has a serious expression and is pointing at something with his right hand. The character on the right, Tweedledee, is also wearing a tall hat and a coat, but his hat is tilted to the side. He has a more relaxed posture and is looking towards Alice. Both characters have exaggerated features and are drawn in a whimsical, cartoonish style. The background is filled with trees and leaves, suggesting an outdoor setting. The overall atmosphere is one of whimsy and fantasy, capturing the surreal and humorous interactions between Alice and the Tweedle brothers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and apron, interacting with two large characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+</node>
+<node id="&quot;TWEEDLEDUM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large character with a round body, wearing a tall hat and holding a drum."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+</node>
+<node id="&quot;TWEEDLEDEE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Another large character similar to Tweedledum, also wearing a tall hat and holding a drum."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TWEEDLEDUM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweedledum是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TWEEDLEDEE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tweedledee是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TWEEDLEDUM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is interacting with Tweedledum, who is pointing at her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TWEEDLEDEE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is standing in front of Tweedledee, who is observing the interaction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TWEEDLEDUM&quot;" target="&quot;TWEEDLEDEE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Tweedledum and Tweedledee are identical twins, both participating in the interaction with Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

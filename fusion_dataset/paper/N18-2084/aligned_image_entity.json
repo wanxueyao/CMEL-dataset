@@ -1,0 +1,65 @@
+{
+    "image_1": {
+        "entity_name": "Table 1: Number of sentences for each language pair",
+        "entity_type": "TABLE",
+        "description": "The table shows the number of sentences for each language pair in the train, dev, and test datasets.",
+        "reason": "The image is a table labeled 'Table 1: Number of sentences for each language pair,' which matches the description provided in the text. The table contains data on the number of sentences for different language pairs in the train, dev, and test datasets, which aligns with the content of Table 1 in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Table 2: Effect of pre-training on BLEU score over six languages",
+        "entity_type": "EVENT",
+        "description": "BLEU score is an evaluation metric used to assess the quality of machine translation, referenced in the context of pre-trained word embeddings' efficacy.",
+        "reason": "The image is a table labeled 'Table 2: Effect of pre-training on BLEU score over six languages.' The table presents BLEU scores for different language pairs under various conditions (std and pre). The BLEU score is the central metric being analyzed in the table, making it the most appropriate entity to match with the image.",
+        "matched_chunk_entity_name": "no matcg"
+    },
+    "image_3": {
+        "entity_name": "Figure 1: BLEU and BLEU gain by data size.",
+        "entity_type": "EVENT",
+        "description": "BLEU score is an evaluation metric used to assess the quality of machine translation, referenced in the context of pre-trained word embeddings' efficacy.",
+        "reason": "The image depicts graphs that illustrate the BLEU scores for different language pairs as a function of training set size. The BLEU score is a key metric used in the text to evaluate the performance of the NMT systems with and without pre-trained word embeddings.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Table 3: Effect of linguistic similarity and pre-training on BLEU",
+        "entity_type": "EVENT",
+        "description": "The table presents the effect of linguistic similarity and pre-training on BLEU scores across different language pairs, with columns for Dataset, Lang. Family, std, and pre.",
+        "reason": "The image is a table labeled 'Table 3: Effect of linguistic similarity and pre-training on BLEU', which aligns with the description provided in the text. The table contains data on various language pairs and their BLEU scores before and after pre-training, reflecting the impact of linguistic similarity and pre-training on translation quality.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 4",
+        "entity_type": "EVENT",
+        "description": "Table 4 presents data on the correlation between word embedding alignment and BLEU score in bilingual translation tasks.",
+        "reason": "The image is a table labeled 'Table 4: Correlation between word embedding alignment and BLEU score in bilingual translation task.' The content of the table matches the description provided in the text, which discusses the correlation between word embedding alignment and BLEU scores for different language pairs.",
+        "matched_chunk_entity_name": "TABLE 4"
+    },
+    "image_6": {
+        "entity_name": "Table 5: Effect of pre-training on multilingual translation into English.",
+        "entity_type": "EVENT",
+        "description": "The table shows the effect of pre-training on multilingual translation into English, with different language systems.",
+        "reason": "The image is a table labeled 'Table 5: Effect of pre-training on multilingual translation into English.' which directly corresponds to the entity in the text. The table presents data on the impact of pre-training on BLEU scores for various language pairs translating into English.",
+        "matched_chunk_entity_name": "TABLE 5"
+    },
+    "image_7": {
+        "entity_name": "Table 6",
+        "entity_type": "EVENT",
+        "description": "Table 6 provides example translations from GL to EN, highlighting the impact of pre-training on capturing rarer vocabulary and grammatical structure.",
+        "reason": "The image is a table comparing different translations of a sentence from Portuguese to English, which aligns with the description of Table 6 in the text. The table in the image shows various translations, including one that captures the name 'chris' and phrases like 'big lawyer' and 'patent legislation', which are mentioned in the description of Table 6.",
+        "matched_chunk_entity_name": "Table 6"
+    },
+    "image_8": {
+        "entity_name": "Table 7",
+        "entity_type": "EVENT",
+        "description": "The table provides detailed scores for various phrases and words, indicating how often each system generates these n-grams. Notable entries include 'laughter', 'people', 'several', 'you’re going', and 'testosterone', among others, with specific scores that highlight the performance differences between the systems.",
+        "reason": "The image is a table labeled 'Table 6: Example translations of GL→EN'. The table is divided into two main sections: (a) Pairwise comparison between two bilingual models and (b) Pairwise comparison between two multilingual models. Each section contains rows with different phrases or words and their corresponding translation statistics.",
+        "matched_chunk_entity_name": "TABLE 7"
+    },
+    "image_9": {
+        "entity_name": "Figure 2: The f-measure of target words in bilingual translation task PT → EN",
+        "entity_type": "CONCEPT",
+        "description": "The F-measure of target words is a measure of a test's accuracy, specifically in the context of machine learning and information retrieval. In this case, it is used to evaluate the performance of pre-trained embeddings in improving the accuracy of translation for the entire vocabulary, particularly for words that are of low frequency in the training corpus.",
+        "reason": "The image is a bar chart titled 'F-measure of Target Words', which directly corresponds to the concept mentioned in the text. The chart shows the F-measure values for different frequency categories in the training corpus, demonstrating the impact of pre-training on the accuracy of translation.",
+        "matched_chunk_entity_name": "Figure 2"
+    }
+}

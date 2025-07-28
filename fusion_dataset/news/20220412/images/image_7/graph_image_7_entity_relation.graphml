@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light- Hairstyle: Short, dark hair- Facial Expression: Mouth open, possibly shouting or cheering- Age: Appears to be an adult male- Clothing: Wearing a blue sleeveless shirt with red trim on the sleeves and collar, and yellow pants- Accessories: Yellow cap worn backwards- Posture: Leaning forward with one arm bent at the elbow and hand near the face, the other arm is not visible in the imageOverall, the character appears to be engaged in a dynamic action, possibly related to sports or physical activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a man in motion, likely running or jogging, on a city street at night. He is wearing a yellow cap and a blue t-shirt with red sleeves. His posture suggests he is in mid-stride, with one arm bent and the other extended, indicating movement. The background shows an urban setting with blurred lights from vehicles and buildings, suggesting a busy street scene. The lights are predominantly red and white, indicating traffic signals and car headlights. The overall atmosphere conveys a sense of energy and movement, with the man appearing to be in a state of exertion or excitement. The blurred background emphasizes the speed and dynamism of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man wearing a yellow cap and a blue shirt, with his right arm raised in a gesture of excitement or celebration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+</node>
+<node id="&quot;STREET&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An urban street scene at night with blurred lights from vehicles and buildings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;STREET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Street是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

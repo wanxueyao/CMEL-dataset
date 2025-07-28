@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Linked WikiText-2 Corpus Statistics' that provides statistical information about the Linked WikiText-2 dataset. The table is structured with three main columns: Train, Dev, and Test. Each column represents a partition of the dataset and contains the following rows: 'Documents' (Train: 600, Dev: 60, Test: 60), 'Tokens' (Train: 2,019,195, Dev: 207,982, Test: 236,062), 'Vocab. Size' (Train: 33,558, Dev and Test: not provided), 'Mention Tokens' (Train: 207,803, Dev: 21,226, Test: 24,441), 'Mention Spans' (Train: 122,983, Dev: 12,214, Test: 15,007), 'Unique Entities' (Train: 41,058, Dev: 5,415, Test: 5,625), and 'Unique Relations' (Train: 1,291, Dev: 484, Test: 504). The table highlights the dataset's significant size and the detailed annotations across its splits. The caption indicates the table summarizes corpus statistics, while the context discusses the importance of entity tokens, relations, and knowledge graph annotations in training language models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+</node>
+<node id="&quot;TRAIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The training dataset consists of 600 documents with 2,019,195 tokens and a vocabulary size of 33,558. It includes 207,803 mention tokens and 122,983 mention spans, with 41,058 unique entities and 1,291 unique relations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+</node>
+<node id="&quot;DEV&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The development dataset consists of 60 documents with 207,982 tokens. It includes 21,226 mention tokens and 12,214 mention spans, with 5,415 unique entities and 484 unique relations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+</node>
+<node id="&quot;TEST&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The test dataset consists of 60 documents with 236,062 tokens. It includes 24,441 mention tokens and 15,007 mention spans, with 5,625 unique entities and 504 unique relations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DEV&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dev是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TEST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Test是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;DEV&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both the train and dev datasets are part of the same study and are used for different phases of model evaluation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;TEST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both the train and test datasets are part of the same study and are used for different phases of model evaluation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DEV&quot;" target="&quot;TEST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both the dev and test datasets are part of the same study and are used for different phases of model evaluation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

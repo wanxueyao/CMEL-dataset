@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the effect of hyperparameters in Tversky Index on two different datasets: Chinese Onto4.0 and English QuoRef. The table has three columns: the first column lists values of the hyperparameter α ranging from 0.1 to 0.9, the second column shows the corresponding F1 scores for the Chinese Onto4.0 dataset, and the third column shows the F1 scores for the English QuoRef dataset. For the Chinese Onto4.0 dataset, the F1 scores are as follows: 80.13 for α = 0.1, 81.17 for α = 0.2, 84.22 for α = 0.3, 84.52 for α = 0.4, 84.47 for α = 0.5, 84.67 for α = 0.6 (highlighted in bold), 81.81 for α = 0.7, 80.97 for α = 0.8, and 80.21 for α = 0.9. For the English QuoRef dataset, the F1 scores are: 63.23 for α = 0.1, 63.45 for α = 0.2, 65.88 for α = 0.3, 68.44 for α = 0.4 (highlighted in bold), 67.52 for α = 0.5, 66.35 for α = 0.6, 65.09 for α = 0.7, 64.13 for α = 0.8, and 64.84 for α = 0.9. The highest F1 score for the Chinese Onto4.0 dataset is 84.67 at α = 0.6, and for the English QuoRef dataset, it is 68.44 at α = 0.4."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying performance metrics for two datasets, Chinese Onto4.0 and English QuoRef, across different values of alpha (α)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+</node>
+<node id="&quot;CHINESE ONTO4.0&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"A dataset used for evaluating the performance of a model, with scores ranging from 80.13 to 84.67."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+</node>
+<node id="&quot;ENGLISH QUOREF&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"Another dataset used for evaluating the performance of a model, with scores ranging from 63.23 to 68.44."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+</node>
+<node id="&quot;ALPHA (Α)&quot;">
+  <data key="d0">"PARAMETER"</data>
+  <data key="d1">"A parameter that varies from 0.1 to 0.9, affecting the performance scores on both datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;CHINESE ONTO4.0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chinese Onto4.0是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;ENGLISH QUOREF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"English QuoRef是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;ALPHA (Α)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alpha (α)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;CHINESE ONTO4.0&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains performance scores for the Chinese Onto4.0 dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ENGLISH QUOREF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains performance scores for the English QuoRef dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;ALPHA (Α)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table shows how different values of alpha (α) affect the performance scores on both datasets."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHINESE ONTO4.0&quot;" target="&quot;ALPHA (Α)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance scores for the Chinese Onto4.0 dataset vary depending on the value of alpha (α)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGLISH QUOREF&quot;" target="&quot;ALPHA (Α)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance scores for the English QuoRef dataset vary depending on the value of alpha (α)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

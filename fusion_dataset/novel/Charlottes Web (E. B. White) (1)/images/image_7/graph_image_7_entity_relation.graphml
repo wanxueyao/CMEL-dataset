@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, unkempt hair- Expression: Focused, serious- Age: Appears to be an adult- Clothing: Wearing a long-sleeved shirt and pants, both appear to be in a rough, worn condition- Posture: Bent over, pushing a baby carriage with both handsAdditional Features:- The baby carriage is old-fashioned, with large wheels and a canopy.- There is a baby inside the carriage, appearing to be sleeping or resting.- The scene suggests a moment of care and responsibility, with the man attentively pushing the carriage."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a woman pushing a baby carriage. The woman appears to be in motion, as indicated by her posture and the position of her legs. She is bending forward slightly, suggesting she is actively pushing the carriage. Her hair is tied back in a messy bun, and she is wearing a loose-fitting shirt and pants. The baby carriage is old-fashioned, with large wheels and a canopy. Inside the carriage, there are two infants lying down. The background is minimalistic, with only a few lines indicating grass or ground, which gives the impression that they are outdoors. The overall atmosphere conveyed by the image is one of care and routine, capturing a moment of daily life."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with her hair tied up, wearing a loose shirt and pants, bending over to tend to a baby in a stroller."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+</node>
+<node id="&quot;BABY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A baby lying in a stroller, appearing to be asleep or resting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+</node>
+<node id="&quot;STROLLER&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An old-fashioned stroller with a canopy, containing a baby."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BABY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Baby是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;STROLLER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stroller是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BABY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is attending to the baby who is in the stroller."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;STROLLER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is interacting with the stroller that contains the baby."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BABY&quot;" target="&quot;STROLLER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The baby is lying in the stroller."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

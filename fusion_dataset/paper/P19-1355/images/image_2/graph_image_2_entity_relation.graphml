@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides the estimated CO2 emissions from training common NLP models. The table has two main rows: 'NLP pipeline (parsing, SRL)' and 'Transformer (big)'. Each row has two sub-rows indicating different conditions or configurations. For the 'NLP pipeline (parsing, SRL)', the first sub-row shows a value of 39, and the second sub-row, which includes tuning and experiments, shows a significantly higher value of 78,468. For the 'Transformer (big)', the first sub-row shows a value of 192, and the second sub-row, which includes neural architecture search, shows an even higher value of 626,155. The values likely represent the CO2 emissions in some unit, possibly kilograms or metric tons, associated with the training process under these conditions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+</node>
+<node id="&quot;NLP PIPELINE (PARSING, SRL)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A computational framework used for natural language processing tasks including parsing and semantic role labeling. It is noted to have a complexity score of 39."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+</node>
+<node id="&quot;W/ TUNING &amp; EXPERIMENTS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of adjusting parameters and conducting various experiments on the NLP pipeline to optimize its performance. This event has a complexity score of 78,468."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+</node>
+<node id="&quot;TRANSFORMER (BIG)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A large-scale implementation of the Transformer model, which is a type of neural network architecture used in machine learning for natural language processing tasks. It has a complexity score of 192."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+</node>
+<node id="&quot;W/ NEURAL ARCH. SEARCH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of searching for an optimal neural architecture for the Transformer model to enhance its efficiency and effectiveness. This event has a complexity score of 626,155."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NLP PIPELINE (PARSING, SRL)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NLP pipeline (parsing, SRL)是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;W/ TUNING &amp; EXPERIMENTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"w/ tuning &amp; experiments是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TRANSFORMER (BIG)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Transformer (big)是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;W/ NEURAL ARCH. SEARCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"w/ neural arch. search是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NLP PIPELINE (PARSING, SRL)&quot;" target="&quot;W/ TUNING &amp; EXPERIMENTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The tuning and experiments are conducted on the NLP pipeline to improve its performance and accuracy."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRANSFORMER (BIG)&quot;" target="&quot;W/ NEURAL ARCH. SEARCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The neural architecture search is performed on the large Transformer model to find the best configuration that enhances its capabilities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1355/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

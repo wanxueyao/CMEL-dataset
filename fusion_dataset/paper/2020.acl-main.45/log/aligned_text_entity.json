@@ -1,0 +1,745 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "CONLL03 NER",
+            "entity_type": "EVENT",
+            "description": "CoNLL03 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task, with 170K negative and 34K positive samples, resulting in a ratio of 4.98.",
+            "source_image_entities": [
+                "CONLL03 NER"
+            ],
+            "source_text_entities": [
+                "CONLL03"
+            ]
+        },
+        {
+            "merged_entity_name": "ONTONOTES5.0 NER",
+            "entity_type": "EVENT",
+            "description": "OntoNotes5.0 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task, with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18.",
+            "source_image_entities": [
+                "ONTONOTES5.0 NER"
+            ],
+            "source_text_entities": [
+                "ONTONOTES5.0"
+            ]
+        },
+        {
+            "merged_entity_name": "SQUAD 1.1",
+            "entity_type": "EVENT",
+            "description": "SQUAD 1.1 is a question-answering task with 10.3M negative and 175K positive samples, resulting in a ratio of 55.9.",
+            "source_image_entities": [
+                "SQUAD 1.1"
+            ],
+            "source_text_entities": [
+                "SQUAD 1.1"
+            ]
+        },
+        {
+            "merged_entity_name": "SQUAD 2.0",
+            "entity_type": "EVENT",
+            "description": "SQUAD 2.0 is an updated version of the SQuAD 1.1 task with 15.4M negative and 188K positive samples, resulting in a ratio of 82.0.",
+            "source_image_entities": [
+                "SQUAD 2.0"
+            ],
+            "source_text_entities": [
+                "SQUAD 2.0"
+            ]
+        },
+        {
+            "merged_entity_name": "QUOREF",
+            "entity_type": "EVENT",
+            "description": "QUOREF is a coreference resolution task with 6.52M negative and 38.6K positive samples, resulting in a ratio of 169.",
+            "source_image_entities": [
+                "QUOREF"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "DSC",
+            "entity_type": "UNKNOWN",
+            "description": "DSC, or Sørensen–Dice Coefficient, is an F1- oriented statistic used to gauge the similarity of two sets, particularly in the context of boolean data. It is used in machine learning for comparing the similarity of two samples and is represented by the formula DSC(x_i) = (2p_i1*y_i1 + γ) / (p_i1 + y_i1 + γ). DSC also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "DSC"
+            ],
+            "source_text_entities": [
+                "DSC",
+                "SØRENSEN–DICE COEFFICIENT"
+            ]
+        },
+        {
+            "entity_name": "Dice Loss (DL)",
+            "entity_type": "UNKNOWN",
+            "description": "Dice Loss (DL) is a loss function used in machine learning for certain types of data convergence. It was proposed by Milletari et al. to change the denominator to the square form for faster convergence, represented by the formula DL = 1/N * Σ[1 - (2p_i1*y_i1 + γ) / (p_i1^2 + y_i1^2 + γ)]. DL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "DL(Γ=1)"
+            ],
+            "source_text_entities": [
+                "DL",
+                "MILLETARI ET AL."
+            ]
+        },
+        {
+            "entity_name": "Tversky Loss (TL)",
+            "entity_type": "UNKNOWN",
+            "description": "Tversky Loss (TL) is a loss function derived from the Tversky index, used for optimizing machine learning models. It is given by the formula TL = 1/N * Σ[1 - (p_i1*y_i1 + γ) / (p_i1*y_i1 + α*p_i1*y_i0 + β*p_i0*y_i1 + γ)]. TL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "TL(Β=0.5)"
+            ],
+            "source_text_entities": [
+                "TVERSKY LOSS (TL)"
+            ]
+        },
+        {
+            "entity_name": "Focal Loss (FL)",
+            "entity_type": "UNKNOWN",
+            "description": "Focal Loss (FL) is a loss function used in object detection to handle the foreground-background class imbalance. It was proposed by Lin et al. and is represented by the formula FL = -(1-p)^γ * log(p). FL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "FL(Γ=1)"
+            ],
+            "source_text_entities": [
+                "FOCAL LOSS (FL)",
+                "LIN ET AL."
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "JOINT-POS(SIG)",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Shao et al. in 2017 for part-of-speech tagging.",
+            "source_image_entities": [
+                "JOINT-POS(SIG)"
+            ],
+            "source_text_entities": [
+                "SHAO ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "JOINT-POS(ENS)",
+            "entity_type": "MODEL",
+            "description": "An ensemble model proposed by Shao et al. in 2017 for part-of-speech tagging.",
+            "source_image_entities": [
+                "JOINT-POS(ENS)"
+            ],
+            "source_text_entities": [
+                "SHAO ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "LATTICE-LSTM",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Zhang and Yang in 2018 that incorporates subword information into LSTM for part-of-speech tagging.",
+            "source_image_entities": [
+                "LATTICE-LSTM"
+            ],
+            "source_text_entities": [
+                "ZHANG AND YANG, 2018"
+            ]
+        },
+        {
+            "entity_name": "BERT-TAGGER",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Devlin et al. in 2018 that uses BERT for part-of-speech tagging.",
+            "source_image_entities": [
+                "BERT-TAGGER"
+            ],
+            "source_text_entities": [
+                "DEVLIN ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "CTB5",
+            "entity_type": "DATASET",
+            "description": "The fifth version of the Penn Chinese Treebank dataset, used for evaluating machine learning models on Chinese POS tagging.",
+            "source_image_entities": [
+                "CTB5"
+            ],
+            "source_text_entities": [
+                "CTB5"
+            ]
+        },
+        {
+            "entity_name": "CTB6",
+            "entity_type": "DATASET",
+            "description": "The sixth version of the Penn Chinese Treebank dataset, used for evaluating machine learning models on Chinese POS tagging.",
+            "source_image_entities": [
+                "CTB6"
+            ],
+            "source_text_entities": [
+                "CTB6"
+            ]
+        },
+        {
+            "entity_name": "UD1.4",
+            "entity_type": "DATASET",
+            "description": "The 1.4 version of the Universal Dependencies dataset, used for evaluating machine learning models on English POS tagging.",
+            "source_image_entities": [
+                "UD1.4"
+            ],
+            "source_text_entities": [
+                "UD1.4"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "DSC",
+            "entity_type": "EVENT",
+            "description": "Sørensen–Dice Coefficient, or DSC, is an F1- oriented statistic used to gauge the similarity of two sets, particularly in the context of boolean data. It is also referred to as the Dice Similarity Coefficient and is used in machine learning for comparing the similarity of two samples. DSC is computed using a formula that includes a smoothing parameter $\\gamma$ to prevent division by zero and is modified by researchers like Milletari et al. for faster convergence by changing the denominator to the square form.",
+            "source_image_entities": [
+                "META BILSTM",
+                "BERT-TAGGER",
+                "BERT-TAGGER+FL",
+                "BERT-TAGGER+DL",
+                "BERT-TAGGER+DSC"
+            ],
+            "source_text_entities": [
+                "SØRENSEN–DICE COEFFICIENT",
+                "DSC",
+                "MILLETARI ET AL."
+            ]
+        },
+        {
+            "merged_entity_name": "BERT-TAGGER",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT-TAGGER is a model developed by Devlin et al. in 2018 for sequence tagging tasks. It is used as the backbone for experiments in part-of-speech tagging and named entity recognition tasks. An enhanced version of BERT-Tagger with a focal loss component is also mentioned, which aligns with the concept of focal loss proposed by Lin et al. for one-stage object detection in computer vision.",
+            "source_image_entities": [
+                "BERT-TAGGER"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2018",
+                "FOCAL LOSS (FL)",
+                "LIN ET AL."
+            ]
+        },
+        {
+            "merged_entity_name": "ENGLISH WSJ",
+            "entity_type": "EVENT",
+            "description": "The Wall Street Journal dataset, referred to as WSJ, is used for evaluating the performance of different models in terms of precision, recall, and F1 score. It is provided by the Wall Street Journal organization and is used in part-of-speech tagging experiments.",
+            "source_image_entities": [
+                "ENGLISH WSJ"
+            ],
+            "source_text_entities": [
+                "WALL STREET JOURNAL",
+                "WSJ"
+            ]
+        },
+        {
+            "merged_entity_name": "ENGLISH TWEETS",
+            "entity_type": "EVENT",
+            "description": "ENGLISH TWEETS is a dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score on tweets.",
+            "source_image_entities": [
+                "ENGLISH TWEETS"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "FASTTEXT+CNN+CRF",
+            "entity_type": "ORGANIZATION",
+            "description": "FASTTEXT+CNN+CRF is a model developed by Godin in 2019 for sequence tagging tasks.",
+            "source_image_entities": [
+                "FASTTEXT+CNN+CRF"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "ELMO",
+            "entity_type": "ORGANIZATION",
+            "description": "A tagging model with pretraining developed by Peters et al. in 2018, achieving an F1 score of 92.22 on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "ELMO"
+            ],
+            "source_text_entities": [
+                "ELMo"
+            ]
+        },
+        {
+            "entity_name": "CVT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Clark et al. in 2018, using Cross-View Training (CVT) to improve the representations of a Bi-LSTM encoder, achieving an F1 score of 92.6 on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "CVT"
+            ],
+            "source_text_entities": [
+                "CVT"
+            ]
+        },
+        {
+            "entity_name": "BERT-TAGGER",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Devlin et al. in 2018, treating part-of-speech as a tagging task, achieving an F1 score of 92.8 on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "BERT-TAGGER"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Li et al. in 2019, formulating NER as a machine reading comprehension task, achieving a Precision of 92.33, Recall of 94.61, and an F1 score of 93.04 on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "BERT-MRC"
+            ],
+            "source_text_entities": [
+                "BERT-MRC"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with Focal Loss (FL), achieving a Precision of 93.13, Recall of 93.09, and an F1 score of 93.11 (+0.06) on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+FL"
+            ],
+            "source_text_entities": [
+                "FOCAL LOSS (FL)"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with Dice Loss (DL), achieving a Precision of 93.22, Recall of 93.12, and an F1 score of 93.17 (+0.12) on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+DL"
+            ],
+            "source_text_entities": [
+                "DL"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with Dynamic Sigmoid Cross-Entropy loss function (DSC), achieving a Precision of 93.41, Recall of 93.25, and an F1 score of 93.33 (+0.29) on the English CoNLL 2003 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "BERT-Tagger",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Devlin et al. in 2018, treating part-of-speech as a tagging task, and achieving a precision of 90.01, recall of 88.35, and an F1 score of 89.16 on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "BERT-TAGGER (DEVLIN ET AL., 2018)"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Li et al. in 2019, formulating NER as a machine reading comprehension task, and achieving a precision of 92.98, recall of 89.95, and an F1 score of 91.11 on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "BERT-MRC (LI ET AL., 2019)"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "LI ET AL., 2019",
+                "MRC"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with focal loss, achieving a precision of 90.13, recall of 92.34, and an F1 score of 91.22 (+0.11) on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+FL"
+            ],
+            "source_text_entities": [
+                "FOCAL LOSS (FL)"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with dynamic loss, achieving a precision of 91.70, recall of 92.06, and an F1 score of 91.88 (+0.77) on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+DL"
+            ],
+            "source_text_entities": [
+                "DL"
+            ]
+        },
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with dynamic sample consensus, achieving a precision of 91.59, recall of 92.56, and an F1 score of 92.07 (+0.96) on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "BERT-MRC+DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        },
+        {
+            "entity_name": "CVT (CLARK ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Clark et al. in 2018, using Cross-View Training(CVT) to improve the representations of a Bi-LSTM encoder, and achieving an F1 score of 88.8 on the English OntoNotes 5.0 dataset.",
+            "source_image_entities": [
+                "CVT (CLARK ET AL., 2018)"
+            ],
+            "source_text_entities": [
+                "CLARK ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "English OntoNotes 5.0",
+            "entity_type": "EVENT",
+            "description": "A benchmark dataset used for evaluating the performance of different models in natural language processing tasks, including part-of-speech tagging and named entity recognition.",
+            "source_image_entities": [
+                "ENGLISH ONTONOTES 5.0"
+            ],
+            "source_text_entities": [
+                "ONTONOTES5.0"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "MODEL",
+            "description": "A state-of-the-art model proposed by Li et al. (2019) that formulates NER as a machine reading comprehension task, achieving the highest F1 score on both Chinese MSRA and Chinese OntoNotes 4.0 datasets by changing the MLE loss to DSC loss.",
+            "source_image_entities": [
+                "BERT-MRC+DSC"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "DSC",
+                "MLE"
+            ]
+        },
+        {
+            "entity_name": "CHINESE MSRA",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating named entity recognition models, part of the experiments where DSC loss achieved SOTA performances.",
+            "source_image_entities": [
+                "CHINESE MSRA"
+            ],
+            "source_text_entities": [
+                "MSRA"
+            ]
+        },
+        {
+            "entity_name": "CHINESE ONTONOTES 4.0",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating named entity recognition models, part of the experiments where DSC loss achieved SOTA performances.",
+            "source_image_entities": [
+                "CHINESE ONTONOTES 4.0"
+            ],
+            "source_text_entities": [
+                "ONTONOTES4.0"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "MODEL",
+            "description": "A model developed by Devlin et al. in 2018 for a variety of NLP tasks, including question answering. It scores each candidate span and the maximum scoring span is used as a prediction.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "XLNET",
+            "entity_type": "MODEL",
+            "description": "A model developed by Yang et al. in 2019 for language modeling and other NLP tasks. It proposes a generalized autoregressive pretraining method that enables learning bidirectional contexts.",
+            "source_image_entities": [
+                "XLNET"
+            ],
+            "source_text_entities": [
+                "XLNET"
+            ]
+        },
+        {
+            "entity_name": "SQUAD V1.1",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of models on question answering tasks, developed by Rajpurkar et al. in 2016.",
+            "source_image_entities": [
+                "SQUAD V1.1"
+            ],
+            "source_text_entities": [
+                "SQUAD V1.1"
+            ]
+        },
+        {
+            "entity_name": "SQUAD V2.0",
+            "entity_type": "DATASET",
+            "description": "An updated version of SQuAD v1.1 with more challenging questions, developed by Rajpurkar et al. in 2018.",
+            "source_image_entities": [
+                "SQUAD V2.0"
+            ],
+            "source_text_entities": [
+                "SQUAD V2.0"
+            ]
+        },
+        {
+            "entity_name": "QUOREF",
+            "entity_type": "DATASET",
+            "description": "A dataset focusing on coreference resolution in question answering tasks, developed by Dasigi et al. in 2019.",
+            "source_image_entities": [
+                "QUOREF"
+            ],
+            "source_text_entities": [
+                "QUOREF"
+            ]
+        },
+        {
+            "entity_name": "DSC",
+            "entity_type": "CONCEPT",
+            "description": "Dynamic Sigmoid Cross-Entropy loss function used in the experiments, proposed as an improvement over MLE and compared with other loss functions like Focal Loss and Dice Loss.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "DSC",
+                "DSC",
+                "DSC"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "BERT (DEVLIN ET AL., 2018)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model developed by Devlin et al. in 2018 that achieves an F1 score of 88.0 on MRPC and 91.3 on QQP, used as the backbone for experiments in part-of-speech tagging and named entity recognition tasks.",
+            "source_image_entities": [
+                "BERT (DEVLIN ET AL., 2018)"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "XLNET (YANG ET AL., 2019)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model proposed by Yang et al. in 2019 that achieves an F1 score of 89.2 on MRPC and 91.8 on QQP, using a generalized autoregressive pretraining method that enables learning bidirectional contexts.",
+            "source_image_entities": [
+                "XLNET (YANG ET AL., 2019)"
+            ],
+            "source_text_entities": [
+                "XLNET",
+                "YANG ET AL., 2019"
+            ]
+        },
+        {
+            "entity_name": "DSC",
+            "entity_type": "CONCEPT",
+            "description": "DSC refers to the Dynamic Sigmoid Cross-Entropy loss function, used in the experiments and shown to improve performance in question answering and paraphrase identification tasks.",
+            "source_image_entities": [
+                "BERT+DSC",
+                "XLNET+DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a deep learning model used for natural language processing tasks, specifically mentioned as the backbone for experiments in part-of-speech tagging and named entity recognition tasks, and also used for scoring candidate spans in question answering tasks.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BERT+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model augmented with a focal loss function, as indicated in the table, and used for comparison with other loss functions in the experiments.",
+            "source_image_entities": [
+                "BERT+FL"
+            ],
+            "source_text_entities": [
+                "FOCAL LOSS"
+            ]
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model enhanced with a dynamic loss function, as presented in the table, and used in the context of experiments to improve performance.",
+            "source_image_entities": [
+                "BERT+DL"
+            ],
+            "source_text_entities": [
+                "DYNAMIC LOSS FUNCTION"
+            ]
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model improved with a dynamic sample weighting scheme, as detailed in the table, and referred to as the proposed loss function that has been shown to improve performance in question answering and paraphrase identification tasks.",
+            "source_image_entities": [
+                "BERT+DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        },
+        {
+            "entity_name": "ORIGINAL",
+            "entity_type": "EVENT",
+            "description": "The baseline performance of the BERT model without any additional modifications, which is compared with other models and techniques in the experiments.",
+            "source_image_entities": [
+                "ORIGINAL"
+            ],
+            "source_text_entities": [
+                "ORIGINAL"
+            ]
+        },
+        {
+            "entity_name": "+ POSITIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding positive examples to the training set, a technique used to create a balanced dataset and evaluated in the context of dataset imbalance.",
+            "source_image_entities": [
+                "+ POSITIVE"
+            ],
+            "source_text_entities": [
+                "POSITIVE AUGMENTATION"
+            ]
+        },
+        {
+            "entity_name": "+ NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding negative examples to the training set, contributing to the creation of a more imbalanced dataset.",
+            "source_image_entities": [
+                "+ NEGATIVE"
+            ],
+            "source_text_entities": [
+                "NEGATIVE AUGMENTATION"
+            ]
+        },
+        {
+            "entity_name": "- NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after removing negative examples from the training set, a technique used to balance the training set by reducing the number of negative examples.",
+            "source_image_entities": [
+                "- NEGATIVE"
+            ],
+            "source_text_entities": [
+                "NEGATIVE DOWNSAMPLING"
+            ]
+        },
+        {
+            "entity_name": "+ POSITIVE & NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding both positive and negative examples to the training set, a technique used to augment the original training data while maintaining the same data distribution.",
+            "source_image_entities": [
+                "+ POSITIVE & NEGATIVE"
+            ],
+            "source_text_entities": [
+                "POSITIVE AND NEGATIVE AUGMENTATION"
+            ]
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "BERT+CE",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Cross-Entropy loss, achieving 94.90% accuracy on SST-2 and 55.57% on SST-5.",
+            "source_image_entities": [
+                "BERT+CE"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Dice Loss, achieving 94.37% accuracy on SST-2 and 54.63% on SST-5.",
+            "source_image_entities": [
+                "BERT+DL"
+            ],
+            "source_text_entities": [
+                "DICE LOSS"
+            ]
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Dynamic Sample Consistency, achieving 94.84% accuracy on SST-2 and 55.19% on SST-5.",
+            "source_image_entities": [
+                "BERT+DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on sentiment analysis, and is a subset of the Stanford Sentiment Treebank.",
+            "source_image_entities": [
+                "SST-2"
+            ],
+            "source_text_entities": [
+                "SST-2"
+            ]
+        },
+        {
+            "entity_name": "SST-5",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on fine-grained sentiment analysis, and is a subset of the Stanford Sentiment Treebank.",
+            "source_image_entities": [
+                "SST-5"
+            ],
+            "source_text_entities": [
+                "SST-5"
+            ]
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "CHINESE ONTO4.0",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of a model, with scores ranging from 80.13 to 84.67. The highest F1 on Chinese OntoNotes4.0 is 84.67 when α is set to 0.6.",
+            "source_image_entities": [
+                "CHINESE ONTO4.0"
+            ],
+            "source_text_entities": [
+                "CHINESE ONTONOTES4.0 NER"
+            ]
+        },
+        {
+            "entity_name": "ENGLISH QUOREF",
+            "entity_type": "DATASET",
+            "description": "Another dataset used for evaluating the performance of a model, with scores ranging from 63.23 to 68.44. For QuoRef, the highest F1 is 68.44 when α is set to 0.4.",
+            "source_image_entities": [
+                "ENGLISH QUOREF"
+            ],
+            "source_text_entities": [
+                "QUOREF MRC"
+            ]
+        },
+        {
+            "entity_name": "ALPHA (Α)",
+            "entity_type": "PARAMETER",
+            "description": "A parameter that varies from 0.1 to 0.9, affecting the performance scores on both datasets. α is a hyperparameter in the Tversky Index that plays a significant role in controlling the tradeoff between false-negatives and false-positives.",
+            "source_image_entities": [
+                "ALPHA (Α)"
+            ],
+            "source_text_entities": [
+                "$\\ALPHA$"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white line drawing depicting a young girl feeding a baby pig from a bottle. The girl is seated cross-legged on the floor, wearing a long-sleeved shirt and pants with socks. Her hair is shoulder-length and appears to be tied back. She holds the baby pig securely in her lap with one hand while feeding it with the other. The baby pig is small and round, with its head tilted up to drink from the bottle. The girl's expression is gentle and attentive, conveying a sense of care and nurturing. The overall atmosphere of the image is warm and serene, highlighting the bond between the girl and the baby pig."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and socks, sitting on the floor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;BABY DOLL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A baby doll being held by the girl, being fed from a bottle."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+</node>
+<node id="&quot;BOTTLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A bottle of milk being used to feed the baby doll."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BABY DOLL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Baby Doll是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BOTTLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bottle是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;BABY DOLL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The girl is holding the baby doll in her lap."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;BOTTLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is using the bottle to feed the baby doll."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BABY DOLL&quot;" target="&quot;BOTTLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The baby doll is being fed from the bottle."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

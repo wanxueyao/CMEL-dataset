@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene of destruction and devastation following an overnight missile strike in Kyiv. The focal point is a partially collapsed apartment building with exposed structural elements and debris scattered around. A person, possibly a woman, is visible through a doorway or window opening, peering out amidst the ruins. The walls and ceiling are heavily damaged, with chunks of concrete and twisted metal reinforcing bars protruding from the wreckage. The overall atmosphere is one of shock and desolation, highlighting the human impact of the conflict. The lighting suggests daylight, casting shadows that accentuate the severity of the damage. The scene conveys a sense of urgency and tragedy, capturing the aftermath of a violent event in an urban setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+</node>
+<node id="&quot;DAMAGED BUILDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A building that has suffered significant structural damage, with exposed rebar and broken walls."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual standing within the damaged building, looking out from a doorway."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DAMAGED BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Damaged Building是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED BUILDING&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The person is inside the damaged building, possibly assessing the damage or searching for something."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220430/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

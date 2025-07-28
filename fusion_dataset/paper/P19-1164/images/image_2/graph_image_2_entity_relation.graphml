@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: The coreference test sets and resulting WinoMT corpus statistics (in number of instances)'. The table is structured with four main columns: Winogender, WinoBias, and WinoMT. Each column represents different datasets and contains the following rows: 'Male', 'Female', and 'Neutral'. The values in the table are as follows: For Winogender, 'Male' has 240 instances, 'Female' has 240 instances, and 'Neutral' has 240 instances, totaling 720 instances. For WinoBias, 'Male' has 1582 instances, 'Female' has 1586 instances, and 'Neutral' has 0 instances, totaling 3168 instances. For WinoMT, 'Male' has 1826 instances, 'Female' has 1822 instances, and 'Neutral' has 240 instances, totaling 3888 instances. The table highlights the distribution of gender instances across different datasets, showing significant numbers for both male and female instances in WinoBias and WinoMT, while maintaining equal distribution in Winogender."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+</node>
+<node id="&quot;WINOGENDER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset containing 720 examples, equally divided among male, female, and neutral genders."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+</node>
+<node id="&quot;WINOBIAS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset containing 3168 examples, with a focus on bias analysis, including 1582 male and 1586 female examples."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+</node>
+<node id="&quot;WINOMT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset containing 3888 examples, with a focus on machine translation, including 1826 male and 1822 female examples, as well as 240 neutral examples."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WINOGENDER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Winogender是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WINOBIAS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"WinoBias是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WINOMT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"WinoMT是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

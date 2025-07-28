@@ -1,0 +1,386 @@
+{
+    "image_1": [
+        {
+            "entity_name": "RAMI MALEK WINS THE 2019 OSCAR FOR BOHEMIAN RHAPSODY",
+            "entity_type": "EVENT",
+            "description": "An event where Rami Malek won an Oscar in 2019 for his role in 'Bohemian Rhapsody', marking the movie's impact as a short-term interest example and Rami Malek's significance as an actor in the film.",
+            "source_image_entities": [
+                "RAMI MALEK WINS THE 2019 OSCAR"
+            ],
+            "source_text_entities": [
+                "RAMI MALEK WINS THE 2019 OSCAR"
+            ]
+        },
+        {
+            "entity_name": "BOHEMIAN RHAPSODY AS THE HIGHEST-GROSSING MUSICIAN BIOPIC EVER",
+            "entity_type": "EVENT",
+            "description": "An event marking 'Bohemian Rhapsody' becoming the highest-grossing musician biopic ever, emphasizing its role in triggering related news browsing as a short-term interest example.",
+            "source_image_entities": [
+                "BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER"
+            ],
+            "source_text_entities": [
+                "BOHEMIAN RHAPSODY"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "WORD EMBEDDING",
+            "entity_type": "CONCEPT",
+            "description": "Word embedding is a technique used to convert word sequences into dense semantic vectors, which is utilized in the Title Encoder to learn news representations from news titles.",
+            "source_image_entities": [
+                "WORD EMBEDDING"
+            ],
+            "source_text_entities": [
+                "WORD EMBEDDING"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "GRU",
+            "entity_type": "TECHNOLOGY",
+            "description": "GRU (Gated Recurrent Units) is a type of recurrent neural network used in both LSTUR-ini and LSTUR-con architectures to process sequences of data, as well as in the STUR module to learn short-term user representations based on recent browsing news.",
+            "source_image_entities": [
+                "GRU"
+            ],
+            "source_text_entities": [
+                "GRU NETWORK"
+            ]
+        },
+        {
+            "entity_name": "NEWS ENCODER",
+            "entity_type": "ORGANIZATION",
+            "description": "News Encoder is a component used in both LSTUR-ini and LSTUR-con architectures to encode news articles into a vector representation, and is also a part of the LSTUR approach, responsible for learning representations of news from titles, topics, and subtopics.",
+            "source_image_entities": [
+                "NEWS ENCODER"
+            ],
+            "source_text_entities": [
+                "NEWS ENCODER"
+            ]
+        }
+    ],
+    "image_4": [
+    ],
+    "image_5": [
+        {
+            "entity_name": "LIBFM",
+            "entity_type": "ORGANIZATION",
+            "description": "LibFM is a state-of-the-art matrix factorization method used as a baseline in the news recommendation experiments, achieving an AUC of 56.52 ± 1.31, MRR of 25.53 ± 0.81, nDCG@5 of 26.66 ± 1.04, and nDCG@10 of 34.72 ± 0.95.",
+            "source_image_entities": [
+                "LIBFM"
+            ],
+            "source_text_entities": [
+                "LIBFM"
+            ]
+        },
+        {
+            "entity_name": "DEEPFM",
+            "entity_type": "ORGANIZATION",
+            "description": "DeepFM is a method that combines factorization machines and deep neural networks, used as a baseline in the experiments, achieving an AUC of 58.13 ± 1.69, MRR of 27.01 ± 0.20, nDCG@5 of 28.37 ± 0.57, and nDCG@10 of 36.78 ± 0.62.",
+            "source_image_entities": [
+                "DEEPFM"
+            ],
+            "source_text_entities": [
+                "DEEPFM"
+            ]
+        },
+        {
+            "entity_name": "WIDE & DEEP",
+            "entity_type": "ORGANIZATION",
+            "description": "Wide & Deep is a deep learning-based recommendation method that combines wide and deep channels, used as a baseline in the experiments, achieving an AUC of 58.07 ± 0.55, MRR of 27.07 ± 0.37, nDCG@5 of 28.51 ± 0.45, and nDCG@10 of 36.93 ± 0.43.",
+            "source_image_entities": [
+                "WIDE & DEEP"
+            ],
+            "source_text_entities": [
+                "WIDE & DEEP"
+            ]
+        },
+        {
+            "entity_name": "DSSM",
+            "entity_type": "ORGANIZATION",
+            "description": "DSSM, or deep structured semantic model, is used as a baseline method in the news recommendation experiments, achieving an AUC of 58.43 ± 0.58, MRR of 27.25 ± 0.49, nDCG@5 of 28.31 ± 0.60, and nDCG@10 of 36.91 ± 0.54.",
+            "source_image_entities": [
+                "DSSM"
+            ],
+            "source_text_entities": [
+                "DSSM"
+            ]
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN refers to a method using convolutional neural networks with max pooling for learning news representations, used as a baseline, achieving an AUC of 61.13 ± 0.77, MRR of 29.44 ± 0.73, nDCG@5 of 31.44 ± 0.87, and nDCG@10 of 39.51 ± 0.74.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "DKN",
+            "entity_type": "ORGANIZATION",
+            "description": "DKN is a deep news recommendation model containing CNN and candidate-aware attention, used as a baseline in the experiments, achieving an AUC of 61.25 ± 0.78, MRR of 29.47 ± 0.64, nDCG@5 of 31.54 ± 0.79, and nDCG@10 of 39.59 ± 0.67.",
+            "source_image_entities": [
+                "DKN"
+            ],
+            "source_text_entities": [
+                "DKN"
+            ]
+        },
+        {
+            "entity_name": "GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "GRU refers to a method that learns news representations by a denoising autoencoder and user representations by a GRU network, used as a baseline, achieving an AUC of 62.69 ± 0.16, MRR of 30.24 ± 0.13, nDCG@5 of 32.56 ± 0.17, and nDCG@10 of",
+            "source_image_entities": [
+                "GRU"
+            ],
+            "source_text_entities": [
+                "GRU"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "merged_entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR-CON is a model that uses the concatenation of both short-term and long-term user representations for news recommendation, represented by a dark green bar in the graph. It is more stable than LSTUR-INI and outperforms baseline methods.",
+            "source_image_entities": [
+                "LSTUR-CON"
+            ],
+            "source_text_entities": [
+                "LSTUR-CON"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR-INI is a model that focuses on either long-term or short-term user representations for news recommendation, represented by a teal bar in the graph. It achieves comparable performance to LSTUR-CON.",
+            "source_image_entities": [
+                "LSTUR-INI"
+            ],
+            "source_text_entities": [
+                "LSTUR-INI"
+            ]
+        },
+        {
+            "merged_entity_name": "LTUR",
+            "entity_type": "ORGANIZATION",
+            "description": "LTUR is a long-term user representation model used for news recommendation, represented by a yellow bar in the graph. It is useful for news recommendation but can have weak performance when long-term representations are unavailable.",
+            "source_image_entities": [
+                "LTUR"
+            ],
+            "source_text_entities": [
+                "LTUR"
+            ]
+        },
+        {
+            "merged_entity_name": "STUR",
+            "entity_type": "ORGANIZATION",
+            "description": "STUR is a short-term user representation model used for news recommendation, represented by a green bar in the graph. It can outperform the LTUR model and is useful for learning short-term user representations from recently browsed news articles.",
+            "source_image_entities": [
+                "STUR"
+            ],
+            "source_text_entities": [
+                "STUR"
+            ]
+        },
+        {
+            "merged_entity_name": "GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "GRU is used in the STUR model to learn short-term user representations from recent browsing news, represented by a teal bar in the second graph. It achieves better performance than LSTM, probably due to fewer parameters and lower risk of overfitting.",
+            "source_image_entities": [
+                "GRU"
+            ],
+            "source_text_entities": [
+                "GRU"
+            ]
+        },
+        {
+            "merged_entity_name": "AUC",
+            "entity_type": "EVENT",
+            "description": "AUC, or Area Under the Curve, is a metric used to evaluate the performance of the models, represented by a yellow bar in the second graph. It is an impression-based ranking metric.",
+            "source_image_entities": [
+                "AUC"
+            ],
+            "source_text_entities": [
+                "AUC"
+            ]
+        },
+        {
+            "merged_entity_name": "ATTENTION",
+            "entity_type": "ORGANIZATION",
+            "description": "Attention is a method that uses the summation of news representations weighted by their attention weights, represented by a green bar in the second graph. It is used in encoders based on CNN and LSTM to select important words for learning more informative news representations.",
+            "source_image_entities": [
+                "ATTENTION"
+            ],
+            "source_text_entities": [
+                "ATTENTION"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM is a sequence-based encoder used in the STUR model for learning short-term user representations and can replace GRU, represented by a dark green bar in the second graph. It is associated with the development by Hochreiter and Schmidhuber.",
+            "source_image_entities": [
+                "LSTM"
+            ],
+            "source_text_entities": [
+                "LSTM"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM is a sequence-based encoder used in the STUR model for learning short-term user representations and can replace GRU. It is associated with the development by Hochreiter and Schmidhuber.",
+            "source_image_entities": [
+                "LSTM"
+            ],
+            "source_text_entities": [
+                "LSTM"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM+Att is a variant of the news title encoder that includes an attention mechanism, enhancing the performance of LSTM by selecting important words for learning more informative news representations.",
+            "source_image_entities": [
+                "LSTM+ATT"
+            ],
+            "source_text_entities": [
+                "LSTM+ATT"
+            ]
+        },
+        {
+            "merged_entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN refers to a method using convolutional neural networks with max pooling for learning news representations, used as a baseline.",
+            "source_image_entities": [
+                "CNN"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "merged_entity_name": "CNN+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN+Att is a news encoder that combines a CNN network and an attention network, showing better performance than other variants in learning news representations.",
+            "source_image_entities": [
+                "CNN+ATT"
+            ],
+            "source_text_entities": [
+                "CNN+ATT"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTUR-INI",
+            "entity_type": "EVENT",
+            "description": "LSTUR-ini is a proposed method for learning short-term user representations, achieving comparable performance to LSTUR-con, and is one of the methods used in the study to randomly mask long-term user representation in model training.",
+            "source_image_entities": [
+                "LSTUR-INI"
+            ],
+            "source_text_entities": [
+                "LSTURINI",
+                "LSTUR-INI"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTUR-CON",
+            "entity_type": "EVENT",
+            "description": "LSTUR-con is a proposed method for learning long-term user representations, achieving comparable performance to LSTURini and outperforming baseline methods. It uses the concatenation of both short-term and long-term user representations for news recommendation and is another method used in the study to randomly mask long-term user representation in model training.",
+            "source_image_entities": [
+                "LSTUR-CON"
+            ],
+            "source_text_entities": [
+                "LSTUR-CON",
+                "LSTUR-CON"
+            ]
+        },
+        {
+            "merged_entity_name": "AUC",
+            "entity_type": "GEO",
+            "description": "AUC, or area under the ROC curve, is an impression-based ranking metric used to evaluate the performance of the model, depicted in graph (a).",
+            "source_image_entities": [
+                "AUC"
+            ],
+            "source_text_entities": [
+                "AUC"
+            ]
+        },
+        {
+            "merged_entity_name": "NDCG@10",
+            "entity_type": "GEO",
+            "description": "NDCG@10 is the normalized discounted cumulative gain at 10 metric, depicted in graph (b), and is an impression-based ranking metric used to evaluate the performance of the model.",
+            "source_image_entities": [
+                "NDCG@10"
+            ],
+            "source_text_entities": [
+                "NDCG"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "merged_entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR-INI is a model that focuses on either long-term or short-term user representations for news recommendation, used in the context of evaluating performance metrics such as AUC and nDCG@10.",
+            "source_image_entities": [
+                "LSTUR-INI"
+            ],
+            "source_text_entities": [
+                "LSTURINI",
+                "LSTUR-INI"
+            ]
+        },
+        {
+            "merged_entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR-CON is a model that uses the concatenation of both short-term and long-term user representations for news recommendation, used in the context of evaluating performance metrics such as AUC and nDCG@10.",
+            "source_image_entities": [
+                "LSTUR-CON"
+            ],
+            "source_text_entities": [
+                "LSTUR-CON"
+            ]
+        },
+        {
+            "merged_entity_name": "AUC",
+            "entity_type": "EVENT",
+            "description": "AUC, or area under the ROC curve, is an impression-based ranking metric used to evaluate the performance of the model, including the performance of different configurations of LSTUR-INI and LSTUR-CON.",
+            "source_image_entities": [
+                "AUC"
+            ],
+            "source_text_entities": [
+                "AUC"
+            ]
+        },
+        {
+            "merged_entity_name": "NDCG@10",
+            "entity_type": "EVENT",
+            "description": "nDCG, or normalized discounted cumulative gain, is an impression-based ranking metric used to evaluate the performance of the model, including the performance of different configurations of LSTUR-INI and LSTUR-CON at rank 10.",
+            "source_image_entities": [
+                "NDCG@10"
+            ],
+            "source_text_entities": [
+                "NDCG"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "MASK PROBABILITY",
+            "entity_type": "CONCEPT",
+            "description": "Mask Probability refers to the probability p in Eq. (6) for randomly masking long-term user representation in model training, represented on the x-axis of the graph ranging from 0.0 to 0.9.",
+            "source_image_entities": [
+                "MASK PROBABILITY P"
+            ],
+            "source_text_entities": [
+                "MASKING PROBABILITY"
+            ]
+        }
+    ]
+}

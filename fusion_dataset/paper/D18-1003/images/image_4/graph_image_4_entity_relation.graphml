@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;LSTM-TEXT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A configuration used for text analysis, achieving 64.65% accuracy on true claims and 64.21% on false claims in the Snopes dataset, with a Macro F1-Score of 0.66 and AUC of 0.70."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;CNN-TEXT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another configuration used for text analysis, achieving 67.15% accuracy on true claims and 63.14% on false claims in the Snopes dataset, with a Macro F1-Score of 0.66 and AUC of 0.72."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;DISTANT SUPERVISION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A method that achieved the highest accuracy among the listed configurations for the Snopes dataset, with 83.21% on true claims and 80.78% on false claims, a Macro F1-Score of 0.82, and an AUC of 0.88."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;DECLARE (PLAIN)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Configuration of DeClarE model without additional features, achieving 74.37% accuracy on true claims and 78.57% on false claims in the Snopes dataset, with a Macro F1-Score of 0.78 and AUC of 0.83."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;DECLARE (PLAIN+ATTN)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Configuration of DeClarE model with attention mechanism, achieving 78.34% accuracy on true claims and 78.91% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.85."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;DECLARE (PLAIN+SREMB)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Configuration of DeClarE model with sentence embeddings, achieving 77.43% accuracy on true claims and 79.80% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.85."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;DECLARE (FULL)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The full configuration of DeClarE model, achieving 78.96% accuracy on true claims and 78.32% on false claims in the Snopes dataset, with a Macro F1-Score of 0.79 and AUC of 0.86."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;SNOPES&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset used for evaluating the performance of different configurations on fact-checking tasks, showing varied results across different models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;POLITIFACT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Another dataset used for evaluating the performance of different configurations on fact-checking tasks, showing varied results across different models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_4 is a table labeled 'Table 3: Comparison of various approaches for credibility classification on Snopes and PolitiFact datasets.' The table is structured with columns such as Dataset, Configuration, True Claims Accuracy (%), False Claims Accuracy (%), Macro F1-Score, and AUC. For the Snopes dataset, the configurations include LSTM-text, CNN-text, Distant Supervision, DeClarE (Plain), DeClarE (Plain+Attn), DeClarE (Plain+SrEmb), and DeClarE (Full). The True Claims Accuracy (%) ranges from 64.65 to 78.96, False Claims Accuracy (%) ranges from 64.21 to 80.78, Macro F1-Score values range from 0.66 to 0.79, and AUC values range from 0.70 to 0.86. For the PolitiFact dataset, the configurations are the same, with True Claims Accuracy (%) ranging from 63.19 to 67.32, False Claims Accuracy (%) ranging from 61.96 to 69.62, Macro F1-Score values ranging from 0.63 to 0.68, and AUC values ranging from 0.66 to 0.75.</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+</node>
+<edge source="&quot;LSTM-TEXT&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM-text是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM-TEXT&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM-text configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM-TEXT&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM-text configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN-TEXT&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN-text是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN-TEXT&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CNN-text configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN-TEXT&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CNN-text configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISTANT SUPERVISION&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Distant Supervision是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISTANT SUPERVISION&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Distant Supervision method was tested on the Snopes dataset, achieving the highest accuracies and scores among the listed configurations."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISTANT SUPERVISION&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Distant Supervision method was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN)&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DeClarE (Plain)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN)&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain) configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN)&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain) configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+ATTN)&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DeClarE (Plain+Attn)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+ATTN)&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain+Attn) configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+ATTN)&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain+Attn) configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+SREMB)&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DeClarE (Plain+SrEmb)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+SREMB)&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain+SrEmb) configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (PLAIN+SREMB)&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Plain+SrEmb) configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (FULL)&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DeClarE (Full)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (FULL)&quot;" target="&quot;SNOPES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Full) configuration was tested on the Snopes dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DECLARE (FULL)&quot;" target="&quot;POLITIFACT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DeClarE (Full) configuration was tested on the PolitiFact dataset, achieving specific accuracies and scores."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNOPES&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Snopes是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POLITIFACT&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PolitiFact是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

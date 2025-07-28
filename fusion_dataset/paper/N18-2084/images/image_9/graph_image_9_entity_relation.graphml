@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a bar chart titled 'F-measure of Target Words'. The x-axis represents the frequency in the training corpus, ranging from 0 to 1000+. The y-axis represents the F-measure, ranging from 0 to 0.8. There are two sets of bars for each frequency category: blue bars labeled 'std' and red bars labeled 'pre'. The F-measure values for each frequency category are as follows: 0 (std: 0.0, pre: 0.0), 1-2 (std: 0.0, pre: 0.0), 3 (std: 0.05, pre: 0.1), 4 (std: 0.05, pre: 0.15), 5-9 (std: 0.15, pre: 0.25), 10-99 (std: 0.45, pre: 0.55), 100-999 (std: 0.55, pre: 0.6), and 1000+ (std: 0.65, pre: 0.7). The chart shows that pre-training improves the accuracy of translation for the entire vocabulary, particularly for words of low frequency in the training corpus."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+</node>
+<node id="&quot;GRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A bar chart comparing the F-measure of two methods, 'std' and 'pre', across different frequency ranges in a training corpus."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+</node>
+<node id="&quot;FREQUENCY IN TRAINING CORPUS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+  <data key="d1">"The graph displays the F-measure for different frequency ranges in the training corpus."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;F-MEASURE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+  <data key="d1">"The graph shows the F-measure values for both 'std' and 'pre' methods."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;GRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;FREQUENCY IN TRAINING CORPUS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph displays the F-measure for different frequency ranges in the training corpus."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH&quot;" target="&quot;F-MEASURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph shows the F-measure values for both 'std' and 'pre' methods."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

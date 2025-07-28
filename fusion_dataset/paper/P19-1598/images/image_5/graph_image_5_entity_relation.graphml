@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Perplexity Results on Linked WikiText-2.' The table presents the perplexity (PPL) and unknown penalized perplexity (UPP) results for different language models. The rows of the table are as follows: ENTITYNLM* (Ji et al., 2017) with PPL of 85.4 and UPP of 189.2, EntityCopyNet* with PPL of 76.1 and UPP of 144.0, AWD-LSTM (Merity et al., 2018) with PPL of 74.8 and UPP of 165.8, and KGLM* with PPL of 44.1 and UPP of 88.5. The footnote indicates that results for models marked with * are obtained using importance sampling. The context explains that the KGLM model achieves substantially lower perplexity than other entity-based language models, providing strong evidence that leveraging knowledge graphs is crucial for accurate language modeling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+</node>
+<node id="&quot;ENTITYNLM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Ji et al. in 2017, with a PPL of 85.4 and UPP of 189.2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+</node>
+<node id="&quot;ENTITYCOPYNET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model with a PPL of 76.1 and UPP of 144.0."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+</node>
+<node id="&quot;AWD-LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Merity et al. in 2018, with a PPL of 74.8 and UPP of 165.8."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+</node>
+<node id="&quot;KGLM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model with the lowest PPL of 44.1 and UPP of 88.5."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ENTITYNLM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ENTITYNLM是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ENTITYCOPYNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"EntityCopyNet是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;AWD-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"AWD-LSTM是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"KGLM是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENTITYNLM&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models used for language processing tasks, but KGLM performs better as indicated by lower PPL and UPP values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENTITYCOPYNET&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models used for language processing tasks, but KGLM performs better as indicated by lower PPL and UPP values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AWD-LSTM&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models used for language processing tasks, but KGLM performs better as indicated by lower PPL and UPP values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

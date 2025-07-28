@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the performance of various models on different datasets for document categorization tasks. The table has six columns: Model, Yahoo! Ans., AG News, Yelp P., Yelp F., and DBpedia. Each row represents a different model and its corresponding performance metrics on the five datasets. The models listed are Bag-of-means*, Small word CNN*, Large word CNN*, LSTM*, Deep CNN (29 layer)†, fastText ‡, fastText (bigram)‡, SWEM-aver, SWEM-max, SWEM-concat, and SWEM-hier. The performance metrics are numerical values representing accuracy or some other evaluation metric. For example, the Bag-of-means* model scores 60.55 on Yahoo! Ans., 83.09 on AG News, 87.33 on Yelp P., 53.54 on Yelp F., and 90.45 on DBpedia. The SWEM-concat model achieves the highest scores in most categories, with 73.53 on Yahoo! Ans., 92.66 on AG News, 93.76 on Yelp P., 61.11 on Yelp F., and 98.57 on DBpedia. The table highlights the superior performance of the SWEM models compared to other architectures."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;BAG-OF-MEANS*&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that represents documents as the mean of their word vectors, achieving 60.55% accuracy on Yahoo! Answers dataset, 83.09% on AG News, 87.33% on Yelp P., 53.54% on Yelp F., and 90.45% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;SMALL WORD CNN*&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A convolutional neural network with a smaller architecture, achieving 69.98% accuracy on Yahoo! Answers dataset, 89.13% on AG News, 94.46% on Yelp P., 58.59% on Yelp F., and 98.15% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;LARGE WORD CNN*&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A convolutional neural network with a larger architecture, achieving 70.94% accuracy on Yahoo! Answers dataset, 91.45% on AG News, 95.11% on Yelp P., 59.48% on Yelp F., and 98.28% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;LSTM*&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A long short-term memory network, achieving 70.84% accuracy on Yahoo! Answers dataset, 86.06% on AG News, 94.74% on Yelp P., 58.17% on Yelp F., and 98.55% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;DEEP CNN (29 LAYER)†&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A deep convolutional neural network with 29 layers, achieving 73.43% accuracy on Yahoo! Answers dataset, 91.27% on AG News, 95.72% on Yelp P., 64.26% on Yelp F., and 98.71% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;FASTTEXT ‡&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A text classification model based on bag-of-words with fastText, achieving 72.0% accuracy on Yahoo! Answers dataset, 91.5% on AG News, 93.8% on Yelp P., 60.4% on Yelp F., and 98.1% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;FASTTEXT (BIGRAM)‡&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A text classification model based on bigrams with fastText, achieving 72.3% accuracy on Yahoo! Answers dataset, 92.5% on AG News, 95.7% on Yelp P., 63.9% on Yelp F., and 98.6% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;SWEM-AVER&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A sentence embedding model using average pooling, achieving 73.14% accuracy on Yahoo! Answers dataset, 91.71% on AG News, 93.59% on Yelp P., 60.66% on Yelp F., and 98.42% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;SWEM-MAX&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A sentence embedding model using max pooling, achieving 72.66% accuracy on Yahoo! Answers dataset, 91.79% on AG News, 93.25% on Yelp P., 59.63% on Yelp F., and 98.24% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;SWEM-CONCAT&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A sentence embedding model using concatenation, achieving 73.53% accuracy on Yahoo! Answers dataset, 92.66% on AG News, 93.76% on Yelp P., 61.11% on Yelp F., and 98.57% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;SWEM-HIER&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A hierarchical sentence embedding model, achieving 73.48% accuracy on Yahoo! Answers dataset, 92.48% on AG News, 95.81% on Yelp P., 63.79% on Yelp F., and 98.54% on DBpedia."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+</node>
+<node id="&quot;YAHOO! ANS.&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d1">"The Bag-of-means model achieved 60.55% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;AG NEWS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d1">"The Bag-of-means model achieved 83.09% accuracy on the AG News dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;YELP P.&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d1">"The Bag-of-means model achieved 87.33% accuracy on the Yelp P. dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;YELP F.&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d1">"The Bag-of-means model achieved 53.54% accuracy on the Yelp F. dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DBPEDIA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d1">"The Bag-of-means model achieved 90.45% accuracy on the DBpedia dataset."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BAG-OF-MEANS*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bag-of-means*是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SMALL WORD CNN*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Small word CNN*是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LARGE WORD CNN*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Large word CNN*是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LSTM*&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM*是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DEEP CNN (29 LAYER)†&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Deep CNN (29 layer)†是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FASTTEXT ‡&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"fastText ‡是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FASTTEXT (BIGRAM)‡&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"fastText (bigram)‡是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SWEM-AVER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM-aver是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SWEM-MAX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM-max是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SWEM-CONCAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM-concat是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SWEM-HIER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM-hier是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAG-OF-MEANS*&quot;" target="&quot;YAHOO! ANS.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Bag-of-means model achieved 60.55% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAG-OF-MEANS*&quot;" target="&quot;AG NEWS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Bag-of-means model achieved 83.09% accuracy on the AG News dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAG-OF-MEANS*&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Bag-of-means model achieved 87.33% accuracy on the Yelp P. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAG-OF-MEANS*&quot;" target="&quot;YELP F.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Bag-of-means model achieved 53.54% accuracy on the Yelp F. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAG-OF-MEANS*&quot;" target="&quot;DBPEDIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Bag-of-means model achieved 90.45% accuracy on the DBpedia dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL WORD CNN*&quot;" target="&quot;YAHOO! ANS.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Small word CNN model achieved 69.98% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL WORD CNN*&quot;" target="&quot;AG NEWS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Small word CNN model achieved 89.13% accuracy on the AG News dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL WORD CNN*&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Small word CNN model achieved 94.46% accuracy on the Yelp P. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL WORD CNN*&quot;" target="&quot;YELP F.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Small word CNN model achieved 58.59% accuracy on the Yelp F. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL WORD CNN*&quot;" target="&quot;DBPEDIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Small word CNN model achieved 98.15% accuracy on the DBpedia dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE WORD CNN*&quot;" target="&quot;YAHOO! ANS.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Large word CNN model achieved 70.94% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE WORD CNN*&quot;" target="&quot;AG NEWS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Large word CNN model achieved 91.45% accuracy on the AG News dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE WORD CNN*&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Large word CNN model achieved 95.11% accuracy on the Yelp P. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE WORD CNN*&quot;" target="&quot;YELP F.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Large word CNN model achieved 59.48% accuracy on the Yelp F. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LARGE WORD CNN*&quot;" target="&quot;DBPEDIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Large word CNN model achieved 98.28% accuracy on the DBpedia dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM*&quot;" target="&quot;YAHOO! ANS.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM model achieved 70.84% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM*&quot;" target="&quot;AG NEWS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM model achieved 86.06% accuracy on the AG News dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM*&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM model achieved 94.74% accuracy on the Yelp P. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM*&quot;" target="&quot;YELP F.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM model achieved 58.17% accuracy on the Yelp F. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM*&quot;" target="&quot;DBPEDIA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM model achieved 98.55% accuracy on the DBpedia dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DEEP CNN (29 LAYER)†&quot;" target="&quot;YAHOO! ANS.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Deep CNN (29 layer) model achieved 73.43% accuracy on the Yahoo! Answers dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DEEP CNN (29 LAYER)†&quot;" target="&quot;AG NEWS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Deep CNN (29 layer) model achieved 91.27% accuracy on the AG News dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DEEP CNN (29 LAYER)†&quot;" target="&quot;YELP P.&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Deep CNN (29 layer) model achieved 95.72% accuracy on the Yelp P. dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

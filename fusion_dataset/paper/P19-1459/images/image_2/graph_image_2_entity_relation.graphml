@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the general architecture of models used in experiments. It consists of three main layers: the input layer, the processing layer, and the output layer. The input layer contains two sets of inputs represented by pink rectangles labeled 'c', 'r', and 'w_0' for the first set, and 'c', 'r', and 'w_1' for the second set. These inputs are passed through a blue rectangle labeled 'θ', which represents some form of processing or transformation. From this processing layer, two outputs are generated, represented by orange rectangles labeled 'z_0' and 'z_1'. These outputs are then concatenated and passed through a green rectangle labeled 'Softmax', which likely represents the final classification or probability distribution over classes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;SOFTMAX&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A mathematical function used in machine learning to turn a vector of real numbers into a probability distribution. It is often used as the activation function for the output layer in neural networks, especially in classification tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;Z_0&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A variable representing an input to the Softmax function. It is one of the two inputs shown in the diagram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;Z_1&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Another variable representing an input to the Softmax function. It is the second of the two inputs shown in the diagram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;Θ&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A parameter or weight that is applied to the inputs before they are passed to the Softmax function. This parameter is typically learned during the training process of a machine learning model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;C&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A constant value that is part of the input vectors to the system. It appears twice in the diagram, suggesting it might be a common factor or bias term."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;R&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A variable that is part of the input vectors to the system. It appears twice in the diagram, indicating it might represent a repeated measurement or feature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;W_0&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A weight associated with the first input vector. Weights like this are used to scale the inputs before applying the Softmax function."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<node id="&quot;W_1&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A weight associated with the second input vector. Similar to w_0, it scales the input before the Softmax function is applied."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SOFTMAX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Softmax是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;Z_0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"z_0是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;Z_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"z_1是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;Θ&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"θ是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;C&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"c是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;R&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"r是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;W_0&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"w_0是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;W_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"w_1是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Z_0&quot;" target="&quot;Θ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The variable z_0 is multiplied by the parameter θ before being passed to the Softmax function."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Z_0&quot;" target="&quot;W_0&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The weight w_0 is applied to the input z_0, scaling its contribution to the final output of the Softmax function."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Z_1&quot;" target="&quot;Θ&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The variable z_1 is also multiplied by the parameter θ before being passed to the Softmax function."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;Z_1&quot;" target="&quot;W_1&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The weight w_1 is applied to the input z_1, scaling its contribution to the final output of the Softmax function."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;C&quot;" target="&quot;R&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The constant c and the variable r appear together in both input vectors, suggesting they are related features or measurements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

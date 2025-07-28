@@ -1,0 +1,1807 @@
+{
+    "5": {
+        "chunk_key": "chunk-9cca33bff05f008d1e9e37238d107278",
+        "entities": [
+            {
+                "entity_name": "\"COMMON CRAWL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Common Crawl is a large dataset used for pretraining language models, with results showing increased performance with more data.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"NEWS CRAWL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"News Crawl is a dataset containing newswire data, which generally performs less well than Common Crawl, especially for tasks based on sentence pairs.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"BOOKSCORPUS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BooksCorpus is a dataset consisting of a mix of individual sentences and paragraphs, performing well on QNLI and MNLI but less well on other tasks.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"ENGLISH WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"English Wikipedia is a dataset of longer paragraphs, performing well on QNLI and MNLI but less well on other tasks.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"GLUE BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"GLUE benchmark is a standard for evaluating the performance of language models, showing large gains for the presented pretraining architecture.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. (2018) is a reference to previous work in language modeling, against which the presented model shows significant gains on the GLUE benchmark.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. (2018) is a reference to previous work in language modeling, which the current study compares itself to and uses a similar dataset strategy.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"PETERS ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al. (2018) is a reference to previous work in language modeling, which trained language models in two directions and is compared to the current study's approach.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"CNN BASE ARCHITECTURE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN base architecture is used for training models on Common Crawl data for 600K updates.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"COLA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoLA is one of the GLUE tasks that benefits most from additional training data, especially from Common Crawl.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"RTE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RTE is one of the GLUE tasks that benefits most from additional training data, especially from Common Crawl.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"MRPC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRPC is a GLUE task where News Crawl performs less well compared to Common Crawl, even though it is newswire data.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"STS-B\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"STS-B is a GLUE task where more News Crawl data is particularly beneficial.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"BWIKI - BLCK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BWiki - blck is a strategy of concatenating training examples into a single string and cropping blocks for training, which did not outperform using data as is.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"BWIKI - SENT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BWiki - sent is a strategy of using data as is, which performed better than the BWiki - blck strategy.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"QNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"QNLI is a GLUE task on which BooksCorpus and Wikipedia perform very well.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"MNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MNLI is a GLUE task on which BooksCorpus and Wikipedia perform very well.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"BI-DIRECTIONAL TRANSFORMER MODEL\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The bi-directional transformer model is the pretraining architecture that predicts every token in the training data with a cloze-style objective.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "entity_name": "\"CLOZE-STYLE OBJECTIVE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The cloze-style objective is the training method used where the model predicts the center word given all left and right context.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"COMMON CRAWL\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 8.0,
+                "description": "\"Common Crawl data is used for pretraining, showing significant performance gains on the GLUE benchmark.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"NEWS CRAWL\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 5.0,
+                "description": "\"News Crawl data is used for pretraining, but performs less well on the GLUE benchmark, especially for sentence pair tasks.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"BOOKSCORPUS\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 6.0,
+                "description": "\"BooksCorpus data performs well on certain GLUE tasks like QNLI and MNLI but less well on others.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"ENGLISH WIKIPEDIA\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 6.0,
+                "description": "\"English Wikipedia data performs well on certain GLUE tasks like QNLI and MNLI but less well on others.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"RADFORD ET AL. (2018)\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 9.0,
+                "description": "\"The presented model shows large gains over Radford et al. (2018) on the GLUE benchmark for each task.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"DEVLIN ET AL. (2018)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 7.0,
+                "description": "\"The current study uses a similar strategy to Devlin et al. (2018) for pretraining with BooksCorpus and Wikipedia.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"PETERS ET AL. (2018)\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 7.0,
+                "description": "\"The current study compares its approach to that of Peters et al. (2018), using Common Crawl data for pretraining.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"CNN BASE ARCHITECTURE\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 7.0,
+                "description": "\"The CNN base architecture is used for training models on Common Crawl data for 600K updates.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"COLA\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 8.0,
+                "description": "\"CoLA benefits most from additional training data, especially from Common Crawl.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"RTE\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 8.0,
+                "description": "\"RTE benefits most from additional training data, especially from Common Crawl.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"MRPC\"",
+                "tgt_id": "\"NEWS CRAWL\"",
+                "weight": 6.0,
+                "description": "\"MRPC is a GLUE task where News Crawl performs less well compared to Common Crawl.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"STS-B\"",
+                "tgt_id": "\"NEWS CRAWL\"",
+                "weight": 7.0,
+                "description": "\"STS-B benefits from more News Crawl data.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"BOOKSCORPUS\"",
+                "tgt_id": "\"QNLI\"",
+                "weight": 8.0,
+                "description": "\"BooksCorpus performs very well on the QNLI task.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"BOOKSCORPUS\"",
+                "tgt_id": "\"MNLI\"",
+                "weight": 8.0,
+                "description": "\"BooksCorpus performs very well on the MNLI task.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"ENGLISH WIKIPEDIA\"",
+                "tgt_id": "\"QNLI\"",
+                "weight": 8.0,
+                "description": "\"English Wikipedia performs very well on the QNLI task.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"ENGLISH WIKIPEDIA\"",
+                "tgt_id": "\"MNLI\"",
+                "weight": 8.0,
+                "description": "\"English Wikipedia performs very well on the MNLI task.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            },
+            {
+                "src_id": "\"BI-DIRECTIONAL TRANSFORMER MODEL\"",
+                "tgt_id": "\"CLOZE-STYLE OBJECTIVE\"",
+                "weight": 9.0,
+                "description": "\"The bi-directional transformer model is trained with a cloze-style objective.\"",
+                "source_id": "chunk-9cca33bff05f008d1e9e37238d107278"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6",
+        "entities": [
+            {
+                "entity_name": "\"ACL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL is an event where academic papers are presented, as indicated by the references to papers being in Proc. of ACL.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"EACL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EACL is an event where academic papers are presented, as indicated by the reference to a paper being in Proc. of EACL.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"EMNLP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP is an event where academic papers are presented, as indicated by the reference to a paper being in Proc. of EMNLP.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ICML\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ICML is an event where academic papers are presented, as indicated by the reference to a paper being in Proc. of ICML.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"NIPS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NIPS is an event where academic papers are presented, as indicated by the reference to a paper being in Proc. of NIPS.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"NAACL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NAACL is an event where academic papers are presented, as indicated by the reference to a paper being in Proc. of NAACL.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"JASON PHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason Phang is an author of a paper presented at ACL in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"THIBAULT FEVRY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thibault Fevry is an author of a paper presented at ACL in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"SAMUEL R. BOWMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samuel R. Bowman is an author of multiple papers presented at various conferences.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"OFIR PRESS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ofir Press is an author of a paper presented at EACL in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"LIOR WOLF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lior Wolf is an author of a paper presented at EACL in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ALEC RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alec Radford is an author of a paper presented in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"KARTHIK NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karthik Narasimhan is an author of a paper presented in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"TIM SALIMANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Salimans is an author of a paper presented in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of multiple papers presented at various conferences.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"PRANAV RAJPURKAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pranav Rajpurkar is an author of a paper presented at arXiv in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"JIAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jian Zhang is an author of a paper presented at arXiv in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"KONSTANTIN LOPYREV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Konstantin Lopyrev is an author of a paper presented at arXiv in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"PERCY LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percy Liang is an author of a paper presented at arXiv in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"RICO SENNRICH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rico Sennrich is an author of a paper presented at ACL in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"BARRY HADDOW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Barry Haddow is an author of a paper presented at ACL in 2016.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ALEXANDRA BIRCH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexandra Birch is an author of a paper presented at ACL in 2016.(\"entity\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is an author of a paper presented at EMNLP in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ANDREW NG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Ng is an author of a paper presented at EMNLP in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER POTTS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Potts is an author of a paper presented at EMNLP in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"JAMES MARTENS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"James Martens is an author of a paper presented at ICML in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"GEORGE E. DAHL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"George E. Dahl is an author of a paper presented at ICML in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"GEOFFREY E. HINTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Geoffrey E. Hinton is an author of a paper presented at ICML in 2013.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"NOAM SHAZEER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noam Shazeer is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"NIKI PARMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Niki Parmar is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"JAKOB USZKOREIT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jakob Uszkoreit is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"LLION JONES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Llion Jones is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"AIDAN N. GOMEZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aidan N. Gomez is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"LUKASZ KAISER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lukasz Kaiser is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ILLIA POLOSUKHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Illia Polosukhin is an author of a paper presented at NIPS in 2017.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"AMANPREET SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amanpreet Singh is an author of multiple papers presented at various conferences.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"JULIAN MICHAEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julian Michael is an author of a paper presented at arXiv in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"FELIX HILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Felix Hill is an author of a paper presented at arXiv in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is an author of a paper presented at arXiv in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"ALEX WARSTADT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Warstadt is an author of a paper presented at arXiv in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"NIKITA NANGIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Nangia is an author of a paper presented at NAACL in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"KELLY W. ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kelly W. Zhang is an author of a paper presented at arXiv in 2018.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            },
+            {
+                "entity_name": "\"YUKUN ZHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yukun Zhu is an author of a paper presented at arXiv in 2015.\"",
+                "source_id": "chunk-762c4d42ae5f2ab39be6e6bc62c97db6"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-9466068e0789cf83c4509d73e1ec583f",
+        "entities": [
+            {
+                "entity_name": "\"COMMON CRAWL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Common Crawl is a web data source used for pre-training models, following pre-processing based on the May 2017 dump.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"GRAVE ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Grave et al. (2018) is referenced for pre-processing the Common Crawl data, influencing the experimental setup.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"ENGLISH WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"English Wikipedia is part of the final dataset, contributing significantly to the data composition.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"NEWS CRAWL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Crawl provides English news web data distributed as part of WMT 2018.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"WMT 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WMT 2018 is an event where English news web data is distributed, used in the pre-training of models.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"BOOKSCORPUS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BooksCorpus is a dataset of about 800M words used in pre-training, similar to the training data used by BERT.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is referenced for its training data composition, which includes BooksCorpus and English Wikipedia data.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"ZHU ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhu et al. (2015) is associated with the BooksCorpus dataset, which is part of the pre-training data.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"FAIRSEQ TOOLKIT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"fairseq toolkit provides the transformer implementation adapted for the two tower architecture in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"OTT ET AL. (2019)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ott et al. (2019) is referenced for the adaptation of the transformer implementation to the two tower architecture.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"BAEVSKI AND AULI (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Baevski and Auli (2018) is referenced for hyper-parameter and optimization choices in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN refers to Convolutional Neural Networks, which are used in two input models in base and large configurations.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"SENNRICH ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sennrich et al. (2016) is associated with Byte-Pair-Encoding (BPE), a method used in the model.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"INAN ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Inan et al. (2016) is referenced in the context of sharing input and output embeddings in a flat softmax with dimension 1024.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"PRESS AND WOLF (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Press and Wolf (2017) is referenced in the context of the BPE model's vocabulary construction.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vaswani et al. (2017) is referenced for a method different from the one used in the experiments, specifically Nesterov’s accelerated gradient method.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"SUTSKEVER ET AL. (2013)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sutskever et al. (2013) is associated with Nesterov’s accelerated gradient method used in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"PASCANU ET AL. (2013)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pascanu et al. (2013) is referenced for the technique of renormalizing gradients if their norm exceeds 0.1.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"LOSHCHILOV AND HUTTER (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Loshchilov and Hutter (2016) is referenced for the cosine learning rate schedule used in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"DGX-1\"<(\"ENTITY\"",
+                "entity_type": "\"GLUE\"",
+                "description": "\"event\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"WANG ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al. (2018) is associated with the GLUE benchmark and provides more information about the tasks involved.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"CORPUS OF LINGUISTIC ACCEPTABILITY (COLA)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoLA is a binary task within GLUE to judge sentence grammaticality, evaluated using the Matthews correlation coefficient (mcc).\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"WARSTADT ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Warstadt et al. (2018) is associated with the CoLA task within the GLUE benchmark.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"STANFORD SENTIMENT TREEBANK (SST-2)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SST-2 is a task within GLUE that requires judging the sentiment of movie reviews, evaluated in terms of accuracy (acc).\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"SOCHER ET AL. (2013)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Socher et al. (2013) is associated with the Stanford Sentiment Treebank (SST-2) task within the GLUE benchmark.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"MICROSOFT RESEARCH PARAGRAPH CORPUS (MRPC)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRPC is a task within GLUE that assesses sentence similarity, evaluated in terms of F1 score.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"DOLAN AND BROCKETT (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dolan and Brockett (2015) is associated with the Microsoft Research Paragraph Corpus (MRPC) task within the GLUE benchmark.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"QUORA QUESTION PAIRS BENCHMARK (QQP)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"QQP is a task within GLUE that assesses sentence similarity, evaluated in terms of F1 score.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"SEMANTIC TEXTUAL SIMILARITY BENCHMARK (STS-B)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"STS-B is a task within GLUE that requires predicting a similarity score between 1 and 5 for a sentence pair, evaluated using the Spearman correlation coefficient (scc).\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"CER ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cer et al. (2017) is associated with the Semantic Textual Similarity Benchmark (STS-B) task within the GLUE benchmark.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"MULTI-GENRE NATURAL LANGUAGE INFERENCE (MNLI)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MNLI is a natural language inference task within GLUE, evaluated based on the performance of models.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"WILLIAMS ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Williams et al. (2018) is associated with the Multi-Genre Natural Language Inference (MNLI) task within the GLUE benchmark.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"NVIDIA V100 GPUS\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"NVIDIA V100 GPUs are used in the experiments, specifically for running the models on DGX-1 machines.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"INFINIBAND\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Infiniband is the technology used for interconnecting the machines in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"NCCL2 LIBRARY\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"NCCL2 library is used for inter-GPU communication in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            },
+            {
+                "entity_name": "\"TORCH.DISTRIBUTED PACKAGE\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"torch.distributed package is used for inter-GPU communication in the experiments.\"",
+                "source_id": "chunk-9466068e0789cf83c4509d73e1ec583f"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-bd217e7a6216f1573ca3b47fe0f48027",
+        "entities": [
+            {
+                "entity_name": "\"COMMON CRAWL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Common Crawl is a web data source used for training the two tower model, with specific subsets and pre-processing steps based on the May 2017 dump.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"GRAVE ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Grave et al. (2018) refers to the authors or researchers who provided pre-processing instructions for the Common Crawl data used in the model training.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"ENGLISH WIKIPEDIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"English Wikipedia is added to the Common Crawl data, contributing to the training dataset with 20 copies.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"GLUE TASKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"GLUE tasks are a set of natural language understanding tasks used for evaluating the performance of the fine-tuned model.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"KINGMA AND BA (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kingma and Ba (2015) are the authors of the Adam optimizer used in the fine-tuning process of the model.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"CER ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cer et al. (2017) are the authors associated with the Semantic Textual Similarity benchmark (STS-B), a regression task used in model training.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. (2018) are the authors or researchers whose work is referenced in the context of language model outputs and their dimension.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"ATTENTION MODULE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The attention module is a component that has access to information about the entire input surrounding the current target token and is used during training to predict every token.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"OUTPUT CLASSIFIER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The output classifier is a component that predicts the center token, using adaptive softmax for word-based models and regular softmax for BPE-based models.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"ADAPTIVE SOFTMAX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Adaptive softmax is a technique used in the output classifier for word-based models, as referenced in the work of Grave et al., 2017.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"REGULAR SOFTMAX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Regular softmax is used in the output classifier for BPE-based models, as distinguished from adaptive softmax.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"FINE-TUNING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Fine-tuning is the process of adjusting a pretrained model for specific downstream tasks, as illustrated in Figure 2.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"DOWNSTREAM TASKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Downstream tasks are specific tasks that the pretrained model is fine-tuned for, such as NER or sentence classification.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"NER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NER stands for Named Entity Recognition, a task where each token is labeled, and the model needs to access the full context.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"TWO TOWER MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The two tower model is a pretrained model that is fine-tuned for specific downstream tasks, as detailed in the text.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"ADAM OPTIMIZER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Adam optimizer, introduced by Kingma and Ba, 2015, is used during the fine-tuning of the model.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"SEMANTIC TEXTUAL SIMILARITY BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Semantic Textual Similarity benchmark (STS-B) is a regression task used in model training, as mentioned in the work of Cer et al., 2017.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"LANGUAGE MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The language model is a component that outputs representations just before the final softmax layer, used in both classification and regression tasks.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"$<\\ S\\ >$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The $<\\ s\\ >$ tokens are boundary tokens added before the start and end of each sentence for single sentence classification tasks.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"$<S E P>$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The $<s e p>$ token is a separator token added between sentence-pairs for certain tasks, contributing to the final projection.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"CROSS-ENTROPY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross-entropy is the optimization objective used for classification tasks in the model.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"MEAN SQUARED ERROR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Mean squared error is the optimization objective used for regression tasks such as the Semantic Textual Similarity benchmark.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"TASK-SPECIFIC CLASSIFIER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A task-specific classifier is used for classification problems, where the output of the first and last token is fed into it.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"TASK-SPECIFIC ARCHITECTURE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Task-specific architectures are used for structured prediction tasks and are fine-tuned with the language model but with different learning rates.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"DROPOUT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dropout is a regularization technique used during fine-tuning, with different rates applied to various parts of the model.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"COSINE SCHEDULE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A cosine schedule is used to warm up the learning rate and then anneal it, following a specific curve over training steps.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "entity_name": "\"VALIDATION SET\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The validation set is used to evaluate the model's performance after each epoch during training for tasks like GLUE.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"COMMON CRAWL\"",
+                "tgt_id": "\"GRAVE ET AL. (2018)\"",
+                "weight": 7.0,
+                "description": "\"Common Crawl data is processed following the instructions of Grave et al. (2018) for model training.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "src_id": "\"COMMON CRAWL\"",
+                "tgt_id": "\"ENGLISH WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"English Wikipedia is added to Common Crawl data, enhancing the training dataset.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "src_id": "\"GLUE TASKS\"",
+                "tgt_id": "\"KINGMA AND BA (2015)\"",
+                "weight": 5.0,
+                "description": "\"GLUE tasks are evaluated using the Adam optimizer proposed by Kingma and Ba (2015).\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "src_id": "\"GLUE TASKS\"",
+                "tgt_id": "\"CER ET AL. (2017)\"",
+                "weight": 5.0,
+                "description": "\"GLUE tasks include the Semantic Textual Similarity benchmark (STS-B) by Cer et al. (2017).\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            },
+            {
+                "src_id": "\"RADFORD ET AL. (2018)\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 4.0,
+                "description": "\"The work of Radford et al. (2018) is referenced in the context of language model outputs related to the Common Crawl data.\"",
+                "source_id": "chunk-bd217e7a6216f1573ca3b47fe0f48027"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3",
+        "entities": [
+            {
+                "entity_name": "\"ALEXEI BAEVSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexei Baevski is an author of a paper on adaptive input representations for neural language modeling.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MICHAEL AULI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Auli is an author of a paper on adaptive input representations for neural language modeling.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"LUISA BENTIVOGLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luisa Bentivogli is an author of a paper on the fifth Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"PETER CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peter Clark is an author of a paper on the fifth Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"IDO DAGAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ido Dagan is an author of multiple papers on textual entailment challenges and neural language modeling.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"DANILO GIAMPICCOLO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danilo Giampiccolo is an author of papers on the Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"ONDŘEJ BOJAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ondřej Bojar is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"CHRISTIAN FEDERMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christian Federmann is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MARK FISHEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Fishel is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"YVETTE GRAHAM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yvette Graham is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"BARRY HADDOW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Barry Haddow is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MATTHIAS HUCK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthias Huck is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"PHILIPP KOEHN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philipp Koehn is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"CHRISTOF MONZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christof Monz is an author of a paper on the findings of the 2018 Conference on Machine Translation (WMT18).\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"DANIEL M. CER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel M. Cer is an author of a paper on SemEval2017 Task 1: Semantic Textual Similarity.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MONA T. DIAB\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mona T. Diab is an author of a paper on SemEval2017 Task 1: Semantic Textual Similarity.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"ENEKO AGIRRE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eneko Agirre is an author of a paper on SemEval2017 Task 1: Semantic Textual Similarity.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"INIGO LOPEZ-GAZPIO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Inigo Lopez-Gazpio is an author of a paper on SemEval2017 Task 1: Semantic Textual Similarity.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"LUCIA SPECIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lucia Specia is an author of a paper on SemEval2017 Task 1: Semantic Textual Similarity.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"ANDREW M. DAI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew M. Dai is an author of a paper on semi-sup(\"entity\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is an author of a paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is an author of a paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is an author of a paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is an author of a paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"WILLIAM B. DOLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William B. Dolan is an author of a paper on automatically constructing a corpus of sentential paraphrases.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"CHRIS BROCKETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Brockett is an author of a paper on automatically constructing a corpus of sentential paraphrases.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"EDOUARD GRAVE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edouard Grave is an author of papers on learning word vectors for 157 languages and efficient softmax approximation for GPUs.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"PIOTR BOJANOWSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Piotr Bojanowski is an author of a paper on learning word vectors for 157 languages.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"PRAKHAR GUPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Prakhar Gupta is an author of a paper on learning word vectors for 157 languages.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"ARMAND JOULIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Armand Joulin is an author of papers on learning word vectors for 157 languages and efficient softmax approximation for GPUs.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"TOMAS MIKOLOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomas Mikolov is an author of a paper on learning word vectors for 157 languages.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"MOUSTAPHA CISSÉ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Moustapha Cissé is an author of a paper on efficient softmax approximation for GPUs.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"DAVID GRANGIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Grangier is an author of papers on efficient softmax approximation for GPUs and context2vec.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"HERVÉ JÉGOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hervé Jégou is an author of a paper on efficient softmax approximation for GPUs.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"ROY BAR HAIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roy Bar Haim is an author of a paper on the Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"LISA FERRO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lisa Ferro is an author of a paper on the Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"BERNARDO MAGNINI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bernardo Magnini is an author of papers on the Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"IDAN SZPEKTOR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Idan Szpektor is an author of a paper on the Pascal Recognizing Textual Entailment Challenge.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"KAIMING HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kaiming He is an author of a paper on Deep Residual Learning for Image Recognition.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            },
+            {
+                "entity_name": "\"XIANGYU ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiangyu Zhang is an author of a paper on Deep Residual Learning for Image Recognition.\"",
+                "source_id": "chunk-8ddf125fcf4e39618edb64e2cf9f12b3"
+            }
+        ],
+        "relationships": []
+    },
+    "0": {
+        "chunk_key": "chunk-67eb3fcd0b8599eeb07673be2599a910",
+        "entities": [
+            {
+                "entity_name": "\"ALEXEI BAEVSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexei Baevski is one of the authors of the paper discussing a new approach for pretraining a bi-directional transformer model.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"SERGEY EDUNOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sergey Edunov is one of the authors of the paper on cloze-driven Pretraining of Self-attention Networks.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"YINHAN LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yinhan Liu is one of the authors of the paper presenting a new pretraining approach for language understanding problems.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author of the paper discussing a bi-directional transformer model for language understanding.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"MICHAEL AULI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Auli is an author of the paper on pretraining a bi-directional transformer model for language tasks.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"FACEBOOK AI RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Facebook AI Research is the organization where the authors of the paper are affiliated, working on language understanding problems.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"MENLO PARK\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Menlo Park is one of the locations where Facebook AI Research is based, as mentioned in the paper's affiliations.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"SEATTLE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Seattle is another location where Facebook AI Research is based, as indicated in the paper's affiliations.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"CLOZE-STYLE WORD RECONSTRUCTION TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cloze-style word reconstruction task is the method used in the pretraining approach where each word is ablated and must be predicted given the rest of the text.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"GLUE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"GLUE is the benchmark used to demonstrate the performance gains of the new pretraining approach for language understanding problems.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"NER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NER (Named Entity Recognition) is one of the tasks where the new pretraining approach showed state of the art results.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"CONSTITUENCY PARSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Constituency parsing is another task where the new pretraining approach achieved state of the art results.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"PETERS ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al. are referenced for their work on language model pretraining using bi-directional LMs (BiLMs).\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. are referenced for their work on unidirectional language models and the generative pretraining (GPT) approach.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"MCCANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McCann et al. are referenced for their work on learning contextualized word representations from a sequence to sequence translation task.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"ZHANG AND BOWMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang and Bowman are referenced for their work focusing on language modeling pretraining which does not require bilingual data.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. are referenced for their work on the BERT model, a transformer encoder model that captures left and right context.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"MELAMUD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Melamud et al. are referenced for their approach to predicting the center word with an architecture based on LSTMs.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BERT is the name of the model introduced by Devlin et al., a transformer encoder that captures left and right context and is compared to the authors' model.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "entity_name": "\"RTE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RTE is a task on the GLUE benchmark where the authors' model showed a 9.1 point gain over Radford et al.'s work.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ALEXEI BAEVSKI\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Alexei Baevski is an author affiliated with Facebook AI Research.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"SERGEY EDUNOV\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Sergey Edunov is an author affiliated with Facebook AI Research.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"YINHAN LIU\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Yinhan Liu is an author affiliated with Facebook AI Research.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"LUKE ZETTLEMOYER\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Luke Zettlemoyer is an author affiliated with Facebook AI Research.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"MICHAEL AULI\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 8.0,
+                "description": "\"Michael Auli is an author affiliated with Facebook AI Research.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"FACEBOOK AI RESEARCH\"",
+                "tgt_id": "\"MENLO PARK\"",
+                "weight": 9.0,
+                "description": "\"Facebook AI Research is based in Menlo Park.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"FACEBOOK AI RESEARCH\"",
+                "tgt_id": "\"SEATTLE\"",
+                "weight": 9.0,
+                "description": "\"Facebook AI Research is based in Seattle.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"CLOZE-STYLE WORD RECONSTRUCTION TASK\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The Cloze-style word reconstruction task showed performance gains on the GLUE benchmark.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"CLOZE-STYLE WORD RECONSTRUCTION TASK\"",
+                "tgt_id": "\"NER\"",
+                "weight": 7.0,
+                "description": "\"The Cloze-style word reconstruction task showed state of the art results on NER.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"CLOZE-STYLE WORD RECONSTRUCTION TASK\"",
+                "tgt_id": "\"CONSTITUENCY PARSING\"",
+                "weight": 1.0,
+                "description": "\"The Cloze(\"entity\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            },
+            {
+                "src_id": "\"DEVLIN ET AL.\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 8.0,
+                "description": "\"Devlin et al. introduced the BERT model, which is compared with the authors' model in the paper.\"",
+                "source_id": "chunk-67eb3fcd0b8599eeb07673be2599a910"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-4b3f83319bc6f531992c0907c2ddd16e",
+        "entities": [
+            {
+                "entity_name": "\"QUORA QUESTION PAIRS BENCHMARK (QQP)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The QQP is a benchmark used to evaluate the performance of models in terms of F1 score.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"SEMANTIC TEXTUAL SIMILARITY BENCHMARK (STS-B)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The STS-B is a benchmark that requires predicting a similarity score between 1 and 5 for a sentence pair, reported by the Spearman correlation coefficient.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"MULTI-GENRE NATURAL LANGUAGE INFERENCE (MNLI)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The MNLI is a natural language inference task that evaluates models on matched and mismatched accuracy.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"STANFORD QUESTION ANSWERING DATASET (QNLI)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The QNLI is a question answering dataset used for natural language inference tasks.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"RECOGNIZING TEXTUAL ENTAILMENT (RTE)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The RTE is a task focused on recognizing textual entailment, part of natural language inference.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"GLUE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GLUE is an evaluation benchmark that includes multiple natural language understanding tasks.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"COMMON CRAWL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Common Crawl is the source of training examples for the model, providing paragraphs of arbitrary length.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"CONLL 2003 NAMED ENTITY RECOGNITION (NER)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The CoNLL 2003 NER task involves segmenting and labeling spans of text as Person, Organization, Location, or Miscellaneous.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"PENN TREEBANK CONSTITUENCY PARSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Penn Treebank Constituency Parsing task is focused on evaluating parseval F1 for constituency parsing.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"CER ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cer et al., 2017 refers to the authors of the Semantic Textual Similarity Benchmark (STS-B).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"WILLIAMS ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Williams et al., 2018 refers to the authors of the Multi-Genre Natural Language Inference (MNLI).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"RAJPURKAR ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajpurkar et al., 2016 refers to the authors of the Stanford Question Answering Dataset (QNLI).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"DAGAN ET AL., 2006\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dagan et al., 2006 refers to the authors of the Recognizing Textual Entailment (RTE).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"BAR HAIM ET AL., 2006\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bar Haim et al., 2006 refers to the authors associated with the Recognizing Textual Entailment (RTE).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"CIAMPICCOLO ET AL., 2007\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ciampiccolo et al., 2007 refers to the authors associated with the Recognizing Textual Entailment (RTE).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"BENTIVOGLI ET AL., 2009\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bentivogli et al., 2009 refers to the authors associated with the Recognizing Textual Entailment (RTE).\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al., 2018 refers to the authors of a paper that is compared with the current model's performance.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al., 2018 refers to the authors of the BERT model, which is compared with the current model's performance.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"PHANG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phang et al., 2018 refers to the authors of STILTs, a model compared with the current model's performance.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"KITAEV AND KLEIN, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kitaev and Klein, 2018 refers to the authors of the state-of-the-art architecture used for constituency parsing.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al., 2018 refers to the authors of the NER architecture used in the CoNLL 2003 Named Entity Recognition task.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"BPE MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The BPE model is one of the configurations of the approach, having more parameters than the CNN model.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"CNN MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The CNN model is the base model used in the approach, performing comparably to STILTs in aggregate.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"UNIDIRECTION TRANSFORMER (OPENAI GPT)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The unidirectional transformer (OpenAI GPT) is a model that the current models outperform.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"STILTS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"STILTs is a model that the CNN base model performs as well as in aggregate, but not as well on some sentence-pair tasks.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model that the current models are compared against, showing similar performance to the CNN base model in aggregate.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "entity_name": "\"MATTHEWS CORRELATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Matthews correlation is a metric used in the evaluation of models, represented by the abbreviation mcc.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"QUORA QUESTION PAIRS BENCHMARK (QQP)\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The QQP is one of the tasks included in the GLUE benchmark.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"SEMANTIC TEXTUAL SIMILARITY BENCHMARK (STS-B)\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The STS-B is one of the tasks included in the GLUE benchmark.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"MULTI-GENRE NATURAL LANGUAGE INFERENCE (MNLI)\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The MNLI is one of the tasks included in the GLUE benchmark.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"STANFORD QUESTION ANSWERING DATASET (QNLI)\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The QNLI is one of the tasks included in the GLUE benchmark.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"RECOGNIZING TEXTUAL ENTAILMENT (RTE)\"",
+                "tgt_id": "\"GLUE\"",
+                "weight": 7.0,
+                "description": "\"The RTE is one of the tasks included in the GLUE benchmark.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"CONLL 2003 NAMED ENTITY RECOGNITION (NER)\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 6.0,
+                "description": "\"The NER task uses paragraphs from Common Crawl for training examples.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            },
+            {
+                "src_id": "\"PENN TREEBANK CONSTITUENCY PARSING\"",
+                "tgt_id": "\"COMMON CRAWL\"",
+                "weight": 6.0,
+                "description": "\"The constituency parsing task uses paragraphs from Common Crawl for training examples.\"",
+                "source_id": "chunk-4b3f83319bc6f531992c0907c2ddd16e"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-bfc55b5e8921a166f3672173296a5b45",
+        "entities": [
+            {
+                "entity_name": "\"MELAMUD ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Melamud et al. (2016) is a research group that follows a similar approach to the one described in the text by predicting the center word using LSTMs.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Radford et al. (2018) is a research group that considers only a single data source, BooksCorpus, to pretrain their models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL. (2018)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Devlin et al. (2018) is a research group that considers BooksCorpus and additional Wikipedia data for pretraining their models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL. (2017)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Vaswani et al. (2017) is a research group whose architectural choices are followed in the block structure of the described model, with some differences in layer normalization placement.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"HE ET AL. (2015)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"He et al. (2015) is a research group known for the residual connection method used in the sub-blocks of the model.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"KIM ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Kim et al. (2016) is a research group that introduced the character CNN encoding of input tokens for word-based models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"GRAVE ET AL. (2017)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Grave et al. (2017) is a research group that developed the adaptive softmax method used for the output classifier in word-based models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"BOOKSCORPUS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"BooksCorpus is a data source used for pretraining models, mentioned as a single source by Radford et al. (2018) and in combination with Wikipedia by Devlin et al. (2018).\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Wikipedia is a data source used in combination with BooksCorpus for pretraining models, as mentioned in the context of Devlin et al. (2018).\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"NEWS CRAWL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"News Crawl is a data source where examples are individual sentences used in the training corpora.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"COMMON CRAWL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Common Crawl is a data source where examples are paragraph length used in the training corpora.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"TWO TOWER MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Two tower model represents a probability distribution for a sentence with tokens and consists of two self-attentional towers operating in opposite directions.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"CLOZE MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The cloze model is used to predict a token in a sentence, combining representations from two towers and taking care to exclude information about the current target token.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"BOOKCORPUS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Bookcorpus is an event where paragraph-length examples are used in the training corpora.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"SELF-ATTENTION MODULE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The self-attention module is used to combine forward and backward representations computed by the two towers to predict the ablated word.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"FFN BLOCK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The FFN block is used after the self-attention module to further process the combined representations from the two towers.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"ADAPTIVE SOFTMAX\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Adaptive softmax is used for the output classifier in word-based models, as referenced in the text.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"REGULAR SOFTMAX\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Regular softmax is used for the output classifier in BPE based models, as referenced in the text.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"SAMPLE BOUNDARY MARKERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Sample boundary markers, such as $<s>$, are used to prepend and append sentences in the training process.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"CHARACTER CNN ENCODING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Character CNN encoding is used for word-based models to encode input tokens.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"INPUT EMBEDDINGS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Input embeddings are shared between the two towers in the model.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"MULTI-HEAD SELF-ATTENTION MODULE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The multi-head self-attention module is part of each block in the model, with 16 heads, and masks out subsequent time-steps.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"FEED-FORWARD MODULE (FFN)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The feed-forward module (FFN) is part of each block in the model, following the self-attention module.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "entity_name": "\"FIXED SINUSOIDAL POSITION EMBEDDINGS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Fixed sinusoidal position embeddings are used to encode position in the model.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MELAMUD ET AL. (2016)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 5.0,
+                "description": "\"Melamud et al. (2016) uses a similar approach to the one described in the text, which involves the use of BooksCorpus as a data source.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"RADFORD ET AL. (2018)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 7.0,
+                "description": "\"Radford et al. (2018) considers only BooksCorpus as a data source to pretrain their models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"DEVLIN ET AL. (2018)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 7.0,
+                "description": "\"Devlin et al. (2018) uses BooksCorpus along with Wikipedia as data sources for pretraining their models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"DEVLIN ET AL. (2018)\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 7.0,
+                "description": "\"Devlin et al. (2018) uses Wikipedia in combination with BooksCorpus as data sources for pretraining their models.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"VASWANI ET AL. (2017)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 5.0,
+                "description": "\"Vaswani et al. (2017) is referenced for architectural choices in the model that is pretrained on BooksCorpus among other data sources.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"HE ET AL. (2015)\"",
+                "tgt_id": "\"BOOKSCORPUS\"",
+                "weight": 1.0,
+                "description": "\"He et al. (2015) is referenced for the residual connection method used in the model that(\"entity\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"TWO TOWER MODEL\"",
+                "tgt_id": "\"CLOZE MODEL\"",
+                "weight": 7.0,
+                "description": "\"The Two tower model is used in conjunction with the cloze model to predict tokens in a sentence.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            },
+            {
+                "src_id": "\"SELF-ATTENTION MODULE\"",
+                "tgt_id": "\"FFN BLOCK\"",
+                "weight": 7.0,
+                "description": "\"The self-attention module is followed by an FFN block to combine forward and backward representations.\"",
+                "source_id": "chunk-bfc55b5e8921a166f3672173296a5b45"
+            }
+        ]
+    }
+}

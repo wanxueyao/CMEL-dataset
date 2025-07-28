@@ -1,0 +1,1820 @@
+{
+    "4": {
+        "chunk_key": "chunk-23153a1191bd44e7aee60e63c32cac14",
+        "entities": [
+            {
+                "entity_name": "\"EXTRACTOR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Extractor is a component in the training procedure, responsible for minimizing the loss function L_{e x t} and selecting sentences with high attention.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"ABSTRACTER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Abstracter is another component in the training procedure, responsible for minimizing the loss functions L_{a b s} and L_{c o v}, and for generating the final abstractive summary.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"COVERAGE MECHANISM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coverage Mechanism is a technique used to prevent the abstracter from repeatedly attending to the same place, calculated using a coverage vector and a coverage loss.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"TWO-STAGES TRAINING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Two-stages Training is a training setting where the extractor and abstracter are trained separately, with the extractor's output fed into the abstracter.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"END-TO-END TRAINING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"End-to-end Training is a training setting where the extractor and abstracter are trained together, with the sentence-level attention combined with the word-level attention.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$P_{W}^{FINAL}(\\HAT{\\PMB{\\ALPHA}}^{T})$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$P_{w}^{final}(\\hat{\\pmb{\\alpha}}^{t})$ represents the final probability of word $w$ being decoded, which is a function of the updated word attention $\\hat{\\mathbf{\\alpha}}\\alpha^{t}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$\\HAT{\\MATHBF{\\ALPHA}}\\ALPHA^{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\hat{\\mathbf{\\alpha}}\\alpha^{t}$ is the updated word attention, which is related to the final probability of word $w$ being decoded.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$P^{GEN}(H^{*}(\\HAT{\\PMB{\\ALPHA}}^{T}))$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$p^{gen}(h^{*}(\\hat{\\pmb{\\alpha}}^{t}))$ is a component in the equation for $P_{w}^{final}(\\hat{\\pmb{\\alpha}}^{t})$, representing the probability of generation.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$P_{W}^{VOCAB}(H^{*}(\\HAT{\\PMB{\\ALPHA}}^{T}))$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$P_{w}^{vocab}(h^{*}(\\hat{\\pmb{\\alpha}}^{t}))$ is the probability of a word $w$ being in the fixed vocabulary, used in the calculation of $P_{w}^{final}(\\hat{\\pmb{\\alpha}}^{t})$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"OUT-OF-VOCABULARY (OOV) WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Out-of-Vocabulary (OOV) Words are words not in the fixed vocabulary that can be decoded due to the probability distribution $P_{w}^{final}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$L_{ABS}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{abs}$ is the loss function used to train the abstracter, aiming to minimize the negative log-likelihood of the final probabilities.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$\\HAT{Y}^{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\hat{y}^{t}$ represents the $t^{th}$ token in the reference abstractive summary, used in the calculation of $L_{abs}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"COVERAGE VECTOR $\\MATHBF{C}^{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coverage Vector $\\mathbf{c}^{t}$ indicates how much attention has been paid to every input word so far and is used to prevent repetition in attention.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"COVERAGE LOSS $L_{COV}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coverage Loss $L_{cov}$ is calculated to penalize repetition in updated word attention $\\hat{\\mathbf{\\alpha}}\\alpha^{t}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$L_{E2E}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{e2e}$ is the final loss function for end-to-end training, combining multiple loss functions with weights $\\lambda_{1}, \\lambda_{2}, \\lambda_{3}, \\lambda_{4}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{1}, \\LAMBDA_{2}, \\LAMBDA_{3}, \\LAMBDA_{4}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\lambda_{1}, \\lambda_{2}, \\lambda_{3}, \\lambda_{4}$ are hyper-parameters used to weight the different loss functions in the end-to-end training's final loss function $L_{e2e}$.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$L_{EXT}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{ext}$ is the loss function used to pre-train the extractor, minimizing it to improve the extractor's performance.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "entity_name": "\"$L_{INC}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{inc}$ is a loss function included in the end-to-end training to ensure the extractor does not ignore certain parts of the input.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"EXTRACTOR\"",
+                "tgt_id": "\"TWO-STAGES TRAINING\"",
+                "weight": 7.0,
+                "description": "\"The Extractor is used in the Two-stages Training setting to select sentences with high attention.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "src_id": "\"ABSTRACTER\"",
+                "tgt_id": "\"TWO-STAGES TRAINING\"",
+                "weight": 7.0,
+                "description": "\"The Abstracter is used in the Two-stages Training setting to generate summaries from the sentences selected by the Extractor.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "src_id": "\"EXTRACTOR\"",
+                "tgt_id": "\"END-TO-END TRAINING\"",
+                "weight": 8.0,
+                "description": "\"The Extractor is part of the End-to-end Training process, where its output is combined with the Abstracter's output.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "src_id": "\"ABSTRACTER\"",
+                "tgt_id": "\"END-TO-END TRAINING\"",
+                "weight": 8.0,
+                "description": "\"The Abstracter is part of the End-to-end Training process, where it works together with the Extractor to minimize multiple loss functions.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            },
+            {
+                "src_id": "\"COVERAGE MECHANISM\"",
+                "tgt_id": "\"ABSTRACTER\"",
+                "weight": 9.0,
+                "description": "\"The Coverage Mechanism is used by the Abstracter to prevent repetition in attention and to calculate word attention.\"",
+                "source_id": "chunk-23153a1191bd44e7aee60e63c32cac14"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f",
+        "entities": [
+            {
+                "entity_name": "\"CHEETAH MOBILE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cheetah Mobile is an organization that provided support for the research mentioned in the text.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"NATIONAL TAIWAN UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"National Taiwan University is an organization that supported the research discussed in the text.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"MOST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MOST refers to an organization that provided funding for the research, as indicated by the grant numbers mentioned.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"YUN-ZHU SONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yun-Zhu Song is an individual acknowledged for assistance with a survey and experiment related to abstractive summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"CNN/DAILY MAIL DATASET\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CNN/Daily Mail dataset is a collection of articles used for evaluating the performance of summarization models.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ROUGE-RECALL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE-recall is an evaluation event where the model's performance is measured against a set of reference summaries.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ROUGE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE is an evaluation metric used to assess the quality of text summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"DZMITRY BAHDANAU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dzmitry Bahdanau is an author who contributed to the field of neural machine translation.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"KYUNGHYUN CHO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kyunghyun Cho is an author who has worked on neural machine translation.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"YOSHUA BENGIO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoshua Bengio is an author known for his work in the field of neural machine translation.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"QIAN CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qian Chen is an author who has contributed to research on distraction-based neural networks for modeling documents.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"XIAODAN ZHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaodan Zhu is an author who has worked on distraction-based neural networks for modeling documents.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ZHENHUA LING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhenhua Ling is an author who contributed to the research on distraction-based neural networks.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"SI WEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Si Wei is an author who has worked on distraction-based neural networks for modeling documents.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"HUI JIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hui Jiang is an author who contributed to the research on distraction-based neural networks.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"JIANPENG CHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianpeng Cheng is an author known for his work on neural summarization by extracting sentences and words.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"MIRELLA LAPATA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mirella Lapata is an author who has worked on neural summarization by extracting sentences and words.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"JOHN DUCHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Duchi is an author who has contributed to the field of adaptive subgradient methods for online learning and stochastic optimization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ELAD HAZAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Elad Hazan is an author known for his work on adaptive subgradient methods.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"YORAM SINGER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoram Singer is an author who has worked on adaptive subgradient methods for online learning and stochastic optimization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ANGELA FAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Angela Fan is an author who has contributed to the field of controllable abstractive summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"DAVID GRANGIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Grangier is an author known for his work on controllable abstractive summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"MICHAEL AULI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Auli is an author who has worked on controllable abstractive summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"JIATAO GU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiatao Gu is an author who contributed to the research on incorporating copying mechanisms in sequence-to-sequence learning.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ZHENGDONG LU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhengdong Lu is an author known for his work on incorporating copying mechanisms in sequence-to-sequence learning.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"HANG LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hang Li is an author who has worked on incorporating copying mechanisms in sequence-to-sequence learning.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"VICTOR OK LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Victor OK Li is an author who contributed to the research on incorporating copying mechanisms.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"ALEXANDER M RUSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander M Rush is an author known for his work on a neural attention model for abstractive sentence summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "entity_name": "\"SUMIT CHOPRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sumit Chopra is an author who has worked on a neural attention model for abstractive sentence summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CHEETAH MOBILE\"",
+                "tgt_id": "\"YUN-ZHU SONG\"",
+                "weight": 4.0,
+                "description": "\"Cheetah Mobile is an organization that supported the research in which Yun-Zhu Song participated.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "src_id": "\"NATIONAL TAIWAN UNIVERSITY\"",
+                "tgt_id": "\"YUN-ZHU SONG\"",
+                "weight": 4.0,
+                "description": "\"Yun-Zhu Song received support from National Taiwan University for the survey and experiment on abstractive summarization.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "src_id": "\"MOST\"",
+                "tgt_id": "\"YUN-ZHU SONG\"",
+                "weight": 4.0,
+                "description": "\"MOST provided funding for the research that involved Yun-Zhu Song's assistance.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL DATASET\"",
+                "tgt_id": "\"ROUGE-RECALL\"",
+                "weight": 6.0,
+                "description": "\"The CNN/Daily Mail dataset was used to evaluate the model's performance in ROUGE-recall.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL DATASET\"",
+                "tgt_id": "\"ROUGE\"",
+                "weight": 6.0,
+                "description": "\"The CNN/Daily Mail dataset was used for the ROUGE evaluation metric.\"",
+                "source_id": "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-49ce552ebe533f90b8b307c591f92a76",
+        "entities": [
+            {
+                "entity_name": "\"ROUGE-L RECALL SCORE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The ROUGE-L recall score is used to measure the informativity of each sentence in the article for the purpose of generating an abstractive summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Researchers involved in the creation of the CNN/Daily Mail dataset for article-level summarization and the proposal of hierarchical attention mechanisms. They also developed a state-of-the-art extractive summarization model.",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"POINTER-GENERATOR NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The pointer-generator network, proposed by See et al. (2017), is a sequence-to-sequence attentional model that can generate summaries by copying words from the article or generating words from a fixed vocabulary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"SEE ET AL. (2017)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"See et al. (2017) is the source of the pointer-generator network model, which is used in combination with the extractor to generate summaries word-by-word.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"ABSTRACTER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Abstracter is the second part of the model that reads the article and generates a summary, utilizing a decoding mechanism and word attention.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"GROUND-TRUTH LABEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Ground-truth label refers to the labels ${\\bf g}=\\{g_{n}\\}_{n}$ obtained by measuring informativity of sentences to generate an abstractive summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"SIGMOID CROSS ENTROPY LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sigmoid cross entropy loss is the function used to calculate the loss in the model, represented by the equation $L_{e x t}$.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"EXTRACTOR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Extractor is the part of the model designed to extract sentences with high informativity to facilitate abstractive summarization.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"INFORMATIVITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Informativity refers to the quality of sentences containing information needed to generate an abstractive summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"ARTICLE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The article is the input for the model, from which sentences are extracted and a summary is generated.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"SUMMARY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Summary is the output generated by the model, abstractively created from the input article based on informativity and attention mechanisms.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"WORD ATTENTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word attention is a mechanism used in the abstracter to generate context vectors and update the final word distribution for summary generation.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"DECODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Decoder is the component of the unidirectional LSTM that generates the summary based on the context vector and word attention.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"ENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Encoder is the component of the bidirectional LSTM that encodes the input words for the pointer-generator network.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"CONTEXT VECTOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Context vector is a function of the updated word attention and is used in the decoding process to generate the summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"FINAL WORD DISTRIBUTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Final word distribution is the probability of each word being decoded, influenced by the updated word attention.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"COPYING MECHANISM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Copying mechanism is part of the pointer-generator network that allows the model to copy words directly from the article when generating the summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "entity_name": "\"FIXED VOCABULARY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Fixed vocabulary refers to the set of words from which the model can generate words for the summary, aside from copying from the article.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ROUGE-L RECALL SCORE\"",
+                "tgt_id": "\"NALLAPATI ET AL.\"",
+                "weight": 5.0,
+                "description": "\"The ROUGE-L recall score is contrasted with the ROUGE F-1 score used by Nallapati et al. (2017) for different purposes in summary generation.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"POINTER-GENERATOR NETWORK\"",
+                "tgt_id": "\"SEE ET AL. (2017)\"",
+                "weight": 9.0,
+                "description": "\"The pointer-generator network is proposed by See et al. (2017) and is integral to the summary generation process described in the text.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"ABSTRACTER\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 8.0,
+                "description": "\"Abstracter works in conjunction with the Extractor, using its output to generate a summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"GROUND-TRUTH LABEL\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 7.0,
+                "description": "\"Ground-truth labels are used by the Extractor to determine which sentences to select for summary generation.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"SIGMOID CROSS ENTROPY LOSS\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 6.0,
+                "description": "\"Sigmoid cross entropy loss is the function that the Extractor minimizes to improve its performance in extracting informative sentences.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"INFORMATIVITY\"",
+                "tgt_id": "\"GROUND-TRUTH LABEL\"",
+                "weight": 7.0,
+                "description": "\"Informativity is the criterion used to obtain ground-truth labels, indicating the importance of sentences for summary generation.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"ARTICLE\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 9.0,
+                "description": "\"The Article is the input for the Extractor, from which it extracts sentences based on informativity.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"ARTICLE\"",
+                "tgt_id": "\"ABSTRACTER\"",
+                "weight": 9.0,
+                "description": "\"The Article is read by the Abstracter to generate a summary.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            },
+            {
+                "src_id": "\"SUMMARY\"",
+                "tgt_id": "\"ABSTRACTER\"",
+                "weight": 10.0,
+                "description": "\"The Summary is the output generated by the Abstracter after reading and processing the article.\"",
+                "source_id": "chunk-49ce552ebe533f90b8b307c591f92a76"
+            }
+        ]
+    },
+    "2": {
+        "chunk_key": "chunk-ee09fc2a680ceacea336fecadc98ee8f",
+        "entities": [
+            {
+                "entity_name": "\"NALLAPATI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Researchers involved in the creation of the CNN/Daily Mail dataset for article-level summarization and the proposal of hierarchical attention mechanisms. They also developed a state-of-the-art extractive summarization model.",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vaswani et al. are cited as evidence for the importance of the attention mechanism in NLP tasks.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"EXTRACTOR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Extractor is a model inspired by Nallapati et al., designed to obtain a short list of important sentences for the abstractor.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"ABSTRACTER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Abstracter is a model that generates the summary text and is designed to work in conjunction with the Extractor.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY LOSS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inconsistency Loss is a novel loss function designed to encourage consistency between sentence-level and word-level attentions during training.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"ARCHITECTURE OF THE EXTRACTOR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Architecture of the Extractor is described in the text, featuring a hierarchical bidirectional GRU and a classification layer.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"ROUGE SCORES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"ROUGE scores are used to measure the performance of the sentence-level attention $\\beta_{n}$ from the extractor.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$\\BETA_{N}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\beta_{n}$ represents the probability of the nth sentence being extracted into the summary.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$\\ALPHA_{M}^{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\alpha_{m}^{t}$ represents the word-level attention dynamically computed while generating the tth word in the summary.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$\\HAT{\\ALPHA}_{M}^{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\hat{\\alpha}_{m}^{t}$ is the updated word attention after combining sentence-level and word-level attentions.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$L_{I N C}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{i n c}$ is the inconsistency loss designed to encourage consistency between sentence-level and word-level attentions.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$L_{E X T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{e x t}$ is the loss function used for training the extractor.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$L_{A B S}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{a b s}$ is one of the loss functions used for training the abstracter.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$L_{C O V}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$L_{c o v}$ is another loss function used for training the abstracter.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$G_{N}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$g_{n}$ is the ground-truth label for the nth sentence in the extractor's loss function.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$N$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$N$ represents the total number of sentences in the extractor's loss function.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$T$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$T$ is the number of words in the summary in the inconsistency loss function.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$\\KAPPA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\kappa$ is the set of top K attended words in the inconsistency loss function.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "entity_name": "\"$K$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$K$ represents the number of top attended words considered in the inconsistency loss function.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"NALLAPATI ET AL.\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 7.0,
+                "description": "\"Nallapati et al.'s work is the inspiration for the Extractor model.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"VASWANI ET AL.\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 6.0,
+                "description": "\"Vaswani et al.'s evidence supports the importance of the attention mechanism utilized in the Extractor.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"EXTRACTOR\"",
+                "tgt_id": "\"ABSTRACTER\"",
+                "weight": 8.0,
+                "description": "\"The Extractor works in conjunction with the Abstracter to facilitate the summarization process.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"INCONSISTENCY LOSS\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 9.0,
+                "description": "\"The Inconsistency Loss is designed to encourage consistency between the Extractor's sentence-level attention and the Abstracter's word-level attention.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"ARCHITECTURE OF THE EXTRACTOR\"",
+                "tgt_id": "\"EXTRACTOR\"",
+                "weight": 10.0,
+                "description": "\"The Architecture of the Extractor describes the structure and components of the Extractor model.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"ROUGE SCORES\"",
+                "tgt_id": "\"$\\BETA_{N}$\"",
+                "weight": 7.0,
+                "description": "\"ROUGE scores are used to measure the performance of the sentence-level attention $\\beta_{n}$.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"$\\BETA_{N}$\"",
+                "tgt_id": "\"$\\HAT{\\ALPHA}_{M}^{T}$\"",
+                "weight": 8.0,
+                "description": "\"The sentence-level attention $\\beta_{n}$ modulates the word-level attention $\\hat{\\alpha}_{m}^{t}$.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"$\\ALPHA_{M}^{T}$\"",
+                "tgt_id": "\"$\\HAT{\\ALPHA}_{M}^{T}$\"",
+                "weight": 9.0,
+                "description": "\"The word-level attention $\\alpha_{m}^{t}$ is updated to $\\hat{\\alpha}_{m}^{t}$ through multiplication with $\\beta_{n}$.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"$L_{I N C}$\"",
+                "tgt_id": "\"$\\ALPHA_{M}^{T}$\"",
+                "weight": 7.0,
+                "description": "\"The inconsistency loss $L_{i n c}$ encourages consistency between sentence-level attention and word-level attention $\\alpha_{m}^{t}$.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            },
+            {
+                "src_id": "\"$L_{I N C}$\"",
+                "tgt_id": "\"$\\BETA_{N}$\"",
+                "weight": 7.0,
+                "description": "\"The inconsistency loss $L_{i n c}$ encourages consistency between word-level attention $\\alpha_{m}^{t}$ and sentence-level attention $\\beta_{n}$.\"",
+                "source_id": "chunk-ee09fc2a680ceacea336fecadc98ee8f"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-d70cc97368a6b60e1a3179333970577d",
+        "entities": [
+            {
+                "entity_name": "\"CNN/DAILY MAIL DATASET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The CNN/Daily Mail dataset is an event in the field of natural language processing, used for evaluating models on news story summarization.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al., 2015 are researchers who contributed to the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL., 2016B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nallapati et al., 2016b are researchers who contributed to the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"SEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"See et al., 2017 are researchers who contributed to the CNN/Daily Mail dataset and whose work is followed in the current study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"DUCHI ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Duchi et al., 2011 are researchers who developed the Adagrad optimizer used in the current study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nallapati et al., 2017 are researchers whose work on setting the hidden dimension is followed in the current study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"POINTER-GENERATOR MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The pointer-generator model is a baseline model used for comparison in the evaluation of the current study's abstractive summarization model.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN is a news organization that is a source of news stories in the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"DAILY MAIL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Daily Mail is a news organization that is a source of news stories in the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"ADAGRAD OPTIMIZER\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Adagrad optimizer is a technology used in the training process of the models in the study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"ROUGE RECALL SCORES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE recall scores are used as an evaluation metric for the extractor's performance in the study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"ROUGE F-1 SCORES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE F-1 scores are used as an evaluation metric for the generated abstractive summaries in the study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"END2END\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"End-to-end training is an event in the training process where the extractor and abstracter are trained together.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"PRE-TRAINED\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Pre-training is an event in the training process where the extractor and abstracter are trained separately before end-to-end training.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"TWO-STAGES MODEL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Two-stages training is an event in the training process where the abstracter is trained after the extractor.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY LOSS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inconsistency loss is an event in the training process where the model is trained to minimize inconsistencies.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"L_{EXT}\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"L_{ext} is a loss function used during end-to-end training to give more weight to the extractor.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "entity_name": "\"L_{INC}\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"L_{inc} is a loss function used during end-to-end training to compute the similarity between sentences.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CNN/DAILY MAIL DATASET\"",
+                "tgt_id": "\"HERMANN ET AL., 2015\"",
+                "weight": 6.0,
+                "description": "\"The CNN/Daily Mail dataset was contributed to by Hermann et al., 2015.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL DATASET\"",
+                "tgt_id": "\"NALLAPATI ET AL., 2016B\"",
+                "weight": 6.0,
+                "description": "\"The CNN/Daily Mail dataset was contributed to by Nallapati et al., 2016b.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL DATASET\"",
+                "tgt_id": "\"SEE ET AL., 2017\"",
+                "weight": 7.0,
+                "description": "\"The CNN/Daily Mail dataset was contributed to by See et al., 2017, and their work is followed in the current study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"ADAGRAD OPTIMIZER\"",
+                "tgt_id": "\"DUCHI ET AL., 2011\"",
+                "weight": 7.0,
+                "description": "\"The Adagrad optimizer was developed by Duchi et al., 2011 and is used in the current study.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"POINTER-GENERATOR MODEL\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 5.0,
+                "description": "\"The pointer-generator model is a baseline model used for comparison in the evaluation of the current study's model on the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"CNN\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 7.0,
+                "description": "\"CNN is a contributing news organization to the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            },
+            {
+                "src_id": "\"DAILY MAIL\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 7.0,
+                "description": "\"Daily Mail is a contributing news organization to the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-d70cc97368a6b60e1a3179333970577d"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-33370358ad2e323a05afa749363aab02",
+        "entities": [
+            {
+                "entity_name": "\"CNN/DAILY MAIL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN/Daily Mail is an organization that provides a test set for evaluating abstractive summarization models.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL., 2016B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nallapati et al., 2016b refers to a group of researchers who developed a state-of-the-art abstractive summarization model.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"PAULUS ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Paulus et al., 2017 refers to a group of researchers who developed a deep reinforcement model for abstractive summarization.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"SEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"See et al., 2017 refers to a group of researchers who developed a pointer-generator model for abstractive summarization.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"LIU ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al., 2017 refers to a group of researchers who developed a generative adversarial network model for abstractive summarization.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK (MTURK)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Mechanical Turk (MTurk) is a crowdsourcing platform used for human evaluation of the summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"ROUGE-1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE-1 is an evaluation metric used to assess the quality of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"ROUGE-2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE-2 is an evaluation metric used to assess the quality of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"ROUGE-L F-1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE-L F-1 is an evaluation metric used to assess the quality of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY LOSS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inconsistency Loss is a technique used to train the model and reduce inconsistency in generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"TWO-STAGES MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Two-stages model is a system that outperforms the pointer-generator model on ROUGE-1 and ROUGE-2 scores.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"END-TO-END MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The End-to-end model is trained with inconsistency loss and exceeds the lead-3 baseline in performance.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"LEAD-3 BASELINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Lead-3 baseline uses the first three article sentences as the summary and serves as a strong comparison for other models.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY RATE \\( R_{INC} \\)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inconsistency rate \\( R_{inc} \\) is a metric designed to measure inconsistency in generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 1 is referenced in the text, likely containing data related to the test set of the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 2 contains ROUGE F-1 scores of the generated abstractive summaries on the CNN/Daily Mail test set.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 compares human evaluation results with state-of-the-art methods.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"TABLE 4\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 4 shows the inconsistency rate of the end-to-end trained model with and without inconsistency loss.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"FIGURE 5\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 5 visualizes the consistency between sentence and word attentions on the original article.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Abstractive Summarization is the process of generating summaries that may contain words and sequences not in the original article.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"HUMAN EVALUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Evaluation is the process of assessing the quality of summaries through human judgment on aspects like informativity, conciseness, and readability.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "entity_name": "\"STATE-OF-THE-ART ABSTRACTIVE SUMMARIZATION MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"State-of-the-art abstractive summarization models are compared with the two-stage and end-to-end models in terms of ROUGE scores.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CNN/DAILY MAIL\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 7.0,
+                "description": "\"The CNN/Daily Mail test set is used to evaluate the ROUGE-1 scores of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL\"",
+                "tgt_id": "\"ROUGE-2\"",
+                "weight": 7.0,
+                "description": "\"The CNN/Daily Mail test set is used to evaluate the ROUGE-2 scores of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"CNN/DAILY MAIL\"",
+                "tgt_id": "\"ROUGE-L F-1\"",
+                "weight": 7.0,
+                "description": "\"The CNN/Daily Mail test set is used to evaluate the ROUGE-L F-1 scores of generated summaries.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"NALLAPATI ET AL., 2016B\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 6.0,
+                "description": "\"Nallapati et al., 2016b's model is compared with others using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"PAULUS ET AL., 2017\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 6.0,
+                "description": "\"Paulus et al., 2017's model is compared with others using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"SEE ET AL., 2017\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 6.0,
+                "description": "\"See et al., 2017's model is compared with others using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"LIU ET AL., 2017\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 6.0,
+                "description": "\"Liu et al., 2017's model is compared with others using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"AMAZON MECHANICAL TURK (MTURK)\"",
+                "tgt_id": "\"INCONSISTENCY LOSS\"",
+                "weight": 7.0,
+                "description": "\"Amazon Mechanical Turk (MTurk) is used for human evaluation to assess the effectiveness of Inconsistency Loss.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"TWO-STAGES MODEL\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 7.0,
+                "description": "\"The Two-stages model is evaluated using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"TWO-STAGES MODEL\"",
+                "tgt_id": "\"ROUGE-2\"",
+                "weight": 7.0,
+                "description": "\"The Two-stages model is evaluated using the ROUGE-2 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"END-TO-END MODEL\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 7.0,
+                "description": "\"The End-to-end model is evaluated using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"END-TO-END MODEL\"",
+                "tgt_id": "\"ROUGE-2\"",
+                "weight": 7.0,
+                "description": "\"The End-to-end model is evaluated using the ROUGE-2 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"LEAD-3 BASELINE\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 7.0,
+                "description": "\"The Lead-3 baseline is compared with other models using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"LEAD-3 BASELINE\"",
+                "tgt_id": "\"ROUGE-2\"",
+                "weight": 7.0,
+                "description": "\"The Lead-3 baseline is compared with other models using the ROUGE-2 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"INCONSISTENCY RATE \\( R_{INC} \\)\"",
+                "tgt_id": "\"END-TO-END MODEL\"",
+                "weight": 8.0,
+                "description": "\"The Inconsistency rate \\( R_{inc} \\) is used to measure the performance of the End-to-end model.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            },
+            {
+                "src_id": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "tgt_id": "\"ROUGE-1\"",
+                "weight": 7.0,
+                "description": "\"Abstractive Summarization models are evaluated using the ROUGE-1 metric.\"",
+                "source_id": "chunk-33370358ad2e323a05afa749363aab02"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65",
+        "entities": [
+            {
+                "entity_name": "\"CNN/DAILY MAIL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN/Daily Mail is an organization that provides a dataset used for evaluating the performance of summarization models.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"DEEPMIND\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DeepMind is an organization that has a question-answering dataset adapted for article-level summarization by Nallapati et al.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Researchers involved in the creation of the CNN/Daily Mail dataset for article-level summarization and the proposal of hierarchical attention mechanisms. They also developed a state-of-the-art extractive summarization model.",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"SEE ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"See et al. (2017) are researchers who developed a state-of-the-art abstractive summarization model.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"RUSH ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rush et al. (2015) are researchers who first introduced the abstractive summarization task and used attention-based encoders.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al. (2015) are researchers associated with the DeepMind question-answering dataset.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"ROUGE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ROUGE is a metric used to evaluate the performance of summarization models, particularly in terms of informativity and readability.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"UNIFIED MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Unified Model refers to the proposed model in the text that combines sentence-level and word-level attentions for both extractive and abstractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"EXTRACTIVE SUMMARIZATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Extractive Summarization is an approach where sentences are selected based on vector representations to form a summary.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Abstractive Summarization is an approach where a summary is generated by reading the input text and producing a new summary.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY LOSS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inconsistency Loss is a novel loss function proposed to ensure the unified model is mutually beneficial to both extractive and abstractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"YIN AND PEI (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yin and Pei (2015) are researchers who also used neural networks for extractive summarization based on vector representations of sentences.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"CHENG AND LAPATA (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cheng and Lapata (2016) are researchers who used recurrent neural networks for extractive summarization to get sentence and article representations.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"NARAYAN ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Narayan et al. (2017) are researchers who utilized side information like image captions and titles to assist the sentence classifier in extractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"YASUNAGA ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yasunaga et al. (2017) are researchers who combined recurrent neural networks with graph convolutional networks to compute sentence salience.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"MIAO AND BLUNSOM (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miao and Blunsom (2016) are researchers who used a variational auto-encoder for abstractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"RANZATO ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ranzato et al. (2015) are researchers who changed the traditional training method to directly optimize evaluation metrics like BLEU and ROUGE for summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"GU ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gu et al. (2016) are researchers who incorporated pointer networks into their models to handle out-of-vocabulary words in summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"VINYALS ET AL. (2015)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vinyals et al. (2015) are researchers associated with the development of pointer networks, which are used in summarization models to deal with out-of-vocabulary words.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"CHEN ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al. (2016) are researchers who restrained their models from attending to the same word to reduce repeated phrases in generated summaries.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"PAULUS ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Paulus et al. (2017) are researchers who used policy gradient on summarization and noted that high ROUGE scores might still lead to low human evaluation scores.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"FAN ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fan et al. (2017) are researchers who applied convolutional sequence-to-sequence models and designed new tasks for summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"LIU ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al. (2017) are researchers who achieved high readability scores on human evaluation using generative adversarial networks for summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"BAHDANAU ET AL. (2014)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bahdanau et al. (2014) are researchers who first proposed the attention mechanism, which was later adopted in various summarization models.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "entity_name": "\"YANG ET AL. (2016)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang et al. (2016) are researchers who proposed a hierarchical attention mechanism for document classification, influencing subsequent work in summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CNN/DAILY MAIL\"",
+                "tgt_id": "\"ROUGE\"",
+                "weight": 7.0,
+                "description": "\"The ROUGE scores are used to evaluate the performance of summarization models on the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"NALLAPATI ET AL.\"",
+                "tgt_id": "\"CNN/DAILY MAIL\"",
+                "weight": 9.0,
+                "description": "\"Nallapati et al. (2016b) created the CNN/Daily Mail dataset for article-level summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"NALLAPATI ET AL.\"",
+                "tgt_id": "\"EXTRACTIVE SUMMARIZATION\"",
+                "weight": 8.0,
+                "description": "\"Nallapati et al. (2017) developed a state-of-the-art extractive summarization model.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"SEE ET AL. (2017)\"",
+                "tgt_id": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "weight": 8.0,
+                "description": "\"See et al. (2017) developed a state-of-the-art abstractive summarization model.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"UNIFIED MODEL\"",
+                "tgt_id": "\"EXTRACTIVE SUMMARIZATION\"",
+                "weight": 8.0,
+                "description": "\"The Unified Model combines the strength of state-of-the-art extractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"UNIFIED MODEL\"",
+                "tgt_id": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "weight": 8.0,
+                "description": "\"The Unified Model combines the strength of state-of-the-art abstractive summarization.\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            },
+            {
+                "src_id": "\"UNIFIED MODEL\"",
+                "tgt_id": "\"INCONSISTENCY LOSS\"",
+                "weight": 1.0,
+                "description": "\"The Unified Model uses the Inconsistency Loss function to enhance cooperation between extractive and abstractive models.\"<(\"entity\"",
+                "source_id": "chunk-1fb531dbc09f8fa236ca5aca4b6abf65"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f",
+        "entities": [
+            {
+                "entity_name": "\"WAN-TING HSU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wan-Ting Hsu is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"CHIEH-KAI LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chieh-Kai Lin is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"MING-YING LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Ying Lee is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"KERUI MIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kerui Min is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"JING TANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jing Tang is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"MIN SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Min Sun is one of the authors of the paper on a unified model for extractive and abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"NATIONAL TSING HUA UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"National Tsing Hua University is the institution where some of the authors of the paper are affiliated.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"CHEETAH MOBILE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cheetah Mobile is the organization where some of the authors of the paper are affiliated.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"CNN/DAILY MAIL DATASET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CNN/Daily Mail dataset is used in the paper to evaluate the performance of the unified summarization model.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"ABSTRACTIVE SUMMARIZATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Abstractive Summarization is a method that can generate novel words and phrases not copied from the source text.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"UNIFIED MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Unified Model combines sentence-level and word-level attentions to leverage both extractive and abstractive summarization approaches.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"INCONSISTENCY LOSS FUNCTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Inconsistency Loss Function is a novel function introduced to penalize the inconsistency between sentence-level and word-level attentions.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"ROUGE SCORES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"ROUGE scores are used to evaluate the quality of the summaries produced by the extractive, abstractive, and unified models.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"ATTENTIONAL ENCODER-DECODER MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attentional Encoder-Decoder Model is a neural network model used in abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"POINTER-GENERATOR MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pointer-Generator Model is a model that can copy words from the source text and generate unseen words.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"LEAD-3 BASELINE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Lead-3 Baseline is a method of selecting the first three sentences for summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"CHENG AND LAPATA, 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cheng and Lapata, 2016 is a reference to earlier work on extractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL., 2016A, 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Nallapati et al., 2016a, 2017 are references to earlier works on extractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"NARAYAN ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Narayan et al., 2017 is a reference to earlier work on extractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"YASUNAGA ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Yasunaga et al., 2017 is a reference to earlier work on extractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"NALLAPATI ET AL., 2016B\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Nallapati et al., 2016b is a reference to earlier work on abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"SEE ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"See et al., 2017 is a reference to earlier work on abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"PAULUS ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Paulus et al., 2017 is a reference to earlier work on abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"FAN ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Fan et al., 2017 is a reference to earlier work on abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"LIU ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Liu et al., 2017 is a reference to earlier work on abstractive summarization.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "entity_name": "\"BAHDANAU ET AL., 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Bahdanau et al., 2014 is a reference to the work on the attentional encoder-decoder model.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WAN-TING HSU\"",
+                "tgt_id": "\"NATIONAL TSING HUA UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Wan-Ting Hsu is affiliated with National Tsing Hua University.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"CHIEH-KAI LIN\"",
+                "tgt_id": "\"NATIONAL TSING HUA UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Chieh-Kai Lin is affiliated with National Tsing Hua University.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"MING-YING LEE\"",
+                "tgt_id": "\"NATIONAL TSING HUA UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Ming-Ying Lee is affiliated with National Tsing Hua University.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"KERUI MIN\"",
+                "tgt_id": "\"CHEETAH MOBILE\"",
+                "weight": 7.0,
+                "description": "\"Kerui Min is affiliated with Cheetah Mobile.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"JING TANG\"",
+                "tgt_id": "\"CHEETAH MOBILE\"",
+                "weight": 7.0,
+                "description": "\"Jing Tang is affiliated with Cheetah Mobile.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"MIN SUN\"",
+                "tgt_id": "\"NATIONAL TSING HUA UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Min Sun is affiliated with National Tsing Hua University.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"WAN-TING HSU\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 6.0,
+                "description": "\"Wan-Ting Hsu is involved in the research using the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"CHIEH-KAI LIN\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 6.0,
+                "description": "\"Chieh-Kai Lin is involved in the research using the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"MING-YING LEE\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 6.0,
+                "description": "\"Ming-Ying Lee is involved in the research using the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"KERUI MIN\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 6.0,
+                "description": "\"Kerui Min is involved in the research using the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            },
+            {
+                "src_id": "\"JING TANG\"",
+                "tgt_id": "\"CNN/DAILY MAIL DATASET\"",
+                "weight": 6.0,
+                "description": "\"Jing Tang is involved in the research using the CNN/Daily Mail dataset.\"",
+                "source_id": "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0",
+        "entities": [
+            {
+                "entity_name": "\"2016 CONFERENCE OF THE NORTH AMERICAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies is an event where academic papers on computational linguistics and human language technologies are presented.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"MICHIHIRO YASUNAGA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michihiro Yasunaga is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"RUI ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rui Zhang is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"KSHITIJH MEELU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kshitijh Meelu is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"AYUSH PAREEK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ayush Pareek is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"KRISHNAN SRINIVASAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Krishnan Srinivasan is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"DRAGOMIR RADEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dragomir Radev is an author of a paper presented at the 2016 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"21ST CONFERENCE ON COMPUTATIONAL NATURAL LANGUAGE LEARNING (CONLL 2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 21st Conference on Computational Natural Language Learning (CoNLL 2017) is an event focused on computational natural language learning.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"WENPENG YIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wenpeng Yin is an author of a paper presented at the 21st Conference on Computational Natural Language Learning (CoNLL 2017).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"YULONG PEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yulong Pei is an author of a paper presented at the 21st Conference on Computational Natural Language Learning (CoNLL 2017).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"24TH INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 24th International Joint Conference on Artificial Intelligence is an event where papers on artificial intelligence are presented.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"KARL MORITZ HERMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karl Moritz Hermann is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"TOMAS KOCISKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomas Kocisky is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"EDWARD GREFENSTETTE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edward Grefenstette is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"LASSE ESPEHOLT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lasse Espeholt is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"WILL KAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Will Kay is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"MUSTAFA SULEYMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mustafa Suleyman is an author of a paper presented at the 24th International Joint Conference on Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"PHIL BLUNSOM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phil Blunsom is an author(\"entity\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"MIKAEL KA˚GEBA¨CK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mikael Ka˚geba¨ck is an author of a paper presented at the 2nd Workshop on Continuous Vector Space Models and their Compositionality (CVSC).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"OLOF MOGREN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Olof Mogren is an author of a paper presented at the 2nd Workshop on Continuous Vector Space Models and their Compositionality (CVSC).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"NINA TAHMASEBI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nina Tahmasebi is an author of a paper presented at the 2nd Workshop on Continuous Vector Space Models and their Compositionality (CVSC).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"DEVDATT DUBHASHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devdatt Dubhashi is an author of a paper presented at the 2nd Workshop on Continuous Vector Space Models and their Compositionality (CVSC).\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"CHIN-YEW LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chin-Yew Lin is an author of a paper discussing ROUGE, a package for automatic evaluation of summaries.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"ROUGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ROUGE is a package for automatic evaluation of summaries, created by Chin-Yew Lin.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"LINQING LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Linqing Liu is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"YAO LU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yao Lu is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"MIN YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Min Yang is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"QIANG QU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qiang Qu is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"JIA ZHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jia Zhu is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"HONGYAN LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hongyan Li is an author of a paper presented at the 2018 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"YISHU MIAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yishu Miao is an author of a paper presented at the 2016 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"2016 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2016 Conference on Empirical Methods in Natural Language Processing is an event focused on empirical methods in natural language processing.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"RAMESH NALLAPATI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ramesh Nallapati is an author of multiple papers on text summarization and neural network models.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"FEIFEI ZHAI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Feifei Zhai is an author of a paper presented at the 2017 Association for the Advancement of Artificial Intelligence.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"BOWEN ZHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bowen Zhou is an author of multiple papers on text summarization and neural network models.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            },
+            {
+                "entity_name": "\"SUMMARUNNER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Summarunner is a recurrent neural network-based sequence model for extractive summarization of documents, developed by Ramesh Nallapati, Feifei Zhai, and Bowen Zhou.\"",
+                "source_id": "chunk-a982f7ce6094a6796f056e5f1ed8e8c0"
+            }
+        ],
+        "relationships": []
+    }
+}

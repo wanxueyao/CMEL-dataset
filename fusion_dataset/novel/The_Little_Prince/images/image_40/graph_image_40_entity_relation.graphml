@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_40_VASE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Well- Color: The well is primarily yellow with a green interior.- Shape: Cylindrical, with a circular opening at the top.- Size: The image does not provide a clear indication of the well's size, but it appears to be a standard-sized well that could be found in a rural or suburban setting.- Material: The well appears to be made of stone or concrete, with a rough texture on the exterior.- Possible function: The well is likely used for drawing water, as indicated by the presence of a bucket and pulley system. The green interior suggests that the well may contain water, although the exact contents are not visible.- Other significant characteristics: The well has a rustic appearance, with a simple design that includes a handle for operating the pulley and a bucket for collecting water. The surrounding area is depicted with a pattern that resembles stones or bricks, adding to the overall impression of an old-fashioned water source."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+</node>
+<node id="&quot;IMAGE_40&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene from a story involving a well. A young boy with orange hair is standing next to a well, which is constructed of white and yellow stones. The well has a pulley system with a rope attached to it. The boy is dressed in a green suit and is leaning slightly forward, holding the rope with one hand and resting his other hand on the well's edge. His expression appears focused and determined. In the background, there are two palm trees and a large rock formation, suggesting a desert or arid environment. The ground is a mix of yellow and white, with a few rocks scattered around. The overall atmosphere is one of determination and effort, as the boy seems to be working hard to draw water from the well."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with orange hair, wearing a green outfit and holding a cane, standing next to a well."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+</node>
+<node id="&quot;WELL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A stone well with a wooden pulley system, located in a desert landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+</node>
+<node id="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A sandy desert with sparse vegetation, including a few palm trees and rocks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+</node>
+<edge source="&quot;IMAGE_40_VASE-0.JPG&quot;" target="&quot;WELL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_40_vase-0.jpg is a picture of a well."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_40_VASE-0.JPG&quot;" target="&quot;IMAGE_40&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_40_vase-0.jpg是image_40的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_40&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_40中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_40&quot;" target="&quot;WELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Well是从image_40中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_40&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Desert Landscape是从image_40中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;WELL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is standing next to the well, possibly contemplating drawing water from it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is situated within the desert landscape, indicating his journey or exploration in this environment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WELL&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The well is located within the desert landscape, providing a source of water in an otherwise arid environment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_40.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

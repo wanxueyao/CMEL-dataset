@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_HORSE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, dark, tied back- Eyes: Wearing glasses- Expression: Smiling, appears friendly and joyful- Age: Appears to be a young woman- Clothing: Wearing a dark sweater with a light blue shirt underneath- Posture: Bent over, interacting with an animalOverall, the character gives off a warm and caring vibe while interacting with the animal."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, dark brown, partially tied back with some loose strands framing the face- Eyes: Not fully visible due to eyeglasses, but appear to be focused and engaged- Expression: Smiling, appears friendly and joyful- Age: Appears to be a young woman or teenager- Clothing: Wearing a black sweater over a light blue shirt; the collar of the shirt is visible- Accessories: Eyeglasses with a thin frame- Posture: Bent forward in an animated gesture, interacting with something or someone out of frameOverall, the character gives off a warm and engaging vibe, suggesting a moment of interaction or playfulness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a young woman with long dark hair and glasses, wearing a black sweater over a light blue shirt. She is interacting affectionately with a large cow that has a white and brown coat. The cow's head is turned towards the woman, and she appears to be petting or scratching its neck. The background shows a grassy field with some trees in the distance, suggesting an outdoor rural setting. The overall atmosphere is warm and friendly, conveying a sense of connection between the woman and the cow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with glasses, wearing a dark sweater, smiling and petting a cow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+</node>
+<node id="&quot;COW&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A brown and white cow being petted by a woman in a grassy field."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_HORSE-1.JPG&quot;" target="&quot;COW&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_6_horse-1.jpg is a picture of a cow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_HORSE-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_horse-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;COW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cow是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;COW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is petting the cow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221122/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

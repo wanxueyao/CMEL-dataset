@@ -1,0 +1,2541 @@
+{
+    "2": {
+        "chunk_key": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad",
+        "entities": [
+            {
+                "entity_name": "\"CROSS ENTROPY LOSS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cross Entropy Loss is a method used to calculate the loss in classification problems, where each instance contributes equally to the final objective.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"SØRENSEN–DICE COEFFICIENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Sørensen–Dice Coefficient, or DSC, is an F1- oriented statistic used to gauge the similarity of two sets, particularly in the context of boolean data.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"TVERSKY INDEX\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Tversky Index is referenced in the context of modifying the Dice Coefficient for faster convergence by changing the denominator to the square form.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"VALVERDE ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Valverde et al. is a group of researchers cited in the text, who have contributed to the understanding of classification tasks and the challenges of selecting weighting factors.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"MILLETARI ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Milletari et al. is a group of researchers who proposed a modification to the Dice Coefficient by changing the denominator to the square form for faster convergence.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$X$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$X$ represents a set of training instances in a classification problem, each associated with a binary label indicating the ground-truth class.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$X_I$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$x_i$ denotes an individual instance within the set $X$, with associated predicted probabilities and a golden binary label.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$Y_{IJ}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$y_{ij}$ represents the ground-truth class label for instance $x_i$, where $j$ can be 0 or 1, indicating the two classes.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$P_{IJ}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$p_{ij}$ represents the predicted probability of instance $x_i$ belonging to class $j$, where $j$ can be 0 or 1.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$\\ALPHA_I$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\alpha_i$ is a weighting factor associated with instance $x_i$, used to adjust the cross entropy loss equation for class imbalance.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$N_T$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$n_t$ represents the number of samples with class $t$, used in calculating the weighting factor $\\alpha$ for instances.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$N$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$n$ is the total number of samples in the training set, used in conjunction with $n_t$ to calculate the weighting factor $\\alpha$.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$K$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$K$ is a hyperparameter used in tuning the equation that calculates the coefficient $\\alpha$, affecting class weighting.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$A$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$A$ is a set containing all positive examples predicted by a specific model, used in the calculation of the Dice Coefficient.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$B$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$B$ is the set of all golden positive examples in the dataset, used in the calculation of the Dice Coefficient to gauge similarity with set $A$.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"TP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"TP stands for true positive, a term used in the context of calculating the Dice Coefficient, representing correct positive predictions.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"FP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"FP stands for false positive, a term used in the context of calculating the Dice Coefficient, representing incorrect positive predictions.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"FN\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"FN stands for false negative, a term used in the context of calculating the Dice Coefficient, representing missed positive predictions.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "entity_name": "\"$\\GAMMA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\gamma$ is a smoothing factor added to the Dice Coefficient formula for negative examples, set to 1 in this paper for simplicity.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CROSS ENTROPY LOSS\"",
+                "tgt_id": "\"SØRENSEN–DICE COEFFICIENT\"",
+                "weight": 5.0,
+                "description": "\"Both Cross Entropy Loss and Sørensen–Dice Coefficient are methods used in classification problems, though they serve different purposes in calculating loss and similarity respectively.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"CROSS ENTROPY LOSS\"",
+                "tgt_id": "\"VALVERDE ET AL.\"",
+                "weight": 6.0,
+                "description": "\"Valverde et al. have discussed the challenges associated with Cross Entropy Loss, particularly in multi-class classification tasks.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"SØRENSEN–DICE COEFFICIENT\"",
+                "tgt_id": "\"TVERSKY INDEX\"",
+                "weight": 7.0,
+                "description": "\"The Tversky Index is used to modify the Sørensen–Dice Coefficient for faster convergence, indicating a relationship between these two statistical methods.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"SØRENSEN–DICE COEFFICIENT\"",
+                "tgt_id": "\"MILLETARI ET AL.\"",
+                "weight": 8.0,
+                "description": "\"Milletari et al. proposed a modification to the Sørensen–Dice Coefficient, which is a significant contribution to its application in classification problems.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"$X$\"",
+                "tgt_id": "\"$X_I$\"",
+                "weight": 9.0,
+                "description": "\"$X$ is the set containing all instances, including $x_i$, which represents individual instances within the set.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"$X_I$\"",
+                "tgt_id": "\"$Y_{IJ}$\"",
+                "weight": 9.0,
+                "description": "\"Each instance $x_i$ has an associated golden binary label $y_{ij}$, indicating the ground-truth class it belongs to.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"$X_I$\"",
+                "tgt_id": "\"$P_{IJ}$\"",
+                "weight": 9.0,
+                "description": "\"Each instance $x_i$ has predicted probabilities $p_{ij}$ associated with it, indicating the likelihood of belonging to each class.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            },
+            {
+                "src_id": "\"$\\ALPHA_I$\"",
+                "tgt_id": "\"$N_T$\"",
+                "weight": 8.0,
+                "description": "\"The weighting factor $\\alpha_i$ is calculated using $n_t$, the number of samples with class $t$, and the total number of samples $n$.\"",
+                "source_id": "chunk-1afe5e18c92916d2e8ce4e398d2ac8ad"
+            }
+        ]
+    },
+    "10": {
+        "chunk_key": "chunk-7134f92d55380251fc3aa7aff418aaa3",
+        "entities": [
+            {
+                "entity_name": "\"DOHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dohan is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MINH-THANG LUONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minh-Thang Luong is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"RUI ZHAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rui Zhao is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"KAI CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kai Chen is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MOHAMMAD NOROUZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohammad Norouzi is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"QUOC V. LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V. Le is one of the authors of the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension'.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"YUE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yue Zhang is an author of the paper on Chinese NER using lattice LSTM.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"JIE YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jie Yang is an author of the paper on Chinese NER using lattice LSTM.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"6TH INTERNATIONAL CONFERENCE ON LEARNING REPRESENTATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 6th International Conference on Learning Representations is where the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension' was presented.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"ICLR 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ICLR 2018 is the abbreviation for the 6th International Conference on Learning Representations, where the paper 'Qanet: Combining local convolution with global self-attention for reading comprehension' was presented.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"VANCOUVER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Vancouver is the location where the 6th International Conference on Learning Representations took place.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"BC\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"BC stands for British Columbia, the province where Vancouver is located, and where the 6th International Conference on Learning Representations took place.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"CANADA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Canada is the country where Vancouver is located, and where the 6th International Conference on Learning Representations took place.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"CHINESE TREEBANK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Chinese Treebank is the organization responsible for the CTB5 and CTB6 datasets used for POS tagging and parsing.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"XINHUA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Xinhua is one of the newswire sources from which articles were extracted for the CTB5 dataset.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"INFORMATION SERVICES DEPARTMENT OF HKSAR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Information Services Department of HKSAR is one of the newswire sources from which articles were extracted for the CTB5 dataset.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"SINORAMA MAGAZINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Sinorama Magazine is one of the sources from which articles were extracted for the CTB5 dataset.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"UNIVERSAL DEPENDENCIES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Universal Dependencies is a framework for consistent annotation of grammar across different human languages, and is used for Chinese POS tagging in this work.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"ONTONOTES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"OntoNotes is the organization responsible for the OntoNotes datasets used for NER tasks.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MSRA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MSRA is the organization responsible for the(\"entity\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"CTB6\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"CTB6 is an extension of CTB5, containing 781,351 words, 1,285,149 characters, and 28,295 sentences.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"UD1.4\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"UD1.4 is the version of Universal Dependencies used for Chinese POS tagging in this work.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"CONLL2003\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"CoNLL2003 is an English dataset with 4 entity types: Location, Organization, Person, and Miscellaneous.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"ONTONOTES 4.0\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"OntoNotes 4.0 is a Chinese dataset consisting of texts from the news domain, with 18 entity types.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MSRA6\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"MSRA6 is a Chinese benchmark dataset containing 3 entity types, collected from the news domain.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"ONTONOTES 5.0\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"OntoNotes 5.0 consists of texts from a wide variety of sources and contains 18 entity types.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"SQUAD V1.1\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"SQuAD v1.1 is a collection of 100K crowdsourced question-answer pairs, used as a QA benchmark.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"SQUAD V2.0\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"SQuAD v2.0 extends SQuAD v1.1, allowing for cases where no short answer exists in the provided passage.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"QUOREF\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"Quoref is a QA dataset that tests the coreferential reasoning capability of reading comprehension systems, containing 24K questions over 4.7K paragraphs from Wikipedia.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MRPC\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"MRPC is a corpus of sentence pairs automatically extracted from online news sources, with human annotations of whether the sentence pairs are semantically equivalent.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"QQP\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"QQP is a collection of question pairs from the community question-answering website Quora, used for paraphrase identification.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"WU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al. is a reference to the authors who determined the data split for Chinese OntoNotes 4.0 as used in this paper.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            },
+            {
+                "entity_name": "\"MA AND HOVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ma and Hovy are referenced for the data processing protocols followed for the CoNLL2003 dataset.\"",
+                "source_id": "chunk-7134f92d55380251fc3aa7aff418aaa3"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-9d638435649353ad7eb68149e9db8dcc",
+        "entities": [
+            {
+                "entity_name": "\"DSC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"DSC refers to the Dice Similarity Coefficient, a measure used in machine learning for comparing the similarity of two samples.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"MILLETARI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Milletari et al. are researchers who proposed a change in the denominator of the Dice loss for faster convergence.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"TVERSKY INDEX (TI)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Tversky index is an extension of the Dice coefficient to a more general case, offering flexibility in controlling the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"TVERSKY LOSS (TL)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Tversky loss is a loss function derived from the Tversky index, used for optimizing machine learning models.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"F1 SCORE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"F1 score is a measure of a test's accuracy, specifically the harmonic mean of precision and recall.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"FOCAL LOSS (FL)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Focal loss is a loss function used in object detection to handle the foreground-background class imbalance.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"LIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lin et al. are researchers who proposed the focal loss for one-stage object detection in the field of computer vision.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"CTB5\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CTB5 is one of the Chinese POS datasets used for evaluating machine learning models.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"CTB6\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CTB6 is another Chinese POS dataset used for evaluating machine learning models.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"UD1.4\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"UD1.4 is a dataset used for evaluating machine learning models on English POS tagging.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"DL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"DL stands for Dice Loss, a loss function used in machine learning for certain types of data convergence.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"EQ.5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Eq.5 refers to a specific equation in the text, which is a form of the F1 score using a continuous probability.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"EQ.11\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Eq.11 is an equation representing the original form of the Dice loss function.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"EQ.12\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Eq.12 is an adaptive variant of the Dice loss function, incorporating a decaying factor.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"IMAGE_2.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"image_2.jpg is an image file used in the text to illustrate derivatives of the four losses.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"IMAGE_3.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"image_3.jpg is an image file used in the text to show tables with experimental results.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"IMAGE_4.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"image_4.jpg is an image file used in the text to show additional experimental results.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 2 is a summary table in the text that includes various loss functions discussed.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 contains experimental results for Chinese POS datasets, including CTB5, CTB6, and UD1.4.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"TABLE 4\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 4 contains experimental results for English POS datasets.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"$\\GAMMA$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\gamma$ is a smoothing parameter used in the Dice loss function to prevent division by zero.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"$P_{I1}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$p_{i1}$ represents the probability of the i-th sample being in class 1, used in various loss functions.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"$Y_{I1}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$y_{i1}$ represents the actual label of the i-th sample being in class 1, used in various loss functions.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"$\\ALPHA$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\alpha$ is a parameter in the Tversky index that controls the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "entity_name": "\"$\\BETA$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\beta$ is a parameter in the Tversky index that controls the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DSC\"",
+                "tgt_id": "\"MILLETARI ET AL.\"",
+                "weight": 6.0,
+                "description": "\"Milletari et al. proposed a modification to the DSC for faster convergence in training.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"TVERSKY INDEX (TI)\"",
+                "tgt_id": "\"TVERSKY LOSS (TL)\"",
+                "weight": 8.0,
+                "description": "\"The Tversky loss is derived from the Tversky index, making them directly related.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"F1 SCORE\"",
+                "tgt_id": "\"DSC\"",
+                "weight": 7.0,
+                "description": "\"The DSC can be seen as a soft form of the F1 score, using a continuous probability rather than a binary indicator.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"FOCAL LOSS (FL)\"",
+                "tgt_id": "\"DSC\"",
+                "weight": 7.0,
+                "description": "\"The adaptive variant of DSC mimics the idea of focal loss, both down-weighting well-classified examples.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"LIN ET AL.\"",
+                "tgt_id": "\"FOCAL LOSS (FL)\"",
+                "weight": 9.0,
+                "description": "\"Lin et al. are the researchers who proposed the focal loss function used in object detection.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"DL\"",
+                "tgt_id": "\"$\\GAMMA$\"",
+                "weight": 6.0,
+                "description": "\"The Dice Loss (DL) uses the parameter $\\gamma$ to prevent division by zero.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"EQ.11\"",
+                "tgt_id": "\"$P_{I1}$\"",
+                "weight": 7.0,
+                "description": "\"Eq.11 involves the use of $p_{i1}$, the probability of the i-th sample being in class 1.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            },
+            {
+                "src_id": "\"EQ.12\"",
+                "tgt_id": "\"$P_{I1}$\"",
+                "weight": 7.0,
+                "description": "\"Eq.12 involves the use of $p_{i1}$, modified by a decaying factor, in the adaptive variant of DSC.\"",
+                "source_id": "chunk-9d638435649353ad7eb68149e9db8dcc"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-2df4d4045e116800a201b96f9a89cc81",
+        "entities": [
+            {
+                "entity_name": "\"H. LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"H. Li is an author of a paper on a convolutional neural network cascade for face detection presented at CVPR 2015.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"Z. LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Z. Lin is an author of a paper on a convolutional neural network cascade for face detection presented at CVPR 2015.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"X. SHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"X. Shen is an author of a paper on a convolutional neural network cascade for face detection presented at CVPR 2015.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"J. BRANDT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"J. Brandt is an author of a paper on a convolutional neural network cascade for face detection presented at CVPR 2015.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"G. HUA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"G. Hua is an author of a paper on a convolutional neural network cascade for face detection presented at CVPR 2015.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"XIAOYA LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaoya Li is an author of a paper on a unified MRC framework for named entity recognition.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"JINGRONG FENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jingrong Feng is an author of a paper on a unified MRC framework for named entity recognition.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"YUXIAN MENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuxian Meng is an author of a paper on a unified MRC framework for named entity recognition and on using distant supervision as a regularizer.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"QINGHONG HAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qinghong Han is an author of a paper on a unified MRC framework for named entity recognition.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"FEI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fei Wu is an author of a paper on a unified MRC framework for named entity recognition.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"JIWEI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiwei Li is an author of multiple papers, including one on a unified MRC framework for named entity recognition and another on using distant supervision as a regularizer.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"TSUNG-YI LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tsung-Yi Lin is an author of a paper on focal loss for dense object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"PRIYA GOYAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Priya Goyal is an author of a paper on focal loss for dense object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"ROSS GIRSHICK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ross Girshick is an author of a paper on focal loss for dense object detection and Faster R-CNN.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"KAIMING HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kaiming He is an author of a paper on focal loss for dense object detection and Faster R-CNN.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"PIOTR DOLLÁR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Piotr Dollár is an author of a paper on focal loss for dense object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"XUEZHE MA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xuezhe Ma is an author of a paper on end-to-end sequence labeling via bi-directional LSTM-CRF.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"EDUARD HOVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eduard Hovy is an author of a paper on end-to-end sequence labeling via bi-directional LSTM-CRF.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"TOMASZ MALISIEWICZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomasz Malisiewicz is an author of a paper on ensemble of exemplar-SVMs for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"ABHINAV GUPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Abhinav Gupta is an author of a paper on ensemble of exemplar-SVMs for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"ALEXEI A. EFROS\"<(\"ENTITY\"",
+                "entity_type": "\"CAIMING XIONG\"",
+                "description": "\"person\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author of a paper on the natural language decathlon: Multitask learning as question answering.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"FAUSTO MILLETARI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fausto Milletari is an author of a paper on V-net: Fully convolutional neural networks for volumetric medical image segmentation.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"NASSIR NAVAB\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nassir Navab is an author of a paper on V-net: Fully convolutional neural networks for volumetric medical image segmentation.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"SEYED-AHMAD AHMADI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Seyed-Ahmad Ahmadi is an author of a paper on V-net: Fully convolutional neural networks for volumetric medical image segmentation.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"DAVID NADEAU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Nadeau is an author of a survey paper on named entity recognition and classification.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"SATOSHI SEKINE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Satoshi Sekine is an author of a survey paper on named entity recognition and classification.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"TRI NGUYEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tri Nguyen is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"MIR ROSENBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mir Rosenberg is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"XIA SONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xia Song is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"SAURABH TIWARY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Saurabh Tiwary is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"RANGAN MAJUMDER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rangan Majumder is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"LI DENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li Deng is an author of a paper on Ms Marco: A human generated machine reading comprehension dataset.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"JIANGMIAO PANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiangmiao Pang is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"KAI CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kai Chen is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"JIANPING SHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianping Shi is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"HUAJUN FENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Huajun Feng is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"WANLI OUYANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wanli Ouyang is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            },
+            {
+                "entity_name": "\"DAHUA LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dahua Lin is an author of a paper on Libra R-CNN: towards balanced learning for object detection.\"",
+                "source_id": "chunk-2df4d4045e116800a201b96f9a89cc81"
+            }
+        ],
+        "relationships": []
+    },
+    "7": {
+        "chunk_key": "chunk-678bfa4737c32acd8e5ddf48b77e1439",
+        "entities": [
+            {
+                "entity_name": "\"SHIJUAN CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shijuan Chen is an author who contributed to the paper on Ramoboost: Ranked minority oversampling in boosting.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"HAIBO HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Haibo He is an author who contributed to the paper on Ramoboost: Ranked minority oversampling in boosting.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"EDWARDO A. GARCIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edwardo A. Garcia is an author who contributed to the paper on Ramoboost: Ranked minority oversampling in boosting.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"IEEE TRANSACTIONS ON NEURAL NETWORKS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IEEE Transactions on Neural Networks is the publisher of the paper on Ramoboost.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"KEVIN CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Clark is an author who contributed to the paper on Semi-supervised sequence modeling with cross-view training.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"MINH-THANG LUONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minh-Thang Luong is an author who contributed to the paper on Semi-supervised sequence modeling with cross-view training.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is an author who contributed to the paper on Semi-supervised sequence modeling with cross-view training.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"QUOC V. LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V. Le is an author who contributed to the paper on Semi-supervised sequence modeling with cross-view training.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE 2018 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2018 Conference on Empirical Methods in Natural Language Processing is the event where the paper on Semi-supervised sequence modeling was presented.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"BRUSSELS, BELGIUM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Brussels, Belgium is the location where the 2018 Conference on Empirical Methods in Natural Language Processing took place.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"PRADEEP DASIGI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pradeep Dasigi is an author who contributed to the paper on Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"NELSON F LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nelson F Liu is an author who contributed to the paper on Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"ANA MARASOVIC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ana Marasovic is an author who contributed to the paper on Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"NOAH A SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noah A Smith is an author who contributed to the paper on Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is an author who contributed to the paper on Quoref: A reading comprehension dataset with questions requiring coreferential reasoning.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"ARXIV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "arXiv is the platform where the preprints of the papers on Quoref and Learning to teach were published, serving as a repository for academic papers in various fields.",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is an author who contributed to the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is an author who contributed to the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is an author who contributed to the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is an author who contributed to the paper on BERT: Pre-training of deep bidirectional transformers(\"entity\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"ECOLOGY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ecology is the journal that published the paper by Lee R Dice on ecologic association between species.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"WILLIAM B. DOLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William B. Dolan is an author who contributed to the paper on Automatically constructing a corpus of sentential paraphrases.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"CHRIS BROCKETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Brockett is an author who contributed to the paper on Automatically constructing a corpus of sentential paraphrases.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"THIRD INTERNATIONAL WORKSHOP ON PARAPHRASING (IWP2005)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Third International Workshop on Paraphrasing (IWP2005) is the event where the paper on sentential paraphrases was presented.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"YANG FAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang Fan is an author who contributed to the paper on Learning to teach.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"FEI TIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fei Tian is an author who contributed to the paper on Learning to teach.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"TAO QIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tao Qin is an author who contributed to the paper on Learning to teach.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"XIUPING LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiuping Li is an author who contributed to the paper on Learning to teach.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"TIE-YAN LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tie-Yan Liu is an author who contributed to the paper on Learning to teach.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"ROSS B. GIRSHICK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ross B. Girshick is an author who contributed to the paper on Fast R-CNN and Rich feature hierarchies for accurate object detection and semantic segmentation.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"JEFF DONAHUE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeff Donahue is an author who contributed to the paper on Rich feature hierarchies for accurate object detection and semantic segmentation.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"TREVOR DARRELL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Trevor Darrell is an author who contributed to the paper on Rich feature hierarchies for accurate object detection and semantic segmentation.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"JITENDRA MALIK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jitendra Malik is an author who contributed to the paper on Rich feature hierarchies for accurate object detection and semantic segmentation.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"2015 IEEE INTERNATIONAL CONFERENCE ON COMPUTER VISION (ICCV)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2015 IEEE International Conference on Computer Vision (ICCV) is the event where the paper on Fast R-CNN was presented.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"2014 IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 2014 IEEE Conference on Computer Vision and Pattern Recognition is the event where the paper on Rich feature hierarchies was presented.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"FR´EDERIC GODIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fr´ederic Godin is the author of the Ph.D. thesis on Improving and Interpreting Neural Networks for Word-Level Prediction Tasks in Natural Language Processing.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"GHENT UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ghent University is the institution where Fr´ederic Godin defended his Ph.D. thesis.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            },
+            {
+                "entity_name": "\"KAIMING HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kaiming He is an author who contributed to the paper on Deep residual learning for image recognition.\"",
+                "source_id": "chunk-678bfa4737c32acd8e5ddf48b77e1439"
+            }
+        ],
+        "relationships": []
+    },
+    "0": {
+        "chunk_key": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca",
+        "entities": [
+            {
+                "entity_name": "\"XIAOYA LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaoya Li is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"XIAOFEI SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaofei Sun is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"YUXIAN MENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuxian Meng is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"JUNJUN LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Junjun Liang is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"FEI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fei Wu is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"JIWEI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiwei Li is an author of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The department where the authors of the paper are affiliated with.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"SHANNON.AI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Shannon.AI is the organization associated with the authors of the paper on dice loss for data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"CTB5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CTB5 is an event or dataset used to evaluate the performance of the proposed method for part of speech tagging task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"CTB6\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CTB6 is an event or dataset used to evaluate the performance of the proposed method for part of speech tagging task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"UD1.4\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"UD1.4 is an event or dataset used to evaluate the performance of the proposed method for part of speech tagging task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"CONLL03\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoNLL03 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"ONTONOTES5.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"OntoNotes5.0 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"MSRA\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MSRA is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"ONTONOTES4.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"OntoNotes4.0 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"TVERSKY INDEX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Tversky index extends the dice loss by using a weight that trades precision and recall, offering more flexibility in handling data imbalance.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"F1 SCORE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"F1 score is a measure that concerns more about positive examples and is used to evaluate the performance of models in data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"CROSS ENTROPY CRITERIA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The cross entropy criteria is commonly used but creates a discrepancy between training and test due to its accuracy orientation.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"NAMED ENTITY RECOGNITION (NER)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Named Entity Recognition is an NLP task where most tokens are backgrounds, and it is used as an example of data imbalance in the paper.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"MACHINE READING COMPREHENSION (MRC)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Machine reading comprehension is an NLP task that faces severe data imbalance issues, as mentioned in the paper.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"DATA-IMBALANCED NLP TASKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Data-imbalanced NLP tasks are the focus of the paper, where the authors propose using dice loss to address the issues of data imbalance.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"GITHUB\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GitHub is the platform where the code related to the paper's proposed method can be found.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"SANG AND DE MEULDER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sang and De Meulder are referenced in the paper for their work on the Named Entity Recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"NADEAU AND SEKINE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nadeau and Sekine are referenced in the paper for their work on the Named Entity Recognition task.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"RAJPURKAR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajpurkar et al. are referenced in the paper for their work on machine reading comprehension tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"NGUYEN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nguyen et al. are referenced in the paper for their work on machine reading comprehension tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"KOˇCISK\\`Y ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Koˇcisk\\`y et al. are referenced in the paper for their work on machine reading comprehension tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"DASIGI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dasigi et al. are referenced in the paper for their work on machine reading comprehension tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"LAMPLE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lample et al. are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"WU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al. are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"YU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yu et al. are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"MCCANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McCann et al. are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "entity_name": "\"MA AND HOVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ma and Hovy are referenced in the paper for their work on data-imbalanced NLP tasks.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"XIAOYA LI\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Xiaoya Li is affiliated with the Department of Computer Science and Technology, Zhejiang University.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "src_id": "\"XIAOFEI SUN\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Xiaofei Sun is affiliated with the Department of Computer Science and Technology, Zhejiang University.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "src_id": "\"YUXIAN MENG\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Yuxian Meng is affiliated with the Department of Computer Science and Technology, Zhejiang University.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "src_id": "\"JUNJUN LIANG\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Junjun Liang is affiliated with the Department of Computer Science and Technology, Zhejiang University.\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            },
+            {
+                "src_id": "\"FEI WU\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND TECHNOLOGY, ZHEJIANG UNIVERSITY\"",
+                "weight": 1.0,
+                "description": "\"Fei Wu is affiliated with the Department of Computer Science and(\"entity\"",
+                "source_id": "chunk-eca7c8b51cdc6605b35d4d74e1abbeca"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea",
+        "entities": [
+            {
+                "entity_name": "\"TVERSKY INDEX\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Tversky index is an extension of the dice loss that uses a weight to trade precision and recall, offering more flexibility.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"DICE LOSS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dice loss is a method used to address data-imbalanced datasets, and it is a soft version of the F1 score.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"FOCAL LOSS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Focal loss is a method that emphasizes harder examples during training, used as inspiration for the dynamic weight adjusting strategy.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"ADABOOST\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"AdaBoost is a boosting algorithm that selects harder examples to train subsequent classifiers.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"HARD EXAMPLE MINING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hard example mining is a technique that downsamples the majority class and exploits the most difficult examples.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"IMPORTANCE SAMPLING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Importance sampling assigns weights to different samples and changes the data distribution.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"OVERSAMPLING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Oversampling is a technique used to balance the data distribution.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"SELF-PACED LEARNING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Self-paced learning is a method where example weights are obtained through optimizing the weighted training loss, encouraging learning easier examples first.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"IOU-BALANCED SAMPLING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IoU-balanced sampling is a novel method proposed to alleviate the class imbalance issue in object detection.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"AVERAGE-PRECISION LOSS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Average-precision loss is a method designed to replace the conventional classification task to alleviate class imbalance.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"BATCH SOFT DICE LOSS FUNCTION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Batch soft Dice loss function is used to train the CNN network for segmentation of organs at risk (OAR) of medical images.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"GENERALIZED DICE LOSS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Generalized Dice Loss is used for unbalanced tasks due to its class re-balancing property.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"LIN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lin et al., 2017 are the authors of the focal loss paper, which inspired the dynamic weight adjusting strategy.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"KAHN AND MARSHALL, 1953\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kahn and Marshall, 1953 are the authors of the importance sampling paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"KANDURI ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kanduri et al., 2018 are the authors of the AdaBoost paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"MALISIEWICZ ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Malisiewicz et al., 2011 are the authors of the hard example mining paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2010 are the authors of one of the oversampling papers.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"CHAWLA ET AL., 2002\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chawla et al., 2002 are the authors of another oversampling paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"KUMAR ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kumar et al., 2010 are the authors of the self-paced learning paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"CHANG ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chang et al., 2017 are the authors of a paper that adjusted the weights of different training examples based on training loss.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"KATHAROPOULOS AND FLEURET, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Katharopoulos and Fleuret, 2018 are the authors of another paper that adjusted training example weights based on(\"entity\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"FAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fan et al., 2018 also proposed learning a separate network to predict sample weights.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"LI ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li et al., 2015 contributed to the study of background-object label imbalance in object detection.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"GIRSHICK, 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Girshick, 2015 is associated with the study of object detection and the hard negative mining (HNM) idea.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"HE ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"He et al., 2015 contributed to the field of object detection, particularly with class imbalance issues.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"GIRSHICK ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Girshick et al., 2013 are known for the hard negative mining (HNM) idea in object detection.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"REN ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ren et al., 2015 are contributors to the field of object detection.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"PANG ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pang et al., 2019 proposed the IoU-balanced sampling method to address class imbalance.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2019 designed a ranking model with an average-precision loss to alleviate class imbalance.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"SUDRE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sudre et al., 2017 addressed severe class imbalance in image segmentation tasks.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"SHEN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shen et al., 2018 investigated the influence of Dice-based loss for multi-class organ segmentation.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"KODYM ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kodym et al., 2018 proposed using batch soft Dice loss function for segmentation of organs at risk (OAR) in medical images.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"SHAMIR ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shamir et al., 2019 extended the definition of the classical Dice coefficient for probabilistic map comparison.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"NLP TASKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NLP tasks are the subject of the paper's proposed methods for addressing data imbalance issues.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"DATA-IMBALANCED NLP TASKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Data-imbalanced NLP tasks are the focus of the performance boosts observed with the proposed strategies.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"IMAGE SEGMENTATION TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Image segmentation task is an area where class imbalance issues have been addressed by the authors.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"MULTI-CLASS ORGAN SEGMENTATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Multi-class organ segmentation is an event where the influence of Dice-based loss has been investigated.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"SEGMENTATION OF ORGANS AT RISK (OAR)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Segmentation of organs at risk (OAR) is an event where batch soft Dice loss function has been used.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"OBJECT DETECTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Object detection is an event where background-object label imbalance issues have been well studied.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            },
+            {
+                "entity_name": "\"ABLATION STUDIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Ablation studies are performed to understand the impact of different losses in the paper.\"",
+                "source_id": "chunk-096a72ddb578bd7e2bf9d3bf311b60ea"
+            }
+        ],
+        "relationships": []
+    },
+    "4": {
+        "chunk_key": "chunk-6dd1be559a398018f09dad69b307eede",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model used as the backbone for experiments in part-of-speech tagging and named entity recognition tasks.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al., 2018 are associated with the development of the BERT model and its application in tagging tasks.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"CHINESE TREEBANK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Chinese Treebank is the organization responsible for creating the CTB5, CTB6 datasets used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"XUE ET AL., 2005\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xue et al., 2005 are associated with the creation of the Chinese Treebank datasets used in the experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"WALL STREET JOURNAL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wall Street Journal is the organization that provided the English dataset used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"RITTER ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ritter et al., 2011 are associated with the creation of the English dataset used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"SHAO ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shao et al., 2017 are associated with the Joint-POS baseline method used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"ZHANG AND YANG, 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang and Yang, 2018 are associated with the Lattice-LSTM baseline method used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"LI ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li et al., 2019 are associated with the state-of-the-art model used as the backbone for named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"PRADHAN ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pradhan et al., 2011 are associated with the creation of the OntoNotes4.0 dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"LEVOW, 2006\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Levow, 2006 is associated with the creation of the MSRA dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"SANG AND MEULDER, 2003\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sang and Meulder, 2003 are associated with the creation of the CoNLL2003 dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"PRADHAN ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pradhan et al., 2013 are associated with the creation of the OntoNotes5.0 dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al., 2018 are associated with the development of the ELMo tagging model used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"CLARK ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark et al., 2018 are associated with the development of the CVT method used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are associated with the development of the Glyce-BERT model used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"CTB6\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CTB6 is a Chinese POS dataset used in the part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"UD1.4\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"UD1.4 is a dataset used in the part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"WSJ\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"WSJ refers to the Wall Street Journal dataset used in part-of-speech tagging experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"ONTONOTES4.0\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"OntoNotes4.0 is a dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"MSRA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"MSRA is a dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"CONLL2003\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CoNLL2003 is a dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"ONTONOTES5.0\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"OntoNotes5.0 is a dataset used in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"DSC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"DSC refers to the Dynamic Sigmoid Cross-Entropy loss function used in the experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"MLE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"MLE stands for Maximum Likelihood Estimation, a loss function replaced by DSC in named entity recognition experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"FOCAL LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Focal Loss is a loss function used for comparison with DSC in the experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"DICE LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dice Loss is a loss function used for comparison with DSC in the experiments.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"SOTA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"SOTA stands for State-Of-The-Art, referring to the best performance achieved in a given task.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"MRC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"MRC stands for Machine Reading Comprehension, a task mentioned in the text.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "entity_name": "\"EM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"EM stands for Extract Match, a metric used for evaluating machine reading comprehension tasks.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"DEVLIN ET AL., 2018\"",
+                "weight": 9.0,
+                "description": "\"BERT is a model developed by Devlin et al., 2018 and is used in various tagging tasks.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"CHINESE TREEBANK\"",
+                "tgt_id": "\"XUE ET AL., 2005\"",
+                "weight": 1.0,
+                "description": "\"Chinese Treebank datasets CTB5 and CTB6 were created by Xue et al., 2005 and are used in part-of-speech tagging experiments.(\"entity\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"CTB6\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the CTB6 dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"UD1.4\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the UD1.4 dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"WSJ\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the WSJ dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"ONTONOTES4.0\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the OntoNotes4.0 dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"MSRA\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the MSRA dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"CONLL2003\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the CoNLL2003 dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            },
+            {
+                "src_id": "\"ONTONOTES5.0\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BERT is used as the backbone model for experiments on the OntoNotes5.0 dataset.\"",
+                "source_id": "chunk-6dd1be559a398018f09dad69b307eede"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-ba8731394946285e9c56ecf440d2094d",
+        "entities": [
+            {
+                "entity_name": "\"SEO ET AL., 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seo et al., 2016 is a research group that established standard protocols for predicting answer spans in passages given a question.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wang et al., 2016 is a research group that has contributed to the field with multiple studies related to answer span prediction.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"WANG AND JIANG, 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wang and Jiang, 2016 is a collaborative research effort that has contributed to the understanding of answer span prediction.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"SHEN ET AL., 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Shen et al., 2017 is a research group that has published findings relevant to the answer span prediction task.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Chen et al., 2017 is a research group that has published studies related to the answer span prediction task.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"RAJPURKAR ET AL., 2016, 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Rajpurkar et al., 2016, 2018 is a research group responsible for the development of the SQuAD datasets used for question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DASIGI ET AL., 2019\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dasigi et al., 2019 is a research group that developed the Quoref dataset used for question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"YU ET AL., 2018B\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Yu et al., 2018b is a research group that developed the QANet model, which uses convolutions and self-attentions for question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Devlin et al., 2018 is a research group that developed the BERT model used for scoring candidate spans in question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"YANG ET AL., 2019\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Yang et al., 2019 is a research group that proposed the XLNet model, which enables learning bidirectional contexts for question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DOLAN AND BROCKETT, 2005\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Dolan and Brockett, 2005 is a research group that developed the MRPC dataset used for paraphrase identification tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"SQUAD V1.1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SQuAD v1.1 is a version of the Stanford Question Answering Dataset used for evaluating question answering models.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"SQUAD V2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SQuAD v2.0 is an updated version of the Stanford Question Answering Dataset used for evaluating question answering models.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"QUOREF\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Quoref is a dataset developed for question answering tasks, particularly focusing on question rewriting.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"MRPC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRPC is a Microsoft Research Paraphrase Corpus used for evaluating paraphrase identification models.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"QQP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"QQP is a Quora Question Pairs dataset used for evaluating paraphrase identification models.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model developed by Devlin et al. (2018) that scores each candidate span to predict answers in question answering tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"XLNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"XLNet is a model proposed by Yang et al. (2019) that uses a generalized autoregressive pretraining method to learn bidirectional contexts.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DSC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSC refers to the proposed loss function that has been shown to improve performance in question answering and paraphrase identification tasks.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"MLE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MLE stands for Maximum Likelihood Estimation, an objective used for training models, which is compared with DSC in the studies.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"SPACY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Spacy is a tool used for retrieving entity mentions and replacing them with new ones by linking mentions to their corresponding entities in DBpedia.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DBPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DBpedia is a database used in the study for linking mentions to their corresponding entities for data augmentation.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"MRC TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRC task refers to the machine reading comprehension task, which involves predicting answer spans in a given passage based on a question.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"PI TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PI task refers to the paraphrase identification task, which involves identifying whether two sentences have the same meaning.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"DATASETS IMBALANCED TO DIFFERENT EXTENTS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Datasets imbalanced to different extents refers to the study conducted to see how the proposed objectives affect datasets with varying levels of imbalance.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"POSITIVE AUGMENTATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Positive augmentation is a technique used to create a balanced dataset by adding positive examples to the original training set.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"NEGATIVE AUGMENTATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Negative augmentation is a technique used to create a more imbalanced dataset by choosing negative training examples as templates.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"NEGATIVE DOWNSAMPLING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Negative downsampling is a technique used to balance the training set by reducing the number of negative examples.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "entity_name": "\"POSITIVE AND NEGATIVE AUGMENTATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Positive and negative augmentation is a technique used to augment the original training data with additional positive and negative examples while maintaining the same data distribution.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SEO ET AL., 2016\"",
+                "tgt_id": "\"WANG ET AL., 2016\"",
+                "weight": 5.0,
+                "description": "\"Both Seo et al., 2016 and Wang et al., 2016 are research groups that have contributed to the field of answer span prediction.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "src_id": "\"WANG ET AL., 2016\"",
+                "tgt_id": "\"RAJPURKAR ET AL., 2016, 2018\"",
+                "weight": 1.0,
+                "description": "\"Wang et al., 2016 used the SQuAD datasets developed by Raj(\"entity\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"XLNET\"",
+                "weight": 6.0,
+                "description": "\"BERT and XLNet are both models used as baselines in the machine reading comprehension task, with BERT scoring candidate spans and XLNet learning bidirectional contexts.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "src_id": "\"DSC\"",
+                "tgt_id": "\"MLE\"",
+                "weight": 7.0,
+                "description": "\"DSC and MLE are two different objectives used for training models, with DSC showing improved performance over MLE in the studies.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "src_id": "\"SPACY\"",
+                "tgt_id": "\"DBPEDIA\"",
+                "weight": 7.0,
+                "description": "\"Spacy and DBpedia are used together in the process of data augmentation, with Spacy retrieving entity mentions and DBpedia providing corresponding entities.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            },
+            {
+                "src_id": "\"POSITIVE AUGMENTATION\"",
+                "tgt_id": "\"NEGATIVE AUGMENTATION\"",
+                "weight": 6.0,
+                "description": "\"Positive augmentation and Negative augmentation are two techniques used to create datasets with different imbalance degrees for the study on dataset imbalance.\"",
+                "source_id": "chunk-ba8731394946285e9c56ecf440d2094d"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-8b2db7e941021ad10ab4b15418a2316c",
+        "entities": [
+            {
+                "entity_name": "\"ERIK F. TJONG KIM SANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Erik F. Tjong Kim Sang is an author who contributed to the field of language-independent named entity recognition.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"FIEN DE MEULDER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fien De Meulder is an author who contributed to the field of language-independent named entity recognition.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"MINJOON SEO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minjoon Seo is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"ANIRUDDHA KEMBHAVI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aniruddha Kembhavi is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"ALI FARHADI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ali Farhadi is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"HANNANEH HAJISHIRZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hannaneh Hajishirzi is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"REUBEN R. SHAMIR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Reuben R. Shamir is an author who contributed to the field of evaluating probabilistic segmentations.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"YUVAL DUCHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuval Duchin is an author who contributed to the field of evaluating probabilistic segmentations.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"JINYOUNG KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jinyoung Kim is an author who contributed to the field of evaluating probabilistic segmentations.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"GUILLERMO SAPIRO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Guillermo Sapiro is an author who contributed to the field of evaluating probabilistic segmentations.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"NOAM HAREL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noam Harel is an author who contributed to the field of evaluating probabilistic segmentations.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"YAN SHAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yan Shao is an author who contributed to the field of Chinese language processing.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"CHRISTIAN HARDMEIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christian Hardmeier is an author who contributed to the field of Chinese language processing.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"JO¨RG TIEDEMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jo¨rg Tiedemann is an author who contributed to the field of Chinese language processing.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"JOAKIM NIVRE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joakim Nivre is an author who contributed to the field of Chinese language processing.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"CHEN SHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen Shen is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"HOLGER R. ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Holger R. Roth is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"HIROYUKI ODA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hiroyuki Oda is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"MASAHIRO ODA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Masahiro Oda is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"YUICHIRO HAYASHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuichiro Hayashi is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"KAZUNARI MISAWA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kazunari Misawa is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"KENSAKU MORI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kensaku Mori is an author who contributed to the field of multi-class organ segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"Y(\"ENTITY\"",
+                "entity_type": "\"YELONG SHEN\"",
+                "description": "\"person\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"PO-SEN HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Po-Sen Huang is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"WEIZHU CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weizhu Chen is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"TH A SORENSEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Th A Sorensen is an author who contributed to the field of plant sociology.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"CAROLE H. SUDRE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Carole H. Sudre is an author who contributed to the field of deep learning loss functions for segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"WENQI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wenqi Li is an author who contributed to the field of deep learning loss functions for segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"TOM VERCAUTEREN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tom Vercauteren is an author who contributed to the field of deep learning loss functions for segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"SE´BASTIEN OURSELIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Se´bastien Ourselin is an author who contributed to the field of deep learning loss functions for segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"M. JORGE CARDOSO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"M. Jorge Cardoso is an author who contributed to the field of deep learning loss functions for segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"AMOS TVERSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amos Tversky is an author who contributed to the field of psychological review.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"SERGI VALVERDE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sergi Valverde is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"MARIANO CABEZAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mariano Cabezas is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"ELOY ROURA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eloy Roura is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"SANDRA GONZA´LEZ-VILLA´\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sandra Gonza´lez-Villa´ is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"DEBORAH PARETO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Deborah Pareto is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"JOAN C VILANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joan C Vilanova is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"LLU´IS RAMIO´-TORRENTA´\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Llu´ís Ramio´-Torrenta´ is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"A´LEX ROVIRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A´lex Rovira is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"ARNAU OLIVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arnau Oliver is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"XAVIER LLAD´O\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xavier Llad´o is an author who contributed to the field of multiple sclerosis lesion segmentation.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            },
+            {
+                "entity_name": "\"SHUOHANG WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shuohang Wang is an author who contributed to the field of machine comprehension.\"",
+                "source_id": "chunk-8b2db7e941021ad10ab4b15418a2316c"
+            }
+        ],
+        "relationships": []
+    },
+    "6": {
+        "chunk_key": "chunk-0a3be01b9d7564716773010993d3694a",
+        "entities": [
+            {
+                "entity_name": "\"DSC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSC is an organization that achieves the highest F1 score across all datasets and is compared with DL for performance.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"DL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DL is an organization that is compared with DSC in terms of performance, and it underperforms in more imbalanced datasets.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"FL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FL is an organization whose performance is inconsistent across different datasets compared to DSC.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is an organization that is fine-tuned with different training objectives and is evaluated on the Stanford Sentiment Treebank datasets.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"STANFORD SENTIMENT TREEBANK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Stanford Sentiment Treebank is an event or dataset used for sentiment classification tasks, including SST-2 and SST-5.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"SST-2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SST-2 is a subset of the Stanford Sentiment Treebank used for sentiment classification tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"SST-5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SST-5 is a subset of the Stanford Sentiment Treebank used for sentiment classification tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"CHINESE ONTONOTES4.0 NER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Chinese OntoNotes4.0 NER is a dataset used for Named Entity Recognition tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"QUOREF MRC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"QuoRef MRC is an English dataset used for Machine Reading Comprehension tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"TVERSKY INDEX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Tversky Index is a concept that offers flexibility in controlling the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"NATIONAL NATURAL SCIENCE FOUNDATION OF CHINA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"National Natural Science Foundation of China is an organization that supports the work mentioned in the paper, with specific grant numbers provided.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"QINGHONG HAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qinghong Han is a person acknowledged for their comments and suggestions in the paper.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"WEI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wei Wu is a person acknowledged for their comments and suggestions in the paper.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"JIAWEI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiawei Wu is a person acknowledged for their comments and suggestions in the paper.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"$\\ALPHA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\alpha$ is a hyperparameter in the Tversky Index that plays a significant role in controlling the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"$\\BETA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\beta$ is a hyperparameter in the Tversky Index, set to $1-\\alpha$, and also plays a significant role in controlling the tradeoff between false-negatives and false-positives.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"F1 SCORE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"F1 score is a concept used as an evaluation metric to measure the performance of models, especially in imbalanced datasets.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"CROSS-ENTROPY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross-entropy is a concept used as an objective function in machine learning, particularly in accuracy-oriented tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"DICE LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dice loss is a concept referring to a loss function proposed to narrow down the gap between training objectives and evaluation metrics like F1 score.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"ACCURACY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Accuracy is a concept used as an evaluation metric, especially in tasks where the proposed dice loss is not suitable.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"NATIONAL NATURAL SCIENCE FOUNDATION OF CHINA (NSFC)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"National Natural Science Foundation of China (NSFC) is an organization that supports the work mentioned in the paper through grants.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"MELBOURNE, AUSTRALIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Melbourne, Australia is a geographical location where the 56th Annual Meeting of the Association for Computational Linguistics (ACL 2018) took place.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"ACL 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL 2018 is an event, the 56th Annual Meeting of the Association for Computational Linguistics, held in Melbourne, Australia.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"NIPS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NIPS is an event, a conference where the paper 'Active bias: Training more accurate neural networks by emphasizing high variance samples' was presented.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"J. ARTIF. INTELL. RES.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"J. Artif. Intell. Res. is an organization, the Journal of Artificial Intelligence Research, where the paper on Smote: Synthetic minority over-sampling technique was published.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"ARXIV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "arXiv is the platform where the preprints of the papers on Quoref and Learning to teach were published, serving as a repository for academic papers in various fields.",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION (CVPR 2019)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CVPR 2019 is an event, the IEEE Conference on Computer Vision and Pattern Recognition, held in Long Beach, CA, USA.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"LONG BEACH, CA, USA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Long Beach, CA, USA is a geographical location where the IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2019) took place.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "entity_name": "\"IEEE TRANSACTIONS ON NEURAL NETWORKS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IEEE Transactions on Neural Networks is an organization, the journal where the paper on Ramoboost: Ranked minority oversampling in boosting was published.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DSC\"",
+                "tgt_id": "\"DL\"",
+                "weight": 8.0,
+                "description": "\"DSC outperforms DL, especially in more imbalanced datasets, indicating a stronger performance in handling such datasets.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"DSC\"",
+                "tgt_id": "\"FL\"",
+                "weight": 7.0,
+                "description": "\"DSC consistently outperforms FL across all datasets, showing a more reliable performance.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"STANFORD SENTIMENT TREEBANK\"",
+                "weight": 9.0,
+                "description": "\"BERT is fine-tuned and evaluated on the Stanford Sentiment Treebank datasets for sentiment classification tasks.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"STANFORD SENTIMENT TREEBANK\"",
+                "tgt_id": "\"SST-2\"",
+                "weight": 10.0,
+                "description": "\"SST-2 is a part of the Stanford Sentiment Treebank dataset used for sentiment classification.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"STANFORD SENTIMENT TREEBANK\"",
+                "tgt_id": "\"SST-5\"",
+                "weight": 10.0,
+                "description": "\"SST-5 is a part of the Stanford Sentiment Treebank dataset used for sentiment classification.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"TVERSKY INDEX\"",
+                "tgt_id": "\"CHINESE ONTONOTES4.0 NER\"",
+                "weight": 7.0,
+                "description": "\"Tversky Index is used in experiments on the Chinese OntoNotes4.0 NER dataset to test the effect of hyperparameters.\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            },
+            {
+                "src_id": "\"TVERSKY INDEX\"",
+                "tgt_id": "\"QUOREF MRC\"",
+                "weight": 1.0,
+                "description": "\"Tversky Index is used in experiments on the QuoRef MRC dataset to test the(\"entity\"",
+                "source_id": "chunk-0a3be01b9d7564716773010993d3694a"
+            }
+        ]
+    }
+}

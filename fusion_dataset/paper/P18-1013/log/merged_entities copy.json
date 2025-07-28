@@ -1,0 +1,286 @@
+{
+    "chunk-bbbf85014b02bd3a8207b00b0a8e5f0f": [
+        {
+            "entity_name": "UNIFIED MODEL (Inconsistency Loss Function)",
+            "entity_type": "CONCEPT",
+            "description": "The Unified Model combines sentence-level and word-level attentions to leverage both extractive and abstractive summarization approaches. It introduces a novel inconsistency loss function to penalize the inconsistency between sentence-level and word-level attentions, ensuring mutual benefits to both extractive and abstractive summarization.",
+            "source_entities": [
+                "UNIFIED MODEL",
+                "INCONSISTENCY LOSS FUNCTION"
+            ]
+        },
+        {
+            "entity_name": "ABSTRACTIVE SUMMARIZATION (Attentional Encoder-Decoder Model, Pointer-Generator Model)",
+            "entity_type": "CONCEPT",
+            "description": "Abstractive Summarization is a method that can generate novel words and phrases not copied from the source text. It involves sophisticated mechanisms such as the Attentional Encoder-Decoder Model and the Pointer-Generator Model, which can copy words from the source text and generate unseen words.",
+            "source_entities": [
+                "ABSTRACTIVE SUMMARIZATION",
+                "ATTENTIONAL ENCODER-DECODER MODEL",
+                "POINTER-GENERATOR MODEL"
+            ]
+        },
+        {
+            "entity_name": "ROUGE SCORES",
+            "entity_type": "CONCEPT",
+            "description": "ROUGE scores are used to evaluate the quality of the summaries produced by the extractive, abstractive, and unified models, measuring their performance in terms of informativity and readability.",
+            "source_entities": [
+                "ROUGE SCORES"
+            ]
+        },
+        {
+            "entity_name": "LEAD-3 BASELINE",
+            "entity_type": "CONCEPT",
+            "description": "The Lead-3 Baseline is a method of selecting the first three sentences for summarization, representing a simple yet strong approach in extractive summarization.",
+            "source_entities": [
+                "LEAD-3 BASELINE"
+            ]
+        }
+    ],
+    "chunk-1fb531dbc09f8fa236ca5aca4b6abf65": [
+        {
+            "entity_name": "Nallapati et al.",
+            "entity_type": "Person",
+            "description": "Researchers involved in the creation of the CNN/Daily Mail dataset for article-level summarization and the proposal of hierarchical attention mechanisms. They also developed a state-of-the-art extractive summarization model.",
+            "source_entities": [
+                "NALLAPATI ET AL. (2016B)",
+                "NALLAPATI ET AL. (2017)"
+            ]
+        },
+        {
+            "entity_name": "ROUGE",
+            "entity_type": "Event",
+            "description": "A metric used to evaluate the performance of summarization models, particularly in terms of informativity and readability. It is used to assess the unified model's performance against state-of-the-art methods.",
+            "source_entities": [
+                "ROUGE"
+            ]
+        },
+        {
+            "entity_name": "Unified Model",
+            "entity_type": "Organization",
+            "description": "A proposed model that combines sentence-level and word-level attentions to leverage both extractive and abstractive summarization approaches. It includes a novel inconsistency loss function to ensure mutual benefit between extractive and abstractive summarization.",
+            "source_entities": [
+                "UNIFIED MODEL"
+            ]
+        },
+        {
+            "entity_name": "Extractive and Abstractive Summarization",
+            "entity_type": "Event",
+            "description": "Two approaches in text summarization. Extractive summarization involves selecting sentences based on vector representations, while abstractive summarization generates a new summary by reading the input text. The unified model aims to combine the strengths of both approaches.",
+            "source_entities": [
+                "EXTRACTIVE SUMMARIZATION",
+                "ABSTRACTIVE SUMMARIZATION"
+            ]
+        },
+        {
+            "entity_name": "Inconsistency Loss",
+            "entity_type": "Event",
+            "description": "A novel loss function proposed to ensure the unified model is mutually beneficial to both extractive and abstractive summarization, enhancing their cooperation.",
+            "source_entities": [
+                "INCONSISTENCY LOSS"
+            ]
+        }
+    ],
+    "chunk-ee09fc2a680ceacea336fecadc98ee8f": [
+        {
+            "entity_name": "Nallapati et al.",
+            "entity_type": "Person",
+            "description": "Nallapati et al. are referenced for their work inspiring the extractor model and for defining the ground truth important sentences to encourage high recall.",
+            "source_entities": [
+                "\"NALLAPATI ET AL.\"",
+                "$G_{N}$",
+                "$N$"
+            ]
+        },
+        {
+            "entity_name": "Vaswani et al.",
+            "entity_type": "Person",
+            "description": "Vaswani et al. are cited as evidence for the importance of the attention mechanism in NLP tasks.",
+            "source_entities": [
+                "\"VASWANI ET AL.\""
+            ]
+        },
+        {
+            "entity_name": "Extractor",
+            "entity_type": "Organization",
+            "description": "The Extractor is a model inspired by Nallapati et al., designed to obtain a short list of important sentences for the abstractor. It features a hierarchical bidirectional GRU and a classification layer, and uses a sigmoid cross-entropy loss function for training.",
+            "source_entities": [
+                "\"EXTRACTOR\"",
+                "\"ARCHITECTURE OF THE EXTRACTOR\"",
+                "\"$L_{E X T}$\""
+            ]
+        },
+        {
+            "entity_name": "Abstracter",
+            "entity_type": "Organization",
+            "description": "The Abstracter is a model that generates the summary text and is designed to work in conjunction with the Extractor. It computes word-level attention dynamically and is trained using loss functions $L_{abs}$ and $L_{cov}$.",
+            "source_entities": [
+                "\"ABSTRACTER\"",
+                "\"$L_{A B S}$\"",
+                "\"$L_{C O V}$"
+            ]
+        },
+        {
+            "entity_name": "Inconsistency Loss",
+            "entity_type": "Event",
+            "description": "Inconsistency Loss is a novel loss function designed to encourage consistency between sentence-level and word-level attentions during training. It implicitly encourages the distribution of the word-level attentions to be sharp and sentence-level attention to be high.",
+            "source_entities": [
+                "\"INCONSISTENCY LOSS\"",
+                "\"$L_{I N C}$\"",
+                "\"$T$\"",
+                "\"$\\KAPPA$\"",
+                "\"$K$\""
+            ]
+        },
+        {
+            "entity_name": "Sentence-level Attention ($\\beta_{n}$)",
+            "entity_type": "Concept",
+            "description": "$\\beta_{n}$ represents the probability of the nth sentence being extracted into the summary and is used to measure the performance of the extractor, achieving high ROUGE scores.",
+            "source_entities": [
+                "\"$\\BETA_{N}$\"",
+                "\"ROUGE SCORES\""
+            ]
+        },
+        {
+            "entity_name": "Word-level Attention ($\\alpha_{m}^{t}$)",
+            "entity_type": "Concept",
+            "description": "$\\alpha_{m}^{t}$ represents the word-level attention dynamically computed while generating the tth word in the summary.",
+            "source_entities": [
+                "\"$\\ALPHA_{M}^{T}$\""
+            ]
+        },
+        {
+            "entity_name": "Updated Word Attention ($\\hat{\\alpha}_{m}^{t}$)",
+            "entity_type": "Concept",
+            "description": "$\\hat{\\alpha}_{m}^{t}$ is the updated word attention after combining sentence-level and word-level attentions, significantly affecting the decoding process of the abstracter.",
+            "source_entities": [
+                "\"$\\HAT{\\ALPHA}_{M}^{T}$\""
+            ]
+        }
+    ],
+    "chunk-49ce552ebe533f90b8b307c591f92a76": null,
+    "chunk-23153a1191bd44e7aee60e63c32cac14": [
+        {
+            "entity_name": "$\\hat{\\mathbf{\\alpha}}\\alpha^{t}$",
+            "entity_type": "CONCEPT",
+            "description": "The updated word attention, which is related to the final probability of word $w$ being decoded and is used in the calculation of $P_{w}^{final}(\\hat{\\pmb{\\alpha}}^{t})$. It is also used in the coverage mechanism to prevent the abstracter from repeatedly attending to the same place.",
+            "source_entities": [
+                "$\\HAT{\\MATHBF{\\ALPHA}}\\ALPHA^{T}$",
+                "$P_{W}^{FINAL}(\\HAT{\\PMB{\\ALPHA}}^{T})$"
+            ]
+        },
+        {
+            "entity_name": "Training Settings",
+            "entity_type": "EVENT",
+            "description": "The two proposed training settings for combining the extractor and abstracter are two-stages training and end-to-end training. In two-stages training, the extractor and abstracter are trained separately, with the extractor's output fed into the abstracter. In end-to-end training, the extractor and abstracter are trained together, with sentence-level attention combined with word-level attention.",
+            "source_entities": [
+                "TWO-STAGES TRAINING",
+                "END-TO-END TRAINING"
+            ]
+        },
+        {
+            "entity_name": "Loss Functions",
+            "entity_type": "CONCEPT",
+            "description": "The various loss functions used in the training procedure include $L_{ext}$ for pre-training the extractor, $L_{abs}$ for training the abstracter, $L_{cov}$ for penalizing repetition in word attention, and $L_{e2e}$ as the final loss function for end-to-end training, which combines $L_{ext}$, $L_{abs}$, $L_{cov}$, and $L_{inc}$ with weights $\\lambda_{1}, \\lambda_{2}, \\lambda_{3}, \\lambda_{4}$.",
+            "source_entities": [
+                "$L_{EXT}$",
+                "$L_{ABS}$",
+                "$L_{COV}$",
+                "$L_{E2E}$",
+                "$L_{INC}$"
+            ]
+        },
+        {
+            "entity_name": "Coverage Mechanism",
+            "entity_type": "CONCEPT",
+            "description": "The coverage mechanism is used to prevent the abstracter from repeatedly attending to the same place. It involves the calculation of a coverage vector $\\mathbf{c}^{t}$, which indicates how much attention has been paid to every input word so far, and a coverage loss $L_{cov}$ to penalize repetition in word attention.",
+            "source_entities": [
+                "COVERAGE MECHANISM",
+                "COVERAGE VECTOR $\\MATHBF{C}^{T}$",
+                "COVERAGE LOSS $L_{COV}$"
+            ]
+        }
+    ],
+    "chunk-d70cc97368a6b60e1a3179333970577d": null,
+    "chunk-33370358ad2e323a05afa749363aab02": [
+        {
+            "entity_name": "ROUGE Scores",
+            "entity_type": "EVENT",
+            "description": "ROUGE Scores are evaluation metrics used to assess the quality of generated summaries, including ROUGE-1, ROUGE-2, and ROUGE-L F-1.",
+            "source_entities": [
+                "ROUGE-1",
+                "ROUGE-2",
+                "ROUGE-L F-1"
+            ]
+        },
+        {
+            "entity_name": "Inconsistency Measurement",
+            "entity_type": "EVENT",
+            "description": "Inconsistency Measurement refers to the techniques and metrics used to evaluate and reduce inconsistency in generated summaries, including Inconsistency Loss and Inconsistency Rate (R_inc).",
+            "source_entities": [
+                "INCONSISTENCY LOSS",
+                "INCONSISTENCY RATE \\( R_{INC} \\)"
+            ]
+        },
+        {
+            "entity_name": "Models",
+            "entity_type": "ORGANIZATION",
+            "description": "Models refers to various systems and approaches used for abstractive summarization, including the Two-stages model, End-to-end model, and Lead-3 baseline.",
+            "source_entities": [
+                "TWO-STAGES MODEL",
+                "END-TO-END MODEL",
+                "LEAD-3 BASELINE"
+            ]
+        },
+        {
+            "entity_name": "Researcher Contributions",
+            "entity_type": "PERSON",
+            "description": "Researcher Contributions refers to the work of various groups of researchers who developed models for abstractive summarization, including Nallapati et al., 2016b, Paulus et al., 2017, See et al., 2017, and Liu et al., 2017.",
+            "source_entities": [
+                "NALLAPATI ET AL., 2016B",
+                "PAULUS ET AL., 2017",
+                "SEE ET AL., 2017",
+                "LIU ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Evaluation Methods",
+            "entity_type": "EVENT",
+            "description": "Evaluation Methods refers to the processes used to assess the quality of summaries, including Human Evaluation and the comparison of models with state-of-the-art abstractive summarization models.",
+            "source_entities": [
+                "HUMAN EVALUATION",
+                "STATE-OF-THE-ART ABSTRACTIVE SUMMARIZATION MODELS"
+            ]
+        },
+        {
+            "entity_name": "Tables and Figures",
+            "entity_type": "GEO",
+            "description": "Tables and Figures refers to the visual and tabular data presented in the paper, including Table 1, Table 2, Table 3, Table 4, and Figure 5, which contain various data and comparisons related to the study.",
+            "source_entities": [
+                "TABLE 1",
+                "TABLE 2",
+                "TABLE 3",
+                "TABLE 4",
+                "FIGURE 5"
+            ]
+        }
+    ],
+    "chunk-4be7e7a6f3b5e19a3af7e0dc0df32e9f": [
+        {
+            "entity_name": "ROUGE-RECALL and ROUGE",
+            "entity_type": "EVENT",
+            "description": "ROUGE-RECALL and ROUGE are evaluation metrics used to assess the quality of text summarization, specifically measuring the model's performance against reference summaries.",
+            "source_entities": [
+                "ROUGE-RECALL",
+                "ROUGE"
+            ]
+        },
+        {
+            "entity_name": "CNN/Daily Mail Dataset",
+            "entity_type": "GEO",
+            "description": "The CNN/Daily Mail dataset is a collection of articles used for evaluating the performance of summarization models.",
+            "source_entities": [
+                "CNN/DAILY MAIL DATASET"
+            ]
+        }
+    ]
+}

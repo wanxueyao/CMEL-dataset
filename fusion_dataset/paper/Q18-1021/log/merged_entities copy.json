@@ -1,0 +1,344 @@
+{
+    "chunk-82f88c585b6486b045e4d336b8795f49": [
+        {
+            "entity_name": "MULTI-HOP RC TASK",
+            "entity_type": "EVENT",
+            "description": "The multi-hop RC task is a formally defined task in the paper, involving a model given a query, supporting documents, and candidate answers, with the goal of identifying the correct answer by drawing on the support documents. It is also referred to as the cross-document multi-step RC task.",
+            "source_entities": [
+                "CROSS-DOCUMENT MULTI-STEP RC TASK",
+                "MULTI-HOP RC TASK"
+            ]
+        },
+        {
+            "entity_name": "DATASET INDUCTION STRATEGY",
+            "entity_type": "EVENT",
+            "description": "A general dataset induction strategy is proposed for constructing multi-hop RC datasets, which involves transforming KB facts into query-answer pairs and using a directed bipartite graph to connect documents and entities mentioned in them.",
+            "source_entities": [
+                "DATASET INDUCTION STRATEGY"
+            ]
+        }
+    ],
+    "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764": [
+        {
+            "entity_name": "Wikipedia (WIKIPEDIA)",
+            "entity_type": "ORGANIZATION",
+            "description": "A free online encyclopedia containing a vast amount of multi-domain information and structured resources like infoboxes and Wikidata, used extensively for research to build datasets for querying single sentences or articles.",
+            "source_entities": [
+                "WIKIPEDIA",
+                "WIKIHOP",
+                "ASSEMBLY",
+                "S_Q",
+                "C_Q",
+                "ITEM",
+                "PROPERTY",
+                "ANSWER"
+            ]
+        },
+        {
+            "entity_name": "Wikidata (WIKIDATA)",
+            "entity_type": "ORGANIZATION",
+            "description": "A structured knowledge base associated with Wikipedia, containing data in the form of entities, properties, and values, used to create a multi-hop dataset with Wikipedia as the document corpus and Wikidata as structured knowledge triples.",
+            "source_entities": [
+                "WIKIDATA",
+                "WIKIHOP",
+                "ASSEMBLY"
+            ]
+        },
+        {
+            "entity_name": "Wikireading (WIKIREADING)",
+            "entity_type": "EVENT",
+            "description": "A recently proposed RC dataset where Wikidata tuples are aligned with Wikipedia articles regarding their item, used for a slot filling task with the goal of predicting the answer given an article and property, but noted for not explicitly stating the answer in 54.4% of the samples.",
+            "source_entities": [
+                "WIKIREADING",
+                "HILL ET AL. (2016)"
+            ]
+        },
+        {
+            "entity_name": "Hermann et al. (HERMANN ET AL.)",
+            "entity_type": "PERSON",
+            "description": "Researchers who rely on entity masking in their work, contrasting with the approach of introducing alternative candidates.",
+            "source_entities": [
+                "HERMANN ET AL.",
+                "HILL ET AL."
+            ]
+        },
+        {
+            "entity_name": "United Kingdom (LONDON, UNITED KINGDOM)",
+            "entity_type": "GEO",
+            "description": "A country that is frequently the correct answer when the article about London is present in the dataset, used as an example to illustrate the spurious correlations between candidates and documents in the multi-document setting.",
+            "source_entities": [
+                "LONDON",
+                "UNITED KINGDOM"
+            ]
+        },
+        {
+            "entity_name": "United States (UNITED STATES)",
+            "entity_type": "GEO",
+            "description": "A country whose articles were omitted from the dataset to avoid bias towards a majority class baseline.",
+            "source_entities": [
+                "UNITED STATES"
+            ]
+        },
+        {
+            "entity_name": "Mitigating Dataset (MITIGATING DATASET)",
+            "entity_type": "EVENT",
+            "description": "The process of addressing spurious correlations between candidates and documents in the multi-document setting, involving the design of a statistic to measure the effect and the subsequent sub-sampling of the dataset to reduce such correlations.",
+            "source_entities": [
+                "MITIGATING DATASET"
+            ]
+        }
+    ],
+    "chunk-5df9e676a18cd08287218ab75acf0a60": [
+        {
+            "entity_name": "MEDHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "MEDHOP is a dataset constructed for the domain of molecular biology, focusing on Drug-Drug Interactions (DDIs) and related biomedical research. It uses structured knowledge resources like DRUGBANK and research paper abstracts from MEDLINE to construct a bipartite graph connecting drugs, proteins, and documents. MEDHOP aims to improve recall in detecting DDIs by considering cross-sentence and cross-document interactions.",
+            "source_entities": [
+                "MEDHOP"
+            ]
+        },
+        {
+            "entity_name": "Leuprolide (GnRH receptor-induced synaptic potentiations)",
+            "entity_type": "GEO",
+            "description": "Leuprolide is a drug that causes GnRH receptor-induced synaptic potentiations and is part of the Protein-Protein Interaction (PPI) chains relevant to MEDHOP. It is mentioned in the context of Drug-Drug Interactions (DDIs), where it interacts with other drugs like Triptorelin through their common target protein Progonadoliberin-1.",
+            "source_entities": [
+                "LEUPROLIDE",
+                "GNRH RECEPTOR"
+            ]
+        },
+        {
+            "entity_name": "Protein-Protein Interaction (PPI)",
+            "entity_type": "CONCEPT",
+            "description": "Protein-Protein Interaction (PPI) refers to the chains of interactions between proteins that form biomedical pathways and are central to the MEDHOP dataset. PPI chains are crucial for understanding Drug-Drug Interactions (DDIs) as they can indicate how different drugs may interact with each other through their effects on common proteins.",
+            "source_entities": [
+                "PROTEIN-PROTEIN INTERACTION (PPI)",
+                "DRUG-DRUG INTERACTIONS (DDIS)"
+            ]
+        },
+        {
+            "entity_name": "Cross-sentence relation extraction",
+            "entity_type": "CONCEPT",
+            "description": "Cross-sentence relation extraction is a method shown by Peng et al. to increase the number of available relations, relevant to the MEDHOP dataset. This method is important for detecting Drug-Drug Interactions (DDIs) by considering interactions that span multiple sentences, thereby improving the recall of DDI detection.",
+            "source_entities": [
+                "CROSS-SENTENCE RELATION EXTRACTION"
+            ]
+        }
+    ],
+    "chunk-0a59ac02a0bfe8791934461b2a9f97d7": [
+        {
+            "entity_name": "REACTOME",
+            "entity_type": "ORGANIZATION",
+            "description": "A database that provides information on interactions between proteins, as referenced in the text, and is associated with Fabregat et al., who are authors referenced in the text.",
+            "source_entities": [
+                "REACTOME",
+                "FABREGAT ET AL."
+            ]
+        },
+        {
+            "entity_name": "DRUGBANK",
+            "entity_type": "ORGANIZATION",
+            "description": "A database mentioned in the text, which contains information about drugs, their interactions, and is used for exact matches of drug or human protein names.",
+            "source_entities": [
+                "DRUGBANK"
+            ]
+        },
+        {
+            "entity_name": "SWISSPROT",
+            "entity_type": "ORGANIZATION",
+            "description": "A protein database referenced in the text for exact matches of drug or human protein names.",
+            "source_entities": [
+                "SWISSPROT"
+            ]
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "An event or process described in the text, involving creating a bipartite graph for document sub-sampling in the context of drug interactions, and is compared with MEDHOP in terms of dataset sizes and document sub-sampling. It also inherits the train, development, and test set splits from WIKIREADING and uses WIKIDATA for type-consistent false answer candidates.",
+            "source_entities": [
+                "WIKIHOP",
+                "MEDHOP",
+                "WIKIREADING",
+                "WIKIDATA"
+            ]
+        },
+        {
+            "entity_name": "SQUAD",
+            "entity_type": "ORGANIZATION",
+            "description": "A large-scale RC dataset organization mentioned in the text for comparison with WIKIHOP and MEDHOP.",
+            "source_entities": [
+                "SQUAD"
+            ]
+        },
+        {
+            "entity_name": "ASPIRIN",
+            "entity_type": "ORGANIZATION",
+            "description": "A drug mentioned in the text, known to interact with a large number of other drugs, such as 743 other drugs.",
+            "source_entities": [
+                "ASPIRIN"
+            ]
+        },
+        {
+            "entity_name": "ISOTRETINOIN",
+            "entity_type": "ORGANIZATION",
+            "description": "A drug mentioned in the text, which interacts with fewer other drugs compared to Aspirin, with only 34 interactions.",
+            "source_entities": [
+                "ISOTRETINOIN"
+            ]
+        },
+        {
+            "entity_name": "Louis XIV of France",
+            "entity_type": "PERSON",
+            "description": "A historical figure mentioned as the correct answer in a query example involving Louis Auguste, and is associated with the French geographical entity.",
+            "source_entities": [
+                "LOUIS AUGUSTE",
+                "LOUIS XIV OF FRANCE",
+                "FRENCH"
+            ]
+        },
+        {
+            "entity_name": "West Suffolk and England",
+            "entity_type": "GEO",
+            "description": "Geographical entities mentioned in the text, used as an example of ambiguity due to hypernymy, where West Suffolk is an administrative entity and England is a larger geographical entity related to it.",
+            "source_entities": [
+                "WEST SUFFOLK",
+                "ENGLAND"
+            ]
+        }
+    ],
+    "chunk-6a1862c1200f3971d9c39eab05cd7fa2": [
+        {
+            "entity_name": "WIKIDATA/WIKIPEDIA",
+            "entity_type": "ORGANIZATION",
+            "description": "WIKIDATA and WIKIPEDIA are knowledge bases and an online encyclopedia, respectively, used for comparison in the context of information discrepancies and distant supervision assumption violation.",
+            "source_entities": [
+                "WIKIDATA",
+                "WIKIPEDIA"
+            ]
+        },
+        {
+            "entity_name": "Wodzisaw lski (WODZISAW LSKI)",
+            "entity_type": "GEO",
+            "description": "Wodzisaw lski is a town in Silesian Voivodeship, southern Poland, mentioned in the context of Witold Cichy's background and used as an example in fact inference.",
+            "source_entities": [
+                "WODZISAW LSKI",
+                "Wodzisaw lski"
+            ]
+        }
+    ],
+    "chunk-023b0108469abe3596a799181e4f77c0": null,
+    "chunk-d5683a5861bc57565129ae8c176a8aea": [
+        {
+            "entity_name": "FastQA",
+            "entity_type": "ORGANIZATION",
+            "description": "FastQA is a model initially developed and tested on single-hop Reading Comprehension (RC) datasets, utilizing bidirectional LSTMs and attention mechanisms to integrate information from different locations in the document.",
+            "source_entities": [
+                "FASTQA"
+            ]
+        },
+        {
+            "entity_name": "BiDAF",
+            "entity_type": "ORGANIZATION",
+            "description": "BiDAF is a model that employs iterative conditioning across multiple layers, potentially making it better suited for integrating information across sequences, as compared to FastQA in the context of Reading Comprehension tasks.",
+            "source_entities": [
+                "BIDAF"
+            ]
+        },
+        {
+            "entity_name": "Hermann et al.",
+            "entity_type": "PERSON",
+            "description": "Hermann et al. are researchers who observed the phenomenon of lexical regularities among answers in Reading Comprehension (RC) dataset assembly, indicating the importance of context in comprehending text.",
+            "source_entities": [
+                "HERMANN ET AL."
+            ]
+        },
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_entities": [
+                "WIKIHOP",
+                "WIKIHOP"
+            ]
+        },
+        {
+            "entity_name": "MEDHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_entities": [
+                "MEDHOP",
+                "MEDHOP"
+            ]
+        },
+        {
+            "entity_name": "TF-IDF",
+            "entity_type": "ORGANIZATION",
+            "description": "TF-IDF is a retrieval baseline used for comparison in the evaluation of models on the WIKIHOP dataset, indicating its performance relative to other baselines and neural models.",
+            "source_entities": [
+                "TF-IDF"
+            ]
+        },
+        {
+            "entity_name": "Document-cue",
+            "entity_type": "ORGANIZATION",
+            "description": "Document-cue is a baseline used to predict samples correctly on both WIKIHOP and MEDHOP datasets, highlighting its relative strength among other baselines in Reading Comprehension tasks.",
+            "source_entities": [
+                "DOCUMENT-CUE"
+            ]
+        },
+        {
+            "entity_name": "SQuAD",
+            "entity_type": "EVENT",
+            "description": "SQuAD is a benchmark where the performance of BiDAF and FastQA models is compared, with nearly indistinguishable results, contrasting with their performance on WIKIHOP and MEDHOP datasets.",
+            "source_entities": [
+                "SQUAD"
+            ]
+        },
+        {
+            "entity_name": "Reading Comprehension (RC)",
+            "entity_type": "CONCEPT",
+            "description": "Reading Comprehension (RC) is the task for which models like FastQA and BiDAF are being evaluated and compared, focusing on their ability to integrate information and leverage context.",
+            "source_entities": [
+                "RC"
+            ]
+        }
+    ],
+    "chunk-ef724a54d3b43cd7b7abda19fadfc6d1": null,
+    "chunk-728223dc801f8e71465cbb47fef4b6e3": [
+        {
+            "entity_name": "Schoenmackers et al.",
+            "entity_type": "Event",
+            "description": "The event refers to the publication or research conducted by Schoenmackers and colleagues in 2008 and 2010, addressing limited coverage, inefficient inference, and efforts to circumvent sparsity in approaches.",
+            "source_entities": [
+                "SCHOENMACKERS ET AL., 2008",
+                "SCHOENMACKERS ET AL., 2010"
+            ]
+        },
+        {
+            "entity_name": "Lao and Cohen (Lao et al.)",
+            "entity_type": "Event",
+            "description": "The event refers to the publication or research conducted by Lao and Cohen in 2010, introducing the Path Ranking Algorithm, and further developed by Lao and colleagues in 2011.",
+            "source_entities": [
+                "LAO AND COHEN, 2010",
+                "LAO ET AL., 2011"
+            ]
+        },
+        {
+            "entity_name": "Shen et al.",
+            "entity_type": "Event",
+            "description": "The event refers to the publication or research conducted by Shen and colleagues in 2017, demonstrating end-to-end language understanding approaches for answering questions directly from text and related to query reformulation techniques using neural reinforcement learning.",
+            "source_entities": [
+                "SHEN ET AL., 2017",
+                "SHEN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Nogueira and Cho",
+            "entity_type": "Event",
+            "description": "The event refers to the publication or research conducted by Nogueira and Cho in 2016 and 2017, addressing the expansion of the document set available to a QA system through web navigation and query reformulation techniques using neural reinforcement learning.",
+            "source_entities": [
+                "NOGUEIRA AND CHO, 2016",
+                "NOGUEIRA AND CHO, 2017"
+            ]
+        }
+    ]
+}

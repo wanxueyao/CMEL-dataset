@@ -1,0 +1,72 @@
+{
+    "image_1": {
+        "entity_name": "Dialog State Tracking",
+        "entity_type": "EVENT",
+        "description": "Dialog State Tracking is the event or process being researched, which involves tracking user goals and intentions in task-oriented dialog systems.",
+        "reason": "The image clearly shows a dialog state tracking example for booking a hotel and reserving a restaurant. The text also discusses Dialog State Tracking as a core component in task-oriented dialog systems, aligning with the content of the image.",
+        "matched_chunk_entity_name": "Dialog State Tracking"
+    },
+    "image_2": {
+        "entity_name": "DS-DST MODEL",
+        "entity_type": "ORGANIZATION",
+        "description": "DS-DST model is the proposed dual strategy model for Dialogue State Tracking (DST), utilizing BERT for encoding and slot gate classification.",
+        "reason": "The image clearly shows the architecture of a DS-DST model, which includes two BERT models: one fixed for categorical slot-value prediction and another fine-tuned for non-categorical slot-value prediction. The text also describes the use of BERT in this context, aligning with the visual representation.",
+        "matched_chunk_entity_name": "DS-DST MODEL"
+    },
+    "image_3": {
+        "entity_name": "MultiWOZ 2.0",
+        "entity_type": "DATASET",
+        "description": "MultiWOZ 2.0 is a multi-domain dialogue corpus with seven distinct domains and over 10,000 dialogues.",
+        "reason": "The image clearly shows the dataset information for MultiWOZ 2.0 and MultiWOZ 2.1, including the number of dialogues for each domain across three datasets (Train, Validation, Test). The text also mentions MultiWOZ 2.0 as an event or dataset referenced in the context of the described model.",
+        "matched_chunk_entity_name": "MultiWOZ 2.0"
+    },
+    "image_4": {
+        "entity_name": "Table 2: Joint accuracy on the test sets of MultiWOZ 2.0 and 2.1.",
+        "entity_type": "TABLE",
+        "description": "The table lists various dialogue state tracking (DST) models and their performance metrics on two datasets, MultiWOZ 2.0 and MultiWOZ 2.1. The table has three columns: 'Models,' 'MultiWOZ 2.0,' and 'MultiWOZ 2.1.' Each row represents a different model and its corresponding joint accuracy percentage on the two datasets.",
+        "reason": "The image clearly shows a table labeled 'Table 2: Joint accuracy on the test sets of MultiWOZ 2.0 and 2.1.' which matches the description provided in the text information.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 3: Joint accuracy on the test sets of MultiWOZ 2.1",
+        "entity_type": "DATASET",
+        "description": "The table compares the joint accuracy of different dialogue state tracking (DST) models, including BERT-DST, DS-DST, BERT-DST-Picklist, ToD-BERT, and DS-Picklist.",
+        "reason": "The image clearly shows a table labeled 'Table 3: Joint accuracy on the test sets of MultiWOZ 2.1', which aligns with the content of the text that describes the performance of various DST models on this dataset.",
+        "matched_chunk_entity_name": "MULTIWOZ 2.1"
+    },
+    "image_6": {
+        "entity_name": "Table 4",
+        "entity_type": "GEO",
+        "description": "Table 4 is referenced for details on categorical and non-categorical slots for DS-DST.",
+        "reason": "The image clearly shows a table labeled 'Table 4: The slot-level accuracy on the test set of MultiWOZ 2.1.' This matches with the description provided in the text, indicating that Table 4 provides details on categorical and non-categorical slots for DS-DST.",
+        "matched_chunk_entity_name": "TABLE 4"
+    },
+    "image_7": {
+        "entity_name": "Table 5: Statistics of Top-10 slots on the MultiWOZ 2.1 validation set based on (#Unfound / #Relative_Turns)",
+        "entity_type": "CONCEPT",
+        "description": "The table highlights the performance of three different methods (DS-Span, DS-DST, and DS-Picklist) in predicting slot values that cannot be found through span matching in the dialog context. The percentages indicate the accuracy of each method in recovering the missing values.",
+        "reason": "The image is a table labeled 'Table 5' which matches the description provided in the text information. The table contains statistics for top-10 slots on the MultiWOZ 2.1 validation set based on the number of unfound values and relative turns, aligning with the content described in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 6: Predicted dialog states on the MultiWOZ 2.1 validation set",
+        "entity_type": "CONCEPT",
+        "description": "The table is a comparative analysis of different dialogue state tracking models, specifically DS-Span, DS-DST, and DS-Picklist, showcasing their performance in predicting dialog states across various slots.",
+        "reason": "The image clearly shows a table labeled 'Table 6' which contains predicted dialog states from three different models (DS-Span, DS-DST, and DS-Picklist) on the MultiWOZ 2.1 validation set. The content aligns with the description provided in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "DS-DST",
+        "entity_type": "ORGANIZATION",
+        "description": "DS-DST is a model mentioned in the context of using a constant margin $\\lambda$ set to 0.5, indicating its role in the fine-tuning process.",
+        "reason": "The image depicts a dialogue interaction between a user and a system, focusing on the booking of a train from Ely to Cambridge and subsequently finding a place to stay. The table highlights the accuracy and discrepancies in the predictions made by the models compared to the ground truths. DS-DST is one of the models used in this context, and it is mentioned in the text information as well.",
+        "matched_chunk_entity_name": "DS-DST"
+    },
+    "image_10": {
+        "entity_name": "DS-DST",
+        "entity_type": "ORGANIZATION",
+        "description": "DS-DST is a model mentioned in the context of using a constant margin $\\lambda$ set to 0.5, indicating its role in the fine-tuning process.",
+        "reason": "The image depicts a table that documents a dialogue interaction between a user and a system, detailing the booking process for a restaurant named Nandos on Monday at 15:00 for 6 people. The table includes predictions from two models, DS-Span and DS-DST, which are compared against ground truths. DS-DST is highlighted as accurately predicting dialog states across different turns, making it the most relevant entity.",
+        "matched_chunk_entity_name": "DS-DST"
+    }
+}

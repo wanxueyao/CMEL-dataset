@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: The slot-level accuracy on the test set of MultiWOZ 2.1.' It provides a detailed comparison of slot-level accuracy for three different models: DS-Span, DS-DST, and DS-Picklist. The table is structured with rows representing various slot types and columns representing the models and their respective accuracies. Each row includes the slot name and the accuracy values for each model, along with the improvement or degradation compared to DS-Span in parentheses. Significant improvements are highlighted in bold. The slots are categorized into categorical and non-categorical slots, separated by a dashed line. The categorical slots include hotel-type, attraction-name, restaurant-name, hotel-internet, hotel-parking, attraction-type, hotel-name, hotel-area, restaurant-area, attraction-area, hotel-price range, train-departure, restaurant-food, restaurant-price range, taxi-departure, taxi-destination, hotel-stars, train-destination, train-day, hotel-book day, restaurant-book day, train-leave at, train-arrive by, train-book people, restaurant-book time, taxi-leave at, hotel-book people, taxi-arrive by, hotel-book stay, and restaurant-book people. The average accuracy for each model is provided at the bottom of the table: DS-Span at 96.38%, DS-DST at 97.35%, and DS-Picklist at 97.40%. The table highlights significant improvements for some slots, particularly hotel-type, attraction-type, attraction-name, hotel-internet, and hotel-parking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+</node>
+<node id="&quot;DS-SPAN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model used for slot filling in dialogue systems, with an average accuracy of 96.38% across various slots such as hotel-type, attraction-name, and restaurant-name."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+</node>
+<node id="&quot;DS-DST&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An advanced version of the DS-Span model, showing improvements in accuracy for most slots, with an overall average accuracy of 97.35%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+</node>
+<node id="&quot;DS-PICKLIST&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another model used for slot filling, which performs slightly better than DS-DST on average, achieving an average accuracy of 97.40% across all slots."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-Span是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-DST是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-Picklist是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-SPAN&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"DS-DST is an improved version of DS-Span, generally providing higher accuracy for slot filling tasks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DS-DST&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"DS-Picklist outperforms DS-DST in terms of average accuracy, indicating a more refined approach to slot filling."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

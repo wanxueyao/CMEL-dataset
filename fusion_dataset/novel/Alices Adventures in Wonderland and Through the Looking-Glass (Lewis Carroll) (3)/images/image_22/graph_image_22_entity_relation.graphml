@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_22&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a whimsical and surreal landscape that resembles a large chessboard. The foreground features a large, gnarled tree with intricate branches and leaves, which appear to be part of the chessboard pattern. The trunk of the tree has a circular design on it, possibly representing a chess piece. The background shows a vast expanse divided into squares by green hedges and brooks, creating a grid-like pattern reminiscent of a chessboard. The scene is set in an open field with distant hills visible on the horizon. The overall atmosphere is one of fantasy and wonder, aligning with the narrative of Alice's adventures in Wonderland. The detailed drawing captures the imaginative and dreamlike quality of the story, with the chessboard motif symbolizing the game-like nature of Alice's journey."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large, old tree with a thick trunk and sprawling branches. The tree has a circular symbol carved into its trunk."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An expansive field divided into a checkerboard pattern of alternating light and dark squares."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+</node>
+<node id="&quot;HORIZON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The distant horizon where the field meets the sky, suggesting an open landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+</node>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;HORIZON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Horizon是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The tree is situated at the edge of the field, casting a shadow over some of the squares."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE&quot;" target="&quot;HORIZON&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The tree stands prominently against the backdrop of the horizon, emphasizing its size and age."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIELD&quot;" target="&quot;HORIZON&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The field extends towards the horizon, creating a sense of depth and vastness."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

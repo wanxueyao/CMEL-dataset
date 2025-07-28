@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two line graphs side by side, each plotting the accuracy of two models, SWEM and CNN, against the subspace dimension d. The x-axis represents the subspace dimension d, ranging from 0 to 1000 in increments of 200. The y-axis represents the accuracy, ranging from 0.5 to 0.9. Each graph contains four lines: a solid blue line for SWEM, a solid red line for CNN, a dashed blue line for SWEM direct, and a dashed red line for CNN direct. In both graphs, the SWEM and CNN lines start at a low accuracy near d=0 and gradually increase as d increases, approaching an accuracy of around 0.85 to 0.9. The SWEM direct and CNN direct lines are horizontal at the top of the graph, indicating a constant high accuracy regardless of d. The first graph on the left shows the performance when word embeddings are optimized, while the second graph on the right shows the performance when word embeddings are frozen. Both graphs demonstrate that the subspace training yields similar accuracy with direct training for very small d, and SWEM seems to have an easier loss landscape than CNN for word embeddings to find the best solutions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+</node>
+<node id="&quot;SWEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A machine learning model used for subspace learning, represented by the blue line and circles in the graphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+</node>
+<node id="&quot;CNN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A convolutional neural network, represented by the red line and circles in the graphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+</node>
+<node id="&quot;SUBSPACE DIM D&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The x-axis variable representing the dimension of the subspace, ranging from 0 to 1000."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+</node>
+<node id="&quot;ACCURACY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The y-axis variable representing the accuracy of the models, ranging from 0.5 to 0.9."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SWEM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;CNN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;SUBSPACE DIM D&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Subspace dim d是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Accuracy是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SWEM&quot;" target="&quot;CNN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both SWEM and CNN are compared in terms of their accuracy across different subspace dimensions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SWEM&quot;" target="&quot;SUBSPACE DIM D&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SWEM's performance is measured across varying dimensions of the subspace."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SWEM&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"SWEM's accuracy is plotted against the subspace dimension."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN&quot;" target="&quot;SUBSPACE DIM D&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CNN's performance is measured across varying dimensions of the subspace."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"CNN's accuracy is plotted against the subspace dimension."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

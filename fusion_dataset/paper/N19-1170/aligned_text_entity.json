@@ -1,0 +1,221 @@
+{
+    "image_1": [
+    ],
+    "image_2": [
+        {
+            "entity_name": "WEIGHTED DECODING",
+            "entity_type": "EVENT",
+            "description": "Weighted Decoding (WD) is a decoding method that increases or decreases the probability of words with certain features, used to control conversational attributes such as repetition, specificity, and response-relatedness. It involves applying a positive or negative weight to n-gram based decoding features or NIDF to adjust the model's output accordingly.",
+            "source_image_entities": [
+                "WEIGHTED DECODING RESPONSE"
+            ],
+            "source_text_entities": [
+                "WEIGHTED DECODING",
+                "WEIGHTED DECODING",
+                "WEIGHTED DECODING"
+            ]
+        },
+        {
+            "entity_name": "CONDITIONAL TRAINING",
+            "entity_type": "EVENT",
+            "description": "Conditional Training (CT) is a method used to learn a sequence-to-sequence model with a discrete control variable, which can be binary or bucketed. It is used to control conversational attributes such as specificity and response-relatedness by adjusting the model during training to produce outputs with desired attributes. This method can be applied simultaneously with Weighted Decoding.",
+            "source_image_entities": [
+                "CONDITIONAL TRAINING RESPONSE"
+            ],
+            "source_text_entities": [
+                "CONDITIONAL TRAINING (CT)",
+                "CONDITIONAL TRAINING",
+                "CONDITIONAL TRAINING"
+            ]
+        }
+    ],
+    "image_3": [],
+    "image_4": [
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "REPETITION-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a purple bar, focusing on repetition control which showed huge improvements over the beam search baseline in all metrics.",
+            "source_image_entities": [
+                "REPETITION-CONTROLLED (WD) METHOD"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a pink bar, and evaluated for its performance in engagingness and specificity in the human evaluation.",
+            "source_image_entities": [
+                "SPECIFICITY-CONTROLLED (WD) METHOD"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "HUMAN EVALUATION",
+            "entity_type": "EVENT",
+            "description": "Human evaluation is the process considered for assessing the dialogue system's performance in controlling question-asking using the conditional training method.",
+            "source_image_entities": ["HUMAN"],
+            "source_text_entities": ["HUMAN EVALUATION"]
+        },
+        {
+            "entity_name": "RESPONSE-RELATEDNESS",
+            "entity_type": "CONCEPT",
+            "description": "Response-relatedness is a controllable attribute evaluated to assess the coherence of responses in conversations.",
+            "source_image_entities": ["MAKING SENSE"],
+            "source_text_entities": ["RESPONSE-RELATEDNESS"]
+        },
+        {
+            "entity_name": "REPETITION CONTROL",
+            "entity_type": "ORGANIZATION",
+            "description": "Repetition control is a method used to evaluate the performance of different search methods in terms of avoiding repetition in responses or text generation, with specific models and algorithms designed to control for repetition.",
+            "source_image_entities": ["REPETITION-CONTROLLED (WD)"],
+            "source_text_entities": ["REPETITION-CONTROLLED BASELINE"]
+        },
+        {
+            "entity_name": "QUESTION-CONTROLLED",
+            "entity_type": "ORGANIZATION",
+            "description": "Question-controlled is a type of algorithm that controls for question-answering ability in the generated text, using context tracking as a measure.",
+            "source_image_entities": ["QUESTION-CONTROLLED (CT)"],
+            "source_text_entities": ["QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)"]
+        }
+    ],        
+    "image_7": [
+    ],
+    "image_8": [
+    ],
+    "image_9": [
+    ],
+    "image_10": [
+    ],
+    "image_11": [
+    ],
+    "image_12": [
+    ],
+    "image_13": [
+        {
+            "merged_entity_name": "REPETITION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the repetition of words or phrases in generated text, with different weightings applied to external, internal, and partner repetitions, as detailed in Table 4 and Table 5.",
+            "source_image_entities": [
+                "REPETITION CONTROL"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the generation of questions in text, with different settings for the number of questions generated, as part of the human evaluation process and detailed in Table 5.",
+            "source_image_entities": [
+                "QUESTION CONTROL"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the specificity of generated text, with different weightings applied to NIDF scores, as part of the human evaluation process and detailed in Table 5.",
+            "source_image_entities": [
+                "SPECIFICITY CONTROL"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the relevance of generated responses to input prompts, with different weightings applied to cosine similarity scores, as part of the human evaluation process and detailed in Table 5 and Table 8.",
+            "source_image_entities": [
+                "RESPONSE-RELATED CONTROL"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ],
+    "image_14": [
+        {
+            "merged_entity_name": "SPECIFICITY METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics indicating the specificity of responses using NIDF values, part of the human evaluation process to measure the distinctiveness of generated responses.",
+            "source_image_entities": [
+                "SPECIFICITY METRICS"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics measuring the cosine similarity between responses and questions, used to evaluate the relevance and appropriateness of responses in conversational models.",
+            "source_image_entities": [
+                "RESPONSE-RELATED METRICS"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ],
+    "image_15": [
+    ],
+    "image_16": [
+    ],
+    "image_17": [
+        {
+            "merged_entity_name": "REPETITION-CONTROLLED BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "Repetition-controlled baseline is a model used as a reference point for comparison in human evaluations, represented by a purple dotted line.",
+            "source_image_entities": [
+                "REPETITION-CONTROLLED BASELINE"
+            ],
+            "source_text_entities": [
+                "REPETITION-CONTROLLED BASELINE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION-ASKING CONTROL LEVEL (CT)",
+            "entity_type": "EVENT",
+            "description": "The top second graph from the left showing the question-asking control level with CT, which is an organization or model involved in the human evaluation process.",
+            "source_image_entities": [
+                "QUESTION-ASKING CONTROL LEVEL (CT)"
+            ],
+            "source_text_entities": [
+                "QUESTION-CONTROLLED CT ${\\BF\\NABLA}Z=7)"
+            ]
+        },
+        {
+            "merged_entity_name": "SPECIFICITY CONTROL LEVEL (WD)",
+            "entity_type": "EVENT",
+            "description": "The top fourth graph from the left showing the specificity control level with WD, which is an organization or model involved in the human evaluation process.",
+            "source_image_entities": [
+                "SPECIFICITY CONTROL LEVEL (WD)"
+            ],
+            "source_text_entities": [
+                "SPECIFICITY-CONTROLLED WD (WEIGHT $=4\\AA$ )"
+            ]
+        },
+        {
+            "merged_entity_name": "RESPONSE-RELATED CONTROLLED MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "Response-related controlled models are a group of models that introduce repetition controls to block certain types of repetition, including the Response-related controlled WD 0 model which has increased repetition control but no response-relatedness control.",
+            "source_image_entities": [
+                "RESPONSE-RELATEDNESS CONTROL LEVEL (WD)"
+            ],
+            "source_text_entities": [
+                "RESPONSE-RELATED CONTROLLED MODELS"
+            ]
+        }
+    ]
+}

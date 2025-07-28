@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short hair, straight and neatly cut- Expression: Neutral, with a focused gaze directed to the side- Age: Appears to be a young boy- Clothing: Wearing a light-colored T-shirt with a graphic design on the front; dark pants- Accessories: Holding a large object that appears to be a weapon or tool, possibly a sword or a staff, in his right handOverall, the character gives off a serious and determined vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of a young boy holding a rifle. The boy has short hair and is depicted in a side profile, facing to the right. He is wearing a sleeveless shirt with a visible strap over his shoulder, which appears to be part of a bag or pouch. The rifle is slung over his shoulder and rests on his left arm, with the barrel pointing downward. The boy's expression is serious and focused, suggesting a sense of determination or readiness. The background is plain and does not provide any additional context or details."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Young boy with short hair, wearing a t-shirt and pants, holding a rifle over his shoulder."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+</node>
+<node id="&quot;RIFLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A long-barreled firearm held by the boy over his shoulder."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;RIFLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rifle是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;RIFLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The boy is holding the rifle over his shoulder."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,2259 @@
+{
+    "5": {
+        "chunk_key": "chunk-a24ba6c84e31348058a7fdc460010cff",
+        "entities": [
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is a model that demonstrates the ability to assign semantically meaningful categories and has been tested for its performance on lexical semantic categorization tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SEMEVAL-SS TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The SemEval-SS task is a supersense-based variant of the SemEval WSD test sets, where a model predicts the supersense of a marked word.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"WORD IN CONTEXT (WIC) TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The WiC task requires a model to determine whether an underlined word is used in the same or different supersense within two sentences.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SUPERGLUE BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The SuperGLUE benchmark is a recently introduced evaluation framework that includes the WiC task, requiring a high level of lexical semantic understanding.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SEMCOR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SemCor is the training dataset used for the supersense disambiguation task, providing 226,036 annotated examples.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SENSEEVAL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseEval is part of the evaluation suite used for the supersense disambiguation task, providing annotated examples for testing.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SEMEVAL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SemEval is another part of the evaluation suite used for the supersense disambiguation task, providing additional annotated examples for testing.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a vanilla model that serves as a baseline for comparison with SenseBERT in various lexical semantic tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"RAGANATO ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raganato et al. are referenced for standardizing the supersense-based variant of the SemEval WSD test sets.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"PILEHVAR AND CAMACHO-COLLADOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pilehvar and Camacho-Collados are authors referenced for their work on the Word in Context (WiC) task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"WANG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al. are authors referenced for their work on the SuperGLUE benchmark.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"EDMONDS AND COTTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Edmonds and Cotton are authors referenced for their work in the evaluation of supersense disambiguation tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"SNYDER AND PALMER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Snyder and Palmer are authors referenced for their work in the evaluation of supersense disambiguation tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"PRADHAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pradhan et al. are authors referenced for their work in the evaluation of supersense disambiguation tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"NAVIGLI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Navigli et al. are authors referenced for their work in the evaluation of supersense disambiguation tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"MORO AND NAVIGLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Moro and Navigli are authors referenced for their work in the evaluation of supersense disambiguation tasks.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "entity_name": "\"LOUREIRO AND JORGE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Loureiro and Jorge are authors referenced for their work related to the WiC dataset.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"SEMEVAL-SS TASK\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT is tested on the SemEval-SS task to evaluate its performance in predicting supersenses of words.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"WORD IN CONTEXT (WIC) TASK\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT is also tested on the WiC task, which is part of the SuperGLUE benchmark, to assess its lexical semantic understanding.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SEMEVAL-SS TASK\"",
+                "tgt_id": "\"SUPERGLUE BENCHMARK\"",
+                "weight": 6.0,
+                "description": "\"The SemEval-SS task is part of the SuperGLUE benchmark, which is used to evaluate models like SenseBERT.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SEMCOR\"",
+                "tgt_id": "\"SENSEBERT\"",
+                "weight": 7.0,
+                "description": "\"SemCor serves as the training dataset for SenseBERT in the supersense disambiguation task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SENSEEVAL\"",
+                "tgt_id": "\"SENSEBERT\"",
+                "weight": 7.0,
+                "description": "\"SenseEval provides part of the evaluation data for testing SenseBERT's performance in the supersense disambiguation task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SEMEVAL\"",
+                "tgt_id": "\"SENSEBERT\"",
+                "weight": 7.0,
+                "description": "\"SemEval contributes to the evaluation data used for testing SenseBERT's performance in the supersense disambiguation task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"SENSEBERT\"",
+                "weight": 8.0,
+                "description": "\"BERT is compared with SenseBERT in terms of performance on lexical semantic tasks, with SenseBERT showing improvement.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"RAGANATO ET AL.\"",
+                "tgt_id": "\"SEMEVAL-SS TASK\"",
+                "weight": 6.0,
+                "description": "\"Raganato et al. standardized the SemEval WSD test sets, which are related to the SemEval-SS task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"PILEHVAR AND CAMACHO-COLLADOS\"",
+                "tgt_id": "\"WORD IN CONTEXT (WIC) TASK\"",
+                "weight": 6.0,
+                "description": "\"Pilehvar and Camacho-Collados are associated with the WiC task, part of the SuperGLUE benchmark.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"WANG ET AL.\"",
+                "tgt_id": "\"SUPERGLUE BENCHMARK\"",
+                "weight": 6.0,
+                "description": "\"Wang et al. are associated with the SuperGLUE benchmark, which includes the WiC task.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"EDMONDS AND COTTON\"",
+                "tgt_id": "\"SEMEVAL\"",
+                "weight": 6.0,
+                "description": "\"Edmonds and Cotton are authors referenced in the context of SemEval's supersense disambiguation task evaluation.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"SNYDER AND PALMER\"",
+                "tgt_id": "\"SEMEVAL\"",
+                "weight": 6.0,
+                "description": "\"Snyder and Palmer are authors referenced in the context of SemEval's supersense disambiguation task evaluation.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"PRADHAN ET AL.\"",
+                "tgt_id": "\"SEMEVAL\"",
+                "weight": 6.0,
+                "description": "\"Pradhan et al. are authors referenced in the context of SemEval's supersense disambiguation task evaluation.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"NAVIGLI ET AL.\"",
+                "tgt_id": "\"SEMEVAL\"",
+                "weight": 6.0,
+                "description": "\"Navigli et al. are authors referenced in the context of SemEval's supersense disambiguation task evaluation.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            },
+            {
+                "src_id": "\"MORO AND NAVIGLI\"",
+                "tgt_id": "\"SEMEVAL\"",
+                "weight": 6.0,
+                "description": "\"Moro and Navigli are authors referenced in the context of SemEval's supersense disambiguation task evaluation.\"",
+                "source_id": "chunk-a24ba6c84e31348058a7fdc460010cff"
+            }
+        ]
+    },
+    "2": {
+        "chunk_key": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is an acronym for Bidirectional Encoder Representations from Transformers, a method used in natural language processing, specifically for pre-training language models.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"TRANSFORMER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Transformer is a model architecture used in deep learning, particularly in the context of BERT for processing sequences of data like text.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vaswani et al. are the authors of the paper introducing the Transformer model, which is foundational to BERT's architecture.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"INAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Inan et al. are referenced in the context of weight tying in neural networks, a technique used in BERT's architecture.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"PRESS AND WOLF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Press and Wolf are authors who have contributed to the understanding of weight tying in neural network models like BERT.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"WORDNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordNet is a lexical database for the English language, used in the context of BERT for supersense prediction tasks.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is a model that extends BERT's capabilities to predict the supersense of every masked word, training a semantic-level language model.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"BERT’S ARCHITECTURE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BERT’s architecture refers to the structure and components of the BERT model, which includes a Transformer encoder and an external mapping to the word vocabulary space.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"TRANSFORMER ENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Transformer encoder is a component of BERT’s architecture that processes word embeddings through multiple attention-based layers.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"WORD EMBEDDINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word embeddings are the numerical representations of words used as input for the Transformer encoder in BERT’s architecture.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"CONTEXTUALIZED EMBEDDINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Contextualized embeddings are the output of the Transformer encoder, representing words with context from the input sequence.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"EXTERNAL MAPPING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"External mapping refers to the process of translating words from the input sentence into the Transformer block and vice versa in BERT’s architecture.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"POSITIONAL ENCODING VECTORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Positional encoding vectors are added to the input word embeddings to preserve the order of words in the sequence for the Transformer encoder.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"MASKED WORD\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A masked word is a word in the input sequence that is replaced with a mask token, and the model predicts the original word based on the context.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"WORD-SCORE VECTOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The word-score vector is a representation of a masked word's score, derived from the Transformer encoder output and used for prediction.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"WEIGHT TYING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Weight tying is the use of the same matrix for mapping in and out of the transformer encoder space, as mentioned in the context of BERT.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"CROSS-ENTROPY LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross-entropy loss is the measure used to minimize the difference between the softmax of the word-score vector and a 1-hot vector corresponding to the masked word.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"SUPERSENSE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Supersense refers to a broad semantic category that a word can belong to, used in the context of supersense prediction tasks in BERT.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"SUPERSENSE PREDICTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Supersense prediction is the task of predicting the supersense category of a masked word, which is part of the training process for SenseBERT.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"ALLOWED SUPERSENSES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Allowed supersenses are the set of possible supersense categories that a word can belong to, based on its definition in WordNet.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"WORDNET LEMMATIZER\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The WordNet Lemmatizer is a tool used to extract the base or root form of a word, utilized in the construction of allowed supersenses in BERT.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"SYNSETS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Synsets are sets of synonyms that represent different meanings of a word, used in the context of extracting allowed supersenses from WordNet.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"SHORT WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Short words, defined as up to 3 characters, are exceptions in the construction of allowed supersenses as they are often treated as abbreviations.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"STOP WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Stop words are common words that are excluded from the main synset in WordNet and are exceptions in the construction of allowed supersenses.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "entity_name": "\"PART-OF-WORD TOKENS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Part-of-word tokens represent parts of a word and are exceptions in the construction of allowed supersenses, as mentioned in the BERT context.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"TRANSFORMER\"",
+                "weight": 9.0,
+                "description": "\"BERT's architecture is based on the Transformer model, which is integral to its functioning.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"VASWANI ET AL.\"",
+                "weight": 8.0,
+                "description": "\"BERT's architecture is based on the work of Vaswani et al., who introduced the Transformer model.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"INAN ET AL.\"",
+                "weight": 7.0,
+                "description": "\"BERT utilizes weight tying, a technique referenced in the work of Inan et al.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"PRESS AND WOLF\"",
+                "weight": 7.0,
+                "description": "\"BERT's use of weight tying is supported by the research of Press and Wolf.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT is an extension of BERT, focusing on supersense prediction in addition to word prediction.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"WORDNET\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT uses WordNet for constructing the set of 'allowed' supersenses for words in its vocabulary.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"BERT’S ARCHITECTURE\"",
+                "tgt_id": "\"TRANSFORMER ENCODER\"",
+                "weight": 9.0,
+                "description": "\"BERT’s architecture includes the Transformer encoder as a core component.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            },
+            {
+                "src_id": "\"TRANSFORMER ENCODER\"",
+                "tgt_id": "\"WORD EMBEDDINGS\"",
+                "weight": 9.0,
+                "description": "\"The Transformer encoder operates over a sequence of word embeddings.\"",
+                "source_id": "chunk-8a8ef54a4e166c0abc6cfd35f61a0305"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-5e483e86c3da6b91e674acee8d582695",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is an architecture that employs the same mapping for converting in and out of the Transformer encoder, known as weight tying, which has shown theoretical and practical benefits.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"INAN ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Inan et al., 2017 is a reference to a study that supports the benefits of weight tying in the BERT architecture.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"PRESS AND WOLF, 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Press and Wolf, 2017 is a reference to a study that supports the benefits of weight tying in the BERT architecture.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"TRANSFORMER ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Transformer encoder is a component of the BERT architecture that benefits from weight tying, making input more sensitive to the training signal.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is a model that learns supersense vectors and is used for pre-training in the context of supersense prediction.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"UMAP\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"UMAP is a visualization technique used to display supersense vectors learned by SenseBERT, as shown in Figure 2.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"WORDNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordNet is a lexical database for the English language that provides supersense information used in the construction of the input vector to the Transformer encoder.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"FIGURE 2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Figure 2 is an event in the text where a UMAP visualization of supersense vectors learned by SenseBERT at pre-training is presented.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"NOUN SUPERSENSES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Noun Supersenses refers to a subset of supersenses that are semantically similar and are clustered together in the UMAP visualization.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"SUPERSENSE VECTORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Supersense vectors are rows of the classifier S learned by SenseBERT, representing the semantic categories of words.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$S$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$S$ is the semantic-level language model matrix proposed in the text, which is inserted into the input vector of the Transformer encoder.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$W$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$W$ is the mapping used in the BERT architecture for converting in and out of the Transformer encoder, also known as weight tying.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$V_{\\MATHRM{INPUT}}^{(J)}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$v_{\\mathrm{input}}^{(j)}$ represents the input vector to the Transformer encoder, which is modified to include the semantic-level language model matrix $S$.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$P^{(J)}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$p^{(j)}$ are the regular positional embeddings used in BERT, part of the input vector to the Transformer encoder.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$M$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$M$ is a static $0/1$ matrix that converts between words and their allowed WordNet supersenses $A(w)$.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"$A(W)$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$A(w)$ represents the set of allowed supersenses for a given word $w$.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"OOV\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"OOV stands for out-of-vocabulary, referring to words in the corpus that are not included in the vocabulary.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "entity_name": "\"SELF-SUPERVISED WORD PREDICTION TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The self-supervised word prediction task is a process described in the text where masked sub-word tokens are predicted.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"TRANSFORMER ENCODER\"",
+                "weight": 9.0,
+                "description": "\"BERT architecture employs the Transformer encoder and utilizes weight tying for its operation.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"INAN ET AL., 2017\"",
+                "weight": 7.0,
+                "description": "\"BERT's weight tying approach is supported by the study conducted in the event Inan et al., 2017.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"PRESS AND WOLF, 2017\"",
+                "weight": 7.0,
+                "description": "\"BERT's weight tying approach is supported by the study conducted in the event Press and Wolf, 2017.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"UMAP\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT learns supersense vectors that are visualized using the UMAP technique, as depicted in Figure 2.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"WORDNET\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT utilizes WordNet for supersense information in its pre-training process.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"FIGURE 2\"",
+                "tgt_id": "\"UMAP\"",
+                "weight": 7.0,
+                "description": "\"Figure 2 uses UMAP visualization to display supersense vectors.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"NOUN SUPERSENSES\"",
+                "tgt_id": "\"SUPERSENSE VECTORS\"",
+                "weight": 7.0,
+                "description": "\"Noun Supersenses are a type of supersense vector that are semantically similar and clustered together.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"$S$\"",
+                "tgt_id": "\"$W$\"",
+                "weight": 8.0,
+                "description": "\"$S$ is inserted in addition to $W$ in the input vector to the Transformer encoder.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"$V_{\\MATHRM{INPUT}}^{(J)}$\"",
+                "tgt_id": "\"$S$\"",
+                "weight": 9.0,
+                "description": "\"$v_{\\mathrm{input}}^{(j)}$ is modified to include the semantic-level language model matrix $S$.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"$V_{\\MATHRM{INPUT}}^{(J)}$\"",
+                "tgt_id": "\"$W$\"",
+                "weight": 9.0,
+                "description": "\"$v_{\\mathrm{input}}^{(j)}$ is constructed from the same mapping $W$ used in BERT.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"$V_{\\MATHRM{INPUT}}^{(J)}$\"",
+                "tgt_id": "\"$P^{(J)}$\"",
+                "weight": 8.0,
+                "description": "\"$v_{\\mathrm{input}}^{(j)}$ includes $p^{(j)}$, the regular positional embeddings.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            },
+            {
+                "src_id": "\"$M$\"",
+                "tgt_id": "\"$A(W)$\"",
+                "weight": 8.0,
+                "description": "\"$M$ converts between words and their allowed supersenses $A(w)$.\"",
+                "source_id": "chunk-5e483e86c3da6b91e674acee8d582695"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-41383b4585bbcacfa20edac3e89a064e",
+        "entities": [
+            {
+                "entity_name": "\"IA POLOSUKHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"ia Polosukhin is the author of the paper 'Attention is all you need' published in Advances in Neural Information Processing Systems 30.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ALEX WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Wang is a co-author of multiple papers on language understanding systems, including SuperGLUE and GLUE benchmarks.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"YADA PRUKSACHATKUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yada Pruksachatkun is a co-author of the SuperGLUE paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"NIKITA NANGIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Nangia is a co-author of the SuperGLUE paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"AMANPREET SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amanpreet Singh is a co-author of both the SuperGLUE and GLUE papers.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"JULIAN MICHAEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julian Michael is a co-author of both the SuperGLUE and GLUE papers.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"FELIX HILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Felix Hill is a co-author of both the SuperGLUE and GLUE papers.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is a co-author of both the SuperGLUE and GLUE papers.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"SAMUEL BOWMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samuel Bowman is a co-author of both the SuperGLUE and GLUE papers.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ZHILIN YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhilin Yang is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ZIHANG DAI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zihang Dai is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"YIMING YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yiming Yang is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"JAIME CARBONELL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jaime Carbonell is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"RUSS R SALAKHUTDINOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Russ R Salakhutdinov is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"QUOC V LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V Le is a co-author of the XLNet paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"DAYU YUAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dayu Yuan is a co-author of the paper on semi-supervised word sense disambiguation with neural models.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"JULIAN RICHARDSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julian Richardson is a co-author of the paper on semi-supervised word sense disambiguation with neural models.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"RYAN DOHERTY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ryan Doherty is a co-author of the paper on semi-supervised word sense disambiguation with neural models.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"COLIN EVANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Colin Evans is a co-author of the paper on semi-supervised word sense disambiguation with neural models.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ERIC ALTENDORF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric Altendorf is a co-author of the paper on semi-supervised word sense disambiguation with neural models.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 30\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Advances in Neural Information Processing Systems 30 is the conference where ia Polosukhin's paper 'Attention is all you need' was published.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 32\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Advances in Neural Information Processing Systems 32 is the conference where the SuperGLUE and XLNet papers were published.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"BRUSSELS, BELGIUM\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Brussels, Belgium is the location of the 2018 EMNLP Workshop BlackboxNLP where the GLUE paper was presented.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Association for Computational Linguistics is the organization that hosted the 2018 EMNLP Workshop BlackboxNLP.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"COLING 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COLING 2016 is the 26th International Conference on Computational Linguistics where Dayu Yuan et al.'s paper was published.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"OSAKA, JAPAN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Osaka, Japan is the location of COLING 2016 where the semi-supervised word sense disambiguation paper was presented.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"THE COLING 2016 ORGANIZING COMMITTEE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The COLING 2016 Organizing Committee is the organization responsible for the COLING 2016 conference.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"WORDNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordNet is the lexical database providing supersense categories used in the context of SenseBERT.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is the model that learns supersense embedding vectors through pre-training, as described in the paper.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"SUPERSENSES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Supersenses are the broad semantic categories used in WordNet to group words into general classes.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"DENDROGRAM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dendrogram is a tree-like diagram used to illustrate the hierarchical clustering of supersense vectors learned by SenseBERT.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"AGGLOMERATIVE HIERARCHICAL CLUSTERING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Agglomerative hierarchical clustering is the method used to cluster supersense embedding vectors in SenseBERT's pre-training.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"CURRAN ASSOCIATES, INC.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Curran Associates, Inc. is the publisher of the Advances in Neural Information Processing Systems conference proceedings.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"FIGURE 5\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Figure 5 refers to the visual representation of the Agglomerative hierarchical clustering over the supersense vectors learned by SenseBERT.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"TABLE 5\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Table 5 is the comprehensive list of WordNet supersenses presented in the paper's documentation.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_10.JPG\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"images/image_10.jpg is the image file containing Figure 5, the Dendrogram visualization of supersense vectors.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_11.JPG\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"images/image_11.jpg is the image file containing Table 5, the list of supersense categories from WordNet.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"IA POLOSUKHIN\"",
+                "tgt_id": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS 30\"",
+                "weight": 7.0,
+                "description": "\"ia Polosukhin published a paper in Advances in Neural Information Processing Systems 30.\"",
+                "source_id": "chunk-41383b4585bbcacfa20edac3e89a064e"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe",
+        "entities": [
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Association for Computational Linguistics is an organization that hosts conferences and publishes proceedings related to computational linguistics.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ROBERTO NAVIGLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roberto Navigli is an author who has published on word sense disambiguation and co-authored papers on multilingual word sense disambiguation.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"DAVID JURGENS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Jurgens is a co-author with Roberto Navigli and Daniele Vannella on a paper related to multilingual word sense disambiguation.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"DANIELE VANNELLA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniele Vannella is a co-author with Roberto Navigli and David Jurgens on a paper related to multilingual word sense disambiguation.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"JEFFREY PENNINGTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeffrey Pennington is an author who contributed to the development of GloVe: Global vectors for word representation.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is a co-author with Jeffrey Pennington and Christopher Manning on the GloVe word representation model.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Manning is a co-author with Jeffrey Pennington and Richard Socher on the GloVe word representation model.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MATTHEW PETERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew Peters is an author who has contributed to deep contextualized word representations and knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MARK NEUMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Neumann is a co-author with Matthew Peters on deep contextualized word representations and knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MOHIT IYYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Iyyer is a co-author with Matthew Peters on deep contextualized word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is a co-author with Matthew Peters on deep contextualized word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Clark is a co-author with Matthew Peters on deep contextualized word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is a co-author with Matthew Peters on deep contextualized word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is a co-author with Matthew Peters on deep contextualized word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ROBERT LOGAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Robert Logan is a co-author with Matthew Peters on knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ROY SCHWARTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roy Schwartz is a co-author with Matthew Peters on knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"VIDUR JOSHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vidur Joshi is a co-author with Matthew Peters on knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"SAMEER SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sameer Singh is a co-author with Matthew Peters on knowledge enhanced contextual word representations.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"NOAH A. SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noah A. Smith is a co-author with Matthew Peters on knowledge enhanced contextual word representations and has worked with Nathan Schneider.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MOHAMMAD TAHER PILEHVAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohammad Taher Pilehvar is an author who co-authored a paper on the WiC dataset with Jose Camacho-Collados.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"JOSE CAMACHO-COLLADOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jose Camacho-Collados is a co-author with Mohammad Taher Pilehvar on the WiC dataset and Alessandro Raganato.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"SAMEER PRADHAN\"",
+                "entity_type": "(\"ENTITY\"",
+                "description": "\"Edward Loper\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"DMITRIY DLIGACH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dmitriy Dligach is a co-author with Sameer Pradhan on SemEval-2007 task-17.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MARTHA PALMER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martha Palmer is a co-author with Sameer Pradhan on SemEval-2007 task-17 and with Benjamin Snyder on the English all-words task.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"OFIR PRESS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ofir Press is a co-author with Lior Wolf on a paper about using output embeddings to improve language models.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"LIOR WOLF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lior Wolf is a co-author with Ofir Press on a paper about using output embeddings to improve language models.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ALEC RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alec Radford is a co-author with Jeffrey Wu and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"JEFFREY WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeffrey Wu is a co-author with Alec Radford and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"REWON CHILD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rewon Child is a co-author with Alec Radford and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"DAVID LUAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Luan is a co-author with Alec Radford and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"DARIO AMODEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dario Amodei is a co-author with Alec Radford and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is a co-author with Alec Radford and others on a paper about language models being unsupervised multitask learners.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ALESSANDRO RAGANATO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alessandro Raganato is a co-author with Jose Camacho-Collados and Roberto Navigli on a paper about word sense disambiguation.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"EMILY REIF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Emily Reif is a co-author with Ann Yuan and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ANN YUAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ann Yuan is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"MARTIN WATTENBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Martin Wattenberg is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"FERNANDA B VIEGAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fernanda B Viegas is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ANDY COENEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andy Coenen is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"ADAM PEARCE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Pearce is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            },
+            {
+                "entity_name": "\"BEEN KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Been Kim is a co-author with Emily Reif and others on a paper about visualizing and measuring the geometry of BERT.\"",
+                "source_id": "chunk-c2e2c8f3d0d10822a6234ffd917d7ebe"
+            }
+        ],
+        "relationships": []
+    },
+    "6": {
+        "chunk_key": "chunk-dcf192e88a7847643419addcb213b70c",
+        "entities": [
+            {
+                "entity_name": "\"SUPERGLUE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SuperGLUE is a benchmark for evaluating the performance of language models, as referenced in the text discussing the baseline scores.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"WIC DATASET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WiC dataset is used for testing the model's performance on the Word in Context task, as mentioned in the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"SEMEVAL-SS TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval-SS task is a supersense disambiguation task used to evaluate the model's lexical semantic awareness, as described in the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"GLUE BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"GLUE benchmark is a testbed for language understanding models, consisting of 9 different NLP tasks, as mentioned in the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2019 are authors referenced in the text for their work on the baseline scores published on the SuperGLUE benchmark.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"PILEHVAR AND CAMACHO-COLLADOS, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pilehvar and Camacho-Collados, 2019 are authors referenced for their work on the WiC dataset and supersenses.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"LOUREIRO AND JORGE, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Loureiro and Jorge, 2019 are authors referenced in the text for their work related to the WiC dataset.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"LIU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al., 2019 are authors referenced in the text for their work related to the model's performance.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al., 2019 are authors referenced in the text for their work related to the model's performance.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"HEWITT AND MANNING, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hewitt and Manning, 2019 are authors referenced for their work on semantic probes.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"REIF ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Reif et al., 2019 are authors referenced for their work related to the semantic probes.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"AI21 LABS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "AI21 Labs is the organization where the research was conducted, and the authors received comments and assistance. It is also the workplace of the colleagues who provided useful comments and assistance.",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a vanilla neural language model compared with SenseBERT in the text, focusing on word-level signals.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"BOOKCORPUS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"BookCorpus is a data source mentioned in the text, though it is not publicly available.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"WILLIAM CHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William Chan is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"NIKITA KITAEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Kitaev is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"KELVIN GUU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kelvin Guu is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"MITCHELL STERN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mitchell Stern is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"JAKOB USZKOREIT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jakob Uszkoreit is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"SANJEEV ARORA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sanjeev Arora is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"YUANZI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuanzi Li is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"YINGYU LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yingyu Liang is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"TENGYU MA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tengyu Ma is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"ANDREJ RISTESKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrej Risteski is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "entity_name": "\"PIERPAOLO BASILE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pierpaolo Basile is one of the authors listed in the references section of the text.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SUPERGLUE\"",
+                "tgt_id": "\"WANG ET AL., 2019\"",
+                "weight": 8.0,
+                "description": "\"Wang et al., 2019 published the baseline scores for the SuperGLUE benchmark.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"WIC DATASET\"",
+                "tgt_id": "\"PILEHVAR AND CAMACHO-COLLADOS, 2019\"",
+                "weight": 8.0,
+                "description": "\"Pilehvar and Camacho-Collados, 2019 defined the WiC task and are associated with the dataset.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"WIC DATASET\"",
+                "tgt_id": "\"LOUREIRO AND JORGE, 2019\"",
+                "weight": 7.0,
+                "description": "\"Loureiro and Jorge, 2019 are associated with the WiC dataset and their work is referenced.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"SEMEVAL-SS TASK\"",
+                "tgt_id": "\"HEWITT AND MANNING, 2019\"",
+                "weight": 7.0,
+                "description": "\"The SemEval-SS task is reminiscent of the semantic probes employed by Hewitt and Manning, 2019.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"SEMEVAL-SS TASK\"",
+                "tgt_id": "\"REIF ET AL., 2019\"",
+                "weight": 7.0,
+                "description": "\"The SemEval-SS task is reminiscent of the semantic probes employed by Reif et al., 2019.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"GLUE BENCHMARK\"",
+                "weight": 8.0,
+                "description": "\"BERT is compared with SenseBERT on the GLUE benchmark, showing comparable performance.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            },
+            {
+                "src_id": "\"BOOKCORPUS\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"BookCorpus is a data source used for pretraining BERT, though it is not publicly available.\"",
+                "source_id": "chunk-dcf192e88a7847643419addcb213b70c"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-0e1697e417dfb2436073447a327f08fe",
+        "entities": [
+            {
+                "entity_name": "\"WANG ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Benchmark study conducted by Wang and colleagues in 2019, which is directly dependent on word-supersense awareness.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"SENSEBERTLARGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"A model that achieves state of the art performance on WiC, improving the score of BERTLARGE by 2.5 points.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"MIKOLOV ET AL., 2013\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Mikolov and colleagues in 2013, which introduced neural network based word embeddings as a static mapping.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL., 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Pennington and colleagues in 2014, contributing to the understanding of static word embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"IACOBACCI ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Iacobacci and colleagues in 2016, showing that static embeddings contain some amount of word-sense information.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"YUAN ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Yuan and colleagues in 2016, also indicating that static embeddings contain word-sense information.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"ARORA ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Arora and colleagues in 2018, further supporting the presence of word-sense information in static embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"LE ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Le and colleagues in 2018, contributing to the understanding of word-sense information in static embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"ROTHE AND SCHÜTZE, 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Rothe and Schütze in 2015, employing sense embeddings computed for each word sense in the word-sense inventory.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Chen and colleagues in 2014, using the gloss for each sense in word-sense embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Peters and colleagues in 2018, introducing contextualized word embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"REIF ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Reif and colleagues in 2019, showing sense sensitive clusters in BERT’s word embedding space.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Peters and colleagues in 2019, re-contextualizing word embeddings via a word-to-entity attention mechanism.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"LOUREIRO AND JORGE, 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Loureiro and Jorge in 2019, constructing sense embeddings from BERT’s word embeddings and using the WordNet graph to enhance coverage.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2019\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Devlin and colleagues in 2019, related to the original masked-word prediction task in BERT.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Research by Vaswani and colleagues in 2017, introducing the internal Transformer encoder architecture.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"BERTLARGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERTLARGE is a model that was outperformed by SenseBERTLARGE with a score of 72.14, improving upon its score by 2.5 points.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"WORDNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordNet is a lexical database for the English language that is used in various word-sense disambiguation tasks and is referenced in the context of word-sense embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"NEURAL NETWORK BASED WORD EMBEDDINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Neural network based word embeddings refer to a technology that represents words as vectors in a continuous space, which can be static or contextualized.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"CONTEXTUALIZED WORD EMBEDDINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Contextualized word embeddings are embeddings where the representation of a word depends on the context in which it is used, as opposed to static embeddings.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"TRANSFORMER ENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Transformer encoder is a model component that processes sequences of data, used within BERT's architecture.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model that uses a Transformer encoder and is capable of contextualized word embeddings, with modifications described for handling word-supersense information.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is a model that incorporates word-supersense information into its pre-training, building upon the BERT architecture.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WANG ET AL., 2019\"",
+                "tgt_id": "\"SENSEBERTLARGE\"",
+                "weight": 8.0,
+                "description": "\"Wang et al., 2019 benchmark study directly depends on the performance of SenseBERTLARGE.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"SENSEBERTLARGE\"",
+                "tgt_id": "\"BERTLARGE\"",
+                "weight": 9.0,
+                "description": "\"SenseBERTLARGE improves the score of BERTLARGE by 2.5 points, indicating a performance enhancement.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"PETERS ET AL., 2018\"",
+                "tgt_id": "\"REIF ET AL., 2019\"",
+                "weight": 1.0,
+                "description": "\"Peters(\"entity\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 9.0,
+                "description": "\"SenseBERT is an extension of the BERT model, integrating word-supersense information into its pre-training process.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"WORDNET\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT uses WordNet to enhance its word-sense disambiguation capabilities during pre-training.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"TRANSFORMER ENCODER\"",
+                "weight": 9.0,
+                "description": "\"BERT utilizes a Transformer encoder as part of its internal architecture.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"CONTEXTUALIZED WORD EMBEDDINGS\"",
+                "tgt_id": "\"NEURAL NETWORK BASED WORD EMBEDDINGS\"",
+                "weight": 8.0,
+                "description": "\"Contextualized word embeddings are a type of neural network based word embeddings that depend on context.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"WORDNET\"",
+                "weight": 7.0,
+                "description": "\"BERT's modified versions, like SenseBERT, can incorporate WordNet for enhanced lexical semantics.\"",
+                "source_id": "chunk-0e1697e417dfb2436073447a327f08fe"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-620aa05d2135f86e5fbbca55136bbe20",
+        "entities": [
+            {
+                "entity_name": "\"PIERPAOLO BASILE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pierpaolo Basile is an author who published a paper on supersense tagging using support vector machines and distributional features.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"WILLIAM CHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William Chan is one of the authors of the paper on KERMIT: Generative insertion-based modeling for sequences.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"NIKITA KITAEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Kitaev is one of the authors of the paper on KERMIT: Generative insertion-based modeling for sequences.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"KELVIN GUU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kelvin Guu is one of the authors of the paper on KERMIT: Generative insertion-based modeling for sequences.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MITCHELL STERN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mitchell Stern is one of the authors of the paper on KERMIT: Generative insertion-based modeling for sequences.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"JAKOB USZKOREIT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jakob Uszkoreit is one of the authors of the paper on KERMIT: Generative insertion-based modeling for sequences.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"XINXIONG CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xinxiong Chen is an author who published a paper on a unified model for word sense representation and disambiguation.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"ZHIYUAN LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhiyuan Liu is an author who published a paper on a unified model for word sense representation and disambiguation.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MAOSONG SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maosong Sun is an author who published a paper on a unified model for word sense representation and disambiguation.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MASSIMILIANO CIARAMITA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Massimiliano Ciaramita is an author who published a paper on supersense tagging of unknown nouns in WordNet.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MARK JOHNSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Johnson is an author who published a paper on supersense tagging of unknown nouns in WordNet.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is one of the authors of the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is one of the authors of the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is one of the authors of the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is one of the authors of the paper on BERT: Pre-training of deep bidirectional transformers for language understanding.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"PHILIP EDMONDS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philip Edmonds is an author who published an overview of SENSEVAL2.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"SCOTT COTTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Scott Cotton is an author who published an overview of SENSEVAL2.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"JOHN HEWITT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Hewitt is one of the authors of the paper on a structural probe for finding syntax in word representations.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is one of the authors of the paper on a structural probe for finding syntax in word representations.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"IGNACIO IACOBACCI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ignacio Iacobacci is an author who published a paper on embeddings for word sense disambiguation.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MOHAMMAD TAHER PILEHVAR\"",
+                "entity_type": "\"PERSON\"(\"ENTITY\"",
+                "description": "\"Roberto Navigli\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"HAKAN INAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hakan Inan is an author who published a paper on tying word vectors and word classifiers for language modeling.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"KHASHAYAR KHOSRAVI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Khashayar Khosravi is an author who published a paper on tying word vectors and word classifiers for language modeling.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author who published a paper on tying word vectors and word classifiers for language modeling.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"ADAM KILGARRIFF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Kilgarriff is an author who published a paper expressing skepticism about word senses.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MINH LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minh Le is an author who published a paper on word sense disambiguation with LSTM.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MARTEN POSTMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Marten Postma is an author who published a paper on word sense disambiguation with LSTM.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"JACOPO URBANI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacopo Urbani is an author who published a paper on word sense disambiguation with LSTM.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"PIEK VOSSEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Piek Vossen is an author who published a paper on word sense disambiguation with LSTM.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"YINHAN LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yinhan Liu is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MYLE OTT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Myle Ott is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"NAMAN GOYAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Naman Goyal is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"JINGFEI DU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jingfei Du is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MANDAR JOSHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mandar Joshi is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"DANQI CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danqi Chen is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"MIKE LEWIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mike Lewis is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"VESELIN STOYANOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Veselin Stoyanov is an author who published a paper on RoBERTa: A robustly optimized BERT pretraining approach.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            },
+            {
+                "entity_name": "\"DANIEL LOUREIRO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Loureiro is an author who published a paper on language modeling and word sense disambiguation.\"",
+                "source_id": "chunk-620aa05d2135f86e5fbbca55136bbe20"
+            }
+        ],
+        "relationships": []
+    },
+    "4": {
+        "chunk_key": "chunk-44a0f7927ed315ea256f3cbcec154b51",
+        "entities": [
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model used for various natural language processing tasks, including the prediction of word senses and subword tokens.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is a source used for selecting additional words to augment BERT's vocabulary based on word frequency.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SenseBERT is a semantic language model that predicts supersenses and is based on BERT's architecture.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. are referenced for training hyperparameters used in the pretraining of SenseBERT.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"MCINNES ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McInnes et al. are referenced for their work on UMAP dimensionality reduction, used to illustrate the resultant mapping of supersenses.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"LIU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al. are referenced for their work on WiC task results, which reflect on sense awareness in leading models.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SEMEVAL-SS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval-SS is an event or task where the performance of supersense prediction models is evaluated.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"WORD IN CONTEXT (WIC)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WiC is an event or task where models determine whether underlined words are used in the same or different supersenses.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"OOV\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"OOV stands for out-of-vocabulary, referring to words not found in the corpus's vocabulary.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SUBWORD TOKENS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Subword tokens are parts of words used in the pre-processing stage when an OOV word is encountered.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SELF-SUPERVISED WORD PREDICTION TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The self-supervised word prediction task is a process described for predicting masked sub-word tokens in a corpus.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"WORD-SENSE SUPERVISION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word-sense supervision is a concept meaningful at the word level, used for the supersense prediction task.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"$60K$ VOCABULARY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The $60K$ vocabulary alternative augments BERT's original vocabulary with additional words based on frequency in Wikipedia.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"BERT_{BASE}\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BERT_{BASE} refers to a version of BERT with 110M parameters and a specific embedding dimension.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"BERTLARGE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BERTLARGE refers to a version of BERT with 340M parameters and a different embedding dimension.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"AVERAGE EMBEDDING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Average embedding is a strategy where all tokens of an OOV word are masked together for supersense prediction.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SINGLE-SUPERSENSED WORD\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Single-supersensed words are used as anchors for obtaining an unambiguous semantic signal in the model.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SEMANTIC LANGUAGE MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Semantic language model refers to a model that predicts the meaning of a word jointly with the standard word-form level language model.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"UMAP DIMENSIONALITY REDUCTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"UMAP dimensionality reduction is a technique used to illustrate the resultant mapping of supersenses in SenseBERT.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"SUPERSENSES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Supersenses refer to the semantic categories or parts-of-speech that words can belong to.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "entity_name": "\"WORDNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WordNet is a lexical database for the English language that provides supersense information used in the prediction task.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"BERT's vocabulary is augmented with words chosen from Wikipedia based on their frequency.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT is based on BERT's architecture and extends its capabilities to predict supersenses.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"DEVLIN ET AL.\"",
+                "weight": 7.0,
+                "description": "\"SenseBERT's pretraining is based on the training hyperparameters described by Devlin et al.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"MCINNES ET AL.\"",
+                "weight": 7.0,
+                "description": "\"SenseBERT utilizes the UMAP dimensionality reduction technique by McInnes et al. to illustrate its supersense mapping.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"LIU ET AL.\"",
+                "weight": 5.0,
+                "description": "\"The performance of BERT in terms of sense awareness is compared to findings from Liu et al. in WiC task results.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"SEMEVAL-SS\"",
+                "weight": 7.0,
+                "description": "\"SenseBERT is evaluated on the SemEval-SS task for predicting supersenses of rare words.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"WORD IN CONTEXT (WIC)\"",
+                "weight": 6.0,
+                "description": "\"SenseBERT is compared to other models in the WiC task, which involves determining the same/different supersenses of underlined words.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"OOV\"",
+                "tgt_id": "\"SUBWORD TOKENS\"",
+                "weight": 8.0,
+                "description": "\"OOV words are divided into subword tokens during pre-processing.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SELF-SUPERVISED WORD PREDICTION TASK\"",
+                "tgt_id": "\"SUBWORD TOKENS\"",
+                "weight": 7.0,
+                "description": "\"The task predicts masked sub-word tokens in the corpus.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"WORD-SENSE SUPERVISION\"",
+                "tgt_id": "\"SUPERSENSES\"",
+                "weight": 7.0,
+                "description": "\"Word-sense supervision is meaningful for predicting supersenses at the word level.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"$60K$ VOCABULARY\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 8.0,
+                "description": "\"The $60K$ vocabulary alternative augments BERT's original vocabulary.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"BERT_{BASE}\"",
+                "tgt_id": "\"BERTLARGE\"",
+                "weight": 6.0,
+                "description": "\"BERT_{BASE} and BERTLARGE are different versions of BERT with different numbers of parameters and embedding dimensions.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"AVERAGE EMBEDDING\"",
+                "tgt_id": "\"OOV\"",
+                "weight": 7.0,
+                "description": "\"Average embedding is a strategy for dealing with tokenized OOV words in the supersense prediction task.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SINGLE-SUPERSENSED WORD\"",
+                "tgt_id": "\"SUPERSENSES\"",
+                "weight": 8.0,
+                "description": "\"Single-supersensed words help the model map contexts to supersenses accurately.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            },
+            {
+                "src_id": "\"SEMANTIC LANGUAGE MODEL\"",
+                "tgt_id": "\"SUPERSENSES\"",
+                "weight": 8.0,
+                "description": "\"The semantic language model predicts the missing word's meaning in the context of supersenses.\"",
+                "source_id": "chunk-44a0f7927ed315ea256f3cbcec154b51"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-472ee97f0f495c70b81a6fe554f05ed2",
+        "entities": [
+            {
+                "entity_name": "\"AI21 LABS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "AI21 Labs is the organization where the research was conducted, and the authors received comments and assistance. It is also the workplace of the colleagues who provided useful comments and assistance.",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"TEL AVIV\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Tel Aviv is the geographical location where AI21 Labs is based.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"ISRAEL\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Israel is the country where AI21 Labs is located.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"YOAV LEVINE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Levine is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"BARAK LENZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Barak Lenz is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"ORI RAM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ori Ram is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"DAGAN ORI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dagan Ori is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"DAN PADNOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Padnos is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"OR SHARIR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Or Sharir is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"SHAI SHALEV-SHWARTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shai Shalev-Shwartz is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"AMNON SHASHUA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amnon Shashua is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"YOAV SHOHAM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Shoham is an individual associated with AI21 Labs, contributing to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"SENSEBERT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SenseBERT is a neural language model developed by AI21 Labs that predicts masked words and their WordNet supersenses.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"SEMEVAL WORD SENSE DISAMBIGUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval Word Sense Disambiguation is a dataset used to evaluate the performance of SenseBERT in word sense disambiguation tasks.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BERT is a neural language model that inspired SenseBERT, utilizing self-supervision to learn from unannotated text.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"VASWANI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vaswani et al. are referenced for their contributions to neural network architecture advances, relevant to the development of SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al. are associated with the development of BERT, a model that SenseBERT improves upon.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. proposed a unidirectional self-supervised objective approach, related to the techniques used in SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"YANG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang et al. proposed permutational self-supervised objectives, which are similar to the techniques used in SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"CHAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chan et al. proposed word insertion-based methods, which operate similarly to the techniques used in SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"NAVIGLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Navigli is referenced for their work on the challenges of word-form level ambiguity in natural language understanding.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"KILGARRIFF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kilgarriff is referenced for their work on the brittleness of fine-grained word-sense systems.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"SCHNEIDER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schneider is referenced for their work on the issues of blurriness and subjectiveness in word-sense granularity.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"CIARAMITA AND JOHNSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ciaramita and Johnson are referenced for their work on word supersense disambiguation as a fundamental lexical categorization task.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"BASILE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Basile is referenced for their work on word supersense disambiguation.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"SCHNEIDER AND SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schneider and Smith are referenced for their work on word supersense disambiguation.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"RAGANATO ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raganato et al. standardized the SemEval Word Sense Disambiguation dataset, which is used to evaluate SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"PILEHVAR AND CAMACHO-COLLADOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pilehvar and Camacho-Collados are associated with the Word in Context task from the SuperGLUE benchmark.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "entity_name": "\"WANG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al. are associated with the SuperGLUE benchmark, which includes the Word in Context task.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"AI21 LABS\"",
+                "tgt_id": "\"TEL AVIV\"",
+                "weight": 8.0,
+                "description": "\"AI21 Labs is located in Tel Aviv.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"AI21 LABS\"",
+                "tgt_id": "\"ISRAEL\"",
+                "weight": 8.0,
+                "description": "\"AI21 Labs is located in Israel.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"AI21 LABS\"",
+                "tgt_id": "\"SENSEBERT\"",
+                "weight": 10.0,
+                "description": "\"AI21 Labs developed the neural language model SenseBERT.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"YOAV LEVINE\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Yoav Levine is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"BARAK LENZ\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Barak Lenz is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"ORI RAM\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Ori Ram is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"DAGAN ORI\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Dagan Ori is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"DAN PADNOS\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Dan Padnos is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"OR SHARIR\"",
+                "tgt_id": "\"AI21 LABS\"",
+                "weight": 7.0,
+                "description": "\"Or Sharir is associated with AI21 Labs.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"SEMEVAL WORD SENSE DISAMBIGUATION\"",
+                "weight": 8.0,
+                "description": "\"SenseBERT is evaluated on the SemEval Word Sense Disambiguation dataset.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            },
+            {
+                "src_id": "\"SENSEBERT\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 10.0,
+                "description": "\"SenseBERT improves upon the BERT model by predicting WordNet supersenses.\"",
+                "source_id": "chunk-472ee97f0f495c70b81a6fe554f05ed2"
+            }
+        ]
+    }
+}

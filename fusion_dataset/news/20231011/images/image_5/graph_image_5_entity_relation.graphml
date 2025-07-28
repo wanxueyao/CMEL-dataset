@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_SANDWICH-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Quesadilla- Color: The quesadilla has a golden-brown exterior with a slightly crispy texture, and the filling includes bright green spinach and melted yellow cheese.- Shape: The quesadilla is triangular, typical of a folded tortilla.- Size: The quesadilla appears to be of a standard size, suitable for one serving.- Material: The exterior is made of a tortilla, and the filling consists of spinach and cheese.- Possible function: This object serves as a food item, specifically a type of Mexican cuisine that can be enjoyed as a snack or a meal. It is likely to be savory and could be served with various condiments such as salsa or sour cream.Overall, the quesadilla looks appetizing and well-prepared, with a good balance of colors and textures that make it visually appealing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_DONUT-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Powdered sugar on a dark surface- Color: White, with specks of red- Shape: Irregular, scattered granules- Size: Small, fine particles- Material: Sugar- Possible function: Used as a topping for desserts or baked goods, adding sweetness and a decorative touchOverall, the image depicts a close-up view of powdered sugar with some red specks, likely used for culinary purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a close-up of a freshly prepared quesadilla or similar stuffed flatbread, presented on a wooden serving board. The quesadilla is cut into four triangular pieces, revealing a filling that includes melted cheese and possibly spinach or another green leafy vegetable. The bread appears golden brown and crispy, with some areas showing a darker, more toasted texture. The cheese is stringy and has a bright yellow color, indicating it might be cheddar or a similar type of cheese. To the left of the quesadilla, there is a small bowl containing a white dipping sauce, which could be sour cream or a yogurt-based dip. The overall presentation is appetizing and suggests a homemade or artisanal preparation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;QUESADILLA&quot;">
+  <data key="d0">"FOOD"</data>
+  <data key="d1">"A triangular-shaped quesadilla with a golden-brown crust, filled with melted cheese and green vegetables."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;CHEESE&quot;">
+  <data key="d0">"INGREDIENT"</data>
+  <data key="d1">"Melted yellow cheese oozing out of the quesadilla."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;GREEN VEGETABLES&quot;">
+  <data key="d0">"INGREDIENT"</data>
+  <data key="d1">"Chopped green vegetables visible inside the quesadilla."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;SOUR CREAM&quot;">
+  <data key="d0">"CONDIMENT"</data>
+  <data key="d1">"A dollop of white sour cream on the side of the quesadilla."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<node id="&quot;WOODEN PLATE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden plate holding the quesadilla and sour cream."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_SANDWICH-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_sandwich-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_DONUT-1.JPG&quot;" target="&quot;SOUR CREAM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_donut-1.jpg is a picture of sour cream."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_DONUT-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_donut-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;QUESADILLA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Quesadilla是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CHEESE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cheese是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GREEN VEGETABLES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Green Vegetables是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SOUR CREAM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sour Cream是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WOODEN PLATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wooden Plate是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESADILLA&quot;" target="&quot;CHEESE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The quesadilla contains melted cheese."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESADILLA&quot;" target="&quot;GREEN VEGETABLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The quesadilla contains chopped green vegetables."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESADILLA&quot;" target="&quot;SOUR CREAM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sour cream is served alongside the quesadilla."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESADILLA&quot;" target="&quot;WOODEN PLATE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The quesadilla is placed on a wooden plate."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHEESE&quot;" target="&quot;GREEN VEGETABLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cheese and green vegetables are ingredients in the quesadilla."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SOUR CREAM&quot;" target="&quot;WOODEN PLATE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sour cream is placed on the wooden plate next to the quesadilla."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231011/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

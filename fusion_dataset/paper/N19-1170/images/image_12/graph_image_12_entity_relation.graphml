@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that outlines five binary features used for controlling different types of repetition via weighted decoding. The table has two columns: 'Feature' and 'Condition'. The rows are as follows:\n1. extrep_bigram(w, y&lt;t, x): This feature is activated if adding the word w to the hypothesis y&lt;t would create a 2-gram that appears in a previous utterance by the model.\n2. extrep_unigram(w, y&lt;t, x): This feature is triggered if w is a non-stopword and w appears in a previous utterance by the model.\n3. intrep_bigram(w, y&lt;t, x): This feature is active if adding w to the hypothesis y&lt;t would create a 2-gram that appears earlier in the hypothesis y&lt;t.\n4. intrep_unigram(w, y&lt;t, x): This feature is set if w is a non-stopword and w appears earlier in the hypothesis y&lt;t.\n5. partnerrep_bigram(w, y&lt;t, x): This feature is enabled if adding w to the hypothesis y&lt;t would create a 2-gram that appears in a previous utterance by the partner.\nThe table provides a clear and structured way to understand how these features control repetition in dialogue generation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<node id="&quot;EXTREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<node id="&quot;EXTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Feature that checks if a non-stopword appears in a previous utterance by the model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<node id="&quot;INTREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Feature that checks if adding a word to the hypothesis would create a 2-gram that appears earlier in the hypothesis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<node id="&quot;INTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Feature that checks if a non-stopword appears earlier in the hypothesis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<node id="&quot;PARTNERREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the partner."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+</node>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;EXTREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"extrep_bigram(w, y&lt;t, x)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;EXTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"extrep_unigram(w, y&lt;t, x)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;INTREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"intrep_bigram(w, y&lt;t, x)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;INTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"intrep_unigram(w, y&lt;t, x)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;PARTNERREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"partnerrep_bigram(w, y&lt;t, x)是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EXTREP_BIGRAM(W, Y&lt;T, X)&quot;" target="&quot;EXTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both features check for repetition in previous utterances by the model, but extrep_bigram focuses on 2-grams while extrep_unigram focuses on individual words."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EXTREP_BIGRAM(W, Y&lt;T, X)&quot;" target="&quot;PARTNERREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both features check for 2-grams in previous utterances, but extrep_bigram focuses on the model's utterances while partnerrep_bigram focuses on the partner's utterances."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INTREP_BIGRAM(W, Y&lt;T, X)&quot;" target="&quot;INTREP_UNIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both features check for repetition within the hypothesis, but intrep_bigram focuses on 2-grams while intrep_unigram focuses on individual words."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INTREP_BIGRAM(W, Y&lt;T, X)&quot;" target="&quot;PARTNERREP_BIGRAM(W, Y&lt;T, X)&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both features check for 2-grams, but intrep_bigram focuses on the hypothesis while partnerrep_bigram focuses on the partner's utterances."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

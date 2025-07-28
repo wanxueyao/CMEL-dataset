@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that falls past the shoulders- Expression: Appears to be in a state of surprise or confusion- Age: Appears to be a young girl- Clothing: Wearing a long, puffy-sleeved dress with a high collar and a belt around the waist; white stockings and dark shoes- Posture: Standing on one foot, with the other foot lifted slightly off the ground; arms raised, one hand near the face and the other holding a playing cardOverall, the character gives off an impression of being in a whimsical or fantastical setting, possibly from a storybook."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. The main character, Alice, is shown running away from a cascade of playing cards that are falling on her. She is dressed in a long, flowing dress and has long hair. Her posture suggests she is in motion, possibly fleeing or trying to avoid the cards. The cards are depicted in various orientations, some upright and others tilted, creating a sense of chaos and urgency. At the bottom of the image, there are several animals, including a rabbit and a frog, which appear to be scattered and disoriented. The overall atmosphere of the image conveys a sense of panic and confusion, as if Alice is being chased by the flying cards. The detailed line work and shading give the illustration a classic, timeless feel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, running and looking up."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;PLAYING CARDS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Falling playing cards of various suits."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;DUCKS&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"Several ducks running on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;FROGS&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"Several frogs also running on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<node id="&quot;RABBIT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A rabbit running among the ducks and frogs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9_PERSON-0.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_9_person-0.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9_PERSON-0.JPG&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_9_person-0.jpg是image_9的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;PLAYING CARDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Playing Cards是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;DUCKS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ducks是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;FROGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Frogs是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rabbit是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;PLAYING CARDS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is running away from the falling playing cards."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;DUCKS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is running among the ducks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FROGS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is running among the frogs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;RABBIT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Alice is running near the rabbit."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

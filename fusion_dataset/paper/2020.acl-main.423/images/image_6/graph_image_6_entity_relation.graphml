@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table divided into two main sections labeled (a) and (b). Section (a) is titled 'SemEval-SS' and contains two sentences with marked words. The first sentence reads, 'The team used a battery of the newly developed “gene probes”', where 'battery' is marked. The supersense predictions for this word are 'noun.artifact' by BERT and 'noun.group' by SenseBERT. The second sentence reads, 'Ten shirt-sleeved ringers stand in a circle, one foot ahead of the other in a prize-fighter's stance', where 'foot' is marked. The supersense predictions for this word are 'noun.quantity' by BERT and 'noun.body' by SenseBERT. Section (b) is titled 'WiC' and contains pairs of sentences with underlined words. The first pair consists of Sentence A: 'The kick must be synchronized with the arm movements.' and Sentence B: 'A sidecar is a smooth drink but it has a powerful kick.', where 'kick' is underlined. The supersense prediction for 'kick' is 'Same' by BERT and 'Different' by SenseBERT. The second pair consists of Sentence A: 'Plant bugs in the dissident’s apartment.' and Sentence B: 'Plant a spy in Moscow.', where 'plant' is underlined. The supersense prediction for 'plant' is 'Different' by BERT and 'Same' by SenseBERT."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;TEAM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The group of individuals who conducted the experiment using gene probes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;BATTERY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A collection of gene probes used in the experiment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;GENE PROBES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Newly developed tools for genetic research."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;RINGERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Ten individuals wearing shirt-sleeves, standing in a circle."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;FOOT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The body part used by one ringer to stand ahead of others."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;KICK (SPORTS)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The synchronized movement in sports that must be coordinated with arm movements."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;KICK (DRINK STRENGTH)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The powerful effect of a drink."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+</node>
+<node id="&quot;PLANT (BUG)&lt;&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"plant (bug)&lt;是从image_6中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLANT (SPY)&lt;&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"plant (spy)&lt;是从image_6中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ARM MOVEMENTS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"The kick in sports must be synchronized with arm movements."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SIDECAR DRINK&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"The sidecar drink has a powerful kick."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DISSIDENT'S APARTMENT&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"Bugs were planted in the dissident's apartment."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLANT (BUG)&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"Bugs were planted in the dissident's apartment."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MOSCOW&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"A spy was planted in Moscow."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLANT (SPY)&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d1">"A spy was planted in Moscow."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TEAM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"team是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BATTERY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"battery是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GENE PROBES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"gene probes是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;RINGERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ringers是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;FOOT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"foot是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;KICK (SPORTS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"kick (sports)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;KICK (DRINK STRENGTH)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"kick (drink strength)是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PLANT (BUG)&lt;&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"plant (bug)&lt;是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PLANT (SPY)&lt;&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"plant (spy)&lt;是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TEAM&quot;" target="&quot;BATTERY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The team used the battery of gene probes in their experiment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RINGERS&quot;" target="&quot;FOOT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"One ringer stands ahead of the others using their foot."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KICK (SPORTS)&quot;" target="&quot;ARM MOVEMENTS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The kick in sports must be synchronized with arm movements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KICK (DRINK STRENGTH)&quot;" target="&quot;SIDECAR DRINK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sidecar drink has a powerful kick."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISSIDENT'S APARTMENT&quot;" target="&quot;PLANT (BUG)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Bugs were planted in the dissident's apartment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOSCOW&quot;" target="&quot;PLANT (SPY)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"A spy was planted in Moscow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

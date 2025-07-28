@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_TRUCK-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Train sign- Color: Red with white text- Shape: Rectangular with rounded corners- Size: Approximately 12 inches by 18 inches- Material: Metal with rivets along the edges- Possible function: Indicates the chapter and title of a book, specifically "Chapter Six: The Journey from Platform Nine and Three-Quarters"- Other significant characteristics: The sign is mounted on a train, which is partially visible in the background. The train has a vintage design with a large headlight and brass fittings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a close-up of a red signboard with the text 'CHAPTER SIX THE JOURNEY FROM PLATFORM NINE AND THREE-QUARTERS' written in black capital letters. The signboard is affixed to what appears to be part of a steam locomotive, as indicated by the presence of a brass lamp on the left side and a brass valve handle on the right side. The background shows parts of the locomotive's machinery, including rivets and metal surfaces. To the right of the signboard, there is a small green frog sitting on the metal surface, adding a whimsical touch to the scene. The overall atmosphere suggests a vintage or historical setting, possibly related to a magical or fantasy theme."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;TRAIN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A red train with a headlight and a brass valve handle, featuring a sign that reads 'Chapter Six: The Journey from Platform Nine and Three-Quarters.'"</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+</node>
+<node id="&quot;FROG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small green frog sitting on the train."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_TRUCK-0.JPG&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_truck-0.jpg is a picture of a train."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_TRUCK-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_truck-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;FROG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Frog是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;FROG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The frog is sitting on the train, possibly indicating a whimsical or magical element to the journey described in the sign."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

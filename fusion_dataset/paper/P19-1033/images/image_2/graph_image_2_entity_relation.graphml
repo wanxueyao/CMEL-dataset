@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed diagram illustrating the framework of a news encoder. The diagram is structured into several components, each represented by boxes and arrows indicating the flow of information. At the bottom, there is a 'News Title' box connected to a 'Word Embedding' layer, which processes individual words (w1, w2, ..., wN) from the title. Each word embedding (w1, w2, ..., wN) is then passed through a CNN network to generate contextual representations (c1, c2, ..., cN). These contextual representations are further processed by an attention network, where each representation (ci) is weighted by an attention score (αi). The attention scores are calculated using a softmax function based on the dot product between the context vector (v) and the contextual representation (ci). The final output (e) is a weighted sum of the contextual representations, with weights determined by the attention scores. Additionally, there are two other inputs: 'Subtopic Embedding' and 'Topic Embedding', which are combined with the final output to form the overall news representation. The subtopic and topic embeddings are derived from the 'News Subtopic' and 'News Topic' respectively. The diagram uses various colors and shapes to distinguish different components and their relationships, with rectangles representing layers and arrows showing the flow of data."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;SUBTOPIC EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component in the model that processes news subtopics and converts them into numerical vectors for analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;TOPIC EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component in the model that processes news topics and converts them into numerical vectors for analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;WORD EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component in the model that processes words from the news title and converts them into numerical vectors for analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;NEWS SUBTOPIC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The specific subject or theme of a piece of news, which is input into the Subtopic Embedding component."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;NEWS TOPIC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The broader category or main theme of a piece of news, which is input into the Topic Embedding component."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<node id="&quot;NEWS TITLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The headline or title of a piece of news, which is processed by the Word Embedding component to extract word-level information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SUBTOPIC EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Subtopic Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TOPIC EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Topic Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WORD EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Word Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NEWS SUBTOPIC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"News Subtopic是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NEWS TOPIC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"News Topic是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NEWS TITLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"News Title是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUBTOPIC EMBEDDING&quot;" target="&quot;NEWS SUBTOPIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Subtopic Embedding component processes the News Subtopic to convert it into a numerical vector."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUBTOPIC EMBEDDING&quot;" target="&quot;TOPIC EMBEDDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both components are part of a larger model designed to analyze news content at different levels of granularity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TOPIC EMBEDDING&quot;" target="&quot;NEWS TOPIC&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Topic Embedding component processes the News Topic to convert it into a numerical vector."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TOPIC EMBEDDING&quot;" target="&quot;WORD EMBEDDING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The output of the Word Embedding component contributes to the overall topic representation processed by the Topic Embedding component."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WORD EMBEDDING&quot;" target="&quot;NEWS TITLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Word Embedding component processes the News Title to convert each word into a numerical vector."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

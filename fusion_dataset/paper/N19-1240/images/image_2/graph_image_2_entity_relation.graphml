@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a graph representation of supporting documents organized as nodes and edges. The nodes are mentions of either candidate entities or query entities, with the same color indicating they refer to the same entity (exact match, coreference, or both). There are three types of connections between nodes: solid edges indicate co-occurrence in the same document, dashed edges connect mentions that exactly match, and a bold-red line indicates a coreference. The graph is divided into three clusters enclosed by dashed ellipses, each cluster containing nodes of different colors (white, green, and blue). Within each cluster, nodes are connected by various types of edges. For example, within the top cluster, there is a bold-red line connecting two green nodes, indicating a coreference. The bottom-right cluster contains a mix of white, green, and blue nodes, all interconnected by solid and dashed edges. The overall structure suggests a network of entities and their relationships based on document co-occurrence, exact matches, and coreferences."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+</node>
+<node id="&quot;CLUSTER 1&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster consisting of three nodes, two white and one green, with connections between them."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+</node>
+<node id="&quot;CLUSTER 2&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster consisting of three nodes, two white and one blue, with connections between them."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+</node>
+<node id="&quot;CLUSTER 3&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster consisting of five nodes, three white, one green, and one blue, with connections between them."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CLUSTER 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cluster 1是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CLUSTER 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cluster 2是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CLUSTER 3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cluster 3是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLUSTER 1&quot;" target="&quot;CLUSTER 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"There is a connection between the green node in Cluster 1 and the blue node in Cluster 2."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLUSTER 1&quot;" target="&quot;CLUSTER 3&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a connection between the green node in Cluster 1 and the green node in Cluster 3."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLUSTER 2&quot;" target="&quot;CLUSTER 3&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"There are multiple connections between the nodes in Cluster 2 and Cluster 3."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

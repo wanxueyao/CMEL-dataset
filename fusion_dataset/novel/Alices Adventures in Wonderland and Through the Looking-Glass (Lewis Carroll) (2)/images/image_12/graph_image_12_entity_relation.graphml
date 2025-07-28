@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_12_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Long, wavy hair that appears to be tousled and voluminous- Expression: Eyes wide open with a surprised or shocked expression, mouth slightly open- Age: Appears to be an adult male- Clothing: Wearing a short-sleeved shirt with a high collar and a long skirt-like garment that extends to the knees; also wearing long socks or leggings that extend up to the thighs- Posture: Standing in a dynamic pose with one leg bent at the knee and the other extended backward, arms crossed over the chestOverall, the character gives off an exaggerated, cartoonish appearance with a surprised expression and a unique, somewhat whimsical outfit."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;IMAGE_12_SPORTS BALL-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Tire- Color: Black and white (the image is monochromatic)- Shape: Circular with a hollow center, typical of a tire's profile view- Size: Not specified, but appears to be a standard size tire based on the proportions- Material: Likely rubber, as tires are commonly made from this material- Possible function: Used for vehicles to provide traction and support the weight of the vehicle while allowing it to move smoothly over various surfacesOverall, the image depicts a simple, stylized representation of a tire, focusing on its basic shape and form."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;IMAGE_12&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a chaotic scene inside what appears to be a rustic, wooden room. On the left side of the image, there is a figure with long hair, wearing a hat and a dress, standing with one arm raised and the other hand on their chest, as if in shock or surprise. This figure has a surprised expression, with wide eyes and an open mouth. To the right, another figure is depicted in mid-air, seemingly having been kicked out of the room. This figure is dressed in a patterned garment and boots, with a large belly and a bald head. The figure's legs are spread apart, and they appear to be falling backward through the doorway, which is open. The door is swinging outward, and a hat is flying off the figure's head. The background shows wooden walls and a window with curtains, adding to the rustic atmosphere. The overall mood of the image conveys a sense of sudden action and surprise."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with a surprised expression, wearing a dress and apron, standing in a room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;FAT MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large man with a round body, wearing a hat and a decorated jacket, falling through a door."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;ROOM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An indoor setting with wooden walls, a chair, and a table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<node id="&quot;DOOR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden door through which the Fat Man is falling."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+</node>
+<edge source="&quot;IMAGE_12_PERSON-0.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_12_person-0.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12_PERSON-0.JPG&quot;" target="&quot;IMAGE_12&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_12_person-0.jpg是image_12的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12_SPORTS BALL-1.JPG&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"The image feature block image_12_sports ball-1.jpg is a picture of the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12_SPORTS BALL-1.JPG&quot;" target="&quot;IMAGE_12&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_12_sports ball-1.jpg是image_12的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;FAT MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fat Man是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Room是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_12&quot;" target="&quot;DOOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Door是从image_12中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is standing inside the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FAT MAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is observing the Fat Man as he falls through the door."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FAT MAN&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Fat Man is falling into the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ROOM&quot;" target="&quot;DOOR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The door is part of the room's structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_12.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

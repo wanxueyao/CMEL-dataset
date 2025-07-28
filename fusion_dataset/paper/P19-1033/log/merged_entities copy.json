@@ -1,0 +1,213 @@
+{
+    "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc": [
+        {
+            "entity_name": "NEURAL NEWS RECOMMENDATION WITH LONG- AND SHORT-TERM USER REPRESENTATIONS",
+            "entity_type": "EVENT",
+            "description": "Neural News Recommendation with Long- and Short-term User Representations is the title of the paper discussing a new approach to personalized news recommendation, which involves learning both long-term and short-term user representations to improve the performance of neural news recommendation.",
+            "source_entities": [
+                "NEURAL NEWS RECOMMENDATION WITH LONG- AND SHORT-TERM USER REPRESENTATIONS"
+            ]
+        },
+        {
+            "entity_name": "PERSONALIZED NEWS RECOMMENDATION",
+            "entity_type": "CONCEPT",
+            "description": "Personalized news recommendation is the process of helping users find news they are interested in to improve their reading experience, which is the focus of the paper discussing a new approach that captures both long-term and short-term user interests.",
+            "source_entities": [
+                "PERSONALIZED NEWS RECOMMENDATION"
+            ]
+        },
+        {
+            "entity_name": "LONG-TERM INTEREST",
+            "entity_type": "CONCEPT",
+            "description": "Long-term interest refers to user preferences that last for a long time and are consistent, which is an important aspect considered in the paper's proposed approach to personalized news recommendation.",
+            "source_entities": [
+                "LONG-TERM INTEREST"
+            ]
+        },
+        {
+            "entity_name": "SHORT-TERM INTEREST",
+            "entity_type": "CONCEPT",
+            "description": "Short-term interest refers to user interests that evolve with time and may be triggered by specific contexts or temporal demands, which is another key aspect considered in the paper's proposed approach to personalized news recommendation.",
+            "source_entities": [
+                "SHORT-TERM INTEREST"
+            ]
+        },
+        {
+            "entity_name": "NEWS ENCODER",
+            "entity_type": "CONCEPT",
+            "description": "News encoder is a component used to learn representations of news articles from their titles and topic categories, and it applies attention mechanism to select important words for learning informative news representations.",
+            "source_entities": [
+                "NEWS ENCODER",
+                "ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "USER ENCODER",
+            "entity_type": "CONCEPT",
+            "description": "User encoder is a component consisting of long-term and short-term user representation modules, where the long-term user representations are learned from user IDs and short-term representations are learned via GRU network from recently browsed news.",
+            "source_entities": [
+                "USER ENCODER",
+                "GRU NETWORK",
+                "LTUR MODULE",
+                "STUR MODULE"
+            ]
+        }
+    ],
+    "chunk-f08fa90ed86e33cca2697ff366884585": [
+        {
+            "entity_name": "GRU Network",
+            "entity_type": "ORGANIZATION",
+            "description": "GRU Network is utilized in the STUR module to learn short-term user representations based on recent browsing news.",
+            "source_entities": [
+                "GRU NETWORK"
+            ]
+        },
+        {
+            "entity_name": "CNN Network",
+            "entity_type": "ORGANIZATION",
+            "description": "CNN Network is part of the Title Encoder, used to learn contextual word representations by capturing local context information.",
+            "source_entities": [
+                "CNN NETWORK",
+                "CONVOLUTIONAL NEURAL NETWORK (CNN)"
+            ]
+        },
+        {
+            "entity_name": "LSTUR",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR is the neural news recommendation approach that includes both long- and short-term user representations, containing two major components: a news encoder to learn representations of news and a user encoder to learn representations of users.",
+            "source_entities": [
+                "LSTUR",
+                "NEWS ENCODER",
+                "TITLE ENCODER"
+            ]
+        },
+        {
+            "entity_name": "LTUR",
+            "entity_type": "ORGANIZATION",
+            "description": "LTUR refers to the long-term user representation module, which is part of the user encoder system for learning user representations from their IDs.",
+            "source_entities": [
+                "LTUR"
+            ]
+        },
+        {
+            "entity_name": "STUR",
+            "entity_type": "ORGANIZATION",
+            "description": "STUR stands for short-term user representation module, which uses a GRU network to learn short-term user representations from recent browsing data.",
+            "source_entities": [
+                "STUR"
+            ]
+        }
+    ],
+    "chunk-40a50e43f2e71428b8dbff5c388e34ae": [
+        {
+            "entity_name": "Long-Short Term User Representation (LSTUR) Approach",
+            "entity_type": "TECHNOLOGY",
+            "description": "The LSTUR approach refers to the Long-Short Term User Representation framework, designed for user and news representation. It includes two modules: the Short-Term User Representation (STUR) to capture user's temporal interests and the Long-Term User Representation (LTUR) to capture user's consistent preferences.",
+            "source_entities": [
+                "LSTUR APPROACH",
+                "STUR",
+                "LTUR"
+            ]
+        }
+    ],
+    "chunk-b964f30fcaf33e260b19e3732b140766": null,
+    "chunk-72f78c27dad5114374bbbb67fbfc4777": [
+        {
+            "entity_name": "LSTUR (LSTURini, LSTUR-con)",
+            "entity_type": "EVENT",
+            "description": "LSTUR is a news recommendation approach that outperforms baseline methods by capturing both long-term preferences and short-term interests of users. It includes two proposed methods, LSTURini for learning short-term user representations and LSTUR-con for learning long-term user representations, both achieving comparable performance and outperforming baseline methods.",
+            "source_entities": [
+                "LSTUR",
+                "LSTURINI",
+                "LSTUR-CON"
+            ]
+        }
+    ],
+    "chunk-6ed1a98565ec22824cdc72d53742fe1a": [
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM is a sequence-based encoder used in the STUR model for learning short-term user representations and can replace GRU. It is associated with the development by Hochreiter and Schmidhuber.",
+            "source_entities": [
+                "LSTM",
+                "LSTM"
+            ]
+        },
+        {
+            "entity_name": "Attention Mechanism",
+            "entity_type": "ORGANIZATION",
+            "description": "Attention Mechanism is used in encoders based on CNN and LSTM to select important words for learning more informative news representations.",
+            "source_entities": [
+                "ATTENTION",
+                "ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "News Encoders",
+            "entity_type": "ORGANIZATION",
+            "description": "News Encoders include GRU, which outperforms LSTM in the STUR model for encoding news, and are evaluated for their effectiveness in capturing sequential new reading patterns.",
+            "source_entities": [
+                "NEWS ENCODERS",
+                "GRU"
+            ]
+        },
+        {
+            "entity_name": "News Title Encoders",
+            "entity_type": "ORGANIZATION",
+            "description": "News Title Encoders include CNN+Att, which shows better performance than other variants like CNN, LSTM, and LSTM+Att. These encoders are used for learning news representations with the effectiveness of attention mechanism in selecting important words.",
+            "source_entities": [
+                "NEWS TITLE ENCODERS",
+                "CNN+ATT",
+                "CNN",
+                "LSTM+ATT"
+            ]
+        }
+    ],
+    "chunk-278340890fd0f192f781f9e8a3aa3bbf": [
+        {
+            "entity_name": "Microsoft News",
+            "entity_type": "ORGANIZATION",
+            "description": "Microsoft News provided technical support, data, and personnel for the experiments in the paper. It is also the source of the real-world dataset used for experiments.",
+            "source_entities": [
+                "\"MICROSOFT NEWS\"",
+                "\"MSN NEWS\""
+            ]
+        },
+        {
+            "entity_name": "Enviro-Sensing for Robocars",
+            "entity_type": "EVENT",
+            "description": "Enviro-Sensing for Robocars is an event or technology highlighted at the 2019 CES, focusing on innovations related to Robocars.",
+            "source_entities": [
+                "\"ENVIRO-SENSING\"",
+                "\"ROBOCARS\""
+            ]
+        },
+        {
+            "entity_name": "LSTUR",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTUR refers to the long-term user representation model, which has many parameters and is part of the study's focus. It is used in both LSTUR-ini and LSTUR-con methods for randomly masking long-term user representation in model training.",
+            "source_entities": [
+                "\"LSTUR-INI\"",
+                "\"LSTUR-CON\"",
+                "\"LTUR\""
+            ]
+        },
+        {
+            "entity_name": "STUR",
+            "entity_type": "ORGANIZATION",
+            "description": "STUR refers to the short-term user representation model, which is part of the study's focus on balancing learning between LTUR and STUR.",
+            "source_entities": [
+                "\"STUR\""
+            ]
+        },
+        {
+            "entity_name": "GRU Network",
+            "entity_type": "ORGANIZATION",
+            "description": "GRU network is used to learn short-term representations of users from their recently browsed news in the study's model.",
+            "source_entities": [
+                "\"GRU NETWORK\""
+            ]
+        }
+    ],
+    "chunk-d32cfda1064fc979d2b4d17b3455cf82": null
+}

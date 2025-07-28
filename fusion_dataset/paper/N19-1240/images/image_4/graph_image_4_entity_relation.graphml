@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Accuracy of different models on WIKIHOP closed test set and public validation set.' The table is structured with two main columns: Unmasked and Masked, each further divided into Test and Dev (Development) sets. The rows represent various models and their respective accuracy scores. The models listed are Human, FastQA, BiDAF, Coref-GRU, MHPGM, Weaver / Jenga, MHQA-GRN, Entity-GCN without coreference (single model), Entity-GCN with coreference (single model), and Entity-GCN* (ensemble 5 models). The accuracy scores for the Unmasked Test set range from 25.7% for FastQA to 74.1% for Human. For the Unmasked Dev set, the scores range from 56.0% for Coref-GRU to 68.5% for Entity-GCN*. For the Masked Test set, the scores range from 35.8% for FastQA to 71.6% for Entity-GCN*. For the Masked Dev set, the scores range from 54.5% for BiDAF to 70.5% for Entity-GCN without coreference (single model). The table highlights the performance of Entity-GCN models, which outperform recent prior work without learning any language model but relying on a pretrained one (ELMo – without fine-tuning it) and applying R-GCN to reason among entities in the text."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;HUMAN (WELBL ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Welbl et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;FASTQA (WELBL ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Welbl et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;BIDAF (WELBL ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Welbl et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;COREF-GRU (DHINGRA ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Dhingra et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;MHPGM (BAUER ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Bauer et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;WEAVER / JENGA (RAISON ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Raison et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;MHQA-GRN (SONG ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model developed by Song et al. in 2018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A single model of Entity-GCN without coreference."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A single model of Entity-GCN with coreference."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<node id="&quot;ENTITY-GCN* (ENSEMBLE 5 MODELS)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An ensemble of 5 models of Entity-GCN."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;HUMAN (WELBL ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (Welbl et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FASTQA (WELBL ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastQA (Welbl et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BIDAF (WELBL ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BiDAF (Welbl et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;COREF-GRU (DHINGRA ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Coref-GRU (Dhingra et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MHPGM (BAUER ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MHPGM (Bauer et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WEAVER / JENGA (RAISON ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Weaver / Jenga (Raison et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MHQA-GRN (SONG ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MHQA-GRN (Song et al., 2018)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Entity-GCN without coreference (single model)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Entity-GCN with coreference (single model)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ENTITY-GCN* (ENSEMBLE 5 MODELS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Entity-GCN* (ensemble 5 models)是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMAN (WELBL ET AL., 2018)&quot;" target="&quot;FASTQA (WELBL ET AL., 2018)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are models developed by the same group of researchers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMAN (WELBL ET AL., 2018)&quot;" target="&quot;BIDAF (WELBL ET AL., 2018)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are models developed by the same group of researchers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COREF-GRU (DHINGRA ET AL., 2018)&quot;" target="&quot;MHPGM (BAUER ET AL., 2018)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models developed in 2018."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WEAVER / JENGA (RAISON ET AL., 2018)&quot;" target="&quot;MHQA-GRN (SONG ET AL., 2018)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models developed in 2018."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)&quot;" target="&quot;ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are variants of the Entity-GCN model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENTITY-GCN WITHOUT COREFERENCE (SINGLE MODEL)&quot;" target="&quot;ENTITY-GCN* (ENSEMBLE 5 MODELS)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The ensemble includes the single model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)&quot;" target="&quot;ENTITY-GCN* (ENSEMBLE 5 MODELS)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The ensemble includes the single model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

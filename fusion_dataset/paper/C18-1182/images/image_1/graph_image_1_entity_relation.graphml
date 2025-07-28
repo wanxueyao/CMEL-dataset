@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the word-level neural network architecture for Named Entity Recognition (NER). The diagram is structured into five layers: Label, Word Representation, Word LSTM-B, Word LSTM-F, and Word Embedding. Each layer is represented by a series of boxes connected by arrows, indicating the flow of information through the network. The 'Label' layer at the top shows the tags assigned to each word, such as B-ORG, I-ORG, O, B-PER, and I-PER. The 'Word Representation' layer below it contains boxes representing the input words. The 'Word LSTM-B' and 'Word LSTM-F' layers are bidirectional Long Short-Term Memory networks that process the word representations in both forward and backward directions. The 'Word Embedding' layer at the bottom represents the initial word embeddings. The words 'Best', 'Buy', 's', 'CEO', 'Hubert', and 'Joly' are shown at the bottom, with their corresponding labels above them."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+</node>
+<node id="&quot;BEST BUY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A retail company labeled as B-ORG and I-ORG in the sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+</node>
+<node id="&quot;HUBERT JOLY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual labeled as B-PER and I-PER in the sequence, possibly the CEO of Best Buy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BEST BUY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Best Buy是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HUBERT JOLY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hubert Joly是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEST BUY&quot;" target="&quot;HUBERT JOLY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Hubert Joly is the CEO of Best Buy, indicating a leadership relationship between the person and the organization."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

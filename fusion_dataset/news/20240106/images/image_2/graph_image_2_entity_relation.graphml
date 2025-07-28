@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Tree- Age: Appears to be an old tree, indicated by the thick bark and large size- Color: Dark brown with patches of gray and black- Shape: Irregular, with a rough texture and deep grooves in the bark- Size: Large, although the full size is not visible in the image- Posture: Standing upright, with the bark shown in a vertical orientationOverall, the tree appears ancient and sturdy, with a rich texture that suggests it has been standing for many years."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an aerial view of a flooded playground. The playground equipment, including swings, slides, and other structures, is partially submerged in muddy water. The ground around the playground is also flooded, with the water extending beyond the fenced area. The playground surface has colorful patterns and designs, which are now partially obscured by the water. To the right of the playground, there is a large tree with bare branches, indicating it might be winter or early spring. The surrounding area is also flooded, with patches of grass and mud visible through the water. The overall scene conveys a sense of desolation and abandonment due to the flooding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d1">"The image feature block image_2_person-0.jpg is a picture of a person."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLAYGROUND&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d1">"Playground是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d1">"Tree是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FLOODED AREA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d1">"Flooded Area是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_2_person-0.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PLAYGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Playground是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flooded Area是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PLAYGROUND&quot;" target="&quot;TREE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The tree is located adjacent to the flooded playground, providing a natural boundary and possibly some protection from the floodwaters."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PLAYGROUND&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The playground is completely submerged in the floodwaters, rendering it unusable and potentially damaging the equipment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE&quot;" target="&quot;FLOODED AREA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The tree is partially submerged in the floodwaters, indicating the severity of the flooding in this area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a long, straight border wall extending across the landscape. The wall is constructed of large, vertical panels and is topped with a flat surface. It is supported by evenly spaced metal poles that are positioned at regular intervals along its length. The wall appears to be made of a dark material, possibly steel or concrete, and shows signs of weathering and rust, indicating it has been in place for some time. In front of the wall, there is a wide, barren field with a plowed surface, suggesting recent agricultural activity or preparation for planting. The sky above is overcast, with a uniform grayish-blue hue, giving the scene a somber and desolate atmosphere. There are no people, animals, or vehicles visible in the image, emphasizing the isolation and starkness of the border wall."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+</node>
+<node id="&quot;BORDER WALL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A long, straight wall made of metal with evenly spaced light poles along its top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A vast, open field with a plowed surface."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BORDER WALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Border Wall是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BORDER WALL&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The border wall is situated at the edge of the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

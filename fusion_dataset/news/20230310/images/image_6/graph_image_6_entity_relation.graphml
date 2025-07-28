@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a close-up of hands holding a golf ball. The hands are heavily tattooed with intricate designs covering the skin. The tattoos appear to be detailed and artistic, featuring various patterns and possibly symbolic imagery. The golf ball is white and has a dimpled surface typical of golf balls used in the sport. The background is plain and light-colored, which contrasts with the dark tones of the tattooed skin and the white golf ball. The overall atmosphere suggests a connection to sports, specifically golf, and hints at a personal story or journey related to the individual's past in basketball and current involvement in golf."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+</node>
+<node id="&quot;HANDS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Two hands with tattoos, one hand holding a golf ball."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+</node>
+<node id="&quot;GOLF BALL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white golf ball being held by one of the hands."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;HANDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hands是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GOLF BALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Golf Ball是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HANDS&quot;" target="&quot;GOLF BALL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"One of the hands is holding the golf ball."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

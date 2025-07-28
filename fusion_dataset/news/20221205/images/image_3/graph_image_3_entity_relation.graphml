@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_REFRIGERATOR-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Refrigerator- Color: White- Shape: Rectangular, with a boxy structure and a flat front- Size: Tall and narrow, typical of a standard household refrigerator- Material: Likely made of metal with a plastic or coated finish for the exterior- Possible function: Used for storing food and beverages at a cool temperature to preserve freshness- Other significant characteristics: Features a single door with a handle on the right side, and it is mounted on a wooden pallet, suggesting it may be new or being transported"</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a white refrigerator standing upright on a wooden pallet in what appears to be an anechoic chamber. The walls of the chamber are covered with pyramidal acoustic foam panels, which are designed to absorb sound and reduce echo. The foam panels are arranged in a grid pattern and have a distinct triangular shape with pointed tops. The floor is smooth and reflective, suggesting it is made of a polished material. The refrigerator itself is a standard design with a freezer compartment at the top and a larger refrigeration section below. There are no visible people or other objects in the image. The overall atmosphere is sterile and technical, indicative of a controlled environment used for testing or research purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+</node>
+<node id="&quot;REFRIGERATOR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white refrigerator standing upright on a wooden pallet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+</node>
+<node id="&quot;PYRAMIDAL ABSORBERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Gray pyramidal absorbers covering the walls and floor of the room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+</node>
+<node id="&quot;ROOM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A room with walls and floor covered in gray pyramidal absorbers, designed to minimize sound reflections."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_REFRIGERATOR-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_refrigerator-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;REFRIGERATOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Refrigerator是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PYRAMIDAL ABSORBERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pyramidal Absorbers是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Room是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REFRIGERATOR&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The refrigerator is placed inside the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PYRAMIDAL ABSORBERS&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The pyramidal absorbers are installed on the walls and floor of the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

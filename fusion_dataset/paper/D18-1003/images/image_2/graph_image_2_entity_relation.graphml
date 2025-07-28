@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Data statistics (SN: Snopes, PF: PolitiFact, NT: NewsTrust, SE: SemEval)' that provides statistical information about four datasets used for evaluating the credibility and stance of social media content. The table is structured with five main columns: Dataset, SN, PF, NT, and SE. Each column represents a different dataset and contains the following rows: 'Total claims', 'True claims', 'False claims', 'Unverified claims', 'Claim sources', 'Articles', and 'Article sources'. The 'Total claims' row shows the total number of claims in each dataset: SN has 4341 claims, PF has 3568 claims, NT has 5344 claims, and SE has 272 claims. The 'True claims' row indicates the number of true claims: SN has 1164 true claims, PF has 1867 true claims, NT has no true claims listed, and SE has 127 true claims. The 'False claims' row shows the number of false claims: SN has 3177 false claims, PF has 1701 false claims, NT has no false claims listed, and SE has 50 false claims. The 'Unverified claims' row indicates the number of unverified claims: SN has no unverified claims listed, PF has no unverified claims listed, NT has no unverified claims listed, and SE has 95 unverified claims. The 'Claim sources' row shows the number of claim sources: SN has no claim sources listed, PF has 95 claim sources, NT has 161 claim sources, and SE has 10 claim sources. The 'Articles' row indicates the number of articles: SN has 29242 articles, PF has 29556 articles, NT has 25128 articles, and SE has 3717 articles. The 'Article sources' row shows the number of article sources: SN has 336 article sources, PF has 336 article sources, NT has 251 article sources, and SE has 89 article sources. The table highlights the significant differences in the size and composition of the datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<node id="&quot;DATASET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A collection of data organized into different categories such as SN, PF, NT, and SE."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<node id="&quot;SN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category in the dataset with 4341 total claims, 1164 true claims, 3177 false claims, and 29242 articles from 336 sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<node id="&quot;PF&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category in the dataset with 3568 total claims, 1867 true claims, 1701 false claims, and 29556 articles from 336 sources. It has 95 claim sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<node id="&quot;NT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category in the dataset with 5344 total claims and 25128 articles from 251 sources. It has 161 claim sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<node id="&quot;SE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category in the dataset with 272 total claims, 127 true claims, 50 false claims, and 95 unverified claims. It has 3717 articles from 89 sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DATASET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dataset是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SN是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PF是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NT是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SE是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;SN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SN category is part of the Dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;PF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The PF category is part of the Dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;NT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The NT category is part of the Dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DATASET&quot;" target="&quot;SE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SE category is part of the Dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

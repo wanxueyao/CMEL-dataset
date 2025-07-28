@@ -1,0 +1,286 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "Justine Zhang",
+            "entity_type": "PERSON",
+            "description": "Justine Zhang is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure. She is also an individual questioning the omission of an altercation with a foreign intelligence group in an article and discussing the reliability of sources.",
+            "source_image_entities": [
+                "A1"
+            ],
+            "source_text_entities": [
+                "\"JUSTINE ZHANG\""
+            ]
+        },
+        {
+            "merged_entity_name": "Jonathan P. Chang",
+            "entity_type": "PERSON",
+            "description": "Jonathan P. Chang is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure. He is also an individual challenging the inclusion of a potentially unreliable source in an article based on its existence.",
+            "source_image_entities": [
+                "A2"
+            ],
+            "source_text_entities": [
+                "\"JONATHAN P. CHANG\""
+            ]
+        },
+        {
+            "merged_entity_name": "Cristian Danescu-Niculescu-Mizil",
+            "entity_type": "PERSON",
+            "description": "Cristian Danescu-Niculescu-Mizil is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure. He is also an individual querying the reliability of the St. Petersburg Times as a source for Wikipedia and expressing concerns about the article's reliance on a single, speculative source.",
+            "source_image_entities": [
+                "B1"
+            ],
+            "source_text_entities": [
+                "\"CRISTIAN DANESCU-NICULESCU-MIZIL (CRISTIAN DANESCU-NICULESCU-MIZIL)\""
+            ]
+        },
+        {
+            "merged_entity_name": "B2",
+            "entity_type": "PERSON",
+            "description": "B2 is an individual providing an opinion on the reliability of the St. Petersburg Times, comparing it to other mainstream news sources. This individual is also involved in the research on detecting early signs of conversational failure.",
+            "source_image_entities": [
+                "B2"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "Wikipedia Talk Page Discussions",
+            "entity_type": "EVENT",
+            "description": "Wikipedia talk page discussions is the event where the dataset is compiled, consisting of conversations that begin civilly and either remain healthy or derail into personal attacks. This event involves annotators determining if the last comment is a personal attack or if any of the comments in a snippet are toxic, with specific statistics related to the number of annotators, conversations, and agreement rates.",
+            "source_image_entities": [
+                "JOB 1: ENDS IN PERSONAL ATTACK.",
+                "JOB 2: CIVIL START."
+            ],
+            "source_text_entities": [
+                "WIKIPEDIA TALK PAGE DISCUSSIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "Crowdsourced Filtering",
+            "entity_type": "CONCEPT",
+            "description": "Crowdsourced filtering is a concept used in combination with machine learning to compile the dataset of Wikipedia talk page discussions. It involves using platforms like CrowdFlower to vet each conversation and select a subset that are perceived by humans to either stay civil throughout or start civil but end with a personal attack.",
+            "source_image_entities": [
+                "JOB 1: ENDS IN PERSONAL ATTACK.",
+                "JOB 2: CIVIL START."
+            ],
+            "source_text_entities": [
+                "CROWDSOURCED FILTERING"
+            ]
+        },
+        {
+            "merged_entity_name": "Personal Attacks in Conversations",
+            "entity_type": "CONCEPT",
+            "description": "Personal attacks are a concept referring to the derailment of conversations into antisocial behavior, which is the focus of the study's detection of early warning signs. In the context of the image entities, annotators are tasked with identifying if the last comment in a conversation is a personal attack towards someone else in the conversation.",
+            "source_image_entities": [
+                "JOB 1: ENDS IN PERSONAL ATTACK."
+            ],
+            "source_text_entities": [
+                "PERSONAL ATTACKS"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "merged_entity_name": "MODERATION DISPUTES",
+            "entity_type": "EVENT",
+            "description": "Moderation Disputes are a type of conversation that occurs on Wikipedia, reflecting core elements of the platform, and involve rebukes or disputes concerning moderation decisions such as blocks and reversions.",
+            "source_image_entities": [
+                "MODERATION"
+            ],
+            "source_text_entities": [
+                "MODERATION DISPUTES"
+            ]
+        },
+        {
+            "merged_entity_name": "COORDINATION",
+            "entity_type": "EVENT",
+            "description": "Coordination is an event that takes place on Wikipedia, involving efforts to foster constructive teamwork, and includes requests, questions, and statements of intent pertaining to collaboratively editing an article.",
+            "source_image_entities": [
+                "COORDINATION"
+            ],
+            "source_text_entities": [
+                "COORDINATION"
+            ]
+        },
+        {
+            "merged_entity_name": "AWRY-TURNING CONVERSATIONS",
+            "entity_type": "EVENT",
+            "description": "Awry-turning Conversations are discussions that do not proceed as intended, often leading to personal attacks or disputes, and are associated with a rough correspondence between linguistic directness and the likelihood of future personal attacks.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "AWRY-TURNING CONVERSATIONS"
+            ]
+        },
+        {
+            "merged_entity_name": "ON-TRACK CONVERSATIONS",
+            "entity_type": "EVENT",
+            "description": "On-Track Conversations are discussions that proceed as intended without deviating into personal attacks or disputes, and tend to contain gratitude and greetings, both positive politeness strategies.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ON-TRACK CONVERSATIONS"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "DIRECT QUESTIONS",
+            "entity_type": "CONCEPT",
+            "description": "Direct Questions are a linguistic marker that tends to start awry-turning conversations significantly more often than on-track ones, indicating a potential for hostility or contention.",
+            "source_image_entities": [
+                "DIRECT QUESTION"
+            ],
+            "source_text_entities": [
+                "DIRECT QUESTIONS"
+            ]
+        },
+        {
+            "entity_name": "2ND PERSON START",
+            "entity_type": "CONCEPT",
+            "description": "2nd Person Start refers to the use of 'you' at the beginning of a sentence or statement, which is associated with a higher likelihood of future personal attacks or awry-turning conversations.",
+            "source_image_entities": [
+                "2ND PERSON START"
+            ],
+            "source_text_entities": [
+                "SENTENCE-INITIAL YOU"
+            ]
+        },
+        {
+            "entity_name": "PROMPT: FACTUAL CHECK",
+            "entity_type": "EVENT",
+            "description": "Factual Check Prompt is a linguistic marker that tends to cue disputes regarding an article's factual content, often leading to awry-turning conversations.",
+            "source_image_entities": [
+                "PROMPT: FACTUAL CHECK"
+            ],
+            "source_text_entities": [
+                "FACTUAL CHECK PROMPT"
+            ]
+        },
+        {
+            "entity_name": "GRATITUDE",
+            "entity_type": "CONCEPT",
+            "description": "Gratitude is a positive politeness strategy often found in on-track conversations, indicating a constructive tone and fostering cooperative dialogue.",
+            "source_image_entities": [
+                "GRATITUDE"
+            ],
+            "source_text_entities": [
+                "GRATITUDE"
+            ]
+        },
+        {
+            "entity_name": "GREETINGS",
+            "entity_type": "CONCEPT",
+            "description": "Greetings are a positive politeness strategy that tends to initiate on-track conversations, fostering a cooperative atmosphere and signaling active efforts to foster constructive teamwork.",
+            "source_image_entities": [
+                "GREETINGS"
+            ],
+            "source_text_entities": [
+                "GREETINGS"
+            ]
+        },
+        {
+            "entity_name": "PROMPT: COORDINATION",
+            "entity_type": "EVENT",
+            "description": "Coordination Prompts signal active efforts to foster constructive teamwork and are more likely to begin on-track conversations, reflecting a desire for collaborative interaction.",
+            "source_image_entities": [
+                "PROMPT: COORDINATION"
+            ],
+            "source_text_entities": [
+                "COORDINATION PROMPTS"
+            ]
+        },
+        {
+            "entity_name": "HEDGE (LEXICON)",
+            "entity_type": "EVENT",
+            "description": "Hedge (Lexicon) involves the use of hedging words from the lexicon, a negative politeness strategy salient in on-track conversations, used to soften the force of a statement and indicate caution or uncertainty.",
+            "source_image_entities": [
+                "HEDGE (LEXICON)"
+            ],
+            "source_text_entities": [
+                "HEDGES"
+            ]
+        },
+        {
+            "entity_name": "PROMPT: OPINION",
+            "entity_type": "EVENT",
+            "description": "Opinion Prompts are a linguistic marker that appears in on-track conversations, reflecting a desire for input and discussion, and indicating a more open and collaborative dialogue.",
+            "source_image_entities": [
+                "PROMPT: OPINION"
+            ],
+            "source_text_entities": [
+                "OPINION PROMPTS"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "POLITENESS STRATEGIES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 38 strategies used to measure politeness in text data, including positive politeness strategies like gratitude and greetings, and negative politeness strategies such as hedges and opinion prompts, which are significant in on-track conversations.",
+            "source_image_entities": [
+                "POLITENESS STRATEGIES"
+            ],
+            "source_text_entities": [
+                "GRATITUDE",
+                "GREETINGS",
+                "HEDGES",
+                "OPINION PROMPTS"
+            ]
+        },
+        {
+            "merged_entity_name": "PROMPT TYPES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 12 different types of prompts used to elicit responses from participants, including coordination prompts that signal active efforts to foster constructive teamwork and are more likely to begin on-track conversations.",
+            "source_image_entities": [
+                "PROMPT TYPES"
+            ],
+            "source_text_entities": [
+                "COORDINATION PROMPTS"
+            ]
+        },
+        {
+            "merged_entity_name": "TOXICITY + PRAGMATIC",
+            "entity_type": "FEATURE_SET",
+            "description": "A combined feature set consisting of 52 features that include both toxicity and pragmatic elements, used to predict whether a conversation will turn awry based on linguistic properties of its very first exchange.",
+            "source_image_entities": [
+                "TOXICITY + PRAGMATIC"
+            ],
+            "source_text_entities": [
+                "PRAGMATIC FEATURES CLASSIFIER",
+                "PERSPECTIVE API CLASSIFIER"
+            ]
+        },
+        {
+            "merged_entity_name": "WIKIPEDIA TALK PAGE CONVERSATIONS",
+            "entity_type": "EVENT",
+            "description": "Wikipedia Talk Page Conversations are the subject of analysis, where different types of prompts and politeness strategies, as well as their effects on conversation outcomes, are studied. These conversations can either be 'on-track' or 'awry-turning' based on linguistic properties.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "WIKIPEDIA TALK PAGE CONVERSATIONS",
+                "CONVERSATION"
+            ]
+        },
+        {
+            "merged_entity_name": "HUMANS",
+            "entity_type": "PERSON",
+            "description": "The reference point for comparison, representing the accuracy of human predictions, with a sample of 100 pairs labeled by non-author volunteer human annotators achieving an accuracy of 72%.",
+            "source_image_entities": [
+                "HUMANS"
+            ],
+            "source_text_entities": [
+                "HUMAN ANNOTATORS"
+            ]
+        },
+        {
+            "merged_entity_name": "INTERLOCUTOR FEATURES",
+            "entity_type": "FEATURE_SET",
+            "description": "A feature set consisting of 5 characteristics of conversation partners used to predict their behavior, including participants' experience on Wikipedia and their anonymity status.",
+            "source_image_entities": [
+                "INTERLOCUTOR FEATURES"
+            ],
+            "source_text_entities": [
+                "INTERLOCUTOR FEATURES"
+            ]
+        }
+    ]
+}

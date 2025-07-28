@@ -1,0 +1,830 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two main components: a textual description and a graphical representation. The textual description is a sentence that reads: 'To reduce [ambiguity]OtherST, the [MORphological PARser MORPA]Method Used-for is provided with a [PCFG]Method... [It]Generic combines [context-free grammar]Method with... [MORPA]Method is a fully implemented [parser]Method developed for a [text-to-speech system]Task.' The graphical representation below the text is a flowchart or diagram with various nodes connected by arrows. The nodes are labeled with terms such as 'ambiguity,' 'MORphological PARser MORPA,' 'PCFG,' 'context-free grammar,' 'text-to-speech system,' and 'parser.' The node labeled 'MORPA' is highlighted in red. Arrows indicate relationships or connections between these terms, with labels such as 'Used-for' and 'Hyponym-of.' The overall layout suggests a relationship between different methods and concepts used in natural language processing, particularly in the context of parsing and text-to-speech systems."
+        },
+        {
+            "entity_name": "AMBIGUITY",
+            "entity_type": "EVENT",
+            "description": "The concept of ambiguity in the context of text processing and parsing."
+        },
+        {
+            "entity_name": "MORPHOLOGICAL PARSER MORPA",
+            "entity_type": "ORGANIZATION",
+            "description": "A method designed to reduce ambiguity in text-to-speech systems through morphological parsing."
+        },
+        {
+            "entity_name": "PCFG",
+            "entity_type": "ORGANIZATION",
+            "description": "Probabilistic Context-Free Grammar, a method used for parsing natural language."
+        },
+        {
+            "entity_name": "CONTEXT-FREE GRAMMAR",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of formal grammar that is widely used in parsing and understanding natural language."
+        },
+        {
+            "entity_name": "PARSER",
+            "entity_type": "ORGANIZATION",
+            "description": "A software tool or algorithm that processes and interprets structured data, such as natural language text."
+        },
+        {
+            "entity_name": "TEXT-TO-SPEECH SYSTEM",
+            "entity_type": "ORGANIZATION",
+            "description": "A system that converts written text into spoken words using synthesized speech."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Dataset statistics for our dataset SCIERC and two previous datasets on scientific information extraction.' The table is structured with four main columns: Statistics, SCIERC, SemEval 17, and SemEval 18. Each column represents a different dataset and contains the following rows: '#Entities' (SCIERC: 8089, SemEval 17: 9946, SemEval 18: 7483), '#Relations' (SCIERC: 4716, SemEval 17: 672, SemEval 18: 1595), '#Relations/Doc' (SCIERC: 9.4, SemEval 17: 1.3, SemEval 18: 3.2), '#Coref links' (SCIERC: 2752, SemEval 17: -, SemEval 18: -), and '#Coref clusters' (SCIERC: 1023, SemEval 17: -, SemEval 18: -). The table highlights the significant differences in the number of entities, relations, and coreference annotations across the three datasets. The context indicates that SCIERC focuses on annotating cross-sentence relations and has more relation coverage than SemEval 17 and SemEval 18."
+        },
+        {
+            "entity_name": "SCIERC",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 8089 entities, 4716 relations, and an average of 9.4 relations per document. It also has 2752 coreference links and 1023 coreference clusters."
+        },
+        {
+            "entity_name": "SEMEVAL 17",
+            "entity_type": "EVENT",
+            "description": "A dataset with 9946 entities and 672 relations, averaging 1.3 relations per document."
+        },
+        {
+            "entity_name": "SEMEVAL 18",
+            "entity_type": "EVENT",
+            "description": "A dataset with 7483 entities and 1595 relations, averaging 3.2 relations per document."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the multitask setup for entity recognition, relation extraction, and coreference resolution. The chart is divided into two main sections: Entity Recognition and Relation Extraction. In the Entity Recognition section, there are three boxes labeled 'Task', 'Method', and 'NULL'. Arrows connect these boxes to a larger box labeled 'MORphological Parser MORPA'. Below this, there is another box labeled 'MORphological' with an arrow pointing to 'NULL'. In the Relation Extraction section, there are two boxes labeled 'Hyponym-of' and 'Used-for', both connected to 'NULL'. These boxes are also connected to the 'MORPA' box. There are dotted arcs indicating the normalization space for each task. Below these sections, there are green boxes listing span representations and their corresponding features. At the bottom, there are blue bars representing BiLSTM outputs, with arrows pointing to sentences. The sentences are partially visible, with one reading '...the MORphological Parser MORPA is provided with a...' and the other 'MORPA is a fully implemented parser developed for...'."
+        },
+        {
+            "entity_name": "MORPHOLOGICAL PARSER MORPA",
+            "entity_type": "ORGANIZATION",
+            "description": "A fully implemented parser developed for morphological analysis."
+        },
+        {
+            "entity_name": "MORPA",
+            "entity_type": "ORGANIZATION",
+            "description": "An abbreviation for MORphological Parser, which is a tool used for morphological analysis."
+        },
+        {
+            "entity_name": "PARSER",
+            "entity_type": "OBJECT",
+            "description": "A software tool used for parsing linguistic data, in this case, for morphological analysis."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the process of constructing a scientific knowledge graph (KG). The process begins with multiple abstracts, labeled as Abstract(1), Abstract(2), ..., Abstract(m). Each abstract is processed by a system named SciIE, which generates document-level KGs. These document-level KGs are represented as small graphs with nodes and edges, where nodes are depicted in different colors (blue, green, orange) and shapes (circles), and edges are shown as lines connecting these nodes. The document-level KGs are then merged into a larger, more comprehensive scientific KG. The merging process is indicated by an arrow pointing from the document-level KGs to the final scientific KG. The final scientific KG is depicted as a larger graph with nodes in various colors (gray, blue, orange, green) and shapes (circles), interconnected by edges."
+        },
+        {
+            "entity_name": "ABSTRACT(1)",
+            "entity_type": "DOCUMENT",
+            "description": "First abstract processed by SciIE to generate a document-level KG."
+        },
+        {
+            "entity_name": "ABSTRACT(2)",
+            "entity_type": "DOCUMENT",
+            "description": "Second abstract processed by SciIE to generate a document-level KG."
+        },
+        {
+            "entity_name": "ABSTRACT(M)",
+            "entity_type": "DOCUMENT",
+            "description": "M-th abstract processed by SciIE to generate a document-level KG."
+        },
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "System used for extracting information from scientific documents to create knowledge graphs."
+        },
+        {
+            "entity_name": "DOCUMENT-LEVEL KGS",
+            "entity_type": "OBJECT",
+            "description": "Knowledge graphs generated from individual abstracts using SciIE."
+        },
+        {
+            "entity_name": "MERGING",
+            "entity_type": "EVENT",
+            "description": "Process of combining multiple document-level KGs into a single scientific KG."
+        },
+        {
+            "entity_name": "SCIENTIFIC KG",
+            "entity_type": "OBJECT",
+            "description": "Final knowledge graph created by merging multiple document-level KGs."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a radial diagram representing a part of an automatically constructed scientific knowledge graph centered around the term 'statistical machine translation' (SMT). The central node labeled 'SMT' is connected to various other nodes through directed edges, indicating relationships such as 'Used-for', 'Evaluated-by', and others. The nodes are arranged in a circular pattern around the central node. Each node represents a related concept or term, and the edges represent the relationships between these terms and SMT. The terms include 'translation', 'search', 'paraphrasing', 'semantic parsing', 'alignment', 'parser', 'adaptation', 'decoding', 'RNN', 'NN', 'topic model', 'WSD', 'word alignment', 'log-linear model', 'domain adaptation', 'stochastic local search', 'word segmentation', 'maximum entropy', 'segmentation', 'perplexity', 'BLEU', 'METEOR', 'ROUGE', 'WER', 'Compare', 'NMT', 'information retrieval', 'ASR', 'Conjunction', 'classification', 'retrieval', 'grammatical error correction', and 'topic model'. The relationships are denoted by arrows pointing from one node to another, indicating the direction of the relationship. For example, 'SMT' is used for 'translation', 'search', 'paraphrasing', etc., and it is evaluated by 'WER', 'ROUGE', 'METEOR', etc."
+        },
+        {
+            "entity_name": "SMT",
+            "entity_type": "ORGANIZATION",
+            "description": "Statistical Machine Translation is a method for translating text from one language to another using statistical models."
+        },
+        {
+            "entity_name": "TRANSLATION",
+            "entity_type": "EVENT",
+            "description": "The process of converting text from one language to another."
+        },
+        {
+            "entity_name": "SEARCH",
+            "entity_type": "EVENT",
+            "description": "The act of looking for specific information within a dataset or system."
+        },
+        {
+            "entity_name": "PARAPHRASING",
+            "entity_type": "EVENT",
+            "description": "The act of rewording a sentence or paragraph while maintaining the original meaning."
+        },
+        {
+            "entity_name": "SEMANTIC PARSING",
+            "entity_type": "EVENT",
+            "description": "The process of interpreting the meaning of a sentence in terms of its underlying semantic structure."
+        },
+        {
+            "entity_name": "GRAMMATICAL ERROR CORRECTION",
+            "entity_type": "EVENT",
+            "description": "The process of identifying and correcting grammatical errors in text."
+        },
+        {
+            "entity_name": "ALIGNMENT",
+            "entity_type": "EVENT",
+            "description": "The process of aligning words or phrases between two languages in a parallel corpus."
+        },
+        {
+            "entity_name": "PARSER",
+            "entity_type": "OBJECT",
+            "description": "A software tool that processes natural language text and extracts structured information from it."
+        },
+        {
+            "entity_name": "ADAPTATION",
+            "entity_type": "EVENT",
+            "description": "The process of adjusting a model to perform better on a specific task or domain."
+        },
+        {
+            "entity_name": "DECODING",
+            "entity_type": "EVENT",
+            "description": "The process of generating a translation from a source language to a target language using a trained model."
+        },
+        {
+            "entity_name": "RNN",
+            "entity_type": "OBJECT",
+            "description": "Recurrent Neural Network, a type of neural network used for sequence prediction tasks."
+        },
+        {
+            "entity_name": "NN",
+            "entity_type": "OBJECT",
+            "description": "Neural Network, a computational model inspired by the human brain."
+        },
+        {
+            "entity_name": "TOPIC MODEL",
+            "entity_type": "OBJECT",
+            "description": "A statistical model used for discovering abstract topics that occur in a collection of documents."
+        },
+        {
+            "entity_name": "WORD SEGMENTATION",
+            "entity_type": "EVENT",
+            "description": "The process of dividing a string of written language into its component words."
+        },
+        {
+            "entity_name": "STOCHASTIC LOCAL SEARCH",
+            "entity_type": "OBJECT",
+            "description": "An optimization algorithm that uses randomness to explore the solution space."
+        },
+        {
+            "entity_name": "DOMAIN ADAPTATION",
+            "entity_type": "EVENT",
+            "description": "The process of adapting a model trained on one domain to perform well on a different but related domain."
+        },
+        {
+            "entity_name": "LOG-LINEAR MODEL",
+            "entity_type": "OBJECT",
+            "description": "A statistical model where the logarithm of the outcome variable is modeled as a linear combination of the predictors."
+        },
+        {
+            "entity_name": "WORD ALIGNMENT",
+            "entity_type": "EVENT",
+            "description": "The process of mapping words in a source language sentence to corresponding words in a target language sentence."
+        },
+        {
+            "entity_name": "WSD",
+            "entity_type": "OBJECT",
+            "description": "Word Sense Disambiguation, the task of identifying the correct sense of a word in a given context."
+        },
+        {
+            "entity_name": "MAXIMUM ENTROPY",
+            "entity_type": "OBJECT",
+            "description": "A principle used in machine learning for making predictions with the least amount of bias."
+        },
+        {
+            "entity_name": "SEGMENTATION",
+            "entity_type": "EVENT",
+            "description": "The process of dividing a continuous stream of speech into discrete units."
+        },
+        {
+            "entity_name": "PERPLEXITY",
+            "entity_type": "OBJECT",
+            "description": "A measure of how well a probability model predicts a sample."
+        },
+        {
+            "entity_name": "BLEU",
+            "entity_type": "OBJECT",
+            "description": "Bilingual Evaluation Understudy, a metric for evaluating the quality of machine translation."
+        },
+        {
+            "entity_name": "METEOR",
+            "entity_type": "OBJECT",
+            "description": "Metric for Evaluation of Translation with Explicit ORdering, a metric for evaluating the quality of machine translation."
+        },
+        {
+            "entity_name": "ROUGE",
+            "entity_type": "OBJECT",
+            "description": "Recall-Oriented Understudy for Gisting Evaluation, a metric for evaluating the quality of summaries."
+        },
+        {
+            "entity_name": "WER",
+            "entity_type": "OBJECT",
+            "description": "Word Error Rate, a metric for evaluating the quality of speech recognition systems."
+        },
+        {
+            "entity_name": "COMPARE",
+            "entity_type": "EVENT",
+            "description": "The act of comparing two or more things to identify similarities and differences."
+        },
+        {
+            "entity_name": "NMT",
+            "entity_type": "OBJECT",
+            "description": "Neural Machine Translation, a method for translating text using neural networks."
+        },
+        {
+            "entity_name": "MT",
+            "entity_type": "OBJECT",
+            "description": "Machine Translation, the task of automatically translating text from one language to another."
+        },
+        {
+            "entity_name": "ASR",
+            "entity_type": "OBJECT",
+            "description": "Automatic Speech Recognition, the task of converting spoken language into text."
+        },
+        {
+            "entity_name": "CLASSIFICATION",
+            "entity_type": "EVENT",
+            "description": "The process of categorizing data into predefined classes."
+        },
+        {
+            "entity_name": "INFORMATION RETRIEVAL",
+            "entity_type": "EVENT",
+            "description": "The process of retrieving relevant information from a large dataset."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart comparing the frequency of detected entities with and without coreference resolution across various detection tasks. The chart has six categories: action detection, pedestrian detection, human detection, face detection, object detection, and a generic 'detection' category. Each category has two bars representing 'With Coref.' (blue) and 'Without Coref.' (red). The values for each category are as follows: action detection (With Coref.: 63, Without Coref.: 87), pedestrian detection (With Coref.: 57, Without Coref.: 90), human detection (With Coref.: 124, Without Coref.: 177), face detection (With Coref.: 258, Without Coref.: 510), object detection (With Coref.: 585, Without Coref.: 1297), and detection (With Coref.: 1237, Without Coref.: 1297). The chart shows that using coreference generally reduces the frequency of generic phrase detection while significantly increasing the frequency of specific phrases."
+        },
+        {
+            "entity_name": "ACTION DETECTION",
+            "entity_type": "EVENT",
+            "description": "A category in the bar chart representing a type of detection task."
+        },
+        {
+            "entity_name": "PEDESTRIAN DETECTION",
+            "entity_type": "EVENT",
+            "description": "A category in the bar chart representing a type of detection task."
+        },
+        {
+            "entity_name": "HUMAN DETECTION",
+            "entity_type": "EVENT",
+            "description": "A category in the bar chart representing a type of detection task."
+        },
+        {
+            "entity_name": "FACE DETECTION",
+            "entity_type": "EVENT",
+            "description": "A category in the bar chart representing a type of detection task."
+        },
+        {
+            "entity_name": "OBJECT DETECTION",
+            "entity_type": "EVENT",
+            "description": "A category in the bar chart representing a type of detection task."
+        },
+        {
+            "entity_name": "DETECTION",
+            "entity_type": "EVENT",
+            "description": "An overarching category in the bar chart representing all types of detection tasks."
+        },
+        {
+            "entity_name": "WITH COREF.",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used for comparison in the bar chart, indicated by blue bars."
+        },
+        {
+            "entity_name": "WITHOUT COREF.",
+            "entity_type": "ORGANIZATION",
+            "description": "Another method used for comparison in the bar chart, indicated by red bars."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two bar charts side by side. The left chart is labeled 'MT-ASR' and the right chart is labeled 'CRF-GM'. Both charts have the y-axis labeled as '# Relation Triples' and the x-axis labeled with different relation types. In the left chart, the relation types are 'Conjunction', 'Used for', and 'Used for (Reverse)'. The number of relation triples for 'Conjunction' is 80, for 'Used for' is 10, and for 'Used for (Reverse)' is 4. In the right chart, the relation types are 'Hyponym of', 'Conjunction', 'Used for', and 'Used for (Reverse)'. The number of relation triples for 'Hyponym of' is 25, for 'Conjunction' is 4, for 'Used for' is 2, and for 'Used for (Reverse)' is 2."
+        },
+        {
+            "entity_name": "MT-ASR",
+            "entity_type": "ORGANIZATION",
+            "description": "A system or model used for automatic speech recognition, as indicated by the bar chart on the left."
+        },
+        {
+            "entity_name": "CRF-GM",
+            "entity_type": "ORGANIZATION",
+            "description": "A system or model using Conditional Random Fields and Graphical Models, as indicated by the bar chart on the right."
+        },
+        {
+            "entity_name": "CONJUNCTION",
+            "entity_type": "EVENT",
+            "description": "The event of using conjunctions in relation to other terms, as shown by both bar charts."
+        },
+        {
+            "entity_name": "USED FOR (REVERSE)",
+            "entity_type": "EVENT",
+            "description": "The reverse usage of 'used for' relationships, as shown by both bar charts."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "LSTM+CRF",
+            "entity_type": "MODEL",
+            "description": "A model used for entity recognition and relation extraction, achieving an F1 score of 66.5 on the development set and 62.0 on the test set."
+        },
+        {
+            "entity_name": "LSTM+CRF+ELMO",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of LSTM+CRF that incorporates ELMo embeddings, achieving an F1 score of 67.2 on the development set and 63.5 on the test set."
+        },
+        {
+            "entity_name": "E2E REL(PIPELINE)",
+            "entity_type": "MODEL",
+            "description": "A pipeline model for end-to-end relation extraction, achieving an F1 score of 66.3 on the development set and 61.0 on the test set."
+        },
+        {
+            "entity_name": "E2E REL",
+            "entity_type": "MODEL",
+            "description": "An end-to-end relation extraction model, achieving an F1 score of 66.4 on the development set and 61.2 on the test set."
+        },
+        {
+            "entity_name": "E2E REL+ELMO",
+            "entity_type": "MODEL",
+            "description": "An end-to-end relation extraction model with ELMo embeddings, achieving an F1 score of 66.9 on the development set and 63.7 on the test set."
+        },
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "MODEL",
+            "description": "A state-of-the-art model for scientific information extraction, achieving an F1 score of 68.1 on the development set and 64.2 on the test set."
+        },
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_8 is a table labeled \"Table 2: Comparison with previous systems on the development and test set for our three tasks.\" It is divided into three sections: (a) Entity recognition, (b) Relation extraction, and (c) Coreference resolution. Each section contains rows representing different models and columns for Precision (P), Recall (R), and F1 score for both Development (Dev) and Test sets. In entity recognition, SCIIE outperforms other models with Dev P/R/F1 of 70.0/66.3/68.1 and Test P/R/F1 of 67.2/61.5/64.2. In relation extraction, SCIIE also shows significant improvements with Dev P/R/F1 of 45.4/34.9/39.5 and Test P/R/F1 of 47.6/33.5/39.3. For coreference resolution, SCIIE achieves Dev P/R/F1 of 61.5/54.8/58.0 and Test P/R/F1 of 52.0/44.9/48.2. Overall, the table highlights the performance of SCIIE compared to other models across all three tasks, showing significant improvements in most cases."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Ablation study for multitask learning on SCIERC development set.' The table compares the performance of different tasks in a multi-task learning setup. It has four rows and three columns. The first row lists the tasks: 'Multi Task (SCiIE),' 'Single Task,' '+Entity Rec. ,' '+Relation,' and '+Coreference.' The subsequent rows provide the performance metrics for each task. The columns are labeled 'Entity Rec.', 'Relation,' and 'Coref.'. The values in the 'Entity Rec.' column are 68.1 for Multi Task, 65.7 for Single Task, - for +Entity Rec., 66.8 for +Relation, and 67.5 for +Coreference. The 'Relation' column shows 39.5 for Multi Task, 37.9 for Single Task, 38.9 for +Entity Rec., - for +Relation, and 39.5 for +Coreference. The 'Coref.' column displays 58.0 for Multi Task, 55.3 for Single Task, 57.1 for +Entity Rec., 57.6 for +Relation, and - for +Coreference. The table highlights the performance improvements when tasks are combined in a multi-task learning framework."
+        },
+        {
+            "entity_name": "MULTI TASK (SCIIE)",
+            "entity_type": "UNKNOWN",
+            "description": "Multi Task (SciIE)是从image_9中提取的实体。"
+        },
+        {
+            "entity_name": "SINGLE TASK",
+            "entity_type": "UNKNOWN",
+            "description": "Single Task是从image_9中提取的实体。"
+        },
+        {
+            "entity_name": "ENTITY REC.",
+            "entity_type": "UNKNOWN",
+            "description": "Entity Rec.是从image_9中提取的实体。"
+        },
+        {
+            "entity_name": "RELATION",
+            "entity_type": "UNKNOWN",
+            "description": "Relation是从image_9中提取的实体。"
+        },
+        {
+            "entity_name": "COREF.",
+            "entity_type": "UNKNOWN",
+            "description": "Coref.是从image_9中提取的实体。"
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of three line graphs, each representing the historical trend for top applications of neural networks in NLP, speech, and computer vision (CV) conference papers. The x-axis represents the years from 1995 to 2015, while the y-axis indicates the ratio of papers that use neural networks in a specific task to the number of papers about that task. The first graph shows trends for NLP tasks: Language Modeling (blue square), Machine Translation (red circle), and POS Tagging (green diamond). The second graph displays trends for speech tasks: Speech Recognition (blue square), Speech Synthesis (red circle), and Speaker Recognition (green diamond). The third graph illustrates trends for CV tasks: Object Recognition (blue square), Object Detection (red circle), and Image Segmentation (green diamond). Each graph shows an increasing trend over time, with significant rises starting around 2010. For example, in NLP, the ratio for Language Modeling starts near zero in 1995 and reaches approximately 0.6 by 2015. Similarly, in CV, the ratio for Object Recognition starts near zero in 1995 and also reaches approximately 0.6 by 2015."
+        },
+        {
+            "entity_name": "LANGUAGE MODELING",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of language modeling over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "MACHINE TRANSLATION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of machine translation over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "POS TAGGING",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of POS tagging over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "SPEECH RECOGNITION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of speech recognition over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "SPEECH SYNTHESIS",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of speech synthesis over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "SPEAKER RECOGNITION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of speaker recognition over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "OBJECT RECOGNITION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of object recognition over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "OBJECT DETECTION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of object detection over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        },
+        {
+            "entity_name": "IMAGE SEGMENTATION",
+            "entity_type": "EVENT",
+            "description": "A trend line representing the progress of image segmentation over time from 1995 to 2015, showing a significant increase in performance around 2010."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a graph depicting precision/pseudo-recall curves for human evaluation by varying cut-off thresholds. The x-axis represents the pseudo-recall percentage, ranging from 0% to 100%, while the y-axis represents the precision percentage, ranging from 84% to 92%. Two curves are plotted: one in blue with circular markers labeled 'With Coref.' and another in red with square markers labeled 'Without Coref.'. The blue curve starts at approximately 90% precision and 0% pseudo-recall, peaks slightly above 90% precision around 10% pseudo-recall, and then gradually declines to about 86% precision at 100% pseudo-recall. The red curve starts at approximately 89% precision and 0% pseudo-recall, declines steadily to about 85% precision at 100% pseudo-recall. The area under the curve (AUC) is 0.751 for the 'With Coref.' curve and 0.695 for the 'Without Coref.' curve."
+        },
+        {
+            "entity_name": "GRAPH",
+            "entity_type": "EVENT",
+            "description": "A graph comparing precision and pseudo-recall percentages with and without coreference resolution."
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "IMAGE_12",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Results for scientific keyphrase extraction and extraction on SemEval 2017 Task 10, comparing with previous best systems.' The table is structured with four main columns: Span Indentification, Keyphrase Extraction, Relation Extraction, and Overall. Each column represents a different task and contains the following rows: Model, Precision (P), Recall (R), and F1 score. The models compared are (Luan 2017), Best SemEval, and SciIE. For Span Indentification, the values are as follows: (Luan 2017) has an F1 score of 56.9; Best SemEval has P=55, R=54, and F1=55; SciIE has P=62.2, R=55.4, and F1=58.6. For Keyphrase Extraction, the values are: (Luan 2017) has an F1 score of 45.3; Best SemEval has P=44, R=43, and F1=44; SciIE has P=48.5, R=43.8, and F1=46.0. For Relation Extraction, the values are: (Luan 2017) has no data; Best SemEval has P=36, R=23, and F1=28; SciIE has P=40.4, R=21.2, and F1=27.8. For Overall, the values are: (Luan 2017) has no data; Best SemEval has P=44, R=41, and F1=43; SciIE has P=48.1, R=41.8, and F1=44.7. The table highlights the performance of each model across different tasks, with SciIE generally outperforming the other models."
+        },
+        {
+            "entity_name": "SPAN INDENTIFICATION",
+            "entity_type": "EVENT",
+            "description": "A task in the table where models are evaluated on their performance in identifying spans of text."
+        },
+        {
+            "entity_name": "KEYPHRASE EXTRACTION",
+            "entity_type": "EVENT",
+            "description": "A task in the table where models are evaluated on their performance in extracting keyphrases from text."
+        },
+        {
+            "entity_name": "RELATION EXTRACTION",
+            "entity_type": "EVENT",
+            "description": "A task in the table where models are evaluated on their performance in extracting relations between entities in text."
+        },
+        {
+            "entity_name": "OVERALL",
+            "entity_type": "EVENT",
+            "description": "A summary metric in the table that provides an overall evaluation of model performance across all tasks."
+        },
+        {
+            "entity_name": "MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The name of the model being evaluated in the table."
+        },
+        {
+            "entity_name": "P",
+            "entity_type": "OBJECT",
+            "description": "Precision, a metric used to evaluate model performance."
+        },
+        {
+            "entity_name": "R",
+            "entity_type": "OBJECT",
+            "description": "Recall, a metric used to evaluate model performance."
+        },
+        {
+            "entity_name": "F1",
+            "entity_type": "OBJECT",
+            "description": "F1 score, a metric used to evaluate model performance."
+        },
+        {
+            "entity_name": "(LUAN 2017)",
+            "entity_type": "PERSON",
+            "description": "The author of the model evaluated in the table."
+        },
+        {
+            "entity_name": "BEST SEMEVAL",
+            "entity_type": "ORGANIZATION",
+            "description": "The best performing model from the SemEval competition."
+        },
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "The SciIE model evaluated in the table."
+        }
+    ],
+    "image_13": [
+        {
+            "entity_name": "IMAGE_13",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a text annotation tool interface, specifically the BRAT (Bioinformatics Research Annotation Tool) interface, used for annotating scientific texts. The text is divided into numbered paragraphs and contains annotations highlighting various terms and their relationships. The annotations are categorized as 'Generic', 'Task', 'Other-ScientificTerm', and 'COREF'. The text discusses methods developed for spelling correction in different languages, focusing on agglutinative languages. Key points include: 1. Methods developed for spelling correction for languages like English are not readily applicable to agglutinative languages. 2. This poster presents an approach to spelling correction in agglutinative languages based on two-level morphology and a dynamic-programming-based search algorithm. 3. After an overview of the approach, results from experiments with spelling correction in Turkish are presented. The annotations indicate the relationships between terms, such as 'USED-FOR' and 'HYponym-OF', and highlight the coreference relationships between terms."
+        },
+        {
+            "entity_name": "METHODS DEVELOPED FOR SPELLING CORRECTION",
+            "entity_type": "UNKNOWN",
+            "description": "Methods developed for spelling correction是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "LANGUAGES LIKE ENGLISH",
+            "entity_type": "UNKNOWN",
+            "description": "languages like English是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "AGGLUTINATIVE LANGUAGES",
+            "entity_type": "UNKNOWN",
+            "description": "agglutinative languages是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "SPELLING CORRECTION IN AGGLUTINATIVE LANGUAGES",
+            "entity_type": "UNKNOWN",
+            "description": "spelling correction in agglutinative languages是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "TWO-LEVEL MORPHOLOGY",
+            "entity_type": "UNKNOWN",
+            "description": "two-level morphology是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "DYNAMIC-PROGRAMMING BASED SEARCH ALGORITHM",
+            "entity_type": "UNKNOWN",
+            "description": "dynamic-programming based search algorithm是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "OUR APPROACH",
+            "entity_type": "UNKNOWN",
+            "description": "our approach是从image_13中提取的实体。"
+        },
+        {
+            "entity_name": "RESULTS FROM EXPERIMENTS WITH SPELLING CORRECTION IN TURKISH",
+            "entity_type": "UNKNOWN",
+            "description": "results from experiments with spelling correction in Turkish是从image_13中提取的实体。"
+        }
+    ],
+    "image_14": [
+        {
+            "entity_name": "IMAGE_14",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a radial diagram centered on the term 'statistical machine translation.' The central node, labeled 'Uses,' branches out into multiple related terms and concepts. These branches are categorized under different headings such as 'Compared to,' 'Evaluated by,' 'Conjunction,' and 'Used for.' Under 'Compared to,' terms include 'machine translation' and 'neural machine translation.' Under 'Evaluated by,' terms like 'ROUGE,' 'METEOR,' and 'BLEU' are listed. The 'Conjunction' category includes 'speech synthesis,' 'classification,' 'speech recognition,' and 'automatic speech recognition.' The 'Used for' category lists 'semantic parsing,' 'retrieval,' 'speech translation,' 'hybrid system,' 'search,' 'paraphrasing,' and 'translation.' Each term is connected to the central node via curved lines, forming a radial pattern. The diagram uses a simple color scheme with blue circles at the end of each branch and light gray lines connecting them to the central node."
+        },
+        {
+            "entity_name": "USES",
+            "entity_type": "EVENT",
+            "description": "The central event that involves various techniques and models in natural language processing and machine translation."
+        },
+        {
+            "entity_name": "NEURAL MACHINE TRANSLATION",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of machine translation that uses neural networks to translate text."
+        },
+        {
+            "entity_name": "MACHINE TRANSLATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of translating text from one language to another using computers."
+        },
+        {
+            "entity_name": "ANSWER SET PROGRAMMING",
+            "entity_type": "ORGANIZATION",
+            "description": "A form of declarative programming oriented towards difficult search problems."
+        },
+        {
+            "entity_name": "INFORMATION RETRIEVAL",
+            "entity_type": "ORGANIZATION",
+            "description": "The activity, field of study, or application concerned with the detection of satisfy information needs by retrieving pertinent items from stored collections of items."
+        },
+        {
+            "entity_name": "SPEECH SYNTHESIS",
+            "entity_type": "ORGANIZATION",
+            "description": "The artificial production of human speech using a computer system or other electronic device."
+        },
+        {
+            "entity_name": "CLASSIFICATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of categorizing data into classes or groups based on similarities."
+        },
+        {
+            "entity_name": "SPEECH RECOGNITION",
+            "entity_type": "ORGANIZATION",
+            "description": "The ability of devices to respond to spoken commands."
+        },
+        {
+            "entity_name": "AUTOMATIC SPEECH RECOGNITION",
+            "entity_type": "ORGANIZATION",
+            "description": "The use of computer systems to recognize and transcribe spoken words."
+        },
+        {
+            "entity_name": "SEMANTIC PARSING",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of mapping sentences in natural language to formal representations that encode their meaning."
+        },
+        {
+            "entity_name": "RETRIEVAL",
+            "entity_type": "ORGANIZATION",
+            "description": "The act of fetching or recovering something previously lost or stored."
+        },
+        {
+            "entity_name": "SPEECH TRANSLATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of translating spoken words from one language to another."
+        },
+        {
+            "entity_name": "GRAMMATICAL ERROR CORRECTION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of identifying and correcting grammatical errors in text."
+        },
+        {
+            "entity_name": "HYBRID SYSTEM",
+            "entity_type": "ORGANIZATION",
+            "description": "A system that combines two or more different technologies or methods."
+        },
+        {
+            "entity_name": "SEARCH",
+            "entity_type": "ORGANIZATION",
+            "description": "The act of looking for someone or something."
+        },
+        {
+            "entity_name": "PARAPHRASING",
+            "entity_type": "ORGANIZATION",
+            "description": "The action or process of restating a text or passage in other words often giving simplified or more detailed explanations."
+        },
+        {
+            "entity_name": "TRANSLATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of translating texts from one language into another."
+        },
+        {
+            "entity_name": "WORD ERROR RATE",
+            "entity_type": "ORGANIZATION",
+            "description": "A measure used to evaluate the performance of speech recognition systems."
+        },
+        {
+            "entity_name": "ROUGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A set of metrics and a software package to evaluate automatic summarization of documents."
+        },
+        {
+            "entity_name": "METEOR",
+            "entity_type": "ORGANIZATION",
+            "description": "An automatic evaluation metric for machine translation and summarization."
+        },
+        {
+            "entity_name": "BLEU",
+            "entity_type": "ORGANIZATION",
+            "description": "A metric for evaluating the quality of text which has been machine-translated from one language to another."
+        },
+        {
+            "entity_name": "PERPLEXITY",
+            "entity_type": "ORGANIZATION",
+            "description": "A way of evaluating language models by measuring how well a probability distribution predicts a sample."
+        },
+        {
+            "entity_name": "UNTOKENIZATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of converting tokenized text back into its original form."
+        },
+        {
+            "entity_name": "MAXIMUM ENTROPY",
+            "entity_type": "ORGANIZATION",
+            "description": "A principle used in machine learning and statistics to make predictions based on available information."
+        },
+        {
+            "entity_name": "DECODER",
+            "entity_type": "ORGANIZATION",
+            "description": "A component in a machine translation system that generates the target language sentence."
+        },
+        {
+            "entity_name": "WORD SENSE DISAMBIGUATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The task of identifying the correct sense of a word within a given context."
+        },
+        {
+            "entity_name": "WORD ALIGNMENT",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of aligning words in parallel texts to identify corresponding words."
+        },
+        {
+            "entity_name": "DISCRIMINATIVE TRAINING",
+            "entity_type": "ORGANIZATION",
+            "description": "A method of training classifiers that focuses on distinguishing between different classes."
+        },
+        {
+            "entity_name": "LOG-LINEAR MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A statistical model that describes the relationship between a categorical response variable and one or more predictor variables."
+        },
+        {
+            "entity_name": "DOMAIN ADAPTATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of adapting a model trained on one domain to perform well on a different but related domain."
+        },
+        {
+            "entity_name": "STOCHASTIC LOCAL SEARCH",
+            "entity_type": "ORGANIZATION",
+            "description": "A metaheuristic for solving computationally hard optimization problems."
+        },
+        {
+            "entity_name": "TRANSLATION MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used in machine translation to predict the probability of a target language sentence given a source language sentence."
+        },
+        {
+            "entity_name": "PARSER",
+            "entity_type": "ORGANIZATION",
+            "description": "A program that processes structured input and builds a representation of the structure."
+        },
+        {
+            "entity_name": "N-GRAM LANGUAGE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A probabilistic language model whose probability of each word is calculated based on the n previous words."
+        },
+        {
+            "entity_name": "TOPIC MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of statistical model for discovering abstract topics that occur in a collection of documents."
+        },
+        {
+            "entity_name": "WORD SEGMENTATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of dividing written language into units corresponding to individual words."
+        },
+        {
+            "entity_name": "DISCRIMINATIVE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A class of models used in machine learning for modeling the dependence of an unobserved variable on an observed variable."
+        },
+        {
+            "entity_name": "RECURRENT NEURAL NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "A class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence."
+        },
+        {
+            "entity_name": "DECODING",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of converting encoded information back into its original form."
+        },
+        {
+            "entity_name": "ADAPTATION",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of modifying a system to better fit a new environment or purpose."
+        },
+        {
+            "entity_name": "NEURAL NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "A network or circuit of neurons, especially one that is artificial, typically organized in layers and connected like a web."
+        },
+        {
+            "entity_name": "ALIGNMENT",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of arranging objects or elements in a straight line or in parallel."
+        },
+        {
+            "entity_name": "EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "The process of converting text into numbers that can be used as input to machine learning models."
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_CAT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Guitar- Color: Black with a glossy finish- Shape: Classic electric guitar shape, with a double-cutaway body style that allows easier access to the higher frets- Size: Appears to be a full-sized guitar, though the exact dimensions cannot be determined from this angle- Material: Likely made of wood with a polished surface, common for guitars to achieve a rich sound and aesthetic appeal- Possible Function: Used for playing music, likely in genres such as rock, metal, or blues given its design- Other Significant Characteristics: The guitar has a sleek, modern look with a black pickguard and what appears to be chrome hardware, including tuning pegs and pickups. The neck of the guitar is also visible, showing frets and part of the fingerboard.Overall, the guitar exudes a professional and stylish vibe, suitable for both live performances and studio recordings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Not clearly identifiable due to the close-up nature of the image and lack of visible facial features.- Skin Color: Light skin tone.- Hairstyle: Not visible in this image.- Clothing: Wearing a white long-sleeved shirt with a distinctive pattern on the sleeve. The pattern consists of small, colorful shapes arranged in a grid-like fashion, featuring red, blue, green, and yellow colors.- Accessories: A black strap or band around the wrist, possibly part of a watch or bracelet.- Posture: Arm bent at the elbow, hand positioned near the chest area, suggesting a gesture or movement.Overall, the image captures a close-up of a person's arm and hand, focusing on the clothing and accessory details rather than the individual's identity or full appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts an art installation with a central focus on a large, bold text that reads 'I am' and 'I hate' in white letters against a red background. The text is prominently displayed in the center of the image. Surrounding this central text are multiple smaller images arranged in a grid pattern along the walls of what appears to be an art gallery or exhibition space. Each of these smaller images features a hand gesture with the index finger pointing upwards, set against a backdrop filled with various texts and symbols in black and white. The overall color scheme of the installation is dominated by red, black, and white. The atmosphere conveyed is one of strong emotional impact and social commentary, likely related to themes of identity and expression. The gallery space itself is modern and minimalistic, with clean lines and a bright, well-lit environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;EXHIBITION SPACE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A modern art exhibition space with white walls and a red border. The space is illuminated by ceiling lights."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;HAND GESTURE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A large, central hand gesture in the middle of the exhibition space. The hand is making a thumbs-up sign."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;TEXT PANEL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A text panel in the center of the exhibition space with the words 'I am' and 'I hate' written on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<node id="&quot;WALL ART&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Multiple wall art pieces featuring hands in various gestures displayed around the exhibition space."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_CAT-0.JPG&quot;" target="&quot;HAND GESTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_cat-0.jpg is a picture of a hand gesture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_CAT-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_cat-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;HAND GESTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-1.jpg is a picture of a hand gesture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;EXHIBITION SPACE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Exhibition Space是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;HAND GESTURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hand Gesture是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TEXT PANEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Text Panel是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WALL ART&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wall Art是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EXHIBITION SPACE&quot;" target="&quot;HAND GESTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The hand gesture is a central piece within the exhibition space."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EXHIBITION SPACE&quot;" target="&quot;TEXT PANEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The text panel is centrally located within the exhibition space."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EXHIBITION SPACE&quot;" target="&quot;WALL ART&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The wall art pieces are displayed around the perimeter of the exhibition space."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HAND GESTURE&quot;" target="&quot;TEXT PANEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hand gesture is positioned behind the text panel, creating a layered visual effect."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HAND GESTURE&quot;" target="&quot;WALL ART&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The wall art pieces complement the central hand gesture, enhancing the overall theme of the exhibition."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin color: Dark skin tone- Hairstyle: Not visible, covered by a headscarf- Expression: Neutral, with a slight frown- Age: Appears to be an adult woman- Clothing: Wearing a colorful patterned garment that covers her body and a matching headscarf. The pattern consists of various shapes in colors such as red, yellow, blue, and green on a dark background.- Posture: Standing upright, facing the cameraOverall, the woman appears to be dressed in traditional attire, possibly from a culture where such patterns are common."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Short hair, dark brown- Facial Expression: Not clearly visible due to the angle and lighting- Age: Appears to be an adult male- Clothing: Wearing a dark-colored jacket with a high collar; a light blue shirt underneath with the collar visible; dark pants- Posture: Sitting on a bench or chair, with one arm resting on the backrest and the other arm hanging downOverall, the person appears to be in a relaxed posture, possibly engaged in conversation or waiting for someone."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene inside a makeshift shelter or camp. In the foreground, a woman stands holding a wooden pole for support. She is dressed in a colorful garment with a pattern of red, yellow, and blue dots on a black background. Her expression appears somber and reflective. Behind her, the interior of the shelter is visible, with various items hanging on the walls, including blankets and clothes. The floor is covered with mats, and several people are seated on the ground, engaged in different activities. The overall atmosphere conveys a sense of displacement and hardship, reflecting the challenging circumstances faced by the individuals in this setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Standing in a shelter, wearing a colorful patterned headscarf and clothing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;SHELTER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A makeshift structure with a thatched roof and fabric walls, housing multiple people and belongings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;CHILDREN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Several children are lying on the ground within the shelter, appearing to rest or play."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<node id="&quot;BELONGINGS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various personal items and blankets are hung and placed around the shelter, indicating daily use and habitation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_1_person-1.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SHELTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Shelter是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CHILDREN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Children是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BELONGINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Belongings是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;SHELTER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is standing inside the shelter, suggesting she resides there."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;CHILDREN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman may be related to the children, possibly their mother or caretaker."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHELTER&quot;" target="&quot;CHILDREN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The children are resting and playing within the shelter, indicating it is their living space."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHELTER&quot;" target="&quot;BELONGINGS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The belongings are part of the shelter's interior, used by the inhabitants for daily life."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,143 @@
+{
+    "chunk-9466068e0789cf83c4509d73e1ec583f": [
+        {
+            "entity_name": "Common Crawl",
+            "entity_type": "Organization",
+            "description": "Common Crawl is a web data source used for pre-training models, following pre-processing based on the May 2017 dump, and includes 20 copies of English Wikipedia, contributing about 14% of the final dataset.",
+            "source_entities": [
+                "\"COMMON CRAWL\"",
+                "\"ENGLISH WIKIPEDIA\""
+            ]
+        },
+        {
+            "entity_name": "News Crawl",
+            "entity_type": "Organization",
+            "description": "News Crawl provides English news web data distributed as part of WMT 2018.",
+            "source_entities": [
+                "\"NEWS CRAWL\"",
+                "\"WMT 2018\""
+            ]
+        },
+        {
+            "entity_name": "BooksCorpus",
+            "entity_type": "Organization",
+            "description": "BooksCorpus is a dataset of about 800M words used in pre-training, similar to the training data used by BERT, which includes BooksCorpus and English Wikipedia data.",
+            "source_entities": [
+                "\"BOOKSCORPUS\"",
+                "\"BERT\""
+            ]
+        },
+        {
+            "entity_name": "Byte-Pair-Encoding (BPE)",
+            "entity_type": "Method",
+            "description": "Byte-Pair-Encoding (BPE) is a method used in the model, with a vocabulary of 55K types, sharing input and output embeddings in a flat softmax with dimension 1024. The BPE vocabulary was constructed by applying 30K merge operations over the training data, then applying the BPE code to the training data and retaining all types occurring at least three times.",
+            "source_entities": [
+                "\"SENNRICH ET AL. (2016)\"",
+                "\"INAN ET AL. (2016)\"",
+                "\"PRESS AND WOLF (2017)\""
+            ]
+        },
+        {
+            "entity_name": "NVIDIA V100 GPUs",
+            "entity_type": "Technology",
+            "description": "NVIDIA V100 GPUs are used in the experiments, specifically for running the models on DGX-1 machines, and are interconnected by Infiniband. The NCCL2 library and the torch.distributed package are used for inter-GPU communication.",
+            "source_entities": [
+                "\"NVIDIA V100 GPUS\"",
+                "\"INFINIBAND\"",
+                "\"NCCL2 LIBRARY\"",
+                "\"TORCH.DISTRIBUTED PACKAGE\""
+            ]
+        }
+    ],
+    "chunk-4b3f83319bc6f531992c0907c2ddd16e": [
+        {
+            "entity_name": "Recognizing Textual Entailment (RTE)",
+            "entity_type": "EVENT",
+            "description": "The RTE is a task focused on recognizing textual entailment, part of natural language inference, and involves authors Dagan et al., 2006, Bar Haim et al., 2006, Ciampiccolo et al., 2007, and Bentivogli et al., 2009.",
+            "source_entities": [
+                "RECOGNIZING TEXTUAL ENTAILMENT (RTE)",
+                "DAGAN ET AL., 2006",
+                "BAR HAIM ET AL., 2006",
+                "CIAMPICCOLO ET AL., 2007",
+                "BENTIVOGLI ET AL., 2009"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model developed by Devlin et al., 2018, which is compared with the current model's performance and shows similar performance to the CNN base model in aggregate.",
+            "source_entities": [
+                "BERT",
+                "DEVLIN ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "STILTs",
+            "entity_type": "ORGANIZATION",
+            "description": "STILTs is a model developed by Phang et al., 2018, which the CNN base model performs as well as in aggregate, but not as well on some sentence-pair tasks like MRPC and RTE.",
+            "source_entities": [
+                "STILTS",
+                "PHANG ET AL., 2018"
+            ]
+        }
+    ],
+    "chunk-9cca33bff05f008d1e9e37238d107278": [
+        {
+            "entity_name": "Common Crawl",
+            "entity_type": "Dataset",
+            "description": "A large dataset used for pretraining language models, with results showing increased performance with more data. It is used for training all models with the exact same hyper-parameter settings and is particularly beneficial for CoLA and RTE tasks.",
+            "source_entities": [
+                "\"COMMON CRAWL\"",
+                "\"CNN BASE ARCHITECTURE\""
+            ]
+        },
+        {
+            "entity_name": "News Crawl",
+            "entity_type": "Dataset",
+            "description": "A dataset containing newswire data, which generally performs less well than Common Crawl, especially for tasks based on sentence pairs. It contains individual sentences of 23 words on average, compared to several sentences or 50 words on average for Common Crawl.",
+            "source_entities": [
+                "\"NEWS CRAWL\""
+            ]
+        },
+        {
+            "entity_name": "BooksCorpus",
+            "entity_type": "Dataset",
+            "description": "A dataset consisting of a mix of individual sentences and paragraphs, performing well on QNLI and MNLI but less well on other tasks. It is used in conjunction with English Wikipedia, and examples are on average 36 tokens.",
+            "source_entities": [
+                "\"BOOKSCORPUS\""
+            ]
+        },
+        {
+            "entity_name": "English Wikipedia",
+            "entity_type": "Dataset",
+            "description": "A dataset of longer paragraphs, performing well on QNLI and MNLI but less well on other tasks. It is used in conjunction with BooksCorpus, and examples are on average 66 words.",
+            "source_entities": [
+                "\"ENGLISH WIKIPEDIA\""
+            ]
+        },
+        {
+            "entity_name": "GLUE Benchmark",
+            "entity_type": "Benchmark",
+            "description": "A standard for evaluating the performance of language models, showing large gains for the presented pretraining architecture over previous work such as Radford et al. (2018). It includes various tasks like CoLA, RTE, MRPC, STS-B, QNLI, and MNLI.",
+            "source_entities": [
+                "\"GLUE BENCHMARK\"",
+                "\"COLA\"",
+                "\"RTE\"",
+                "\"MRPC\"",
+                "\"STS-B\"",
+                "\"QNLI\"",
+                "\"MNLI\""
+            ]
+        },
+        {
+            "entity_name": "Bi-directional Transformer Model",
+            "entity_type": "Technology",
+            "description": "The pretraining architecture that predicts every token in the training data with a cloze-style objective. It shows significant gains on the GLUE benchmark over previous models and is used for predicting the center word given all left and right context.",
+            "source_entities": [
+                "\"BI-DIRECTIONAL TRANSFORMER MODEL\"",
+                "\"CLOZE-STYLE OBJECTIVE\""
+            ]
+        }
+    ],
+    "chunk-8ddf125fcf4e39618edb64e2cf9f12b3": []
+}

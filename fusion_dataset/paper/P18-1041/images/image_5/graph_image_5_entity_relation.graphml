@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a histogram comparing the learned word embeddings of SWEM-max and GloVe for the same vocabulary, trained on the Yahoo! Answer dataset. The x-axis represents the embedding amplitude, ranging from -1.5 to 1.5, while the y-axis represents the frequency, scaled to \(10^7\). The histogram for GloVe embeddings is depicted in light blue, showing a distribution with multiple peaks and valleys, indicating a denser spread of values around zero. In contrast, the histogram for SWEM-max embeddings is shown in red, with a single, tall peak centered at zero, indicating that most of the values are highly concentrated around zero, making the embeddings very sparse. This suggests that SWEM-max relies on a few key words for predictions, as most words do not contribute significantly to the max-pooling operation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+</node>
+<node id="&quot;GLOVE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A word embedding model developed by Stanford University, represented by the light blue bars in the histogram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+</node>
+<node id="&quot;SWEM-MAX&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A sentence embedding model that uses the maximum value of word embeddings, represented by the red bar in the histogram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GLOVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GloVe是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SWEM-MAX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM-max是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GLOVE&quot;" target="&quot;SWEM-MAX&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The relationship is shown through a comparison of their embedding amplitudes in the histogram. SWEM-max has a significantly higher frequency at zero amplitude compared to GloVe."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

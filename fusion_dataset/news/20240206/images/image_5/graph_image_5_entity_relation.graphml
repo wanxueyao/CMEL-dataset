@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Dark skin tone- Hairstyle: Curly, voluminous hair, dark in color- Expression: Smiling with an open mouth, showing teeth, and eyes wide open, giving a joyful and energetic impression- Age: Appears to be an adult woman- Clothing: Wearing a form-fitting, long-sleeved outfit that is predominantly pink with darker patterns, resembling a costume or performance attire- Posture: Standing with arms outstretched and one leg slightly bent, suggesting movement or dancingOverall, the character appears to be engaged in a lively activity, possibly dancing or performing, given the dynamic posture and expressive facial features."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_CELL PHONE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Smartphone- Color: The smartphone has a black front with a blue and yellow pattern on the back.- Shape: Rectangular with rounded corners.- Size: Standard smartphone size, easily portable.- Material: The front appears to be made of glass, while the back seems to have a textured material, possibly plastic or metal with a design.- Possible Function: Used for communication, internet browsing, taking photos, and various other applications typical of smartphones.- Other Significant Characteristics: The screen displays a colorful interface, suggesting it is turned on and in use. The design on the back is vibrant and eye-catching, indicating a possible focus on aesthetic appeal."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a person with long, curly hair wearing a form-fitting, sheer dress with a pattern that appears to be of a digital or pixelated nature. The individual is in motion, possibly dancing or walking energetically, as suggested by the dynamic posture and the position of the arms and legs. The person is holding a smartphone in one hand, which displays a colorful screen, possibly indicating an app or game. The background is abstract with soft, pastel colors, primarily pink and white, giving the scene a dreamy and surreal atmosphere. The overall mood conveyed by the image is one of joy and movement, with a modern, digital aesthetic."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with curly hair, wearing a sheer dress, holding a smartphone in her right hand and extending her left leg."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<node id="&quot;SMARTPHONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A blue and white smartphone being held by the woman."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<node id="&quot;BACKGROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A pastel-colored background with shades of pink and purple."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_CELL PHONE-1.JPG&quot;" target="&quot;SMARTPHONE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_cell phone-1.jpg is a picture of a smartphone."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_CELL PHONE-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_cell phone-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SMARTPHONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Smartphone是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BACKGROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Background是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;SMARTPHONE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is holding the smartphone in her right hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BACKGROUND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is standing against a pastel-colored background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240206/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

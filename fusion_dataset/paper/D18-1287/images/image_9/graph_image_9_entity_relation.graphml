@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Performance on the held-out test dataset.' The table is divided into two main sections, LANI and CHAI, each with its own set of metrics. For LANI, the metrics are SD (Stop Distance) and TC (Task Completion), while for CHAI, the metrics are SD (Stop Distance) and MA (Manipulation Accuracy). The rows represent different methods used in the experiments. The methods listed are STOP, RANDOMWALK, MOSTFREQUENT, Misra17, Chaplot18, and Our Approach. The values for each method under the LANI section are as follows: STOP has SD of 15.18 and TC of 8.29; RANDOMWALK has SD of 14.63 and TC of 9.76; MOSTFREQUENT has SD of 19.14 and TC of 3.15; Misra17 has SD of 10.23 and TC of 23.2; Chaplot18 has SD of 8.78 and TC of 31.9; Our Approach has SD of 8.43 and TC of 36.9. Under the CHAI section, the values are: STOP has SD of 3.59 and MA of 39.77; RANDOMWALK has SD of 3.59 and MA of 33.29; MOSTFREQUENT has SD of 4.36 and MA of 39.77; Misra17 has SD of 3.59 and MA of 36.84; Chaplot18 has SD of 3.59 and MA of 39.76; Our Approach has SD of 3.34 and MA of 39.97. The table highlights the performance of different methods on two tasks, LANI and CHAI, with specific focus on stop distance and task completion for LANI, and stop distance and manipulation accuracy for CHAI."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+</node>
+<node id="&quot;TABLE 4&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Performance on the held-out test dataset, showcasing various methods and their accuracy and distance metrics for LANI and CHAI datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+</node>
+<node id="&quot;LANI&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Dataset used for evaluating performance, with metrics SD (Success Distance) and TC (Task Completion)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+</node>
+<node id="&quot;CHAI&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Dataset used for evaluating performance, with metrics SD (Success Distance) and MA (Metric Accuracy)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;TABLE 4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table 4是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;LANI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LANI是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CHAI是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE 4&quot;" target="&quot;LANI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Table 4 includes performance metrics for the LANI dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE 4&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Table 4 includes performance metrics for the CHAI dataset."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LANI&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are datasets used for evaluating different methods in Table 4."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

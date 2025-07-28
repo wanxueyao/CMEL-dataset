@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a bar chart with two sets of data. The x-axis represents the candidate set size, ranging from 0 to 65. The y-axis represents accuracy, ranging from 0 to 1.0. The blue bars represent the accuracy of the best single model with respect to the candidate set size on the validation set. The orange bars represent the rescaled data distributions per number of candidates. A dashed black line at approximately 0.687 indicates the average accuracy. The Pearson’s correlation coefficient between the candidate set size and accuracy is -0.687 (p&lt;10^-7), indicating a significant negative correlation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+</node>
+<node id="&quot;HISTOGRAM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A histogram displaying two sets of data, one in blue and the other in orange. The blue bars represent a distribution that fluctuates around a value of 0.6, while the orange bars show a decreasing trend starting from a high value at the beginning and tapering off towards zero."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+</node>
+<node id="&quot;BLUE BARS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d1">"The blue bars are part of the histogram and represent a set of data that fluctuates around a value of 0.6."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;ORANGE BARS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d1">"The orange bars are part of the histogram and represent a set of data that shows a decreasing trend."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HISTOGRAM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Histogram是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HISTOGRAM&quot;" target="&quot;BLUE BARS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The blue bars are part of the histogram and represent a set of data that fluctuates around a value of 0.6."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HISTOGRAM&quot;" target="&quot;ORANGE BARS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The orange bars are part of the histogram and represent a set of data that shows a decreasing trend."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BLUE BARS&quot;" target="&quot;ORANGE BARS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The blue and orange bars are compared within the same histogram, showing different trends and patterns."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

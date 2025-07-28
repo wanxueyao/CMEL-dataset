@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Hyperparameter settings of the generator and the discriminator.' The table contains four rows and two columns. The first column lists the hyperparameters, and the second column provides their respective values. The hyperparameters and their values are as follows: CNN Window \( c_w \), kernel size \( c_k \) with values 3 and 100; Word embedding \( d_e \), vocabulary size \( |V| \) with values 50 and 114042; Position embedding \( d_p \) with a value of 5; Learning rate of G (generator) and D (discriminator) with values 1e-5 and 1e-4 respectively. The table provides specific settings for the neural network architecture used in the relation extraction system."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+</node>
+<node id="&quot;CNN WINDOW C_W, KERNEL SIZE C_K&quot;">
+  <data key="d0">"HYPERPARAMETER"</data>
+  <data key="d1">"The CNN window size is set to 3 and the kernel size is set to 100."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+</node>
+<node id="&quot;WORD EMBEDDING D_E, |V|&quot;">
+  <data key="d0">"HYPERPARAMETER"</data>
+  <data key="d1">"The word embedding dimension is set to 50 and the vocabulary size is 114042."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+</node>
+<node id="&quot;POSITION EMBEDDING D_P&quot;">
+  <data key="d0">"HYPERPARAMETER"</data>
+  <data key="d1">"The position embedding dimension is set to 5."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+</node>
+<node id="&quot;LEARNING RATE OF G, D&quot;">
+  <data key="d0">"HYPERPARAMETER"</data>
+  <data key="d1">"The learning rate for the generator (G) is set to 1e-5 and for the discriminator (D) it is set to 1e-4."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CNN WINDOW C_W, KERNEL SIZE C_K&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Window c_w, kernel size c_k是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WORD EMBEDDING D_E, |V|&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Word embedding d_e, |V|是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;POSITION EMBEDDING D_P&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Position embedding d_p是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LEARNING RATE OF G, D&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Learning rate of G, D是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN WINDOW C_W, KERNEL SIZE C_K&quot;" target="&quot;WORD EMBEDDING D_E, |V|&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN WINDOW C_W, KERNEL SIZE C_K&quot;" target="&quot;POSITION EMBEDDING D_P&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN WINDOW C_W, KERNEL SIZE C_K&quot;" target="&quot;LEARNING RATE OF G, D&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WORD EMBEDDING D_E, |V|&quot;" target="&quot;POSITION EMBEDDING D_P&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WORD EMBEDDING D_E, |V|&quot;" target="&quot;LEARNING RATE OF G, D&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;POSITION EMBEDDING D_P&quot;" target="&quot;LEARNING RATE OF G, D&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"These hyperparameters are used together in the model architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

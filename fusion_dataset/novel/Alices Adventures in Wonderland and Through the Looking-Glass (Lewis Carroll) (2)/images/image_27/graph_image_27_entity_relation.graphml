@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_27&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration from the classic story 'Alice in Wonderland.' It depicts a surreal and whimsical scene featuring several characters. In the foreground, there are two kings dressed in elaborate, card-inspired costumes. The King on the left appears to be shouting or speaking emphatically, while the King on the right is holding a large key and pointing towards something off-frame. Behind them, there are several other card guards standing in a line, each with a different expression and posture. To the right of the scene, there is a rabbit, possibly the White Rabbit, looking up at the kings. Above all these characters, dominating the background, is the head of the Cheshire Cat, which is floating in the air with a mischievous grin. The cat's head is detailed with fur texture and large, expressive eyes. The overall atmosphere of the image is one of absurdity and fantasy, capturing the chaotic and nonsensical nature of the story."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<node id="&quot;CHESHIRE CAT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A grinning cat with a large head and a small body, floating in the sky."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<node id="&quot;KING OF HEARTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character dressed as a king with a heart symbol on his crown, holding a scepter and pointing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<node id="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A character dressed as a queen with a heart symbol on her crown, holding a fan and looking angry."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<node id="&quot;CARD GUARDS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Several guards dressed as playing cards with clubs symbols, standing in a line."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<node id="&quot;WHITE RABBIT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A rabbit dressed in formal clothing, standing next to the Queen of Hearts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+</node>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;CHESHIRE CAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cheshire Cat是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;KING OF HEARTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"King of Hearts是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Queen of Hearts是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;CARD GUARDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Card Guards是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;WHITE RABBIT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Rabbit是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHESHIRE CAT&quot;" target="&quot;KING OF HEARTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Cheshire Cat is hovering above the King of Hearts."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHESHIRE CAT&quot;" target="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Cheshire Cat is hovering above the Queen of Hearts."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING OF HEARTS&quot;" target="&quot;QUEEN OF HEARTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The King and Queen of Hearts are standing next to each other, with the King pointing at something."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KING OF HEARTS&quot;" target="&quot;CARD GUARDS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The King of Hearts is giving orders to the Card Guards."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUEEN OF HEARTS&quot;" target="&quot;CARD GUARDS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Queen of Hearts is overseeing the Card Guards."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUEEN OF HEARTS&quot;" target="&quot;WHITE RABBIT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The White Rabbit is standing next to the Queen of Hearts, possibly serving her."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

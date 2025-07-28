@@ -1,0 +1,285 @@
+{
+    "image_1": "[\n    {\n        \"entity_name\": \"S\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"S, also known as subject entity, represents the main subject of a fact triple in the knowledge base, and is a key component in the construction of multi-hop RC datasets.\",\n        \"source_image_entities\": [\"S\"],\n        \"source_text_entities\": [\"SUBJECT ENTITY\"]\n    },\n    {\n        \"entity_name\": \"R\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"R, also known as relation, represents the relationship between the subject and object entities in a fact triple within the knowledge base, playing a crucial role in the multi-hop reasoning tasks.\",\n        \"source_image_entities\": [\"R\"],\n        \"source_text_entities\": [\"RELATION\"]\n    },\n    {\n        \"entity_name\": \"O\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"O, also known as object entity, represents the object of a fact in the knowledge base, and is an integral part of the fact triples used in the dataset assembly process.\",\n        \"source_image_entities\": [\"O\"],\n        \"source_text_entities\": [\"OBJECT ENTITY\"]\n    },\n    {\n        \"entity_name\": \"O'\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"O', another object entity in the knowledge base, is used to represent additional objects in the fact triples, contributing to the complexity of multi-hop reasoning and dataset induction strategies.\",\n        \"source_image_entities\": [\"O'\"],\n        \"source_text_entities\": [\"OBJECT ENTITY\"]\n    },\n    {\n        \"entity_name\": \"O''\",\n        \"entity_type\": \"CONCEPT\",\n        \"description\": \"O'', yet another object entity in the knowledge base, signifies the variety of object entities that can be part of the fact triples, enriching the dataset and providing more comprehensive information for multi-hop reasoning tasks.\",\n        \"source_image_entities\": [\"O''\"],\n        \"source_text_entities\": [\"OBJECT ENTITY\"]\n    }\n]",
+    "image_2": [
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "WIKIHOP is a dataset used for machine reading comprehension tasks, containing 43,738 questions and 51,318 total entries, and is used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "WIKIHOP"
+            ],
+            "source_text_entities": [
+                "WIKIHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "MEDHOP",
+            "entity_type": "ORGANIZATION",
+            "description": "MEDHOP is another dataset used for medical-related machine reading comprehension tasks, containing 1,620 questions and 2,508 total entries, and is used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "MEDHOP"
+            ],
+            "source_text_entities": [
+                "MEDHOP"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, including statistics on the number of candidates, documents, and tokens per document. It features both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "WH"
+            ],
+            "source_text_entities": [
+                "WIKIHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "MEDHOP",
+            "entity_type": "EVENT",
+            "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, including statistics on the number of candidates, documents, and tokens per document. It features both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "MH"
+            ],
+            "source_text_entities": [
+                "MEDHOP"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "DOCUMENT-CUE",
+            "entity_type": "ORGANIZATION",
+            "description": "Document-cue is a baseline used to predict samples correctly on both WIKIHOP and MEDHOP datasets, indicating the presence of certain documents in the support set. It achieves a performance score of 74.6% and another metric at 36.7%.",
+            "source_image_entities": [
+                "DOCUMENT-CUE"
+            ],
+            "source_text_entities": [
+                "DOCUMENT-CUE"
+            ]
+        },
+        {
+            "merged_entity_name": "MAJ. CANDIDATE",
+            "entity_type": "ORGANIZATION",
+            "description": "MAJ. CANDIDATE is a model that predicts the most frequently mentioned candidate in the support documents, breaking ties randomly. It has performance metrics of 41.2 and 38.8.",
+            "source_image_entities": [
+                "MAJ. CANDIDATE"
+            ],
+            "source_text_entities": [
+                "MAJORITY-CANDIDATE-PER-QUERY-TYPE"
+            ]
+        },
+        {
+            "merged_entity_name": "TF-IDF",
+            "entity_type": "ORGANIZATION",
+            "description": "TF-IDF is a well-known retrieval baseline used for comparison in the evaluation of models on the WIKIHOP dataset. It is strong QA baseline that searches for individual documents based on keywords in the question, typically not combining information across documents. The technique shows performance scores of 43.8 and 25.6.",
+            "source_image_entities": [
+                "TF-IDF"
+            ],
+            "source_text_entities": [
+                "TF-IDF",
+                "TF-IDF RETRIEVAL-BASED MODELS"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "RANDOM MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline model that selects a random candidate for the task, indicating a non-strategic approach to answer prediction.",
+            "source_image_entities": [
+                "RANDOM MODEL"
+            ],
+            "source_text_entities": [
+                "RANDOM"
+            ]
+        },
+        {
+            "merged_entity_name": "MAX-MENTION MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that predicts the most frequently mentioned candidate in the support documents, breaking ties randomly.",
+            "source_image_entities": [
+                "MAX-MENTION MODEL"
+            ],
+            "source_text_entities": [
+                "MAX-MENTION"
+            ]
+        },
+        {
+            "merged_entity_name": "MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that predicts the candidate most frequently observed as the true answer in the training set, based on the query type.",
+            "source_image_entities": [
+                "MAJORITY-CANDIDATE-PER-QUERY-TYPE MODEL"
+            ],
+            "source_text_entities": [
+                "MAJORITY-CANDIDATE-PER-QUERY-TYPE"
+            ]
+        },
+        {
+            "merged_entity_name": "TF-IDF MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A retrieval baseline used for comparison in the evaluation of models on the WIKIHOP dataset, which searches for individual documents based on keywords in the question, typically not combining information across documents.",
+            "source_image_entities": [
+                "TF-IDF MODEL"
+            ],
+            "source_text_entities": [
+                "TF-IDF",
+                "TF-IDF RETRIEVAL-BASED MODELS"
+            ]
+        },
+        {
+            "merged_entity_name": "DOCUMENT-CUE MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline that predicts the candidate with the highest score across document-answer co-occurrences, indicating the presence of certain documents in the support set, and can predict more than a third of the samples correctly on both WIKIHOP and MEDHOP datasets.",
+            "source_image_entities": [
+                "DOCUMENT-CUE MODEL"
+            ],
+            "source_text_entities": [
+                "DOCUMENT-CUE"
+            ]
+        },
+        {
+            "merged_entity_name": "FASTQA MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "An LSTM-based extractive QA model that predicts an answer span within a single document and is adapted for a multi-document setting, initially developed and tested on single-hop RC datasets, utilizing bidirectional LSTMs and attention mechanisms.",
+            "source_image_entities": [
+                "FASTQA MODEL"
+            ],
+            "source_text_entities": [
+                "FASTQA"
+            ]
+        },
+        {
+            "merged_entity_name": "BIDAF MODEL",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bidirectional Attention Flow model, a neural network architecture for machine reading comprehension, employing iterative conditioning across multiple layers, potentially making it better suited for integrating information across sequences.",
+            "source_image_entities": [
+                "BIDAF MODEL"
+            ],
+            "source_text_entities": [
+                "BIDAF"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "merged_entity_name": "BIDAF",
+            "entity_type": "MODEL",
+            "description": "BiDAF, or Bidirectional Attention Flow model, is an LSTM-based extractive QA model that predicts an answer span within a single document and is adapted for multi-document settings. It employs iterative conditioning across multiple layers, potentially making it better suited for integrating information across sequences.",
+            "source_image_entities": [
+                "BIDAF"
+            ],
+            "source_text_entities": [
+                "BIDAF"
+            ]
+        },
+        {
+            "merged_entity_name": "BIDAF MASK",
+            "entity_type": "MODEL",
+            "description": "A variant of the BiDAF model that includes a masking mechanism, showing improved performance on both WikiHop and MedHop datasets.",
+            "source_image_entities": [
+                "BIDAF MASK"
+            ],
+            "source_text_entities": [
+                "BIDAF"
+            ]
+        },
+        {
+            "merged_entity_name": "FASTQA",
+            "entity_type": "MODEL",
+            "description": "FastQA is an LSTM-based extractive QA model that predicts an answer span within a single document and is adapted for a multi-document setting. It is initially developed and tested on single-hop RC datasets, utilizing bidirectional LSTMs and attention mechanisms.",
+            "source_image_entities": [
+                "FASTQA"
+            ],
+            "source_text_entities": [
+                "FASTQA"
+            ]
+        },
+        {
+            "merged_entity_name": "FASTQA MASK",
+            "entity_type": "MODEL",
+            "description": "A variant of the FastQA model that incorporates a masking mechanism, demonstrating different performance levels on the same datasets.",
+            "source_image_entities": [
+                "FASTQA MASK"
+            ],
+            "source_text_entities": [
+                "FASTQA"
+            ]
+        },
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "DATASET",
+            "description": "WIKIHOP is a dataset used for evaluating model performance in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "WIKIHOP"
+            ],
+            "source_text_entities": [
+                "WIKIHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "MEDHOP",
+            "entity_type": "DATASET",
+            "description": "MEDHOP is a dataset used for evaluating model performance, specifically in the context of drug interactions, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "MEDHOP"
+            ],
+            "source_text_entities": [
+                "MEDHOP"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is a dataset used for evaluating machine reading comprehension systems, specifically focusing on the task of multi-hop question answering where information from multiple documents is required to answer a question. It is used in an open-domain setting, with both standard and masked setups to assess the ability of models to rely on context rather than lexical cues.",
+            "source_image_entities": [
+                "WIKIHOP"
+            ],
+            "source_text_entities": [
+                "WIKIHOP",
+                "WIKIHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "MEDHOP",
+            "entity_type": "EVENT",
+            "description": "MEDHOP is another dataset used for evaluating machine reading comprehension systems, similar to WIKIHOP but with a focus on drug interactions. It includes both standard and masked setups to assess the ability of models to rely on context rather than lexical cues, and performance drops under masking when drug mentions are normalized to a unique single-word identifier.",
+            "source_image_entities": [
+                "MEDHOP"
+            ],
+            "source_text_entities": [
+                "MEDHOP",
+                "MEDHOP"
+            ]
+        },
+        {
+            "merged_entity_name": "BIDAF",
+            "entity_type": "ORGANIZATION",
+            "description": "BiDAF, which stands for Bidirectional Attention Flow, is a model used for machine reading comprehension tasks. It is known for its effectiveness in understanding and answering questions based on given passages and employs iterative conditioning across multiple layers, potentially making it better suited for integrating information across sequences. It leverages cross-document information and shows significant performance drops when documents containing candidate mentions are removed.",
+            "source_image_entities": [
+                "BIDAF"
+            ],
+            "source_text_entities": [
+                "BIDAF",
+                "BIDAF"
+            ]
+        },
+        {
+            "merged_entity_name": "FASTQA",
+            "entity_type": "ORGANIZATION",
+            "description": "FastQA is a model used for machine reading comprehension tasks, designed to be faster than BiDAF while still providing good performance. It initially developed and tested on single-hop RC datasets, utilizing bidirectional LSTMs and attention mechanisms. However, it shows slight increases or decreases in performance depending on the dataset, indicating problems with integrating cross-document information.",
+            "source_image_entities": [
+                "FASTQA"
+            ],
+            "source_text_entities": [
+                "FASTQA",
+                "FASTQA"
+            ]
+        }
+    ]
+}

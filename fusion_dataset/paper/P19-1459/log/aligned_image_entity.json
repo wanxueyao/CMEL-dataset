@@ -1,0 +1,51 @@
+{
+    "image_1": {
+        "entity_name": "Table 1: Baselines and BERT results",
+        "entity_type": "TABLE",
+        "description": "The table presents the performance of various models on a specific task related to argument comprehension or text classification. It includes 'Human (trained)', 'Human (untrained)', and several machine learning models such as BERT (Large), GIST, BERT (Base), World Knowledge, BoV, and BiLSTM.",
+        "reason": "The image is a table that matches the description in the text, presenting the performance of different models on a specific task. The table includes the same rows and columns as described in the text, with corresponding values for each model's performance.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Softmax",
+        "entity_type": "TECHNOLOGY",
+        "description": "Softmax is a function used in the model to determine a probability distribution over the two warrants based on the logits.",
+        "reason": "The image clearly shows the 'Softmax' layer as part of the model architecture, which aligns with the description provided in the text. The Softmax function is used to convert the logits into probabilities for classification.",
+        "matched_chunk_entity_name": "Softmax"
+    },
+    "image_3": {
+        "entity_name": "BERT",
+        "entity_type": "ORGANIZATION",
+        "description": "BERT is a model mentioned in the paper that achieved peak performance on the Argument Reasoning Comprehension Task.",
+        "reason": "The image clearly shows the BERT model processing an argument-warrant pair, which aligns with the description of BERT in the text. The diagram illustrates how BERT processes input tokens and generates output embeddings, which is consistent with the role of BERT in the experiments described in the text.",
+        "matched_chunk_entity_name": "BERT"
+    },
+    "image_4": {
+        "entity_name": "Table 2",
+        "entity_type": "CONCEPT",
+        "description": "Table showing the productivity and coverage of using the presence of 'not' in the warrant to predict the label in ARCT.",
+        "reason": "The image is a table labeled 'Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT.' The content of the table matches the description provided in the text, including the metrics for productivity and coverage across different dataset partitions.",
+        "matched_chunk_entity_name": "Table 2"
+    },
+    "image_5": {
+        "entity_name": "Table 3",
+        "entity_type": "CONCEPT",
+        "description": "Table presenting the results of probing experiments with BERT Large, and the BoV and BiLSTM baselines.",
+        "reason": "The image is a table that presents the results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. This matches the description of Table 3 in the text information.",
+        "matched_chunk_entity_name": "Table 3"
+    },
+    "image_6": {
+        "entity_name": "ARCT",
+        "entity_type": "EVENT",
+        "description": "ARCT is an event or task focused on machine argument comprehension, with the aim of evaluating machine learning models' performance.",
+        "reason": "The image and text both focus on the ARCT dataset and its adversarial counterpart. The table in the image illustrates the process of creating adversarial examples by negating the claim and inverting the label for each data point, which aligns with the description of ARCT as a task for evaluating machine learning models' performance in argument comprehension.",
+        "matched_chunk_entity_name": "ARCT"
+    },
+    "image_7": {
+        "entity_name": "TABLE 4",
+        "entity_type": "CONCEPT",
+        "description": "Table presenting the results of models trained on adversarial training and validation sets, then evaluated on the adversarial test set.",
+        "reason": "The image is a table that presents the results for BERT Large on an adversarial test set with adversarial training and validation sets. This matches the description of TABLE 4 in the text information.",
+        "matched_chunk_entity_name": "TABLE 4"
+    }
+}

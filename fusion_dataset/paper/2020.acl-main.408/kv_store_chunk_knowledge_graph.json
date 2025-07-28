@@ -1,0 +1,2950 @@
+{
+    "4": {
+        "chunk_key": "chunk-1a6008f8664dc874a3e62b39184c58af",
+        "entities": [
+            {
+                "entity_name": "\"ERASER BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ERASER benchmark is the primary focus of the work described, which aims to evaluate the faithfulness of models in providing rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"COMMONSENSE EXPLANATIONS (COS-E)\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"Commonsense Explanations (CoS-E) is a dataset used to illustrate the scoring metrics comprehensiveness and sufficiency.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"JAIN AND WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jain and Wallace are referenced for their work on importance score correlations with 'leave-one-out' scores.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"SERRANO AND SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Serrano and Smith are referenced for their work on counting how many 'important' tokens need to be erased before a prediction flips.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"SAMEK ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samek et al. are referenced for their measurements proposed in the context of evaluating saliency maps for image classification.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"PASZKE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Paszke et al. are mentioned as the creators of PyTorch, which is used for the implementations in the ERASER repository.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"COMPREHENSIVENESS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Comprehensiveness is a metric used to measure the influence of rationales on a model's prediction.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"SUFFICIENCY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sufficiency is a metric that captures the adequacy of rationales for a model to make a prediction.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"AREA OVER THE PERTURBATION CURVE (AOPC)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AOPC is a metric that scores a particular token ordering under a model, based on the change in output as tokens are removed.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$X_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$x_{i}$ represents an instance in the context of measuring comprehensiveness and sufficiency of rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$R_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$r_{i}$ represents the rationales associated with an instance $x_{i}$, used in the calculation of faithfulness scores.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$K_{D}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$k_{d}$ is a threshold for dataset $d$, used to convert soft scores into discrete rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$\\TILDE{X}_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\tilde{x}_{i}$ represents the tokens comprising the provided rationale, used in the context of comprehensiveness scoring.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$M(X_{I})_{J}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$m(x_{i})_{j}$ denotes the model's prediction for instance $x_{i}$ with respect to class $j$.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$M(X_{I}\\BACKSLASH R_{I})_{J}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$m(x_{i}\\backslash r_{i})_{j}$ denotes the model's prediction for instance $x_{i}$ without rationales, with respect to class $j$.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"$M(R_{I})_{J}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$m(r_{i})_{j}$ denotes the model's prediction based solely on the rationales $r_{i}$, with respect to class $j$.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"PYTORCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"PyTorch is the framework in which the implementations for the ERASER repository are developed.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "entity_name": "\"ERASER REPOSITORY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ERASER repository is the location where the implementations for the ERASER benchmark are made available.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ERASER BENCHMARK\"",
+                "tgt_id": "\"COMMONSENSE EXPLANATIONS (COS-E)\"",
+                "weight": 6.0,
+                "description": "\"The ERASER benchmark uses the Commonsense Explanations (CoS-E) dataset to illustrate scoring metrics.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"ERASER BENCHMARK\"",
+                "tgt_id": "\"JAIN AND WALLACE\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark's approach contrasts with the work of Jain and Wallace on importance score correlations.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"ERASER BENCHMARK\"",
+                "tgt_id": "\"SERRANO AND SMITH\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark's approach contrasts with the work of Serrano and Smith on erasing 'important' tokens.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"ERASER BENCHMARK\"",
+                "tgt_id": "\"SAMEK ET AL.\"",
+                "weight": 6.0,
+                "description": "\"ERASER benchmark's approach is inspired by the measurements proposed by Samek et al. for evaluating saliency maps.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"ERASER BENCHMARK\"",
+                "tgt_id": "\"PASZKE ET AL.\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark's implementations are done in PyTorch, created by Paszke et al.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"COMPREHENSIVENESS\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Comprehensiveness is a metric used within the ERASER benchmark to evaluate the influence of rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"SUFFICIENCY\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Sufficiency is a metric used within the ERASER benchmark to evaluate the adequacy of rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"AREA OVER THE PERTURBATION CURVE (AOPC)\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"AOPC is a metric used within the ERASER benchmark to score token ordering under a model.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"$X_{I}$\"",
+                "tgt_id": "\"COMPREHENSIVENESS\"",
+                "weight": 6.0,
+                "description": "\"$x_{i}$ is the instance for which comprehensiveness is measured when rationales are removed.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"$X_{I}$\"",
+                "tgt_id": "\"SUFFICIENCY\"",
+                "weight": 6.0,
+                "description": "\"$x_{i}$ is the instance for which sufficiency is measured using only the rationales.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            },
+            {
+                "src_id": "\"$R_{I}$\"",
+                "tgt_id": "\"SUFFICIENCY\"",
+                "weight": 6.0,
+                "description": "\"$r_{i}$ represents the rationales used to measure sufficiency, indicating the model's ability to make predictions with them.\"",
+                "source_id": "chunk-1a6008f8664dc874a3e62b39184c58af"
+            }
+        ]
+    },
+    "11": {
+        "chunk_key": "chunk-92ae10ec56afd21a8da50f6e9109d55a",
+        "entities": [
+            {
+                "entity_name": "\"ZAIDAN AND EISNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zaidan and Eisner are authors who conducted a study on movie reviews in 2008.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"THORNE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thorne et al. are authors who worked on the FEVER benchmark in 2018.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"PEARCE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pearce is an author referenced for ensuring no document overlap between train, validation, and test sets in the FEVER benchmark.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"SCHUSTER ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schuster et al. are authors associated with the creation of the FEVER symmetric dataset in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"SPEER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Speer is an author who contributed to cleaning up encoding errors in the dataset in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"CLARK ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark et al. are authors who worked on the BoolQ dataset in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"CAMBURU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Camburu et al. are authors who worked on the e-SNLI dataset in 2018.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"RAJANI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajani et al. are authors who worked on the Commonsense Explanations (CoS-E) dataset in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"TALMOR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Talmor et al. are authors who recommended repartitioning the train and validation sets into a train, validation, and test set for their benchmark in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"NEUMANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Neumann et al. are authors who contributed to the SciSpacy library used for Evidence Inference in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"WOLF ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wolf et al. are authors who developed bert-base-uncased used as a token embedder in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"FEVER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"FEVER is a benchmark event that involves processing and repartitioning of validation sets and dealing with claims and evidence.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"BOOLQ\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BoolQ is an event where a dataset required substantial processing, including identifying source paragraphs and repartitioning for testing.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"E-SNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"e-SNLI is an event where minimal processing was performed, involving the separation of premise and hypothesis statements.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"COMMONSENSE EXPLANATIONS (COS-E)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Commonsense Explanations (CoS-E) is an event where minimal processing was performed, primarily deletion of questions without a rationale.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"ERASER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"UPWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Upwork is a platform used to hire annotators for the Movies and Evidence Inference datasets.",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Amazon Mechanical Turk is a platform used to collect reference comprehensive rationales for the BoolQ dataset.",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"LEVENSHTEIN DISTANCE RATIO\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Levenshtein distance ratio is a measure used to determine the similarity between two strings, with a score of at least 90 required for the BoolQ dataset.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"SPACY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"spaCy is a library used for tokenization of all datasets in ERASER, except for BoolQ and Evidence Inference.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"SCISPACY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SciSpacy is a library used for tokenization in Evidence Inference, developed by Neumann et al. in 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"BIDIRECTIONAL LSTM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Bidirectional LSTM is a type of neural network architecture used with a 128-dimensional hidden layer in the models by Lei et al., 2016.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"LEI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lei et al. are authors who developed models that use a Bidirectional LSTM with a 128-dimensional hidden layer.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "entity_name": "\"BERT-BASE-UNCASED\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"bert-base-uncased is a token embedder used for all datasets except BoolQ, Evidence Inference, and FEVER, as per Wolf et al., 2019.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"THORNE ET AL.\"",
+                "tgt_id": "\"FEVER\"",
+                "weight": 8.0,
+                "description": "\"Thorne et al. worked on the FEVER benchmark, which involves substantial processing of claims and evidence.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "src_id": "\"PEARCE\"",
+                "tgt_id": "\"FEVER\"",
+                "weight": 1.0,
+                "description": "\"Pearce's work is used to ensure no document overlap between train,(\"entity\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "src_id": "\"BOOLQ\"",
+                "tgt_id": "\"LEVENSHTEIN DISTANCE RATIO\"",
+                "weight": 7.0,
+                "description": "\"The BoolQ dataset used the Levenshtein distance ratio to measure string similarity.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"SPACY\"",
+                "weight": 7.0,
+                "description": "\"ERASER used spaCy for tokenization of all datasets except BoolQ and Evidence Inference.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "src_id": "\"LEI ET AL.\"",
+                "tgt_id": "\"BIDIRECTIONAL LSTM\"",
+                "weight": 7.0,
+                "description": "\"Lei et al. used Bidirectional LSTM in their models.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            },
+            {
+                "src_id": "\"BERT-BASE-UNCASED\"",
+                "tgt_id": "\"LEI ET AL.\"",
+                "weight": 7.0,
+                "description": "\"bert-base-uncased was used as a token embedder in the models by Lei et al.\"",
+                "source_id": "chunk-92ae10ec56afd21a8da50f6e9109d55a"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-59a4af8c6928e2c534c0697d2f5508de",
+        "entities": [
+            {
+                "entity_name": "\"ACL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ACL is the organization responsible for the conference where the anonymous reviewers are acknowledged.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"NSF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF is an organization that provided support for the work through a CAREER award.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"ARMY RESEARCH OFFICE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Army Research Office is an organization that supported the work with a grant.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"DAVID ALVAREZ-MELIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Alvarez-Melis is an author of a paper presented at the 2017 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"TOMMI JAAKKOLA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tommi Jaakkola is an author of a paper presented at the 2017 Conference on Empirical Methods in Natural Language Processing and another paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"LEILA ARRAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Leila Arras is an author of a paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"FRANZISKA HORN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Franziska Horn is an author of a paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"GRÉGOIRE MONTAVON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Grégoire Montavon is an author of a paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"KLAUS-ROBERT MÜLLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Klaus-Robert Müller is an author of a paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"WOJCIECH SAMEK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wojciech Samek is an author of a paper in PloS one.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"DZMITRY BAHDANAU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dzmitry Bahdanau is an author of a paper in the 3rd International Conference on Learning Representations, ICLR 2015.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"KYUNGHYUN CHO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kyunghyun Cho is an author of a paper in the 3rd International Conference on Learning Representations, ICLR 2015, and another paper in the 2014 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"YOSHUA BENGIO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoshua Bengio is an author of a paper in the 3rd International Conference on Learning Representations, ICLR 2015.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"JOOST BASTINGS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joost Bastings is an author of a paper presented at the 57th Annual Meeting of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"WILKER AZIZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wilker Aziz is an author of a paper presented at the 57th Annual Meeting of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"IVAN TITOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ivan Titov is an author of a paper presented at the 57th Annual Meeting of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"IZ BELTAGY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Iz Beltagy is an author of a paper presented at EMNLP.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"KYLE LO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kyle Lo is an author of a paper presented at EMNLP.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"ARMAN COHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arman Cohan is an author of a paper presented at EMNLP.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"SAMUEL R. BOWMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samuel R. Bowman is an author of a paper presented at the 2015 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"GABOR ANGELI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gabor Angeli is an author of a paper presented at the 2015 Conference on Empirical Methods in Natural Language Processing.\"(\"entity\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is an author of a paper presented at the 2015 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"GINO BRUNNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gino Brunner is an author of a paper presented at the International Conference on Learning Representations.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"YANG LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang Liu is an author of a paper presented at the International Conference on Learning Representations and another paper in the 2014 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"DAMIAN PASCUAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Damian Pascual is an author of a paper presented at the International Conference on Learning Representations.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"OLIVER RICHTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oliver Richter is an author of a paper presented at the International Conference on Learning Representations.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"MASSIMILIANO CIARAMITA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Massimiliano Ciaramita is an author of a paper presented at the International Conference on Learning Representations.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"ROGER WATTENHOFER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roger Wattenhofer is an author of a paper presented at the International Conference on Learning Representations.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"OANA-MARIA CAMBURU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oana-Maria Camburu is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"TIM ROCKTÄSCHEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Rocktäschel is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"THOMAS LUKASIEWICZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thomas Lukasiewicz is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"PHIL BLUNSOM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phil Blunsom is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"SHIYU CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shiyu Chang is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"YANG ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang Zhang is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"MO YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mo Yu is an author of a paper presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"SIHAO CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sihao Chen is an author of a paper presented at the Conference of the North American Chapter of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"DANIEL KHASHABI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Khashabi is an author of a paper presented at the Conference of the North American Chapter of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"WENPENG YIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wenpeng Yin is an author of a paper presented at the Conference of the North American Chapter of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"CHRIS CALLISON-BURCH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Callison-Burch is an author of a paper presented at the Conference of the North American Chapter of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            },
+            {
+                "entity_name": "\"DAN ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Roth is an author of a paper presented at the Conference of the North American Chapter of the Association for Computational Linguistics.\"",
+                "source_id": "chunk-59a4af8c6928e2c534c0697d2f5508de"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-20e92f18c134263325b7748451674989",
+        "entities": [
+            {
+                "entity_name": "\"RAJANI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rajani et al. are researchers who fine-tuned a Transformer-based language model on free-text rationales provided by humans.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"RADFORD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Radford et al. are associated with the development of the Transformer-based language model that was fine-tuned by Rajani et al.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"STROUT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Strout et al. are researchers who have compared rationales to human judgments in their work.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"DOSHI-VELEZ AND KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Doshi-Velez and Kim are researchers who have elicited human evaluations of explanations.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"RIBEIRO ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ribeiro et al. are researchers involved in the evaluation of explanations.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"LUNDBERG AND LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lundberg and Lee are researchers who have worked on visual evaluations of saliency maps.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"NGUYEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nguyen is a researcher associated with the evaluation of explanations.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"ARRAS ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arras et al. are researchers who have measured the impact of perturbing or erasing words or tokens identified as important on model output.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"MONTAVON ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Montavon et al. are researchers involved in automatic evaluations of faithfulness.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"SERRANO AND SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Serrano and Smith are researchers who have worked on measuring the impact of perturbations on model output.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"SAMEK ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samek et al. are researchers who have contributed to methods measuring the impact of perturbations on model output.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"JAIN AND WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jain and Wallace are researchers who have worked on automatic evaluations of faithfulness.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"JACOVI AND GOLDBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacovi and Goldberg are researchers who have urged the community to evaluate faithfulness on a continuous scale of acceptability.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"ERASER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"LEHMAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lehman et al. are researchers associated with the Evidence inference dataset, which includes full-text articles describing randomized controlled trials.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"CLARK ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark et al. are researchers who created the BoolQ corpus, consisting of passages from Wikipedia and yes/no questions generated from these passages.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"ZAIDAN AND EISNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zaidan and Eisner are researchers who included positive/negative sentiment labels on movie reviews in their dataset.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"PANG AND LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pang and Lee are researchers associated with the original dataset from which Zaidan and Eisner took a subset for their movie reviews dataset.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"THORNE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thorne et al. are researchers who created the FEVER dataset, which is short for Fact Extraction and VERification.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"KHASHABI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Khashabi et al. are researchers who created the MultiRC dataset, a reading comprehension dataset composed of questions with multiple correct answers.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"TALMOR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Talmor et al. are researchers who created the CoS-E corpus, which comprises multiple-choice questions(\"entity\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"MOVIE REVIEWS\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"Movie Reviews is a dataset that includes positive/negative sentiment labels on movie reviews.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"FEVER\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"FEVER, short for Fact Extraction and VERification, is a dataset for verifying claims from textual sources.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"MULTIRC\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"MultiRC is a reading comprehension dataset composed of questions with multiple correct answers that depend on information from multiple sentences.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"COMMONSENSE EXPLANATIONS (COS-E)\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"Commonsense Explanations (CoS-E) is a corpus comprising multiple-choice questions and answers with supporting rationales.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"E-SNLI\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"e-SNLI is a dataset that augments the SNLI corpus with rationales marked in the premise and/or hypothesis.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"APPENDIX A\"",
+                "entity_type": "\"DOCUMENT\"",
+                "description": "\"Appendix A is a section of the text that contains additional information and processing details for the datasets in ERASER.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_2.JPG\"",
+                "entity_type": "\"IMAGE\"",
+                "description": "\"An image file mentioned in the text, potentially related to the datasets or rationales discussed.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"TRANSFORMER-BASED LANGUAGE MODEL\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"A language model fine-tuned by Rajani et al. on free-text rationales provided by humans, aimed at improving performance on downstream tasks.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"HUMAN RATIONALES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Human rationales are explanations provided by humans that are used to fine-tune the Transformer-based language model.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"RATIONALITIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rationalities refer to the explanations or reasons that support a particular decision or action, often evaluated against human judgments.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"FAITHFUL RATIONALES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Faithful rationales are those that correspond to the inputs most relied upon by a model to make a prediction.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"PERTURBATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Perturbation refers to the process of altering or erasing words or tokens identified as important to measure the impact on model output.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"RANDOMIZED CONTROLLED TRIALS (RCTS)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Randomized controlled trials are a type of scientific experiment used to infer the effect of an intervention on a specified outcome.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"EVIDENCE INFERENCE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Evidence inference is the task of determining whether a given intervention significantly affects a specified outcome based on full-text articles describing randomized controlled trials.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"COMPREHENSIVE RATIONALE ANNOTATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Comprehensive rationale annotations are detailed markings of rationales supporting specific inferences, collected on a subset of the validation and test data.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"PUBLIC RELEASE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Public release refers to the act of making the test sets of the datasets publicly available.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"HIDDEN TEST SET EVALUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Hidden test set evaluation is a future plan to offer additional human annotations on held-out portions of some corpora for evaluation purposes.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"REPARTITION\"",
+                "entity_type": "\"ACTION\"",
+                "description": "\"Repartition refers to the process of reorganizing the training and validation sets to provide a canonical test split, as done in the Commonsense Explanations dataset.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            },
+            {
+                "entity_name": "\"HIGHLIGHTED SUPPORTING SNIPPETS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Highlighted supporting snippets are parts of text extracted to support rationales, used in the Commonsense Explanations dataset.\"",
+                "source_id": "chunk-20e92f18c134263325b7748451674989"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-e34d27aa833558c38111606bd47ec2b7",
+        "entities": [
+            {
+                "entity_name": "\"E-SNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"e-SNLI is an event or dataset augmentation of the SNLI corpus with rationales marked in the premise and/or hypothesis.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"SNLI CORPUS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The SNLI corpus is the original dataset that e-SNLI augments, focusing on natural language inference tasks.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"ERASER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"UPWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Upwork is a platform used to hire annotators for the Movies and Evidence Inference datasets.",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"AMAZON TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Turk is another platform used to hire annotators for the task of extracting rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"COHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cohen is the author referenced in relation to the Cohen's kappa statistic, which measures human agreement over extracted rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"MOVIE REVIEWS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Movie Reviews is a dataset used to calculate mean agreement of individual annotators with the majority vote per token.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"BOOLQ\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BoolQ is another dataset used for calculating mean agreement of annotators with the majority vote per token.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"COS-E\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoS-E is a dataset mentioned in the context of annotating a subset for comparison to existing rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"MULTIRC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MultiRC is a dataset mentioned in the context of annotating a subset for comparison to existing rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"FEVER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"FEVER is a dataset mentioned in the context of annotating a subset for comparison to existing rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"EVIDENCE INFERENCE FROM MEDICAL DOCTORS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Evidence Inference from Medical Doctors refers to a dataset where comprehensive rationales were collected due to the high expertise of the annotators.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"CAMBURU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Camburu et al. are the authors responsible for the e-SNLI dataset, augmenting the SNLI corpus with rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"ERASER MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ERASER models refer to the models evaluated by the ERASER project for both predictive performance and rationale extraction quality.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"COHEN $\\KAPPA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cohen $\\kappa$ is a statistical measure of inter-annotator agreement, mentioned in the context of human agreement over extracted rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"IOU\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"IOU stands for Intersection-Over-Union, a metric borrowed from computer vision used to measure partial matches between predicted and reference rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"F1 SCORE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"F1 score is a measure of a test's accuracy, used here to calculate an F1 score based on partial matches for rationale extraction.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"AUPRC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AUPRC stands for Area Under the Precision-Recall curve, a metric used to evaluate continuous or soft token scoring models.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"ZAIDAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zaidan et al. are referenced in the context of measuring rationale faithfulness, with prior work motivating some of the metrics proposed.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"YU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yu et al. are referenced in the context of defining metrics to measure the comprehensiveness and sufficiency of rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Table 2 is mentioned as a reference for human agreement with respect to rationales across various datasets.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Table 3 is highlighted to contain information about which corpora have comprehensive rationales in the test set.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "entity_name": "\"CONTRAST EXAMPLES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Contrast examples are used to calculate rationale comprehensiveness by comparing model predictions with and without rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"E-SNLI\"",
+                "tgt_id": "\"SNLI CORPUS\"",
+                "weight": 9.0,
+                "description": "\"e-SNLI augments the SNLI corpus with rationales, making it a direct extension of the original dataset.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"E-SNLI\"",
+                "weight": 8.0,
+                "description": "\"ERASER evaluates models and their rationales extracted from the e-SNLI dataset.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"UPWORK\"",
+                "weight": 7.0,
+                "description": "\"ERASER uses Upwork to hire annotators for extracting rationales, indicating a contractual relationship.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"AMAZON TURK\"",
+                "weight": 7.0,
+                "description": "\"ERASER uses Amazon Turk to hire annotators for extracting rationales, indicating a contractual relationship.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"MOVIE REVIEWS\"",
+                "weight": 7.0,
+                "description": "\"ERASER calculates mean agreement of annotators with the majority vote per token for the Movie Reviews dataset.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"BOOLQ\"",
+                "weight": 7.0,
+                "description": "\"ERASER calculates mean agreement of annotators with the majority vote per token for the BoolQ dataset.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"COS-E\"",
+                "weight": 7.0,
+                "description": "\"ERASER uses a subset of CoS-E annotated by team members for comparison to existing rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"MULTIRC\"",
+                "weight": 1.0,
+                "description": "\"ERASER uses a subset of MultiRC annotated by team members for comparison to existing rationale(\"entity\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"CAMBURU ET AL.\"",
+                "tgt_id": "\"E-SNLI\"",
+                "weight": 10.0,
+                "description": "\"Camburu et al. are the creators of the e-SNLI dataset.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ERASER MODELS\"",
+                "tgt_id": "\"ERASER\"",
+                "weight": 9.0,
+                "description": "\"ERASER models are evaluated by the ERASER project.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"IOU\"",
+                "tgt_id": "\"F1 SCORE\"",
+                "weight": 8.0,
+                "description": "\"IOU is used to calculate an F1 score for partial matches between predicted and reference rationales.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"AUPRC\"",
+                "tgt_id": "\"ERASER MODELS\"",
+                "weight": 8.0,
+                "description": "\"AUPRC is a metric used to evaluate the ERASER models for continuous or soft token scoring.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"ZAIDAN ET AL.\"",
+                "tgt_id": "\"ERASER\"",
+                "weight": 7.0,
+                "description": "\"ERASER's metrics for measuring rationale faithfulness are motivated by the work of Zaidan et al.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            },
+            {
+                "src_id": "\"YU ET AL.\"",
+                "tgt_id": "\"ERASER\"",
+                "weight": 7.0,
+                "description": "\"ERASER defines metrics for comprehensiveness and sufficiency of rationales following the work of Yu et al.\"",
+                "source_id": "chunk-e34d27aa833558c38111606bd47ec2b7"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-a69e074dfaffbb851a506d0d912d71ad",
+        "entities": [
+            {
+                "entity_name": "\"LEI ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lei et al. (2016) refers to a group of researchers who developed a model for hard selection in dataset analysis.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"REINFORCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"REINFORCE is an estimation style used for training the modules in the model proposed by Lei et al. (2016), aiming to minimize loss over expected binary vectors.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a base module used in the implementation of Lei et al. (2016)'s model, known for inducing contextualized representations of tokens.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe is another base module used in the model, alongside BERT, for inducing contextualized representations of tokens.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"HOCHREITER AND SCHMIDHUBER (1997)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Hochreiter and Schmidhuber (1997) are associated with the development of bidirectional LSTMs used in the model for both encoder and decoder.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"BAHDANAU ET AL. (2015)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bahdanau et al. (2015) are known for the attentive decoding layer used in the pipeline models for composing hidden representations.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"CHO ET AL. (2014)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cho et al. (2014) are associated with the development of the Gated Recurrent Unit (GRU) used in the pipeline models for sentence segmentation.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"LEHMAN ET AL. (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lehman et al. (2019) described a simple pipeline model in prior work, which is referenced in the text.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL. (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Devlin et al. (2019) are associated with the development of the BERT module used in various stages of the models discussed in the text.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"WILLIAMS AND ZIPSER (1989)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Williams and Zipser (1989) are related to the concept of teacher forcing used in the classification stage of the pipeline models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"RIBEIRO ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ribeiro et al. (2016) are associated with the LIME method considered for soft scoring features in the models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL., 2014\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Pennington et al., 2014 are associated with the development of GloVe embeddings used in the model for token representation.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"COS-E\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoS-E is an event or dataset used for evaluating the performance of models, mentioned in the context of accuracy metrics.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"E-SNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"e-SNLI is an event or dataset used for evaluating the performance of models, particularly BertTo-Bert for CoS-E.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"BOOLQ\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"BoolQ is an event or dataset that comprises very long inputs, exceeding the token limit for BERT models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"EVIDENCE INFERENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Evidence Inference is an event or dataset that also comprises very long inputs, exceeding the token limit for BERT models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"AOPC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AOPC refers to a metric used for evaluating the comprehensiveness and sufficiency of models, as mentioned in the context of soft scoring models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"LIME\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"LIME is a method used for soft scoring features, mentioned as an approach considered in the models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"SIMPLE GRADIENTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Simple gradients is a concept used for soft scoring features, mentioned as an approach considered in the models.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "entity_name": "\"ATTENTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attention is a concept used for inducing over contextualized representations for soft scoring features.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LEI ET AL. (2016)\"",
+                "tgt_id": "\"REINFORCE\"",
+                "weight": 8.0,
+                "description": "\"Lei et al. (2016)'s model uses the REINFORCE style for training the modules, indicating a direct relationship.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"LEI ET AL. (2016)\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"The model by Lei et al. (2016) incorporates BERT as a base module for inducing contextualized representations.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"LEI ET AL. (2016)\"",
+                "tgt_id": "\"GLOVE\"",
+                "weight": 7.0,
+                "description": "\"The model by Lei et al. (2016) also uses GloVe as a base module, similar to BERT, for inducing contextualized representations.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"LEI ET AL. (2016)\"",
+                "tgt_id": "\"HOCHREITER AND SCHMIDHUBER (1997)\"",
+                "weight": 7.0,
+                "description": "\"Lei et al. (2016)'s model uses bidirectional LSTMs developed by Hochreiter and Schmidhuber (1997) for the encoder and decoder.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"PENNINGTON ET AL., 2014\"",
+                "tgt_id": "\"LEI ET AL. (2016)\"",
+                "weight": 7.0,
+                "description": "\"Lei et al. (2016)'s model uses GloVe embeddings developed by Pennington et al., 2014.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"COS-E\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 6.0,
+                "description": "\"BERT is used for evaluating performance on the CoS-E event or dataset.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"E-SNLI\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 6.0,
+                "description": "\"BERT is used for evaluating performance on the e-SNLI event or dataset.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"BOOLQ\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 6.0,
+                "description": "\"BERT could not be used for BoolQ due to the length of inputs, requiring an alternative approach with GloVe.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            },
+            {
+                "src_id": "\"EVIDENCE INFERENCE\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 6.0,
+                "description": "\"BERT could not be used for Evidence Inference due to the length of inputs, requiring an alternative approach with GloVe.\"",
+                "source_id": "chunk-a69e074dfaffbb851a506d0d912d71ad"
+            }
+        ]
+    },
+    "12": {
+        "chunk_key": "chunk-df3886ee63d994371857bacc4286e2ac",
+        "entities": [
+            {
+                "entity_name": "\"LEI ET AL., 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lei et al., 2016 refers to a group of researchers who published a paper on models, setting sparsity rate and contiguity loss weight.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BERT-BASE-UNCASED\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"bert-base-uncased is a token embedder used in models, developed by Wolf et al., 2019.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BIDIRECTIONAL LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bidirectional LSTM refers to a type of neural network architecture used in the models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"SRIVASTAVA ET AL., 2014\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Srivastava et al., 2014 refers to the authors who introduced the concept of dropout in neural networks.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"MLP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MLP stands for Multi-Layer Perceptron, a type of neural network used in the models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"GLOVE EMBEDDINGS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe embeddings are a type of pre-trained word vectors used in some models, developed by Pennington et al., 2014.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"ADAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Adam is an optimization algorithm used in training models, developed by Kingma and Ba, 2014.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"ALLENNLP LIBRARY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"AllenNLP library is a machine learning library used to implement models, developed by Gardner et al., 2018.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BERT-LSTM/GLOVE-LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-LSTM/GloVe-LSTM refers to a type of model that combines BERT and LSTM architectures.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"LEHMAN ET AL., 2019\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lehman et al., 2019 refers to a group of researchers who published a paper on models using GLoVe word vectors.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"PYYSALO ET AL., 2013\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Pyysalo et al., 2013 refers to the authors who developed PubMed word vectors used in the Evidence Inference dataset.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BERT-TO-BERT MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT-to-BERT model refers to a model that uses BERT for both identification and classification pipeline components.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BELTAGY ET AL., 2019\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Beltagy et al., 2019 refers to the authors who developed SciBERT, used in the Evidence Inference dataset.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"EVIDENCE INFERENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Evidence Inference is a dataset that uses a different embedding method and is mentioned in the context of model training.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"FEVER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"FEVER is a dataset that is mentioned as an exception for the use of bert-base-uncased as a token embedder.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"GARDNER ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gardner et al., 2018 are the authors who developed the AllenNLP library used for implementing the models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"KINGMA AND BA, 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kingma and Ba, 2014 are the authors who introduced the Adam optimization algorithm used in model training.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pennington et al., 2014 are the authors who developed the GLoVe word vectors used in some models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"WOLF ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wolf et al., 2019 are the authors who developed bert-base-uncased used as a token embedder in the models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"BERT ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT encoder is the part of the BERT model that is fine-tuned in the models mentioned, with the top two layers being adjusted.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"RELU ACTIVATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ReLU activation is used in the one layer MLP with 128 dimensional hidden state to compute the decoder output distribution.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"EARLY STOPPING\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Early stopping is a technique used in model training to prevent overfitting, with a patience of 5 epochs for most models.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"VALIDATION SET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Validation set is used for model selection, monitoring the final task performance metric and validation loss.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"ATTENTION LAYER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Attention layer is part of the model where dropout is applied before feeding the hidden representations.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"LINEAR LAYER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Linear layer is part of the encoder where dropout is applied before feeding the hidden representations.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Encoder is a component of the model where linear layer and dropout are applied before feeding the hidden representations.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "entity_name": "\"DECODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Decoder is a component of the model where attention layer and dropout are applied before feeding the hidden representations.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LEI ET AL., 2016\"",
+                "tgt_id": "\"BERT-BASE-UNCASED\"",
+                "weight": 7.0,
+                "description": "\"Lei et al., 2016's models use bert-base-uncased as a token embedder.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"LEI ET AL., 2016\"",
+                "tgt_id": "\"BIDIRECTIONAL LSTM\"",
+                "weight": 7.0,
+                "description": "\"Lei et al., 2016's models use Bidirectional LSTM with 128 dimensional hidden state.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"LEI ET AL., 2016\"",
+                "tgt_id": "\"SRIVASTAVA ET AL., 2014\"",
+                "weight": 7.0,
+                "description": "\"Lei et al., 2016's models use dropout rate as proposed by Srivastava et al., 2014.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"LEI ET AL., 2016\"",
+                "tgt_id": "\"MLP\"",
+                "weight": 7.0,
+                "description": "\"Lei et al., 2016's models use an MLP with 128 dimensional hidden state to compute decoder output distribution.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"LEI ET AL., 2016\"",
+                "tgt_id": "\"ADAM\"",
+                "weight": 7.0,
+                "description": "\"Lei et al., 2016's models use Adam optimizer for training.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"BERT-BASE-UNCASED\"",
+                "tgt_id": "\"FEVER\"",
+                "weight": 6.0,
+                "description": "\"bert-base-uncased is not used as a token embedder for the FEVER dataset.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            },
+            {
+                "src_id": "\"GLOVE EMBEDDINGS\"",
+                "tgt_id": "\"EVIDENCE INFERENCE\"",
+                "weight": 7.0,
+                "description": "\"GloVe embeddings are used for the Evidence Inference dataset.\"",
+                "source_id": "chunk-df3886ee63d994371857bacc4286e2ac"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c",
+        "entities": [
+            {
+                "entity_name": "\"PEDRO RODRIGUEZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pedro Rodriguez is an author of a paper on the difficulties of interpreting neural models, presented at EMNLP.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JORDAN L. BOYD-GRABER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jordan L. Boyd-Graber is an author of a paper on the difficulties of interpreting neural models, presented at EMNLP.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JOEL GRUS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joel Grus is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"MARK NEUMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Neumann is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"OYVIND TAFJORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oyvind Tafjord is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"PRADEEP DASIGI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pradeep Dasigi is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"NELSON F. LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nelson F. Liu is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"MATTHEW PETERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew Peters is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"MICHAEL SCHMITZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Schmitz is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author of a paper introducing AllenNLP, a deep semantic natural language processing platform, presented at NLP-OSS.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"SEPP HOCHREITER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sepp Hochreiter is an author of a paper on Long short-term memory, published in Neural computation.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JU¨RGEN SCHMIDHUBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ju¨rgen Schmidhuber is an author of a paper on Long short-term memory, published in Neural computation.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"SARA HOOKER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sara Hooker is an author of a paper on a benchmark for interpretability methods in deep neural networks, presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"DUMITRU ERHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dumitru Erhan is an author of a paper on a benchmark for interpretability methods in deep neural networks, presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"PIETER-JAN KINDERMANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pieter-Jan Kindermans is an author of a paper on a benchmark for interpretability methods in deep neural networks, presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"BEEN KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Been Kim is an author of a paper on a benchmark for interpretability methods in deep neural networks, presented at Advances in Neural Information Processing Systems.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"ALON JACOVI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alon Jacovi is an author of a paper discussing the faithfulness in interpretable NLP systems.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"YOAV GOLDBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Goldberg is an author of(\"entity\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"BYRON C. WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Byron C. Wallace is an author of multiple papers, collaborating with Sarthak Jain on topics such as Attention not being an Explanation and Learning to Faithfully Rationalize by Construction.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"SARAH WIEGREFFE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sarah Wiegreffe is a co-author with Sarthak Jain on a paper about Learning to Faithfully Rationalize by Construction.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"YUVAL PINTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuval Pinter is a co-author with Sarthak Jain on a paper about Learning to Faithfully Rationalize by Construction.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"DANIEL KHASHABI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Khashabi is an author of a paper on a Challenge Set for Reading Comprehension over Multiple Sentences.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"SNIGDHA CHATURVEDI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Snigdha Chaturvedi is a co-author with Daniel Khashabi on a paper about a Challenge Set for Reading Comprehension over Multiple Sentences.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"MICHAEL ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Roth is a co-author with Daniel Khashabi on a paper about a Challenge Set for Reading Comprehension over Multiple Sentences.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"SHYAM UPADHYAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shyam Upadhyay is a co-author with Daniel Khashabi on a paper about a Challenge Set for Reading Comprehension over Multiple Sentences.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"DAN ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Roth is a co-author with Daniel Khashabi on a paper about a Challenge Set for Reading Comprehension over Multiple Sentences.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"DIEDERIK KINGMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Diederik Kingma is an author of a paper on Adam: A method for stochastic optimization, presented at International Conference on Learning Representations.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JIMMY BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jimmy Ba is an author of a paper on Adam: A method for stochastic optimization, presented at International Conference on Learning Representations.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"ERIC LEHMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric Lehman is an author of a paper on inferring medical treatments from clinical trials, presented at NAACL.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JAY DEYOUNG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jay DeYoung is a co-author with Eric Lehman on a paper about inferring medical treatments from clinical trials.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"REGINA BARZILAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Regina Barzilay is a co-author with Eric Lehman on a paper about inferring medical treatments from clinical trials and also collaborated with Tao Lei on rationalizing neural predictions.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"BYRON C WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Byron C Wallace is a co-author with Eric Lehman on a paper about inferring medical treatments from clinical trials.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"TAO LEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tao Lei is an author of a paper on rationalizing neural predictions, presented at the 2016 Conference on Empirical Methods in Natural Language Processing.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"TOMMI JAAKKOLA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tommi Jaakkola is a co-author with Tao Lei on a paper about rationalizing neural predictions.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            },
+            {
+                "entity_name": "\"JIWEI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiwei Li is an author of a paper on visualizing and understanding neural models in NLP, presented at NAACL-HLT.\"",
+                "source_id": "chunk-2c0aa687cf2991c8f441b95f01ca4c8c"
+            }
+        ],
+        "relationships": []
+    },
+    "0": {
+        "chunk_key": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e",
+        "entities": [
+            {
+                "entity_name": "\"JAY DEYOUNG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jay DeYoung is one of the contributors to the ERASER benchmark, with equal contribution to the work.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"SARTHAK JAIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sarthak Jain is one of the contributors to the ERASER benchmark, with equal contribution to the work.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"NAZNEEN FATEMA RAJANI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nazneen Fatema Rajani is one of the contributors to the ERASER benchmark, with equal contribution to the work.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"ERIC LEHMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric Lehman is one of the contributors to the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"CAIMING XIONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Caiming Xiong is one of the contributors to the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is one of the contributors to the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"BYRON C. WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Byron C. Wallace is one of the contributors to the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"KHOURY COLLEGE OF COMPUTER SCIENCES, NORTHEASTERN UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Khoury College of Computer Sciences, Northeastern University is one of the institutions where some of the contributors to the ERASER benchmark are affiliated.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"SALESFORCE RESEARCH, PALO ALTO, CA, 94301\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Salesforce Research, Palo Alto, CA, 94301 is one of the institutions where some of the contributors to the ERASER benchmark are affiliated.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"ERASER BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ERASER Benchmark is a proposed benchmark to advance research on interpretable models in NLP, comprising multiple datasets and tasks with human annotations of 'rationales'.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"GLUE BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"GLUE Benchmark is a reference to a previous benchmark for evaluating progress in natural language understanding tasks.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"SUPERGLUE BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SuperGLUE Benchmark is a reference to a previous benchmark for evaluating progress in natural language understanding tasks.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"PALO ALTO\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Palo Alto is a geographical location, home to Salesforce Research, one of the affiliations of ERASER contributors.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"CA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CA refers to California, the state where Palo Alto is located and where Salesforce Research is based.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"94301\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"94301 is the zip code for Palo Alto, indicating the specific location of Salesforce Research.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"NLP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"NLP stands for Natural Language Processing, the field in which the ERASER benchmark is designed to advance research on interpretable models.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"INTERPRETABILITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Interpretability refers to the ability of a model to explain its predictions, a key focus in the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"RATIONALES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rationales are the supporting evidence or explanations provided by models, which are a central aspect of the ERASER benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"HUMAN ANNOTATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Human annotations refer to the process of marking rationales by humans, which are collected in the ERASER datasets.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"FAITHFULNESS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Faithfulness is a measure of the degree to which provided rationales influenced the corresponding predictions, one of the metrics proposed in ERASER.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"DOSHI-VELEZ AND KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Doshi-Velez and Kim are authors referenced in the discussion on interpretability in the ERASER paper.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"LIPTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lipton is an author referenced in the discussion on interpretability in the ERASER paper.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2019B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2019b are authors referenced in the context of the GLUE benchmark for natural language understanding tasks.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2019A\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2019a are authors referenced in the context of the SuperGLUE benchmark for natural language understanding tasks.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JAY DEYOUNG\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 8.0,
+                "description": "\"Jay DeYoung is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"SARTHAK JAIN\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 8.0,
+                "description": "\"Sarthak Jain is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"NAZNEEN FATEMA RAJANI\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 8.0,
+                "description": "\"Nazneen Fatema Rajani is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"ERIC LEHMAN\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Eric Lehman is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"CAIMING XIONG\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Caiming Xiong is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"RICHARD SOCHER\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Richard Socher is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"BYRON C. WALLACE\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Byron C. Wallace is a contributor to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"KHOURY COLLEGE OF COMPUTER SCIENCES, NORTHEASTERN UNIVERSITY\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 7.0,
+                "description": "\"Khoury College of Computer Sciences, Northeastern University is an affiliation for some contributors to the ERASER Benchmark.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"SALESFORCE RESEARCH, PALO ALTO, CA, 94301\"",
+                "tgt_id": "\"ERASER BENCHMARK\"",
+                "weight": 1.0,
+                "description": "\"Salesforce Research, Palo Alto, CA, 94301 is an affiliation for some contributors to the ERA(\"entity\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"INTERPRETABILITY\"",
+                "tgt_id": "\"RATIONALES\"",
+                "weight": 8.0,
+                "description": "\"Interpretability is realized through rationales in ERASER.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            },
+            {
+                "src_id": "\"RATIONALES\"",
+                "tgt_id": "\"FAITHFULNESS\"",
+                "weight": 8.0,
+                "description": "\"Faithfulness measures the extent to which rationales inform predictions in ERASER.\"",
+                "source_id": "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-901b327817580e70ba82e1f49d40d1be",
+        "entities": [
+            {
+                "entity_name": "\"BO PANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bo Pang is an author of a paper on sentiment analysis using subjectivity summarization based on minimum cuts.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"LILLIAN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lillian Lee is an author of a paper on sentiment analysis using subjectivity summarization based on minimum cuts.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Association for Computational Linguistics is the organization that hosts the ACL-04 and ACL conferences where multiple papers are presented.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ACL-04\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The 42nd Annual Meeting of the Association for Computational Linguistics, where a paper on sentiment analysis was presented.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"BARCELONA, SPAIN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Barcelona, Spain is the location where the ACL-04 conference took place.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ADAM PASZKE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Paszke is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"SAM GROSS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sam Gross is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"FRANCISCO MASSA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Francisco Massa is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Advances in Neural Information Processing Systems is the conference where a paper on Pytorch was presented.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"DAVID J PEARCE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David J Pearce is the author of a technical report on an improved algorithm for finding the strongly connected components of a directed graph.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"VICTORIA UNIVERSITY, NZ\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Victoria University, NZ is the institution where David J Pearce published his technical report.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"JEFFREY PENNINGTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeffrey Pennington is an author of a paper on GloVe: Global vectors for word representation.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author of a paper on GloVe: Global vectors for word representation.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Manning is an author of a paper on GloVe: Global vectors for word representation.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"EMNLP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Conference on Empirical Methods in Natural Language Processing is the conference where a paper on GloVe was presented.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"DOHA, QATAR\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Doha, Qatar is the location where the EMNLP conference took place.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"JAMES BRADBURY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"James Bradbury is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"GREGORY CHANAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gregory Chanan is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"TREVOR KILLEEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Trevor Killeen is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ZEMING LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zeming Lin is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"NATALIA GIMELSHEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Natalia Gimelshein is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"LUCA ANTIGA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luca Antiga is an author of a paper on Pytorch, a high-performance deep learning library.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"DANISH PRUTHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danish Pruthi is an author of a paper on learning to deceive with attention-based explanations.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"MANSI GUPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mansi Gupta is an author of a paper on learning to deceive with attention-based explanations.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"BHUWAN DHINGRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bhuwan Dhingra is an author of a paper on learning to deceive with attention-based explanations.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"GRAHAM NEUBIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Graham Neubig is an author of a paper on learning to deceive with attention-based explanations.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ZACHARY C. LIPTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zachary C. Lipton is an author of a paper on learning to deceive with attention-based explanations.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"SAMPO PYYSALO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sampo Pyysalo is an author of a paper on distributional semantics resources for biomedical text processing.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"F GINTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"F Ginter is an author of a paper on distributional semantics resources for biomedical text processing.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"HANS MOEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hans Moen is an author of a paper on distributional semantics resources for biomedical text processing.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"T SALAKOSKI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"T Salakoski is an author of a paper on distributional semantics resources for biomedical text processing.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"SOPHIA ANANIADOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sophia Ananiadou is an author of a paper on distributional semantics resources for biomedical text processing.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ALEC RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alec Radford is an author of a paper on improving language understanding by generative pre-training.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"KARTHIK NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karthik Narasimhan is an author of a paper on improving language understanding by generative pre-training.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"TIM SALIMANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Salimans is an author of a paper on improving language understanding by generative pre-training.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of a paper on improving language understanding by generative pre-training.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"BO PANG\"",
+                "tgt_id": "\"LILLIAN LEE\"",
+                "weight": 8.0,
+                "description": "\"Bo Pang and Lillian Lee are co-authors of a paper on sentiment analysis.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "src_id": "\"BO PANG\"",
+                "tgt_id": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "weight": 7.0,
+                "description": "\"Bo Pang published a paper through the Association for Computational Linguistics.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "src_id": "\"LILLIAN LEE\"",
+                "tgt_id": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "weight": 7.0,
+                "description": "\"Lillian Lee published a paper through the Association for Computational Linguistics.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "src_id": "\"ADAM PASZKE\"",
+                "tgt_id": "\"SAM GROSS\"",
+                "weight": 8.0,
+                "description": "\"Adam Paszke and Sam Gross are co-authors of a paper on Pytorch.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "src_id": "\"ADAM PASZKE\"",
+                "tgt_id": "\"FRANCISCO MASSA\"",
+                "weight": 8.0,
+                "description": "\"Adam Paszke and Francisco Massa are co-authors of a paper on Pytorch.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            },
+            {
+                "src_id": "\"SAM GROSS\"",
+                "tgt_id": "\"FRANCISCO MASSA\"",
+                "weight": 8.0,
+                "description": "\"Sam Gross and Francisco Massa are co-authors of a paper on Pytorch.\"",
+                "source_id": "chunk-901b327817580e70ba82e1f49d40d1be"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-87bbde1b588a6f745bb6ac4323c2ee43",
+        "entities": [
+            {
+                "entity_name": "\"ERASER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"LEI ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lei et al. (2016) is referenced for their 'rationalizing' model which outperforms other models when using a BERT encoder.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"LEHMAN ET AL. (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Lehman et al. (2019) is mentioned for their simple pipeline model which is not appropriate for datasets with very short rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL. (2016)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Zhang et al. (2016) is referenced in the context of prior work where exploiting rationale-level supervision improves agreement with human-provided rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"STROUT ET AL. (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Strout et al. (2019) is mentioned in relation to prior work where exploiting rationale-level supervision improves agreement with human-provided rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"JAIN AND WALLACE (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Jain and Wallace (2019) is referenced for their work which is consistent with the finding that simple gradient and LIME-based scoring yield more comprehensive rationales than attention weights.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"SERRANO AND SMITH (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Serrano and Smith (2019) is referenced for their work which supports the finding that simple gradient and LIME-based scoring yield more comprehensive rationales than attention weights.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"ZHONG ET AL. (2019)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Zhong et al. (2019) is mentioned in the context of prior findings that attention may provide plausible, but not faithful, explanations.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"NSF (CAREER AWARD 1750978)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF (CAREER award 1750978) is an organization that provided support for the work discussed in the text.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"ARMY RESEARCH OFFICE (W911NF1810328)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Army Research Office (W911NF1810328) is an organization that provided support for the work discussed in the text.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"DAVID ALVAREZ-MELIS AND TOMMI JAAKKOLA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Alvarez-Melis and Tommi Jaakkola are authors of a paper referenced in the text, presenting a causal framework for explaining the predictions of black-box sequence-to-sequence models.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"MOVIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Movies is one of the datasets mentioned where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"FEVER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"FEVER is one of the datasets mentioned where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"COS-E\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoS-E is one of the datasets mentioned where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"ESNLI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"eSNLI is one of the datasets mentioned where random removal of rationales is particularly damaging to performance, indicating poor absolute ranking.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"AUPRC\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AUPRC stands for Area Under the Precision Recall Curve, a metric used to assess the quality of token scores with respect to human annotations.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"LIME\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LIME is referenced for its method of scoring which yields more comprehensive rationales than attention weights, according to the text.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"RANDOM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Random refers to the process of assigning random scores to tokens to induce orderings, used as a point of reference for the metrics of comprehensiveness and sufficiency.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"BERT is a technology used in the BERT-based implementation of Lei et al. (2016), which is discussed in the context of model performance.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "entity_name": "\"ERASER BENCHMARK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ERASER benchmark is an event or process where different models are evaluated and compared based on their performance and rationale extraction capabilities.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"LEI ET AL. (2016)\"",
+                "weight": 6.0,
+                "description": "\"ERASER benchmark includes the 'rationalizing' model of Lei et al. (2016) as a point of comparison for other models.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"LEHMAN ET AL. (2019)\"",
+                "weight": 6.0,
+                "description": "\"ERASER benchmark includes the simple pipeline model of Lehman et al. (2019) as a point of comparison for other models.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"ZHANG ET AL. (2016)\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark references the work of Zhang et al. (2016) in the context of improving agreement with human-provided rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"STROUT ET AL. (2019)\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark references the work of Strout et al. (2019) in the context of improving agreement with human-provided rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"JAIN AND WALLACE (2019)\"",
+                "weight": 5.0,
+                "description": "\"ERASER benchmark references the work of Jain and Wallace (2019) in the context of comprehensive rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"SERRANO AND SMITH (2019)\"",
+                "weight": 1.0,
+                "description": "\"ERASER benchmark references the(\"entity\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"MOVIES\"",
+                "weight": 5.0,
+                "description": "\"ERASER includes Movies as one of the datasets for evaluating model performance and rationale quality.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"FEVER\"",
+                "weight": 5.0,
+                "description": "\"ERASER includes FEVER as one of the datasets for evaluating model performance and rationale quality.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"COS-E\"",
+                "weight": 5.0,
+                "description": "\"ERASER includes CoS-E as one of the datasets for evaluating model performance and rationale quality.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"ESNLI\"",
+                "weight": 5.0,
+                "description": "\"ERASER includes eSNLI as one of the datasets for evaluating model performance and rationale quality.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"AUPRC\"",
+                "weight": 6.0,
+                "description": "\"ERASER uses AUPRC as a metric for assessing the quality of token scores with respect to human annotations.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"LIME\"",
+                "weight": 5.0,
+                "description": "\"ERASER references LIME in the context of comprehensive rationales and faithfulness in model explanations.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"RANDOM\"",
+                "weight": 6.0,
+                "description": "\"ERASER uses 'Random' as a baseline for comparing the comprehensiveness and sufficiency of rationales.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            },
+            {
+                "src_id": "\"ERASER\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 6.0,
+                "description": "\"ERASER discusses the use of BERT technology in the context of model performance and rationale extraction.\"",
+                "source_id": "chunk-87bbde1b588a6f745bb6ac4323c2ee43"
+            }
+        ]
+    },
+    "10": {
+        "chunk_key": "chunk-ba017b2e1c23bdeff353c0a4bff67cee",
+        "entities": [
+            {
+                "entity_name": "\"INTERNATIONAL CONFERENCE ON MACHINE LEARNING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The International Conference on Machine Learning is an event where research papers on machine learning are presented.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"JMLR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"JMLR, or Journal of Machine Learning Research, is an organization that publishes proceedings of machine learning conferences.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ALON TALMOR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alon Talmor is a researcher who co-authored a paper on CommonsenseQA, a question answering challenge.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"JONATHAN HERZIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Herzig is a researcher who co-authored a paper on CommonsenseQA.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"NICHOLAS LOURIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nicholas Lourie is a researcher who co-authored a paper on CommonsenseQA.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"JONATHAN BERANT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Berant is a researcher who co-authored a paper on CommonsenseQA.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Association for Computational Linguistics is an organization that hosts conferences on computational linguistics and publishes proceedings.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"MINNEAPOLIS, MINNESOTA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Minneapolis, Minnesota is the location where the 2019 Conference of the North American Chapter of the Association for Computational Linguistics was held.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"JAMES THORNE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"James Thorne is a researcher who co-authored a paper on FEVER, a dataset for Fact Extraction and VERification.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ANDREAS VLACHOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andreas Vlachos is a researcher who co-authored a paper on FEVER.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"CHRISTOS CHRISTODOULOPOULOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christos Christodoulopoulos is a researcher who co-authored a paper on FEVER.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ARPIT MITTAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arpit Mittal is a researcher who co-authored a paper on FEVER.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"SHIKHAR VASHISHTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shikhar Vashishth is a researcher who co-authored a paper on attention interpretability across NLP tasks.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"SHYAM UPADHYAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shyam Upadhyay is a researcher who co-authored a paper on attention interpretability.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"GAURAV SINGH TOMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gaurav Singh Tomar is a researcher who co-authored a paper on attention interpretability.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"MANAAL FARUQUI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Manaal Faruqui is a researcher who co-authored a paper on attention interpretability.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"BYRON C WALLACE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Byron C Wallace is a researcher who co-authored a paper on active learning for biomedical citation screening.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"KEVIN SMALL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Small is a researcher who co-authored a paper on active learning for biomedical citation screening.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"CARLA E BRODLEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Carla E Brodley is a researcher who co-authored a paper on active learning for biomedical citation screening.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"THOMAS A TRIKALINOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thomas A Trikalinos is a researcher who co-authored a paper on active learning for biomedical citation screening.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ACM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ACM, or Association for Computing Machinery, is an organization that hosts conferences and publishes proceedings, such as the one mentioned in the text.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"ALEX WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Wang is a researcher who co-authored papers on Superglue and GLUE, both benchmarks forlanguage understanding systems.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"YADA PRUKSACHATKUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yada Pruksachatkun is a researcher who co-authored a paper on Superglue, a benchmark for general-purpose language understanding systems.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"NIKITA NANGIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Nangia is a researcher who co-authored a paper on Superglue.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"JULIAN MICHAEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julian Michael is a researcher who co-authored papers on Superglue and GLUE.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"FELIX HILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Felix Hill is a researcher who co-authored papers on Superglue and GLUE.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is a researcher who co-authored papers on Superglue and GLUE.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"SAMUEL BOWMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Samuel Bowman is a researcher who co-authored papers on Superglue and GLUE.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"H. WALLACH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"H. Wallach is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"H. LAROCHELLE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"H. Larochelle is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"A. BEYGELZIMER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A. Beygelzimer is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"F. D'ALCHÉ-BUC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"F. d'Alché-Buc is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"E. FOX\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"E. Fox is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"R. GARNETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"R. Garnett is an editor who worked on Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"CURRAN ASSOCIATES, INC.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Curran Associates, Inc. is the publisher of Advances in Neural Information Processing Systems 32.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"SARAH WIEGREFFE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sarah Wiegreffe is a researcher who co-authored a paper on the limitations of attention as an explanation in natural language processing.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"YUVAL PINTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuval Pinter is a researcher who co-authored a paper on the limitations of attention as an explanation in natural language processing.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"EMNLP-IJCNLP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP-IJCNLP is an event, the 9th International Joint Conference on Natural Language Processing, where several papers were presented.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"HONG KONG, CHINA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hong Kong, China is the location where the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP) was held.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"RONALD J WILLIAMS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ronald J Williams is a researcher who authored papers on statistical gradient-following algorithms and learning algorithms for recurrent neural networks.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"DAVID ZIPSER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Zipser is a researcher who co-authored a paper on a learning algorithm for continually running fully recurrent neural networks.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            },
+            {
+                "entity_name": "\"NEURAL COMPUTATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Neural Computation is a journal that published a paper co-authored by Ronald J Williams and David Zipser.\"",
+                "source_id": "chunk-ba017b2e1c23bdeff353c0a4bff67cee"
+            }
+        ],
+        "relationships": []
+    },
+    "1": {
+        "chunk_key": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805",
+        "entities": [
+            {
+                "entity_name": "\"ERASER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"BAHDANAU ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bahdanau et al., 2015 are researchers who contributed to the field of attention mechanisms in neural models for text classification.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"JAIN AND WALLACE, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jain and Wallace, 2019 are researchers who have studied the limitations of attention weights in providing faithful explanations for predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SERRANO AND SMITH, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Serrano and Smith, 2019 are researchers who have contributed to the understanding of attention mechanisms and their limitations.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"WIEGREFFE AND PINTER, 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wiegreffe and Pinter, 2019 are researchers who have studied the interpretation of attention weights in neural models.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"ZHONG ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhong et al., 2019 are researchers who have contributed to the study of attention mechanisms and their role in providing explanations for model predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"PRUTHI ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pruthi et al., 2020 are researchers who have studied the limitations of attention weights in providing explanations for model predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"BRUNNER ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brunner et al., 2020 are researchers who have contributed to the understanding of attention mechanisms in neural models.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"MORADI ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Moradi et al., 2019 are researchers who have studied the interpretation of attention weights in neural models.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"VASHISHTH ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vashishth et al., 2019 are researchers who have contributed to the study of attention mechanisms and their limitations.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"LEI ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lei et al., 2016 are researchers who proposed a two-model approach for extracting rationales and making predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"JAIN ET AL., 2020\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jain et al., 2020 proposed a variant of the two-model setup for extracting rationales using heuristic feature scores.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"CHANG ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chang et al., 2019 introduced the concept of classwise rationales to explain support for different output classes using a game theoretic framework.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"BASTINGS ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bastings et al., 2019 proposed using a differentiable binary mask over inputs as a means of providing explanations.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SUNDARARAJAN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sundararajan et al., 2017 are researchers who have contributed to the understanding of gradient-based explanations in model predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SMILKOV ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Smilkov et al., 2017 are researchers who have studied gradient-based explanations in model predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"FENG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Feng et al., 2018 are researchers who have studied the counterintuitive behaviors of gradient-based explanations.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"RIBEIRO ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ribeiro et al., 2016 are researchers who have contributed to the development of LIME, a method for approximating model(\"entity\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"ZAIDAN AND EISNER, 2008\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zaidan and Eisner, 2008 are researchers who have studied the efficiency of collecting rationales from annotators in terms of model performance.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"MCDONNELL ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McDonnell et al., 2017 are researchers who observed that providing rationales does not impose much additional effort on annotators.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SETTLES, 2012\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Settles, 2012 is a researcher who has explored the combination of rationale annotation with active learning.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"WALLACE ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wallace et al., 2010 are researchers who have contributed to the field of active learning in the context of rationale annotation.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SHARMA ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sharma et al., 2015 are researchers who have studied the combination of rationale annotation with active learning.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"ZAIDAN ET AL., 2007\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zaidan et al., 2007 are researchers who proposed extending standard discriminative models with regularization terms to incorporate rationales.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"SMALL ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Small et al., 2011 are researchers who have contributed to the field of learning from rationales marked by annotators for text classification.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al., 2016 proposed a rationale-augmented Convolutional Neural Network (CNN) for text classification.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"STROUT ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Strout et al., 2019 showed that providing a rationale-augmented CNN with rationales during training yields predicted rationales preferred by humans.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"LEHMAN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lehman et al., 2019 are researchers who have proposed ‘pipeline’ approaches for rationale extraction and classification.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2019 are researchers who have proposed ‘pipeline’ approaches for rationale extraction and classification.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"WILLIAMS, 1992\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Williams, 1992 is a researcher who proposed the REINFORCE style optimization used in training models for rationale extraction.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"NLP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"NLP stands for Natural Language Processing, the field in which ERASER and related work are focused.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"ATTENTION MECHANISMS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attention mechanisms are a technique used in neural models to assign weights to token representations for extracting rationales.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"HARD ATTENTION MECHANISMS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Hard attention mechanisms discretely extract snippets from the input to provide faithful explanations in neural models.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"TOKEN-LEVEL SUPERVISION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Token-level supervision refers to the use of instance-level supervision for training models to explain or rationalize predictions.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"RATIONALES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rationales are explanations provided for model predictions, often marked by humans during training.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            },
+            {
+                "entity_name": "\"TEXT CLASSIFICATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Text classification is a task where models categorize text into different classes, often using rationales to improve performance.\"",
+                "source_id": "chunk-6edd668ab41dff86e7f7e7b4d0dfc805"
+            }
+        ],
+        "relationships": []
+    }
+}

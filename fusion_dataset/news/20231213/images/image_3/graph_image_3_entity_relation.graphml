@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_CAT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Cat- Age: Adult- Color: Multi-colored fur with a mix of brown, black, and white- Shape: Round face with prominent whiskers- Size: Not fully visible, but appears to be a standard adult cat size- Posture: Holding a small green lizard in its mouth- Structural Characteristics: The cat has large, expressive yellow eyes and a fluffy coat. The lizard is small with a long tail and is being held by the cat's teeth near its head."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a close-up of a cat with a multicolored fur pattern, predominantly white with patches of brown and black. The cat has striking yellow eyes and a pink nose. It is holding a small green lizard in its mouth, which appears to be freshly caught. The cat's expression is intense and focused, suggesting it is in the act of hunting or has just captured its prey. The background is blurred, but it appears to be an outdoor setting, possibly a garden or a park, with some foliage visible. The overall mood of the image conveys a sense of natural predatory behavior and the instinctive hunting skills of cats."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+</node>
+<node id="&quot;CAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A fluffy cat with a mix of brown, black, and white fur, holding a small green lizard in its mouth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+</node>
+<node id="&quot;LIZARD&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small green lizard being held by the cat in its mouth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_CAT-0.JPG&quot;" target="&quot;CAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_cat-0.jpg is a picture of a cat."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_CAT-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_cat-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cat是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LIZARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lizard是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CAT&quot;" target="&quot;LIZARD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cat is holding the lizard in its mouth, indicating a predator-prey relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231213/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

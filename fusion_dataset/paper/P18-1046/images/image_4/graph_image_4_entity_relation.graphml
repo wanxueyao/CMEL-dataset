@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of six graphs, arranged in two rows and three columns. Each graph represents the performance change during the training process for different relation types using DSGAN. The first row shows the accuracy of the discriminator over epochs for three relation types: /business/person/company, /people/person/place_lived, and /location/neighborhood/neighborhood_of. The x-axis represents the bag sequence, ranging from 1 to 17, while the y-axis represents the accuracy, ranging from approximately 0.8 to 1.0. Each curve corresponds to a specific epoch, with darker colors indicating later epochs. The curves start from the same point at the beginning of each epoch due to the discriminator reloading pre-trained parameters. As the epochs progress, the accuracy generally decreases, indicating that the generator is gradually collapsing the discriminator. The second row shows the F1 score over epochs for the same three relation types. The x-axis represents the epoch number, ranging from 6 to 28, while the y-axis represents the F1 score, ranging from approximately 0.7 to 1.0. Three lines are plotted for each graph: Random (black triangles), Pre-training (blue circles), and DSGAN (red squares). The F1 score generally increases as the epochs progress, with DSGAN consistently outperforming the other methods."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;/BUSINESS/PERSON/COMPANY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Graph showing accuracy and F1 score for different bag sequences in the context of business, person, and company."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Graph showing accuracy and F1 score for different bag sequences in the context of people, person, and place lived."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Graph showing accuracy and F1 score for different bag sequences in the context of location, neighborhood, and neighborhood of."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;RANDOM&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A baseline method used for comparison, represented by black triangles in the graphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;PRE-TRAINING&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A method that uses pre-training, represented by blue circles in the graphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<node id="&quot;DSGAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A method using DSGAN, represented by red squares in the graphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;/BUSINESS/PERSON/COMPANY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/business/person/company是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/people/person/place_lived是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/location/neighborhood/neighborhood_of是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;RANDOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Random是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pre-training是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DSGAN是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/BUSINESS/PERSON/COMPANY&quot;" target="&quot;RANDOM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Random method is compared against other methods in the /business/person/company context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/BUSINESS/PERSON/COMPANY&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Pre-training method is compared against other methods in the /business/person/company context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/BUSINESS/PERSON/COMPANY&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DSGAN method is compared against other methods in the /business/person/company context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;" target="&quot;RANDOM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Random method is compared against other methods in the /people/person/place_lived context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Pre-training method is compared against other methods in the /people/person/place_lived context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DSGAN method is compared against other methods in the /people/person/place_lived context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;" target="&quot;RANDOM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Random method is compared against other methods in the /location/neighborhood/neighborhood_of context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;" target="&quot;PRE-TRAINING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Pre-training method is compared against other methods in the /location/neighborhood/neighborhood_of context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;" target="&quot;DSGAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The DSGAN method is compared against other methods in the /location/neighborhood/neighborhood_of context."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

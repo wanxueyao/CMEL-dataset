@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a row of large, industrial-looking buildings situated in an open field. The structures appear to be warehouses or data centers, characterized by their rectangular shapes and metallic exteriors. Each building has multiple windows and ventilation systems on the roof, suggesting they are designed for heavy-duty operations. The buildings are arranged in a linear fashion, extending across the frame. In the foreground, there is a vast expanse of dry, golden grass that stretches towards the buildings. The sky above is clear with a few scattered clouds, indicating a sunny day. The overall scene conveys a sense of isolation and industrial activity in a rural setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+</node>
+<node id="&quot;INDUSTRIAL BUILDINGS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A series of industrial buildings with large windows and ventilation systems, likely used for manufacturing or processing purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+</node>
+<node id="&quot;GRASS FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An expansive field of tall, dry grass in the foreground, stretching towards the industrial buildings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;INDUSTRIAL BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Industrial Buildings是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;GRASS FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass Field是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INDUSTRIAL BUILDINGS&quot;" target="&quot;GRASS FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The industrial buildings are situated at the edge of the grass field, indicating a boundary between natural and industrial landscapes."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a set of instructions for navigating an environment. The text is presented in a fragmented and color-coded manner, with each segment highlighted in different colors: red, blue, green, yellow, and purple. The instructions guide the reader to navigate around various objects such as a pillar, a boat, a tree, a cone, a hydrant, and a tree stump. The sequence of actions includes circling around objects clockwise or counterclockwise, passing on specific sides of these objects, and stopping at designated points. For example, one instruction reads: 'Go around the pillar on the right hand side and head towards the boat, circling around it clockwise.' Another instruction states: 'When you are facing the tree, walk towards it, and pass on the right hand side, and the left hand side of the cone. Circle around the cone and then walk past the hydrant on your right, and the tree stump. Circle around the stump and then stop right behind it.' The overall layout suggests a step-by-step guide for a navigation task, possibly for a robot or a drone."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;PILLAR&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Located on the right-hand side of the path."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;BOAT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Target to circle around clockwise."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Structure to walk towards and pass on the right-hand side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;CONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Object to circle around and walk past on the left-hand side."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;HYDRANT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Passed on the right-hand side after circling the cone."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;TREE STUMP&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Final object to circle around and stop behind."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+</node>
+<node id="&quot;PATH&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d1">"The final action is to stop behind the stump, marking the end of the path."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PILLAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pillar是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BOAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boat是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cone是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HYDRANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hydrant是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TREE STUMP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree Stump是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PILLAR&quot;" target="&quot;BOAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The path leads from the pillar to the boat, indicating a directional relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE&quot;" target="&quot;CONE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The tree is approached before the cone, suggesting a sequential relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONE&quot;" target="&quot;HYDRANT&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"After circling the cone, the hydrant is passed, indicating a sequence in the path."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE STUMP&quot;" target="&quot;PATH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The final action is to stop behind the stump, marking the end of the path."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

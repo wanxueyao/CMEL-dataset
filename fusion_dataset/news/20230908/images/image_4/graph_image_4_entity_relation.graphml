@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_CAR-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Car- Color: Silver-gray- Shape: Partial view of the rear wheel and part of the body, indicating a modern design with smooth curves- Size: Appears to be a standard-sized car, possibly an SUV or crossover based on the visible wheel size and body shape- Material: Likely metal and alloy for the body and wheels, respectively- Possible function: Personal transportation vehicle, designed for urban and possibly off-road use given the robust tire designOverall, the car appears to be a contemporary model with a sleek design, suggesting it may offer both style and functionality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_CAR-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Car- Color: Light purple or lavender- Shape: Compact SUV with a modern, aerodynamic design featuring smooth curves and sharp lines- Size: Appears to be a mid-sized vehicle, suitable for urban driving and small families- Material: Likely made from a combination of steel, aluminum, and plastic, typical of contemporary vehicles- Possible function: Personal transportation, likely an electric vehicle given the design cues and lack of visible exhaust- Other significant characteristics: Equipped with LED headlights and taillights, a panoramic sunroof, and alloy wheels. The rear design includes a high-mounted brake light and a shark-fin antenna, suggesting advanced safety features and connectivity options.Overall, the car appears to be a modern, stylish, and possibly electric compact SUV designed for urban use, offering both aesthetic appeal and practical functionality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a showroom of a BYD car dealership. In the foreground, there is a light purple SUV positioned centrally, facing away from the camera, showcasing its rear design and license plate. The vehicle has a sleek, modern design with a prominent rear spoiler and stylish taillights. To the right of the SUV, partially visible, is another car in a darker shade, possibly gray or black. The showroom floor is polished and reflective, indicating a clean and well-maintained environment. In the background, there is a large wall with the BYD logo prominently displayed in white letters against a dark backdrop. The showroom is well-lit with natural light streaming in from the windows on the left side, creating a bright and inviting atmosphere. There are also some decorative elements such as potted plants and flowers near the entrance, adding to the aesthetic appeal of the space."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+</node>
+<node id="&quot;CAR&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d1">"The image feature block image_4_car-1.jpg is a picture of a car."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;BYD CAR&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d1">"BYD Car是从image_4中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SHOWROOM&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d1">"Showroom是从image_4中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d1">"Flowers是从image_4中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;BYD LOGO&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d1">"BYD Logo是从image_4中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4_CAR-1.JPG&quot;" target="&quot;CAR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_car-1.jpg is a picture of a car."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_CAR-1.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_car-1.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_CAR-0.JPG&quot;" target="&quot;CAR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_4_car-0.jpg is a picture of a car."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_CAR-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_car-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BYD CAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BYD Car是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SHOWROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Showroom是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BYD LOGO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BYD Logo是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BYD CAR&quot;" target="&quot;SHOWROOM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BYD car is on display in the showroom, indicating that it is available for viewing or purchase by potential customers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BYD CAR&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The flowers are positioned near the BYD car, enhancing its visual appeal and creating an inviting atmosphere for visitors."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BYD CAR&quot;" target="&quot;BYD LOGO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BYD logo on the wall serves as a backdrop for the car, reinforcing the brand's identity and association with the vehicle."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Car- Color: The car appears to be a light blue color.- Shape: The car has a rectangular shape with a slightly curved front and back. It has a boxy design typical of older model cars or vans.- Size: The car is depicted in a small, icon-like representation, so it is not possible to determine the actual size from this image alone.- Material: The material cannot be determined from this image as it is a simplified representation.- Possible Function: This object is likely a representation of a vehicle used for transportation. Given its design, it could be a van or an old-fashioned car, possibly used for personal or commercial purposes such as delivery services.Overall, the image represents a stylized, simplified depiction of a light blue car or van, characterized by its boxy, rectangular shape and minimalistic design."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an aerial view of a complex highway interchange, showcasing the intricate network of overpasses and ramps that make up Houston’s Katy Freeway. The freeway spans an impressive 26 lanes in some sections, making it one of the world’s widest highways. The scene is bustling with traffic, with numerous vehicles visible on the various roads and bridges. The interchange features multiple levels of interconnected roads, creating a web-like structure. The surrounding area includes patches of greenery and a body of water, adding to the urban landscape. The overall atmosphere conveys a sense of complexity and movement, highlighting the engineering marvel of modern transportation infrastructure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;HIGHWAY INTERCHANGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A complex network of elevated roadways and bridges forming an interchange, with multiple levels and directions for vehicles to travel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;VEHICLES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Cars and trucks moving along the highways and ramps of the interchange."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;PARKING LOT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An area adjacent to the highway interchange with numerous parked cars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;LAKE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A body of water located near the highway interchange, surrounded by greenery."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<node id="&quot;BUILDINGS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Structures in the vicinity of the highway interchange, possibly commercial or residential."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-1.JPG&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The image feature block image_2_person-1.jpg is a picture of vehicles."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-1.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-1.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;HIGHWAY INTERCHANGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Highway Interchange是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vehicles是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PARKING LOT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Parking Lot是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LAKE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lake是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Buildings是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGHWAY INTERCHANGE&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The vehicles are using the highway interchange to navigate between different roads."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGHWAY INTERCHANGE&quot;" target="&quot;PARKING LOT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The parking lot is located near the highway interchange, providing a place for vehicles to park."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGHWAY INTERCHANGE&quot;" target="&quot;LAKE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The lake is situated near the highway interchange, adding to the landscape around the infrastructure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGHWAY INTERCHANGE&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The buildings are located near the highway interchange, indicating possible commercial or residential activity in the area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

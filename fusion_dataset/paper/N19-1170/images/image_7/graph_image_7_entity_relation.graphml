@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: A/B tests comparing various specificity-controlled models to the repetition-controlled baseline on interestingness.' The table contains three rows, each representing a different model. The columns are as follows: Model, Win%, and Top 3 reasons for preferring model. The first row shows 'Specificity WD (weight = 6)' with a Win% of 84.1%. The top 3 reasons for preferring this model are 'More information,' 'Better flow,' and 'More descriptive.' The second row shows 'Specificity WD (weight = 4)' with a Win% of 75.5%. The top 3 reasons for preferring this model are 'More information,' 'They describe their life in more detail,' and 'Funny.' The third row shows 'Specificity CT (z = 7)' with a Win% of 56.2%. The top 3 reasons for preferring this model are 'More information,' 'Better flow,' and 'Seems more interested.'"</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY WD (WEIGHT = 6)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model with a win percentage of 84.1%, preferred for providing more information, having a better flow, and being more descriptive."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY WD (WEIGHT = 4)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model with a win percentage of 75.5%, preferred for providing more information, describing life in more detail, and being funny."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY CT (Z = 7)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model with a win percentage of 56.2%, preferred for providing more information, having a better flow, and seeming more interested."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SPECIFICITY WD (WEIGHT = 6)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity WD (weight = 6)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SPECIFICITY WD (WEIGHT = 4)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity WD (weight = 4)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SPECIFICITY CT (Z = 7)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity CT (z = 7)是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY WD (WEIGHT = 6)&quot;" target="&quot;SPECIFICITY WD (WEIGHT = 4)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both models are preferred for providing more information, but the first model is also noted for its better flow and descriptiveness."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY WD (WEIGHT = 6)&quot;" target="&quot;SPECIFICITY CT (Z = 7)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both models are preferred for providing more information and having a better flow, but the first model is also noted for being more descriptive."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY WD (WEIGHT = 4)&quot;" target="&quot;SPECIFICITY CT (Z = 7)&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both models are preferred for providing more information, but the second model is noted for describing life in more detail and being funny, while the third model seems more interested."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

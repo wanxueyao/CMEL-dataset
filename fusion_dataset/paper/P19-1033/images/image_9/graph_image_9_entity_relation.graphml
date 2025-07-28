@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two line graphs, labeled (a) LSTUR-ini and (b) LSTUR-con, which illustrate the influence of mask probability \( p \) on the performance of two approaches. The x-axis represents the mask probability \( p \) ranging from 0.0 to 0.9 with a step of 0.1. The y-axis shows the performance metrics in terms of AUC, MRR, nDCG@5, and nDCG@10. Each graph contains four lines representing different performance metrics: AUC (green), MRR (orange), nDCG@5 (blue), and nDCG@10 (red). The lines are plotted with error bars indicating the variability or confidence intervals. For both graphs, the performance metrics generally increase as the mask probability \( p \) increases from 0.0 to around 0.5, after which they start to decline. The optimal performance is observed at a moderate value of \( p \) around 0.5 for both LSTUR-ini and LSTUR-con methods."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<node id="&quot;AUC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Area Under the Curve metric, represented by green circles in the graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<node id="&quot;MRR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Mean Reciprocal Rank metric, represented by orange squares in the graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<node id="&quot;NDCG@5&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Normalized Discounted Cumulative Gain at rank 5 metric, represented by blue diamonds in the graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<node id="&quot;NDCG@10&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Normalized Discounted Cumulative Gain at rank 10 metric, represented by red stars in the graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<node id="&quot;MASK PROBABILITY P&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The x-axis of the graph, representing the mask probability ranging from 0.0 to 0.9."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;AUC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"AUC是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;MRR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MRR是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;NDCG@5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"nDCG@5是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;NDCG@10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"nDCG@10是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;MASK PROBABILITY P&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mask probability p是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AUC&quot;" target="&quot;MASK PROBABILITY P&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The AUC metric changes as the mask probability increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRR&quot;" target="&quot;MASK PROBABILITY P&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The MRR metric changes as the mask probability increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NDCG@5&quot;" target="&quot;MASK PROBABILITY P&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The nDCG@5 metric changes as the mask probability increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NDCG@10&quot;" target="&quot;MASK PROBABILITY P&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The nDCG@10 metric changes as the mask probability increases."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

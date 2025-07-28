@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a detailed illustration of a Norwegian Ridgeback dragon. The dragon is shown in a close-up view, focusing on its head and upper body. Its scales are a mix of earthy tones, with shades of brown, beige, and hints of green. The dragon's eye is large and expressive, conveying a sense of intelligence and intensity. Its mouth is open, revealing sharp teeth and a long, forked tongue. The background shows a cityscape with buildings and chimneys, suggesting an urban environment. The dragon appears to be interacting with the city, possibly causing destruction or simply being present. The overall atmosphere is one of tension and awe, as the dragon's presence dominates the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+</node>
+<node id="&quot;NORWEGIAN RIDGEBACK&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+  <data key="d1">"Norwegian Ridgeback是从image_9中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+  <data key="d1">"Building是从image_9中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;NORWEGIAN RIDGEBACK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Norwegian Ridgeback是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NORWEGIAN RIDGEBACK&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Norwegian Ridgeback is positioned above the building, seemingly attacking or guarding it. The relationship strength is high due to the close proximity and the aggressive posture of the dragon."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

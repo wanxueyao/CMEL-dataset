@@ -1,0 +1,429 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Comparisons of CNN, LSTM and SWEM architectures.' The table is structured with four main columns: Model, Parameters, Complexity, and Sequential Ops. Each row represents a different model architecture and contains the following information: \\n- **CNN**: Parameters are given as \\( n \\cdot K \\cdot d \\), Complexity is \\( \\mathcal{O}(n \\cdot L \\cdot K \\cdot d) \\), and Sequential Ops are \\( \\mathcal{O}(1) \\). \\n- **LSTM**: Parameters are given as \\( 4 \\cdot d \\cdot (K + d) \\), Complexity is \\( \\mathcal{O}(L \\cdot d^2 + L \\cdot K \\cdot d) \\), and Sequential Ops are \\( \\mathcal{O}(L) \\). \\n- **SWEM**: Parameters are given as 0, Complexity is \\( \\mathcal{O}(L \\cdot K) \\), and Sequential Ops are \\( \\mathcal{O}(1) \\). \\nThe table highlights the differences in parameters, computational complexity, and sequential operations between the three models. The context discusses the hierarchical pooling layer proposed for SWEM, which aims to improve upon SWEM-aver and SWEM-max by incorporating word-order and spatial information."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "A model with parameters n * K * d and complexity O(n * L * K * d). Sequential operations are O(1)."
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model with parameters 4 * d * (K + d) and complexity O(L * d^2 + L * K * d). Sequential operations are O(L)."
+        },
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model with no parameters and complexity O(L * K). Sequential operations are O(1)."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the performance of various models on different datasets for document categorization tasks. The table has six columns: Model, Yahoo! Ans., AG News, Yelp P., Yelp F., and DBpedia. Each row represents a different model and its corresponding performance metrics on the five datasets. The models listed are Bag-of-means*, Small word CNN*, Large word CNN*, LSTM*, Deep CNN (29 layer)†, fastText ‡, fastText (bigram)‡, SWEM-aver, SWEM-max, SWEM-concat, and SWEM-hier. The performance metrics are numerical values representing accuracy or some other evaluation metric. For example, the Bag-of-means* model scores 60.55 on Yahoo! Ans., 83.09 on AG News, 87.33 on Yelp P., 53.54 on Yelp F., and 90.45 on DBpedia. The SWEM-concat model achieves the highest scores in most categories, with 73.53 on Yahoo! Ans., 92.66 on AG News, 93.76 on Yelp P., 61.11 on Yelp F., and 98.57 on DBpedia. The table highlights the superior performance of the SWEM models compared to other architectures."
+        },
+        {
+            "entity_name": "BAG-OF-MEANS*",
+            "entity_type": "MODEL",
+            "description": "A model that represents documents as the mean of their word vectors, achieving 60.55% accuracy on Yahoo! Answers dataset, 83.09% on AG News, 87.33% on Yelp P., 53.54% on Yelp F., and 90.45% on DBpedia."
+        },
+        {
+            "entity_name": "SMALL WORD CNN*",
+            "entity_type": "MODEL",
+            "description": "A convolutional neural network with a smaller architecture, achieving 69.98% accuracy on Yahoo! Answers dataset, 89.13% on AG News, 94.46% on Yelp P., 58.59% on Yelp F., and 98.15% on DBpedia."
+        },
+        {
+            "entity_name": "LARGE WORD CNN*",
+            "entity_type": "MODEL",
+            "description": "A convolutional neural network with a larger architecture, achieving 70.94% accuracy on Yahoo! Answers dataset, 91.45% on AG News, 95.11% on Yelp P., 59.48% on Yelp F., and 98.28% on DBpedia."
+        },
+        {
+            "entity_name": "LSTM*",
+            "entity_type": "MODEL",
+            "description": "A long short-term memory network, achieving 70.84% accuracy on Yahoo! Answers dataset, 86.06% on AG News, 94.74% on Yelp P., 58.17% on Yelp F., and 98.55% on DBpedia."
+        },
+        {
+            "entity_name": "DEEP CNN (29 LAYER)†",
+            "entity_type": "MODEL",
+            "description": "A deep convolutional neural network with 29 layers, achieving 73.43% accuracy on Yahoo! Answers dataset, 91.27% on AG News, 95.72% on Yelp P., 64.26% on Yelp F., and 98.71% on DBpedia."
+        },
+        {
+            "entity_name": "FASTTEXT ‡",
+            "entity_type": "MODEL",
+            "description": "A text classification model based on bag-of-words with fastText, achieving 72.0% accuracy on Yahoo! Answers dataset, 91.5% on AG News, 93.8% on Yelp P., 60.4% on Yelp F., and 98.1% on DBpedia."
+        },
+        {
+            "entity_name": "FASTTEXT (BIGRAM)‡",
+            "entity_type": "MODEL",
+            "description": "A text classification model based on bigrams with fastText, achieving 72.3% accuracy on Yahoo! Answers dataset, 92.5% on AG News, 95.7% on Yelp P., 63.9% on Yelp F., and 98.6% on DBpedia."
+        },
+        {
+            "entity_name": "SWEM-AVER",
+            "entity_type": "MODEL",
+            "description": "A sentence embedding model using average pooling, achieving 73.14% accuracy on Yahoo! Answers dataset, 91.71% on AG News, 93.59% on Yelp P., 60.66% on Yelp F., and 98.42% on DBpedia."
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "MODEL",
+            "description": "A sentence embedding model using max pooling, achieving 72.66% accuracy on Yahoo! Answers dataset, 91.79% on AG News, 93.25% on Yelp P., 59.63% on Yelp F., and 98.24% on DBpedia."
+        },
+        {
+            "entity_name": "SWEM-CONCAT",
+            "entity_type": "MODEL",
+            "description": "A sentence embedding model using concatenation, achieving 73.53% accuracy on Yahoo! Answers dataset, 92.66% on AG News, 93.76% on Yelp P., 61.11% on Yelp F., and 98.57% on DBpedia."
+        },
+        {
+            "entity_name": "SWEM-HIER",
+            "entity_type": "MODEL",
+            "description": "A hierarchical sentence embedding model, achieving 73.48% accuracy on Yahoo! Answers dataset, 92.48% on AG News, 95.81% on Yelp P., 63.79% on Yelp F., and 98.54% on DBpedia."
+        },
+        {
+            "entity_name": "YAHOO! ANS.",
+            "entity_type": "UNKNOWN",
+            "description": "The Bag-of-means model achieved 60.55% accuracy on the Yahoo! Answers dataset."
+        },
+        {
+            "entity_name": "AG NEWS",
+            "entity_type": "UNKNOWN",
+            "description": "The Bag-of-means model achieved 83.09% accuracy on the AG News dataset."
+        },
+        {
+            "entity_name": "YELP P.",
+            "entity_type": "UNKNOWN",
+            "description": "The Bag-of-means model achieved 87.33% accuracy on the Yelp P. dataset."
+        },
+        {
+            "entity_name": "YELP F.",
+            "entity_type": "UNKNOWN",
+            "description": "The Bag-of-means model achieved 53.54% accuracy on the Yelp F. dataset."
+        },
+        {
+            "entity_name": "DBPEDIA",
+            "entity_type": "UNKNOWN",
+            "description": "The Bag-of-means model achieved 90.45% accuracy on the DBpedia dataset."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Top five words with the largest values in a given word-embedding dimension (each column corresponds to a dimension). The first row shows the (manually assigned) topic for words in each column.' The table is structured with eight columns, each representing a different topic: Politics, Science, Computer, Sports, Chemistry, Finance, and Geoscience. Each column contains five rows of words that are associated with the respective topic. For example, under the 'Politics' column, the words listed are 'philipdru', 'justices', 'impeached', 'impeachment', and 'neocons'. Under the 'Science' column, the words are 'coulomb', 'differentiable', 'paranormal', 'converge', and 'antimatter'. The table provides a detailed list of words that are highly associated with each topic based on their word-embedding dimensions."
+        },
+        {
+            "entity_name": "POLITICS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table containing terms related to political themes such as 'philipdru', 'justices', 'impeached', 'impeachment', and 'neocons'."
+        },
+        {
+            "entity_name": "SCIENCE",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table containing scientific terms including 'coulomb', 'differentiable', 'paranormal', 'converge', and 'antimatter'."
+        },
+        {
+            "entity_name": "COMPUTER",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table with computer-related terms like 'system32', 'cobol', 'agp', 'dhcp', and 'win98'."
+        },
+        {
+            "entity_name": "SPORTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table featuring sports-related terms such as 'billups', 'midfield', 'sportblogs', 'mickelson', and 'juventus'."
+        },
+        {
+            "entity_name": "CHEMISTRY",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table with chemistry-related terms including 'sio2 (SiO2)', 'nonmetal', 'pka', 'chemistry', and 'quarks'."
+        },
+        {
+            "entity_name": "FINANCE",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table with finance-related terms such as 'proprietorship', 'ameritrade', 'retailing', 'mlm', and 'budgeting'."
+        },
+        {
+            "entity_name": "GEOSCIENCE",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the table with geoscience-related terms including 'fossil', 'zoos', 'farming', 'volcanic', and 'ecosystem'."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Speed & Parameters on Yahoo! Answer dataset.' The table compares three different models: CNN, LSTM, and SWEM. It has three columns: Model, Parameters, and Speed. The rows represent the respective values for each model. For the CNN model, it has 541K parameters and a speed of 171 seconds. The LSTM model has 1.8M parameters and a speed of 598 seconds. The SWEM model has 61K parameters and a speed of 63 seconds. The table highlights the differences in computational efficiency and parameter count among these models."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "MODEL",
+            "description": "A type of neural network with 541K parameters and a processing speed of 171 seconds."
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "MODEL",
+            "description": "A type of neural network with 1.8M parameters and a processing speed of 598 seconds."
+        },
+        {
+            "entity_name": "SWEM",
+            "entity_type": "MODEL",
+            "description": "A type of neural network with 61K parameters and a processing speed of 63 seconds."
+        },
+        {
+            "entity_name": "PARAMETERS",
+            "entity_type": "UNKNOWN",
+            "description": "The CNN model has 541K parameters."
+        },
+        {
+            "entity_name": "SPEED",
+            "entity_type": "UNKNOWN",
+            "description": "The CNN model processes in 171 seconds."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a histogram comparing the learned word embeddings of SWEM-max and GloVe for the same vocabulary, trained on the Yahoo! Answer dataset. The x-axis represents the embedding amplitude, ranging from -1.5 to 1.5, while the y-axis represents the frequency, scaled to \\(10^7\\). The histogram for GloVe embeddings is depicted in light blue, showing a distribution with multiple peaks and valleys, indicating a denser spread of values around zero. In contrast, the histogram for SWEM-max embeddings is shown in red, with a single, tall peak centered at zero, indicating that most of the values are highly concentrated around zero, making the embeddings very sparse. This suggests that SWEM-max relies on a few key words for predictions, as most words do not contribute significantly to the max-pooling operation."
+        },
+        {
+            "entity_name": "GLOVE",
+            "entity_type": "ORGANIZATION",
+            "description": "A word embedding model developed by Stanford University, represented by the light blue bars in the histogram."
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "ORGANIZATION",
+            "description": "A sentence embedding model that uses the maximum value of word embeddings, represented by the red bar in the histogram."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the performance of different models on matching natural language sentences across various datasets. The table is structured with rows representing different models and columns representing different datasets. The datasets are SNLI, MultiNLI (Matched and Mismatched), WikiQA, Quora, and MSRP. Each dataset has specific metrics reported: SNLI and MultiNLI report accuracy (Acc.), WikiQA reports Mean Average Precision (MAP) and Mean Reciprocal Rank (MRR), Quora reports accuracy (Acc.), and MSRP reports accuracy (Acc.) and F1 score. The models listed are CNN, LSTM, SWEM-aver, SWEM-max, and SWEM-concat. For example, CNN achieves an accuracy of 82.1% on SNLI, 65.0% on MultiNLI Matched, and 65.3% on MultiNLI Mismatched. LSTM achieves an accuracy of 80.6% on SNLI, 66.9% on MultiNLI Matched, and 66.9% on MultiNLI Mismatched. SWEM-max performs the best among all SWEM variants, achieving an accuracy of 83.8% on SNLI, 68.2% on MultiNLI Matched, and 67.7% on MultiNLI Mismatched. The table highlights the competitive performance of SWEM-max with only 120K parameters."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "MODEL",
+            "description": "A type of neural network model used for various tasks including image and text recognition. In this context, it is used for natural language inference tasks as indicated by the table."
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "MODEL",
+            "description": "A type of recurrent neural network (RNN) that is well-suited to classify, process and predict time series given time lags of unknown size and duration. It is used here for natural language inference tasks."
+        },
+        {
+            "entity_name": "SWEM-AVER",
+            "entity_type": "MODEL",
+            "description": "A model that averages word embeddings for sentence representation in natural language inference tasks."
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "MODEL",
+            "description": "A model that uses the maximum value of word embeddings for sentence representation in natural language inference tasks."
+        },
+        {
+            "entity_name": "SWEM-CONCAT",
+            "entity_type": "MODEL",
+            "description": "A model that concatenates word embeddings for sentence representation in natural language inference tasks."
+        },
+        {
+            "entity_name": "SNLI",
+            "entity_type": "DATASET",
+            "description": "The Stanford Natural Language Inference dataset used for evaluating models on natural language inference tasks."
+        },
+        {
+            "entity_name": "MULTINLI",
+            "entity_type": "DATASET",
+            "description": "The Multi-genre Natural Language Inference dataset used for evaluating models on natural language inference tasks. It has matched and mismatched sections."
+        },
+        {
+            "entity_name": "WIKIQA",
+            "entity_type": "DATASET",
+            "description": "A question answering dataset used for evaluating models on question answering tasks."
+        },
+        {
+            "entity_name": "QUORA",
+            "entity_type": "DATASET",
+            "description": "A dataset from Quora used for evaluating models on question pair similarity tasks."
+        },
+        {
+            "entity_name": "MSRP",
+            "entity_type": "DATASET",
+            "description": "The Microsoft Research Paraphrase Corpus used for evaluating models on paraphrase identification tasks."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Test accuracy for LSTM model trained on original/shuffled training set.' The table is structured with two main columns: Datasets and the corresponding accuracies for the Original and Shuffled training sets. The rows represent three distinct datasets: Yahoo, Yelp P., and SNLI. The accuracies are as follows: for the Yahoo dataset, the Original training set has an accuracy of 72.78%, and the Shuffled training set has an accuracy of 72.89%. For the Yelp P. dataset, the Original training set has an accuracy of 95.11%, and the Shuffled training set has an accuracy of 93.49%. For the SNLI dataset, the Original training set has an accuracy of 78.02%, and the Shuffled training set has an accuracy of 77.68%. The table highlights the performance comparison between the LSTM model trained on the original dataset and the same model trained on a shuffled dataset, indicating that the word-order information does not significantly affect the test accuracy for the Yahoo and SNLI datasets but shows a slight decrease for the Yelp P. dataset."
+        },
+        {
+            "entity_name": "DATASETS",
+            "entity_type": "ORGANIZATION",
+            "description": "A table listing three datasets: Yahoo, Yelp P., and SNLI, with their original and shuffled performance metrics."
+        },
+        {
+            "entity_name": "YAHOO",
+            "entity_type": "EVENT",
+            "description": "The first dataset in the table, showing an original performance of 72.78 and a shuffled performance of 72.89."
+        },
+        {
+            "entity_name": "YELP P.",
+            "entity_type": "EVENT",
+            "description": "The second dataset in the table, showing an original performance of 95.11 and a shuffled performance of 93.49."
+        },
+        {
+            "entity_name": "SNLI",
+            "entity_type": "EVENT",
+            "description": "The third dataset in the table, showing an original performance of 78.02 and a shuffled performance of 77.68."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table with two sections labeled 'Negative' and 'Positive'. The 'Negative' section states: 'Friendly staff and nice selection of vegetarian options. Food is just okay, not great. Makes me wonder why everyone likes food fight so much.' The 'Positive' section states: 'The store is small, but it carries specialties that are difficult to find in Pittsburgh. I was particularly excited to find middle eastern chili sauce and chocolate covered turkish delights.'"
+        },
+        {
+            "entity_name": "FOOD FIGHT",
+            "entity_type": "ORGANIZATION",
+            "description": "A restaurant known for its vegetarian options and friendly staff."
+        },
+        {
+            "entity_name": "PITTSBURGH",
+            "entity_type": "GEO",
+            "description": "A city where the store is located, and where certain food items are difficult to find."
+        },
+        {
+            "entity_name": "MIDDLE EASTERN CHILI SAUCE",
+            "entity_type": "OBJECT",
+            "description": "A specialty food item that was particularly exciting to find at the store."
+        },
+        {
+            "entity_name": "CHOCOLATE COVERED TURKISH DELIGHTS",
+            "entity_type": "OBJECT",
+            "description": "Another specialty food item that was particularly exciting to find at the store."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 8: Test accuracies with different compositional functions on (short) sentence classifications.' The table is structured with the following columns: Model, MR, SST-1, SST-2, Subj, and TREC. Each row represents a different model and its corresponding test accuracy values for various datasets. The models listed include RAE, MV-RNN, LSTM, RNN, Constituency Tree-LSTM, Dynamic CNN, CNN, DAN-ROOT, SWEM-aver, SWEM-max, and SWEM-concat. The accuracy values are as follows: RAE has accuracies of 77.7 for MR, 43.2 for SST-1, and 82.4 for SST-2; MV-RNN has 79.0 for MR, 44.4 for SST-1, and 82.9 for SST-2; LSTM has 46.4 for SST-1 and 84.9 for SST-2; RNN has 93.7 for Subj and 90.2 for TREC; Constituency Tree-LSTM has 51.0 for SST-1 and 88.0 for SST-2; Dynamic CNN has 48.5 for SST-1 and 86.8 for SST-2; CNN has 81.5 for MR, 48.0 for SST-1, 88.1 for SST-2, 93.4 for Subj, and 93.6 for TREC; DAN-ROOT has 46.9 for SST-1 and 85.7 for SST-2; SWEM-aver has 77.6 for MR, 45.2 for SST-1, 83.9 for SST-2, 92.5 for Subj, and 92.2 for TREC; SWEM-max has 76.9 for MR, 44.1 for SST-1, 83.6 for SST-2, 91.2 for Subj, and 89.0 for TREC; SWEM-concat has 78.2 for MR, 46.1 for SST-1, 84.3 for SST-2, 93.0 for Subj, and 91.8 for TREC. The table highlights the performance of these models across different datasets."
+        },
+        {
+            "entity_name": "RAE (SOCHER ET AL., 2011B)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Socher et al. in 2011, achieving an MR of 77.7, SST-1 of 43.2, and SST-2 of 82.4."
+        },
+        {
+            "entity_name": "MV-RNN (SOCHER ET AL., 2012)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Socher et al. in 2012, achieving an MR of 79.0, SST-1 of 44.4, and SST-2 of 82.9."
+        },
+        {
+            "entity_name": "LSTM (TAI ET AL., 2015)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Tai et al. in 2015, achieving an SST-1 of 46.4 and SST-2 of 84.9."
+        },
+        {
+            "entity_name": "RNN (ZHAO ET AL., 2015)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Zhao et al. in 2015, achieving a Subj of 93.7 and TREC of 90.2."
+        },
+        {
+            "entity_name": "CONSTITUENCY TREE-LSTM (TAI ET AL., 2015)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Tai et al. in 2015, achieving an SST-1 of 51.0 and SST-2 of 88.0."
+        },
+        {
+            "entity_name": "DYNAMIC CNN (KALCHBRENNER ET AL., 2014)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Kalchbrenner et al. in 2014, achieving an SST-1 of 48.5 and TREC of 93.0."
+        },
+        {
+            "entity_name": "CNN (KIM, 2014)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Kim in 2014, achieving an MR of 81.5, SST-1 of 48.0, SST-2 of 88.1, Subj of 93.4, and TREC of 93.6."
+        },
+        {
+            "entity_name": "DAN-ROOT (IYYER ET AL., 2015)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Iyyer et al. in 2015, achieving an SST-1 of 46.9 and SST-2 of 85.7."
+        },
+        {
+            "entity_name": "SWEM-AVER",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 77.6, SST-1 of 45.2, SST-2 of 83.9, Subj of 92.5, and TREC of 92.2."
+        },
+        {
+            "entity_name": "SWEM-MAX",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 76.9, SST-1 of 44.1, SST-2 of 83.6, Subj of 91.2, and TREC of 89.0."
+        },
+        {
+            "entity_name": "SWEM-CONCAT",
+            "entity_type": "MODEL",
+            "description": "A model achieving an MR of 78.2, SST-1 of 46.1, SST-2 of 84.3, Subj of 93.0, and TREC of 91.8."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two line graphs plotted side by side. Each graph has a horizontal axis labeled 'Subspace dim d' ranging from 0 to 10 and a vertical axis labeled 'Accuracy' with values ranging from approximately 0.9 to 1.0. The left graph shows the performance of two models, SWEM (blue circles) and CNN (red circles), as the subspace dimension increases. Both models start at an accuracy of around 0.925 when d=0, with SWEM showing a slight increase in accuracy as d increases, reaching close to 1.0 at d=10. CNN also shows an increase but remains slightly below SWEM across all dimensions. The right graph shows the same models but with their word embeddings frozen. Here, both models start at a lower accuracy of around 0.89 when d=0. SWEM again shows a steady increase in accuracy, reaching close to 0.92 at d=10, while CNN shows a more erratic pattern with a peak at d=1 and then a gradual increase. Both graphs include dashed lines representing the direct training performance for comparison, with SWEM direct (blue dashed line) and CNN direct (red dashed line) maintaining a constant accuracy across all dimensions."
+        },
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model represented by blue circles and a solid line in the graph, showing its accuracy across different subspace dimensions."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model represented by red circles and a solid line in the graph, showing its accuracy across different subspace dimensions."
+        },
+        {
+            "entity_name": "SWEM DIRECT",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline for SWEM, represented by blue circles and a dashed line in the graph, showing its accuracy across different subspace dimensions."
+        },
+        {
+            "entity_name": "CNN DIRECT",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline for CNN, represented by red circles and a dashed line in the graph, showing its accuracy across different subspace dimensions."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two line graphs side by side, each plotting the accuracy of two models, SWEM and CNN, against the subspace dimension d. The x-axis represents the subspace dimension d, ranging from 0 to 1000 in increments of 200. The y-axis represents the accuracy, ranging from 0.5 to 0.9. Each graph contains four lines: a solid blue line for SWEM, a solid red line for CNN, a dashed blue line for SWEM direct, and a dashed red line for CNN direct. In both graphs, the SWEM and CNN lines start at a low accuracy near d=0 and gradually increase as d increases, approaching an accuracy of around 0.85 to 0.9. The SWEM direct and CNN direct lines are horizontal at the top of the graph, indicating a constant high accuracy regardless of d. The first graph on the left shows the performance when word embeddings are optimized, while the second graph on the right shows the performance when word embeddings are frozen. Both graphs demonstrate that the subspace training yields similar accuracy with direct training for very small d, and SWEM seems to have an easier loss landscape than CNN for word embeddings to find the best solutions."
+        },
+        {
+            "entity_name": "SWEM",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model used for subspace learning, represented by the blue line and circles in the graphs."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "A convolutional neural network, represented by the red line and circles in the graphs."
+        },
+        {
+            "entity_name": "SUBSPACE DIM D",
+            "entity_type": "EVENT",
+            "description": "The x-axis variable representing the dimension of the subspace, ranging from 0 to 1000."
+        },
+        {
+            "entity_name": "ACCURACY",
+            "entity_type": "EVENT",
+            "description": "The y-axis variable representing the accuracy of the models, ranging from 0.5 to 0.9."
+        }
+    ]
+}

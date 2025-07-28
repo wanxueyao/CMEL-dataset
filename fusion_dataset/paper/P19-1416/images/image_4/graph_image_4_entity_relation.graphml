@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2' that categorizes bridge questions while taking paragraphs into account. The table has four rows and four columns. The first column, labeled 'Type', lists three types of questions: Multi-hop, Context-dependent, and Single-hop. The second column, labeled 'Question', provides examples for each type. For the Multi-hop type, the question is 'Who was born first, Arthur Conan Doyle or Penelope Lively?', with a percentage value of 45% and an F1 score of 54.46. For the Context-dependent type, the question is 'Are Hot Rod and the Memory of Our People both magazines?', with a percentage value of 36% and an F1 score of 56.16. For the Single-hop type, the question is 'Which writer was from England, Henry Roth or Robert Erskine Childers?', with a percentage value of 17% and an F1 score of 70.54. The table is used to analyze the performance of a model on different types of questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;ARTHUR CONAN DOYLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A famous author known for creating the detective Sherlock Holmes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;PENELOPE LIVELY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An English writer of fiction for both children and adults, known for her historical novels and literary fiction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;HOT ROD&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A magazine focused on automotive content, particularly hot rods and custom cars."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;THE MEMORY OF OUR PEOPLE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A publication that seems to be related to cultural or historical memory, possibly a magazine or journal."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;HENRY ROTH&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An American novelist best known for his debut novel 'Call It Sleep'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<node id="&quot;ROBERT ERSKINE CHILDERS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An Irish writer and politician, known for his novel 'The Riddle of the Sands' and his role in the Irish War of Independence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ARTHUR CONAN DOYLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Arthur Conan Doyle是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PENELOPE LIVELY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Penelope Lively是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;HOT ROD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hot Rod是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;THE MEMORY OF OUR PEOPLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Memory of Our People是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;HENRY ROTH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Henry Roth是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;ROBERT ERSKINE CHILDERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Robert Erskine Childers是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ARTHUR CONAN DOYLE&quot;" target="&quot;PENELOPE LIVELY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are authors but Arthur Conan Doyle was born first."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOT ROD&quot;" target="&quot;THE MEMORY OF OUR PEOPLE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both are publications, but it is unclear if they are both magazines based on the given information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HENRY ROTH&quot;" target="&quot;ROBERT ERSKINE CHILDERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are writers, but Robert Erskine Childers was from England while Henry Roth was American."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

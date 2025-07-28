@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_17&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a series of line graphs depicting human evaluation results for various configurations. Each graph has multiple lines representing different models: 'Question-controlled CT', 'Beam search baseline', 'Greedy search baseline', 'Human', and 'Repetition-controlled baseline'. The x-axis varies across the graphs, showing parameters such as 'Fewer Questions', 'More Questions', 'Generic', 'Specific', 'More Generic', 'More Specific', 'More unrelated', 'No control', 'More related'. The y-axis represents the evaluation scores, ranging from 2.0 to 3.6. The graphs are organized into rows and columns, each row corresponding to a different evaluation metric (e.g., Fluency, Engagingness, Humanness, Making Sense, Interestingness, Avoiding Repetition, Listening). The maximum score in each column (excluding the 'Human' row) is highlighted in bold. The graphs show trends where certain models perform better under specific conditions. For example, the 'Question-controlled CT' model generally performs well with more questions, while the 'Repetition-controlled baseline' shows high scores in avoiding repetition."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;REPETITION CONTROL SETTING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The top left graph showing the repetition control setting with different baselines and human performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The top second graph from the left showing the question-asking control level with CT."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The top third graph from the left showing the specificity control level with CT."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The top fourth graph from the left showing the specificity control level with WD."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The top fifth graph from the left showing the response-relatedness control level with WD."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A baseline method used in the graphs for comparison, represented by a blue line."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another baseline method used in the graphs for comparison, represented by a green dashed line."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;HUMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Human performance used as a benchmark in the graphs, represented by an orange line."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<node id="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A baseline method controlled for repetition, represented by a purple dotted line."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+</node>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;REPETITION CONTROL SETTING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Repetition control setting是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question-Asking Control Level (CT)是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity Control Level (CT)是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity Control Level (WD)是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Response-relatedness Control Level (WD)是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beam search baseline是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Greedy search baseline是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Repetition-controlled baseline是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REPETITION CONTROL SETTING&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beam search baseline is one of the methods compared in the repetition control setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REPETITION CONTROL SETTING&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The greedy search baseline is one of the methods compared in the repetition control setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REPETITION CONTROL SETTING&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human performance is one of the benchmarks compared in the repetition control setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;REPETITION CONTROL SETTING&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The repetition-controlled baseline is one of the methods compared in the repetition control setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beam search baseline is one of the methods compared in the question-asking control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The greedy search baseline is one of the methods compared in the question-asking control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human performance is one of the benchmarks compared in the question-asking control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTION-ASKING CONTROL LEVEL (CT)&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The repetition-controlled baseline is one of the methods compared in the question-asking control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beam search baseline is one of the methods compared in the specificity control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The greedy search baseline is one of the methods compared in the specificity control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human performance is one of the benchmarks compared in the specificity control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (CT)&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The repetition-controlled baseline is one of the methods compared in the specificity control level with CT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beam search baseline is one of the methods compared in the specificity control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The greedy search baseline is one of the methods compared in the specificity control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human performance is one of the benchmarks compared in the specificity control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPECIFICITY CONTROL LEVEL (WD)&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The repetition-controlled baseline is one of the methods compared in the specificity control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beam search baseline is one of the methods compared in the response-relatedness control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;" target="&quot;GREEDY SEARCH BASELINE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The greedy search baseline is one of the methods compared in the response-relatedness control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Human performance is one of the benchmarks compared in the response-relatedness control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RESPONSE-RELATEDNESS CONTROL LEVEL (WD)&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The repetition-controlled baseline is one of the methods compared in the response-relatedness control level with WD."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_45&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a minimalist drawing featuring a single star in the upper right quadrant against a plain, off-white background. The star is small and simple, with five points. Near the bottom of the image, there are two faint, wavy lines that suggest a horizon or distant landscape. The overall mood of the image is serene and contemplative, evoking a sense of quiet solitude and perhaps a hint of melancholy. The simplicity of the drawing focuses attention on the solitary star, which could symbolize hope, guidance, or a significant point of reference."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+</node>
+<node id="&quot;STAR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small, gray star located in the upper right portion of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+</node>
+<node id="&quot;LINES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Two intersecting lines at the bottom of the image, creating a V-shape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+</node>
+<edge source="&quot;IMAGE_45&quot;" target="&quot;STAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Star是从image_45中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_45&quot;" target="&quot;LINES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lines是从image_45中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STAR&quot;" target="&quot;LINES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The star is positioned above and to the right of the intersection of the lines."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_45.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

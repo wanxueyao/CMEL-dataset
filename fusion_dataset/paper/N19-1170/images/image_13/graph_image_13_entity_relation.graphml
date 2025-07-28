@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_13&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Control settings for all configurations that were human-evaluated.' The table is structured with multiple columns and rows, detailing various control settings for different models. The columns include 'Repetition,' 'Specificity,' 'Response-rel,' and 'Questions.' Under 'Repetition,' there are sub-columns for 'External Bigram,' 'External Unigram,' 'Internal Bigram,' 'Internal Unigram,' and 'Partner Rep. Bigram.' The 'Specificity' column has a sub-column for 'NIDF,' and the 'Response-rel' column has a sub-column for 'Cos sim.' The 'Questions' column has a sub-column for 'Has '?''.\n\nThe table begins with 'Baselines' and lists two methods: 'Greedy Search' and 'Beam Search (beam size 20).' Following this, there are sections for 'Repetition control (WD),' 'Question control (CT),' 'Specificity control (CT),' 'Specificity control (WD),' and 'Response-related control (WD).' Each section contains rows with specific settings and weights (wt) for different features.\n\nFor example, in the 'Repetition control (WD)' section, there are entries like 'Extrep bigram WD -0.5' with wt -0.5, and 'Extrep bigram WD -inf' with wt -∞. In the 'Question control (CT)' section, there are entries like 'Question-controlled CT 0' with wt -3.5 and z = 0, and 'Question-controlled CT 10 (boost)' with wt 0 * and z = 10.\n\nThe table provides detailed information on how different control settings affect the model's performance, with specific weights assigned to various features to control repetition, specificity, and response-related aspects."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying various data points and metrics related to language model performance, including repetition control, question control, specificity control, and response-related control."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;METRICS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Numerical values representing the performance of different language models under various conditions, such as weightings for bigram and unigram repetitions, NIDF scores, cosine similarity, and presence of question marks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;REPETITION CONTROL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of controlling the repetition of words or phrases in generated text, with different weightings applied to external, internal, and partner repetitions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;QUESTION CONTROL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of controlling the generation of questions in text, with different settings for the number of questions generated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;SPECIFICITY CONTROL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of controlling the specificity of generated text, with different weightings applied to NIDF scores."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<node id="&quot;RESPONSE-RELATED CONTROL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of controlling the relevance of generated responses to input prompts, with different weightings applied to cosine similarity scores."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+</node>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;METRICS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Metrics是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;REPETITION CONTROL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Repetition Control是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;QUESTION CONTROL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question Control是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;SPECIFICITY CONTROL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Specificity Control是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_13&quot;" target="&quot;RESPONSE-RELATED CONTROL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Response-Related Control是从image_13中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;METRICS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains the metrics used to evaluate the performance of different language models under various conditions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;REPETITION CONTROL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The table includes data on the performance of different language models under repetition control conditions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;QUESTION CONTROL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The table includes data on the performance of different language models under question control conditions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SPECIFICITY CONTROL&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The table includes data on the performance of different language models under specificity control conditions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;RESPONSE-RELATED CONTROL&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The table includes data on the performance of different language models under response-related control conditions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_13.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

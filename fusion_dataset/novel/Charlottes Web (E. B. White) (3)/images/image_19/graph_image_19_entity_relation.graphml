@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_19_BIRD-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Bird- Name: Owl- Age: Adult- Color: The owl has a predominantly dark body with lighter patches, especially around the face and chest area.- Shape: The owl has a rounded body with a large head that appears to be turned slightly to one side. The eyes are large and round, giving it a characteristic alert expression. The beak is short and curved, typical of owls.- Size: The owl appears to be of medium size, though the exact dimensions cannot be determined from this image alone.- Posture: The owl is standing upright, with its wings folded close to its body.Overall, the owl depicted in the image has a classic appearance associated with many species of owls, characterized by its large eyes and rounded body shape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;IMAGE_19&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a pastoral farm scene. In the foreground, there is a pig standing near a wooden fence. The pig appears to be looking up at a spider web that spans across the top of the doorway. The web has three spiders on it, each positioned at different points along the web. The spiders are small and detailed, with visible legs and bodies. The background features a barn on the right side, with its roof sloping downward. There are trees in the distance, their branches bare, suggesting a late autumn or early winter setting. The sky is clear, and the overall atmosphere is serene and calm, evoking a sense of quiet reflection and companionship between the pig and the spiders."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A cartoon pig standing in a barnyard, looking towards the viewer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;BARN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A wooden barn structure with a slanted roof, located to the right of the pig."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Two leafless trees standing in the background, behind the pig and the barn."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence running horizontally across the image, separating the foreground from the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<node id="&quot;SPIDER WEBS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several spider webs attached to the top frame of the image, indicating an outdoor setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+</node>
+<edge source="&quot;IMAGE_19_BIRD-0.JPG&quot;" target="&quot;PIG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_19_bird-0.jpg is a picture of a pig."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19_BIRD-0.JPG&quot;" target="&quot;IMAGE_19&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_19_bird-0.jpg是image_19的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;BARN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Barn是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;SPIDER WEBS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider Webs是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;BARN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pig is standing in front of the barn, suggesting it might be housed there."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The pig is standing in front of the trees, which are further back in the scene."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The pig is standing in front of the fence, which separates it from the background elements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BARN&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The barn is situated to the right of the trees, indicating they are part of the same landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BARN&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The barn is located behind the fence, which runs parallel to its base."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREES&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The trees are positioned behind the fence, indicating they are further away in the background."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FENCE&quot;" target="&quot;SPIDER WEBS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The spider webs are attached to the top of the fence, indicating they are part of the same structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

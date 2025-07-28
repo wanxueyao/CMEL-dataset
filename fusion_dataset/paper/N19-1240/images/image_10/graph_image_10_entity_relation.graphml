@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Samples from WIKIHOP set where Entity-GCN fails.' The table is structured with multiple rows and columns. Each row represents a sample ID, query, gold answer, predicted answer, and their respective probabilities. The columns are as follows: 'ID', 'Query', 'Gold answer', 'Predicted answer', and the probability values for both the gold and predicted answers. \n\nFor example, the first row has the following details: \n- ID: WH_dev_2257 \n- Query: inception (of) Derrty Entertainment \n- Gold answer: 2003 (p = 14.1) \n- Predicted answer: 2000 (p = 15.8) \n\nSupport texts are provided for each sample to explain the context of the query and the answers. For instance, Support 1 for the first sample states that Derrty Entertainment is a record label founded by [...], and the first album released under Derrty Entertainment was Nelly's Country Grammar. Support 2 mentions that Country Grammar is the debut single by American rapper Nelly, produced by Jason Epperson, and released in 2000. \n\nThe footnote explains that there is ambiguity between two entities since the city Eslov is located in the Scania County (English name of Skane County). The model assigns high probability to the city and cannot select the county. \n\nThe context discusses the performance of the Entity-GCN model and its failure cases in the WIKIHOP dataset."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;DERRTY ENTERTAINMENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A record label founded by an unspecified individual. The first album released under this label was Nelly's 'Country Grammar' in 2000."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;NELLY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An American rapper whose debut single 'Country Grammar' was produced by Jason Epperson and released in 2000."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;COUNTRY GRAMMAR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The debut single by Nelly, produced by Jason Epperson and released in 2000."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;JASON EPPERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A music producer who produced Nelly's debut single 'Country Grammar'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;ADOLPH ZUKOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual associated with the Famous Players-Lasky Corporation, which was formed from the merger of his Famous Players Film Company and the Jesse L. Lasky Feature Play Company."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;JESSE L. LASKY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual associated with the Famous Players-Lasky Corporation, which was formed from the merger of Adolph Zukor's Famous Players Film Company and his own Feature Play Company."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;FAMOUS PLAYERS-LASKY CORPORATION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A corporation formed from the merger of Adolph Zukor's Famous Players Film Company and Jesse L. Lasky's Feature Play Company."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;FORBIDDEN PARADISE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A drama film produced by Famous Players-Lasky Corporation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;ERIK PENSER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A Swedish individual born on August 22, 1942, in Eslöv, Skåne."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;ESLÖV&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A location in Skåne where Erik Penser was born."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<node id="&quot;SKÅNE COUNTY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A county in Sweden, sometimes referred to as 'Scania County' in English."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;DERRTY ENTERTAINMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Derrty Entertainment是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;NELLY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nelly是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;COUNTRY GRAMMAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Country Grammar是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;JASON EPPERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Jason Epperson是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ADOLPH ZUKOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Adolph Zukor是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;JESSE L. LASKY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Jesse L. Lasky是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;FAMOUS PLAYERS-LASKY CORPORATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Famous Players-Lasky Corporation是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;FORBIDDEN PARADISE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Forbidden Paradise是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ERIK PENSER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Erik Penser是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ESLÖV&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Eslöv是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;SKÅNE COUNTY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Skåne County是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DERRTY ENTERTAINMENT&quot;" target="&quot;NELLY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Nelly's debut single 'Country Grammar' was released under Derrty Entertainment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NELLY&quot;" target="&quot;COUNTRY GRAMMAR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nelly performed the song 'Country Grammar', which was his debut single."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COUNTRY GRAMMAR&quot;" target="&quot;JASON EPPERSON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Jason Epperson produced Nelly's debut single 'Country Grammar'.</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ADOLPH ZUKOR&quot;" target="&quot;FAMOUS PLAYERS-LASKY CORPORATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Adolph Zukor's Famous Players Film Company merged with Jesse L. Lasky's Feature Play Company to form Famous Players-Lasky Corporation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JESSE L. LASKY&quot;" target="&quot;FAMOUS PLAYERS-LASKY CORPORATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Jesse L. Lasky's Feature Play Company merged with Adolph Zukor's Famous Players Film Company to form Famous Players-Lasky Corporation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FAMOUS PLAYERS-LASKY CORPORATION&quot;" target="&quot;FORBIDDEN PARADISE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Famous Players-Lasky Corporation produced the drama film 'Forbidden Paradise'.</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ERIK PENSER&quot;" target="&quot;ESLÖV&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Erik Penser was born in Eslöv, Skåne."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ESLÖV&quot;" target="&quot;SKÅNE COUNTY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Eslöv is a location within Skåne County."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

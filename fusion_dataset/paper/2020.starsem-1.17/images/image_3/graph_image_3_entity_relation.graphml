@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides dataset information for MultiWOZ 2.0 and MultiWOZ 2.1. The table is divided into two main sections: the top section lists five selected domains (Hotel, Train, Restaurant, Attraction, Taxi) along with their respective slots, and the bottom section shows the number of dialogues for each domain across three datasets (Train, Validation, Test). Each domain has multiple slots associated with it. For example, the Hotel domain includes slots such as price range, type, parking, book stay, book day, book people, area, stars, internet, and name. The Train domain includes destination, day, departure, arrive by, book people, leave at, and so on. The Restaurant domain includes food, price range, area, name, book time, book day, book people, and more. The Attraction domain includes area, name, and type. The Taxi domain includes leave at, destination, departure, and arrive by. The bottom section shows the number of dialogues for each domain in the Train, Validation, and Test datasets. For instance, the Hotel domain has 3381 dialogues in the Train set, 416 in the Validation set, and 394 in the Test set. Similarly, the Train domain has 3103 dialogues in the Train set, 484 in the Validation set, and 494 in the Test set. The Restaurant domain has 3813 dialogues in the Train set, 438 in the Validation set, and 437 in the Test set. The Attraction domain has 2717 dialogues in the Train set, 401 in the Validation set, and 395 in the Test set. The Taxi domain has 1654 dialogues in the Train set, 207 in the Validation set, and 195 in the Test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<node id="&quot;DOMAIN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table categorizing different domains such as Hotel, Train, Restaurant, Attraction, and Taxi."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<node id="&quot;SLOTS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A list of attributes or parameters associated with each domain, such as price range, type, parking, etc."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<node id="&quot;TRAIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset split for the Train phase, containing 3381 entries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<node id="&quot;VALIDATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset split for the Validation phase, containing 416 entries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<node id="&quot;TEST&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset split for the Test phase, containing 394 entries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;DOMAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Domain是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SLOTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Slots是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;VALIDATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Validation是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TEST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Test是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOMAIN&quot;" target="&quot;SLOTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Slots are attributes that belong to each Domain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOMAIN&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Train dataset is used to train models within each Domain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOMAIN&quot;" target="&quot;VALIDATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Validation dataset is used to validate models within each Domain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOMAIN&quot;" target="&quot;TEST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Test dataset is used to test models within each Domain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

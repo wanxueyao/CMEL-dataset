@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_DOG-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Cat- Age: Appears to be an adult cat- Color: Black with a white underbelly and paws- Shape: The cat has a rounded body, typical of domestic cats, with a visible tail and ears. The posture suggests it is lying down or resting.- Size: The cat appears to be of average size for an adult domestic cat.- Posture: The cat is in a relaxed position, with its front paws stretched out and its head turned slightly to the side, giving a sense of calmness and comfort."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a kitten being held upside down by a human hand. The kitten appears to be in a state of distress or discomfort, with its eyes wide open and its body stretched out. The kitten's fur is dark, and its posture suggests it is being shaken or jostled. The background is minimalistic, with vertical lines that give the impression of a striped pattern or possibly a curtain. The overall atmosphere conveyed by the image is one of tension and discomfort, as the kitten seems to be experiencing an unpleasant situation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+</node>
+<node id="&quot;CAT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A black cat with a surprised expression, being held upside down by a hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+</node>
+<node id="&quot;HAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A human hand holding the cat upside down."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_DOG-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_dog-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cat是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;HAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hand是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CAT&quot;" target="&quot;HAND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The hand is holding the cat upside down."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

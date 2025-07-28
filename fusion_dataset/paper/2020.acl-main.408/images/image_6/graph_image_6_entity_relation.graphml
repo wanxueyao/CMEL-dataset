@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Metrics for ‘soft’ scoring models.' The table is structured with the following columns: Perf., AUPRC, Comp. ↑, and Suff. ↓. Each row represents different models and their respective metrics. The rows are categorized under different datasets: Evidence Inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI. For each dataset, four models are listed: GloVe + LSTM - Attention, GloVe + LSTM - Gradient, GloVe + LSTM - Lime, and GloVe + LSTM - Random. The values in the Perf. column represent accuracy (CoS-E) or F1 (others). The AUPRC column shows the Area Under the Precision-Recall Curve. The Comp. ↑ and Suff. ↓ columns are in terms of AOPC (Eq. 3). The 'Random' model assigns random scores to tokens to induce orderings; these are averages over 10 runs. The table provides detailed numerical values for each metric across the different models and datasets. For example, for the Evidence Inference dataset, the GloVe + LSTM - Attention model has a Perf. of 0.429, AUPRC of 0.506, Comp. ↑ of -0.002, and Suff. ↓ of -0.023. Similarly, for the BoolQ dataset, the same model has a Perf. of 0.471, AUPRC of 0.525, Comp. ↑ of 0.010, and Suff. ↓ of 0.022. The table highlights the performance and evaluation metrics of various models across different datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;GLOVE + LSTM - ATTENTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines GloVe embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;GLOVE + LSTM - GRADIENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines GloVe embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;GLOVE + LSTM - LIME&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines GloVe embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;GLOVE + LSTM - RANDOM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines GloVe embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT+LSTM - ATTENTION&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines BERT embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT+LSTM - GRADIENT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines BERT embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT+LSTM - LIME&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines BERT embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<node id="&quot;BERT+LSTM - RANDOM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model configuration that combines BERT embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GLOVE + LSTM - ATTENTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GloVe + LSTM - Attention是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GLOVE + LSTM - GRADIENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GloVe + LSTM - Gradient是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GLOVE + LSTM - LIME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GloVe + LSTM - Lime是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GLOVE + LSTM - RANDOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GloVe + LSTM - Random是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT+LSTM - ATTENTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+LSTM - Attention是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT+LSTM - GRADIENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+LSTM - Gradient是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT+LSTM - LIME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+LSTM - Lime是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BERT+LSTM - RANDOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+LSTM - Random是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GLOVE + LSTM - ATTENTION&quot;" target="&quot;GLOVE + LSTM - GRADIENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GLOVE + LSTM - ATTENTION&quot;" target="&quot;GLOVE + LSTM - LIME&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GLOVE + LSTM - ATTENTION&quot;" target="&quot;GLOVE + LSTM - RANDOM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+LSTM - ATTENTION&quot;" target="&quot;BERT+LSTM - GRADIENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+LSTM - ATTENTION&quot;" target="&quot;BERT+LSTM - LIME&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT+LSTM - ATTENTION&quot;" target="&quot;BERT+LSTM - RANDOM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are configurations of the same model architecture but use different methods for evidence inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

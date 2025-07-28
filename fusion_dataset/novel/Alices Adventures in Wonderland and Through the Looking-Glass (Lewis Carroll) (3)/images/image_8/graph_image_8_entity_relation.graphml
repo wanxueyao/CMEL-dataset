@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, curly hair, styled in a manner typical of ancient Roman or Greek depictions- Facial Expression: Stern and focused, with a furrowed brow and intense gaze- Age: Appears to be an adult male- Clothing: Wearing a detailed, ornate helmet that covers the head and neck, with intricate designs and a crest on top; draped in a heavy, textured garment that appears to be armor or a robe, with folds and layers indicating thickness and weight- Accessories: No visible accessories other than the helmet and garment- Posture: Standing upright, with one arm raised and the other bent at the elbow, suggesting a pose of readiness or commandOverall, the character gives off an aura of authority and historical significance, likely representing a figure from ancient times, possibly a warrior or leader."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration from the classic children's literature 'Alice in Wonderland'. It depicts a scene where Alice, a young girl with long hair tied back, is standing on the right side of the image. She is wearing a dress and appears to be speaking or arguing. On the left side, there is a large ornate urn or vase with intricate designs, possibly representing the Queen's throne. In front of the urn, there is a large plate filled with what appear to be tarts or pastries. The background is minimalistic, focusing on the characters and the objects on the table. The overall atmosphere conveys a sense of tension and absurdity, typical of the whimsical and nonsensical world of Wonderland."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;CHEF&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A chef with a large hat, holding a tray of food."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table with a decorative vase and a tray of food."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;VASE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An ornate vase on the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<node id="&quot;TRAY OF FOOD&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tray filled with round items, possibly pastries or cookies."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8_PERSON-0.JPG&quot;" target="&quot;CHEF&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_8_person-0.jpg is a picture of a chef."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8_PERSON-0.JPG&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_8_person-0.jpg是image_8的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CHEF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chef是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;VASE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vase是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TRAY OF FOOD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tray of Food是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHEF&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The chef is standing next to the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHEF&quot;" target="&quot;TRAY OF FOOD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chef is holding the tray of food."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;VASE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The vase is placed on the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TRAY OF FOOD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The tray of food is placed on the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

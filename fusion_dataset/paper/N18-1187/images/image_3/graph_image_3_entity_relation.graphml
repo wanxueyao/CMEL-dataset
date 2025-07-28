@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table comparing the performance of different models on various metrics. The table has four rows and five columns. The first column lists the models: RNN, RNN+sem. dict, NBT, and Our SL model. The subsequent columns are labeled 'Area', 'Food', 'Price', and 'Joint'. The values in the 'Area' column are 92 for RNN, 92 for RNN+sem. dict, 90 for NBT, and 90 for Our SL model. The 'Food' column shows 86 for RNN, 86 for RNN+sem. dict, 84 for NBT, and 84 for Our SL model. The 'Price' column has 86 for RNN, 92 for RNN+sem. dict, 94 for NBT, and 92 for Our SL model. The 'Joint' column displays 69 for RNN, 71 for RNN+sem. dict, 72 for NBT, and 72 for Our SL model. The table highlights the performance differences among the models across different metrics."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<node id="&quot;MODEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table listing different models used for evaluation, including RNN, RNN+sem. dict, NBT, and Our SL model."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<node id="&quot;AREA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A category in the table representing a specific area of evaluation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<node id="&quot;FOOD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A category in the table representing food-related evaluations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<node id="&quot;PRICE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A category in the table representing price-related evaluations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<node id="&quot;JOINT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A category in the table representing joint evaluations across multiple aspects."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MODEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Model是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Area是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FOOD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Food是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PRICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Price是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;JOINT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;AREA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The models are evaluated based on their performance in the 'Area' category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;FOOD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The models are evaluated based on their performance in the 'Food' category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;PRICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The models are evaluated based on their performance in the 'Price' category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MODEL&quot;" target="&quot;JOINT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The models are evaluated based on their performance in the 'Joint' category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

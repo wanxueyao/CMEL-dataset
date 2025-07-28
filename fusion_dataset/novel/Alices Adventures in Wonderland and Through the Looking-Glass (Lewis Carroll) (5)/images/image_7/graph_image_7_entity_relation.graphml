@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that falls over the shoulders- Expression: Neutral to slightly curious or contemplative- Age: Appears to be a young girl- Clothing: Wearing a long, flowing dress with ruffled sleeves and a high collar; the dress has a textured pattern- Posture: Sitting with one arm raised, pointing outward, and the other arm holding a small object close to the bodyOverall, the character appears to be from an illustrated story or fairy tale, given the style of the drawing and the attire."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7_CAT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Domestic cat- Age: Adult- Color: Black and white, with a mix of solid black areas and white fur with black spots- Shape: The cat is depicted in a seated position with its body slightly turned to the side. Its head is turned towards the viewer, showing one eye and part of its face.- Size: The cat appears to be of average size for an adult domestic cat.- Posture: The cat is sitting with its front paws resting on the ground and its tail curled around its body. Its ears are perked up, indicating alertness or curiosity.- Structural Characteristics: The cat has a round face with prominent whiskers, a small nose, and large eyes. Its fur appears fluffy and well-groomed.Overall, the cat gives off a calm and observant demeanor, typical of a domestic feline in a relaxed state."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration from the classic children's book 'Alice in Wonderland.' It depicts Alice, a young girl with long hair, kneeling on the ground. She is holding a large, fluffy cat under her arm with one hand and a small object, possibly a piece of food or a toy, in the other hand. The cat appears to be a raccoon-like creature with a striped tail. To the right of Alice, there is another cat sitting on the ground, looking up at her with a curious expression. The background features a tall, ornate table or pedestal with intricate designs. The overall atmosphere of the image is whimsical and fantastical, capturing the surreal and dreamlike quality of the story. The illustration style is detailed and expressive, with careful attention to the textures and expressions of the characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, dressed in a dress, holding a flamingo and a hedgehog."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;FLAMINGO&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A flamingo being held by Alice, used as a croquet mallet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;HEDGEHOG&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A hedgehog being held by Alice, used as a croquet ball."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;CAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A cat sitting on the ground, observing Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-1.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_person-1.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-1.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-1.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_CAT-0.JPG&quot;" target="&quot;CAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_cat-0.jpg is a picture of a cat."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_CAT-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_cat-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;FLAMINGO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flamingo是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HEDGEHOG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hedgehog是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cat是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FLAMINGO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is using the flamingo as a croquet mallet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;HEDGEHOG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is using the hedgehog as a croquet ball."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;CAT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The cat is observing Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

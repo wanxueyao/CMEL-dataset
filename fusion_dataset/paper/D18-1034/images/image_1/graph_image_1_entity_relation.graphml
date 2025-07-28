@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two scatter plots side by side, illustrating the projection of word embeddings from Spanish to English. The left plot shows the initial distribution of word embeddings in a 2-dimensional space, with words labeled in both Spanish (red dots) and English (blue dots). Words such as 'mezclas', 'habilidades', 'trastorno', 'angry', 'encounter', and 'disorder' are scattered across the plot. The right plot depicts the result after projecting these embeddings into a shared space. Here, the words are more closely aligned, indicating improved alignment for translation purposes. A red box highlights the nearest neighbor relationship between 'trastorno' (Spanish) and 'disorder' (English), demonstrating the effectiveness of the projection method. To the right of the plots, a table lists the translations of selected words, including 'disorder' and 'recognize' in English and their Spanish counterparts 'trastorno' and 'reconocer'. The overall layout and content suggest a focus on cross-lingual word embedding alignment for translation tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+</node>
+<node id="&quot;PROJECTION DIAGRAM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A diagram showing the projection of words from one language to another, with a focus on finding the nearest neighbor for translation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+</node>
+<node id="&quot;TRANSLATION TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table listing English and Spanish translations of specific words, such as 'disorder' and 'trastorno'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;PROJECTION DIAGRAM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Projection Diagram是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TRANSLATION TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Translation Table是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PROJECTION DIAGRAM&quot;" target="&quot;TRANSLATION TABLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The projection diagram is used to find the nearest neighbor in the translation table for accurate word translation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1034/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,429 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the architecture of SenseBERT, an extension of BERT (Bidirectional Encoder Representations from Transformers). The diagram is divided into two parts: (a) BERT and (b) SenseBERT. In part (a), the input sequence $x^{(1)}$ to $x^{(N)}$ is shown with a [MASK] token included. These inputs are mapped through a matrix $W$ to produce $Wx^{(j)}$ for each token. Positional embeddings $p^{(j)}$ are added to these transformed inputs before they are fed into a Transformer encoder. The output of the Transformer encoder is then used to predict words $y^{words}$ through a matrix $W^T$. In part (b), SenseBERT adds an additional mapping $S$ for supersenses. The input sequence is similarly mapped through $W$ and $S$, producing $Wx^{(j)}$ and $SMx^{(j)}$ respectively. Positional embeddings $p^{(j)}$ are added to these transformed inputs before they are fed into the same Transformer encoder. The outputs are used to predict both words $y^{words}$ through $W^T$ and supersenses $y^{senses}$ through $S^T$. The diagram uses color coding to differentiate between word-level and supersense-level information, with pink representing word-level information and blue representing supersense-level information."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A diagram illustrating the BERT model architecture, showing the input sequence with a masked token, the embedding layer, and the transformer encoder outputting word predictions."
+        },
+        {
+            "entity_name": "SENSEBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A diagram illustrating the SenseBERT model architecture, which extends BERT by incorporating sense embeddings in addition to word embeddings and positional embeddings, and outputs both word and sense predictions."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a UMAP visualization of supersense vectors learned by SenseBERT at pre-training. The visualization is divided into two parts: (a) Clustering by the supersense’s part-of-speech and (b) Clustering within noun supersenses. In part (a), different colors represent different parts of speech, with Verb Supersenses in dark gray, Noun Supersenses in yellow, and Other (adv./adj.) in light blue. The points are scattered across the plot, forming distinct clusters for each part of speech. In part (b), various noun supersenses are labeled and clustered together based on semantic similarity. The labels include 'noun.artifact', 'noun.group', 'noun.location', 'noun.animal', 'noun.object', 'noun.food', 'noun.substance', 'noun.attribute', 'noun.person', 'noun.shape', 'noun.feeling', 'noun.body', 'noun.plant', and 'noun.concrete'. Each label is associated with a specific color, and the points are distributed across the plot, forming clusters that reflect their semantic relationships."
+        },
+        {
+            "entity_name": "VERB SUPERSENSES",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster of gray dots representing verb supersenses in the left part of the image."
+        },
+        {
+            "entity_name": "NOUN SUPERSENSES",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster of yellow dots representing noun supersenses in the left part of the image."
+        },
+        {
+            "entity_name": "OTHER (ADV./ADJ.)",
+            "entity_type": "ORGANIZATION",
+            "description": "A cluster of cyan dots representing other parts of speech such as adverbs and adjectives in the left part of the image."
+        },
+        {
+            "entity_name": "NOUN.ARTIFACT",
+            "entity_type": "GEO",
+            "description": "A red dot labeled 'noun.artifact' in the right part of the image, indicating an abstract concept related to artifacts."
+        },
+        {
+            "entity_name": "NOUN.GROUP",
+            "entity_type": "GEO",
+            "description": "A blue dot labeled 'noun.group' in the right part of the image, indicating an abstract concept related to groups."
+        },
+        {
+            "entity_name": "NOUN.LOCATION",
+            "entity_type": "GEO",
+            "description": "A blue dot labeled 'noun.location' in the right part of the image, indicating an abstract concept related to locations."
+        },
+        {
+            "entity_name": "NOUN.PERSON",
+            "entity_type": "GEO",
+            "description": "A blue dot labeled 'noun.person' in the right part of the image, indicating an abstract concept related to persons."
+        },
+        {
+            "entity_name": "NOUN.ANIMAL",
+            "entity_type": "GEO",
+            "description": "A green dot labeled 'noun.animal' in the right part of the image, indicating an abstract concept related to animals."
+        },
+        {
+            "entity_name": "NOUN.OBJECT",
+            "entity_type": "GEO",
+            "description": "A green dot labeled 'noun.object' in the right part of the image, indicating an abstract concept related to objects."
+        },
+        {
+            "entity_name": "NOUN.FOOD",
+            "entity_type": "GEO",
+            "description": "A green dot labeled 'noun.food' in the right part of the image, indicating an abstract concept related to food."
+        },
+        {
+            "entity_name": "NOUN.SUBSTANCE",
+            "entity_type": "GEO",
+            "description": "A green dot labeled 'noun.substance' in the right part of the image, indicating an abstract concept related to substances."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two text blocks with masked words and their possible interpretations. The first block reads: 'The [MASK] fell to the floor.' Below it, there is a list of possible interpretations for the masked word, categorized by their probability and part-of-speech (POS) tag. The top interpretation is 'noun.artifact' with a 52% probability, followed by examples such as 'sword,' 'chair,' etc. The second most probable interpretation is 'noun.person' with a 17% probability, followed by examples like 'man,' 'girl,' etc. The second block reads: 'Gill [MASK] the bread.' Similarly, it lists possible interpretations for the masked word, categorized by their probability and POS tag. The top interpretation is 'verb.contact' with a 33% probability, followed by examples such as 'cut,' 'buttered,' etc. The second most probable interpretation is 'verb.consumption' with a 20% probability, followed by examples like 'ate,' 'chewed,' etc. The third interpretation is 'verb.change' with an 11% probability, followed by examples such as 'heated,' 'baked,' etc. The fourth interpretation is 'verb.possession' with a 6% probability, followed by examples such as 'took,' 'bought,' etc."
+        },
+        {
+            "entity_name": "THE [MASK]",
+            "entity_type": "NOUN.ARTIFACT",
+            "description": "An unspecified object that fell to the floor, with a 52% probability of being an artifact such as a sword or chair."
+        },
+        {
+            "entity_name": "GILL [MASK]",
+            "entity_type": "VERB.CONTACT",
+            "description": "An action performed by Gill on the bread, with a 33% probability of being a contact verb such as cutting or buttering."
+        },
+        {
+            "entity_name": "FELL TO THE FLOOR.",
+            "entity_type": "UNKNOWN",
+            "description": "The unspecified object experienced a falling action, resulting in its position change to the floor."
+        },
+        {
+            "entity_name": "THE BREAD.",
+            "entity_type": "UNKNOWN",
+            "description": "Gill performed an action on the bread, altering its state through contact."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the syntactic structure of two sentences. The first sentence, 'Dan cooked a bass on the grill,' is broken down into its constituent parts: 'noun.person' (Dan), 'noun.food' (bass), 'verb.creation' (cooked), and 'noun.artifact' (grill). The second sentence, 'The bass player was exceptional,' is similarly analyzed with 'noun.artifact' (player), 'adj.all' (exceptional), and 'noun.person' (bass player). Each word or phrase is labeled according to its grammatical function in the sentence."
+        },
+        {
+            "entity_name": "DAN",
+            "entity_type": "PERSON",
+            "description": "The individual who cooked the bass on the grill."
+        },
+        {
+            "entity_name": "BASS",
+            "entity_type": "FOOD",
+            "description": "The fish that was cooked on the grill."
+        },
+        {
+            "entity_name": "GRILL",
+            "entity_type": "ARTIFACT",
+            "description": "The tool used for cooking the bass."
+        },
+        {
+            "entity_name": "BASS PLAYER",
+            "entity_type": "PERSON",
+            "description": "The musician who played the bass instrument."
+        },
+        {
+            "entity_name": "EXCEPTIONAL",
+            "entity_type": "ALL",
+            "description": "Describes the quality of the bass player's performance."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Testing variants for predicting supersenses of rare words during SenseBERT’s pretraining, as described in section 5.1.' The table contains two columns and three rows. The first column is labeled 'SenseBERT_BASE' and the second column is labeled 'SemEval-SS Fine-tuned'. The rows are labeled as follows: '30K no OOV' with a value of 81.9, '30K average OOV' with a value of 82.7, and '60K no OOV' with a value of 83. The table presents the results of different testing variants on the SemEval-SS task, with the values representing the performance metrics."
+        },
+        {
+            "entity_name": "SENSEBERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used for semantic role labeling, specifically a version of BERT fine-tuned for SenseEval-SS."
+        },
+        {
+            "entity_name": "SEMEVAL-SS",
+            "entity_type": "EVENT",
+            "description": "An evaluation task for semantic role labeling."
+        },
+        {
+            "entity_name": "FINE-TUNED",
+            "entity_type": "OBJECT",
+            "description": "The process of adjusting the parameters of SenseBERT_BASE to improve performance on SemEval-SS."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table divided into two main sections labeled (a) and (b). Section (a) is titled 'SemEval-SS' and contains two sentences with marked words. The first sentence reads, 'The team used a battery of the newly developed “gene probes”', where 'battery' is marked. The supersense predictions for this word are 'noun.artifact' by BERT and 'noun.group' by SenseBERT. The second sentence reads, 'Ten shirt-sleeved ringers stand in a circle, one foot ahead of the other in a prize-fighter's stance', where 'foot' is marked. The supersense predictions for this word are 'noun.quantity' by BERT and 'noun.body' by SenseBERT. Section (b) is titled 'WiC' and contains pairs of sentences with underlined words. The first pair consists of Sentence A: 'The kick must be synchronized with the arm movements.' and Sentence B: 'A sidecar is a smooth drink but it has a powerful kick.', where 'kick' is underlined. The supersense prediction for 'kick' is 'Same' by BERT and 'Different' by SenseBERT. The second pair consists of Sentence A: 'Plant bugs in the dissident’s apartment.' and Sentence B: 'Plant a spy in Moscow.', where 'plant' is underlined. The supersense prediction for 'plant' is 'Different' by BERT and 'Same' by SenseBERT."
+        },
+        {
+            "entity_name": "TEAM",
+            "entity_type": "ORGANIZATION",
+            "description": "The group of individuals who conducted the experiment using gene probes."
+        },
+        {
+            "entity_name": "BATTERY",
+            "entity_type": "OBJECT",
+            "description": "A collection of gene probes used in the experiment."
+        },
+        {
+            "entity_name": "GENE PROBES",
+            "entity_type": "OBJECT",
+            "description": "Newly developed tools for genetic research."
+        },
+        {
+            "entity_name": "RINGERS",
+            "entity_type": "PERSON",
+            "description": "Ten individuals wearing shirt-sleeves, standing in a circle."
+        },
+        {
+            "entity_name": "FOOT",
+            "entity_type": "OBJECT",
+            "description": "The body part used by one ringer to stand ahead of others."
+        },
+        {
+            "entity_name": "KICK (SPORTS)",
+            "entity_type": "EVENT",
+            "description": "The synchronized movement in sports that must be coordinated with arm movements."
+        },
+        {
+            "entity_name": "KICK (DRINK STRENGTH)",
+            "entity_type": "EVENT",
+            "description": "The powerful effect of a drink."
+        },
+        {
+            "entity_name": "PLANT (BUG)<",
+            "entity_type": "UNKNOWN",
+            "description": "plant (bug)<是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "PLANT (SPY)<",
+            "entity_type": "UNKNOWN",
+            "description": "plant (spy)<是从image_6中提取的实体。"
+        },
+        {
+            "entity_name": "ARM MOVEMENTS",
+            "entity_type": "UNKNOWN",
+            "description": "The kick in sports must be synchronized with arm movements."
+        },
+        {
+            "entity_name": "SIDECAR DRINK",
+            "entity_type": "UNKNOWN",
+            "description": "The sidecar drink has a powerful kick."
+        },
+        {
+            "entity_name": "DISSIDENT'S APARTMENT",
+            "entity_type": "UNKNOWN",
+            "description": "Bugs were planted in the dissident's apartment."
+        },
+        {
+            "entity_name": "PLANT (BUG)",
+            "entity_type": "UNKNOWN",
+            "description": "Bugs were planted in the dissident's apartment."
+        },
+        {
+            "entity_name": "MOSCOW",
+            "entity_type": "UNKNOWN",
+            "description": "A spy was planted in Moscow."
+        },
+        {
+            "entity_name": "PLANT (SPY)",
+            "entity_type": "UNKNOWN",
+            "description": "A spy was planted in Moscow."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the results of different models on two tasks: SemEval-SS Frozen, SemEval-SS Fine-tuned, and Word in Context. The table has four rows and three columns. The first row contains the names of the models: BERT_BASE, BERT_LARGE, SenseBERT_BASE, and SenseBERT_LARGE. The second row shows the scores for the SemEval-SS Frozen task, with values of 65.1 for BERT_BASE, 67.3 for BERT_LARGE, 75.6 for SenseBERT_BASE, and 79.5 for SenseBERT_LARGE. The third row displays the scores for the SemEval-SS Fine-tuned task, with values of 79.2 for BERT_BASE, 81.1 for BERT_LARGE, 83.0 for SenseBERT_BASE, and 83.7 for SenseBERT_LARGE. The fourth row provides the scores for the Word in Context task, with values of - for BERT_BASE, 69.6 for BERT_LARGE, 70.3 for SenseBERT_BASE, and 72.1 for SenseBERT_LARGE. The table highlights the performance improvements of SenseBERT over BERT in both fine-tuning setups."
+        },
+        {
+            "entity_name": "BERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration of BERT with base size, showing performance metrics across different tasks."
+        },
+        {
+            "entity_name": "BERT_LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration of BERT with large size, showing performance metrics across different tasks."
+        },
+        {
+            "entity_name": "SENSEBERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration of SenseBERT with base size, showing performance metrics across different tasks."
+        },
+        {
+            "entity_name": "SENSEBERT_LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration of SenseBERT with large size, showing performance metrics across different tasks."
+        },
+        {
+            "entity_name": "SEMEVAL-SS FROZEN",
+            "entity_type": "EVENT",
+            "description": "A specific evaluation task where models are tested without further training, showcasing the initial capability of the models."
+        },
+        {
+            "entity_name": "SEMEVAL-SS FINE-TUNED",
+            "entity_type": "EVENT",
+            "description": "A specific evaluation task where models are tested after being fine-tuned on a specific dataset, showcasing the improved capability of the models."
+        },
+        {
+            "entity_name": "WORD IN CONTEXT",
+            "entity_type": "EVENT",
+            "description": "An evaluation task that assesses how well a model can understand words within their context."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Word in Context' that presents test set results for the WiC dataset. The table contains six rows, each representing a different model or embedding type, and their corresponding performance scores. The models listed are: ELMo† with a score of 57.7, BERT sense embeddings †† with a score of 67.7, BERT_LARGE‡ with a score of 69.6, RoBERTa‡‡ with a score of 69.9, KnowBERT-W+W⋄ with a score of 70.9, and SenseBERT with the highest score of 72.1. The footnote provides references for each model: ELMo by Pilehvar and Camacho-Collados (2019), BERT sense embeddings by Loureiro and Jorge (2019), BERT_LARGE by Wang et al. (2019), RoBERTa by Liu et al. (2019), and KnowBERT-W+W by Peters et al. (2019)."
+        },
+        {
+            "entity_name": "ELMO†",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 57.7 in the Word in Context task."
+        },
+        {
+            "entity_name": "BERT SENSE EMBEDDINGS ††",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 67.7 in the Word in Context task."
+        },
+        {
+            "entity_name": "BERT_LARGE‡",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 69.6 in the Word in Context task."
+        },
+        {
+            "entity_name": "ROBERTA‡‡",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 69.9 in the Word in Context task."
+        },
+        {
+            "entity_name": "KNOWBERT-W+W°",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 70.9 in the Word in Context task."
+        },
+        {
+            "entity_name": "SENSEBERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that achieved a score of 72.1 in the Word in Context task."
+        },
+        {
+            "entity_name": "WORD IN CONTEXT",
+            "entity_type": "UNKNOWN",
+            "description": "ELMo† participated in the Word in Context task and scored 57.7."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Results on the GLUE benchmark test set.' The table compares the performance of two models, BERTBASE (OURS) and SenseBERTBASE, across various NLP tasks. The columns represent different tasks in the GLUE benchmark: Score, CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, and RTE. Each row corresponds to a model. For BERTBASE (OURS), the scores are as follows: Score = 77.5, CoLA = 50.1, SST-2 = 92.6, MRPC = 88.7/84.3, STS-B = 85.7/84.6, QQP = 71.0/88.9, MNLI = 83.6, QNLI = 89.4, and RTE = 67.9. For SenseBERTBASE, the scores are: Score = 77.9, CoLA = 54.6, SST-2 = 92.2, MRPC = 89.2/85.2, STS-B = 83.5/82.3, QQP = 70.3/88.8, MNLI = 83.6, QNLI = 90.6, and RTE = 67.5. The table highlights the performance metrics for each task, with some tasks having two values separated by a slash, indicating possibly different evaluation metrics or subsets."
+        },
+        {
+            "entity_name": "BERT_BASE (OURS)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration of BERT used for various natural language processing tasks, achieving specific scores across different benchmarks."
+        },
+        {
+            "entity_name": "SENSEBERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model configuration of BERT designed for semantic understanding, with its own set of performance metrics across multiple benchmarks."
+        },
+        {
+            "entity_name": "SCORE",
+            "entity_type": "EVENT",
+            "description": "The overall performance metric summarizing the effectiveness of the models across all tasks."
+        },
+        {
+            "entity_name": "COLA",
+            "entity_type": "EVENT",
+            "description": "The Corpus of Linguistic Acceptability, a task assessing the grammatical correctness of English sentences."
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "EVENT",
+            "description": "The Stanford Sentiment Treebank, a dataset used for sentiment analysis on movie reviews."
+        },
+        {
+            "entity_name": "MRPC",
+            "entity_type": "EVENT",
+            "description": "Microsoft Research Paraphrase Corpus, a dataset for identifying paraphrases among pairs of sentences."
+        },
+        {
+            "entity_name": "STS-B",
+            "entity_type": "EVENT",
+            "description": "Semantic Textual Similarity Benchmark, a task measuring the degree of similarity between sentence pairs."
+        },
+        {
+            "entity_name": "QQP",
+            "entity_type": "EVENT",
+            "description": "Quora Question Pairs, a dataset for detecting duplicate questions."
+        },
+        {
+            "entity_name": "MNLI",
+            "entity_type": "EVENT",
+            "description": "Multi-Genre Natural Language Inference, a task involving textual entailment across diverse genres."
+        },
+        {
+            "entity_name": "QNLI",
+            "entity_type": "EVENT",
+            "description": "Question Natural Language Inference, a version of the SQuAD dataset adapted for natural language inference."
+        },
+        {
+            "entity_name": "RTE",
+            "entity_type": "EVENT",
+            "description": "Recognizing Textual Entailment, a task to determine if one text can be inferred from another."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a dendrogram visualization of an Agglomerative hierarchical clustering over the supersense embedding vectors learned by SenseBERT in pre-training. The dendrogram is divided into two main branches: Nouns and Verbs. Under the Nouns branch, there are several subcategories including noun.attribute, noun.state, noun.person, noun.group, noun.location, noun.act, noun.artifact, noun.communication, noun.time, noun.quantity, noun.substance, noun.plant, noun.animal, noun.body, noun.object, noun.food, noun.motive, noun.process, noun.shape, noun.feeling, noun.possession, and noun.phenomenon. Under the Verbs branch, there are subcategories such as verb.contact, verb.competition, verb.motion, verb.social, verb.possession, verb.creation, verb.cognition, verb.change, verb.stative, verb.emotion, verb.weather, and verb.consumption. The categories are color-coded with nouns in black and verbs in red. The dendrogram shows a clear separation between noun senses and verb senses, with semantically related supersenses clustered together, such as noun.animal and noun.plant."
+        },
+        {
+            "entity_name": "NOUNS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the diagram representing various types of nouns, including attributes, states, persons, groups, locations, acts, artifacts, communications, times, quantities, substances, plants, animals, objects, foods, motives, processes, shapes, feelings, possessions, and phenomena."
+        },
+        {
+            "entity_name": "VERBS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category in the diagram representing various types of verbs, including events, contacts, competitions, motions, social interactions, possessions, communications, creations, perceptions, changes, static actions, emotions, weather-related actions, and consumption-related actions."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that categorizes different types of nouns and verbs into specific groups based on their semantic content. The table is divided into two main sections: 'Name' and 'Content'. Under the 'Name' column, there are various categories such as 'adj.all', 'noun.quantity', 'adv.all', etc. Each category is further detailed under the 'Content' column. For example, 'adj.all' includes all adjective clusters, 'noun.quantity' includes nouns denoting quantities and units of measure, and 'verb.body' includes verbs of grooming, dressing, and bodily care. The table provides a comprehensive list of these categories, detailing their specific contents. Notable entries include 'noun.animal' for nouns denoting animals, 'noun.artifact' for nouns denoting man-made objects, and 'verb.change' for verbs of size, temperature change, intensifying, etc. The table is structured in a clear and organized manner, with each row representing a distinct category and its corresponding content."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "GEO",
+            "description": "A table displaying a list of linguistic categories and their descriptions."
+        },
+        {
+            "entity_name": "CATEGORIES",
+            "entity_type": "OBJECT",
+            "description": "Various linguistic categories such as adjectives, nouns, verbs, etc., listed in the image."
+        },
+        {
+            "entity_name": "DESCRIPTIONS",
+            "entity_type": "OBJECT",
+            "description": "Detailed explanations for each linguistic category."
+        }
+    ]
+}

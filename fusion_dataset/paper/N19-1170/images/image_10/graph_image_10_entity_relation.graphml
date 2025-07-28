@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a questionnaire designed for human evaluation of conversational interactions. It contains multiple-choice questions aimed at assessing various aspects of the conversation, including engagingness, interestingness, inquisitiveness, listening, avoiding repetition, fluency, making sense, humanness, and persona retrieval. Each question is followed by a set of options ranging from negative to positive or from low to high. For example, the first question asks about how much the user enjoyed talking to the other user, with options ranging from 'Not at all' to 'A lot'. The second question evaluates the interestingness of the conversation, with options from 'Very boring' to 'Very interesting'. The third question assesses how much the user tried to get to know the evaluator, with options from 'Didn’t ask about me at all' to 'Asked about me too much'. The fourth question measures how much the user paid attention to what the evaluator said, with options from 'Always ignored what I said' to 'Always paid attention to what I said'. The fifth question evaluates how repetitive the user was, with options from 'Repeated themselves over and over' to 'Always said something new'. The sixth question assesses how naturally the user spoke English, with options from 'Very unnatural' to 'Very natural'. The seventh question evaluates how often the user said something that did not make sense, with options from 'Never made any sense' to 'Everything made perfect sense'. The eighth question asks whether the user is a bot or a human, with options from 'Definitely a bot' to 'Definitely a human'. The final question asks which prompt (character) the evaluator thinks the other user was given for this conversation, with the respondent choosing one of two provided personas."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;ENGAGINGNESS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A measure of how much the user enjoyed talking to another user, with options ranging from 'Not at all' to 'A lot'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;INTERESTINGNESS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An assessment of how interesting or boring the conversation was, with options ranging from 'Very boring' to 'Very interesting'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;INQUISITIVENESS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Evaluates how much the user tried to get to know the other person, with options from 'Didn’t ask about me at all' to 'Asked about me too much'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;LISTENING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Measures how attentive the user was during the conversation, with options from 'Always ignored what I said' to 'Always paid attention to what I said'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;AVOIDING REPETITION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Assesses the repetitiveness of the user's responses, with options from 'Repeated themselves over and over' to 'Always said something new'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;FLUENCY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Evaluates the naturalness of the user's English, with options from 'Very unnatural' to 'Very natural'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;MAKING SENSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Determines how often the user made sense in their responses, with options from 'Never made any sense' to 'Everything made perfect sense'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;HUMANNESS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Assesses whether the user is perceived as a bot or a human, with options from 'Definitely a bot' to 'Definitely a human'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<node id="&quot;PERSONA RETRIEVAL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Determines which persona the user thinks the other user was given for the conversation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ENGAGINGNESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Engagingness是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;INTERESTINGNESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Interestingness是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;INQUISITIVENESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Inquisitiveness是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;LISTENING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Listening是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;AVOIDING REPETITION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Avoiding Repetition是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;FLUENCY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fluency是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;MAKING SENSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Making sense是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;HUMANNESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Humanness是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;PERSONA RETRIEVAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Persona retrieval是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ENGAGINGNESS&quot;" target="&quot;INTERESTINGNESS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The level of enjoyment in talking to the user is related to how interesting the conversation was."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INQUISITIVENESS&quot;" target="&quot;LISTENING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The effort to get to know the other person is related to how attentive the user was during the conversation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AVOIDING REPETITION&quot;" target="&quot;FLUENCY&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The repetitiveness of the user's responses is related to how naturally they spoke English."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAKING SENSE&quot;" target="&quot;HUMANNESS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"How often the user made sense in their responses is related to whether they are perceived as a bot or a human."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMANNESS&quot;" target="&quot;PERSONA RETRIEVAL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The persona the user thinks the other user was given is related to whether they perceive the other user as a bot or a human."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

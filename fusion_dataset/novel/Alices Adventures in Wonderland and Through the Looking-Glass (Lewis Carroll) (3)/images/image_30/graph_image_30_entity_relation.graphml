@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_30_SHEEP-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Deer- Age: Appears to be a young deer, possibly a fawn- Color: The image is in black and white, so the color cannot be determined, but typically fawns have a light brown coat with white spots- Shape: The body is slender and graceful, with long legs that are thin and delicate- Size: Small, consistent with the size of a fawn- Posture: The deer is standing on all four legs, with its head lowered towards the ground, possibly grazing or searching for food- Structural Characteristics: The most notable feature is the presence of white spots on the back and sides of the body, which is typical for fawns and helps them blend into their environment for protectionOverall, the image captures the delicate and vulnerable nature of a young deer in its natural habitat."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<node id="&quot;IMAGE_30_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, styled in two braids that hang down the front and back of her head- Expression: Neutral, with a calm and composed demeanor- Age: Appears to be a young girl- Clothing: Wearing a long, full-length dress with a high collar and puffed sleeves; the dress has a patterned design and appears to be from an earlier historical period; she also wears striped stockings and shoes- Accessories: Holding a large, dark-colored rabbit or hare in her arms, which is almost as tall as her torsoOverall, the character gives off a vintage, storybook vibe, reminiscent of classic illustrations from children's literature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<node id="&quot;IMAGE_30&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. It shows Alice, a young girl with long hair, standing in a forested area. She is wearing a dress and has her arms around the neck of a fawn, which is standing close to her. The fawn has spots on its body and appears to be looking away from Alice. The background consists of trees and foliage, creating a dense woodland setting. The overall atmosphere of the image conveys a sense of wonder and curiosity, as Alice interacts with the fawn in this fantastical environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, standing in a forest and holding a fawn."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<node id="&quot;FAWN&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small, spotted deer being held by Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<node id="&quot;FOREST&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dense forest with tall trees and underbrush."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+</node>
+<edge source="&quot;IMAGE_30_SHEEP-1.JPG&quot;" target="&quot;FAWN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_30_sheep-1.jpg is a picture of a fawn."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30_SHEEP-1.JPG&quot;" target="&quot;IMAGE_30&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_30_sheep-1.jpg是image_30的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30_PERSON-0.JPG&quot;" target="&quot;IMAGE_30&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_30_person-0.jpg是image_30的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;FAWN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fawn是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_30&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Forest是从image_30中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FAWN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is holding the fawn in her arms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is standing within the forest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FAWN&quot;" target="&quot;FOREST&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The fawn is in the forest, being held by Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_30.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

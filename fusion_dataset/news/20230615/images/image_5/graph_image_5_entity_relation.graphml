@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, curly hair, dark in color, cascading down the back- Clothing: Wearing a plaid shirt with a pattern of blue, white, and black; paired with camouflage pants that have a mix of green, brown, and beige colors- Posture: The person is facing away from the camera, with their head turned to the side, giving a partial view of the profileOverall, the individual appears to have a casual and possibly outdoor-oriented style."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Umbrella- Color: Black- Shape: Long and cylindrical, with a curved handle at one end- Size: Appears to be a standard-sized umbrella, suitable for personal use- Material: Likely made of a waterproof fabric for the canopy and a sturdy material for the handle- Possible function: Provides protection from rain or sun; the handle design suggests it is meant to be held by hand- Other significant characteristics: The umbrella is closed in the image, and the handle has a classic hooked shape, which is ergonomic for holding."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a person with curly hair, wearing a plaid shirt, standing in front of three racks of clothing. The person appears to be browsing through the clothes on the middle rack. The clothing racks are filled with various garments, including shiny, sequined dresses and other formal wear. The background is plain white, which highlights the clothes and the person. The overall scene suggests a setting in a clothing store or a fashion showroom. The person's posture indicates they are engaged in selecting or examining the clothes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"The image feature block image_5_person-0.jpg is a picture of a person."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TIE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"The image feature block image_5_tie-1.jpg is a picture of a tie."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"Woman是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CLOTHING RACK 1&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"Clothing Rack 1是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CLOTHING RACK 2&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"Clothing Rack 2是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CLOTHING RACK 3&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d1">"Clothing Rack 3是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;TIE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_tie-1.jpg is a picture of a tie."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TIE-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_tie-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CLOTHING RACK 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Clothing Rack 1是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CLOTHING RACK 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Clothing Rack 2是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CLOTHING RACK 3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Clothing Rack 3是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;CLOTHING RACK 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is facing Clothing Rack 1, possibly examining the clothes on it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;CLOTHING RACK 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is also near Clothing Rack 2, indicating she might be considering these clothes as well."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;CLOTHING RACK 3&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The woman is not directly interacting with Clothing Rack 3, but it's within her view."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

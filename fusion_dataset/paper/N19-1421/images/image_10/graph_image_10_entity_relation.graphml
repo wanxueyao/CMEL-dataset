@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Test set accuracy for all models' and 'Table 6: BERT-LARGE baseline analysis'. The table is divided into six columns: Category, Formulated question example, Correct answer, Distractor, Accuracy, and %. Each row represents a different category of questions. The categories include Surface clues, Negation / Antonym, Factoid knowledge, Bad granularity, and Conjunction. For each category, two examples of formulated questions are provided along with the correct answer, one distractor, model accuracy, and frequency in the dataset. The predicted answer is in bold. For instance, under the Surface clues category, the first example question is 'If someone laughs after surprising them they have a good sense of what?' with the correct answer being 'humor' and the distractor being 'laughter'. The accuracy for this category is 77.7 and the frequency is 35%. Similarly, other categories provide their respective examples, answers, distractors, accuracies, and frequencies. The table highlights the performance of BERT-LARGE on different types of questions, showing varying levels of accuracy across categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<node id="&quot;SURFACE CLUES&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A category that includes questions about common sense and everyday scenarios, such as how an automobile might get off a freeway or what someone with a good sense of humor might do."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<node id="&quot;NEGATION / ANTONYM&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A category that involves questions requiring the identification of opposites or negations, such as where a pillow case might be stored if not in use or where a stapler might be if it cannot be found."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<node id="&quot;FACTOID KNOWLEDGE&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A category that tests factual knowledge, including questions about the number of hours in a day or the geographic area where a lizard is likely to be found."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<node id="&quot;BAD GRANULARITY&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A category that deals with questions at an inappropriate level of detail, such as where a well-used toy car might be found or where one might be while buying pork chops at a corner shop."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<node id="&quot;CONJUNCTION&quot;">
+  <data key="d0">"CATEGORY"</data>
+  <data key="d1">"A category that combines multiple concepts in a single question, such as what can be used to store a book while traveling or what can be done on a hot day to enjoy something cool and sweet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;SURFACE CLUES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Surface clues是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;NEGATION / ANTONYM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Negation / Antonym是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;FACTOID KNOWLEDGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Factoid knowledge是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BAD GRANULARITY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bad granularity是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Conjunction是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SURFACE CLUES&quot;" target="&quot;NEGATION / ANTONYM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Negation / Antonym' specifically focuses on identifying opposites or negations."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SURFACE CLUES&quot;" target="&quot;FACTOID KNOWLEDGE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Factoid knowledge' specifically focuses on factual information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SURFACE CLUES&quot;" target="&quot;BAD GRANULARITY&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Bad granularity' specifically focuses on questions at an inappropriate level of detail."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SURFACE CLUES&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Conjunction' specifically combines multiple concepts in a single question."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NEGATION / ANTONYM&quot;" target="&quot;FACTOID KNOWLEDGE&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Factoid knowledge' specifically focuses on factual information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NEGATION / ANTONYM&quot;" target="&quot;BAD GRANULARITY&quot;">
+  <data key="d3">2.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Bad granularity' specifically focuses on questions at an inappropriate level of detail."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NEGATION / ANTONYM&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">1.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Conjunction' specifically combines multiple concepts in a single question."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FACTOID KNOWLEDGE&quot;" target="&quot;BAD GRANULARITY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Bad granularity' specifically focuses on questions at an inappropriate level of detail."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FACTOID KNOWLEDGE&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Conjunction' specifically combines multiple concepts in a single question."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAD GRANULARITY&quot;" target="&quot;CONJUNCTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Both categories involve common sense reasoning but 'Conjunction' specifically combines multiple concepts in a single question."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

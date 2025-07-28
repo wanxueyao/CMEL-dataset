@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a dense urban landscape dominated by high-rise apartment buildings. The buildings are primarily white and beige, with some structures featuring orange accents. The architecture is uniform, characterized by repetitive patterns of windows and balconies. The scene is set against a cloudy sky, with dark clouds looming in the background, suggesting an overcast day. The overall atmosphere conveys a sense of density and urban sprawl, with no visible natural elements or open spaces. The buildings appear to be residential, given their design and the presence of numerous windows and balconies. There are no people, vehicles, or other objects visible in the image, focusing solely on the architectural elements and the sky."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+</node>
+<node id="&quot;HIGH-RISE BUILDINGS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dense cluster of high-rise residential buildings with a mix of white, beige, and orange facades. The buildings are closely packed together, creating a uniform urban landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+</node>
+<node id="&quot;CITYSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An expansive cityscape under a cloudy sky, characterized by a vast array of high-rise buildings that dominate the view."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+</node>
+<node id="&quot;CLOUDY SKY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A wide expanse of sky filled with thick, gray clouds, suggesting an overcast day."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HIGH-RISE BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"High-rise Buildings是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CITYSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cityscape是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CLOUDY SKY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cloudy Sky是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGH-RISE BUILDINGS&quot;" target="&quot;CITYSCAPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The high-rise buildings are part of the overall cityscape, contributing to its dense and uniform appearance."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HIGH-RISE BUILDINGS&quot;" target="&quot;CLOUDY SKY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The high-rise buildings stand beneath the cloudy sky, creating a contrast between the man-made structures and the natural sky."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CITYSCAPE&quot;" target="&quot;CLOUDY SKY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The cityscape is set against the backdrop of a cloudy sky, which adds to the overall mood and atmosphere of the scene."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

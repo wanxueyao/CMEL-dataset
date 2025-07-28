@@ -1,0 +1,1049 @@
+{
+    "0": {
+        "chunk_key": "chunk-9468ec3da6121b9b6d5fade7b9b6d529",
+        "entities": [
+            {
+                "entity_name": "\"JASON WESTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason Weston is one of the researchers involved in the development of the Retrieve and Refine model for dialogue sequence generation.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"EMILY DINAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Emily Dinan is one of the researchers involved in the development of the Retrieve and Refine model for dialogue sequence generation.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"ALEXANDER H. MILLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander H. Miller is one of the researchers involved in the development of the Retrieve and Refine model for dialogue sequence generation.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"FACEBOOK AI RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Facebook AI Research is the organization where Jason Weston, Emily Dinan, and Alexander H. Miller work and conduct research on sequence generation models for dialogue.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"CONVAI2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "A chit-chat task dataset used to evaluate dialogue models, aimed at getting to know the other speaker's profile. It is also the challenge task where the Retrieve and Refine model showed superior performance in human evaluations compared to standard retrieval and generation models.",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"RETRIEVE AND REFINE MODEL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The development and proposal of the Retrieve and Refine model to combine the advantages of retrieval and sequence generation models in dialogue tasks.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"RETRIEVENREFINE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RetrieveNRefine, or RetNRef, is the model proposed by the researchers, which involves retrieving a response and then refining it using a sequence generator.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"RETRIEVENREFINE+\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RetrieveNRefine+ is a variant of the RetrieveNRefine model where the dialogue history is truncated to pay more attention to the retrieval utterance.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"RETRIEVENREFINE++\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RetrieveNRefine++ is a variant of the RetrieveNRefine model that exactly copies the retrieval if the model generates with large word overlap, otherwise leaves the generation untouched.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"SEQ2SEQ\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Seq2Seq is a sequence generation model used in the Retrieve and Refine model, which is a 2-layer LSTM with attention.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"KEY-VALUE MEMORY NETWORK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Key-Value Memory Network is used as the retriever in the Retrieve and Refine model, attending over the dialogue history to learn input and candidate retrieval embeddings.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"PARLAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ParlAI is the platform where the code for both the Seq2Seq model and the Key-Value Memory Network used in the Retrieve and Refine model is available.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "entity_name": "\"PERPLEXITY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Perplexity is a measure used to evaluate the performance of different types of retrievers for the RetNRef model on the ConvAI2 task test set.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JASON WESTON\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 9.0,
+                "description": "\"Jason Weston is a researcher at Facebook AI Research.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"EMILY DINAN\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 9.0,
+                "description": "\"Emily Dinan is a researcher at Facebook AI Research.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"ALEXANDER H. MILLER\"",
+                "tgt_id": "\"FACEBOOK AI RESEARCH\"",
+                "weight": 9.0,
+                "description": "\"Alexander H. Miller is a researcher at Facebook AI Research.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVE AND REFINE MODEL\"",
+                "tgt_id": "\"CONVAI2\"",
+                "weight": 8.0,
+                "description": "\"The Retrieve and Refine model was evaluated and showed superior performance in the CONVAI2 challenge task.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVE AND REFINE MODEL\"",
+                "tgt_id": "\"RETRIEVENREFINE\"",
+                "weight": 10.0,
+                "description": "\"Retrieve and Refine model is also known as RetrieveNRefine or RetNRef, which is the proposed model for dialogue tasks.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVE AND REFINE MODEL\"",
+                "tgt_id": "\"RETRIEVENREFINE+\"",
+                "weight": 8.0,
+                "description": "\"RetrieveNRefine+ is a variant of the Retrieve and Refine model.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVE AND REFINE MODEL\"",
+                "tgt_id": "\"RETRIEVENREFINE++\"",
+                "weight": 8.0,
+                "description": "\"RetrieveNRefine++ is a variant of the Retrieve and Refine model.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVENREFINE\"",
+                "tgt_id": "\"SEQ2SEQ\"",
+                "weight": 7.0,
+                "description": "\"Seq2Seq is used as the sequence generator in the RetrieveNRefine model.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"RETRIEVENREFINE\"",
+                "tgt_id": "\"KEY-VALUE MEMORY NETWORK\"",
+                "weight": 7.0,
+                "description": "\"Key-Value Memory Network is used as the retriever in the RetrieveNRefine model.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"SEQ2SEQ\"",
+                "tgt_id": "\"PARLAI\"",
+                "weight": 6.0,
+                "description": "\"The code for the Seq2Seq model is available in ParlAI.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"KEY-VALUE MEMORY NETWORK\"",
+                "tgt_id": "\"PARLAI\"",
+                "weight": 6.0,
+                "description": "\"The code for the Key-Value Memory Network is available in ParlAI.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            },
+            {
+                "src_id": "\"PERPLEXITY\"",
+                "tgt_id": "\"CONVAI2\"",
+                "weight": 7.0,
+                "description": "\"Perplexity is used to measure the performance of different types of retrievers for RetNRef on the ConvAI2 task test set.\"",
+                "source_id": "chunk-9468ec3da6121b9b6d5fade7b9b6d529"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-37b2c513f34ad862572c4f65b340a087",
+        "entities": [
+            {
+                "entity_name": "\"CONVAI2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "A chit-chat task dataset used to evaluate dialogue models, aimed at getting to know the other speaker's profile. It is also the challenge task where the Retrieve and Refine model showed superior performance in human evaluations compared to standard retrieval and generation models.",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"PERSONACHAT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PersonaChat is a dataset used in the ConvAI2 challenge, where crowdworkers engage in conversations while portraying assigned personas.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al., 2018 refers to the authors of a paper that introduced the Memory Network approach for retriever models in conversational AI.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"MEMORY NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Memory Network is a model approach used for retriever models in conversational AI, mentioned as the best performing existing retriever model.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"RETNREF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef is a model that improves upon Seq2Seq models by using retrieval methods to generate more human-like responses in conversational AI.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"RETNREF++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef++ is a variant of the RetNRef model that truncates dialogue history and focuses more on the retrieval utterance to improve perplexity.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"SEQ2SEQ\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seq2Seq is a standard model used in conversational AI that generates responses without the use of retrieval methods.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"RETRIEVENREFINE++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetrieveNRefine++ is a variant of the RetNRef model that copies the retrieval if the model generates with large word overlap, aiming to improve the output.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"1155 PERSONAS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"1155 personas represent the number of possible personas created by a set of workers for the conversational dataset used in ConvAI2.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"CROWDWORKERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Crowdworkers are individuals who participate in the creation of the dataset for ConvAI2 by acting as personas and engaging in conversations.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"2000 DIALOGUES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"2000 dialogues refer to the number of dialogues used for validation and test in the ConvAI2 dataset, utilizing non-overlapping personas.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"160,000 UTTERANCES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"160,000 utterances indicate the total number of utterances present in the ConvAI2 dataset across approximately 11,000 dialogues.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"11,000 DIALOGUES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"11,000 dialogues represent the total number of dialogues in the ConvAI2 dataset, each involving conversations between crowdworkers.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"LIU ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al., 2016 refers to the authors of a paper that discusses the difficulty of evaluating dialogue systems with automated metrics.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"PERPLEXITY DIALOGUE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Perplexity Dialogue is the challenge of evaluating dialogue systems, which is known to be hard due to the many valid answers with little word overlap.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"WORD STATISTICS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word Statistics is a method used to measure the salience of a generation model by comparing it to human utterances in terms of word frequency and use.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "entity_name": "\"WORD OVERLAP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word overlap is a metric used to measure the similarity between retrieved and generated sentences in RetNRef variants to evaluate model performance.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CONVAI2\"",
+                "tgt_id": "\"PERSONACHAT\"",
+                "weight": 8.0,
+                "description": "\"ConvAI2 challenge dataset uses a modified version of the PersonaChat dataset for its conversations.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"CONVAI2\"",
+                "tgt_id": "\"ZHANG ET AL., 2018\"",
+                "weight": 7.0,
+                "description": "\"The ConvAI2 dataset references the work of Zhang et al., 2018, particularly the Memory Network approach for retriever models.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"MEMORY NETWORK\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 9.0,
+                "description": "\"The Memory Network approach is used as the basis for the RetNRef model's retriever method in conversational AI.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"RETNREF\"",
+                "tgt_id": "\"RETNREF++\"",
+                "weight": 10.0,
+                "description": "\"RetNRef++ is a variant of the RetNRef model, indicating a direct relationship and improvement upon the original model.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"RETNREF\"",
+                "tgt_id": "\"SEQ2SEQ\"",
+                "weight": 8.0,
+                "description": "\"RetNRef is compared to Seq2Seq as an improvement over the standard Seq2Seq model in conversational AI.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"RETRIEVENREFINE++\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 9.0,
+                "description": "\"RetrieveNRefine++ is a variant of the RetNRef model, indicating a direct relationship and an attempt to refine the original model's approach.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"CONVAI2\"",
+                "tgt_id": "\"CROWDWORKERS\"",
+                "weight": 9.0,
+                "description": "\"ConvAI2 dataset consists of conversations between crowdworkers who were asked to act as personas and chat naturally.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"CONVAI2\"",
+                "tgt_id": "\"1155 PERSONAS\"",
+                "weight": 8.0,
+                "description": "\"The ConvAI2 dataset involves crowdworkers acting as personas, with 1155 possible personas created for this purpose.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"PERPLEXITY DIALOGUE\"",
+                "tgt_id": "\"LIU ET AL., 2016\"",
+                "weight": 7.0,
+                "description": "\"The challenge of Perplexity Dialogue is discussed by Liu et al., 2016, who highlight the difficulty of evaluating dialogue systems with automated metrics.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"WORD STATISTICS\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 8.0,
+                "description": "\"Word Statistics is used to analyze and compare the performance of the RetNRef model against human utterances in terms of word frequency and use.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            },
+            {
+                "src_id": "\"WORD OVERLAP\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 8.0,
+                "description": "\"Word overlap is used to measure the similarity between retrieved and generated sentences in the RetNRef variants to evaluate the model's reliance on the retriever.\"",
+                "source_id": "chunk-37b2c513f34ad862572c4f65b340a087"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4",
+        "entities": [
+            {
+                "entity_name": "\"PERSON 1\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Person 1 is a participant in the dialogue who enjoys sprite, goes on hikes with a pet parrot named Tasha, and identifies as a lactoovo vegetarian and vegan.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"PERSON 2\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Person 2 is a participant in the dialogue, represented by the RetNRef++ model, who likes Dr. Pepper, expresses a wish to have a parrot, and identifies as vegan.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"RETNREF++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef++ is a model used in the dialogue that shows improved engagement quality by referencing conditioned retrieved sentences and has a higher win rate against other models.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"MEMORY NETWORK MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Memory Network model is a retriever model that RetNRef++ obtains statistically significant wins against, with a win rate of approximately 54%.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"SEQ2SEQ MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seq2Seq model is a generator model that RetNRef++ outperforms with a win rate of approximately 54%.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"DR. PEPPER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Dr. Pepper is a beverage mentioned in the dialogue as a favorite of Person 2.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"SPRITE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Sprite is a beverage mentioned in the dialogue as a favorite of both Person 1 and Person 2.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"NISSAN SENTRA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Nissan Sentra is a car model mentioned in the text as being owned by Person 2.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"TASHA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tasha is Person 1's pet parrot, mentioned as accompanying them on hikes.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"RETNREF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef is an earlier version of the model that is part of the comparison in the study, with RetNRef++ showing improvements over it.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"A/B TESTS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"A/B tests are experiments conducted to compare RetNRef against humans, showing a higher win rate for RetNRef.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"RETRIEVAL MODELS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Retrieval models are a type of model used to improve generation models in dialogue, as discussed in the conclusion of the text.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"GENERATION MODELS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Generation models are a type of model in dialogue systems that can be improved by retrieval models, as mentioned in the conclusion.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"HUMAN JUDGMENTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Human judgments are used to evaluate the quality of conversations provided by the RetNRef++ model, indicating it provides more engaging conversations.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"CONCATENATION PLUS ATTENTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Concatenation plus attention is a method used in some models that the text suggests could be improved for better results in dialogue systems.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"INDEPENDENT SOURCES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Independent sources refers to treating the inputs as separate entities in model training, suggested as a potential area for future improvement in dialogue systems.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "entity_name": "\"JOINT TRAINING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Joint training of models is proposed as a possible sophisticated approach for improving results in dialogue systems.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"PERSON 2\"",
+                "weight": 8.0,
+                "description": "\"Person 1 and Person 2 engage in a dialogue, sharing their preferences and experiences, such as their favorite beverages and dietary choices.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"RETNREF++\"",
+                "weight": 7.0,
+                "description": "\"Person 1 is engaged in a dialogue with the RetNRef++ model, which is represented by Person 2 in the conversation.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"PERSON 2\"",
+                "tgt_id": "\"RETNREF++\"",
+                "weight": 9.0,
+                "description": "\"Person 2 is an embodiment of the RetNRef++ model in the dialogue, showing its capabilities in generating engaging and relevant responses.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"MEMORY NETWORK MODEL\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ outperforms the Memory Network model in dialogue generation with a win rate of approximately 54%.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"SEQ2SEQ MODEL\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ outperforms the Seq2Seq model in dialogue generation with a win rate of approximately 54%.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"TASHA\"",
+                "weight": 7.0,
+                "description": "\"Person 1 owns Tasha, their pet parrot, and takes her on hikes.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 8.0,
+                "description": "\"RetNRef++ is an improved version of the RetNRef model, with a higher win rate against other models.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF\"",
+                "tgt_id": "\"MEMORY NETWORK MODEL\"",
+                "weight": 6.0,
+                "description": "\"RetNRef is compared to the Memory Network model, showing improvements in the RetNRef++ version.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF\"",
+                "tgt_id": "\"SEQ2SEQ MODEL\"",
+                "weight": 6.0,
+                "description": "\"RetNRef is compared to the Seq2Seq model, with RetNRef++ showing improvements over both.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"A/B TESTS\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ is evaluated against humans in A/B tests, showing a higher win rate.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETRIEVAL MODELS\"",
+                "tgt_id": "\"GENERATION MODELS\"",
+                "weight": 8.0,
+                "description": "\"Retrieval models are used to improve generation models in dialogue, as indicated in the conclusion.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"HUMAN JUDGMENTS\"",
+                "weight": 8.0,
+                "description": "\"RetNRef++ is evaluated by human judgments and is considered to provide more engaging conversations.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"CONCATENATION PLUS ATTENTION\"",
+                "tgt_id": "\"RETRIEVAL MODELS\"",
+                "weight": 6.0,
+                "description": "\"Concatenation plus attention is a method used in retrieval models that could be improved, as suggested in the text.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"INDEPENDENT SOURCES\"",
+                "tgt_id": "\"RETRIEVAL MODELS\"",
+                "weight": 6.0,
+                "description": "\"Retrieval models may benefit from treating inputs as independent sources, a concept mentioned as a potential area for future work.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            },
+            {
+                "src_id": "\"JOINT TRAINING\"",
+                "tgt_id": "\"RETRIEVAL MODELS\"",
+                "weight": 6.0,
+                "description": "\"Joint training is proposed as a method to improve retrieval models, as mentioned in the conclusion.\"",
+                "source_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-c02a07f6a200bca352b89a081c2fd544",
+        "entities": [
+            {
+                "entity_name": "\"CHIA-WEI LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chia-Wei Liu is an author of the paper 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"RYAN LOWE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ryan Lowe is an author of the paper 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation' and 'Generative deep neural networks for dialogue: A short review'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"IULIAN V SERBAN (IULIAN VLAD SERBAN)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Iulian V Serban is an author of the papers 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation' and 'Generative deep neural networks for dialogue: A short review'.",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"MICHAEL NOSEWORTHY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Noseworthy is an author of the paper 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"LAURENT CHARLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Laurent Charlin is an author of the papers 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation' and 'Generative deep neural networks for dialogue: A short review'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"JOELLE PINEAU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joelle Pineau is an author of the papers 'How not to evaluate your dialogue system: An empirical study of unsupervised evaluation metrics for dialogue response generation' and 'Generative deep neural networks for dialogue: A short review'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ALEXANDER MILLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander Miller is an author of the paper 'Key-value memory networks for directly reading documents'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ADAM FISCH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Fisch is an author of the paper 'Key-value memory networks for directly reading documents'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"JESSE DODGE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jesse Dodge is an author of the paper 'Key-value memory networks for directly reading documents'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"AMIRHOSSEIN KARIMI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"AmirHossein Karimi is an author of the paper 'Key-value memory networks for directly reading documents'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ANTOINE BORDES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Antoine Bordes is an author of the paper 'Key-value memory networks for directly reading documents'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"JASON WESTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason Weston is an author of the papers 'Key-value memory networks for directly reading documents', 'Adapting sequence models for sentence correction', and 'Personalizing dialogue agents: I have a dog, do you have pets too?'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"JAN NIEHUES\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jan Niehues is an author of the paper 'Pre-translation for neural machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"EUNAH CHO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eunah Cho is an author of the paper 'Pre-translation for neural machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"THANH-LE HA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thanh-Le Ha is an author of the paper 'Pre-translation for neural machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ALEX WAIBEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Waibel is an author of the paper 'Pre-translation for neural machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ROMAN NOVAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Roman Novak is an author of the paper 'Iterative refinement for machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"MICHAEL AULI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Auli is an author of the paper 'Iterative refinement for machine translation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"DAVID GRANGIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Grangier is an author of(\"entity\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"DANISH CONTRACTOR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danish Contractor is an author of the paper 'Exemplar encoder-decoder for neural conversation generation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"VINEET KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vineet Kumar is an author of the paper 'Exemplar encoder-decoder for neural conversation generation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"SACHINDRA JOSHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sachindra Joshi is an author of the paper 'Exemplar encoder-decoder for neural conversation generation'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ALLEN SCHMALTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Allen Schmaltz is an author of the paper 'Adapting sequence models for sentence correction'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"YOON KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoon Kim is an author of the paper 'Adapting sequence models for sentence correction'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ALEXANDER M RUSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander M Rush is an author of the paper 'Adapting sequence models for sentence correction'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"STUART M SHIEBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stuart M Shieber is an author of the paper 'Adapting sequence models for sentence correction'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of the paper 'Sequence to sequence learning with neural networks'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"ORIOL VINYALS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oriol Vinyals is an author of the paper 'Sequence to sequence learning with neural networks'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"QUOC V LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V Le is an author of the paper 'Sequence to sequence learning with neural networks'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"YINGCE XIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yingce Xia is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"FEI TIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fei Tian is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"LIJUN WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lijun Wu is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"JIANXIN LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianxin Lin is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"TAO QIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tao Qin is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"NENGHAI YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nenghai Yu is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"TIE-YAN LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tie-Yan Liu is an author of the paper 'Deliberation networks: Sequence generation beyond one-pass decoding'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            },
+            {
+                "entity_name": "\"SAIZHENG ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Saizheng Zhang is an author of the paper 'Personalizing dialogue agents: I have a dog, do you have pets too?'.\"",
+                "source_id": "chunk-c02a07f6a200bca352b89a081c2fd544"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-e416fee05590e29a85925404eab016a6",
+        "entities": [
+            {
+                "entity_name": "\"RETNREF++\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef++ is an improved model that uses a retriever and can generate novel content, outperforming standard retrievers.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al. (2018) established a protocol for human evaluation of dialogue models, which is followed in this text.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"SEQ2SEQ\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Seq2Seq is a model compared to RetNRef variants, found to be inferior in terms of engagement.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"MEMORY NETWORK RETRIEVER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Memory Network Retriever is a model that outperforms Seq2Seq in terms of engagement.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"RETNREF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RetNRef is a model that RetNRef++ conditions on and slightly outperforms, showing superior engagingness scores.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"HUMAN JUDGEMENT SCORES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Judgement Scores is an evaluation method where humans conduct dialogues with models and score various aspects like engagingness and consistency.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"A/B TESTING BY HUMANS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"A/B Testing by Humans is a method used to statistically evaluate models by comparing their performance in dialogues.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"PERSON 1\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Person 1 is a participant in the example dialogues, providing statements and engaging with the RetNRef++ model.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"PERSON 2\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Person 2 represents the RetNRef++ model in the example dialogues, responding to Person 1's statements.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"NISSAN SENTRA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Nissan Sentra is a car model mentioned in the dialogue, owned by Person 2.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"SPRITE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Sprite is a beverage mentioned in the dialogue, preferred by Person 1.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"DR PEPPER\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Dr Pepper is a beverage mentioned in the dialogue, preferred by Person 2.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"SUBARU LEGACY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Subaru Legacy is a car model mentioned in the dialogue, owned by Person 1.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"MEXICAN FOOD\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Mexican Food is a type of cuisine mentioned in the dialogue, enjoyed by both Person 1 and Person 2.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"SEAFOOD\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Seafood is a type of food mentioned in the dialogue, enjoyed by Person 1.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"ASIAN LANGUAGE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Asian Language is a language mentioned in the dialogue, spoken by Person 2.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"MARKETING DEGREE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Marketing Degree is an academic degree mentioned in the dialogue, pursued by Person 1.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"DRUNKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Drunky is the name of Person 1's dog mentioned in the dialogue.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"TABLE 4\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 4 is where human evaluation scores for the models are presented, including fluency, engagingness, consistency, and persona detection.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"TABLE 5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 5 presents A/B testing results by humans, comparing model pairs and reporting win rates.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"TABLE 6\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 6 provides example dialogues where RetNRef outperforms MemNet and Seq2Seq.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"TABLE 7\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 7 shows an example dialog between a human (Person 1) and the RetNRef++ model (Person 2), highlighting the model's performance.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "entity_name": "\"TABLE 8\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 8 is mentioned but not provided in the text, presumably showing additional example dialogues.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"RETNREF\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ conditions on RetNRef and slightly outperforms it, indicating an improvement over the base model.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"RETNREF++\"",
+                "tgt_id": "\"SEQ2SEQ\"",
+                "weight": 8.0,
+                "description": "\"RetNRef++ outperforms Seq2Seq in terms of engagingness, showing its superiority in dialogue engagement.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"SEQ2SEQ\"",
+                "tgt_id": "\"MEMORY NETWORK RETRIEVER\"",
+                "weight": 6.0,
+                "description": "\"Seq2Seq is inferior to the Memory Network Retriever in terms of engagement, as per the evaluation results.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"HUMAN JUDGEMENT SCORES\"",
+                "tgt_id": "\"RETNREF++\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ is evaluated using Human Judgement Scores, showing its performance in engagingness, consistency, and other metrics.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"A/B TESTING BY HUMANS\"",
+                "tgt_id": "\"RETNREF++\"",
+                "weight": 7.0,
+                "description": "\"RetNRef++ is compared to other models using A/B Testing by Humans, resulting in a statistically meaningful evaluation.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"PERSON 2\"",
+                "weight": 9.0,
+                "description": "\"Person 1 and Person 2 engage in dialogues, with Person 2 (RetNRef++) responding to Person 1's statements.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"NISSAN SENTRA\"",
+                "weight": 5.0,
+                "description": "\"Person 1 inquires about Person 2's car, which is a Nissan Sentra.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"SPRITE\"",
+                "weight": 6.0,
+                "description": "\"Person 1 expresses a preference for Sprite, their favorite beverage.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 2\"",
+                "tgt_id": "\"DR PEPPER\"",
+                "weight": 6.0,
+                "description": "\"Person 2 mentions Dr Pepper as their favorite beverage, with Sprite as their second choice.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"SUBARU LEGACY\"",
+                "weight": 6.0,
+                "description": "\"Person 1 mentions owning a Subaru Legacy, which is at the rental shop.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"MEXICAN FOOD\"",
+                "weight": 6.0,
+                "description": "\"Person 1 plans to have dinner at a Mexican place, indicating a liking for Mexican food.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 2\"",
+                "tgt_id": "\"MEXICAN FOOD\"",
+                "weight": 6.0,
+                "description": "\"Person 2 expresses a love for Mexican food but mentions not eating vegetables.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"SEAFOOD\"",
+                "weight": 5.0,
+                "description": "\"Person 1 mentions enjoying seafood.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 2\"",
+                "tgt_id": "\"ASIAN LANGUAGE\"",
+                "weight": 6.0,
+                "description": "\"Person 2 mentions speaking an Asian language.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            },
+            {
+                "src_id": "\"PERSON 1\"",
+                "tgt_id": "\"MARKETING DEGREE\"",
+                "weight": 6.0,
+                "description": "\"Person 1 is pursuing a marketing degree.\"",
+                "source_id": "chunk-e416fee05590e29a85925404eab016a6"
+            }
+        ]
+    }
+}

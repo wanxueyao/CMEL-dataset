@@ -1,0 +1,221 @@
+{
+    "image_1": [
+        {
+            "entity_name": "RIVER",
+            "entity_type": "GEO",
+            "description": "River is a source concept in the COMMONSENSEQA dataset, used to generate questions about related target concepts.",
+            "source_image_entities": [
+                "RIVER"
+            ],
+            "source_text_entities": [
+                "RIVER"
+            ]
+        },
+        {
+            "entity_name": "PEBBLE",
+            "entity_type": "GEO",
+            "description": "Pebbles are mentioned as a distractor in a question about the location on a river to see water falling without getting wet.",
+            "source_image_entities": [
+                "PEBBLE"
+            ],
+            "source_text_entities": [
+                "PEBBLES"
+            ]
+        },
+        {
+            "entity_name": "STREAM",
+            "entity_type": "GEO",
+            "description": "Stream is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.",
+            "source_image_entities": [
+                "STREAM"
+            ],
+            "source_text_entities": [
+                "STREAM"
+            ]
+        },
+        {
+            "entity_name": "BANK",
+            "entity_type": "GEO",
+            "description": "Bank is mentioned as a distractor in a question about crossing the river with feet wet but body dry.",
+            "source_image_entities": [
+                "BANK"
+            ],
+            "source_text_entities": [
+                "BANK"
+            ]
+        },
+        {
+            "entity_name": "WATERFALL",
+            "entity_type": "GEO",
+            "description": "Waterfall is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "WATERFALL"
+            ],
+            "source_text_entities": [
+                "WATERFALL"
+            ]
+        },
+        {
+            "entity_name": "BRIDGE",
+            "entity_type": "GEO",
+            "description": "Bridge is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "BRIDGE"
+            ],
+            "source_text_entities": [
+                "BRIDGE"
+            ]
+        },
+        {
+            "entity_name": "VALLEY",
+            "entity_type": "GEO",
+            "description": "Valley is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "VALLEY"
+            ],
+            "source_text_entities": [
+                "VALLEY"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a semantic network and a graph knowledge base used as the input for generating commonsense questions in the COMMONSENSEQA process, providing a platform for extracting subgraphs and filtering edges based on predefined rules.",
+            "source_image_entities": [
+                "CONCEPTNET"
+            ],
+            "source_text_entities": [
+                "CONCEPTNET"
+            ]
+        },
+        {
+            "merged_entity_name": "CROWDWORKERS",
+            "entity_type": "ORGANIZATION",
+            "description": "CROWDWORKERS, including Amazon Mechanical Turk workers, contribute to the creation, refinement, and validation of questions and distractors in the COMMONSENSEQA process, authoring multiple-choice questions and adding distractors to challenge the respondent's understanding and attention.",
+            "source_image_entities": [
+                "CROWDWORKERS"
+            ],
+            "source_text_entities": [
+                "CROWDSOURCING WORKERS"
+            ]
+        },
+        {
+            "merged_entity_name": "DISTRACTORS",
+            "entity_type": "OBJECT",
+            "description": "DISTRACTORS are incorrect options added by crowdworkers to multiple-choice questions in the COMMONSENSEQA process to challenge the respondent's understanding and attention, including both automatically selected distractors from ConceptNet and manually formulated distractors.",
+            "source_image_entities": [
+                "DISTRACTORS"
+            ],
+            "source_text_entities": [
+                "DISTRACTORS"
+            ]
+        }
+    ],
+    "image_3": [
+    ],
+    "image_4": [
+    ],
+    "image_5": [
+    ],
+    "image_6": [
+    ],
+    "image_7": [
+    ],
+    "image_8": [
+        {
+            "entity_name": "VECSIM",
+            "entity_type": "ORGANIZATION",
+            "description": "VECSIM is a model used as a baseline in the evaluation of COMMONSENSEQA, based on cosine similarity of pre-trained word embeddings.",
+            "source_image_entities": [
+                "VECSIM"
+            ],
+            "source_text_entities": [
+                "VECSIM"
+            ]
+        },
+        {
+            "entity_name": "QABILINEAR",
+            "entity_type": "ORGANIZATION",
+            "description": "QABILINEAR is a model proposed by Yu et al. (2014) for QA, which scores answers using a bilinear model and trains with cross-entropy loss.",
+            "source_image_entities": [
+                "QABILINEAR"
+            ],
+            "source_text_entities": [
+                "QABILINEAR"
+            ]
+        },
+        {
+            "entity_name": "QACOMPARE",
+            "entity_type": "ORGANIZATION",
+            "description": "QACOMPARE is a model similar to an NLI model from Liu et al. (2016), representing the interaction between the question and candidate answer, and predicting an answer score.",
+            "source_image_entities": [
+                "QACOMPARE"
+            ],
+            "source_text_entities": [
+                "QACOMPARE"
+            ]
+        },
+        {
+            "entity_name": "ESIM",
+            "entity_type": "ORGANIZATION",
+            "description": "ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss.",
+            "source_image_entities": [
+                "ESIM"
+            ],
+            "source_text_entities": [
+                "ESIM"
+            ]
+        },
+        {
+            "entity_name": "GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "GPT is a method proposed by Radford et al. (2018) for adapting pre-trained LMs to perform a wide range of tasks, applied to COMMONSENSEQA by encoding questions and candidate answers as sequences.",
+            "source_image_entities": [
+                "GPT"
+            ],
+            "source_text_entities": [
+                "GENERATIVE PRE-TRAINED TRANSFORMER (GPT)"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model that fine-tunes a language model and holds state-of-the-art across a broad range of tasks, using a masked language modeling objective and fine-tuning pre-trained weights for COMMONSENSEQA.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BIDAF++",
+            "entity_type": "ORGANIZATION",
+            "description": "BIDAF++ is a state-of-the-art RC model that uses Google web snippets as context, augmented with a self-attention layer and ELMo representations, adapted for multiple-choice settings.",
+            "source_image_entities": [
+                "BIDAF++"
+            ],
+            "source_text_entities": [
+                "BIDAF++"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "merged_entity_name": "SANITY MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "SANITY models are a set of models trained on the COMMONSENSEQA dataset, achieving very high performance, with BERT-LARGE achieving 92% accuracy.",
+            "source_image_entities": [
+                "SANITY"
+            ],
+            "source_text_entities": [
+                "SANITY MODELS"
+            ]
+        }
+    ],
+    "image_10": [],
+    "image_11": [
+    ]
+}

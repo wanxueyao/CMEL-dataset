@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_BIRD-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Owl- Age: Adult- Color: The owl has a mottled brown and white plumage, which provides excellent camouflage against tree bark and leaves.- Shape: The owl has a rounded body with a large head, and its eyes are forward-facing, which is characteristic of owls. Its wings are long and broad, designed for silent flight.- Size: The owl appears to be of medium size, typical of many owl species.- Posture: The owl is perched, with its head turned slightly to the side, giving it a vigilant appearance.- Structural Characteristics: The owl has a sharp, hooked beak and talons, which are adaptations for hunting prey. Its feathers are soft and downy, reducing noise during flight."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a bustling scene at a train station, likely Platform Nine and Three-Quarters from the Harry Potter series. A large, red steam locomotive is prominently featured on the right side of the image, emitting smoke and steam as it prepares to depart. The platform is crowded with people, some of whom are boarding the train while others are saying goodbye or waiting for their turn. Several owls are flying around, adding to the chaotic yet magical atmosphere. One owl is perched on the left side of the image, observing the scene. The background shows a brick wall and an archway, typical of a traditional British railway station. The overall mood is one of excitement and anticipation, as if everyone is embarking on a significant journey."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+</node>
+<node id="&quot;BIRD&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d1">"The image feature block image_5_bird-0.jpg is a picture of a bird."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;HOGWARTS EXPRESS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d1">"Hogwarts Express是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;OWLS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d1">"Owls是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PLATFORM&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d1">"Platform是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PEOPLE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d1">"People是从image_5中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_5_BIRD-0.JPG&quot;" target="&quot;BIRD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_5_bird-0.jpg is a picture of a bird."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_BIRD-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_bird-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HOGWARTS EXPRESS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hogwarts Express是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;OWLS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Owls是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PLATFORM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Platform是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PEOPLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"People是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

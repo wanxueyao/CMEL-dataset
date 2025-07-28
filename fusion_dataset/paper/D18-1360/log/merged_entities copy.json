@@ -1,0 +1,485 @@
+{
+    "chunk-cc0ebc6806895b46dab167f0a64a568d": [
+        {
+            "entity_name": "Scientific Information Extractor (SCIIE)",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIIE is a unified framework developed for extracting scientific entities, relations, and coreference clusters with shared span representations.",
+            "source_entities": [
+                "SCIENTIFIC INFORMATION EXTRACTOR (SCIIE)",
+                "SCIENTIFIC INFORMATION EXTRACTOR (SCIIE)"
+            ]
+        },
+        {
+            "entity_name": "SemEval 2017",
+            "entity_type": "EVENT",
+            "description": "SemEval 2017 is an event that includes 500 paragraphs from articles in the domains of computer science, physics, and material science for scientific information extraction.",
+            "source_entities": [
+                "SEMEVAL 2017"
+            ]
+        },
+        {
+            "entity_name": "SemEval 2018",
+            "entity_type": "EVENT",
+            "description": "SemEval 2018 is an event focused on predicting relations between entities within scientific articles.",
+            "source_entities": [
+                "SEMEVAL 2018"
+            ]
+        },
+        {
+            "entity_name": "SCIERC",
+            "entity_type": "DATASET",
+            "description": "SCIERC is a dataset created for scientific information extraction, which includes annotations for entities, relations, and coreference clusters.",
+            "source_entities": [
+                "SCIIC",
+                "SCIERC"
+            ]
+        },
+        {
+            "entity_name": "Morphological Parser (MORPA)",
+            "entity_type": "EVENT",
+            "description": "MORPA is a scientific concept used in the paper to illustrate the problem of cross-sentence relations in scientific articles.",
+            "source_entities": [
+                "MORPHOLOGICAL PASER (MORPA)"
+            ]
+        }
+    ],
+    "chunk-f1250fe597dc463227de39d654a649d8": [
+        {
+            "entity_name": "SemEval 17 (Augenstein et al., 2017)",
+            "entity_type": "Event",
+            "description": "SemEval 17 is an event that includes 500 paragraphs from articles in the domains of computer science, physics, and material science, focusing on keyphrases: Tasks, Methods, and Materials, and relation types: hyponym-of and synonym-of. Augenstein et al., 2017 are the authors associated with this event, which is focused on scientific information extraction.",
+            "source_entities": [
+                "SEMEVAL 17",
+                "AUGENSTEIN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "SemEval 18 (Ga´bor et al., 2018)",
+            "entity_type": "Event",
+            "description": "SemEval 18 is an event focused on predicting relations between entities within a sentence, consisting of six relation types. Ga´bor et al., 2018 are the authors associated with this event, which is focused on predicting relations between entities.",
+            "source_entities": [
+                "SEMEVAL 18",
+                "GA´BOR ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "Ammar et al. (2017, 2018)",
+            "entity_type": "Person",
+            "description": "Ammar et al., 2017 and Ammar et al., 2018 are authors who introduced and contributed to neural models for extracting scientific information.",
+            "source_entities": [
+                "AMMAR ET AL., 2017",
+                "AMMAR ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "Luan et al. (2017b, 2018)",
+            "entity_type": "Person",
+            "description": "Luan et al., 2017b and Luan et al., 2018 are authors who introduced neural models for extracting scientific information and worked on IE systems for scientific literature and general domains.",
+            "source_entities": [
+                "LUAN ET AL., 2017B",
+                "LUAN ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "SCIERC (Semantic Scholar Corpus)",
+            "entity_type": "Organization",
+            "description": "SCIERC is the dataset that includes annotations for scientific entities, their relations, and coreference clusters for 500 scientific abstracts. These abstracts are taken from 12 AI conference/workshop proceedings in four AI communities from the Semantic Scholar Corpus, which is the source of the abstracts used in SCIERC.",
+            "source_entities": [
+                "SCIERC",
+                "SEMANTIC SCHOLAR CORPUS"
+            ]
+        },
+        {
+            "entity_name": "Annotation Scheme (BRAT Interface)",
+            "entity_type": "Concept",
+            "description": "Annotation Scheme defines the types for annotating scientific entities and relation types in the SCIERC dataset. The BRAT Interface is the tool used by annotators to perform a greedy annotation for spans in the SCIERC dataset, following the annotation guidelines from QasemiZadeh and Schumann, 2016.",
+            "source_entities": [
+                "ANNOTATION SCHEME",
+                "BRAT INTERFACE",
+                "QASEMIZADEH AND SCHUMANN, 2016"
+            ]
+        },
+        {
+            "entity_name": "Human Agreements (Kappa Score)",
+            "entity_type": "Event",
+            "description": "Human Agreements refers to the evaluation of user agreements in the annotation process of the SCIERC dataset, where the kappa score is a measure of inter-annotator agreement used to evaluate these agreements.",
+            "source_entities": [
+                "HUMAN AGREEMENTS",
+                "KAPPA SCORE"
+            ]
+        }
+    ],
+    "chunk-6ced64911e56248a89a8b530563c72dd": [
+        {
+            "entity_name": "SCIERC",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIERC is an organization focused on annotating cross-sentence relations, with more relation coverage than SemEval 17 and SemEval 18. It extends previous datasets by adding more relation types and coreference clusters, allowing for the representation of cross-sentence relations and aiming for broader coverage of general AI communities.",
+            "source_entities": [
+                "SCIERC",
+                "GENERAL AI COMMUNITIES"
+            ]
+        },
+        {
+            "entity_name": "SemEval 17",
+            "entity_type": "EVENT",
+            "description": "SemEval 17 is an event designed for entity recognition and covers only two relation types, resulting in sparser relation coverage compared to SCIERC.",
+            "source_entities": [
+                "SEMEVAL 17"
+            ]
+        },
+        {
+            "entity_name": "SemEval 18",
+            "entity_type": "EVENT",
+            "description": "SemEval 18 is an event designed to classify a relation between a pair of entities, but only intra-sentence relations are annotated, leading to sparser relation coverage than SCIERC.",
+            "source_entities": [
+                "SEMEVAL 18"
+            ]
+        },
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIIE is a unified framework developed to identify and classify scientific entities, relations, and coreference resolution across sentences, extending previous span-based models for coreference resolution and semantic role labeling.",
+            "source_entities": [
+                "SCIIE",
+                "LEE ET AL., 2017",
+                "HE ET AL., 2018"
+            ]
+        },
+        {
+            "entity_name": "Table 1",
+            "entity_type": "GEO",
+            "description": "Table 1 provides a comparison of statistics among the three datasets: SCIERC, SemEval 17, and SemEval 18.",
+            "source_entities": [
+                "TABLE 1"
+            ]
+        },
+        {
+            "entity_name": "D",
+            "entity_type": "GEO",
+            "description": "D represents a document as a sequence of words from which spans are derived.",
+            "source_entities": [
+                "D"
+            ]
+        },
+        {
+            "entity_name": "S",
+            "entity_type": "GEO",
+            "description": "S represents the set of all possible within-sentence word sequence spans in the document.",
+            "source_entities": [
+                "S"
+            ]
+        },
+        {
+            "entity_name": "E",
+            "entity_type": "GEO",
+            "description": "E represents the entity types for all spans S.",
+            "source_entities": [
+                "E",
+                "L_{\\MATHRM{E}}"
+            ]
+        },
+        {
+            "entity_name": "R",
+            "entity_type": "GEO",
+            "description": "R represents the relations for all pairs of spans S×S.",
+            "source_entities": [
+                "R",
+                "L_{\\MATHRM{R}}"
+            ]
+        },
+        {
+            "entity_name": "C",
+            "entity_type": "GEO",
+            "description": "C represents the coreference links for all spans in S.",
+            "source_entities": [
+                "C"
+            ]
+        }
+    ],
+    "chunk-246a08a01372d59dec733cd9bccdc6c1": null,
+    "chunk-309d0af48135e3f30b2c88b741530b50": [
+        {
+            "entity_name": "Statistical Machine Translation (SMT)",
+            "entity_type": "Scientific Term",
+            "description": "Statistical Machine Translation (SMT) is a scientific term and a node in the knowledge graph, connected to other nodes through various relation types, including a Used-for relation with grammatical error correction.",
+            "source_entities": [
+                "STATISTICAL MACHINE TRANSLATION (SMT)",
+                "GRAMMATICAL ERROR CORRECTION"
+            ]
+        },
+        {
+            "entity_name": "Scientific Knowledge Graph",
+            "entity_type": "Knowledge Graph",
+            "description": "The Scientific Knowledge Graph is constructed from a large corpus of scientific articles, including all abstracts from 12 AI conference proceedings in the Semantic Scholar Corpus. Nodes in the graph correspond to scientific entities, and edges correspond to scientific relations between pairs of entities, typed according to the relation types defined in the paper.",
+            "source_entities": [
+                "SCIERC",
+                "SEMEVAL 17",
+                "SCIENTIFIC ENTITIES",
+                "SCIENTIFIC RELATIONS",
+                "USED-FOR RELATION TYPE",
+                "FREQUENT ENTITIES",
+                "REMAINING ENTITIES",
+                "MOST FREQUENT RELATION TYPE"
+            ]
+        },
+        {
+            "entity_name": "SCIIE Model",
+            "entity_type": "Model",
+            "description": "The SCIIE model is a unified framework used for extracting entities, their relations, and coreference clusters within documents. It employs techniques such as beam pruning, span representations, and various embeddings to construct vector representations for spans and reduce the number of pairwise span factors. The model is evaluated on SCIERC and SemEval 17.",
+            "source_entities": [
+                "SCIIE MODEL",
+                "BEAM PRUNING",
+                "BILSTM OUTPUTS",
+                "ATTENTION-BASED SOFT 'HEADWORD'",
+                "EMBEDDED SPAN WIDTH FEATURES",
+                "$B_{\\MATHRM{C}}$",
+                "$B_{\\MATHRM{R}}$",
+                "$\\PHI_{\\MATHRM{MC}}$",
+                "$\\PHI_{\\MATHRM{MR}}$",
+                "$\\LAMBDA_{\\MATHRM{C}}$",
+                "$\\LAMBDA_{\\MATHSF{R}}$",
+                "$W$",
+                "COREFERENCE RESOLUTION",
+                "RELATION EXTRACTION"
+            ]
+        }
+    ],
+    "chunk-050ba62143bccd8f76afdad969812b02": [
+        {
+            "entity_name": "LSTM+CRF",
+            "entity_type": "TECHNOLOGY",
+            "description": "A state-of-the-art NER system that applies CRF on top of LSTM for named entity tagging, used as a baseline for comparison with SCIIE. It is also used in scientific term extraction.",
+            "source_entities": [
+                "LSTM+CRF",
+                "CONDITIONAL RANDOM FIELD (CRF)"
+            ]
+        },
+        {
+            "entity_name": "E2E Rel",
+            "entity_type": "TECHNOLOGY",
+            "description": "A state-of-the-art joint entity and relation extraction system that has been used in scientific literature and serves as a baseline for comparison with SCIIE. It uses syntactic features such as part-of-speech tagging and dependency parsing.",
+            "source_entities": [
+                "E2E REL",
+                "E2E COREF"
+            ]
+        },
+        {
+            "entity_name": "LEE ET AL., 2017",
+            "entity_type": "PERSON",
+            "description": "Lee et al., 2017 developed a state-of-the-art coreference system that is combined with ELMO and extended by SCIIE with multi-task learning. This system is used as a baseline for comparison.",
+            "source_entities": [
+                "LEE ET AL., 2017",
+                "E2E COREF"
+            ]
+        },
+        {
+            "entity_name": "SEMEVAL 17",
+            "entity_type": "EVENT",
+            "description": "SemEval 17 is a dataset used for evaluating the performance of the SCIIE framework, particularly in entity and relation extraction tasks. It is also used to compare with the best reported system in the SemEval leaderboard, which extends E2E Rel with several in-domain features such as gazetteers extracted from existing knowledge bases and model ensembles.",
+            "source_entities": [
+                "SEMEVAL 17",
+                "SCIERC"
+            ]
+        }
+    ],
+    "chunk-2a11044e6b23f189d1c5255331a0663e": [
+        {
+            "entity_name": "E2E Rel (ELMO)",
+            "entity_type": "EVENT",
+            "description": "E2E Rel, also known as ELMO, is an event or process being compared with ELMO in the context of coreference resolution. It indicates its role as a system or model used for comparison in coreference resolution tasks.",
+            "source_entities": [
+                "E2E REL",
+                "ELMO"
+            ]
+        },
+        {
+            "entity_name": "SCIIE",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIIE is a system or model that outperforms E2E Coref, suggesting its use in coreference resolution and comparison for performance improvement.",
+            "source_entities": [
+                "SCIIE"
+            ]
+        },
+        {
+            "entity_name": "SEMEVAL 17",
+            "entity_type": "EVENT",
+            "description": "SemEval 17 is an event where the model's performance is compared with the state of the art on various tasks, including span identification, keyphrase extraction, and relation extraction.",
+            "source_entities": [
+                "SEMEVAL 17"
+            ]
+        },
+        {
+            "entity_name": "SCIERC",
+            "entity_type": "ORGANIZATION",
+            "description": "SCIERC is associated with a development set used for the ablation study on multitask learning, indicating its role in dataset evaluation and performance improvement.",
+            "source_entities": [
+                "SCIERC",
+                "SCIERC DEVELOPMENT SET"
+            ]
+        },
+        {
+            "entity_name": "Natural Language Processing (NLP)",
+            "entity_type": "GEO",
+            "description": "Natural Language Processing (NLP) refers to the field of study that is a geolocation in the context of scientific applications, particularly in tasks like language modeling, POS Tagging, and Machine Translation.",
+            "source_entities": [
+                "NLP"
+            ]
+        },
+        {
+            "entity_name": "Office of Naval Research (NSF, ALLEN)",
+            "entity_type": "ORGANIZATION",
+            "description": "The Office of Naval Research, along with NSF and ALLEN, are organizations that provided funding for the research, as indicated by the acknowledgments. They supported the research through grants and other funding mechanisms.",
+            "source_entities": [
+                "NSF",
+                "OFFICE OF NAVAL RESEARCH",
+                "ALLEN"
+            ]
+        },
+        {
+            "entity_name": "Entity Recognition, Coreference Resolution, Relation Extraction",
+            "entity_type": "EVENT",
+            "description": "Entity Recognition, Coreference Resolution, and Relation Extraction are tasks in the dataset where performance is evaluated. They show improvement when combined with other tasks in multi-task learning, indicating the effectiveness of shared span representations and cross-sentence information.",
+            "source_entities": [
+                "ENTITY RECOGNITION",
+                "COREFERENCE RESOLUTION",
+                "RELATION EXTRACTION"
+            ]
+        },
+        {
+            "entity_name": "Span Identification, Keyphrase Extraction",
+            "entity_type": "EVENT",
+            "description": "Span Identification and Keyphrase Extraction are tasks in SemEval 17 with the same setting as entity and relation extraction in SCIERC. They aim at identifying spans of entities and are part of the model's performance comparison with the state of the art.",
+            "source_entities": [
+                "SPAN IDENTIFICATION",
+                "KEYPHRASE EXTRACTION"
+            ]
+        },
+        {
+            "entity_name": "Speech, Computer Vision",
+            "entity_type": "GEO",
+            "description": "Speech and Computer Vision are fields where neural networks have been applied, particularly in the context of scientific trend analysis. They show the historical trend of neural network applications in scientific papers from 1996 to 2016.",
+            "source_entities": [
+                "SPEECH",
+                "COMPUTER VISION"
+            ]
+        },
+        {
+            "entity_name": "MURI Grant",
+            "entity_type": "EVENT",
+            "description": "MURI Grant is a funding source mentioned in the acknowledgments, supporting the research through a grant from the Office of Naval Research.",
+            "source_entities": [
+                "MURI GRANT"
+            ]
+        }
+    ],
+    "chunk-e3424edc2971b088a1bbfecbd01f3aa1": null,
+    "chunk-891a47d0fc79ec5c8979001b802bb091": null,
+    "chunk-e2c104027cba0af02f4bebfa9c994044": [
+        {
+            "entity_name": "ACL RD-TEC ANNOTATION GUIDELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "The ACL RD-TEC Annotation Guideline is a standard used for entity boundary annotation in text, developed by QasemiZadeh and Schumann in 2016.",
+            "source_entities": [
+                "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "\"QASEMIZADEH\"",
+                "\"SCHUMANN\""
+            ]
+        },
+        {
+            "entity_name": "BRA",
+            "entity_type": "ORGANIZATION",
+            "description": "BRA is an interface used for annotation examples in ACL papers, as demonstrated in Figure 9.",
+            "source_entities": [
+                "\"BRA\""
+            ]
+        },
+        {
+            "entity_name": "ACL",
+            "entity_type": "ORGANIZATION",
+            "description": "ACL is an organization that publishes papers, develops annotation guidelines, and is involved in the field of natural language processing.",
+            "source_entities": [
+                "\"ACL\""
+            ]
+        },
+        {
+            "entity_name": "NLP APPLICATIONS",
+            "entity_type": "ORGANIZATION",
+            "description": "NLP applications is a field that includes machine translation, language generation, and other natural language processing tasks.",
+            "source_entities": [
+                "\"NLP APPLICATIONS\"",
+                "\"MACHINE TRANSLATION\"",
+                "\"LANGUAGE GENERATION\""
+            ]
+        },
+        {
+            "entity_name": "MACHINE READING SYSTEM",
+            "entity_type": "ORGANIZATION",
+            "description": "The machine reading system is a system introduced in the text that incorporates prior knowledge, including quantitative and qualitative priors.",
+            "source_entities": [
+                "\"MACHINE READING SYSTEM\"",
+                "\"QUANTITATIVE PRIOR\"",
+                "\"QUALITATIVE PRIOR\""
+            ]
+        },
+        {
+            "entity_name": "POS TAGGER",
+            "entity_type": "ORGANIZATION",
+            "description": "The POS tagger is a part-of-speech tagging system developed in the text, which is an application of natural language processing.",
+            "source_entities": [
+                "\"POS TAGGER\""
+            ]
+        },
+        {
+            "entity_name": "STATISTICAL MACHINE TRANSLATION",
+            "entity_type": "EVENT",
+            "description": "Statistical machine translation is the central theme of the automatically generated knowledge graph, as shown in Figure 10.",
+            "source_entities": [
+                "\"STATISTICAL MACHINE TRANSLATION\""
+            ]
+        },
+        {
+            "entity_name": "CONJUNCTION",
+            "entity_type": "CONCEPT",
+            "description": "Conjunction refers to a symmetric relation where two entities function similarly or incorporate with each other, such as in NLP applications like machine translation and language generation.",
+            "source_entities": [
+                "\"CONJUNCTION\""
+            ]
+        },
+        {
+            "entity_name": "KNOWLEDGE SOURCES",
+            "entity_type": "ORGANIZATION",
+            "description": "Knowledge sources include human experts and knowledge bases, which provide prior knowledge that can be used in NLP applications.",
+            "source_entities": [
+                "\"HUMAN EXPERT\"",
+                "\"KNOWLEDGE BASE\""
+            ]
+        },
+        {
+            "entity_name": "LINGUISTIC PHENOMENA",
+            "entity_type": "CONCEPT",
+            "description": "Linguistic phenomena include anaphora, where a word or phrase refers back to a previous word or phrase, and cataphora, where a word or phrase refers forward to a following word or phrase.",
+            "source_entities": [
+                "\"ANAPHORA\"",
+                "\"CATAPHORA\""
+            ]
+        },
+        {
+            "entity_name": "COREFERENCE",
+            "entity_type": "CONCEPT",
+            "description": "Coreference refers to noun phrases that have the same reference, such as in the case of the machine reading system and the POS tagger.",
+            "source_entities": [
+                "\"COREFERRING NOUN PHRASE\""
+            ]
+        },
+        {
+            "entity_name": "NEURAL BASED APPROACH",
+            "entity_type": "CONCEPT",
+            "description": "Neural based approach refers to a method that uses neural networks as its foundation, such as in the context of local smoothness and data structures.",
+            "source_entities": [
+                "\"NEURAL BASED APPROACH\"",
+                "\"LOCAL SMOOTHNESS\"",
+                "\"DATA STRUCTURE\""
+            ]
+        }
+    ]
+}

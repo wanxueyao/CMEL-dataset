@@ -1,0 +1,1771 @@
+{
+    "2": {
+        "chunk_key": "chunk-a042c5afc27f9a817cbb4c69d058a331",
+        "entities": [
+            {
+                "entity_name": "\"SAKAGUCHI ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Sakaguchi et al. is a group that has demonstrated strong word recognition performance in their 2017 study.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"SCRNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN refers to a specific model used for word recognition, which predicts UNK for rare and unseen words.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"IMDB MOVIE CORPUS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IMDB movie corpus is a large dataset used for training the background model in the proposed word recognition system.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"XU ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Xu et al. is a group that proposed a defense method called quantization to reduce the space of perturbations available to the adversary.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"BUCKMAN ET AL.\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Buckman et al. is a group that proposed a defense method called thermometer encoding to reduce the space of perturbations available to the adversary.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"BACKOFF VARIATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Backoff Variations refers to the different strategies explored for handling UNK predictions in word recognition models.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"PASS-THROUGH\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Pass-through is a strategy where the word-recognizer passes on the possibly misspelled word as is.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"BACKOFF TO NEUTRAL WORD\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Backoff to neutral word is a strategy where the word-recognizer backs off to a neutral word like 'a' when predicting UNK.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"BACKOFF TO BACKGROUND MODEL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Backoff to background model is a strategy where a more generic word recognition model is used when the foreground model predicts UNK.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"FOREGROUND MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Foreground model refers to the specific word recognition model trained on an in-domain corpus to focus on frequent words.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"BACKGROUND MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Background model refers to the more generic word recognition model trained on a larger, less-specialized corpus.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"MODEL SENSITIVITY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Model Sensitivity refers to the consideration of how sensitive a model is to perturbations, which is important in determining the success of an adversary in computer vision.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL SETTING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Adversarial setting refers to the scenario where attackers try to exploit weaknesses in a model, particularly with rare and unseen words.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"CHARACTER-LEVEL MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Character-level models are models that operate at the character level, which do not enjoy the same invariance as word-level models.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"WORD-LEVEL MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Word-level models are models that operate at the word level, which have certain invariances that can limit the number of different inputs to the classifier.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"ADVERSARY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adversary refers to an entity that attempts to exploit weaknesses in a model, particularly in the context of rare and unseen words.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"下游分类器\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"下游分类器 refers to the downstream classifier that receives input representations from the word-recognizer model.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "entity_name": "\"SENSITIVITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sensitivity refers to the expected number of unique outputs a word recognition system assigns to a set of adversarial perturbations.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SAKAGUCHI ET AL.\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 8.0,
+                "description": "\"Sakaguchi et al. developed the ScRNN model for word recognition.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"SCRNN\"",
+                "tgt_id": "\"IMDB MOVIE CORPUS\"",
+                "weight": 7.0,
+                "description": "\"ScRNN is used in conjunction with the IMDB movie corpus for training the background model in the proposed word recognition system.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"XU ET AL.\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 6.0,
+                "description": "\"Xu et al.'s quantization method is a defense strategy that can be applied to models like ScRNN to reduce perturbations.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"BUCKMAN ET AL.\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 6.0,
+                "description": "\"Buckman et al.'s thermometer encoding method is a defense strategy that can be applied to models like ScRNN to reduce perturbations.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"BACKOFF VARIATIONS\"",
+                "tgt_id": "\"PASS-THROUGH\"",
+                "weight": 7.0,
+                "description": "\"Backoff Variations includes the Pass-through strategy as one of the methods for handling UNK predictions.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"BACKOFF VARIATIONS\"",
+                "tgt_id": "\"BACKOFF TO NEUTRAL WORD\"",
+                "weight": 7.0,
+                "description": "\"Backoff Variations includes the Backoff to neutral word strategy as one of the methods for handling UNK predictions.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"BACKOFF VARIATIONS\"",
+                "tgt_id": "\"BACKOFF TO BACKGROUND MODEL\"",
+                "weight": 7.0,
+                "description": "\"Backoff Variations includes the Backoff to background model strategy as one of the methods for handling UNK predictions.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"FOREGROUND MODEL\"",
+                "tgt_id": "\"BACKGROUND MODEL\"",
+                "weight": 8.0,
+                "description": "\"The Foreground model and Background model are two different models used in the proposed word recognition system, with the Background model being invoked when the Foreground model predicts UNK.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"ADVERSARIAL SETTING\"",
+                "tgt_id": "\"ADVERSARY\"",
+                "weight": 8.0,
+                "description": "\"In the Adversarial setting, the Adversary tries to exploit the model, particularly with rare and unseen words.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            },
+            {
+                "src_id": "\"WORD-LEVEL MODELS\"",
+                "tgt_id": "\"ADVERSARY\"",
+                "weight": 6.0,
+                "description": "\"Word-level models have certain invariances that can limit the Adversary's ability to manipulate the model.\"",
+                "source_id": "chunk-a042c5afc27f9a817cbb4c69d058a331"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-90970573671f6132f5962121c2c4e4f6",
+        "entities": [
+            {
+                "entity_name": "\"DA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DA refers to a defense method that is not effective against adversarially chosen attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"ADV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Adv refers to a defense method that is not effective against adversarially chosen attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"ATD SPELL CORRECTOR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ATD spell corrector is effective on keyboard attacks but performs poorly on other attack types, particularly the add attack strategy.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"SCRNN MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN model with pass-through backoff offers better protection against adversarial attacks, especially for swap attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a model whose accuracy is significantly degraded by 1-2 character attacks, but can be defended by word recognition models.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"MRPC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRPC is the event or task where BERT's accuracy is tested under various attack and defense settings.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"WORD RECOGNIZER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Word recognizer is a model whose sensitivity is tested under different attack types.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 3 presents the accuracy of various classification models, with and without defenses, under adversarial attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"1-CHAR ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"1-char attack refers to the adversarial attack where only one character is changed.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"2-CHAR ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"2-char attack refers to the adversarial attack where two characters are changed.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"ALL ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"All attack refers to the setting where all types of adversarial attacks are considered.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"SWAP ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Swap attack is a type of adversarial attack where characters are swapped.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"DROP ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Drop attack is a type of adversarial attack where characters are dropped.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"ADD ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Add attack is a type of adversarial attack where additional characters are added.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"TABLE 4\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 4 shows the accuracy of BERT, with and without defenses, on MRPC when attacked under the 'all' attack setting.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"TABLE 5\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 5 presents the sensitivity values for word recognizers.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"BACKGROUND MODELS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Background models are used as a backoff alternative due to their lower word error rate.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"SECTION $\\S\\ 4.3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Section $\\S\\ 4.3 discusses understanding model sensitivity and the backoff neutral variation's low sensitivity.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"HUMAN INTELLIGIBILITY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Intelligibility refers to the study verifying if the sentiment of reviews is preserved with char-level attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "entity_name": "\"FIGURE 2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Figure 2 depicts the effect of sensitivity and word error rate on robustness in word-only and char-only models.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DA\"",
+                "tgt_id": "\"ADV\"",
+                "weight": 7.0,
+                "description": "\"Both DA and Adv are defense methods that are not effective against adversarially chosen attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"ATD SPELL CORRECTOR\"",
+                "tgt_id": "\"SCRNN MODEL\"",
+                "weight": 6.0,
+                "description": "\"ATD spell corrector and ScRNN model are both defense methods, with ScRNN model offering better protection against adversarial attacks.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"MRPC\"",
+                "weight": 8.0,
+                "description": "\"BERT's accuracy is tested under various attack and defense settings during the MRPC task.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"SCRNN MODEL\"",
+                "tgt_id": "\"WORD RECOGNIZER\"",
+                "weight": 7.0,
+                "description": "\"ScRNN model variants are re-trained on the MRPC training set for word recognizer sensitivity analysis.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"1-CHAR ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under 1-char attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"2-CHAR ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under 2-char attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"ALL ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under all attack setting.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"SWAP ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under swap attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"DROP ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under drop attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"ADD ATTACK\"",
+                "weight": 7.0,
+                "description": "\"Table 3 includes the accuracy results of models under add attack.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 4\"",
+                "tgt_id": "\"BERT\"",
+                "weight": 7.0,
+                "description": "\"Table 4 shows the accuracy of BERT under various attack and defense settings.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"TABLE 5\"",
+                "tgt_id": "\"WORD RECOGNIZER\"",
+                "weight": 7.0,
+                "description": "\"Table 5 presents the sensitivity values for word recognizers.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            },
+            {
+                "src_id": "\"BACKGROUND MODELS\"",
+                "tgt_id": "\"WORD RECOGNIZER\"",
+                "weight": 7.0,
+                "description": "\"Background models are used as a backoff alternative for word recognizers due to their lower word error rate.\"",
+                "source_id": "chunk-90970573671f6132f5962121c2c4e4f6"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-667f71c87e99d2706ad4a9d7bf4c4383",
+        "entities": [
+            {
+                "entity_name": "\"SCRNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN is a model used for word recognition, with variations that reconstruct better than ATD and vanilla ScRNN models.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"ATD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ATD is a model that predicts 11.2 words incorrectly for every 100 words and is compared with ScRNN models for word recognition accuracy.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"BERT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BERT is a fine-tuned model used for sentiment analysis and paraphrase detection, setting a new state-of-the-art on several NLP benchmarks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"STANFORD SENTIMENT TREEBANK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Stanford Sentiment Treebank is a dataset used for training and evaluating sentiment analysis models, consisting of positive and negative reviews.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"MICROSOFT RESEARCH PARAPHRASE CORPUS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Microsoft Research Paraphrase Corpus is a dataset used for training and evaluating paraphrase detection models.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"DEVLIN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Devlin et al., 2018 are authors associated with the BERT model, which has set a new state-of-the-art on several NLP benchmarks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"DOLAN AND BROCKETT, 2005\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dolan and Brockett, 2005 are authors associated with the Microsoft Research Paraphrase Corpus dataset.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"SOCHER ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Socher et al., 2013 are authors associated with the Stanford Sentiment Treebank dataset.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"KRIZHEVSKY ET AL., 2012\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Krizhevsky et al., 2012 are authors associated with data augmentation, a method for dealing with adversarial examples.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"GOODFELLOW ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Goodfellow et al., 2014 are authors associated with adversarial training, a method for dealing with adversarial examples.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"WORD ERROR RATES (WER)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word Error Rates (WER) is a metric used to calculate the performance of models in word recognition tasks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"BACKGROUND CORPUS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Background Corpus is a larger corpus used for training ScRNN models, with a different distribution of word frequencies compared to the foreground corpus.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"FOREGROUND CORPUS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Foreground Corpus is the corpus used for training ScRNN models, with a different distribution of word frequencies compared to the background corpus.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"BILSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BiLSTM is an architecture used for sentiment classification, encoding input sentences into a sequence of embeddings processed sequentially.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"WORD-ONLY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word-only is one of the input formats for BiLSTM architecture, where input words are encoded using a lookup table.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"CHAR-ONLY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Char-only is one of the input formats for BiLSTM architecture, where input words are encoded using a single-layered BiLSTM over their characters.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"WORD+CHAR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word+Char is one of the input formats for BiLSTM architecture, where input words are encoded using a concatenation of Word-only and Char-only formats.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"DATA AUGMENTATION (DA)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Data Augmentation (DA) is a method for dealing with adversarial examples, involving fine-tuning the trained model with attacked examples.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL TRAINING (ADV)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Adversarial Training (Adv) is a method for dealing with adversarial examples, involving fine-tuning the trained model with additional adversarial examples.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 2 presents the Word Error Rates (WER) of ScRNN with each backoff strategy, plus ATD and an ScRNN trained only on the background corpus.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 examines the robustness of sentiment models under each attack and defense method.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"OOV WORDS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"OOV words refer to out-of-vocabulary words that are unseen in the training corpus and are recoverable by backing off to a larger corpus.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"CHARACTER-LEVEL ADVERSARIAL ATTACKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Character-level adversarial attacks are attacks that involve editing individual characters in input sentences.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"SENTIMENT ANALYSIS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Sentiment Analysis is a downstream task used to evaluate the robustness of models against adversarial attacks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"PARAPHRASE DETECTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Paraphrase Detection is a downstream task used to evaluate the robustness of models against adversarial attacks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"WORD-PIECE TOKENIZATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word-piece tokenization is an input format used for the BERT model, which has set a new state-of-the-art on several NLP benchmarks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"ADD AND KEY ATTACKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Add and key attacks are types of adversarial attacks that pose a greater threat than swap and drop attacks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "entity_name": "\"SWAP AND DROP ATTACKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Swap and drop attacks are types of adversarial attacks that are less threatening than add and key attacks.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SCRNN\"",
+                "tgt_id": "\"ATD\"",
+                "weight": 8.0,
+                "description": "\"ScRNN backoff variations reconstruct better than ATD, resulting in a low error rate and better performance on word recognition.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"STANFORD SENTIMENT TREEBANK\"",
+                "weight": 9.0,
+                "description": "\"BERT is trained and evaluated on the Stanford Sentiment Treebank dataset for sentiment analysis.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "src_id": "\"BERT\"",
+                "tgt_id": "\"MICROSOFT RESEARCH PARAPHRASE CORPUS\"",
+                "weight": 9.0,
+                "description": "\"BERT is trained and evaluated on the Microsoft Research Paraphrase Corpus for paraphrase detection.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "src_id": "\"KRIZHEVSKY ET AL., 2012\"",
+                "tgt_id": "\"GOODFELLOW ET AL., 2014\"",
+                "weight": 7.0,
+                "description": "\"Both Krizhevsky et al., 2012 and Goodfellow et al., 2014 are associated with defense strategies against adversarial attacks, data augmentation and adversarial training respectively.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            },
+            {
+                "src_id": "\"SCRNN\"",
+                "tgt_id": "\"BACKGROUND CORPUS\"",
+                "weight": 7.0,
+                "description": "\"ScRNN models are trained on the background corpus, which has a different distribution of word frequencies compared to the foreground corpus.\"",
+                "source_id": "chunk-667f71c87e99d2706ad4a9d7bf4c4383"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-4796de599054ea47db665977669644e1",
+        "entities": [
+            {
+                "entity_name": "\"HWEE TOU NG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hwee Tou Ng is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"SIEW MEI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Siew Mei Wu is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"TED BRISCOE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ted Briscoe is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"CHRISTIAN HADIWINOTO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christian Hadiwinoto is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"RAYMOND HENDY SUSANTO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raymond Hendy Susanto is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER BRYANT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Bryant is an author of the paper on grammatical error correction in the 2014 CoNLL shared task.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"PRANAV RAJPURKAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pranav Rajpurkar is an author of the SQuAD dataset for machine comprehension of text.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"JIAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jian Zhang is an author of the SQuAD dataset for machine comprehension of text.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"KONSTANTIN LOPYREV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Konstantin Lopyrev is an author of the SQuAD dataset for machine comprehension of text.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"PERCY LIANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Percy Liang is an author of the SQuAD dataset for machine comprehension of text.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"GRAHAM ERNEST RAWLINSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Graham Ernest Rawlinson is the author of a Ph.D. thesis on the significance of letter position in word recognition.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"KEISUKE SAKAGUCHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Keisuke Sakaguchi is an author of a paper on robust word recognition via semi-character recurrent neural network.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"KEVIN DUH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Duh is an author of a paper on robust word recognition via semi-character recurrent neural network.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"MATT POST\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Post is an author of a paper on robust word recognition via semi-character recurrent neural network.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"BENJAMIN VAN DURME\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Van Durme is an author of a paper on robust word recognition via semi-character recurrent neural network.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ALLEN SCHMALTZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Allen Schmaltz is an author of a paper on sentence-level grammatical error identification.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"YOON KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoon Kim is an author of a paper on sentence-level grammatical error identification.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ALEXANDER M. RUSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander M. Rush is an author of a paper on sentence-level grammatical error identification.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"STUART SHIEBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stuart Shieber is an author of a paper on sentence-level grammatical error identification.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"RICHARD SOCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Richard Socher is an author of a paper on recursive deep models for semantic compositionality.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ALEX PERELYGIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Perelygin is an author of a paper on recursive deep models for semantic compositionality.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"JEAN WU\"",
+                "entity_type": "\"(\"ENTITY\"",
+                "description": "\"Jason Chuang\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D Manning is an author of a paper on recursive deep models for semantic compositionality.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ANDREW NG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Ng is an author of a paper on recursive deep models for semantic compositionality.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER POTTS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Potts is an author of a paper on recursive deep models for semantic compositionality.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"CHRISTIAN SZEGEDY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christian Szegedy is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"WOJCIECH ZAREMBA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wojciech Zaremba is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"JOAN BRUNA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joan Bruna is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"DUMITRU ERHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dumitru Erhan is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"IAN GOODFELLOW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ian Goodfellow is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ROB FERGUS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rob Fergus is an author of a paper on intriguing properties of neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"YONGHUI WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yonghui Wu is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"MIKE SCHUSTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mike Schuster is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"ZHIFENG CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhifeng Chen is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"QUOC V LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V Le is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"MOHAMMAD NOROUZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohammad Norouzi is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"WOLFGANG MACHEREY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wolfgang Macherey is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"MAXIM KRIKUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maxim Krikun is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"YUAN CAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuan Cao is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"QIN GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Qin Gao is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"KLAUS MACHEREY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Klaus Macherey is an author of a paper on Google's neural machine translation system.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"WEILIN XU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Weilin Xu is an author of a paper on detecting adversarial examples in deep neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            },
+            {
+                "entity_name": "\"DAVID EVANS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"David Evans is an author of a paper on detecting adversarial examples in deep neural networks.\"",
+                "source_id": "chunk-4796de599054ea47db665977669644e1"
+            }
+        ],
+        "relationships": []
+    },
+    "6": {
+        "chunk_key": "chunk-07348a5a07f00eb932ff919cbdcfdc6d",
+        "entities": [
+            {
+                "entity_name": "\"GRAHAM NEUBIG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Graham Neubig is one of the individuals acknowledged by the authors for suggestions and feedback.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"EDUARD HOVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eduard Hovy is one of the individuals acknowledged by the authors for suggestions and feedback.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"PAUL MICHEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Paul Michel is one of the individuals acknowledged by the authors for suggestions and feedback.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"MANSI GUPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mansi Gupta is one of the individuals acknowledged by the authors for suggestions and feedback.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ANTONIOS ANASTASOPOULOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Antonios Anastasopoulos is one of the individuals acknowledged by the authors for suggestions and feedback.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL CONFERENCE ON LEARNING REPRESENTATIONS (ICLR)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"International Conference on Learning Representations (ICLR) is an event where several referenced papers were presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"INNOVATION: JOURNAL OF APPROPRIATE LIBRARIANSHIP AND INFORMATION WORK IN SOUTHERN AFRICA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Innovation is a journal that published a paper on trends in censorship, referenced in the text.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Association for Computational Linguistics is an organization that hosts conferences where referenced papers were presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE 38TH ANNUAL MEETING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proceedings of the 38th Annual Meeting on Association for Computational Linguistics is an event where a referenced paper was presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ARXIV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"arXiv is a repository where preprints of academic papers are posted, including some referenced in the text.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ADVANCES IN NEURAL INFORMATION PROCESSING SYSTEMS (NIPS)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Advances in neural information processing systems is an event where a referenced paper was presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ACM COMPUTING SURVEYS (CSUR)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Acm Computing Surveys is a publication where a referenced paper on automatic word correction was published.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"CEAS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CEAS is an organization where a referenced paper on spam deobfuscation was presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"JOURNAL OF MACHINE LEARNING RESEARCH (JMLR)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Journal of Machine Learning Research is a publication where a referenced paper on spam filtering was published.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE EIGHTEENTH CONFERENCE ON COMPUTATIONAL NATURAL LANGUAGE LEARNING: SHARED TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proceedings of the Eighteenth Conference on Computational Natural Language Learning: Shared Task is an event where a referenced paper on grammatical error correction was presented.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"CONSTANCE BITSO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Constance Bitso is a co-author of a paper published in Innovation: journal of appropriate librarianship and information work in Southern Africa.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"INA FOURIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ina Fourie is a co-author of a paper published in Innovation: journal of appropriate librarianship and information work in Southern Africa.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"THEO JD BOTHMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Theo JD Bothma is a co-author of a paper published in Innovation: journal of appropriate librarianship and information work in Southern Africa.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ERIC BRILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric Brill is a co-author of a paper presented at the 38th Annual Meeting on Association for Computational Linguistics.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"ROBERT C. MOORE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Robert C. Moore is a co-author of a paper presented at the 38th Annual Meeting on Association for Computational Linguistics.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"JACOB BUCKMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Buckman is a co-author of a paper presented at the International Conference on Learning Representations (ICLR).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"AURKO ROY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aurko Roy is a co-author of a paper presented at the International Conference on Learning Representations (ICLR).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"COLIN RAFFEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Colin Raffel is a co-author of a paper presented at the International Conference on Learning Representations (ICLR).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"IAN GOODFELLOW\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ian Goodfellow is a co-author of a paper presented at the International Conference on Learning Representations (ICLR).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"JACOB DEVLIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Devlin is a co-author of a paper published as an arXiv preprint.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"MING-WEI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming-Wei Chang is a co-author of a paper published as an arXiv preprint.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is a co-author of a paper published as an arXiv preprint.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is a co-author of a paper published as an arXiv preprint.\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"WILLIAM B DOLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William B Dolan is a co-author of a paper presented at the Third International Workshop on Paraphrasing (IWP2005).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"CHRIS BROCKETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Brockett is a co-author of a paper presented at the Third International Workshop on Paraphrasing (IWP2005).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"JAVID EBRAHIMI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Javid Ebrahimi is a co-author of two papers presented at the International Conference on Computational Linguistics (COLING) and Association for Computational Linguistics (ACL).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"DANIEL LOWD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Lowd is a co-author of two papers presented at the International Conference on Computational Linguistics (COLING) and Association for Computational Linguistics (ACL).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            },
+            {
+                "entity_name": "\"DEJING DOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dejing Dou is a co-author of two papers presented at the International Conference on Computational Linguistics (COLING) and Association for Computational Linguistics (ACL).\"",
+                "source_id": "chunk-07348a5a07f00eb932ff919cbdcfdc6d"
+            }
+        ],
+        "relationships": []
+    },
+    "1": {
+        "chunk_key": "chunk-95ba8ed0727ac203c8a613ca825c78cf",
+        "entities": [
+            {
+                "entity_name": "\"EBRAHIMI ET AL., 2018B\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ebrahimi et al., 2018b is a research group that has addressed adversarial attacks on NLP systems and explored gradient-based methods to generate string edits to fool classification and translation systems.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"BELINKOV AND BISK, 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Belinkov and Bisk, 2018 is a research duo that studied how synthetic and natural noise affects character-level machine translation and considered structure invariant representations and adversarial training as defenses against such noise.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"JIA AND LIANG, 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Jia and Liang, 2017 is a research pair that addressed the reading comprehension task and showed that appending distractor sentences to stories from the SQuAD dataset could cause models to output incorrect answers.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"GLOCKNER ET AL., 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Glockner et al., 2018 demonstrated an attack that breaks entailment systems by replacing a single word with either a synonym or its hypernym.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"ZHAO ET AL., 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Zhao et al., 2018 investigated the problem of producing natural-seeming adversarial examples and noted that adversarial examples in NLP are often ungrammatical.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"KUKICH, 1992\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kukich, 1992 is associated with early work on spelling correction, often viewed as a sub-task of grammatical error correction.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"NG ET AL., 2014\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Ng et al., 2014 contributed to the field of grammatical error correction with methods relying on a source language model and a noisy channel model.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"SCHMALTZ ET AL., 2016\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Schmaltz et al., 2016 is a research group that has worked on grammatical error correction.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"MAYS ET AL., 1991\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Mays et al., 1991 is a research group that contributed to classic methods for spelling correction.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"BRILL AND MOORE, 2000\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Brill and Moore, 2000 is a research duo that contributed to classic methods for spelling correction.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"SAKAGUCHI ET AL., 2017\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Sakaguchi et al., 2017 proposed a semi-character based RNN (ScRNN) for word recognition, processing sentences with misspelled characters and predicting the correct words.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"LI ET AL., 2018\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Li et al., 2018 applied neural techniques to the task of spelling correction, modeling the context and orthography of the input together.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"SCRNN MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN Model is a semi-character based RNN proposed by Sakaguchi et al. (2017) for word recognition, which processes sentences with misspelled characters and predicts the correct words.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"RAWLINSON, 1976\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rawlinson, 1976 is associated with psycholinguistic studies that inspired the ScRNN model for word recognition.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL TRAINING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Adversarial Training is a method used to improve the robustness of models against adversarial attacks, as discussed in the context of NLP systems.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"SQUAD DATASET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SQuAD dataset is a resource used for reading comprehension tasks, as referenced in the work of Jia and Liang (2017).\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"SCRNN WITH BACKOFF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN with Backoff refers to the variations and improvements suggested for the semi-character RNNs for word recognition, as proposed in the text.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"CHARACTER-LEVEL ATTACKS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Character-Level Attacks are a type of adversarial attack on NLP systems that focus on changes to text at the character level.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"WORD RECOGNIZER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Word Recognizer refers to the models discussed in the text that are designed to recognize words accurately, even in the presence of misspellings or adversarial perturbations.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"DOWNSTREAM TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Downstream Task refers to the tasks that benefit from the robustness conferred by a word recognizer, as discussed in the context of NLP systems.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"WORD ERROR RATE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word Error Rate is a metric used to evaluate the performance of word recognition models, as discussed in the context of their robustness.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"ROBUSTNESS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Robustness refers to the ability of word recognition models to maintain performance in the face of adversarial attacks or perturbations.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"MISSPELLED WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Misspelled Words are a type of input that word recognition models must accurately process, as discussed in the context of their robustness and accuracy.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL PERTURBATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Adversarial Perturbations are modifications to inputs intended to fool models, as discussed in the context of their impact on word recognition models.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"AUXILIARY WORD RECOGNITION MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Auxiliary Word Recognition Model refers to a model that can be trained on unlabeled data and provides a strong defense against adversarial attacks, as mentioned in the text.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"UNLABELED DATA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Unlabeled Data is used for training the auxiliary word recognition model, as discussed in the context of improving model robustness.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"BILSTM CELL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BiLSTM Cell refers to the type of neural network cell used in the ScRNN model for processing input words in the context of word recognition.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"CROSS-ENTROPY LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross-Entropy Loss is the optimization function used in training the ScRNN model for word recognition.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"VOCABULARY SIZE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Vocabulary Size refers to the number of words in the training vocabulary, which impacts the performance and evaluation of word recognition models.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL PERFORMANCE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Adversarial Performance refers to how well models perform under adversarial attacks, a key focus in improving the robustness of word recognition models.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "entity_name": "\"MODULAR APPROACH\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Modular Approach is the strategy of training the word recognition model and downstream classifier separately, offering benefits in terms of flexibility and training data.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"EBRAHIMI ET AL., 2018B\"",
+                "tgt_id": "\"BELINKOV AND BISK, 2018\"",
+                "weight": 6.0,
+                "description": "\"Both Ebrahimi et al., 2018b and Belinkov and Bisk, 2018 have studied adversarial attacks on NLP systems and character-level attacks, with a focus on different aspects of the problem.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            },
+            {
+                "src_id": "\"JIA AND LIANG, 2017\"",
+                "tgt_id": "\"GLOCKNER ET AL., 2018\"",
+                "weight": 7.0,
+                "description": "\"Glockner et al., 2018 were inspired by the work of Jia and Liang, 2017 on reading comprehension tasks and showed that appending distractor sentences could cause models to output incorrect answers.\"",
+                "source_id": "chunk-95ba8ed0727ac203c8a613ca825c78cf"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-481d0257b6245890c5106370c38aa00c",
+        "entities": [
+            {
+                "entity_name": "\"STANFORD SENTIMENT TREEBANK (SST)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Stanford Sentiment Treebank (SST) is a dataset consisting of 8544 movie reviews used for evaluating spell correctors.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"IMDB MOVIE REVIEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IMDB movie reviews serve as a background corpus containing 54K movie reviews and are used for spell correction model evaluation.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"AFTER THE DEADLINE (ATD)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"After The Deadline (ATD) is an open-source spell corrector compared in the experiments for its performance.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"SCRNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ScRNN refers to a model used for word recognition, which is evaluated against other spell checkers in the experiments.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"SAKAGUCHI ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sakaguchi et al. (2017) is referenced for comparisons of ScRNN to other anonymized commercial spell checkers.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"EBRAHIMI ET AL., 2018B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ebrahimi et al., 2018b is referenced for their work on generating adversarial examples, specifically the HotFlip method.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"MATT DAVIS, 2003\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Davis, 2003 is referenced in the context of psycholinguistic studies that guide the perturbation rules for sentence edits.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"RAWLINSON, 1976\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rawlinson, 1976 is referenced in the context of psycholinguistic studies that guide the perturbation rules for sentence edits.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"SOCHER ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Socher et al., 2013 is referenced as the creators of the Stanford Sentiment Treebank (SST) dataset.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"MAAS ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maas et al., 2011 is referenced as the creators of the IMDB movie reviews dataset used as a background corpus.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"WORD RECOGNITION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word Recognition is the process of defending against adversarial attacks and is evaluated in the experiments.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"ADVERSARY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Adversary refers to a function that maps sentences to their perturbed versions, aiming to attack the classifier.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"CLASSIFIER $C$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Classifier $C$ is a function that maps natural language sentences to labels, which is the target of adversarial attacks.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"ROBUSTNESS OF CLASSIFIER $C$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Robustness of Classifier $C$ is defined in terms of the classifier's ability to resist adversarial attacks.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"HOTFLIP\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"HotFlip is an efficient algorithm for generating adversarial examples, mentioned in the context of improving classifier robustness.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"CHARACTER-LEVEL EDITS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Character-level edits refer to the types of perturbations made to sentences, including swap, drop, keyboard, and add.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"PSYCHOLINGUISTIC STUDIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Psycholinguistic studies guide the rules for perturbations to ensure they do not affect human comprehension.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"ATTACK STRATEGY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attack Strategy outlines the methods for performing character-level attacks on sentences to flip model predictions.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"WORD ERROR CORRECTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Word Error Correction is the process of evaluating spell correctors' ability to correct misspellings resulting from attacks.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"WORD ERROR RATES (WER)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word Error Rates (WER) is a metric used to evaluate the performance of spell correctors in correcting misspellings.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"BACKGROUND CORPUS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Background Corpus refers to the IMDB movie reviews used for training the spell correction models.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"VOCABULARY SIZE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Vocabulary Size is a parameter considered in the training of the spell correction models, capped at 10K words.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"CROSS ENTROPY LOSS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cross Entropy Loss is the method used for training the networks to reconstruct original words after corruption.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"SINGLE-LAYER BILSTM\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Single-layer BiLSTM is the architecture used for the ScRNN model in the experiments.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"198 DIMENSIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"198 Dimensions refers to the input representation size used in the ScRNN model, thrice the number of unique characters.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"66 UNIQUE CHARACTERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"66 Unique Characters is the number of unique characters in the vocabulary used for the ScRNN model's input representation.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"10K WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"10K Words is the capped vocabulary size used for training the ScRNN model.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"78470 WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"78470 Words is the entire vocabulary size used when backoff to the background model in the ScRNN training.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "entity_name": "\"$5.25\\%$ OOV WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$5.25\\%$ OOV Words refers to the out-of-vocabulary words included in the error rates calculation for the spell correctors.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"STANFORD SENTIMENT TREEBANK (SST)\"",
+                "tgt_id": "\"IMDB MOVIE REVIEWS\"",
+                "weight": 5.0,
+                "description": "\"The Stanford Sentiment Treebank (SST) and IMDB movie reviews are two distinct datasets that do not share any reviews in common and are used for evaluating spell correctors.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"SCRNN\"",
+                "tgt_id": "\"AFTER THE DEADLINE (ATD)\"",
+                "weight": 6.0,
+                "description": "\"ScRNN is compared to After The Deadline (ATD), an open-source spell corrector, in the experiments for performance evaluation.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"SCRNN\"",
+                "tgt_id": "\"SAKAGUCHI ET AL. (2017)\"",
+                "weight": 4.0,
+                "description": "\"ScRNN is referenced in the context of comparisons to other anonymized commercial spell checkers by Sakaguchi et al. (2017).\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"EBRAHIMI ET AL., 2018B\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 7.0,
+                "description": "\"Ebrahimi et al., 2018b's work on adversarial examples, specifically HotFlip, is relevant to the methods used for improving ScRNN's robustness.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"MATT DAVIS, 2003\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 6.0,
+                "description": "\"Matt Davis, 2003's psycholinguistic studies inform the rules for perturbations applied in the ScRNN model's training process.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"RAWLINSON, 1976\"",
+                "tgt_id": "\"SCRNN\"",
+                "weight": 6.0,
+                "description": "\"Rawlinson, 1976's psycholinguistic studies inform the rules for perturbations applied in the ScRNN model's training process.\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            },
+            {
+                "src_id": "\"SOCHER ET AL., 2013\"",
+                "tgt_id": "\"STANFORD SENTIMENT TREEBANK (SST)\"",
+                "weight": 1.0,
+                "description": "\"Socher et al., 2013 are the creators of the Stanford Sent(\"entity\"",
+                "source_id": "chunk-481d0257b6245890c5106370c38aa00c"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-a5eb108ca07f16adae9942cf4d2fadf8",
+        "entities": [
+            {
+                "entity_name": "\"DANISH PRUTHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danish Pruthi is one of the authors of the paper on combating adversarial misspellings with robust word recognition.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"BHUWAN DHINGRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bhuwan Dhingra is one of the authors of the paper on combating adversarial misspellings with robust word recognition.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"ZACHARY C. LIPTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zachary C. Lipton is one of the authors of the paper on combating adversarial misspellings with robust word recognition.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"CARNEGIE MELLON UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Carnegie Mellon University is the institution where the authors of the paper are affiliated.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"PITTSBURGH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Pittsburgh is the location of Carnegie Mellon University, where the authors of the paper are based.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"RNN SEMICHARACTER ARCHITECTURE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"RNN semicharacter architecture is the basis for the word recognition models proposed in the paper to combat adversarial spelling mistakes.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL SPELLING MISTAKES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Adversarial spelling mistakes are the focus of the paper, which are subtle perturbations causing text classification models to misclassify examples.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"SPAMMERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Spammers are mentioned as a group that uses adversarial misspellings to evade spam detection while preserving the intended meaning of their emails.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"BERT MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BERT model is mentioned in the paper as a model fine-tuned for sentiment analysis, which is affected by adversarial character attacks.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"SAKAGUCHI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sakaguchi et al. are referenced in the paper for their RNN-based semi-character word recognition model.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"RNN-BASED SEMI-CHARACTER WORD RECOGNITION MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The RNN-based semi-character word recognition model is the foundation for the proposed word recognition models in the paper.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"RARE AND UNSEEN WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rare and unseen words are a challenge for word recognition models, which the paper addresses with backoff strategies.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"BACKOFF STRATEGIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Backoff strategies are proposed to handle rare and unseen words in the context of word recognition models.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"RANDOM ADDS, DROPS, SWAPS, AND KEYBOARD MISTAKES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Random adds, drops, swaps, and keyboard mistakes are types of word corruptions that the proposed models are trained to recognize.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"VANITY SEMI-CHARACTER MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The vanilla semi-character model is the baseline against which the proposed method's error reduction is measured.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"DOWNSTREAM CLASSIFIER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The downstream classifier is the component that benefits from the robustness conferred by the word recognition model.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"ADVERSARIAL TRAINING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Adversarial training is one of the techniques evaluated in the paper for its effectiveness against adversarial misspellings.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"OFF-THE-SHELF SPELL CHECKERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Off-the-shelf spell checkers are compared with the proposed method in terms of their robustness against adversarial misspellings.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"PSYCHOLINGUISTIC STUDIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Psycholinguistic studies provide the inspiration for the types of perturbations considered in the paper, based on how humans comprehend altered text.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"BILSTM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"BiLSTM is one of the models experimented with in the paper to demonstrate the impact of adversarial edits on classifier performance.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"WORD-ONLY, CHAR-ONLY, WORD+CHAR, AND WORD-PIECE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word-only, char-only, word+char, and word-piece are the four different input formats experimented with in the paper.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"WORD-LEVEL MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word-level model is one of the types of models considered in the paper, which can be degraded by adversarial edits.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"CHARACTER-LEVEL MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Character-level model is one of the types of models considered in the paper, which is found to be more vulnerable to spelling attacks.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"WORD-PIECE MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word-piece model is one of the types of models considered in the paper, which is also found to be more vulnerable to spelling attacks.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"UNK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"UNK refers to the out-of-vocabulary token that can result from adversarial edits, affecting the performance of word-level models.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"DOMAIN-SPECIFIC TEXT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Domain-specific text is the type of text on which the word recognizers are trained in the context of the paper.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"GENERIC WORD RECOGNIZER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Generic word recognizer is used as part of the backoff strategies when the domain-specific word recognizer predicts UNK.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "entity_name": "\"SENSITIVITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sensitivity is a quantity identified in the paper as important for robustness in addition to low word error rate.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DANISH PRUTHI\"",
+                "tgt_id": "\"CARNEGIE MELLON UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Danish Pruthi is an author affiliated with Carnegie Mellon University.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"BHUWAN DHINGRA\"",
+                "tgt_id": "\"CARNEGIE MELLON UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Bhuwan Dhingra is an author affiliated with Carnegie Mellon University.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"ZACHARY C. LIPTON\"",
+                "tgt_id": "\"CARNEGIE MELLON UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Zachary C. Lipton is an author affiliated with Carnegie Mellon University.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"CARNEGIE MELLON UNIVERSITY\"",
+                "tgt_id": "\"PITTSBURGH\"",
+                "weight": 9.0,
+                "description": "\"Carnegie Mellon University is located in Pittsburgh.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"ADVERSARIAL SPELLING MISTAKES\"",
+                "tgt_id": "\"SPAMMERS\"",
+                "weight": 8.0,
+                "description": "\"Adversarial spelling mistakes are used by spammers to evade spam detection.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"BERT MODEL\"",
+                "tgt_id": "\"ADVERSARIAL SPELLING MISTAKES\"",
+                "weight": 8.0,
+                "description": "\"BERT model's accuracy is affected by adversarial spelling mistakes.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"RNN SEMICHARACTER ARCHITECTURE\"",
+                "tgt_id": "\"ADVERSARIAL SPELLING MISTAKES\"",
+                "weight": 9.0,
+                "description": "\"RNN semicharacter architecture is used to build word recognition models to combat adversarial spelling mistakes.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"SAKAGUCHI ET AL.\"",
+                "tgt_id": "\"RNN SEMICHARACTER ARCHITECTURE\"",
+                "weight": 10.0,
+                "description": "\"Sakaguchi et al. are the originators of the RNN-based semi-character word recognition model.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"RNN-BASED SEMI-CHARACTER WORD RECOGNITION MODEL\"",
+                "tgt_id": "\"BACKOFF STRATEGIES\"",
+                "weight": 8.0,
+                "description": "\"The RNN-based semi-character word recognition model utilizes backoff strategies to handle rare and unseen words.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            },
+            {
+                "src_id": "\"BACKOFF STRATEGIES\"",
+                "tgt_id": "\"RARE AND UNSEEN WORDS\"",
+                "weight": 8.0,
+                "description": "\"Backoff strategies are proposed to deal with the challenge posed by rare and unseen words in word recognition.\"",
+                "source_id": "chunk-a5eb108ca07f16adae9942cf4d2fadf8"
+            }
+        ]
+    }
+}

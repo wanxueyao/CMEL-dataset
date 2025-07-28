@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Dialogue state tracking results on DSTC2'. The table is structured with two main columns: 'Goal slot' and 'Accuracy'. Under the 'Goal slot' column, there are six rows listing different parameters: 'Num of Tickets', 'Movie', 'Theater Name', 'Date', 'Time', and 'Joint'. Correspondingly, under the 'Accuracy' column, the values for each parameter are as follows: 'Num of Tickets' has an accuracy of 98.22%, 'Movie' has 91.86%, 'Theater Name' has 97.33%, 'Date' has 99.31%, 'Time' has 97.71%, and 'Joint' has 84.57%. The table provides detailed accuracy metrics for various goal slots in dialogue state tracking tasks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;GOAL SLOT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table listing the accuracy of different goal slots in a ticket booking system."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;NUM OF TICKETS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A goal slot with an accuracy of 98.22% indicating the system's success rate in determining the number of tickets requested."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;MOVIE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A goal slot with an accuracy of 91.86% indicating the system's success rate in identifying the correct movie."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;THEATER NAME&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A goal slot with an accuracy of 97.33% indicating the system's success rate in identifying the correct theater name."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;DATE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A goal slot with an accuracy of 99.31% indicating the system's success rate in identifying the correct date."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;TIME&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A goal slot with an accuracy of 97.71% indicating the system's success rate in identifying the correct time."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<node id="&quot;JOINT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A goal slot with an accuracy of 84.57% indicating the system's success rate in jointly identifying all parameters correctly."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;GOAL SLOT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Goal slot是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;NUM OF TICKETS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Num of Tickets是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MOVIE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Movie是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;THEATER NAME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Theater Name是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;DATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Date是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TIME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Time是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;JOINT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Joint是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;NUM OF TICKETS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Num of Tickets' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;MOVIE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Movie' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;THEATER NAME&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Theater Name' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;DATE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Date' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;TIME&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Time' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOAL SLOT&quot;" target="&quot;JOINT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The 'Joint' is one of the goal slots listed in the 'Goal slot' entity."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

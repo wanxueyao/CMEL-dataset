@@ -1,0 +1,267 @@
+{
+    "image_1": "[\n    {\n        \"entity_name\": \"Artisan Grilled Chicken\",\n        \"entity_type\": \"PRODUCT\",\n        \"description\": \"Artisan Grilled Chicken is a new food product introduced by McDonald's, available in various forms such as sandwiches, wraps, and salads. It is made with simpler, cleaner ingredients, replacing sodium phosphates with vegetable starch to keep the chicken moist, and omitting maltodextrin from the recipe.\",\n        \"source_image_entities\": [\"ARTISAN GRILLED CHICKEN\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"MCDONALD'S\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"MCDONALD'S is a fast-food restaurant chain that is introducing a new product called 'Artisan Grilled Chicken' and making changes to its ingredients to use simpler, cleaner ingredients. The director of culinary innovation, Jessica Foust, explained these changes.\",\n        \"source_image_entities\": [\"MCDONALD'S\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"Jessica Foust\",\n        \"entity_type\": \"PERSON\",\n        \"description\": \"Jessica Foust is the director of culinary innovation at McDonald's, who explained the changes made to the ingredients for the new 'Artisan Grilled Chicken' product.\",\n        \"source_image_entities\": [\"JESSICA FOUST\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"PANERA BREAD\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"PANERA BREAD is another fast-food restaurant chain that plans to remove artificial colors, flavors, and preservatives from its food by 2016.\",\n        \"source_image_entities\": [\"PANERA BREAD\"],\n        \"source_text_entities\": []\n    }\n]",
+    "image_2": [
+        {
+            "merged_entity_name": "SENTENCE 1",
+            "entity_type": "EVENT",
+            "description": "The first sentence in a document, represented by orange bars in the attention distribution graph, part of the unified model's input sequence.",
+            "source_image_entities": [
+                "SENTENCE 1"
+            ],
+            "source_text_entities": [
+                "UNIFIED MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "SENTENCE 2",
+            "entity_type": "EVENT",
+            "description": "The second sentence in a document, represented by blue bars in the attention distribution graph, part of the unified model's input sequence.",
+            "source_image_entities": [
+                "SENTENCE 2"
+            ],
+            "source_text_entities": [
+                "UNIFIED MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "SENTENCE 3",
+            "entity_type": "EVENT",
+            "description": "The third sentence in a document, represented by green bars in the attention distribution graph, part of the unified model's input sequence.",
+            "source_image_entities": [
+                "SENTENCE 3"
+            ],
+            "source_text_entities": [
+                "UNIFIED MODEL"
+            ]
+        }
+    ],
+    "image_3": "[\n    {\n        \"entity_name\": \"Nallapati et al.\",\n        \"entity_type\": \"PERSON\",\n        \"description\": \"Researchers involved in the creation of the CNN/Daily Mail dataset for article-level summarization and the proposal of hierarchical attention mechanisms. They also developed a state-of-the-art extractive summarization model, which is inspired by the Extractor model that obtains a short list of important sentences for the abstractor.\",\n        \"source_image_entities\": [\"GRU\"],\n        \"source_text_entities\": [\"NALLAPATI ET AL.\", \"NALLAPATI ET AL.\", \"NALLAPATI ET AL.\"]\n    },\n    {\n        \"entity_name\": \"Attention Mechanism\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The attention mechanism, first proposed by Bahdanau et al. (2014), is a key component in various summarization models, including the hierarchical attention mechanisms proposed by Nallapati et al. It allows the model to focus on specific parts of the input sequence, enhancing its ability to make accurate predictions by giving more weight to relevant information.\",\n        \"source_image_entities\": [\"ATTENTION MECHANISM\"],\n        \"source_text_entities\": [\"BAHDANAU ET AL. (2014)\", \"VASWANI ET AL.\"]\n    },\n    {\n        \"entity_name\": \"Unified Model\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Unified Model refers to the proposed model in the text that combines sentence-level and word-level attentions for both extractive and abstractive summarization, utilizing the GRU architecture to mitigate the vanishing gradient problem and enhancing performance in summarization tasks.\",\n        \"source_image_entities\": [\"GRU\", \"SENTENCE-LEVEL RNN\", \"WORD-LEVEL RNN\"],\n        \"source_text_entities\": [\"UNIFIED MODEL\"]\n    },\n    {\n        \"entity_name\": \"Extractor and Abstracter\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Extractor and Abstracter are models designed to work in conjunction for summarization tasks. The Extractor, inspired by Nallapati et al., obtains a short list of important sentences for the abstractor, while the Abstracter generates the summary text using a decoding mechanism and word attention. These models are part of the Unified Model that combines sentence-level and word-level attentions for both extractive and abstractive summarization.\",\n        \"source_image_entities\": [\"GRU\"],\n        \"source_text_entities\": [\"EXTRACTOR\", \"ABSTRACTER\"]\n    },\n    {\n        \"entity_name\": \"Inconsistency Loss\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"Inconsistency Loss is a novel loss function proposed to ensure the unified model is mutually beneficial to both extractive and abstractive summarization. It encourages consistency between sentence-level and word-level attentions during training, which is crucial for the performance of the Unified Model that combines sentence-level and word-level attentions.\",\n        \"source_image_entities\": [\"GRU\"],\n        \"source_text_entities\": [\"INCONSISTENCY LOSS\", \"INCONSISTENCY LOSS\"]\n    }\n]",
+    "image_4": [
+        {
+            "entity_name": "CONTEXT VECTOR",
+            "entity_type": "CONCEPT",
+            "description": "Context vector is a function of the updated word attention and is used in the decoding process to generate the summary. It is denoted as h*(α^t) and is used to facilitate abstractive summarization.",
+            "source_image_entities": [
+                "CONTEXT VECTOR"
+            ],
+            "source_text_entities": [
+                "CONTEXT VECTOR"
+            ]
+        },
+        {
+            "entity_name": "ENCODER HIDDEN STATES",
+            "entity_type": "CONCEPT",
+            "description": "Encoder Hidden States are part of the bidirectional LSTM that encodes the input words for the pointer-generator network. They are denoted as $h_{m}^{e}$ and are used to compute the context vector.",
+            "source_image_entities": [
+                "ENCODER HIDDEN STATES"
+            ],
+            "source_text_entities": [
+                "ENCODER"
+            ]
+        },
+        {
+            "entity_name": "DECODER HIDDEN STATE",
+            "entity_type": "CONCEPT",
+            "description": "Decoder Hidden State is part of the unidirectional LSTM that generates the summary based on the context vector and word attention. It is denoted as $h_{t}^{d}$ and is used in the computation of the final word distribution.",
+            "source_image_entities": [
+                "DECODER HIDDEN STATE"
+            ],
+            "source_text_entities": [
+                "DECODER"
+            ]
+        },
+        {
+            "entity_name": "UPDATED WORD ATTENTION",
+            "entity_type": "CONCEPT",
+            "description": "Updated Word Attention is the updated attention mechanism after combining sentence-level and word-level attentions, denoted as $\\hat{\\alpha}_{m}^{t}$. It is used to generate the context vector and update the final word distribution Pfinal.",
+            "source_image_entities": [
+                "UPDATED WORD ATTENTION"
+            ],
+            "source_text_entities": [
+                "$\\HAT{\\MATHBF{\\ALPHA}}\\ALPHA^{T}$"
+            ]
+        },
+        {
+            "entity_name": "WORD DISTRIBUTION P_VOCAB",
+            "entity_type": "CONCEPT",
+            "description": "Word Distribution p_vocab is the probability distribution over the fixed vocabulary before applying the copying mechanism, denoted as $\\mathbf{P}^{vocab}(h^{*}(\\hat{\\alpha}^{t}))$. It is used to determine the probability of a word being decoded from the fixed vocabulary.",
+            "source_image_entities": [
+                "WORD DISTRIBUTION P_VOCAB"
+            ],
+            "source_text_entities": [
+                "$P_{W}^{VOCAB}(H^{*}(\\HAT{\\PMB{\\ALPHA}}^{T}))$"
+            ]
+        },
+        {
+            "entity_name": "FINAL WORD DISTRIBUTION P_FINAL",
+            "entity_type": "CONCEPT",
+            "description": "Final Word Distribution p_final is the final probability of each word being decoded, influenced by the updated word attention. It is denoted as $P_{w}^{final}(\\hat{\\alpha}^{t})$ and is used to generate the summary word-by-word.",
+            "source_image_entities": [
+                "FINAL WORD DISTRIBUTION P_FINAL"
+            ],
+            "source_text_entities": [
+                "FINAL WORD DISTRIBUTION"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "ROUGE-1",
+            "entity_type": "ORGANIZATION",
+            "description": "ROUGE-1 is a metric used to evaluate the quality of text summaries by comparing a generated summary against reference summaries. It measures the overlap of unigrams between the candidate and reference texts, and is used as an evaluation metric in the study.",
+            "source_image_entities": [
+                "ROUGE-1"
+            ],
+            "source_text_entities": [
+                "ROUGE-1"
+            ]
+        },
+        {
+            "merged_entity_name": "ROUGE-2",
+            "entity_type": "ORGANIZATION",
+            "description": "ROUGE-2 is similar to ROUGE-1 but measures the overlap of bigrams instead of unigrams, and is used as an evaluation metric in the study.",
+            "source_image_entities": [
+                "ROUGE-2"
+            ],
+            "source_text_entities": [
+                "ROUGE-2"
+            ]
+        },
+        {
+            "merged_entity_name": "ROUGE-L",
+            "entity_type": "ORGANIZATION",
+            "description": "ROUGE-L is an evaluation metric that uses the longest common subsequence (LCS) between the candidate and reference texts to measure the quality of a summary, and is used as an evaluation metric in the study.",
+            "source_image_entities": [
+                "ROUGE-L"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "METHOD",
+            "entity_type": "EVENT",
+            "description": "The different methods used for evaluating the ROUGE scores, including pre-trained, end2end without inconsistency loss, end2end with inconsistency loss, and ground-truth labels, which are part of the experiment setup described in the text.",
+            "source_image_entities": [
+                "METHOD"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "EXTRACTOR",
+            "entity_type": "ORGANIZATION",
+            "description": "The Extractor is a component in the training procedure, responsible for minimizing the loss function L_{ext} and selecting sentences with high attention, as detailed in the implementation section of the text.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "EXTRACTOR"
+            ]
+        },
+        {
+            "merged_entity_name": "ABSTRACTER",
+            "entity_type": "ORGANIZATION",
+            "description": "The Abstracter is another component in the training procedure, responsible for minimizing the loss functions L_{abs} and L_{cov}, and for generating the final abstractive summary, as detailed in the implementation section of the text.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ABSTRACTER"
+            ]
+        },
+        {
+            "merged_entity_name": "COVERAGE MECHANISM",
+            "entity_type": "CONCEPT",
+            "description": "Coverage Mechanism is a technique used to prevent the abstracter from repeatedly attending to the same place, calculated using a coverage vector and a coverage loss, as mentioned in the pre-training section of the text.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "COVERAGE MECHANISM"
+            ]
+        },
+        {
+            "merged_entity_name": "TWO-STAGES TRAINING",
+            "entity_type": "EVENT",
+            "description": "Two-stages Training is a training setting where the extractor and abstracter are trained separately, with the extractor's output fed into the abstracter, as described in the training procedure of the text.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "TWO-STAGES TRAINING"
+            ]
+        },
+        {
+            "merged_entity_name": "END-TO-END TRAINING",
+            "entity_type": "EVENT",
+            "description": "End-to-end Training is a training setting where the extractor and abstracter are trained together, with the sentence-level attention combined with the word-level attention, as described in the training procedure of the text.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "END-TO-END TRAINING"
+            ]
+        }
+    ],
+    "image_6": "[\n    {\n        \"entity_name\": \"HIERATTN (NALLAPATI ET AL., 2016B)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Hierarchical Attention Networks (HIERATTN), developed by Nallapati et al., 2016b, is a method for text summarization that uses hierarchical attention mechanisms. It achieved ROUGE-1 of 32.75, ROUGE-2 of 12.21, and ROUGE-L of 29.01.\",\n        \"source_image_entities\": [\"HIERATTN (NALLAPATI ET AL., 2016B)*\"],\n        \"source_text_entities\": [\"NALLAPATI ET AL., 2016B\"]\n    },\n    {\n        \"entity_name\": \"DEEPRL (PAULUS ET AL., 2017)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"Deep Reinforcement Learning (DEEPRL), developed by Paulus et al., 2017, is a reinforcement learning-based method for text summarization. It achieved ROUGE-1 of 39.87, ROUGE-2 of 15.82, and ROUGE-L of 36.90.\",\n        \"source_image_entities\": [\"DEEPRL (PAULUS ET AL., 2017)*\"],\n        \"source_text_entities\": [\"PAULUS ET AL., 2017\"]\n    },\n    {\n        \"entity_name\": \"POINTER-GENERATOR (SEE ET AL., 2017)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Pointer-Generator model, developed by See et al., 2017, is a neural network model for text summarization that combines a pointer mechanism with a generator. It achieved ROUGE-1 of 39.53, ROUGE-2 of 17.28, and ROUGE-L of 36.38.\",\n        \"source_image_entities\": [\"POINTER-GENERATOR (SEE ET AL., 2017)\"],\n        \"source_text_entities\": [\"SEE ET AL., 2017\"]\n    },\n    {\n        \"entity_name\": \"GAN (LIU ET AL., 2017)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Generative Adversarial Network (GAN), developed by Liu et al., 2017, is a method for text summarization. It achieved ROUGE-1 of 39.92, ROUGE-2 of 17.65, and ROUGE-L of 36.71.\",\n        \"source_image_entities\": [\"GAN (LIU ET AL., 2017)\"],\n        \"source_text_entities\": [\"LIU ET AL., 2017\"]\n    },\n    {\n        \"entity_name\": \"TWO-STAGE MODEL\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The Two-Stage model is a text summarization method that outperforms the pointer-generator model on ROUGE-1 and ROUGE-2 scores. It achieved ROUGE-1 of 39.97, ROUGE-2 of 17.43, and ROUGE-L of 36.34.\",\n        \"source_image_entities\": [\"TWO-STAGE (OURS)\"],\n        \"source_text_entities\": [\"TWO-STAGES MODEL\"]\n    },\n    {\n        \"entity_name\": \"END2END W/O INCONSISTENCY LOSS (OURS)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The End-to-End model without inconsistency loss is a text summarization method that achieved ROUGE-1 of 40.19, ROUGE-2 of 17.67, and ROUGE-L of 36.68.\",\n        \"source_image_entities\": [\"END2END W/O INCONSISTENCY LOSS (OURS)\"],\n        \"source_text_entities\": [\"END2END\"]\n    },\n    {\n        \"entity_name\": \"END2END W/ INCONSISTENCY LOSS (OURS)\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The End-to-End model with inconsistency loss is a text summarization method that achieved ROUGE-1 of 40.68, ROUGE-2 of 17.97, and ROUGE-L of 37.13.\",\n        \"source_image_entities\": [\"END2END W/ INCONSISTENCY LOSS (",
+    "image_7": [
+        {
+            "merged_entity_name": "DEEPRL (PAULUS ET AL., 2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A method developed by Paulus et al. in 2017, with scores of 3.23 for informativity, 2.97 for conciseness, and 2.85 for readability. It is a deep reinforcement model for abstractive summarization.",
+            "source_image_entities": [
+                "DEEPRL (PAULUS ET AL., 2017)"
+            ],
+            "source_text_entities": [
+                "PAULUS ET AL., 2017"
+            ]
+        },
+        {
+            "merged_entity_name": "POINTER-GENERATOR (SEE ET AL., 2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A method developed by See et al. in 2017, with scores of 3.18 for informativity, 3.36 for conciseness, and 3.47 for readability. It is a pointer-generator model used for abstractive summarization and serves as a baseline model in the current study.",
+            "source_image_entities": [
+                "POINTER-GENERATOR (SEE ET AL., 2017)"
+            ],
+            "source_text_entities": [
+                "SEE ET AL., 2017",
+                "POINTER-GENERATOR MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "GAN (LIU ET AL., 2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A method developed by Liu et al. in 2017, with scores of 3.22 for informativity, 3.52 for conciseness, and 3.51 for readability. It is a generative adversarial network model for abstractive summarization.",
+            "source_image_entities": [
+                "GAN (LIU ET AL., 2017)"
+            ],
+            "source_text_entities": [
+                "LIU ET AL., 2017"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "merged_entity_name": "METHOD W/O INCON. LOSS",
+            "entity_type": "ORGANIZATION",
+            "description": "A method that does not include incon. loss, resulting in an average \\( R_{inc} \\) of 0.198, and is part of the two-stages model that outperforms the pointer-generator model on ROUGE-1 and ROUGE-2 scores.",
+            "source_image_entities": [
+                "METHOD W/O INCON. LOSS"
+            ],
+            "source_text_entities": [
+                "TWO-STAGES MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "METHOD W/ INCON. LOSS",
+            "entity_type": "ORGANIZATION",
+            "description": "A method that includes incon. loss, resulting in an average \\( R_{inc} \\) of 0.042, and is part of the end-to-end model trained with inconsistency loss that exceeds the lead-3 baseline in performance.",
+            "source_image_entities": [
+                "METHOD W/ INCON. LOSS"
+            ],
+            "source_text_entities": [
+                "END-TO-END MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "INCONSISTENCY RATE \\( R_{INC} \\)",
+            "entity_type": "EVENT",
+            "description": "Inconsistency rate \\( R_{inc} \\) is a metric designed to measure inconsistency in generated summaries, with the end-to-end trained model with inconsistency loss significantly decreasing \\( R_{inc} \\) from about 20% to 4%.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "INCONSISTENCY RATE \\( R_{INC} \\)"
+            ]
+        }
+    ],
+    "image_9": "[\n    {\n        \"entity_name\": \"NATIONAL WEATHER SERVICE\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"The National Weather Service warned about severe thunderstorms causing street flooding in the area, as part of their role in providing weather-related alerts and information.\",\n        \"source_image_entities\": [\"NATIONAL WEATHER SERVICE\"],\n        \"source_text_entities\": [\"NATIONAL WEATHER SERVICE\"]\n    },\n    {\n        \"entity_name\": \"JAMIE MOORE\",\n        \"entity_type\": \"PERSON\",\n        \"description\": \"Jamie Moore, head of emergency management in Johnson County, Texas, estimated the tornado to be more like a mile wide, highlighting the severity of the weather event.\",\n        \"source_image_entities\": [\"JAMIE MOORE\"],\n        \"source_text_entities\": [\"JAMIE MOORE\"]\n    },\n    {\n        \"entity_name\": \"JOHNSON COUNTY, TEXAS\",\n        \"entity_type\": \"GEO\",\n        \"description\": \"Johnson County, Texas, is the location where Jamie Moore is the head of emergency management and where the tornado touched down, causing significant weather events.\",\n        \"source_image_entities\": [\"JOHNSON COUNTY, TEXAS\"],\n        \"source_text_entities\": [\"JOHNSON COUNTY, TEXAS\"]\n    },\n    {\n        \"entity_name\": \"DALLAS\",\n        \"entity_type\": \"GEO\",\n        \"description\": \"Dallas is the city near which tornadoes touched down on Sunday, causing weather-related disruptions in the surrounding areas.\",\n        \"source_image_entities\": [\"DALLAS\"],\n        \"source_text_entities\": [\"DALLAS\"]\n    },\n    {\n        \"entity_name\": \"TORNADO\",\n        \"entity_type\": \"UNKNOWN\",\n        \"description\": \"The tornado, as captured in a photo by Ryan Shepard, was a significant weather event reaching down to the ground, causing damage and prompting emergency responses.\",\n        \"source_image_entities\": [\"TORNADO\"],\n        \"source_text_entities\": [\"TORNADO\"]\n    },\n    {\n        \"entity_name\": \"SEVERE THUNDERSTORMS\",\n        \"entity_type\": \"UNKNOWN\",\n        \"description\": \"The severe thunderstorms, warned about by the National Weather Service, caused street flooding in the area and were a significant weather event.\",\n        \"source_image_entities\": [\"SEVERE THUNDERSTORMS\"],\n        \"source_text_entities\": [\"SEVERE THUNDERSTORMS\"]\n    }\n]"
+}

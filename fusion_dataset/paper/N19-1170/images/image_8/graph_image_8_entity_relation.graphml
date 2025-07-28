@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a screenshot of a chat UI featuring a conversation between two users, PERSON_1 and PERSON_2. The chat interface has a light background with alternating light beige and light blue message bubbles. The conversation begins with PERSON_2 expressing their love for coffee. PERSON_1 responds positively, using the phrase 'buzz buzz buzz' to emphasize their enthusiasm. The conversation continues with both users agreeing on their fondness for coffee. PERSON_1 then asks if PERSON_2 speaks French, indicating an interest in learning the language. The conversation shifts to favorite colors, with PERSON_2 mentioning a preference for blue but also liking yellow. On the left side of the image, there is a task description box with a light green background. It outlines the task of chatting with another user while playing the role of a given character. The assigned character details include being a vegetarian, enjoying swimming, having a father who worked for Ford, and a new job in advertising design. The character also studies languages, with Spanish as a current focus and French as the next language to study."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+</node>
+<node id="&quot;PERSON_1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Expresses enthusiasm for coffee and interest in learning French."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+</node>
+<node id="&quot;PERSON_2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Shares a love for coffee and discusses favorite colors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PERSON_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PERSON_1是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PERSON_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PERSON_2是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON_1&quot;" target="&quot;PERSON_2&quot;">
+  <data key="d3">15.0</data>
+  <data key="d4">"Both express a shared interest in coffee."&lt;SEP&gt;"PERSON_1 asks PERSON_2 about speaking French and favorite colors."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, curly hair, light brown- Expression: Focused and determined- Age: Appears to be a young woman- Clothing: Wearing a black robe with red trim, which is part of a school uniform; a red tie is visible around the neck- Accessories: Holding a wand in her right hand, which is pointed forwardOverall, the character appears to be ready for action, possibly in a magical or fantasy setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a young woman standing in front of an old, ornate wooden door. She is dressed in a black robe with red and green trim, suggesting a wizard or witch costume. Her curly hair falls around her shoulders, and she holds a wand in her right hand, pointing it forward. In her left hand, she carries a glowing lantern that emits a soft light. The door behind her is large and made of dark wood, featuring intricate carvings and metal reinforcements. The overall atmosphere is mysterious and magical, evoking a sense of adventure and enchantment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;HERMIONE GRANGER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young witch with curly hair, wearing a black robe with red and gold trim, holding a wand in her right hand and a glowing lantern in her left hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+</node>
+<node id="&quot;ANCIENT DOOR&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large, ornate wooden door with metal reinforcements and carvings, featuring a prominent handle and lock."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;HERMIONE GRANGER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The image feature block image_7_person-0.jpg is a picture of Hermione Granger."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HERMIONE GRANGER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hermione Granger是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ANCIENT DOOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ancient Door是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HERMIONE GRANGER&quot;" target="&quot;ANCIENT DOOR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Hermione Granger is standing in front of the ancient door, possibly preparing to open it or having just closed it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

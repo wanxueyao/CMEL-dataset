@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_28&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a whimsical creature that resembles a combination of a bat and a plant. The creature has large, leaf-like wings with serrated edges, resembling the leaves of a maple or oak tree. Its body appears to be a bulbous, textured form, possibly representing a seed pod or fruit, with a pattern that suggests a rough surface. The creature's head is not distinctly visible, but it seems to have a small, round shape with some texture, possibly indicating a seed or a similar object. The background consists of various abstract shapes and lines, giving the impression of a chaotic environment with swirling patterns and irregular forms. The overall style of the illustration is detailed and intricate, with a focus on the textures and shapes of the creature and its surroundings. The atmosphere conveyed is one of fantasy and surrealism, as the creature does not conform to naturalistic proportions or forms."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+</node>
+<node id="&quot;PLANT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A detailed drawing of a plant with large, serrated leaves and a central spiky structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+</node>
+<node id="&quot;LEAVES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Large, serrated leaves surrounding the central structure of the plant."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+</node>
+<node id="&quot;CENTRAL STRUCTURE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Spiky, intricate structure at the center of the plant."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+</node>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;PLANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Plant是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;LEAVES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Leaves是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_28&quot;" target="&quot;CENTRAL STRUCTURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Central Structure是从image_28中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PLANT&quot;" target="&quot;LEAVES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The leaves are part of the plant, surrounding its central structure."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PLANT&quot;" target="&quot;CENTRAL STRUCTURE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The central structure is part of the plant, located in the middle of the leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LEAVES&quot;" target="&quot;CENTRAL STRUCTURE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The central structure is surrounded by the leaves, which provide context for its appearance."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_28.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

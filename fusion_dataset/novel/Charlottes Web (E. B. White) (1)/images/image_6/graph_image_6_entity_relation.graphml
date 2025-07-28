@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short hair, styled in a somewhat messy manner- Expression: Neutral to slightly concerned or focused expression- Age: Appears to be an adult male- Clothing: Wearing a light-colored shirt with the sleeves rolled up, revealing the forearms; dark pants- Posture: Sitting on the ground with knees bent and hands resting on the knees, leaning slightly forwardOverall, the character appears to be in a contemplative or focused state, possibly engaged in some activity that requires concentration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a serene outdoor scene. A young girl with long hair is kneeling on the ground, holding a bottle of milk and feeding a small piglet. The girl appears to be smiling gently, conveying a sense of warmth and affection towards the piglet. The piglet is standing close to her, eagerly drinking from the bottle. To the left of the girl, there is a wooden box that seems to be the piglet's shelter. Inside the box, there is some straw, and the piglet has already started digging into it, creating a tunnel-like structure. The girl is looking at the piglet with a caring and attentive expression. In the background, there is an apple tree with leaves, providing shade over the scene. The setting appears to be a farmyard or a rural area, as indicated by the fence and the natural surroundings. The overall atmosphere of the image is one of tranquility and tender interaction between the girl and the piglet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, kneeling on the ground and interacting with a small animal."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large tree with dense foliage providing shade over the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;BEEHIVE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden beehive placed under the tree, with bees flying around it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;SMALL ANIMAL&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small furry animal, possibly a puppy or a kitten, near the girl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A simple wire fence enclosing the area where the girl and the animal are."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a girl."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BEEHIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beehive是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SMALL ANIMAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Small Animal是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;TREE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is kneeling under the tree, which provides shade for her and the animal."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;SMALL ANIMAL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The girl is interacting with the small animal, possibly petting or playing with it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The girl is inside the fenced area, suggesting a boundary or safety measure for her and the animal."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREE&quot;" target="&quot;BEEHIVE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The beehive is placed under the tree, benefiting from the shade and possibly attracting bees due to the natural environment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SMALL ANIMAL&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The small animal is also within the fenced area, indicating that the space is meant to contain both the girl and the animal."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

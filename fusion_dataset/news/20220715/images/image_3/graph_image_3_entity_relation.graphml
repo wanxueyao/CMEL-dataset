@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a choropleth map of the United States, illustrating the housing shortage or surplus across different counties. The map uses a color gradient to represent the percentage of housing units needed to meet demand as a share of existing housing units. The color scale ranges from yellow to purple, with yellow indicating a housing shortage (negative percentages) and purple indicating a housing surplus (positive percentages). The percentages are marked on the scale from -6% to +6%. Notable observations include significant housing shortages in areas such as California, Nevada, and parts of Colorado, indicated by darker shades of yellow. In contrast, areas with housing surpluses, shown in shades of purple, are more prevalent in the Midwest and parts of the Northeast. Specific states like Illinois, Indiana, and parts of Texas also show varying degrees of housing surplus. The map provides a visual representation of the housing market dynamics across the United States, highlighting regions where demand exceeds supply and vice versa."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+</node>
+<node id="&quot;UNITED STATES MAP&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A map of the United States showing housing shortages and surpluses by state."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+</node>
+<node id="&quot;HOUSING SHORTAGE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Areas with a lack of available housing, indicated by orange shades on the map."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+</node>
+<node id="&quot;HOUSING SURPLUS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Areas with an excess of available housing, indicated by purple shades on the map."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;UNITED STATES MAP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"United States Map是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HOUSING SHORTAGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Housing Shortage是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HOUSING SURPLUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Housing Surplus是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220715/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

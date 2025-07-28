@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Dark skin tone- Hairstyle: Short, dark hair pulled back- Expression: Neutral to slightly smiling, appears approachable and professional- Age: Appears to be an adult woman, possibly middle-aged- Clothing: Wearing a dark-colored uniform with the word "corporate" embroidered on the left side; a lanyard with a badge is around her neck- Posture: Head turned slightly to the side, looking upwardsOverall, the character gives off a professional and friendly vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light- Hand Posture: The hand is extended with the index finger pointing forward, while the thumb and other fingers are slightly curled inwards.- Clothing: Wearing a white shirt with the sleeve visible, featuring a buttoned cuff.- Accessories: No visible accessories on the hand.Overall, the hand appears to be gesturing or pointing towards something."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_TV-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Partial view of a container or box- Color: The visible part of the object is black, with a colorful pattern on the side featuring various colored teardrop shapes.- Shape: The shape is not fully visible, but it appears to be a rectangular container or box with a lid.- Size: The size cannot be accurately determined from the partial view, but it appears to be a small to medium-sized container.- Material: The material is not clearly identifiable due to the limited visibility, but it could be made of plastic or cardboard.- Possible function: The container could be used for storage or packaging purposes, possibly for small items or gifts.Overall, the image shows a partial view of a container with a colorful pattern, suggesting it might be used for decorative or gift-related purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene inside an office. On the left side, there is a corkboard with various papers and photos pinned to it. One of the most prominent items on the board is a handwritten note that reads 'THANK YOU Mrs. Norma' in colorful letters. The note appears to be a heartfelt message from students or colleagues expressing gratitude. Below this note, there are other documents and photos, including what seems to be a group photo of students. To the right of the corkboard, there is a small mirror reflecting the face of a woman who appears to be smiling. She is wearing a dark-colored shirt with a name tag that reads 'Norma.' A hand is pointing towards the 'THANK YOU' note, possibly indicating its significance. The background shows part of the office wall, which is painted light blue. The overall atmosphere suggests a warm and appreciative environment, highlighting the positive impact of Mrs. Norma's work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;MRS. NORMA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with a name tag, likely a teacher or staff member at a school."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;HAND&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A hand pointing towards a thank you note on a bulletin board."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;THANK YOU NOTE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A handwritten note saying 'THANK YOU MRS. NORMA' in colorful letters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<node id="&quot;BULLETIN BOARD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A corkboard with various papers and photos pinned to it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;MRS. NORMA&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of Mrs. Norma."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-2.JPG&quot;" target="&quot;HAND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-2.jpg is a picture of a hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-2.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-2.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TV-1.JPG&quot;" target="&quot;THANK YOU NOTE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_tv-1.jpg is a picture of a thank you note."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TV-1.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_tv-1.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MRS. NORMA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mrs. Norma是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hand是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;THANK YOU NOTE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Thank You Note是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BULLETIN BOARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bulletin Board是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRS. NORMA&quot;" target="&quot;THANK YOU NOTE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The note is addressed to Mrs. Norma, expressing gratitude."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRS. NORMA&quot;" target="&quot;BULLETIN BOARD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Mrs. Norma's photo is displayed on the bulletin board."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HAND&quot;" target="&quot;THANK YOU NOTE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hand is pointing to the thank you note, drawing attention to it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HAND&quot;" target="&quot;BULLETIN BOARD&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The hand is interacting with the items on the bulletin board."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

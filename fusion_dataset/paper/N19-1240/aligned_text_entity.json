@@ -1,0 +1,125 @@
+{
+    "image_1": [
+    ],
+    "image_2": [
+    ],
+    "image_3": [
+    ],
+    "image_4": [
+        {
+            "entity_name": "FASTQA (WELBL ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Welbl et al. in 2018, mentioned in the comparison of results.",
+            "source_image_entities": ["FASTQA (WELBL ET AL., 2018)"],
+            "source_text_entities": ["FASTQA"]
+        },
+        {
+            "entity_name": "BIDAF (WELBL ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Welbl et al. in 2018, compared in the experiment with performance and training time details provided.",
+            "source_image_entities": ["BIDAF (WELBL ET AL., 2018)"],
+            "source_text_entities": ["BIDAF"]
+        },
+        {
+            "entity_name": "COREF-GRU (DHINGRA ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Dhingra et al. in 2018, focusing on coreference and outperformed by the R-GCN model without accessing context.",
+            "source_image_entities": ["COREF-GRU (DHINGRA ET AL., 2018)"],
+            "source_text_entities": ["COREF-GRU"]
+        },
+        {
+            "entity_name": "MHPGM (BAUER ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Bauer et al. in 2018, included in the comparison of results.",
+            "source_image_entities": ["MHPGM (BAUER ET AL., 2018)"],
+            "source_text_entities": ["MHPGM"]
+        },
+        {
+            "entity_name": "WEAVER / JENGA (RAISON ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Raison et al. in 2018, mentioned in the comparison of results.",
+            "source_image_entities": ["WEAVER / JENGA (RAISON ET AL., 2018)"],
+            "source_text_entities": ["WEAVER"]
+        },
+        {
+            "entity_name": "MHQA-GRN (SONG ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Song et al. in 2018, included in the comparison of results.",
+            "source_image_entities": ["MHQA-GRN (SONG ET AL., 2018)"],
+            "source_text_entities": ["MHQA-GRN"]
+        },
+        {
+            "entity_name": "ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)",
+            "entity_type": "ORGANIZATION",
+            "description": "A single model of Entity-GCN with coreference, evaluated for its performance and instances of failure in the WIKIHOP development set.",
+            "source_image_entities": ["ENTITY-GCN WITH COREFERENCE (SINGLE MODEL)"],
+            "source_text_entities": ["ENTITYGCN"]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "UNMASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on unmasked tasks, where mentions to an entity may differ and the coreference system may not retrieve them, making the task harder for all models.",
+            "source_image_entities": [
+                "UNMASKED"
+            ],
+            "source_text_entities": [
+                "UNMASKED SETTING"
+            ]
+        },
+        {
+            "merged_entity_name": "MASKED",
+            "entity_type": "EVENT",
+            "description": "The column in the table representing the performance of models on masked tasks, where coreferred mentions are labeled with the same identifier within and across documents, making the task of recovering coreference links more effective in the masked rather than unmasked version.",
+            "source_image_entities": [
+                "MASKED"
+            ],
+            "source_text_entities": [
+                "MASKED SETTINGS"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "WIKIHOP",
+            "entity_type": "EVENT",
+            "description": "WIKIHOP is an event or dataset used to test the effectiveness of the Entity-GCN model in multi-hop inference and to evaluate the performance of different models, particularly Entity-GCN.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "WIKIHOP",
+                "WIKIHOP VALIDATION SET"
+            ]
+        }
+    ],
+    "image_7": [
+    ],
+    "image_8": [
+    ],
+    "image_9": [
+    ],
+    "image_10": [
+        {
+            "entity_name": "Eslöv",
+            "entity_type": "GEO",
+            "description": "Eslöv is a city in Skåne County, Sweden, where Erik Penser was born. It is also mentioned in the context of ambiguity in model prediction between city and county entities.",
+            "source_image_entities": [
+                "ESLÖV"
+            ],
+            "source_text_entities": [
+                "ESLÖV"
+            ]
+        },
+        {
+            "entity_name": "Scania County",
+            "entity_type": "GEO",
+            "description": "Scania County, also known as Skåne County in English, is a county in Sweden where the city of Eslöv is located. It is associated with the birthplace of Erik Penser and is mentioned in the context of model prediction challenges.",
+            "source_image_entities": [
+                "SKÅNE COUNTY"
+            ],
+            "source_text_entities": [
+                "SCANIA COUNTY"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a panoramic view of a landscape at sunset. The sky is painted with hues of deep orange and red, transitioning into a darker shade as it meets the horizon. The silhouette of a mountain range or hills is visible against the vibrant backdrop. Prominently featured in the foreground is the iconic 'HOLLYWOOD' sign, which appears to be mirrored or reversed, suggesting a perspective from behind the sign. The overall atmosphere conveys a sense of tranquility and grandeur, with the natural beauty of the sunset contrasting with the man-made landmark."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+</node>
+<node id="&quot;HOLLYWOOD SIGN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large sign spelling 'HOLLYWOOD' in reverse, set against a backdrop of mountains and a vibrant sunset sky."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+</node>
+<node id="&quot;SUNSET SKY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dramatic sky with hues of orange and red, transitioning into a darker shade as it meets the horizon."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+</node>
+<node id="&quot;MOUNTAINS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Silhouetted range of mountains that form the lower boundary of the image, providing a stark contrast to the bright sky."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HOLLYWOOD SIGN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hollywood Sign是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SUNSET SKY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sunset Sky是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MOUNTAINS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mountains是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOLLYWOOD SIGN&quot;" target="&quot;SUNSET SKY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Hollywood Sign is prominently displayed against the vivid colors of the sunset sky."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOLLYWOOD SIGN&quot;" target="&quot;MOUNTAINS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Hollywood Sign is positioned above the mountain range, creating a layered visual effect."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUNSET SKY&quot;" target="&quot;MOUNTAINS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The mountains are silhouetted against the colorful sunset sky, enhancing the depth and contrast of the scene."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230908/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

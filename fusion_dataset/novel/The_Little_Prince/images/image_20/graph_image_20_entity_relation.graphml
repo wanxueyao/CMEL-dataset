@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_20_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, light-colored hair- Expression: Neutral- Age: Appears to be an adult- Clothing: Wearing a green long-sleeved shirt and matching green pants; the outfit has a simple design with no visible patterns or logos- Posture: Standing with arms slightly away from the body, hands open and facing downwardOverall, the character appears to be in a relaxed stance with a plain, monochromatic outfit."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<node id="&quot;IMAGE_20&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and imaginative scene featuring a young boy with blonde hair, dressed in a green outfit with a scarf. He is standing on a small, round planet, which is depicted as a simple, flat surface. The boy is holding a watering can in his right hand and appears to be watering a single red flower that is growing out of the ground. The flower has a slender stem and a single bloom. The boy's posture is slightly bent forward, indicating he is focused on the task of watering the flower. The background is minimalistic, with a few abstract shapes and lines, including a yellow sun-like shape and an orange circular object, possibly representing celestial bodies or other elements of the scene. The overall atmosphere of the image is one of innocence and wonder, capturing a moment of care and attention between the boy and the flower."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with blonde hair, wearing a green outfit and a scarf, watering a rose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<node id="&quot;ROSE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small red flower being watered by The Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<node id="&quot;WATERING CAN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A gray watering can held by The Little Prince, used to water the rose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<node id="&quot;PLANET&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small gray planet where The Little Prince is standing and watering the rose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+</node>
+<edge source="&quot;IMAGE_20_PERSON-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_20_person-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20_PERSON-0.JPG&quot;" target="&quot;IMAGE_20&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_20_person-0.jpg是image_20的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rose是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;WATERING CAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Watering Can是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;PLANET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Planet是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;ROSE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is watering the rose, indicating care and responsibility."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;WATERING CAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is holding the watering can, using it to water the rose."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;PLANET&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is standing on the planet, which is his home."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

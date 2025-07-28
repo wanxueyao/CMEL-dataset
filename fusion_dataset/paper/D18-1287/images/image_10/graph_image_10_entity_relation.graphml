@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Mean goal prediction error for LANI instructions with and without the analysis categories we used in Table 2.' The table is structured with three main columns: Category, Present, Absent, and p-value. Each row represents a different category of analysis and contains the following values: 'Spatial relations' (Present: 8.75, Absent: 10.09, p-value: .262), 'Location conjunction' (Present: 10.19, Absent: 9.05, p-value: .327), 'Temporal coordination' (Present: 11.38, Absent: 8.24, p-value: .015), 'Trajectory constraints' (Present: 9.56, Absent: 8.99, p-value: .607), 'Co-reference' (Present: 12.88, Absent: 8.59, p-value: .016), and 'Comparatives' (Present: 10.22, Absent: 9.25, p-value: .906). The table highlights the mean goal prediction error for each category when the analysis is present versus absent, along with the statistical significance of the difference as indicated by the p-values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A table displaying categories of data with columns for 'Present', 'Absent', and 'p-value'. The categories include Spatial relations, Location conjunction, Temporal coordination, Trajectory constraints, Co-reference, and Comparatives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+</node>
+<node id="&quot;SPATIAL RELATIONS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Spatial relations' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;LOCATION CONJUNCTION&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Location conjunction' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TEMPORAL COORDINATION&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Temporal coordination' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TRAJECTORY CONSTRAINTS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Trajectory constraints' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CO-REFERENCE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Co-reference' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;COMPARATIVES&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d1">"The category 'Comparatives' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SPATIAL RELATIONS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Spatial relations' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;LOCATION CONJUNCTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Location conjunction' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TEMPORAL COORDINATION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Temporal coordination' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;TRAJECTORY CONSTRAINTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Trajectory constraints' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;CO-REFERENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Co-reference' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;COMPARATIVES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The category 'Comparatives' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

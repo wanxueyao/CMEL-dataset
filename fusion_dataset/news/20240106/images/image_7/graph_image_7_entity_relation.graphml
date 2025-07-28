@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7_BOOK-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Paintbrush- Color: White bristles with a metallic ferrule and wooden handle- Shape: The bristles are long, thin, and slightly curved, typical of a filbert brush used in painting. The handle is cylindrical and smooth.- Size: The bristles appear to be about 2 inches long, which is a common size for a filbert brush used in detailed work or blending.- Material: The bristles are likely made of synthetic fibers, given their uniformity and sheen, while the handle is made of wood.- Possible function: This paintbrush is designed for fine art painting, particularly for blending colors or creating detailed brushstrokes. The shape of the bristles allows for both broad strokes and finer details, making it versatile for various painting techniques."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7_BANANA-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: This is a small crustacean, specifically a copepod.- Color: The copepod has a translucent body with some internal structures visible, including a yellowish digestive tract and dark eyes.- Shape: The body is elongated and somewhat cylindrical, with a distinct head region that includes the eyes and antennae.- Size: Copepods are generally very small, typically ranging from 0.2 to 2 millimeters in length, making them barely visible to the naked eye.- Posture: The copepod appears to be in a resting or floating position, which is common for these organisms as they drift in water currents.Overall, the copepod is a key component of aquatic ecosystems, serving as both predator and prey in the food web."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair- Hairstyle: Short, white hair, neatly combed back- Facial Expression: Serious, with a slight frown, eyes looking to the side- Age: Appears to be an older adult- Clothing: Wearing a dark-colored jacket or shirt, which is not fully visible in the image- Posture: Head resting on one hand, elbow propped up, suggesting a thoughtful or contemplative poseOverall, the individual appears to be in a reflective or serious mood, possibly engaged in deep thought."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a middle-aged man with white hair, wearing a black leather jacket. He is holding his hand to his face in a thoughtful or contemplative pose. Perched on his nose is a small yellow bird, which appears to be a canary. The background shows a room with various items: a lamp with a white shade, a framed picture of a beach scene, and several other photographs and papers pinned to the wall. The overall atmosphere of the image conveys a sense of introspection and perhaps a touch of whimsy due to the unusual presence of the bird on the man's nose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older man with white hair, wearing a dark jacket, holding his face with one hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;CANARY&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A yellow canary perched on the man's nose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<node id="&quot;ROOM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The interior of a room with various items and pictures on the wall."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7_BOOK-2.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_book-2.jpg is a picture of an older man with white hair, wearing a dark jacket, holding his face with one hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_BOOK-2.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_book-2.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_BANANA-1.JPG&quot;" target="&quot;CANARY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_banana-1.jpg is a picture of a canary."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_BANANA-1.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_banana-1.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_7_person-0.jpg is a picture of an older man with white hair, wearing a dark jacket, holding his face with one hand."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7_PERSON-0.JPG&quot;" target="&quot;IMAGE_7&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_7_person-0.jpg是image_7的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;CANARY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Canary是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Room是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;CANARY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The canary is perched on the man's nose."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is in the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CANARY&quot;" target="&quot;ROOM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The canary is in the room."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

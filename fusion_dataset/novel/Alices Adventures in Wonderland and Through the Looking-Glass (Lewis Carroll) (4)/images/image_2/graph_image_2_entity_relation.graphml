@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Not discernible due to the monochromatic nature of the image- Hairstyle: Short, curly hair- Facial Expression: Serious and contemplative- Age: Appears to be an older man- Clothing: Wearing a suit with a checkered pattern, a bow tie, and a hat; the suit jacket has a pocket square- Posture: Standing with one hand in his pocket and the other holding a cane or walking stickOverall, the character gives off an impression of being thoughtful and possibly from an earlier time period, given the style of clothing and accessories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2_BIRD-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Walrus- Age: Adult- Color: Dark gray with lighter patches, possibly due to the texture and shading in the drawing- Shape: Robust and bulky, with a large head and massive tusks protruding from its mouth- Size: Appears large, consistent with the size of an adult walrus- Posture: Standing upright on two legs, which is not a natural posture for a walrus, giving it an anthropomorphic appearance- Structural Characteristics: Detailed texturing throughout the body, including lines that suggest fur or skin folds; the walrus is depicted wearing a belt and what appears to be a jacket, further contributing to its human-like stanceOverall, the image depicts a walrus in an unusual, anthropomorphic pose, dressed in clothing, which is a whimsical and imaginative representation rather than a realistic one."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration featuring two anthropomorphic characters, a walrus and a carpenter, standing on a sandy beach. The walrus, on the left, is depicted with a long, curved tusks and a heavy, ponderous posture. It wears a coat and shoes, giving it a human-like appearance. The carpenter, on the right, has a more slender build and is dressed in a suit with a hat, also resembling a human. Both characters are engaged in conversation, as indicated by their postures and expressions. The background shows a calm sea with gentle waves and a clear sky, devoid of clouds or birds. The overall atmosphere is whimsical and surreal, capturing a moment from a narrative where animals are personified and interact with each other in a human-like manner."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<node id="&quot;WALRUS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A walrus dressed in a suit and shoes, standing on the left side of the image, with its right hand resting on its hip."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<node id="&quot;CARPENTER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A carpenter dressed in a suit and hat, holding a piece of paper in his left hand, standing on the right side of the image, with a tear drop visible near his eye."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<node id="&quot;BEACH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A sandy beach with waves in the background and some debris scattered around."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;WALRUS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_person-0.jpg is a picture of a walrus dressed in a suit and shoes, standing on the left side of the image, with its right hand resting on its hip."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_BIRD-1.JPG&quot;" target="&quot;WALRUS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_bird-1.jpg is a picture of a walrus dressed in a suit and shoes, standing on the left side of the image, with its right hand resting on its hip."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_BIRD-1.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_bird-1.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WALRUS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Walrus是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CARPENTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Carpenter是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beach是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WALRUS&quot;" target="&quot;CARPENTER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The walrus and the carpenter are standing next to each other on the beach, engaged in a conversation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WALRUS&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The walrus is standing on the beach."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CARPENTER&quot;" target="&quot;BEACH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The carpenter is standing on the beach."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

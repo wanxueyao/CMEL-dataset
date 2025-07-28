@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white line drawing of a spider on its web. The spider is positioned on the left side of the web, near the top. It appears to be in the process of weaving or writing on the web. The web itself is depicted with radial lines extending from a central point to the outer edges, forming a circular pattern. The spider's posture suggests it is actively engaged in its task, with its legs spread out and its body oriented towards the web. The overall scene conveys a sense of precision and skill in the spider's activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+</node>
+<node id="&quot;SPIDER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A black spider with eight legs and a segmented body, positioned on the web."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+</node>
+<node id="&quot;WEB&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A circular web with concentric circles and radial lines, created by the spider."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SPIDER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Spider是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;WEB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Web是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPIDER&quot;" target="&quot;WEB&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The spider is on the web, which it has constructed for catching prey."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

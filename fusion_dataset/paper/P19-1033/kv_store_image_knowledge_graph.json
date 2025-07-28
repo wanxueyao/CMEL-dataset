@@ -1,0 +1,370 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a timeline illustrating the long-term and short-term interests in news reading. The timeline is marked with specific events and their corresponding timestamps. Starting from the left, the first event is labeled '2017 NBA Championship Celebration From Warriors' at timestamp t1. Moving right, the next event is 'Bohemian Rhapsody Is Highest-Grossing Musician Biopic Ever' at timestamp ti. Following this, the event 'Rami Malek Wins the 2019 Oscar' is marked at timestamp ti+1. Finally, the last event on the timeline is 'Oklahoma City Thunder vs. Golden State Warriors' at timestamp tj. The timeline is depicted as a horizontal arrow with these events marked at different points along its length. Each event is enclosed in a box with a distinct color: blue for the NBA Championship, green for Bohemian Rhapsody, yellow for Rami Malek's Oscar win, and blue again for the basketball game. The background of the image is white, and the text is clearly legible."
+        },
+        {
+            "entity_name": "2017 NBA CHAMPIONSHIP CELEBRATION FROM WARRIORS",
+            "entity_type": "EVENT",
+            "description": "An event where the Golden State Warriors celebrated their 2017 NBA Championship."
+        },
+        {
+            "entity_name": "RAMI MALEK WINS THE 2019 OSCAR",
+            "entity_type": "EVENT",
+            "description": "An event where Rami Malek won an Oscar in 2019 for his role in 'Bohemian Rhapsody'."
+        },
+        {
+            "entity_name": "BOHEMIAN RHAPSODY IS HIGHEST-GROSSING MUSICIAN BIOPIC EVER",
+            "entity_type": "EVENT",
+            "description": "An event marking 'Bohemian Rhapsody' becoming the highest-grossing musician biopic ever."
+        },
+        {
+            "entity_name": "OKLAHOMA CITY THUNDER VS. GOLDEN STATE WARRIORS",
+            "entity_type": "EVENT",
+            "description": "A basketball game between the Oklahoma City Thunder and the Golden State Warriors."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed diagram illustrating the framework of a news encoder. The diagram is structured into several components, each represented by boxes and arrows indicating the flow of information. At the bottom, there is a 'News Title' box connected to a 'Word Embedding' layer, which processes individual words (w1, w2, ..., wN) from the title. Each word embedding (w1, w2, ..., wN) is then passed through a CNN network to generate contextual representations (c1, c2, ..., cN). These contextual representations are further processed by an attention network, where each representation (ci) is weighted by an attention score (αi). The attention scores are calculated using a softmax function based on the dot product between the context vector (v) and the contextual representation (ci). The final output (e) is a weighted sum of the contextual representations, with weights determined by the attention scores. Additionally, there are two other inputs: 'Subtopic Embedding' and 'Topic Embedding', which are combined with the final output to form the overall news representation. The subtopic and topic embeddings are derived from the 'News Subtopic' and 'News Topic' respectively. The diagram uses various colors and shapes to distinguish different components and their relationships, with rectangles representing layers and arrows showing the flow of data."
+        },
+        {
+            "entity_name": "SUBTOPIC EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A component in the model that processes news subtopics and converts them into numerical vectors for analysis."
+        },
+        {
+            "entity_name": "TOPIC EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A component in the model that processes news topics and converts them into numerical vectors for analysis."
+        },
+        {
+            "entity_name": "WORD EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A component in the model that processes words from the news title and converts them into numerical vectors for analysis."
+        },
+        {
+            "entity_name": "NEWS SUBTOPIC",
+            "entity_type": "EVENT",
+            "description": "The specific subject or theme of a piece of news, which is input into the Subtopic Embedding component."
+        },
+        {
+            "entity_name": "NEWS TOPIC",
+            "entity_type": "EVENT",
+            "description": "The broader category or main theme of a piece of news, which is input into the Topic Embedding component."
+        },
+        {
+            "entity_name": "NEWS TITLE",
+            "entity_type": "EVENT",
+            "description": "The headline or title of a piece of news, which is processed by the Word Embedding component to extract word-level information."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the two frameworks of the LSTUR (Long-Short Term User Representation) approach for news recommendation systems. The diagram is divided into two parts: (a) LSTUR-ini and (b) LSTUR-con. Each part shows a flowchart of the user encoder process, which involves encoding user click history and candidate news to generate a score for news recommendation.\\n\\nIn both parts, the process starts with the user click history, represented by a series of news articles (c1, c2, ..., ck). Each news article is encoded using a News Encoder, which generates an embedding (e1, e2, ..., ek) for each article. These embeddings are then fed into a GRU (Gated Recurrent Unit) network, which processes the sequence of embeddings to generate a user representation (u).\\n\\nIn part (a) LSTUR-ini, the user representation (u) is directly used to compute the score for a candidate news article (cx) through a dot product operation. The score indicates the relevance of the candidate news to the user's interests.\\n\\nIn part (b) LSTUR-con, the user representation is further refined by concatenating short-term and long-term user representations (us and ul). This concatenated representation is then used in the dot product operation to compute the score for the candidate news article (cx).\\n\\nThe diagrams use color coding to distinguish different components: blue for user-related elements, green for news-related elements, and orange for the final score computation. The arrows indicate the flow of information through the system, from the user click history to the final score."
+        },
+        {
+            "entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "A model architecture that processes user click history and candidate news through a series of GRU layers and a News Encoder to compute a score using a dot product."
+        },
+        {
+            "entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "A model architecture that processes user click history and candidate news through a series of GRU layers, concatenates the output with a User Embedding, and uses a News Encoder to compute a score using a dot product."
+        },
+        {
+            "entity_name": "GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of recurrent neural network used in both LSTUR-ini and LSTUR-con architectures to process sequences of data."
+        },
+        {
+            "entity_name": "NEWS ENCODER",
+            "entity_type": "ORGANIZATION",
+            "description": "A component used in both LSTUR-ini and LSTUR-con architectures to encode news articles into a vector representation."
+        },
+        {
+            "entity_name": "USER CLICK HISTORY",
+            "entity_type": "EVENT",
+            "description": "The sequence of news articles that a user has clicked on, used as input in both LSTUR-ini and LSTUR-con architectures."
+        },
+        {
+            "entity_name": "CANDIDATE NEWS",
+            "entity_type": "OBJECT",
+            "description": "The news article being evaluated for recommendation, used as input in both LSTUR-ini and LSTUR-con architectures."
+        },
+        {
+            "entity_name": "USER EMBEDDING",
+            "entity_type": "OBJECT",
+            "description": "A vector representation of a user's preferences, used in the LSTUR-con architecture."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Statistics of the dataset in our experiments.' The table provides detailed statistics about a dataset used for news recommendation. It contains the following rows and their respective values: 'Number of users' is 25,000, with 22,938 users in the training set. 'Number of news' is 38,501, and the average number of words per title is 9.98. 'Number of impressions' is 393,191. The number of positive samples is 492,185, and the number of negative samples is 9,224,537. The NP ratio (negative to positive ratio) is 18.74. The table highlights the significant size of the dataset and the imbalance between positive and negative samples."
+        },
+        {
+            "entity_name": "# OF USERS",
+            "entity_type": "EVENT",
+            "description": "The total number of users is 25,000."
+        },
+        {
+            "entity_name": "# OF USERS IN TRAINING SET",
+            "entity_type": "EVENT",
+            "description": "The number of users in the training set is 22,938."
+        },
+        {
+            "entity_name": "# OF NEWS",
+            "entity_type": "EVENT",
+            "description": "The total number of news items is 38,501."
+        },
+        {
+            "entity_name": "AVG. # OF WORDS PER TITLE",
+            "entity_type": "EVENT",
+            "description": "The average number of words per news title is 9.98."
+        },
+        {
+            "entity_name": "# OF IMPRS",
+            "entity_type": "EVENT",
+            "description": "The total number of impressions is 393,191."
+        },
+        {
+            "entity_name": "# OF POSITIVE SAMPLES",
+            "entity_type": "EVENT",
+            "description": "The number of positive samples is 492,185."
+        },
+        {
+            "entity_name": "NP RATIO",
+            "entity_type": "EVENT",
+            "description": "The negative to positive ratio is 18.74."
+        },
+        {
+            "entity_name": "# OF NEGATIVE SAMPLES",
+            "entity_type": "EVENT",
+            "description": "The number of negative samples is 9,224,537."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that compares the performance of various methods for news recommendation using different evaluation metrics. The table has four columns: Methods, AUC, MRR, nDCG@5, and nDCG@10. Each row represents a different method. The methods listed are LibFM, DeepFM, Wide & Deep, DSSM, CNN, DKN, GRU, LSTUR-con, and LSTUR-ini. The values in each column represent the performance metrics with their respective standard deviations. For example, LibFM has an AUC of 56.52 ± 1.31, MRR of 25.53 ± 0.81, nDCG@5 of 26.66 ± 1.04, and nDCG@10 of 34.72 ± 0.95. The highest AUC value is achieved by LSTUR-ini at 63.56 ± 0.42, followed closely by LSTUR-con at 63.47 ± 0.10. Similarly, the highest MRR value is also achieved by LSTUR-ini at 30.98 ± 0.32, and the highest nDCG@5 and nDCG@10 values are both achieved by LSTUR-ini at 33.45 ± 0.39 and 41.37 ± 0.36 respectively. The table highlights the superior performance of the LSTUR methods, especially LSTUR-ini, over other methods in all evaluated metrics."
+        },
+        {
+            "entity_name": "LIBFM",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning algorithm used for recommendation systems, achieving an AUC of 56.52 ± 1.31, MRR of 25.53 ± 0.81, nDCG@5 of 26.66 ± 1.04, and nDCG@10 of 34.72 ± 0.95."
+        },
+        {
+            "entity_name": "DEEPFM",
+            "entity_type": "ORGANIZATION",
+            "description": "An algorithm that combines the factorization-machine based recommender system with deep learning, achieving an AUC of 58.13 ± 1.69, MRR of 27.01 ± 0.20, nDCG@5 of 28.37 ± 0.57, and nDCG@10 of 36.78 ± 0.62."
+        },
+        {
+            "entity_name": "WIDE & DEEP",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that combines wide linear models and deep neural networks, achieving an AUC of 58.07 ± 0.55, MRR of 27.07 ± 0.37, nDCG@5 of 28.51 ± 0.45, and nDCG@10 of 36.93 ± 0.43."
+        },
+        {
+            "entity_name": "DSSM",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep structured semantic model used for information retrieval, achieving an AUC of 58.43 ± 0.58, MRR of 27.25 ± 0.49, nDCG@5 of 28.31 ± 0.60, and nDCG@10 of 36.91 ± 0.54."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "A convolutional neural network model, achieving an AUC of 61.13 ± 0.77, MRR of 29.44 ± 0.73, nDCG@5 of 31.44 ± 0.87, and nDCG@10 of 39.51 ± 0.74."
+        },
+        {
+            "entity_name": "DKN",
+            "entity_type": "ORGANIZATION",
+            "description": "A dynamic knowledge-aware network model, achieving an AUC of 61.25 ± 0.78, MRR of 29.47 ± 0.64, nDCG@5 of 31.54 ± 0.79, and nDCG@10 of 39.59 ± 0.67."
+        },
+        {
+            "entity_name": "GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "A gated recurrent unit model, achieving an AUC of 62.69 ± 0.16, MRR of 30.24 ± 0.13, nDCG@5 of 32.56 ± 0.17, and nDCG@10 of 40.55 ± 0.13."
+        },
+        {
+            "entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "A long short-term user representation model with continuous training, achieving an AUC of 63.47 ± 0.10, MRR of 30.94 ± 0.14, nDCG@5 of 33.43 ± 0.13, and nDCG@10 of 41.34 ± 0.13."
+        },
+        {
+            "entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "A long short-term user representation model with initial training, achieving an AUC of 63.56 ± 0.42, MRR of 30.98 ± 0.32, nDCG@5 of 33.45 ± 0.39, and nDCG@10 of 41.37 ± 0.36."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two bar charts side by side, each with a y-axis and an x-axis. The left chart has a y-axis ranging from 0.600 to 0.640 in increments of 0.005, and the x-axis has two categories: AUC and nDCG@10. The bars represent different methods: LTUR (yellow), STUR (green), LSTUR-con (light green), and LSTUR-ini (dark green). For AUC, the values are approximately 0.610 for LTUR, 0.625 for STUR, 0.635 for LSTUR-con, and 0.635 for LSTUR-ini. For nDCG@10, the values are approximately 0.395 for LTUR, 0.405 for STUR, 0.415 for LSTUR-con, and 0.415 for LSTUR-ini. The right chart has a y-axis ranging from 0.626 to 0.638 in increments of 0.002, and the x-axis has the same categories: AUC and nDCG@10. The bars represent different methods: Average (yellow), Attention (green), LSTM (light green), and GRU (dark green). For AUC, the values are approximately 0.630 for Average, 0.632 for Attention, 0.634 for LSTM, and 0.636 for GRU. For nDCG@10, the values are approximately 0.410 for Average, 0.412 for Attention, 0.414 for LSTM, and 0.416 for GRU. Both charts show that combining long-term and short-term user representations generally improves performance."
+        },
+        {
+            "entity_name": "LTUR",
+            "entity_type": "ORGANIZATION",
+            "description": "A model or method used in the evaluation, represented by a yellow bar in the graph."
+        },
+        {
+            "entity_name": "STUR",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model or method used in the evaluation, represented by a green bar in the graph."
+        },
+        {
+            "entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "Yet another model or method used in the evaluation, represented by a dark green bar in the graph."
+        },
+        {
+            "entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "A final model or method used in the evaluation, represented by a teal bar in the graph."
+        },
+        {
+            "entity_name": "AVERAGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline or reference point for comparison, represented by a yellow bar in the second graph."
+        },
+        {
+            "entity_name": "ATTENTION",
+            "entity_type": "ORGANIZATION",
+            "description": "A model or method using attention mechanisms, represented by a green bar in the second graph."
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model or method using LSTM (Long Short-Term Memory) networks, represented by a dark green bar in the second graph."
+        },
+        {
+            "entity_name": "GRU",
+            "entity_type": "ORGANIZATION",
+            "description": "A model or method using GRU (Gated Recurrent Unit) networks, represented by a teal bar in the second graph."
+        },
+        {
+            "entity_name": "AUC",
+            "entity_type": "EVENT",
+            "description": "Area Under the Curve, a metric used to evaluate the performance of the models."
+        },
+        {
+            "entity_name": "NDCG@10",
+            "entity_type": "EVENT",
+            "description": "Normalized Discounted Cumulative Gain at 10, another metric used to evaluate the performance of the models."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two bar charts labeled (a) AUC and (b) nDCG@10. Each chart compares the performance of different methods in learning news title representations. The x-axis of both charts is labeled with two categories: LSTUR-ini and LSTUR-con. The y-axis of chart (a) ranges from 0.615 to 0.640, while the y-axis of chart (b) ranges from 0.395 to 0.420. Both charts contain four bars for each category, representing four different methods: LSTM (yellow), LSTM+Att (light green), CNN (green), and CNN+Att (dark green). In chart (a), the highest value is achieved by CNN+Att for LSTUR-con at approximately 0.635. In chart (b), the highest value is also achieved by CNN+Att for LSTUR-con at approximately 0.415. The trends show that incorporating attention mechanisms generally improves performance, with CNN+Att outperforming other methods in both metrics."
+        },
+        {
+            "entity_name": "LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used in the experiments, represented by yellow bars in the graphs."
+        },
+        {
+            "entity_name": "LSTM+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of LSTM with attention mechanism, represented by light green bars in the graphs."
+        },
+        {
+            "entity_name": "CNN",
+            "entity_type": "ORGANIZATION",
+            "description": "A model used in the experiments, represented by dark green bars in the graphs."
+        },
+        {
+            "entity_name": "CNN+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of CNN with attention mechanism, represented by teal bars in the graphs."
+        },
+        {
+            "entity_name": "LSTUR-INI",
+            "entity_type": "EVENT",
+            "description": "Initial condition for LSTUR model, shown on the left side of both graphs."
+        },
+        {
+            "entity_name": "LSTUR-CON",
+            "entity_type": "EVENT",
+            "description": "Condition after convergence for LSTUR model, shown on the right side of both graphs."
+        },
+        {
+            "entity_name": "AUC",
+            "entity_type": "GEO",
+            "description": "Area Under the Curve metric, depicted in graph (a)."
+        },
+        {
+            "entity_name": "NDCG@10",
+            "entity_type": "GEO",
+            "description": "Normalized Discounted Cumulative Gain at 10 metric, depicted in graph (b)."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two bar charts side by side, labeled (a) AUC and (b) nDCG@10. Each chart compares the performance of different variants of a news recommendation system, specifically LSTUR-ini and LSTUR-con, with and without incorporating topic and subtopic information. The x-axis of both charts lists the variants: LSTUR-ini and LSTUR-con. The y-axis represents the performance metric values, with the left chart showing AUC values ranging from approximately 0.626 to 0.638, and the right chart showing nDCG@10 values ranging from approximately 0.406 to 0.420. Each variant is represented by a set of four bars, colored yellow, green, dark green, and teal, corresponding to 'None', '+Topic', '+Subtopic', and '+Both' respectively. For example, in the AUC chart, LSTUR-ini with '+Both' achieves the highest value of around 0.638, while LSTUR-con with '+Both' achieves a value of around 0.636. Similarly, in the nDCG@10 chart, LSTUR-ini with '+Both' achieves the highest value of around 0.420, while LSTUR-con with '+Both' achieves a value of around 0.418. The charts clearly show that incorporating both topic and subtopic information generally leads to better performance for both metrics."
+        },
+        {
+            "entity_name": "LSTUR-INI",
+            "entity_type": "ORGANIZATION",
+            "description": "A model or system used in the context of evaluating performance metrics such as AUC and nDCG@10."
+        },
+        {
+            "entity_name": "LSTUR-CON",
+            "entity_type": "ORGANIZATION",
+            "description": "Another model or system used in the context of evaluating performance metrics such as AUC and nDCG@10."
+        },
+        {
+            "entity_name": "AUC",
+            "entity_type": "EVENT",
+            "description": "Area Under the Curve, a metric used to evaluate the performance of classification models. The graph shows the AUC values for different configurations of LSTUR-ini and LSTUR-con."
+        },
+        {
+            "entity_name": "NDCG@10",
+            "entity_type": "EVENT",
+            "description": "Normalized Discounted Cumulative Gain at rank 10, a metric used to evaluate the performance of ranking models. The graph shows the nDCG@10 values for different configurations of LSTUR-ini and LSTUR-con."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two line graphs, labeled (a) LSTUR-ini and (b) LSTUR-con, which illustrate the influence of mask probability \\( p \\) on the performance of two approaches. The x-axis represents the mask probability \\( p \\) ranging from 0.0 to 0.9 with a step of 0.1. The y-axis shows the performance metrics in terms of AUC, MRR, nDCG@5, and nDCG@10. Each graph contains four lines representing different performance metrics: AUC (green), MRR (orange), nDCG@5 (blue), and nDCG@10 (red). The lines are plotted with error bars indicating the variability or confidence intervals. For both graphs, the performance metrics generally increase as the mask probability \\( p \\) increases from 0.0 to around 0.5, after which they start to decline. The optimal performance is observed at a moderate value of \\( p \\) around 0.5 for both LSTUR-ini and LSTUR-con methods."
+        },
+        {
+            "entity_name": "AUC",
+            "entity_type": "EVENT",
+            "description": "Area Under the Curve metric, represented by green circles in the graph."
+        },
+        {
+            "entity_name": "MRR",
+            "entity_type": "EVENT",
+            "description": "Mean Reciprocal Rank metric, represented by orange squares in the graph."
+        },
+        {
+            "entity_name": "NDCG@5",
+            "entity_type": "EVENT",
+            "description": "Normalized Discounted Cumulative Gain at rank 5 metric, represented by blue diamonds in the graph."
+        },
+        {
+            "entity_name": "NDCG@10",
+            "entity_type": "EVENT",
+            "description": "Normalized Discounted Cumulative Gain at rank 10 metric, represented by red stars in the graph."
+        },
+        {
+            "entity_name": "MASK PROBABILITY P",
+            "entity_type": "GEO",
+            "description": "The x-axis of the graph, representing the mask probability ranging from 0.0 to 0.9."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_27&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a whimsical insect with exaggerated features. The insect has a large, bulbous head adorned with polka dots and a small, curved proboscis. Its body is segmented into three parts: a thorax, abdomen, and a pair of wings that resemble holly leaves. The insect's legs are long and thin, extending outward in a dynamic pose. The background consists of a dense cluster of ivy leaves, which appear to be drawn with fine, intricate lines, creating a sense of depth and texture. The overall style of the illustration is reminiscent of classic children's book illustrations, with a playful and imaginative quality. The insect seems to be perched on or near the ivy leaves, adding to the fantastical atmosphere of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+</node>
+<node id="&quot;INSECT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A whimsical, anthropomorphic insect with a hat and a monocle, appearing to be in motion."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+</node>
+<node id="&quot;LEAVES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Detailed illustration of leaves, forming a dense background for the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+</node>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;INSECT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Insect是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_27&quot;" target="&quot;LEAVES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Leaves是从image_27中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;INSECT&quot;" target="&quot;LEAVES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The insect is depicted as if flying through or emerging from the leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_27.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

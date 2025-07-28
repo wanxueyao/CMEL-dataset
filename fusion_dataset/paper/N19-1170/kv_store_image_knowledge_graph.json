@@ -1,0 +1,641 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart that illustrates the relationship between low-level controllable attributes and human judgments of conversational aspects, ultimately leading to human judgments of overall quality. On the left side, there are four green boxes labeled 'Low-level controllable attributes,' which include: Repetition (n-gram overlap), Specificity (normalized inverse document frequency), Response-relatedness (cosine similarity of sentence embeddings), and Question-asking (?' used in utterance). These attributes are connected by an arrow to six blue boxes labeled 'Human judgment of conversational aspects,' which include: Avoiding Repetition, Interestingness, Making sense, Fluency, Listening, and Inquisitiveness. Another arrow leads from these conversational aspects to two purple boxes labeled 'Human judgment of overall quality,' which include Humanness and Engagingness. The flowchart uses arrows to indicate the progression from low-level attributes to conversational aspects and finally to overall quality judgments."
+        },
+        {
+            "entity_name": "LOW-LEVEL CONTROLLABLE ATTRIBUTES",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes repetition, specificity, response-relatedness, and question-asking as its sub-attributes."
+        },
+        {
+            "entity_name": "REPETITION (N-GRAM OVERLAP)",
+            "entity_type": "PERSON",
+            "description": "A measure of how often the same phrases are repeated in a conversation, which is one of the low-level controllable attributes."
+        },
+        {
+            "entity_name": "SPECIFICITY (NORMALIZED INVERSE DOCUMENT FREQUENCY)",
+            "entity_type": "PERSON",
+            "description": "A measure of how unique or rare a word or phrase is within a conversation, which is one of the low-level controllable attributes."
+        },
+        {
+            "entity_name": "RESPONSE-RELATEDNESS (COSINE SIMILARITY OF SENTENCE EMBEDDINGS)",
+            "entity_type": "PERSON",
+            "description": "A measure of how closely related a response is to the preceding utterance in a conversation, which is one of the low-level controllable attributes."
+        },
+        {
+            "entity_name": "QUESTION-ASKING (? USED IN UTTERANCE)",
+            "entity_type": "PERSON",
+            "description": "A measure of how frequently questions are asked in a conversation, which is one of the low-level controllable attributes."
+        },
+        {
+            "entity_name": "HUMAN JUDGMENT OF CONVERSATIONAL ASPECTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes avoiding repetition, interestingness, making sense, fluency, listening, and inquisitiveness as its sub-aspects."
+        },
+        {
+            "entity_name": "AVOIDING REPETITION",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how well a conversation avoids repeating the same phrases."
+        },
+        {
+            "entity_name": "INTERESTINGNESS",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how engaging or captivating a conversation is."
+        },
+        {
+            "entity_name": "MAKING SENSE",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how logical and coherent a conversation is."
+        },
+        {
+            "entity_name": "FLUENCY",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how smooth and natural a conversation flows."
+        },
+        {
+            "entity_name": "LISTENING",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how attentive and responsive a conversation is."
+        },
+        {
+            "entity_name": "INQUISITIVENESS",
+            "entity_type": "PERSON",
+            "description": "An aspect of human judgment that evaluates how curious and probing a conversation is."
+        },
+        {
+            "entity_name": "HUMAN JUDGMENT OF OVERALL QUALITY",
+            "entity_type": "ORGANIZATION",
+            "description": "A category that includes humanness and engagingness as its sub-aspects."
+        },
+        {
+            "entity_name": "HUMANNESS",
+            "entity_type": "PERSON",
+            "description": "An aspect of overall quality that evaluates how human-like a conversation appears."
+        },
+        {
+            "entity_name": "ENGAGINGNESS",
+            "entity_type": "PERSON",
+            "description": "An aspect of overall quality that evaluates how captivating and interesting a conversation is."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1' that provides examples of controlling specificity (NIDF) in response generation. The table is divided into two main sections: 'Weighted Decoding Response' and 'Conditional Training Response'. Each section contains rows with different values of NIDF and corresponding responses. In the 'Weighted Decoding Response' section, the first row has a weight (Wt) of -5.0 and an NIDF of 0.6%, with the response 'Oh.................................'. The second row has a Wt of 0.0 and an NIDF of 17.1%, with the response 'That sounds like a lot of fun!'. The third row has a Wt of 3.0 and an NIDF of 18.3%, with the response 'That sounds like a lot of fun. How long have you been studying?'. The fourth row has a Wt of 7.0 and an NIDF of 38.5%, with the response 'I majored in practising my spiritual full time philosophy test'. The fifth row has a Wt of 10.0 and an NIDF of 71.9%, with the response 'Oh wow! Merna jean isa paino yi hao hui bu acara sya gila [...]' which appears nonsensical. In the 'Conditional Training Response' section, the first row has an NIDF of 16.8% and the response 'Sounds like you are a great person!'. The second row has an NIDF of 18.3% and the response 'So you are a law student?'. The third row has an NIDF of 18.4% and the response 'That sounds like a lot of fun'. The fourth row has an NIDF of 22.8% and the response 'That sounds like a rewarding job!'. The fifth row has an NIDF of 24.4% and the response 'That sounds like a rewarding career!'."
+        },
+        {
+            "entity_name": "LAW STUDENT",
+            "entity_type": "PERSON",
+            "description": "A person who is currently studying law."
+        },
+        {
+            "entity_name": "BASELINE RESPONSE",
+            "entity_type": "EVENT",
+            "description": "The initial response to the statement about studying law, which is 'That sounds like a lot of fun!'."
+        },
+        {
+            "entity_name": "WEIGHTED DECODING RESPONSE",
+            "entity_type": "EVENT",
+            "description": "Responses generated based on weighted decoding with varying weights and NIDF values."
+        },
+        {
+            "entity_name": "CONDITIONAL TRAINING RESPONSE",
+            "entity_type": "EVENT",
+            "description": "Responses generated based on conditional training with varying z values and NIDF percentages."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Example of controlling response-relatedness (cosine similarity to input) via weighted decoding.' The table has four columns: 'Wt' (Weight), 'Sim' (Similarity), and 'Weighted Decoding Response.' The rows represent different responses with varying weights and their corresponding cosine similarities. The 'Wt' column lists the weights as -10.0, 0.0, 5.0, 8.0, and 11.0. The 'Sim' column shows the cosine similarities as -0.05, -0.02, 0.40, 0.59, and 0.72, respectively. The 'Weighted Decoding Response' column provides the responses for each weight: 'I am a musician.' for -10.0, 'I do, when I am not playing the piano.' for 0.0, 'I do, usually at starbucks.' for 5.0, 'Not usually, especially when you drink latte.' for 8.0, and 'Not often, usually with drinks, espresso, latte, tea, etc.' for 11.0. The table highlights how different weights can influence the semantic relatedness of the model’s response."
+        },
+        {
+            "entity_name": "COFFEE",
+            "entity_type": "OBJECT",
+            "description": "A beverage often consumed by the person, especially when not playing the piano."
+        },
+        {
+            "entity_name": "PIANO",
+            "entity_type": "OBJECT",
+            "description": "A musical instrument played by the person, which they do not engage with while getting coffee."
+        },
+        {
+            "entity_name": "STARBUCKS",
+            "entity_type": "ORGANIZATION",
+            "description": "A place where the person frequently gets coffee."
+        },
+        {
+            "entity_name": "LATTE",
+            "entity_type": "OBJECT",
+            "description": "A type of coffee drink that the person does not usually consume."
+        },
+        {
+            "entity_name": "DRINKS",
+            "entity_type": "OBJECT",
+            "description": "Various beverages that the person consumes alongside coffee, including espresso and tea."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a line graph titled 'Controlling question-asking via conditional training.' The x-axis represents the 'Question-Asking Control Level (CT)' ranging from 0 to 10, with an additional point labeled 'boost' at 10. The y-axis represents the percentage of utterances containing a question mark, ranging from 0% to 100%. There are six lines plotted on the graph, each representing different conditions or baselines. The blue solid line represents 'Question-controlled CT,' starting at approximately 20% at CT=0 and increasing steadily to around 95% at CT=10. The purple dashed line represents 'Question-controlled CT w/ rep ctrl,' starting at around 30% at CT=0 and increasing to about 80% at CT=10. The red dotted line represents the 'Target for question-controlled CT,' which is a straight line starting at 0% at CT=0 and ending at 100% at CT=10. The light blue dash-dotted line represents the 'Beam search baseline,' which remains constant at 80% across all CT levels. The dark purple dashed line represents the 'Repetition-controlled baseline,' which starts at around 40% at CT=0 and increases to about 70% at CT=10. The orange dash-dot-dotted line represents the 'Gold data,' which starts at around 20% at CT=0 and increases to about 60% at CT=10. The graph shows the effectiveness of different methods in controlling the frequency of question-asking in utterances."
+        },
+        {
+            "entity_name": "QUESTION-CONTROLLED CT",
+            "entity_type": "EVENT",
+            "description": "A curve representing the percentage of utterances containing '?' as a function of the Question-Asking Control Level (CT). The curve starts at 0% and rises to approximately 95% at the highest CT level."
+        },
+        {
+            "entity_name": "QUESTION-CONTROLLED CT W/ REP CTRL",
+            "entity_type": "EVENT",
+            "description": "A curve representing the percentage of utterances containing '?' with repetition control. This curve is generally below the Question-controlled CT curve, indicating that repetition control reduces the frequency of question-asking."
+        },
+        {
+            "entity_name": "TARGET FOR QUESTION-CONTROLLED CT",
+            "entity_type": "EVENT",
+            "description": "A dotted line representing the target percentage of utterances containing '?' for the Question-controlled CT. This line is linear and rises from 0% to 100% as CT increases."
+        },
+        {
+            "entity_name": "BEAM SEARCH BASELINE",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the performance of a beam search algorithm without any control over question-asking. It remains constant at around 80% across all CT levels."
+        },
+        {
+            "entity_name": "REPETITION-CONTROLLED BASELINE",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the performance of a repetition-controlled algorithm. It remains constant at around 50% across all CT levels."
+        },
+        {
+            "entity_name": "GOLD DATA",
+            "entity_type": "EVENT",
+            "description": "A horizontal dashed line representing the ideal or 'gold' standard for the percentage of utterances containing '?'. It remains constant at around 100% across all CT levels."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of three graphs and a bar chart, all related to the engagingness of different models in dialogue systems. The left graph is a bar chart with five bars representing different models: Greedy, Beam search (WD), Repetition (WD), Specificity (CT), Question (CT), and Human. The engagingness scores range from approximately 2.2 to 3.0. The Human model has the highest score at around 3.0, followed by the Specificity (CT) model at about 2.95, and the Question (CT) model at around 2.9. The Greedy model has the lowest score at around 2.2. The middle graph shows the engagingness for different specificity control levels (WD). The x-axis ranges from -10 to 10, indicating more generic to more specific settings. The y-axis represents engagingness scores ranging from 2.2 to 3.2. The graph includes lines for Specificity-controlled WD, Beam search baseline, Human, and Repetition-controlled baseline. The Specificity-controlled WD line peaks at a specificity level of 4, with an engagingness score of about 3.0. The right graph displays the engagingness for different question-asking control levels (CT). The x-axis ranges from 0 to 10, indicating fewer to more questions. The y-axis represents engagingness scores ranging from 2.2 to 3.2. The graph includes lines for Question-controlled CT, Beam search baseline, Human, and Repetition-controlled baseline. The Question-controlled CT line peaks at a question-asking level of 7, with an engagingness score of about 3.0."
+        },
+        {
+            "entity_name": "ENGAGINGNESS GRAPHS",
+            "entity_type": "EVENT",
+            "description": "Three graphs displaying the engagingness of different methods and control levels."
+        },
+        {
+            "entity_name": "GREEDY METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a green bar."
+        },
+        {
+            "entity_name": "BEAM SEARCH (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a blue bar."
+        },
+        {
+            "entity_name": "REPETITION-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a purple bar."
+        },
+        {
+            "entity_name": "SPECIFICITY-CONTROLLED (WD) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a pink bar."
+        },
+        {
+            "entity_name": "QUESTION-CONTROLLED (CT) METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by a gray bar."
+        },
+        {
+            "entity_name": "HUMAN METHOD",
+            "entity_type": "ORGANIZATION",
+            "description": "A method used in the first graph, represented by an orange bar."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a series of bar charts comparing various conversational aspects for different models and human judgments. The x-axis represents different models: Greedy search, Beam search, Repetition-controlled (WD), Specificity-controlled (WD), Question-controlled (CT), and Human. The y-axis represents the scores for each aspect, ranging from 2.0 to 3.5. The aspects evaluated are Avoiding Repetition, Interestingness, Making Sense, Fluency, Listening, Inquisitiveness, and Humanness. Each chart shows the scores for each model in different colors: Green for Greedy search, Blue for Beam search, Purple for Repetition-controlled (WD), Pink for Specificity-controlled (WD), Gray for Question-controlled (CT), and Orange for Human. For example, in the 'Avoiding Repetition' chart, the Human score is around 3.0, while the Greedy search score is around 2.1. The 'Interestingness' chart shows the Human score at around 2.8, with the Repetition-controlled (WD) model scoring slightly higher at around 2.9. The 'Making Sense' chart has the Human score at around 3.6, with the Repetition-controlled (WD) model scoring around 3.4. The 'Fluency' chart shows the Human score at around 3.4, with the Repetition-controlled (WD) model scoring around 3.2. The 'Listening' chart has the Human score at around 3.3, with the Repetition-controlled (WD) model scoring around 3.1. The 'Inquisitiveness' chart shows the Human score at around 2.7, with the Repetition-controlled (WD) model scoring around 2.6. The 'Humanness' chart has the Human score at around 3.5, with the Repetition-controlled (WD) model scoring around 3.3. Overall, the Human scores are consistently higher than the model scores, indicating that humans are rated better in all conversational aspects."
+        },
+        {
+            "entity_name": "AVOIDING REPETITION",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of avoiding repetition in responses or text generation."
+        },
+        {
+            "entity_name": "INTERESTINGNESS",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how interesting the generated responses or text are."
+        },
+        {
+            "entity_name": "MAKING SENSE",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how coherent and logical the generated responses or text are."
+        },
+        {
+            "entity_name": "FLUENCY",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how smooth and natural the generated responses or text sound."
+        },
+        {
+            "entity_name": "LISTENING",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how well they listen to and understand the input before generating a response."
+        },
+        {
+            "entity_name": "INQUISITIVENESS",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how curious and probing the generated responses or text are."
+        },
+        {
+            "entity_name": "HUMANNESS",
+            "entity_type": "EVENT",
+            "description": "A metric used to evaluate the performance of different search methods in terms of how human-like the generated responses or text are."
+        },
+        {
+            "entity_name": "GREEDY SEARCH",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of algorithm that makes locally optimal choices at each step with the hope of finding a global optimum."
+        },
+        {
+            "entity_name": "BEAM SEARCH",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of algorithm that explores a graph by expanding the most promising node in a tree, based on a heuristic function."
+        },
+        {
+            "entity_name": "REPETITION-CONTROLLED (WD)",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of algorithm that controls for repetition in the generated text, using word diversity as a measure."
+        },
+        {
+            "entity_name": "SPECIFICITY-CONTROLLED (WD)",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of algorithm that controls for specificity in the generated text, using word diversity as a measure."
+        },
+        {
+            "entity_name": "QUESTION-CONTROLLED (CT)",
+            "entity_type": "ORGANIZATION",
+            "description": "A type of algorithm that controls for question-answering ability in the generated text, using context tracking as a measure."
+        },
+        {
+            "entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "A benchmark used to compare the performance of different search methods against what a human would do or say."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: A/B tests comparing various specificity-controlled models to the repetition-controlled baseline on interestingness.' The table contains three rows, each representing a different model. The columns are as follows: Model, Win%, and Top 3 reasons for preferring model. The first row shows 'Specificity WD (weight = 6)' with a Win% of 84.1%. The top 3 reasons for preferring this model are 'More information,' 'Better flow,' and 'More descriptive.' The second row shows 'Specificity WD (weight = 4)' with a Win% of 75.5%. The top 3 reasons for preferring this model are 'More information,' 'They describe their life in more detail,' and 'Funny.' The third row shows 'Specificity CT (z = 7)' with a Win% of 56.2%. The top 3 reasons for preferring this model are 'More information,' 'Better flow,' and 'Seems more interested.'"
+        },
+        {
+            "entity_name": "SPECIFICITY WD (WEIGHT = 6)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 84.1%, preferred for providing more information, having a better flow, and being more descriptive."
+        },
+        {
+            "entity_name": "SPECIFICITY WD (WEIGHT = 4)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 75.5%, preferred for providing more information, describing life in more detail, and being funny."
+        },
+        {
+            "entity_name": "SPECIFICITY CT (Z = 7)",
+            "entity_type": "MODEL",
+            "description": "A model with a win percentage of 56.2%, preferred for providing more information, having a better flow, and seeming more interested."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a chat UI featuring a conversation between two users, PERSON_1 and PERSON_2. The chat interface has a light background with alternating light beige and light blue message bubbles. The conversation begins with PERSON_2 expressing their love for coffee. PERSON_1 responds positively, using the phrase 'buzz buzz buzz' to emphasize their enthusiasm. The conversation continues with both users agreeing on their fondness for coffee. PERSON_1 then asks if PERSON_2 speaks French, indicating an interest in learning the language. The conversation shifts to favorite colors, with PERSON_2 mentioning a preference for blue but also liking yellow. On the left side of the image, there is a task description box with a light green background. It outlines the task of chatting with another user while playing the role of a given character. The assigned character details include being a vegetarian, enjoying swimming, having a father who worked for Ford, and a new job in advertising design. The character also studies languages, with Spanish as a current focus and French as the next language to study."
+        },
+        {
+            "entity_name": "PERSON_1",
+            "entity_type": "PERSON",
+            "description": "Expresses enthusiasm for coffee and interest in learning French."
+        },
+        {
+            "entity_name": "PERSON_2",
+            "entity_type": "PERSON",
+            "description": "Shares a love for coffee and discusses favorite colors."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a screenshot of a human evaluation questionnaire design for comparing two conversations, one between humans and the other between a human and a repetition-controlled baseline model. The layout includes instructions at the top, followed by two conversation threads side by side. The left thread (Speaker 1) is in blue speech bubbles, while the right thread (Speaker 2) is in green speech bubbles. The grey speech bubbles represent the other speakers. The conversation starts with a greeting and progresses through various topics such as personal interests, hobbies, and lifestyle choices. The participants discuss board games, Twitch streaming, dietary habits, and family backgrounds. The questionnaire asks the evaluator to choose which speaker they find more interesting and provides a space for a brief reason explaining their choice. The options are 'Speaker 1' or 'Speaker 2'."
+        },
+        {
+            "entity_name": "SPEAKER 1",
+            "entity_type": "PERSON",
+            "description": "A person who enjoys board games, has parents who were teachers, and likes going to the beach but is allergic to water."
+        },
+        {
+            "entity_name": "SPEAKER 2",
+            "entity_type": "PERSON",
+            "description": "A person who is an economist, enjoys Arabian food, follows a raw diet, and loves attending Rolling Stones concerts every year."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a questionnaire designed for human evaluation of conversational interactions. It contains multiple-choice questions aimed at assessing various aspects of the conversation, including engagingness, interestingness, inquisitiveness, listening, avoiding repetition, fluency, making sense, humanness, and persona retrieval. Each question is followed by a set of options ranging from negative to positive or from low to high. For example, the first question asks about how much the user enjoyed talking to the other user, with options ranging from 'Not at all' to 'A lot'. The second question evaluates the interestingness of the conversation, with options from 'Very boring' to 'Very interesting'. The third question assesses how much the user tried to get to know the evaluator, with options from 'Didn’t ask about me at all' to 'Asked about me too much'. The fourth question measures how much the user paid attention to what the evaluator said, with options from 'Always ignored what I said' to 'Always paid attention to what I said'. The fifth question evaluates how repetitive the user was, with options from 'Repeated themselves over and over' to 'Always said something new'. The sixth question assesses how naturally the user spoke English, with options from 'Very unnatural' to 'Very natural'. The seventh question evaluates how often the user said something that did not make sense, with options from 'Never made any sense' to 'Everything made perfect sense'. The eighth question asks whether the user is a bot or a human, with options from 'Definitely a bot' to 'Definitely a human'. The final question asks which prompt (character) the evaluator thinks the other user was given for this conversation, with the respondent choosing one of two provided personas."
+        },
+        {
+            "entity_name": "ENGAGINGNESS",
+            "entity_type": "EVENT",
+            "description": "A measure of how much the user enjoyed talking to another user, with options ranging from 'Not at all' to 'A lot'."
+        },
+        {
+            "entity_name": "INTERESTINGNESS",
+            "entity_type": "EVENT",
+            "description": "An assessment of how interesting or boring the conversation was, with options ranging from 'Very boring' to 'Very interesting'."
+        },
+        {
+            "entity_name": "INQUISITIVENESS",
+            "entity_type": "EVENT",
+            "description": "Evaluates how much the user tried to get to know the other person, with options from 'Didn’t ask about me at all' to 'Asked about me too much'."
+        },
+        {
+            "entity_name": "LISTENING",
+            "entity_type": "EVENT",
+            "description": "Measures how attentive the user was during the conversation, with options from 'Always ignored what I said' to 'Always paid attention to what I said'."
+        },
+        {
+            "entity_name": "AVOIDING REPETITION",
+            "entity_type": "EVENT",
+            "description": "Assesses the repetitiveness of the user's responses, with options from 'Repeated themselves over and over' to 'Always said something new'."
+        },
+        {
+            "entity_name": "FLUENCY",
+            "entity_type": "EVENT",
+            "description": "Evaluates the naturalness of the user's English, with options from 'Very unnatural' to 'Very natural'."
+        },
+        {
+            "entity_name": "MAKING SENSE",
+            "entity_type": "EVENT",
+            "description": "Determines how often the user made sense in their responses, with options from 'Never made any sense' to 'Everything made perfect sense'."
+        },
+        {
+            "entity_name": "HUMANNESS",
+            "entity_type": "EVENT",
+            "description": "Assesses whether the user is perceived as a bot or a human, with options from 'Definitely a bot' to 'Definitely a human'."
+        },
+        {
+            "entity_name": "PERSONA RETRIEVAL",
+            "entity_type": "EVENT",
+            "description": "Determines which persona the user thinks the other user was given for the conversation."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a composite of four conversation screenshots labeled (a), (b), (c), and (d). Each screenshot represents a different type of dialogue interaction, likely for the purpose of evaluating conversational AI systems. The conversations are structured as text exchanges between a human and a bot. \\n\\n(a) Baseline: The conversation starts with the human asking about the bot's profession, leading to a discussion about religious beliefs and personal interests. The bot consistently responds with 'I am a buddhist. What about you?' regardless of the human's input. \\n\\n(b) Repetition-controlled baseline: This conversation begins with the human introducing themselves as a little girl living in the cloud and feeling lonely. The bot engages in a friendly chat, discussing hobbies like being a superhero and enjoying shopping and chocolate. \\n\\n(c) Question-controlled CT: The human initiates the conversation by asking how the bot is doing today, leading to a discussion about pets and books. The bot mentions walking dogs for a living and enjoying reading Harry Potter. \\n\\n(d) Specificity-controlled WD: The conversation starts with the human asking about the bot's day, leading to a discussion about music and professions. The bot expresses enjoyment in playing piano and singing along to folk music and mentions working as an auditor."
+        },
+        {
+            "entity_name": "HUMAN (A)",
+            "entity_type": "PERSON",
+            "description": "The human in conversation (a) is a Christian, works on their parent's farm, and likes country music. They live in a small town called Ila."
+        },
+        {
+            "entity_name": "BOT (A)",
+            "entity_type": "PERSON",
+            "description": "The bot in conversation (a) is a Buddhist and likes music."
+        },
+        {
+            "entity_name": "HUMAN (B)",
+            "entity_type": "PERSON",
+            "description": "The human in conversation (b) is a little girl who lives in the cloud and has superpowers. She enjoys shopping and her favorite food is pizza."
+        },
+        {
+            "entity_name": "BOT (B)",
+            "entity_type": "PERSON",
+            "description": "The bot in conversation (b) enjoys shopping and loves chocolate."
+        },
+        {
+            "entity_name": "HUMAN (C)",
+            "entity_type": "PERSON",
+            "description": "The human in conversation (c) is great, works or spends time with kitties, and likes legal and psychological thrillers. They work in construction."
+        },
+        {
+            "entity_name": "BOT (C)",
+            "entity_type": "PERSON",
+            "description": "The bot in conversation (c) is doing well, walks dogs for a living, and enjoys reading Harry Potter books."
+        },
+        {
+            "entity_name": "HUMAN (D)",
+            "entity_type": "PERSON",
+            "description": "The human in conversation (d) is doing well, plays piano and sings along to folk music. They work as an auditor and a stunt double, and enjoy reading a lot of books."
+        },
+        {
+            "entity_name": "BOT (D)",
+            "entity_type": "PERSON",
+            "description": "The bot in conversation (d) wishes they could spend more time with their family and enjoys spending time with them."
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "IMAGE_12",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that outlines five binary features used for controlling different types of repetition via weighted decoding. The table has two columns: 'Feature' and 'Condition'. The rows are as follows:\\n1. extrep_bigram(w, y<t, x): This feature is activated if adding the word w to the hypothesis y<t would create a 2-gram that appears in a previous utterance by the model.\\n2. extrep_unigram(w, y<t, x): This feature is triggered if w is a non-stopword and w appears in a previous utterance by the model.\\n3. intrep_bigram(w, y<t, x): This feature is active if adding w to the hypothesis y<t would create a 2-gram that appears earlier in the hypothesis y<t.\\n4. intrep_unigram(w, y<t, x): This feature is set if w is a non-stopword and w appears earlier in the hypothesis y<t.\\n5. partnerrep_bigram(w, y<t, x): This feature is enabled if adding w to the hypothesis y<t would create a 2-gram that appears in a previous utterance by the partner.\\nThe table provides a clear and structured way to understand how these features control repetition in dialogue generation."
+        },
+        {
+            "entity_name": "EXTREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the model."
+        },
+        {
+            "entity_name": "EXTREP_UNIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if a non-stopword appears in a previous utterance by the model."
+        },
+        {
+            "entity_name": "INTREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears earlier in the hypothesis."
+        },
+        {
+            "entity_name": "INTREP_UNIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if a non-stopword appears earlier in the hypothesis."
+        },
+        {
+            "entity_name": "PARTNERREP_BIGRAM(W, Y<T, X)",
+            "entity_type": "EVENT",
+            "description": "Feature that checks if adding a word to the hypothesis would create a 2-gram that appears in a previous utterance by the partner."
+        }
+    ],
+    "image_13": [
+        {
+            "entity_name": "IMAGE_13",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Control settings for all configurations that were human-evaluated.' The table is structured with multiple columns and rows, detailing various control settings for different models. The columns include 'Repetition,' 'Specificity,' 'Response-rel,' and 'Questions.' Under 'Repetition,' there are sub-columns for 'External Bigram,' 'External Unigram,' 'Internal Bigram,' 'Internal Unigram,' and 'Partner Rep. Bigram.' The 'Specificity' column has a sub-column for 'NIDF,' and the 'Response-rel' column has a sub-column for 'Cos sim.' The 'Questions' column has a sub-column for 'Has '?''.\\n\\nThe table begins with 'Baselines' and lists two methods: 'Greedy Search' and 'Beam Search (beam size 20).' Following this, there are sections for 'Repetition control (WD),' 'Question control (CT),' 'Specificity control (CT),' 'Specificity control (WD),' and 'Response-related control (WD).' Each section contains rows with specific settings and weights (wt) for different features.\\n\\nFor example, in the 'Repetition control (WD)' section, there are entries like 'Extrep bigram WD -0.5' with wt -0.5, and 'Extrep bigram WD -inf' with wt -∞. In the 'Question control (CT)' section, there are entries like 'Question-controlled CT 0' with wt -3.5 and z = 0, and 'Question-controlled CT 10 (boost)' with wt 0 * and z = 10.\\n\\nThe table provides detailed information on how different control settings affect the model's performance, with specific weights assigned to various features to control repetition, specificity, and response-related aspects."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying various data points and metrics related to language model performance, including repetition control, question control, specificity control, and response-related control."
+        },
+        {
+            "entity_name": "METRICS",
+            "entity_type": "OBJECT",
+            "description": "Numerical values representing the performance of different language models under various conditions, such as weightings for bigram and unigram repetitions, NIDF scores, cosine similarity, and presence of question marks."
+        },
+        {
+            "entity_name": "REPETITION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the repetition of words or phrases in generated text, with different weightings applied to external, internal, and partner repetitions."
+        },
+        {
+            "entity_name": "QUESTION CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the generation of questions in text, with different settings for the number of questions generated."
+        },
+        {
+            "entity_name": "SPECIFICITY CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the specificity of generated text, with different weightings applied to NIDF scores."
+        },
+        {
+            "entity_name": "RESPONSE-RELATED CONTROL",
+            "entity_type": "EVENT",
+            "description": "The process of controlling the relevance of generated responses to input prompts, with different weightings applied to cosine similarity scores."
+        }
+    ],
+    "image_14": [
+        {
+            "entity_name": "IMAGE_14",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed table labeled 'Automatic metrics for all configurations'. The table is divided into several columns and rows, presenting various metrics computed over a validation set for different model configurations. The columns are as follows: 'Repetition', which is further subdivided into 'External' (with sub-columns 'Bigram' and 'Unigram) and 'Internal' (with sub-columns 'Bigram' and 'Unigram), and 'Partner Rep.' (with a single 'Bigram' column); 'Specificity'; 'Response-rel'; and 'Questions'. Each of these main columns contains multiple rows corresponding to different configurations or baselines. For example, the 'Gold Data and baselines' section includes 'Gold Data', 'Greedy Search', and 'Beam Search (beam size 20)'. Specific values include 'Gold Data' having an External Bigram of 4.65%, External Unigram of 9.62%, Internal Bigram of 0.38%, Internal Unigram of 0.97%, Partner Rep. Bigram of 5.10%, Specificity of 0.2119, Response-rel Cos sim of 0.1691, and Questions Has '?' of 28.80%. Other configurations show varying percentages and values, such as 'Beam Search (beam size 20)' with External Bigram at 46.85% and External Unigram at 44.15%. The table also includes sections for 'Repetition control (WD)', 'Question control (CT)', 'Specificity control (CT)', 'Specificity control (WD)', and 'Response-related control (WD)', each with specific values for the aforementioned metrics."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying various data points and metrics related to repetition, specificity, response-related control, and questions in a conversational model."
+        },
+        {
+            "entity_name": "REPETITION METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics showing the percentage of external, internal, and partner repetitions for bigram and unigram models."
+        },
+        {
+            "entity_name": "SPECIFICITY METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics indicating the specificity of responses using NIDF values."
+        },
+        {
+            "entity_name": "RESPONSE-RELATED METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics measuring the cosine similarity between responses and questions."
+        },
+        {
+            "entity_name": "QUESTION METRICS",
+            "entity_type": "EVENT",
+            "description": "Metrics tracking the presence of question marks in responses."
+        }
+    ],
+    "image_15": [
+        {
+            "entity_name": "IMAGE_15",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 7: Raw scores (mean ± std.) for all models and human evaluation metrics.' The table presents the results of human evaluations for various configurations of models. The columns represent different evaluation metrics, including Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, Make Sense, and Persona Retrieval. Each row corresponds to a different model or configuration. The first row represents the Human baseline, followed by Greedy Search and Beam Search (beam size 20). Subsequent rows detail various repetition control, question control, specificity control, and response-related control configurations. For example, the Extrep bigram WD -0.5 model scores 2.66 ± 0.56 in Avoiding Repetition, 2.56 ± 0.92 in Engage, and so on. The maximum score for most metrics is 4, except for Avoiding Repetition which has a maximum of 3, and Inquisitive which has an optimal score of 3. The last column, Persona Retrieval, is on a scale from 0 to 1 where higher is better. Notable data points include the Question-controlled CT 7 model scoring 3.07 ± 0.90 in Engage and the Specificity-controlled WD 8 model scoring 3.06 ± 0.80 in Listening."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying various models and their performance metrics in a tabular format. The table includes columns for different evaluation criteria such as Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, Make Sense, and Persona."
+        },
+        {
+            "entity_name": "MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "Various models used in the experiment, including Human, Greedy Search, Beam Search, Extrep bigram WD -0.5, Extrep bigram WD -1.25, Extrep bigram WD -3.5, Extrep bigram WD -inf, Repetition-controlled baseline, Question-controlled CT 0, Question-controlled CT 1, Question-controlled CT 4, Question-controlled CT 7, Question-controlled CT 10, Question-controlled CT 10 (boost), Specificity-controlled CT 0, Specificity-controlled CT 2, Specificity-controlled CT 4, Specificity-controlled CT 7, Specificity-controlled CT 9, Specificity-controlled WD -10, Specificity-controlled WD -4, Specificity-controlled WD 4, Specificity-controlled WD 6, Specificity-controlled WD 8, Response-related controlled WD -10, Response-related controlled WD 0, Response-related controlled WD 5, Response-related controlled WD 10, Response-related controlled WD 13."
+        }
+    ],
+    "image_16": [
+        {
+            "entity_name": "IMAGE_16",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 8: Calibrated scores (mean ± std.) for all models and human evaluation metrics.' The table is structured with rows representing different models and columns representing various evaluation metrics. The metrics include Avoiding Repetition, Engage, Fluency, Humanness, Inquisitive, Interesting, Listening, and Make Sense. Each cell in the table contains a mean score followed by a standard deviation. For example, the Human model has a score of 2.79 ± 0.12 for Avoiding Repetition, 3.04 ± 0.11 for Engage, and so on. The Greedy Search model has a score of 2.08 ± 0.10 for Avoiding Repetition, 2.24 ± 0.11 for Engage, and so on. The Beam Search (beam size 20) model has a score of 2.08 ± 0.11 for Avoiding Repetition, 2.29 ± 0.11 for Engage, and so on. The table also includes scores for various repetition control models, question control models, specificity control models, and response-related control models. The maximum of each column (excluding the Human row) is highlighted in bold. For instance, the Extrep bigram WD -3.5 model has the highest score of 3.56 ± 0.10 for Fluency. The table provides detailed numerical data for each model across the evaluation metrics."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "EVENT",
+            "description": "A table displaying various models and their performance metrics across different categories such as Avoiding Repetition, Engagement, Fluency, Humanness, Inquisitiveness, Interestingness, Listening, and Making Sense."
+        },
+        {
+            "entity_name": "MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains the performance metrics of different models including Human, Greedy Search, Beam Search, Extrep bigram WD, Question-controlled CT, Specificity-controlled CT, Specificity-controlled WD, and Response-related controlled WD."
+        },
+        {
+            "entity_name": "CATEGORIES",
+            "entity_type": "UNKNOWN",
+            "description": "The table evaluates the models across multiple categories such as Avoiding Repetition, Engagement, Fluency, Humanness, Inquisitiveness, Interestingness, Listening, and Making Sense."
+        }
+    ],
+    "image_17": [
+        {
+            "entity_name": "IMAGE_17",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a series of line graphs depicting human evaluation results for various configurations. Each graph has multiple lines representing different models: 'Question-controlled CT', 'Beam search baseline', 'Greedy search baseline', 'Human', and 'Repetition-controlled baseline'. The x-axis varies across the graphs, showing parameters such as 'Fewer Questions', 'More Questions', 'Generic', 'Specific', 'More Generic', 'More Specific', 'More unrelated', 'No control', 'More related'. The y-axis represents the evaluation scores, ranging from 2.0 to 3.6. The graphs are organized into rows and columns, each row corresponding to a different evaluation metric (e.g., Fluency, Engagingness, Humanness, Making Sense, Interestingness, Avoiding Repetition, Listening). The maximum score in each column (excluding the 'Human' row) is highlighted in bold. The graphs show trends where certain models perform better under specific conditions. For example, the 'Question-controlled CT' model generally performs well with more questions, while the 'Repetition-controlled baseline' shows high scores in avoiding repetition."
+        },
+        {
+            "entity_name": "REPETITION CONTROL SETTING",
+            "entity_type": "EVENT",
+            "description": "The top left graph showing the repetition control setting with different baselines and human performance."
+        },
+        {
+            "entity_name": "QUESTION-ASKING CONTROL LEVEL (CT)",
+            "entity_type": "EVENT",
+            "description": "The top second graph from the left showing the question-asking control level with CT."
+        },
+        {
+            "entity_name": "SPECIFICITY CONTROL LEVEL (CT)",
+            "entity_type": "EVENT",
+            "description": "The top third graph from the left showing the specificity control level with CT."
+        },
+        {
+            "entity_name": "SPECIFICITY CONTROL LEVEL (WD)",
+            "entity_type": "EVENT",
+            "description": "The top fourth graph from the left showing the specificity control level with WD."
+        },
+        {
+            "entity_name": "RESPONSE-RELATEDNESS CONTROL LEVEL (WD)",
+            "entity_type": "EVENT",
+            "description": "The top fifth graph from the left showing the response-relatedness control level with WD."
+        },
+        {
+            "entity_name": "BEAM SEARCH BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline method used in the graphs for comparison, represented by a blue line."
+        },
+        {
+            "entity_name": "GREEDY SEARCH BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "Another baseline method used in the graphs for comparison, represented by a green dashed line."
+        },
+        {
+            "entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "Human performance used as a benchmark in the graphs, represented by an orange line."
+        },
+        {
+            "entity_name": "REPETITION-CONTROLLED BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "A baseline method controlled for repetition, represented by a purple dotted line."
+        }
+    ]
+}

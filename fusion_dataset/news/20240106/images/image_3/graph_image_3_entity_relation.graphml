@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a child peering through a window with rain streaks. The child's face is partially visible, framed by the wet glass. The raindrops create a textured pattern on the window, obscuring parts of the child's face and adding a sense of melancholy or contemplation to the scene. The background is dark, which contrasts with the lighter skin tone of the child's face, making the child's expression more pronounced. The overall mood conveyed by the image is one of sadness or introspection, possibly reflecting the emotional state of the child in a difficult situation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+</node>
+<node id="&quot;CHILD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young child with a solemn expression, looking through a rain-streaked window."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+</node>
+<node id="&quot;WINDOW&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A window with rain streaks running down it, partially obscuring the view of the child."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CHILD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Child是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Window是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHILD&quot;" target="&quot;WINDOW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The child is looking through the window, which has rain streaks on it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

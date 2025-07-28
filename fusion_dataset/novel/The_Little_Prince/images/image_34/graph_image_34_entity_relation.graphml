@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_34&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white sketch depicting a solitary figure standing at the peak of a jagged, needle-like rock formation. The figure appears to be a young boy with short hair, wearing a simple outfit that includes a jacket and pants. His posture is upright, and he seems to be gazing into the distance, possibly contemplating his surroundings or searching for something. The background consists of similar sharp, pointed rock formations that extend into the distance, creating a sense of isolation and desolation. The overall atmosphere conveyed by the image is one of loneliness and contemplation, as the boy stands alone amidst the harsh, unforgiving landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Standing at the peak of a mountain, wearing a cape that is flowing in the wind."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+</node>
+<node id="&quot;MOUNTAIN PEAK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The highest point of a mountain range, with a person standing on top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+</node>
+<node id="&quot;MOUNTAIN RANGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A series of mountains with sharp and jagged peaks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+</node>
+<edge source="&quot;IMAGE_34&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_34中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_34&quot;" target="&quot;MOUNTAIN PEAK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mountain Peak是从image_34中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_34&quot;" target="&quot;MOUNTAIN RANGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mountain Range是从image_34中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PERSON&quot;" target="&quot;MOUNTAIN PEAK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The person is standing on the mountain peak."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOUNTAIN PEAK&quot;" target="&quot;MOUNTAIN RANGE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The mountain peak is part of the mountain range."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_34.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

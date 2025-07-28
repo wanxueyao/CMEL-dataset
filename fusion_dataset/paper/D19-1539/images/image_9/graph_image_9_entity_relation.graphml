@@ -1,0 +1,180 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;TRAIN DATA (M TOK)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The amount of training data measured in millions of tokens, ranging from 562 to 18000."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;COLA (MCC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The Matthew's correlation coefficient score for the CoLA dataset, ranging from 50.6 to 56.6."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;SST-2 (ACC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The accuracy score for the SST-2 dataset, ranging from 91.6 to 93.6."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;MRPC (F1)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The F1 score for the MRPC dataset, ranging from 81.4 to 88.8."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;STS-B (SCC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The sentence correlation coefficient score for the STS-B dataset, ranging from 78.2 to 88.8."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;QQP (F1)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The F1 score for the QQP dataset, ranging from 84.9 to 87.2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;MNLI-M (ACC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The accuracy score for the MNLI-m dataset, ranging from 79.1 to 82.3."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;QNLI (ACC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The accuracy score for the QNLI dataset, ranging from 82.0 to 86.9."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;RTE (ACC)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The accuracy score for the RTE dataset, ranging from 53.9 to 68.4."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;AVG&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The average score across all datasets, ranging from 75.6 to 81.3."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_9 is a table labeled 'Table 6: Effect of different domains and amount of data for pretraining on the development sets of GLUE (cf. Table 2).' The table is based on the CNN base model (Table 1) and is structured with rows representing different datasets and columns representing various metrics. The datasets include 'ccrawl' with varying amounts of training data in millions of tokens (M tok), 'news crawl', 'BWiki - sent', and 'BWiki - blck'. The metrics evaluated are CoLA (mcc), SST-2 (acc), MRPC (F1), STS-B (scc), QQP (F1), MNLI-m (acc), QNLI (acc), RTE (acc), and an average (Avg). 
+
+For instance, with 562 M tok of ccrawl data, the metrics are as follows: CoLA (52.5), SST-2 (92.9), MRPC (88.2), STS-B (88.3), QQP (87.1), MNLI-m (81.7), QNLI (85.7), RTE (63.3), and Avg (79.9). As the amount of ccrawl data increases to 18000 M tok, the metrics improve to CoLA (56.3), SST-2 (93.1), MRPC (88.0), STS-B (88.8), QQP (87.2), MNLI-m (82.3), QNLI (86.3), RTE (68.4), and Avg (81.3). The news crawl dataset shows lower performance across all metrics compared to ccrawl. For example, with 562 M tok of news crawl data, the metrics are CoLA (50.9), SST-2 (92.8), MRPC (81.4), STS-B (78.2), QQP (84.9), MNLI-m (79.1), QNLI (82.0), RTE (55.7), and</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+</node>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"train data (M tok)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;COLA (MCC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the CoLA score also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;SST-2 (ACC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the SST-2 accuracy also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;MRPC (F1)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the MRPC F1 score also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;STS-B (SCC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the STS-B score also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;QQP (F1)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the QQP F1 score also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;MNLI-M (ACC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the MNLI-m accuracy also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;QNLI (ACC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the QNLI accuracy also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;RTE (ACC)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the RTE accuracy also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN DATA (M TOK)&quot;" target="&quot;AVG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"There is a general trend that as the amount of training data increases, the average score across all datasets also tends to increase, indicating a positive relationship between the two entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COLA (MCC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CoLA (mcc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-2 (ACC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-2 (acc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MRPC (F1)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MRPC (F1)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STS-B (SCC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"STS-B (scc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QQP (F1)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QQP (F1)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MNLI-M (ACC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MNLI-m (acc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QNLI (ACC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"QNLI (acc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RTE (ACC)&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RTE (acc)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AVG&quot;" target="&quot;IMAGE_9&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Avg是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

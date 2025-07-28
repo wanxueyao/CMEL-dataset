@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: Experimental results for MRC task.' The table compares the performance of different models on two tasks, MRPC and QQP, using the F1 score as the metric. The rows represent different models and their variations, while the columns show the F1 scores for each task. The models listed are BERT (Devlin et al., 2018), BERT+FL, BERT+DL, BERT+DSC, XLNet (Yang et al., 2019), XLNet+FL, XLNet+DL, and XLNet+DSC. For the MRPC task, the F1 scores are as follows: BERT has an F1 score of 88.0, BERT+FL has 88.43 (+0.43), BERT+DL has 88.71 (+0.71), and BERT+DSC has 88.92 (+0.92). For the QQP task, the F1 scores are: BERT has an F1 score of 91.3, BERT+FL has 91.86 (+0.56), BERT+DL has 91.92 (+0.62), and BERT+DSC has 92.11 (+0.81). For XLNet, the F1 scores are: XLNet has an F1 score of 89.2 for MRPC and 91.8 for QQP, XLNet+FL has 89.25 (+0.05) for MRPC and 92.31 (+0.51) for QQP, XLNet+DL has 89.33 (+0.13) for MRPC and 92.39 (+0.59) for QQP, and XLNet+DSC has 89.78 (+0.58) for MRPC and 92.60 (+0.79) for QQP. The table highlights the performance boost obtained by adding different loss functions to BERT and XLNet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;BERT (DEVLIN ET AL., 2018)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A pre-trained model that achieves an F1 score of 88.0 on MRPC and 91.3 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of BERT with a focus loss, achieving an F1 score of 88.43 on MRPC and 91.86 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of BERT with a dynamic loss, achieving an F1 score of 88.71 on MRPC and 91.92 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of BERT with a dynamic sample correction, achieving an F1 score of 88.92 on MRPC and 92.11 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;XLNET (YANG ET AL., 2019)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A pre-trained model that achieves an F1 score of 89.2 on MRPC and 91.8 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;XLNET+FL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of XLNet with a focus loss, achieving an F1 score of 89.25 on MRPC and 92.31 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;XLNET+DL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of XLNet with a dynamic loss, achieving an F1 score of 89.33 on MRPC and 92.39 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<node id="&quot;XLNET+DSC&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of XLNet with a dynamic sample correction, achieving an F1 score of 89.78 on MRPC and 92.60 on QQP."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BERT (DEVLIN ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (Devlin et al., 2018)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET (YANG ET AL., 2019)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet (Yang et al., 2019)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+FL是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DL是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;XLNET+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"XLNet+DSC是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

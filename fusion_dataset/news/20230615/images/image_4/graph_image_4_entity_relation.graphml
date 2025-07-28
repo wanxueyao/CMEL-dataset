@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Not discernible from the given image- Skin Color: Light skin tone- Hairstyle: Not visible in the image- Clothing: Wearing a bright pink garment, possibly a shirt or jacket, with a high collar and long sleeves- Accessories: Wearing yellow rubber gloves that extend up to the mid-forearm, with a textured surface for grip; there is a black logo or text on the back of one glove- Posture: Arms are bent at the elbows, with hands positioned as if ready to perform a taskOverall, the individual appears to be dressed for a task that requires protection, such as cleaning or handling chemicals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a close-up view of a person's hands wearing yellow rubber gloves, engaged in sorting or handling organic waste. The hands are positioned over a conveyor belt filled with various types of food scraps and other compostable materials. The background is dark and industrial, suggesting this activity is taking place inside a facility designed for waste processing. The person appears to be separating different types of waste, possibly as part of a recycling or composting process. The waste includes recognizable items such as vegetable peels, coffee grounds, and other organic debris. The overall atmosphere conveys a sense of industriousness and environmental responsibility."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An individual wearing a pink apron and yellow gloves, sorting through compost material on a conveyor belt."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+</node>
+<node id="&quot;COMPOST MATERIAL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A mixture of organic waste materials including food scraps, leaves, and other biodegradable items being sorted for composting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+</node>
+<node id="&quot;CONVEYOR BELT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A mechanical device used to transport the compost material, facilitating the sorting process."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Person是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;COMPOST MATERIAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Compost Material是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;CONVEYOR BELT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Conveyor Belt是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230615/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

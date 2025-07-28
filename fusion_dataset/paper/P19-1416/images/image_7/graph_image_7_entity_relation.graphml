@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed flowchart illustrating the process of single-paragraph BERT for reading and scoring each paragraph independently. The chart is divided into two main sections. On the left, there is a flowchart showing the input sequence consisting of a question and a paragraph, which are merged into a single sequence with a special token [SEP] indicating the boundary. This sequence is then fed into BERT-BASE. The output from BERT-BASE is a tensor \( S' \in \mathbb{R}^{h \times (m+n+1)} \), where \( h \) is the hidden dimension of BERT. This tensor is then processed through max-pooling and learned parameters \( W_1 \in \mathbb{R}^{h \times 4} \) to generate four scalars: \( y_{\mathrm{span}} \), \( y_{\mathrm{yes}} \), \( y_{\mathrm{no}} \), and \( y_{\mathrm{empty}} \). These scalars indicate whether the answer is a span, yes, no, or empty. The start and end positions of the span are determined by finding the maximum product of the start and end probabilities \( p_{\mathrm{start}}^i \) and \( p_{\mathrm{end}}^j \) respectively, using learned parameters \( W_2, W_3 \in \mathbb{R}^{h} \). On the right, the chart shows the outputs from multiple paragraphs, with the final answer chosen from the paragraph with the lowest \( y_{\mathrm{empty}} \) score."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A deep learning model used for natural language processing tasks, shown in the diagram as a central component that processes input data and generates outputs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;QUESTION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The input to the BERT model, represented as a sequence of tokens in the diagram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;PARAGRAPH&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Another input to the BERT model, also represented as a sequence of tokens in the diagram."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;OUTPUT 1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"One of the possible outputs from the BERT model, indicating whether the span is empty or contains a yes/no answer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;OUTPUT 2&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Another possible output from the BERT model, similar to Output 1 but with a different index."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<node id="&quot;OUTPUT N&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The final possible output from the BERT model, again indicating whether the span is empty or contains a yes/no answer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;QUESTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;PARAGRAPH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Paragraph是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;OUTPUT 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Output 1是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;OUTPUT 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Output 2是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;OUTPUT N&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Output N是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;QUESTION&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT model processes the Question as one of its inputs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;PARAGRAPH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT model processes the Paragraph as another input."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;OUTPUT 1&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT model generates Output 1 as one of its results."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;OUTPUT 2&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT model generates Output 2 as another result."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;OUTPUT N&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BERT model generates Output N as the final result."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

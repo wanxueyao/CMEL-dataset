@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration with the text 'CHAPTER SIXTEEN THROUGH THE TRAPDOOR' prominently displayed in the center. The text is framed by a border of intertwined, twisted vines and leaves. The vines are depicted in various shades of brown and purple, with some leaves in bright yellow and green. The overall style is reminiscent of a fantasy or magical theme, with the vines appearing almost alive and entangled. The background is white, which makes the colorful vines and text stand out prominently. The atmosphere conveyed is one of mystery and intrigue, fitting for a chapter title in a fantasy novel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+</node>
+<node id="&quot;CHAPTER SIXTEEN TITLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The title 'Chapter Sixteen' indicating the start of a new chapter in a book."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+</node>
+<node id="&quot;THROUGH THE TRAPDOOR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The subtitle 'Through the Trapdoor' suggesting a theme or setting for the events in this chapter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+</node>
+<node id="&quot;ILLUSTRATION&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An artistic depiction featuring vines, leaves, and tentacle-like forms surrounding the text, creating an eerie and mysterious atmosphere."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CHAPTER SIXTEEN TITLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter Sixteen Title是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;THROUGH THE TRAPDOOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Through the Trapdoor是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;ILLUSTRATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Illustration是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER SIXTEEN TITLE&quot;" target="&quot;THROUGH THE TRAPDOOR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The subtitle provides additional context to the main title, giving readers insight into the chapter's content."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER SIXTEEN TITLE&quot;" target="&quot;ILLUSTRATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The illustration visually represents the theme suggested by the title, enhancing the reader's understanding and engagement."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THROUGH THE TRAPDOOR&quot;" target="&quot;ILLUSTRATION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The illustration complements the subtitle by providing a visual representation of the mysterious and possibly dangerous environment described in the chapter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (5)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

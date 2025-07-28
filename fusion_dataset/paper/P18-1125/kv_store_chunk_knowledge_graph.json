@@ -1,0 +1,2290 @@
+{
+    "5": {
+        "chunk_key": "chunk-320068db9e6fc59c389fd8fb7d893367",
+        "entities": [
+            {
+                "entity_name": "\"HÜBLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hübler is referenced as the author of a study from 1983, contributing to the understanding of politeness strategies in conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"TAUSCZIK AND PENNEBAKER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tausczik and Pennebaker are authors cited for their research on pronoun use in conversation dynamics, published in 2010.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"LIU ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al. are mentioned as the creators of a sentiment lexicon used as a baseline feature for prediction tasks.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"PERSPECTIVE API\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Perspective API is an organization that provides a classifier for toxicity scores, used as a reference point for comparison in prediction accuracy.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is the platform where the conversations are taking place, and it is the source of data for the study on conversation trajectories.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"CONVERSATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Conversation refers to the interactions being studied, which can either be 'on-track' or 'awry-turning' based on linguistic properties.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"PERSONAL ATTACK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Personal Attack is the event that the study aims to predict, based on the linguistic properties of the initial exchange in a conversation.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"FIGURE 2B\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 2B is referenced as a visual representation of attacker-initiated conversations, containing 608 conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"FIGURE 2C\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 2C is referenced as a visual representation of non-attacker initiated conversations, containing 662 conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"S\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"S represents the first reply in a conversation, indicated by a boxed notation.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"OS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Os is used to denote the nonattacking replier's use of second person pronouns in awry-turning conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"BIG CIRCLE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Big Circle represents the non-attacker's first comment in conversations initiated by them.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"BIG TRIANGLE DOWN\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Big Triangle Down represents the eventual attacker's加入 the conversation in the second comment.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 3 is a reference to the summary of prediction accuracies for the balanced future prediction task.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"INTERLOCUTOR FEATURES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Interlocutor Features are considered as a set of features representing participants' experience on Wikipedia and their anonymity status.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "entity_name": "\"NONAUTHOR VOLUNTEER HUMAN ANNOTATORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nonauthor volunteer human annotators are individuals who labeled a sample of 100 pairs for the study.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"HÜBLER\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 6.0,
+                "description": "\"Hübler's study from 1983 is related to the understanding of politeness strategies in conversations, which is a key aspect of the study on conversation trajectories.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"TAUSCZIK AND PENNEBAKER\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 7.0,
+                "description": "\"Tausczik and Pennebaker's research on pronoun use is directly related to the dynamics of conversations and their potential to derail or stay on track.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"LIU ET AL.\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 5.0,
+                "description": "\"Liu et al.'s sentiment lexicon is used as a baseline feature for predicting the trajectory of conversations, indicating its relevance to the study.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"PERSPECTIVE API\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 8.0,
+                "description": "\"The Perspective API's toxicity score is used as a reference point for comparing the accuracy of predicting conversation trajectories, showing a direct relation to the study's objectives.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 9.0,
+                "description": "\"Wikipedia is the source of the conversation data, making it integral to the study of conversation trajectories and the prediction of personal attacks.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"CONVERSATION\"",
+                "tgt_id": "\"PERSONAL ATTACK\"",
+                "weight": 10.0,
+                "description": "\"The study aims to predict whether a conversation will lead to a personal attack based on its initial linguistic properties, establishing a direct relationship between the two.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"FIGURE 2B\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 6.0,
+                "description": "\"Figure 2B visually represents attacker-initiated conversations, which are a subset of the overall conversations being studied.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"FIGURE 2C\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 6.0,
+                "description": "\"Figure 2C visually represents non-attacker initiated conversations, which are a subset of the overall conversations being studied.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"S\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 7.0,
+                "description": "\"S, as the first reply, is a critical part of the initial exchange in a conversation, influencing its trajectory.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"OS\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 7.0,
+                "description": "\"Os, representing the use of second person pronouns by nonattacking repliers, is associated with awry-turning conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"BIG CIRCLE\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 6.0,
+                "description": "\"Big Circle signifies the non-attacker's first comment in conversations they initiate, affecting the conversation's direction.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"BIG TRIANGLE DOWN\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 7.0,
+                "description": "\"Big Triangle Down indicates the eventual attacker's entry into the conversation, which can lead to derailment.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"TABLE 3\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 6.0,
+                "description": "\"Table 3 provides a summary of prediction accuracies related to the future trajectory of conversations.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"INTERLOCUTOR FEATURES\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 5.0,
+                "description": "\"Interlocutor Features are used to predict the likelihood of conversations turning awry, based on participants' experience and anonymity.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            },
+            {
+                "src_id": "\"NONAUTHOR VOLUNTEER HUMAN ANNOTATORS\"",
+                "tgt_id": "\"CONVERSATION\"",
+                "weight": 5.0,
+                "description": "\"Nonauthor volunteer human annotators are involved in the labeling process of conversation pairs for the study.\"",
+                "source_id": "chunk-320068db9e6fc59c389fd8fb7d893367"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-b7a9283b6740795859e67f4e921a6b47",
+        "entities": [
+            {
+                "entity_name": "\"LUCAS DIXON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lucas Dixon is an author of the paper 'Ex machina: Personal attacks seen at scale' published in the Proceedings of WWW in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"NAOMI YAMASHITA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Naomi Yamashita is an author of the paper 'Automatic prediction of misconceptions in multilingual computer-mediated communication' published in the Proceedings of IUI in 2006.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"TORU ISHIDA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Toru Ishida is an author of the paper 'Automatic prediction of misconceptions in multilingual computer-mediated communication' published in the Proceedings of IUI in 2006.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"DAWEI YIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dawei Yin is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"ZHENZHEN XUE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhenzhen Xue is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"LIANGJIE HONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liangjie Hong is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"BRIAN D DAVISON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brian D Davison is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"APRIL KONTOSTATHIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"April Kontostathis is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"LYNNE EDWARDS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lynne Edwards is an author of the paper 'Detection of harassment on Web 2.0' published in the Proceedings of the Workshop on Content Analysis in the Web 2.0 in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"AMY X ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Amy X Zhang is an author of the paper 'Characterizing online discussion using coarse discourse sequences' published in the Proceedings of ICWSM in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"BRYAN CULBERTSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bryan Culbertson is an author of the paper 'Characterizing online discussion using coarse discourse sequences' published in the Proceedings of ICWSM in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"PRAVEEN PARITOSH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Praveen Paritosh is an author of the paper 'Characterizing online discussion using coarse discourse sequences' published in the Proceedings of ICWSM in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"JUSTINE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Justine Zhang is an author of two papers: 'Conversational flow in Oxford-style debates' published in the Proceedings of NAACL in 2016 and 'Asking too much? The rhetorical role of questions in political discourse' published in the Proceedings of EMNLP in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"RAVI KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ravi Kumar is an author of the paper 'Conversational flow in Oxford-style debates' published in the Proceedings of NAACL in 2016.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"SUJITH RAVI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sujith Ravi is an author of the paper 'Conversational flow in Oxford-style debates' published in the Proceedings of NAACL in 2016.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"CRISTIAN DANESCU-NICULESCU-MIZIL (CRISTIAN DANESCU-NICULESCU-MIZIL)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Cristian Danescu-Niculescu-Mizil is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"WWW\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WWW is the event where the paper 'Ex machina: Personal attacks seen at scale' by Lucas Dixon was presented in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"IUI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"IUI is the event where the paper 'Automatic prediction of misconceptions in multilingual computer-mediated communication' by Naomi Yamashita and Toru Ishida was presented in 2006.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"WORKSHOP ON CONTENT ANALYSIS IN THE WEB 2.0\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Workshop on Content Analysis in the Web 2.0 is the event where the paper 'Detection of harassment on Web 2.0' by Dawei Yin et al. was presented in 2009.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"ICWSM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ICWSM is the event where the paper 'Characterizing online discussion using coarse discourse sequences' by Amy X Zhang et al. was presented in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"NAACL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NAACL is the event where the paper 'Conversational flow in Oxford-style debates' by Justine Zhang et al. was presented in 2016.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            },
+            {
+                "entity_name": "\"EMNLP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP is the event where the paper 'Asking too much? The rhetorical role of questions in political discourse' by Justine Zhang et al. was presented in 2017.\"",
+                "source_id": "chunk-b7a9283b6740795859e67f4e921a6b47"
+            }
+        ],
+        "relationships": []
+    },
+    "2": {
+        "chunk_key": "chunk-ea8690b0974e90a4abb43431e8a7fb3c",
+        "entities": [
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is an online encyclopedia that allows public collaboration and editing, hosting talk page discussions for contributors.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"KUMAR ET AL., 2010\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Kumar et al., 2010 refers to prior work in modeling conversation trajectory, focusing on structural aspects of conversations.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"BACKSTROM ET AL., 2013\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Backstrom et al., 2013 is another reference to prior work in modeling conversation trajectory, considering structural aspects.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"HENNER AND SEFIDARI, 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Henner and Sefidari, 2016 is a study that discusses the disruptive impact of toxic attacks on Wikipedia's community and editing contributions.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"WULCZYN ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Wulczyn et al., 2017 is a study estimating that roughly one percent of Wikipedia comments exhibit antisocial behavior.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"PERSPECTIVE API\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Perspective API is a tool used to classify the toxicity of comments, trained on Wikipedia talk page comments annotated by crowdworkers.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"CROWDFLOWER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CrowdFlower is a platform used for crowdsourcing jobs to filter and vet conversations based on human perception of civility and personal attacks.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"COSER, 1956\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Coser, 1956 is a reference to a study that recognizes civil disagreement as a key aspect of effective collaborations.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"DE DREU AND WEINGART, 2003\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"De Dreu and Weingart, 2003 is another reference to a study that acknowledges the importance of civil disagreement in collaborations.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"SOOD ET AL., 2012\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Sood et al., 2012 is prior work that labels antisocial comments in isolation, contrasting with the context-dependent labeling approach used in this study.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"CHENG ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cheng et al., 2017 is a study that emphasizes the context-dependent nature of antisocial behavior in conversations.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"COMMUNITY GUIDELINES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Community guidelines are the rules that contributors to Wikipedia must follow when editing articles and making contributions.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"TOXICITY CLASSIFIER\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The toxicity classifier is a machine learning tool used to identify potentially toxic comments in Wikipedia's talk page discussions.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"TOXIC CONTRIBUTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Toxic contribution refers to comments in a conversation that exhibit antisocial behavior, such as personal attacks or insults.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"CONTROLLED DATASET\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A controlled dataset is a curated collection of conversations used for the study, selected through a process involving machine learning and crowdsourcing.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"CONVERSATIONAL DERAILMENT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Conversational derailment refers to the process by which a civil conversation turns into a toxic exchange, particularly in the context of Wikipedia's talk pages.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"PERSONAL ATTACKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Personal attacks are a form of antisocial behavior where one conversation participant directs rude, insulting, or disrespectful comments towards another.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"CIVIL DISAGREEMENT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Civil disagreement is a form of disagreement that is respectful and constructive, contrasted with personal attacks and toxicity.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"STRUCTURED CONVERSATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Structured conversations are sequences of revisions on Wikipedia talk pages that are translated into a format suitable for analysis.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"EDIT HISTORY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Edit history refers to the record of changes and revisions made to Wikipedia talk pages, which can be reconstructed into structured conversations.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "entity_name": "\"ANTISOCIAL BEHAVIOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Antisocial behavior in the context of Wikipedia comments refers to comments that are rude, insulting, or disrespectful, potentially disrupting the community.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"HENNER AND SEFIDARI, 2016\"",
+                "weight": 7.0,
+                "description": "\"The study by Henner and Sefidari, 2016 discusses the impact of toxic attacks on Wikipedia's community and editing contributions.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"WULCZYN ET AL., 2017\"",
+                "weight": 7.0,
+                "description": "\"Wulczyn et al., 2017 provides an estimate of antisocial behavior in Wikipedia comments, which is relevant to the study of conversational failure on the platform.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"PERSPECTIVE API\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 8.0,
+                "description": "\"The Perspective API uses Wikipedia talk page comments annotated by crowdworkers to train its toxicity classifier.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"CROWDFLOWER\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 8.0,
+                "description": "\"CrowdFlower is used to vet and filter conversations from Wikipedia's talk pages to construct a controlled dataset for the study.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"COSER, 1956\"",
+                "tgt_id": "\"CROWDFLOWER\"",
+                "weight": 6.0,
+                "description": "\"The study by Coser, 1956 is referenced to emphasize the importance of separating toxicity from civil disagreement in the crowdsourcing filtering process on CrowdFlower.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"DE DREU AND WEINGART, 2003\"",
+                "tgt_id": "\"CROWDFLOWER\"",
+                "weight": 6.0,
+                "description": "\"The study by De Dreu and Weingart, 2003 is also referenced to highlight the significance of distinguishing between toxicity and civil disagreement in the crowdsourcing process.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"SOOD ET AL., 2012\"",
+                "tgt_id": "\"CROWDFLOWER\"",
+                "weight": 1.0,
+                "description": "\"(\"entity\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"TOXICITY CLASSIFIER\"",
+                "tgt_id": "\"CONTROLLED DATASET\"",
+                "weight": 8.0,
+                "description": "\"The toxicity classifier helps preselect candidate conversations for the controlled dataset by assigning toxicity scores to comments.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "tgt_id": "\"PERSONAL ATTACKS\"",
+                "weight": 9.0,
+                "description": "\"Conversational derailment often involves personal attacks, which are a key indicator of a conversation turning toxic.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"CIVIL DISAGREEMENT\"",
+                "tgt_id": "\"PERSONAL ATTACKS\"",
+                "weight": 7.0,
+                "description": "\"Civil disagreement is contrasted with personal attacks, with the latter being a form of antisocial behavior.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"STRUCTURED CONVERSATIONS\"",
+                "tgt_id": "\"EDIT HISTORY\"",
+                "weight": 8.0,
+                "description": "\"Structured conversations are derived from the edit history of Wikipedia talk pages, providing a basis for analysis.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            },
+            {
+                "src_id": "\"ANTISOCIAL BEHAVIOR\"",
+                "tgt_id": "\"TOXIC CONTRIBUTION\"",
+                "weight": 8.0,
+                "description": "\"Antisocial behavior is exhibited through toxic contributions, such as personal attacks or insults, in Wikipedia comments.\"",
+                "source_id": "chunk-ea8690b0974e90a4abb43431e8a7fb3c"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-503b85c2865a6798f816a681f188d145",
+        "entities": [
+            {
+                "entity_name": "\"JUSTINE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Justine Zhang is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"JONATHAN P. CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan P. Chang is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CRISTIAN DANESCU-NICULESCU-MIZIL (CRISTIAN DANESCU-NICULESCU-MIZIL)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Cristian Danescu-Niculescu-Mizil is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"LUCAS DIXON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lucas Dixon is an individual associated with Jigsaw and Cornell University, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"NITHUM THAIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nithum Thain is an individual associated with Google and Cornell University, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"YIQING HUA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yiqing Hua is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"DARIO TARABORELLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dario Taraborelli is an individual associated with Wikimedia Foundation, contributing to the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CORNELL UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cornell University is an educational institution where multiple researchers are based, working on the project related to predicting conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"JIGSAW\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Jigsaw is an organization associated with Lucas Dixon, involved in the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"WIKIMEDIA FOUNDATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikimedia Foundation is an organization associated with Dario Taraborelli, involved in the research on detecting early signs of conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"DYATLOV PASS INCIDENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Dyatlov Pass Incident is an event that is the subject of a Wikipedia article and serves as a context for the study on conversational failure.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"GHEITASY ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gheitasy et al. are researchers cited in the text, contributing to the understanding of online conversations going awry.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"SHEPHERD ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shepherd et al. are researchers cited in the text, contributing to the understanding of antisocial behavior in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CHURCHILL AND BLY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Churchill and Bly are researchers cited in the text, contributing to the understanding of misunderstandings in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"YAMASHITA AND ISHIDA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yamashita and Ishida are researchers cited in the text, contributing to the understanding of misunderstandings in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CHENG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cheng et al. are researchers cited in the text, contributing to the understanding of trolling behavior in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"WARNER AND HIRSCHBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Warner and Hirschberg are researchers cited in the text, contributing to the understanding of hate speech in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"DAVIDSON ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Davidson et al. are researchers cited in the text, contributing to the understanding of harassment in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"YIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yin et al. are researchers cited in the text, contributing to the understanding of harassment in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"WULCZYN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wulczyn et al. are researchers cited in the text, contributing to the understanding of personal attacks in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CHANDRASEKHARAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chandrasekharan et al. are researchers cited in the text, contributing to the understanding of toxicity in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"PAVLOPOULOS ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pavlopoulos et al. are researchers cited in the text, contributing to the understanding of toxicity in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"ALLEN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Allen et al. are researchers cited in the text, contributing to the understanding of disputes in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"WANG AND CARDIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang and Cardie are researchers cited in the text, contributing to the understanding of disputes in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"NICULAE AND DANESCUNICULESCU-MIZIL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Niculae and DanescuNiculescu-Mizil are researchers cited in the text, contributing to the understanding of problem-solving in online conversations.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark is a researcher cited in the text, contributing to the understanding of politeness in offline and online interactions.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"FRASER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fraser is a researcher cited in the text, contributing to the understanding of politeness strategies in communication.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"BROWN AND LEVINSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brown and Levinson are researchers cited in the text, contributing to the understanding of politeness as a buffer in conflicting interlocutor goals.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "entity_name": "\"GOFFMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Goffman is a researcher cited in the text, contributing to the understanding of politeness in saving face during interactions.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"JUSTINE ZHANG\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Justine Zhang is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"JONATHAN P. CHANG\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Jonathan P. Chang is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"CRISTIAN DANESCU-NICULESCU-MIZIL (CRISTIAN DANESCU-NICULESCU-MIZIL)\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Cristian Danescu-Niculescu-Mizil is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"LUCAS DIXON\"",
+                "tgt_id": "\"JIGSAW\"",
+                "weight": 7.0,
+                "description": "\"Lucas Dixon is affiliated with Jigsaw for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"LUCAS DIXON\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Lucas Dixon is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"NITHUM THAIN\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Nithum Thain is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"YIQING HUA\"",
+                "tgt_id": "\"CORNELL UNIVERSITY\"",
+                "weight": 7.0,
+                "description": "\"Yiqing Hua is affiliated with Cornell University for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            },
+            {
+                "src_id": "\"DARIO TARABORELLI\"",
+                "tgt_id": "\"WIKIMEDIA FOUNDATION\"",
+                "weight": 7.0,
+                "description": "\"Dario Taraborelli is affiliated with Wikimedia Foundation for the research project.\"",
+                "source_id": "chunk-503b85c2865a6798f816a681f188d145"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-e92f2d61fcbbb2f64bbc71826555655d",
+        "entities": [
+            {
+                "entity_name": "\"PERSPECTIVE API CLASSIFIER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Perspective API classifier is a supervised system trained on human-labeled training examples and used to evaluate data, achieving an accuracy of 60.5%.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"HUMAN ANNOTATORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Human annotators are volunteer non-authors who label pairs of exchanges to predict personal attacks, achieving an accuracy of 72%.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"PRAGMATIC FEATURES CLASSIFIER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The classifier using pragmatic features is accurate on 80% of the examples that humans also got right, indicating its ability to capture human intuition.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"CONVERSATIONAL DERAILMENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Conversational derailment is the phenomenon where a civil discussion later involves one participant attacking another, which is the focus of the study.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Wikipedia is mentioned as a platform where the framework is not specifically tied to, suggesting the potential for studying the phenomenon in other venues.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"REDDIT\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Reddit is suggested as another public discussion venue to explore the phenomenon of conversational derailment.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"FACEBOOK PAGES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Facebook Pages are mentioned as another possible platform to study the phenomenon of conversational derailment.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"NSF CAREER AWARD IIS1750615\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF CAREER Award IIS1750615 is a grant that supports the research work described in the text.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"NSF GRANT SES-1741441\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF Grant SES-1741441 is a grant that supports the research work described in the text.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"GOOGLE FACULTY AWARD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Google Faculty Award is a grant that supports the research work described in the text.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"WMF GIFT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"WMF gift is a grant that supports the research work described in the text.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"CROWDFLOWER AI FOR EVERYONE AWARD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CrowdFlower AI for Everyone Award is a grant that supports the research work described in the text.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"MARIA ANTONIAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maria Antoniak is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"VALTS BLUKIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Valts Blukis is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"LIYE FU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liye Fu is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"SAM HAVRON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sam Havron is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"JACK HESSEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jack Hessel is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"ISHAAN JHAVERI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ishaan Jhaveri is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"LILLIAN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lillian Lee is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"ALEX NICULESCU-MIZIL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Niculescu-Mizil is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"ALEXANDRA SCHOFIELD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexandra Schofield is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"LAURE THOMPSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Laure Thompson is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"ANDREW WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Wang is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"LEILA ZIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Leila Zia is one of the individuals acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"WIKIMEDIA FOUNDATION ANTI-HARASSMENT PROGRAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Wikimedia Foundation anti-harassment program is acknowledged for assisting with data annotation efforts.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"HERBERT H CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Herbert H Clark is an author referenced in the text for their work on politeness strategies.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"DALE H SCHUNK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dale H Schunk is an author referenced in the text for their work on politeness strategies.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"YAVUZ AKBULUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yavuz Akbulut is an author referenced in the text for their work on cyberbullying victimization.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "entity_name": "\"YUSUF LEVENT SAHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yusuf Levent Sahin is an author referenced in the text for their work on cyberbullying victimization.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"PERSPECTIVE API CLASSIFIER\"",
+                "tgt_id": "\"PRAGMATIC FEATURES CLASSIFIER\"",
+                "weight": 7.0,
+                "description": "\"The Perspective API classifier is combined with pragmatic features to achieve a higher accuracy of 64.9%.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "src_id": "\"HUMAN ANNOTATORS\"",
+                "tgt_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "weight": 8.0,
+                "description": "\"Human annotators are involved in predicting the future trajectory of conversations that may lead to conversational derailment, with an accuracy of 72%.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "src_id": "\"PRAGMATIC FEATURES CLASSIFIER\"",
+                "tgt_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "weight": 7.0,
+                "description": "\"The classifier using pragmatic features maintains its predictive power in conversations where the first personal attack happens after the fourth comment, with 67.4% accuracy.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "weight": 5.0,
+                "description": "\"The study's framework is not tied to Wikipedia, suggesting that the phenomenon of conversational derailment can be studied in other platforms like Wikipedia.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "src_id": "\"REDDIT\"",
+                "tgt_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "weight": 5.0,
+                "description": "\"Reddit is proposed as a platform to study conversational derailment, indicating a potential relationship between the platform and the phenomenon.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            },
+            {
+                "src_id": "\"FACEBOOK PAGES\"",
+                "tgt_id": "\"CONVERSATIONAL DERAILMENT\"",
+                "weight": 5.0,
+                "description": "\"Facebook Pages are proposed as a platform to study conversational derailment, indicating a potential relationship between the platform and the phenomenon.\"",
+                "source_id": "chunk-e92f2d61fcbbb2f64bbc71826555655d"
+            }
+        ]
+    },
+    "8": {
+        "chunk_key": "chunk-65e62b59493d295dbc719494d1bb404b",
+        "entities": [
+            {
+                "entity_name": "\"ASSOCIATION FOR INFORMATION SCIENCE AND TECHNOLOGY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"An organization focused on information science and technology.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ANIKET KITTUR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in multiple studies related to Wikipedia and crowdsourcing.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ED H CHI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Aniket Kittur on Wikipedia mapping and conflict studies.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"BONGWON SUH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Aniket Kittur on conflict and coordination in Wikipedia.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ROBERT E KRAUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Aniket Kittur on harnessing the wisdom of crowds in Wikipedia.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"BRYAN A PENDLETON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in studying conflict and coordination in Wikipedia.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"VINODH KRISHNAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked on inducing address term formality in signed social networks.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JACOB EISENSTEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Vinodh Krishnan on address term formality.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"RAVI KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has studied the dynamics of conversations.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MOHAMMAD MAHDIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Ravi Kumar on conversation dynamics.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MARY MCGLOHON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in studying conversation dynamics.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"HAEWOON KWAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has explored cyberbullying and toxic behavior in online games.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JEREMY BLACKBURN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Haewoon Kwak on cyberbullying.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"SEUNGYEOP HAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Haewoon Kwak on exploring toxic behavior in online games.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ROBIN T LAKOFF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has studied the logic of politeness.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"BING LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked on opinion analysis on the web.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MINQING HU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Bing Liu on opinion analysis.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JUNSHENG CHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in studying opinion analysis on the web.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"VLAD NICULAE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has studied conversational markers and linguistic harbingers of betrayal.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"CRISTIAN DANESCUNICULESCUMIZIL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Vlad Niculae on conversational markers and linguistic harbingers.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"SRIJAN KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Vlad Niculae on linguistic harbingers of betrayal.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JORDAN BOYDGRABER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Vlad Niculae on betrayal studies.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"CHIKASHI NOBATA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked on abusive language detection in online user content.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JOEL TETREAULT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Chikashi Nobata on abusive language detection.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ACHINT THOMAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in studying abusive language detection.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"Y(\"ENTITY\"",
+                "entity_type": "\"YASHAR MEHDAD\"",
+                "description": "\"person\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"YI CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in the study of abusive language detection.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MARCO ORTU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has conducted an empirical study on the effectiveness of bullies versus issue fixing time.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"BRAM ADAMS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Marco Ortu on studying productivity and issue fixing time.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"GIUSEPPE DESTEFANIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in the empirical study of productivity versus issue fixing time.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"PARASTOU TOURANI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Marco Ortu on the study of affectiveness vs. issue fixing time.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MICHELE MARCHESI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Marco Ortu on the empirical study of productivity.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ROBERTO TONELLI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Marco Ortu on the study of affectiveness vs. issue fixing time.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"JOHN PAVLOPOULOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked on deep learning for user comment moderation.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"PRODROMOS MALAKASIOTIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with John Pavlopoulos on user comment moderation.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ION ANDROUTSOPOULOS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with John Pavlopoulos on abusive user content moderation.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ALAN RITTER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has modeled Twitter conversations in an unsupervised manner.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"COLIN CHERRY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Alan Ritter on modeling Twitter conversations.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"BILL DOLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Alan Ritter on unsupervised modeling of Twitter conversations.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"PAUL R ROSENBAUM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has written on the design of observational studies.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"DONALD B RUBIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has discussed the design versus analysis of observational studies for causal effects.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"TAMARA SHEPHERD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has studied histories of hating in social media contexts.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"ALISON HARVEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Tamara Shepherd on histories of hating.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"TIM JORDAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Tamara Shepherd on the study of histories of hating.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"SAM SRAUY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher involved in the study of histories of hating in social media.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"KATE MILTNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Tamara Shepherd on histories of hating.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"VIVEK K SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has studied newer app features and cyberbullying in schools.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"MARIE L RADFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has collaborated with Vivek K Singh on cyberbullying in schools.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            },
+            {
+                "entity_name": "\"QIANJIA HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"A researcher who has worked with Vivek K Singh on studying cyberbullying.\"",
+                "source_id": "chunk-65e62b59493d295dbc719494d1bb404b"
+            }
+        ],
+        "relationships": []
+    },
+    "7": {
+        "chunk_key": "chunk-8bf14cce64a2a525602da59cf8a72c2c",
+        "entities": [
+            {
+                "entity_name": "\"TIM ALTHOFF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tim Althoff is an author who contributed to a study on the success of altruistic requests.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"CRISTIAN DANESCU-NICULESCU-MIZIL (CRISTIAN DANESCU-NICULESCU-MIZIL)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Cristian Danescu-Niculescu-Mizil is an individual associated with Cornell University, contributing to the research on detecting early signs of conversational failure.",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"DAN JURAFSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Jurafsky is an author who has worked on studies related to language and altruistic requests.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"OFER ARAZY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ofer Arazy is an author who has researched task-related disagreements and personal conflicts.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MALIKA AUBAKIROVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Malika Aubakirova is an author who has worked on improving politeness comprehension through interpreting neural networks.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MOHIT BANSAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Bansal is a researcher who has contributed to studies on politeness comprehension.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"LARS BACKSTROM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lars Backstrom is an author who has studied conversation threads and their characteristics.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JON KLEINBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jon Kleinberg is a researcher who has contributed to studies on conversation threads and language effects.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"LILLIAN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lillian Lee is a researcher who has worked on politeness comprehension and conversation threads.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"PENELOPE BROWN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Penelope Brown is an author who has written on politeness and universals in language usage.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"STEPHEN LEVINSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stephen Levinson is an author who has contributed to studies on politeness and language usage.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MOIRA BURKE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Moira Burke is an author who has researched the impact of politeness and rudeness in online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ROBERT KRAUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Robert Kraut is a researcher who has contributed to studies on politeness in online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ESHWAR CHANDRASEKHARAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eshwar Chandrasekharan is an author who has studied the efficacy of Reddit's ban on hate speech.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"UMASHANTHI PAVALANATHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Umashanthi Pavalanathan is a researcher who has contributed to studies on hate speech and online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ANIRUDH SRINIVASAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anirudh Srinivasan is an author who has worked on studies related to hate speech and online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ADAM GLYNN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Glynn is a researcher who has contributed to studies on hate speech and online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JACOB EISENSTEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jacob Eisenstein is an author who has worked on studies related to hate speech and online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ERIC GILBERT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eric Gilbert is a researcher who has contributed to studies on hate speech and online communities.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"DESPOINA CHATZAKOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Despoina Chatzakou is an author who has studied the #GamerGate controversy and its implications.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"NICOLAS KOURTELLIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nicolas Kourtellis is a researcher who has contributed to studies on online controversies and hate speech.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JEREMY BLACKBURN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jeremy Blackburn is an author who has worked on studies related to online hate speech and controversies.(\"entity\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"GIANLUCA STRINGHINI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gianluca Stringhini is an author who has worked on studies related to online hate speech and controversies.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ATHENA VAKALI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Athena Vakali is a researcher who has contributed to studies on online controversies and hate speech.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JUSTIN CHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Justin Cheng is an author who has researched trolling behavior and antisocial behavior in online discussions.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MICHAEL BERNSTEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Bernstein is a researcher who has contributed to studies on trolling behavior in online discussions.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JURE LESKOVEC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jure Leskovec is an author who has worked on studies related to trolling behavior and online discussions.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"ELIZABETH F CHURCHILL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Elizabeth F Churchill is an author who has researched culture and communication in virtual environments.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"SARA BLY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sara Bly is a researcher who has contributed to studies on culture and communication in virtual environments.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"HERBERT H CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Herbert H Clark is an author who has written on responding to indirect speech acts and politeness.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"BENJAMIN COLLIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Collier is a researcher who has contributed to studies on the gender gap in Wikipedia contributions.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"JULIA BEAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Julia Bear is an author who has worked on studies related to the gender gap in Wikipedia contributions.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"LEWIS A COSER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lewis A Coser is an author who has written on the functions of social conflict.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"BO PANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bo Pang is a researcher who has contributed to studies on language effects and power differences in social interaction.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MORITZ SUDHOF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Moritz Sudhof is an author who has worked on studies related to politeness and social factors.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER POTTS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Potts is a researcher who has contributed to studies on politeness and social factors.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"THOMAS DAVIDSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thomas Davidson is an author who has researched automated hate speech detection and offensive language.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"DANA WARMSLEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dana Warmsley is a researcher who has contributed to studies on automated hate speech detection and offensive language.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"MICHAEL MACY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Macy is an author who has worked on studies related to automated hate speech detection and offensive language.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"INGMAR WEBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ingmar Weber is a researcher who has contributed to studies on automated hate speech detection and offensive language.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"CARSTEN K DE DREU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Carsten K De Dreu is an author who has written on task versus relationship conflict and team performance.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"LAURIE R WEINGART\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Laurie R Weingart is a researcher who has contributed to studies on task versus relationship conflict and team performance.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            },
+            {
+                "entity_name": "\"BRUCE FRASER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bruce Fraser is an author who has written on conversational mitigation.\"",
+                "source_id": "chunk-8bf14cce64a2a525602da59cf8a72c2c"
+            }
+        ],
+        "relationships": []
+    },
+    "1": {
+        "chunk_key": "chunk-9e8ce9aff4cdc2da20238a467829e40d",
+        "entities": [
+            {
+                "entity_name": "\"DANESCU-NICULESCU-MIZIL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danescu-Niculescu-Mizil is an author who has conducted research on politeness strategies and linguistic cues reflecting politeness.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"AUBAKIROVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aubakirova is an author who has researched politeness strategies and their relation to social factors.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"BANSAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bansal is an author who has studied politeness strategies and their relation to social factors.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KRISHNAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Krishnan is an author who has researched politeness strategies and their relation to individual status.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"EISENSTEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eisenstein is an author who has studied politeness strategies and their relation to individual status.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ALTHOFF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Althoff is an author who has researched politeness strategies and their relation to the success of requests.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ORTU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ortu is an author who has researched politeness strategies and their relation to collaborative projects.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KITTUR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kittur is an author who has studied the role of pragmatic and rhetorical devices in online collaborative settings.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KRAUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kraut is an author who has researched the role of pragmatic and rhetorical devices in online collaborative settings.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ROSENBAUM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rosenbaum is an author who has contributed to causal inference techniques used in the study.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is the platform where the dataset of talk page discussions is compiled for the study.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CORNELL CONVERSATIONAL ANALYSIS TOOLKIT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Cornell Conversational Analysis Toolkit is the platform that distributes the data and code for further research on online conversations.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KAYANY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kayany is an author who has studied aggression in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CHATZAKOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chatzakou is an author who has researched harassment in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"VITAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vitak is an author who has studied harassment in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"AKBULUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Akbulut is an author who has researched bullying in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KWAK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kwak is an author who has studied bullying in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Singh is an author who has researched bullying in online platforms.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"COLLIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Collier is an author who has studied the impact of antisocial behavior on user retention.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"BEAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bear is an author who has researched the impact of antisocial behavior on user retention.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"WIKIMEDIA SUPPORT AND SAFETY TEAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Wikimedia Support and Safety Team is an organization that has studied the impact of antisocial behavior on discussion quality.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ARAZY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arazy is an author who has researched the impact of antisocial behavior on discussion quality.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"YIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yin is an author who has developed machine learning techniques to detect personal insults.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"SOOD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sood is an author who(\"entity\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"FU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fu is an author who has researched conversation outcomes in team problem-solving settings.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"TAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tan is an author who has studied conversation outcomes in persuading others.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang is an author who has researched conversation outcomes in persuading others.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"KUMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kumar is an author who has worked on modeling conversation trajectory, considering structural aspects of the conversation.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"BACKSTROM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Backstrom is an author who has contributed to modeling conversation trajectory, focusing on structural aspects.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cheng is an author who has studied derailment from within in conversations and the susceptibility of certain topics to antisocial behavior.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA TALK PAGE DISCUSSIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Wikipedia talk page discussions is the event where the dataset is compiled, consisting of conversations that begin civilly and either remain healthy or derail into personal attacks.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ANTISOCIAL BEHAVIOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Antisocial behavior is a concept studied in the context of online platforms, including aggression, harassment, and bullying, and their impact on user retention and discussion quality.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"ONLINE TOXICITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Online toxicity is a concept that includes personal insults, harassment, and abusive language, with studies developing machine learning techniques to detect such behavior.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CONVERSATIONAL FAILURE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Conversational failure is a concept referring to the derailment of civil discussions into personal attacks, which is more disruptive than other forms of antisocial behavior.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"POLITENESS STRATEGIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Politeness strategies are a concept related to linguistic cues that reflect politeness and are tied to social factors and the success of requests or collaborative projects.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"RHETORICAL DEVICES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rhetorical devices are a concept referring to prompts used to initiate different types of conversations, specific to online collaborative settings.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CAUSAL INFERENCE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Causal inference is a concept used to establish a controlled framework for studying topic-agnostic linguistic cues in conversations.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"DISCOURSE ANALYSIS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Discourse analysis is a concept that involves computationally modeling discourse to categorize behavioral patterns and predict conversation outcomes.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"MACHINE LEARNING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Machine learning is a concept used in compiling the dataset through a combination of techniques, including crowdsourced filtering.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"CROWDSOURCED FILTERING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Crowdsourced filtering is a concept used in combination with machine learning to compile the dataset of Wikipedia talk page discussions.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"PERSONAL ATTACKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Personal attacks are a concept referring to the derailment of conversations into antisocial behavior, which is the focus of the study's detection of early warning signs.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            },
+            {
+                "entity_name": "\"HEALTHY ONLINE CONVERSATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Healthy online conversations is a concept that the study aims to sustain by understanding factors that may derail or support such discussions.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DANESCU-NICULESCU-MIZIL\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 7.0,
+                "description": "\"Danescu-Niculescu-Mizil has conducted research on politeness strategies and their relation to linguistic cues.\"",
+                "source_id": "chunk-9e8ce9aff4cdc2da20238a467829e40d"
+            }
+        ]
+    },
+    "3": {
+        "chunk_key": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa",
+        "entities": [
+            {
+                "entity_name": "\"KITTUR ET AL., 2009\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kittur et al., 2009 are referenced in the context of trivial topical confounds in conversations.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"CHENG ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cheng et al., 2015 are referenced in the context of trivial topical confounds in conversations.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"RUBIN, 2007\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rubin, 2007 is referenced as the developer of the matching technique used for causal inference in observational studies.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"YIN ET AL., 2009\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yin et al., 2009 are referenced in the context of overtly hostile language such as insults.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"GOFFMAN, 1955\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Goffman, 1955 is referenced in the context of politeness strategies and face-threatening acts.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"LAKOFF, 1973\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lakoff, 1973 is referenced in the context of politeness strategies and underlying intentions of interlocutors.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"FRASER, 1980\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fraser, 1980 is referenced in the context of politeness strategies signaling underlying intentions.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"BROWN AND LEVINSON, 1987\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brown and Levinson, 1987 are referenced for their work on pragmatic devices signaling politeness.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"DANESCU-NICULESCU-MIZIL ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danescu-Niculescu-Mizil et al., 2013 are referenced for their work on extracting politeness strategies through pattern matching.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL., 2017B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al., 2017b are referenced for their framework used to infer the rhetorical role of questions in political debates.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"AWRY-TURNING CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Awry-turning conversations are those that start civil but eventually become uncivil, used in the study for comparison.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"ON-TRACK CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"On-track conversations are those that remain civil throughout, used for comparison in the study.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"THREE ANNOTATORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Three annotators are individuals responsible for identifying rude, insulting, or disrespectful comments in conversations.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"HUMAN-VETTED COLLECTION OF CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"A curated set of conversations used for pairing and analysis in the study.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"1,270 PAIRED AWRY-TURNING AND ON-TRACK CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The total number of paired conversations used in the study, spanning different talk pages and topical categories.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"582 DISTINCT TALK PAGES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Talk pages are the specific locations where conversations take place, with 582 distinct pages mentioned in the study.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"1,876 TOPICAL CATEGORIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The conversations in the study cover 1,876 overlapping topical categories.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"4.6 COMMENTS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The average length of a conversation in the study is 4.6 comments.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"PRAGMATIC MARKERS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pragmatic markers are linguistic cues that may indicate the future trajectory of a conversation.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"POLITENESS STRATEGIES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Politeness strategies are linguistic features that reflect politeness and can indicate the future health of a conversation.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"RHETORICAL PROMPTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Rhetorical prompts are domain-specific rhetorical patterns used to initiate conversations.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"COMMENTERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Commenters are the individuals participating in the conversations being analyzed in the study.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"INTERLOCUTORS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Interlocutors are the participants in a conversation, whose underlying intentions and politeness strategies are analyzed.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"REPLY-VECTORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Reply-vectors are low-rank representations reflecting the propensities of phrasings to co-occur in replies.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"PROMPT-VECTORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Prompt-vectors are representations reflecting similarities in subsequent replies that a phrasing prompts.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"TERM-DOCUMENT MATRIX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The term-document matrix is a matrix of phrasings and replies used in singular value decomposition for deriving reply-vectors.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"SINGULAR VALUE DECOMPOSITION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Singular value decomposition is a technique used to derive reply-vectors and prompt-vectors from the term-document matrix.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"PHRASINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Phrasings are common lexical elements in comments, automatically extracted and analyzed for their rhetorical roles.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "entity_name": "\"PROMPT-REPLY MATRIX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The prompt-reply matrix is a matrix constructed to reflect the rhetorical functions of comments based on the replies they elicit.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"KITTUR ET AL., 2009\"",
+                "tgt_id": "\"CHENG ET AL., 2015\"",
+                "weight": 5.0,
+                "description": "\"Both Kittur et al., 2009 and Cheng et al., 2015 are cited in the context of trivial topical confounds in conversations.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "src_id": "\"GOFFMAN, 1955\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 7.0,
+                "description": "\"Goffman, 1955 is referenced in the context of politeness strategies and face-threatening acts.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "src_id": "\"LAKOFF, 1973\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 7.0,
+                "description": "\"Lakoff, 1973 is referenced in the context of politeness strategies and underlying intentions of interlocutors.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "src_id": "\"FRASER, 1980\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 7.0,
+                "description": "\"Fraser, 1980 is referenced in the context of politeness strategies signaling underlying intentions.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "src_id": "\"BROWN AND LEVINSON, 1987\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 8.0,
+                "description": "\"Brown and Levinson, 1987 are referenced for their work on pragmatic devices signaling politeness.\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            },
+            {
+                "src_id": "\"DANESCU-NICULESCU-MIZIL ET AL., 2013\"",
+                "tgt_id": "\"POLITENESS STRATEGIES\"",
+                "weight": 1.0,
+                "description": "\"Danescu-Niculescu-Mizil et al., 2013 are referenced for their work on extracting politeness strategies through pattern matching(\"entity\"",
+                "source_id": "chunk-b41a4e4cc734a4ed7b46bf0cf4fdfbfa"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-e163aba8e64811e0b13fe719c4dd36fd",
+        "entities": [
+            {
+                "entity_name": "\"WIKIPEDIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wikipedia is an online encyclopedia that hosts discussions on its talk pages, which are analyzed in the provided text.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"DANESCU-NICULESCU-MIZIL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Danescu-Niculescu-Mizil is associated with a study that analyzed Wikipedia talk page conversations, referenced in the text.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"KITTUR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kittur is mentioned in the context of studies related to moderation disputes and coordination on Wikipedia.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"KRAUT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kraut is associated with research conducted alongside Kittur, focusing on Wikipedia dynamics.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"WIKIPEDIA TALK PAGE CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Wikipedia Talk Page Conversations are the subject of analysis, where different types of prompts and their effects on conversation outcomes are studied.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"MODERATION DISPUTES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Moderation Disputes are a type of conversation that occurs on Wikipedia, reflecting core elements of the platform.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"COORDINATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Coordination is an event that takes place on Wikipedia, involving efforts to foster constructive teamwork.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"FIGURE 2A\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Figure 2A is a visual representation used in the text to depict logodds ratios of linguistic markers in initial exchanges of conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"LOGODDS RATIO\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Logodds Ratio is a statistical measure used to quantify the propensity of linguistic markers to occur at the start of awry-turning versus on-track conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"AWRY-TURNING CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Awry-turning Conversations are discussions that do not proceed as intended, often leading to personal attacks or disputes.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"ON-TRACK CONVERSATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"On-Track Conversations are discussions that proceed as intended without deviating into personal attacks or disputes.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"DIRECT QUESTIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Direct Questions are a linguistic marker that tends to start awry-turning conversations significantly more often than on-track ones.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"SENTENCE-INITIAL YOU\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sentence-Initial You refers to the use of 'you' at the start of a sentence, which is associated with a higher likelihood of future personal attacks.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"FACTUAL CHECK PROMPT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Factual Check Prompt is a linguistic marker that tends to cue disputes regarding an article's factual content.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"GRATITUDE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Gratitude is a positive politeness strategy often found in on-track conversations, indicating a constructive tone.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"GREETINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Greetings are a positive politeness strategy that tends to initiate on-track conversations, fostering a cooperative atmosphere.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"COORDINATION PROMPTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coordination Prompts signal active efforts to foster constructive teamwork and are more likely to begin on-track conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"HEDGES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Hedges are a negative politeness strategy salient in on-track conversations, used to soften the force of a statement.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "entity_name": "\"OPINION PROMPTS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Opinion Prompts are a linguistic marker that appears in on-track conversations, reflecting a desire for input and discussion.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"WIKIPEDIA\"",
+                "tgt_id": "\"WIKIPEDIA TALK PAGE CONVERSATIONS\"",
+                "weight": 9.0,
+                "description": "\"Wikipedia hosts the talk page conversations that are the subject of the analysis in the text.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"DANESCU-NICULESCU-MIZIL\"",
+                "tgt_id": "\"WIKIPEDIA TALK PAGE CONVERSATIONS\"",
+                "weight": 7.0,
+                "description": "\"Danescu-Niculescu-Mizil conducted a study that analyzed a disjoint corpus of Wikipedia talk page conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"KITTUR\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"Kittur is associated with research on moderation disputes and coordination on Wikipedia.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"KRAUT\"",
+                "tgt_id": "\"WIKIPEDIA\"",
+                "weight": 6.0,
+                "description": "\"Kraut collaborated with Kittur on research focusing on Wikipedia dynamics.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"WIKIPEDIA TALK PAGE CONVERSATIONS\"",
+                "tgt_id": "\"MODERATION DISPUTES\"",
+                "weight": 7.0,
+                "description": "\"Moderation disputes are a type of conversation that occurs within Wikipedia talk page conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"WIKIPEDIA TALK PAGE CONVERSATIONS\"",
+                "tgt_id": "\"COORDINATION\"",
+                "weight": 7.0,
+                "description": "\"Coordination efforts are part of the Wikipedia talk page conversations, aiming to foster constructive teamwork.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"FIGURE 2A\"",
+                "tgt_id": "\"LOGODDS RATIO\"",
+                "weight": 8.0,
+                "description": "\"Figure 2A depicts the logodds ratios of linguistic markers in initial exchanges of conversations, aiding in the analysis of conversation health.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"AWRY-TURNING CONVERSATIONS\"",
+                "tgt_id": "\"DIRECT QUESTIONS\"",
+                "weight": 7.0,
+                "description": "\"Direct questions are more likely to initiate awry-turning conversations, indicating a potential for hostility.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"AWRY-TURNING CONVERSATIONS\"",
+                "tgt_id": "\"SENTENCE-INITIAL YOU\"",
+                "weight": 7.0,
+                "description": "\"The use of 'you' at the start of a sentence is associated with a higher likelihood of awry-turning conversations.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"FACTUAL CHECK PROMPT\"",
+                "tgt_id": "\"AWRY-TURNING CONVERSATIONS\"",
+                "weight": 6.0,
+                "description": "\"Factual check prompts are more likely to cue disputes in awry-turning conversations regarding an article's factual content.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"ON-TRACK CONVERSATIONS\"",
+                "tgt_id": "\"GRATITUDE\"",
+                "weight": 6.0,
+                "description": "\"Gratitude is a positive politeness strategy often found in on-track conversations, contributing to their constructive nature.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"ON-TRACK CONVERSATIONS\"",
+                "tgt_id": "\"GREETINGS\"",
+                "weight": 8.0,
+                "description": "\"Greetings are more likely to initiate on-track conversations, fostering a positive and cooperative tone.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            },
+            {
+                "src_id": "\"ON-TRACK CONVERSATIONS\"",
+                "tgt_id": "\"COORDINATION PROMPTS\"",
+                "weight": 6.0,
+                "description": "\"Coordination prompts are more likely to begin on-track conversations, indicating efforts to foster constructive teamwork.\"",
+                "source_id": "chunk-e163aba8e64811e0b13fe719c4dd36fd"
+            }
+        ]
+    }
+}

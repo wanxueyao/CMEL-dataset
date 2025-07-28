@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_BANANA-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Plant- Color: Bright yellow- Shape: The flowers have a rounded shape with multiple petals, and the stems are slender and slightly curved.- Size: The flowers appear to be small to medium in size, typical of many flowering plants.- Posture: The flowers are upright, suggesting they are healthy and possibly in full bloom.Overall, the plant gives off a vibrant and lively appearance, likely attracting pollinators such as bees or butterflies."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_BANANA-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Feather- Color: Bright yellow- Shape: Irregular, with a central shaft and finer filaments branching off to create a fluffy appearance- Size: Appears to be relatively small, typical of a bird's feather- Material: Likely to be keratin, which is common for feathers- Possible function: May be used for insulation, flight, or display in birdsOverall, the object appears to be a vibrant yellow feather, possibly from a bird, characterized by its bright color and delicate structure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy blonde hair that falls over the shoulders- Eyes: Not clearly visible due to the angle and lighting- Expression: Neutral expression with a slight smile- Age: Appears to be an adult woman- Clothing: Wearing a black sleeveless dress with a high neckline- Posture: Standing with hands in pockets, giving a relaxed and confident stanceOverall, the character presents a poised and elegant appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a woman standing in a field of yellow flowers. She has long, curly blonde hair and is wearing a black sleeveless dress. Her hands are placed in the pockets of her dress, and she is smiling slightly. The background shows a natural landscape with more yellow flowers and some greenery. The sky appears to be overcast, giving the scene a soft, diffused light. The overall atmosphere of the image is serene and peaceful, with the woman appearing relaxed and content in the natural setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with curly blonde hair, wearing a black dress and earrings, standing in a field of yellow flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A field filled with yellow flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<node id="&quot;HOUSES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Houses visible in the background behind the field."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_BANANA-1.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_banana-1.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_BANANA-2.JPG&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_banana-2.jpg is a picture of a field filled with yellow flowers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_BANANA-2.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_banana-2.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;HOUSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Houses是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is standing in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;HOUSES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The houses are located in the background behind the woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FIELD&quot;" target="&quot;HOUSES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The houses are situated in the background behind the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

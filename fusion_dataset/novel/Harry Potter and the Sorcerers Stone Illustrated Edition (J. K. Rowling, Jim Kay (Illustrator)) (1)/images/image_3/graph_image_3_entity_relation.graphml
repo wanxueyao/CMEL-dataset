@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair with some redness and visible pores- Hairstyle: Short, light-colored hair that appears to be combed back- Facial Expression: Eyes closed, mouth open in a way that suggests shouting or yelling- Age: Appears to be an adult male- Posture: The image only shows the face, so posture cannot be determinedOverall, the character appears to be expressing strong emotions, possibly anger or distress."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration from the book 'Harry Potter and the Sorcerer's Stone' by J.K. Rowling, illustrated by Jim Kay. It features a title card for Chapter One, titled 'The Boy Who Lived.' The illustration includes two characters: Mr. Dursley, who is depicted as a big, beefy man with a very large mustache and hardly any neck, and Mrs. Dursley, who is thin and blonde with nearly twice the usual amount of neck. Both characters appear to be in a state of shock or surprise, with their mouths open and eyes wide. In the foreground, there is a snow globe with a miniature house inside, labeled 'Privet Drive.' To the right, there is a postcard with an owl stamp and some text that is partially obscured. The overall atmosphere conveyed by the image is one of tension and surprise, fitting the context of the chapter where Harry Potter's arrival at the Dursleys' home is introduced."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;DUDLEY DURSLEY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A boy with a round face, wearing a blue hat, and crying."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;VERNON DURSLEY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with a large mustache, looking angry and shouting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;SNOW GLOBE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A snow globe with a house inside it, placed on a shelf."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;CHAPTER ONE SIGN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A sign that reads 'CHAPTER ONE THE BOY WHO LIVED' on a shelf."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<node id="&quot;ENVELOPE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An envelope with an owl stamp and handwritten address."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;VERNON DURSLEY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of Vernon Dursley."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;DUDLEY DURSLEY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dudley Dursley是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;VERNON DURSLEY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vernon Dursley是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SNOW GLOBE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Snow Globe是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CHAPTER ONE SIGN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter One Sign是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ENVELOPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Envelope是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (1)/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

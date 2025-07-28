@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_18_KITE-5.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Smoke- Color: White- Shape: Curvy and irregular, resembling a wisp or trail of smoke- Size: The image does not provide a clear indication of the size, but it appears to be a small to medium-sized representation of smoke- Material: Not applicable, as it is a depiction of smoke rather than a physical object- Possible function: This could be used to represent the concept of smoke in various contexts, such as in illustrations, animations, or as a symbol for smoking or vaporOverall, the image depicts a stylized representation of a wisp of smoke, characterized by its white color and curvy, irregular shape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;IMAGE_18&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene involving a pig and several spiders. The pig, which appears to be Wilbur from the context provided, is leaning over a wooden fence with a curious and somewhat concerned expression. His eyes are wide open, and his mouth is slightly agape, suggesting he is speaking or calling out. The texture of the pig's fur is detailed, with individual bristles visible. The fence is drawn with rough, hatched lines, giving it a rustic appearance. Above the fence, there are multiple small spiders, each attached to a thin thread that extends upwards. These threads have wavy lines emanating from them, indicating movement or the presence of wind. The spiders appear to be floating away, as if carried by the breeze. The overall atmosphere conveyed by the image is one of urgency and farewell, as Wilbur watches the spiders depart."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A pig with bristly hair, looking up and sniffing the air."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence with a post."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+</node>
+<node id="&quot;SMOKE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Wavy lines indicating smoke or scent rising from the fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+</node>
+<edge source="&quot;IMAGE_18_KITE-5.JPG&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_18_kite-5.jpg is a picture of smoke."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18_KITE-5.JPG&quot;" target="&quot;IMAGE_18&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_18_kite-5.jpg是image_18的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Smoke是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pig is standing next to the fence and appears to be interested in it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The pig is sniffing the air, possibly reacting to the scent indicated by the wavy lines."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FENCE&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The smoke or scent is rising from the fence, suggesting something on or near the fence is emitting it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

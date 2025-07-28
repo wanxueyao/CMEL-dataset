@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Light skin tone- Hairstyle: Short, gray hair partially covered by a blue beanie- Facial Expression: Appears to be in discomfort or distress, with one hand covering the face- Age: Appears to be an elderly woman- Clothing: Wearing a teal quilted jacket over a green shirt, paired with floral-patterned pants and dark trousers underneath; blue slippers on her feet- Accessories: Carrying a white bag over her right shoulder- Posture: Standing with a slightly hunched back, leaning on a railing for supportOverall, the character appears to be an elderly woman experiencing some form of discomfort or distress."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light- Hairstyle: Not visible- Clothing: Wearing black pants with a camouflage pattern on the upper part, and black boots with mud stains- Posture: Sitting or crouching, with one leg bent and the other extended, hands resting on the knee- Accessories: Black gloves on one hand, not visible on the otherOverall, the person appears to be in an outdoor setting, possibly engaged in an activity that involves movement through muddy terrain."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Not visible due to clothing and positioning- Hairstyle: Not visible- Clothing: Wearing a dark blue coat with a fur-lined collar, the coat appears worn and dirty; black pants that are also dirty and appear to be covered in mud or dirt- Posture: Lying on the ground, arms crossed over the chest, legs slightly bentOverall, the person appears to be in a state of rest or possibly unconsciousness, given the posture and the context of the clothing and environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a somber and distressing scene in what appears to be a backyard or garden area. A woman, dressed in a blue jacket and floral pants, stands with her hand on her face, seemingly distraught. She is standing near three bodies lying on the ground. The bodies are positioned in various postures: one is partially covered by a blanket, another is lying face down, and the third is lying on its back. The setting is outdoors, with bare trees and some greenery visible. There are scattered objects around, including a yellow box and some debris. The overall atmosphere is one of tragedy and despair, reflecting the aftermath of a violent event."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Standing near a building, wearing a blue jacket and floral pants, with a distressed expression."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;BODY 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lying on the ground, dressed in dark clothing, appears to be deceased."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;BODY 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Lying on the ground, dressed in dark clothing, appears to be deceased."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A white building with a ladder leaning against it, surrounded by debris and vegetation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<node id="&quot;VEGETATION&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Dry branches and some green plants around the area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;BODY 1&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_1_person-1.jpg is a picture of Body 1."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-2.JPG&quot;" target="&quot;BODY 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-2.jpg is a picture of Body 1."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-2.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-2.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BODY 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Body 1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BODY 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Body 2是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;VEGETATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vegetation是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BODY 1&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is standing near the body, possibly indicating a connection or concern."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BODY 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The woman is standing near the body, possibly indicating a connection or concern."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The woman is standing in front of the building, suggesting she may be associated with it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BODY 1&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"The body is lying near the building, indicating proximity but not necessarily a direct relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BODY 2&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"The body is lying near the building, indicating proximity but not necessarily a direct relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

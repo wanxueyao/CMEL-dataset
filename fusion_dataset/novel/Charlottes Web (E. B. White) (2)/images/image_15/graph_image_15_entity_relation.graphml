@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_15&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white cartoon illustration of an older man with a full beard and glasses, reclining in a chair with his legs stretched out on a desk. He appears to be asleep or deeply relaxed, with his eyes closed and his head tilted back. The man is wearing a suit jacket and pants, and he has a pipe in his mouth. His posture suggests a sense of ease and perhaps a bit of laziness. On the wall behind him, there is a framed certificate or diploma, indicating that he might be a professional or someone with formal qualifications. The overall atmosphere of the image conveys a sense of relaxation and perhaps a touch of humor, as the man seems to be taking a break from work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with a beard and glasses, reclining in a chair with one leg crossed over the other, holding a pipe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+</node>
+<node id="&quot;CHAIR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A reclining chair with a high backrest, supporting the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+</node>
+<node id="&quot;PIPE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A long-stemmed pipe held by the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+</node>
+<node id="&quot;CERTIFICATE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A framed certificate hanging on the wall behind the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+</node>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;CHAIR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chair是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;PIPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pipe是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_15&quot;" target="&quot;CERTIFICATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Certificate是从image_15中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;CHAIR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is sitting in the chair."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;PIPE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is holding the pipe."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;CERTIFICATE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The certificate is hanging on the wall behind the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_15.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

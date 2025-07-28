@@ -1,0 +1,91 @@
+{
+    "image_1": {
+        "image_id": 1,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_1.jpg",
+        "caption": [],
+        "footnote": [
+            "Table 1: Perplexity on the ConvAI2 task test set with different types of retriever for RetNRef, see text. "
+        ],
+        "context": "Perplexity Dialogue 3.1 Automatic Evaluation and Analysis We conduct experiments on the recent ConvAI2 challenge dataset which uses a modified version of the PersonaChat dataset (Zhang et al., 2018) (larger, and with different processing). The dataset consists of conversations between crowdworkers who were randomly paired and asked to act the part of a given persona (randomly assigned from 1155 possible personas, created by another set of workers), chat naturally, and get to know each other during the conversation. There are around 160,000 utterances in around 11,000 dialogues, with 2000 dialogues for validation and test, which use non-overlapping personas. 3 Experiments retriever which still has them.3 We refer to this modification as RetrieveNRefine+. Fix Retrieval Copy Errors Our model learns to sometimes ignore the retrieval (when it is bad), sometimes use it partially, and other times simply copy it. However, when it is mostly copied but only changes a word or two, we observed it made mistakes more often than not, leading to less meaningful utterances. We thus also consider a variant that exactly copies the retrieval if the model generates with large word overlap (we chose ${>}60\\%$ ). Otherwise, we leave the generation untouched.4 We refer to this as RetrieveNRefine++. ",
+        "chunk_order_index": 1,
+        "chunk_id": "chunk-37b2c513f34ad862572c4f65b340a087",
+        "description": "The image is a table labeled 'RetNRef Retrieval Method' that provides perplexity (PPL) scores on the ConvAI2 task test set with different types of retriever for RetNRef. The table has two columns: 'RetNRef Retrieval Method' and 'PPL'. The rows under 'RetNRef Retrieval Method' are as follows: 'None (Vanilla Seq2Seq)' with a PPL of 31.4, 'Random label' with a PPL of 32.0, 'Memory Network' with a PPL of 31.8, 'True label’s neighbor' with a PPL of 25.9, and 'True label' with a PPL of 9.2. The table highlights the performance of different retrieval methods in terms of perplexity, with 'True label' showing the lowest PPL score.",
+        "segmentation": false
+    },
+    "image_2": {
+        "image_id": 2,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_2.jpg",
+        "caption": [],
+        "footnote": [],
+        "context": "The results are given in Table 1. They show that the RetNRef model can indeed improve perplexity with label neighbors or the label itself. However, surprisingly there is almost no difference between using no retrieval, random labels or our best retriever. The RetNRef++ model – that truncates the dialogue history and focuses more on the retrieval utterance – does even worse in terms of perplexity: 48.4 using the Memory Network retriever. However, poor perplexity does not mean human judgments of the generated sequences will not improve; in fact we will see that they do in the next section. How to   (retrieving from the training set), (ii) a retriever that returns a random utterance from the training set, (iii) the true label given in the test set, and (iv) the closest nearest neighbor from the training set utterances to the true label, as measured by the embedding space of the Memory Network retriever model. While (iii) and (iv) cannot be used in a deployed system as they are unknown, they can be used as a sanity check: a useful retrieve and refine should improve perplexity if given these as input. We also compare to a standard Seq2Seq model, i.e. no retrieval. ",
+        "chunk_order_index": 1,
+        "chunk_id": "chunk-37b2c513f34ad862572c4f65b340a087",
+        "description": "The image is a table labeled 'Table 1' that provides statistical information about different methods used in a natural language processing task. The table is structured with the following columns: Method, Word cnt, Char cnt, Rare Word % <100, and Rare Word % <1k. Each row represents a different method and contains the following values: Seq2Seq has 11.7 words and 40.5 characters, with rare word percentages of 0.4% and 5.8%. RetNRef has 11.8 words and 40.4 characters, with rare word percentages of 1.1% and 6.9%. RetNRef+ has 12.1 words and 45.0 characters, with rare word percentages of 1.7% and 10.1%. RetNRef++ has 12.7 words and 48.1 characters, with rare word percentages of 2.3% and 10.9%. MemNet has 13.1 words and 54.5 characters, with rare word percentages of 4.0% and 15.3%. Human has 13.0 words and 54.6 characters, with rare word percentages of 3.0% and 11.5%. The table highlights the differences in word and character counts as well as the percentage of rare words for each method.",
+        "segmentation": false
+    },
+    "image_3": {
+        "image_id": 3,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_3.jpg",
+        "caption": [
+            "Table 2: Output sequence statistics for the methods. Seq2Seq generates shorter sentences with more common words than humans, which RetNRef alleviates. "
+        ],
+        "footnote": [
+            "Table 3: Word overlap between retrieved and generated utterances in RetNRef, and between Seq2Seq and the Memory Network retriever (first row). "
+        ],
+        "context": "The results are given in Table 1. They show that the RetNRef model can indeed improve perplexity with label neighbors or the label itself. However, surprisingly there is almost no difference between using no retrieval, random labels or our best retriever. The RetNRef++ model – that truncates the dialogue history and focuses more on the retrieval utterance – does even worse in terms of perplexity: 48.4 using the Memory Network retriever. However, poor perplexity does not mean human judgments of the generated sequences will not improve; in fact we will see that they do in the next section. How to  (retrieving from the training set), (ii) a retriever that returns a random utterance from the training set, (iii) the true label given in the test set, and (iv) the closest nearest neighbor from the training set utterances to the true label, as measured by the embedding space of the Memory Network retriever model. While (iii) and (iv) cannot be used in a deployed system as they are unknown, they can be used as a sanity check: a useful retrieve and refine should improve perplexity if given these as input. We also compare to a standard Seq2Seq model, i.e. no retrieval.  ",
+        "chunk_order_index": 1,
+        "chunk_id": "chunk-37b2c513f34ad862572c4f65b340a087",
+        "description": "The image is a table labeled 'Table 2: Output sequence statistics for the methods.' The table compares different methods in terms of their output sequence statistics, categorized into four ranges: <30%, 30-60%, 60-80%, and >80%. The rows represent different methods: Seq2Seq, RetNRef, RetNRef+, and RetNRef++. The columns indicate the percentage of sequences falling into each range. For example, Seq2Seq has 56% of its sequences in the <30% range, 34% in the 30-60% range, 7% in the 60-80% range, and 3% in the >80% range. RetNRef shows a distribution of 41%, 38%, 13%, and 8% respectively. RetNRef+ has 26%, 20%, 12%, and 42% respectively. Finally, RetNRef++ has 26%, 20%, 0%, and 53% respectively. The table highlights that RetNRef++ generates the highest percentage of sequences in the >80% range.",
+        "segmentation": false
+    },
+    "image_4": {
+        "image_id": 4,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_4.jpg",
+        "caption": [],
+        "footnote": [],
+        "context": "To compute a statistically more meaningful test, and to evaluate models more clearly 3.3 A/B Testing by Humans  Some example dialogues of the RetNRef++ model performing well (as scored by the evaluators) are shown in Tables 7 and 8. Longer sentences from the bot (person 2) with more nuanced entity information typically come from attending to the retriever, whereas the generator can also produce shorter replies independent of the retriever that fit the context well. There are still issues however, such as repeated phrases by the generator, and some tendency to copy the speaking partner’s phrases that could be improved.    slightly outperforming the retriever which it conditions on. Importantly however, it maintains this performance whilst still being able to generate text which a retrieval model cannot. It also performs well in the other metrics, although like the Memory Network model, it is weaker at using the persona than Seq2Seq. Seq2Seq is inferior to the Memory Network Retriever in terms of engagement, in line with previous results. We also tried overtraining the Seq2Seq for 100 epochs instead of early stopping by validation on perplexity as it may overfit training sentences and act more as a retriever, but this did not help. ",
+        "chunk_order_index": 2,
+        "chunk_id": "chunk-e416fee05590e29a85925404eab016a6",
+        "description": "The image is a table that compares different dialogue generation methods based on four metrics: Engagingness, Fluency, Consistency, and Persona. The table has six rows representing different methods: Seq2Seq (PPL), Seq2Seq (100 epochs), Memory Network, RetrieveNRefine, RetrieveNRefine+, and RetrieveNRefine++. Each row contains the average scores and standard deviations for the four metrics. For example, Seq2Seq (PPL) scores are 2.70(1.17) for Engagingness, 3.50(1.37) for Fluency, 3.90(1.37) for Consistency, and 0.90(0.29) for Persona. The highest scores in each metric are as follows: Engagingness - RetrieveNRefine++ at 3.80(1.18), Fluency - Memory Network at 3.83(1.26), Consistency - RetrieveNRefine++ at 3.80(1.40), and Persona - Seq2Seq (PPL) at 0.90(0.29).",
+        "segmentation": false
+    },
+    "image_5": {
+        "image_id": 5,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg",
+        "caption": [
+            "Table 4: Human Evaluation scores for the models,scoring fluency, engagingness, consistency and persona detection, with standard deviation in parentheses. We consider engagingness to be the most important metric. "
+        ],
+        "footnote": [],
+        "context": "To compute a statistically more meaningful test, and to evaluate models more clearly 3.3 A/B Testing by Humans  Some example dialogues of the RetNRef++ model performing well (as scored by the evaluators) are shown in Tables 7 and 8. Longer sentences from the bot (person 2) with more nuanced entity information typically come from attending to the retriever, whereas the generator can also produce shorter replies independent of the retriever that fit the context well. There are still issues however, such as repeated phrases by the generator, and some tendency to copy the speaking partner’s phrases that could be improved.   slightly outperforming the retriever which it conditions on. Importantly however, it maintains this performance whilst still being able to generate text which a retrieval model cannot. It also performs well in the other metrics, although like the Memory Network model, it is weaker at using the persona than Seq2Seq. Seq2Seq is inferior to the Memory Network Retriever in terms of engagement, in line with previous results. We also tried overtraining the Seq2Seq for 100 epochs instead of early stopping by validation on perplexity as it may overfit training sentences and act more as a retriever, but this did not help.  ",
+        "chunk_order_index": 2,
+        "chunk_id": "chunk-e416fee05590e29a85925404eab016a6",
+        "description": "The image is a table labeled 'Table 4: Human Evaluation scores for the models, scoring fluency, engagingness, consistency and persona detection, with standard deviation in parentheses. We consider engagingness to be the most important metric.' The table compares different models using A/B testing by humans. The rows represent different comparisons between models, specifically RetrieveNRefine++ versus Memory Network, RetrieveNRefine++ versus Seq2Seq, and RetrieveNRefine++ (retrieved/generated) versus Seq2Seq. The columns include 'Comparison (A vs. B)', 'Win Rate', 'A Wins', 'B Wins', 'Tie', and 'p-value'. The 'Win Rate' column shows percentages such as 54.5% for RetrieveNRefine++ versus Memory Network and 53.7% for RetrieveNRefine++ versus Seq2Seq. The 'A Wins' and 'B Wins' columns provide numerical values indicating the number of wins for each model, for example, 340 for RetrieveNRefine++ and 284 for Memory Network in the first comparison. The 'Tie' column lists the number of ties, such as 572 for the first comparison. The 'p-value' column provides statistical significance values, such as 0.027 for the first comparison. The table highlights the performance of RetrieveNRefine++ against other models in terms of win rates and statistical significance.",
+        "segmentation": false
+    },
+    "image_6": {
+        "image_id": 6,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_6.jpg",
+        "caption": [
+            "Table 5: A/B testing by humans comparing model pairs, reporting win rates for A over B (excluding ties). "
+        ],
+        "footnote": [
+            "Table 6: Example dialogues (left) where RetNRef outperforms MemNet, and (right) where RetNRef outperforms Seq2Seq – by either paying attention to the retriever or not. The first two rows are the previous two dialogue turns by Person 1 & 2, the following rows are the predictions for the next utterance of Person 1 by the various models. "
+        ],
+        "context": "To compute a statistically more meaningful test, and to evaluate models more clearly 3.3 A/B Testing by Humans  Some example dialogues of the RetNRef++ model performing well (as scored by the evaluators) are shown in Tables 7 and 8. Longer sentences from the bot (person 2) with more nuanced entity information typically come from attending to the retriever, whereas the generator can also produce shorter replies independent of the retriever that fit the context well. There are still issues however, such as repeated phrases by the generator, and some tendency to copy the speaking partner’s phrases that could be improved.  slightly outperforming the retriever which it conditions on. Importantly however, it maintains this performance whilst still being able to generate text which a retrieval model cannot. It also performs well in the other metrics, although like the Memory Network model, it is weaker at using the persona than Seq2Seq. Seq2Seq is inferior to the Memory Network Retriever in terms of engagement, in line with previous results. We also tried overtraining the Seq2Seq for 100 epochs instead of early stopping by validation on perplexity as it may overfit training sentences and act more as a retriever, but this did not help.   ",
+        "chunk_order_index": 2,
+        "chunk_id": "chunk-e416fee05590e29a85925404eab016a6",
+        "description": "The image is a table labeled 'Table 5: A/B testing by humans comparing model pairs, reporting win rates for A over B (excluding ties).' The table is divided into two main sections. The first section contains dialogues where RetNRef outperforms MemNet, and the second section shows dialogues where RetNRef outperforms Seq2Seq. Each dialogue consists of previous turns by Person 1 and Person 2, followed by predictions for the next utterance by various models. The dialogues are structured as follows:\\n\\n**First Dialogue (RetNRef vs. MemNet):**\\n- Person 1: hey , george here . lets be friends\\n- Person 2: hi george , i’m regina . do you enjoy dance ?\\n- Seq2Seq: i do not but i do have a lot of time to dance\\n- MemNet: hello george my name is pink\\n- RetNRef+: i do. i enjoy dance.\\n\\n**Second Dialogue (RetNRef vs. Seq2Seq):**\\n- Person 1: drinking coffee? what time is it there?\\n- Person 2: 830 pm haha my dad is a construction worker so he works really late nights\\n- Seq2Seq: i am a big guy so i can help you\\n- MemNet: yep. moonlight is amazing but northern light grab you too\\n- RetNRef+: oh wow, that is a long time\\n\\nThe table highlights the performance of different models in generating contextually appropriate responses in dialogues.",
+        "segmentation": false
+    },
+    "image_7": {
+        "image_id": 7,
+        "image_path": "./fusion_research/fusion_dataset/paper/W18-5713/images/image_7.jpg",
+        "caption": [],
+        "footnote": [],
+        "context": "[PERSON 1:] I dont know about you but I love sprite. Its my favorite. [PERSON 2:] I like dr pepper a lot, but sprite is my second favorite. [PERSON 1:] Sprites great! I take it with me every day on my hikes. [PERSON 2:] I bet. I love to go to the water [PERSON 1:] Ya that sounds like a great time. I go with my pet parrot Tasha when I go [PERSON 2:] that is a good idea. I wish I had a parrot. [PERSON 1:] Ya its fun. As a pet owner you learn to love animals; im talents? I can reach my toes using my nose. [PERSON 2:] Cool! I listen to audiobooks and speak one asian language. you like sushi? I do. [PERSON 1:] Oh sushi is my next favorite, after Mexican. What kind of car do you have? [PERSON 2:] I have a Nissan Sentra. I love it.  Table 7: Example dialog between a human (Person 1) and the RetNRef++ model (Person 2). References to never eating vegetables, listening to audiobooks and speaking one asian language and owning a Nissan Sentra appeared in the conditioned retrieved sentences, improving the overall engaging quality of the dialogue. ",
+        "chunk_order_index": 3,
+        "chunk_id": "chunk-a2954fdb64eab02e15a9b7cf70fdf1c4",
+        "description": "The image is a table with two columns, each representing a different persona. Persona 1 has the following attributes: lacto-ovo vegetarian, likes to hike, has red hair, favorite drink is Sprite, and has a pet parrot named Tasha. Persona 2 has the following attributes: brown hair, Latina, mother works for special needs clients, a healer, and loves their family.",
+        "segmentation": false
+    }
+}

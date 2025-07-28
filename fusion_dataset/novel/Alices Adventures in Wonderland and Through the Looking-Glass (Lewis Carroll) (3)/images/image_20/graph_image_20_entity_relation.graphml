@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_20_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair, parted in the middle, with a ribbon tied around the head- Eyes: Large, round, and expressive- Expression: Neutral to slightly curious or surprised- Age: Appears to be a young girl- Clothing: Wearing a white dress with puffed sleeves, a high collar, and a full skirt that reaches just above the ankles; the dress has a patterned design and multiple layers, including a ruffled hem and a sash tied at the waist- Accessories: White stockings and dark shoes- Posture: Standing with one hand on her hip and the other holding the edge of her dress, giving a confident and playful stanceOverall, the character gives off a classic, storybook vibe, reminiscent of a well-known literary figure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+</node>
+<node id="&quot;IMAGE_20&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black and white illustration depicting a scene from the story of Alice in Wonderland. Alice, a young girl with long hair tied back, is standing in a garden filled with various flowers. She is dressed in a dress with a pinafore and appears to be engaged in conversation with the flowers. To her left, there is a large Tiger-lily with its petals spread out, and it seems to be speaking to Alice. The Tiger-lily has a human-like expression, adding to the whimsical nature of the scene. Other flowers, including roses and daisies, are also present in the garden, some of which appear to have faces and are participating in the conversation. The background shows more foliage and plants, creating a dense and lush garden setting. The overall atmosphere is one of fantasy and wonder, as Alice interacts with the talking flowers in this surreal environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and standing in a garden."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Various types of flowers, including lilies and roses, in a garden setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+</node>
+<node id="&quot;GARDEN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A lush garden with a variety of plants and flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+</node>
+<edge source="&quot;IMAGE_20_PERSON-0.JPG&quot;" target="&quot;IMAGE_20&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_20_person-0.jpg是image_20的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;GARDEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Garden是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is standing near the flowers in the garden."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;GARDEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is standing in the garden."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOWERS&quot;" target="&quot;GARDEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The flowers are part of the garden."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

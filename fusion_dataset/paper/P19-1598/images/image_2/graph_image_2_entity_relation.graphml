@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the process of generating tokens in the context of a knowledge graph language model (KGLM). The flowchart is divided into several sections, each representing a step in the token generation process. The first section, labeled 'Relation to Existing Entity', shows a decision point where the model decides if the token is related to an existing entity. This is indicated by a darker shade, suggesting a higher probability. The next section, 'parent from local entities', lists potential parent entities such as 'platform game' and 'side-scrolling game', with 'Super Mario Land' highlighted. The third section, 'pick from all entities', shows a list of entities including 'AAA Inc.', 'Sony Inc.', and 'Zzyzx, CA'. The fourth section, 'Distribution over standard vocabulary and aliases of e_t', includes a list of words like 'a', 'the', 'company', 'dog', etc., along with aliases for 'Nintendo' such as 'Kabushiki', 'Koppai', and 'Nintendo'. The final section, 'Not an Entity Mention', indicates that if the token is not an entity mention, the distribution is over the standard vocabulary. The flowchart also includes a graphical representation of the relationships between entities, showing 'Super Mario Land' as the parent entity, 'Publisher' as the relation, and 'Nintendo' as the entity to render. The final distribution over words includes the standard vocabulary along with aliases of 'Nintendo', and the model selects 'Nintendo' as the token x_t. Facts related to Nintendo will be added to the local graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<node id="&quot;SUPER MARIO LAND&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A side-scrolling platform game published by Nintendo in 1989."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<node id="&quot;NINTENDO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A company that publishes video games, including Super Mario Land."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<node id="&quot;GAME BOY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The gaming platform on which Super Mario Land was released."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<node id="&quot;PLATFORM GAME&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A type of video game genre characterized by jumping and movement across platforms."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<node id="&quot;SIDE-SCROLLING GAME&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A type of video game genre where the player moves through a level from left to right."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SUPER MARIO LAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Super Mario Land是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NINTENDO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nintendo是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;GAME BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Game Boy是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;PLATFORM GAME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"platform game是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SIDE-SCROLLING GAME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"side-scrolling game是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;NINTENDO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Super Mario Land is published by Nintendo."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;GAME BOY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Super Mario Land was released on the Game Boy platform."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;PLATFORM GAME&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Super Mario Land is a platform game."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;SIDE-SCROLLING GAME&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Super Mario Land is a side-scrolling game."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

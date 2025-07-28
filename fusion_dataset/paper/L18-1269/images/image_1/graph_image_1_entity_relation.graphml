@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;MR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 11k entries for sentiment analysis of movie reviews."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;CR&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 4k entries for product reviews."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;SUBJ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 10k entries for subjectivity/objectivity classification."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;MPQA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 11k entries for opinion polarity analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;TREC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 6k entries for question-type classification."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;SST-2&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 70k entries for sentiment analysis of movie reviews."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;SST-5&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 12k entries for sentiment analysis of movie reviews."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_1 is a comprehensive table that provides details on various classification tasks used in natural language processing (NLP). The table consists of seven rows and six columns, with columns labeled as 'name', 'N', 'task', 'C', 'examples', and 'label(s)'. The table covers different datasets used for various NLP tasks, including sentiment analysis, product reviews, subjectivity/objectivity, opinion polarity, and question-type classification. The datasets featured in the table are MR, CR, SUBJ, MPQA, TREC, SST-2, and SST-5, each with their respective number of instances (N), task descriptions, number of classes (C), examples, and label(s). For instance, MR has 11k instances for sentiment analysis on movies with 2 classes, while SST-5 has 12k instances for sentiment analysis on movies with 5 classes.</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+</node>
+<node id="&quot;SENTIMENT (MOVIES)&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d1">"The MR dataset is used for sentiment analysis of movie reviews."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;PRODUCT REVIEWS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d1">"The CR dataset is used for product reviews."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SUBJECTIVITY/OBJECTIVITY&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d1">"The SUBJ dataset is used for subjectivity/objectivity classification."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;OPINION POLARITY&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d1">"The MPQA dataset is used for opinion polarity analysis."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;QUESTION-TYPE&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d1">"The TREC dataset is used for question-type classification."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;MR&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MR是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MR&quot;" target="&quot;SENTIMENT (MOVIES)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The MR dataset is used for sentiment analysis of movie reviews."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CR&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CR是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CR&quot;" target="&quot;PRODUCT REVIEWS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The CR dataset is used for product reviews."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUBJ&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SUBJ是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUBJ&quot;" target="&quot;SUBJECTIVITY/OBJECTIVITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SUBJ dataset is used for subjectivity/objectivity classification."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MPQA&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MPQA是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MPQA&quot;" target="&quot;OPINION POLARITY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The MPQA dataset is used for opinion polarity analysis."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREC&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TREC是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREC&quot;" target="&quot;QUESTION-TYPE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The TREC dataset is used for question-type classification."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-2&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-2是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-2&quot;" target="&quot;SENTIMENT (MOVIES)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SST-2 dataset is used for sentiment analysis of movie reviews."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-5&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SST-5是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SST-5&quot;" target="&quot;SENTIMENT (MOVIES)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SST-5 dataset is used for sentiment analysis of movie reviews."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/L18-1269/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

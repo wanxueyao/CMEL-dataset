@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a screenshot of a text excerpt from a document discussing the WIKIHOP dataset. The excerpt includes two highlighted sentences in green and a dashed arrow connecting them, indicating a relationship or flow of information between the sentences. The first sentence reads: 'Thorildsplan is a small park in Kristineberg in Stockholm, named in 1925 after the writer [...].' The second sentence reads: 'Stockholm is the capital of Sweden and the most populous city in [...].' Below these sentences, there is a query in red text: 'country Thorildsplan.' Underneath the query, there are candidate answers listed as Denmark, Finland, Sweden, Italy, etc., with the correct answer highlighted in blue as 'Sweden.' The overall layout suggests a question-answering task where the user must determine the correct country based on the given information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+</node>
+<node id="&quot;THORILDSPLAN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small park located in Kristineberg, Stockholm. It was named in 1925 after a writer."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+</node>
+<node id="&quot;STOCKHOLM&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The capital city of Sweden and the most populous city in the country."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+</node>
+<node id="&quot;SWEDEN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A Scandinavian country known for its natural beauty, cultural heritage, and progressive policies."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;THORILDSPLAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Thorildsplan是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;STOCKHOLM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Stockholm是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SWEDEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sweden是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THORILDSPLAN&quot;" target="&quot;STOCKHOLM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Thorildsplan is a park situated within the city of Stockholm."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STOCKHOLM&quot;" target="&quot;SWEDEN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Stockholm serves as the capital city of Sweden."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

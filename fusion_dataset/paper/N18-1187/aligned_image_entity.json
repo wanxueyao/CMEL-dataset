@@ -1,0 +1,65 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Proposed end-to-end task-oriented dialogue system architecture",
+        "entity_type": "CONCEPT",
+        "description": "The neural network based task-oriented dialogue system is designed for end-to-end optimization for natural language understanding, dialogue state tracking, and dialogue policy learning.",
+        "reason": "The image depicts the architecture of a task-oriented dialogue system that integrates multiple neural network components such as Bi-LSTM Utterance Encoder, LSTM Dialogue State, and Natural Language Generator. This matches the description of a neural network based task-oriented dialogue system in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Figure 2: Dialogue state and policy network",
+        "entity_type": "EVENT",
+        "description": "A dialogue policy selects the next system action in response to the user’s input based on the current dialogue state.",
+        "reason": "The image illustrates the flow of information from the LSTM Dialogue State, through the Slot value logits and Query results encoding, to the Policy Network, which outputs the System action. This aligns with the description of the dialogue policy in the text, which is responsible for selecting the next system action based on the current dialogue state.",
+        "matched_chunk_entity_name": "DIALOGUE POLICY"
+    },
+    "image_3": {
+        "entity_name": "Table 1: Dialogue state tracking results on DSTC2",
+        "entity_type": "EVENT",
+        "description": "The table compares the performance of different models on various metrics related to dialogue state tracking in the DSTC2 corpus.",
+        "reason": "The image is a table that shows the performance of different models on various metrics, which aligns with the description of Table 1 in the text. The table includes the same models and metrics as mentioned in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Table 2: DST results on movie booking dataset",
+        "entity_type": "CONCEPT",
+        "description": "Dialogue State Tracking is the process of estimating the user's goal from the dialogue and is central to the system's functionality.",
+        "reason": "The image depicts a table labeled 'Table 1: Dialogue state tracking results on DSTC2', which provides detailed accuracy metrics for various goal slots in dialogue state tracking tasks. The text also mentions the evaluation of dialogue state tracking results on DSTC2 and the movie booking corpus, aligning with the content of the table.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Figure 3: Interactive learning curves on task success rate",
+        "entity_type": "CONCEPT",
+        "description": "A metric used to evaluate the performance of the model, indicating the proportion of successful dialogues.",
+        "reason": "The image is a line graph showing the task success rate over time for different models. The x-axis represents the number of interactive dialogue learning sessions, and the y-axis represents the task success rate. The curves represent the performance of different models: SL Baseline, SL + RL, SL + IL 500 + RL, and SL + IL 1000 + RL. The task success rate is clearly depicted in the graph, making it the most relevant entity.",
+        "matched_chunk_entity_name": "Task Success Rate"
+    },
+    "image_6": {
+        "entity_name": "Figure 4: Interactive learning curves on average dialogue turn size",
+        "entity_type": "CONCEPT",
+        "description": "Dialogue Turn Size is a metric that measures the number of turns in successful dialogues, indicating the efficiency of the model.",
+        "reason": "The image depicts a line graph showing the average turn size over time for different models. The text mentions that the SL + RL model can handle easy tasks with fewer turns, resulting in a lower average turn size. This aligns with the concept of dialogue turn size as a metric for evaluating model efficiency.",
+        "matched_chunk_entity_name": "DIALOGUE TURN SIZE"
+    },
+    "image_7": {
+        "entity_name": "Figure 5: Interactive learning curves on dialogue state tracking accuracy",
+        "entity_type": "EVENT",
+        "description": "Dialogue State Tracking Accuracy is the evaluation metric used to measure the model's ability to track dialogue states, with results showing improvement through imitation learning.",
+        "reason": "The image depicts a line graph titled 'Average DST Accuracy over Time (smoothed)', which directly corresponds to the concept of Dialogue State Tracking Accuracy. The graph shows the performance of different models over time in terms of DST accuracy, which aligns with the text discussing the improvements in DST accuracy through various learning methods.",
+        "matched_chunk_entity_name": "DIALOGUE STATE TRACKING ACCURACY"
+    },
+    "image_8": {
+        "entity_name": "Figure 6: Interactive learning curves on task success rate with different RL training settings",
+        "entity_type": "CONCEPT",
+        "description": "A metric used to evaluate the performance of the model, indicating the proportion of successful dialogues.",
+        "reason": "The image is a line graph showing the task success rate over time for different RL training settings. The text also mentions the task success rate as a key metric for evaluating the model's performance.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "Table 3: Human User Evaluations",
+        "entity_type": "EVENT",
+        "description": "The event where human judges rate dialogues between the model and user simulator on a scale of 1 to 5.",
+        "reason": "The image is a table labeled 'Table 3: Human evaluation results.' which presents the mean and standard deviation of crowd worker scores for different models used in training a dialogue system. This directly aligns with the concept of 'Human User Evaluations' as described in the text.",
+        "matched_chunk_entity_name": "Human User Evaluations"
+    }
+}

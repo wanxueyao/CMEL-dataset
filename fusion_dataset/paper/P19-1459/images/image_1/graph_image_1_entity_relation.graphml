@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the performance of various models on a specific task, likely related to argument comprehension or text classification. The table is divided into two main sections: 'Dev' and 'Test'. Under 'Dev', there are columns for 'Mean' and 'Median', while under 'Test', there are columns for 'Mean', 'Median', and 'Max'. The rows represent different models and baselines. The first row shows 'Human (trained)' with a test mean of 0.909 ± 0.11. The second row shows 'Human (untrained)' with a test mean of 0.798 ± 0.16. The subsequent rows list various models: BERT (Large) with a dev mean of 0.701 ± 0.05, a test mean of 0.671 ± 0.09, a test median of 0.712, and a test max of 0.770; GIST (Choi and Lee, 2018) with a dev mean of 0.716 ± 0.01 and a test mean of 0.711 ± 0.01; BERT (Base) with a dev mean of 0.680 ± 0.02, a test mean of 0.623 ± 0.07, a test median of 0.651, and a test max of 0.685; World Knowledge (Botschen et al., 2018) with a dev mean of 0.674 ± 0.01 and a test mean of 0.568 ± 0.03; BoV with a dev mean of 0.639 ± 0.02 and a test mean of 0.564 ± 0.02; and BiLSTM with a dev mean of 0.658 ± 0.01 and a test mean of 0.552 ± 0.02. The table highlights the performance of these models, with BERT (Large) achieving the highest test max value of 0.770."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;HUMAN (TRAINED)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A trained human participant in the study, achieving a mean test score of 0.909 ± 0.11."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;HUMAN (UNTRAINED)&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An untrained human participant in the study, achieving a mean test score of 0.798 ± 0.16."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;BERT (LARGE)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A large version of the BERT model, achieving a mean test score of 0.671 ± 0.09 and a maximum score of 0.770."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;GIST (CHOI AND LEE, 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The GIST model proposed by Choi and Lee in 2018, achieving a mean test score of 0.711 ± 0.01."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;BERT (BASE)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A base version of the BERT model, achieving a mean test score of 0.623 ± 0.07 and a maximum score of 0.685."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The World Knowledge model proposed by Botschen et al. in 2018, achieving a mean test score of 0.568 ± 0.03 and a maximum score of 0.610."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;BOV&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Bag of Visual Words model, achieving a mean test score of 0.564 ± 0.02 and a maximum score of 0.595."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<node id="&quot;BILSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Bi-directional Long Short-Term Memory model, achieving a mean test score of 0.552 ± 0.02 and a maximum score of 0.592."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HUMAN (TRAINED)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (trained)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HUMAN (UNTRAINED)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human (untrained)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BERT (LARGE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (Large)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;GIST (CHOI AND LEE, 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GIST (Choi and Lee, 2018)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BERT (BASE)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT (Base)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"World Knowledge (Botschen et al., 2018)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BOV&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BoV是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BILSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BiLSTM是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMAN (TRAINED)&quot;" target="&quot;HUMAN (UNTRAINED)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both are human participants in the study, with the trained human performing better than the untrained one."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT (LARGE)&quot;" target="&quot;GIST (CHOI AND LEE, 2018)&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are advanced machine learning models, with BERT (Large) achieving a higher maximum score but GIST having a slightly higher mean test score."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT (LARGE)&quot;" target="&quot;BERT (BASE)&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are versions of the BERT model, with BERT (Large) generally outperforming BERT (Base)."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)&quot;" target="&quot;BOV&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are models that incorporate visual information, with World Knowledge performing slightly better on average."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOV&quot;" target="&quot;BILSTM&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both are machine learning models, with BiLSTM being a type of neural network and BoV being a feature extraction method."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1459/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

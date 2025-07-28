@@ -1,0 +1,79 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1 SenseBERT",
+        "entity_type": "ORGANIZATION",
+        "description": "SenseBERT is a model that incorporates word-supersense information into its pre-training, building upon the BERT architecture.",
+        "reason": "The image clearly illustrates the architecture of SenseBERT, which extends BERT by adding an additional mapping for supersenses. This matches the description of SenseBERT in the text as a model that predicts masked words and their WordNet supersenses.",
+        "matched_chunk_entity_name": "SenseBERT"
+    },
+    "image_2": {
+        "entity_name": "Figure 2 Supersense vectors",
+        "entity_type": "CONCEPT",
+        "description": "Supersense vectors are rows of the classifier S learned by SenseBERT, representing the semantic categories of words.",
+        "reason": "The image is a UMAP visualization of supersense vectors learned by SenseBERT at pre-training. The visualization shows clustering by part-of-speech and within noun supersenses, which directly aligns with the concept of supersense vectors in the text.",
+        "matched_chunk_entity_name": "Figure 2/Supersense vectors"
+    },
+    "image_3": {
+        "entity_name": "Figure 3 (a)",
+        "entity_type": "ORGANIZATION",
+        "description": "None.",
+        "reason": "Human check result.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Figure 3 (b)",
+        "entity_type": "ORGANIZATION",
+        "description": "None.",
+        "reason": "Human check result.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Table 1: Testing variants for predicting supersenses of rare words during SenseBERT’s pretraining, as described in section 5.1.",
+        "entity_type": "TABLE",
+        "description": "The table presents the results of different testing variants on the SemEval-SS task, with the values representing the performance metrics.",
+        "reason": "The image clearly shows a table labeled 'Table 1' which matches the description provided in the text. The content of the table is consistent with the information given in the text about the testing variants and their performance metrics.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "SEMEVAL-SS TASK",
+        "entity_type": "EVENT",
+        "description": "The SemEval-SS task is a supersense-based variant of the SemEval WSD test sets, where a model predicts the supersense of a marked word.",
+        "reason": "The image clearly shows examples from the SemEval-SS task, including sentences with marked words and their corresponding supersense predictions. This matches the description of the SemEval-SS task in the text.",
+        "matched_chunk_entity_name": "SEMEVAL-SS TASK"
+    },
+    "image_7": {
+        "entity_name": "Table 2",
+        "entity_type": "TABLE",
+        "description": "A table presenting the results of different models on two tasks: SemEval-SS Frozen, SemEval-SS Fine-tuned, and Word in Context.",
+        "reason": "The image clearly shows a table with the specified columns and rows, which aligns with the description provided in the text. The table includes the performance scores for BERT_BASE, BERT_LARGE, SenseBERT_BASE, and SenseBERT_LARGE on the mentioned tasks.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 3 Word in Context (WiC) Task",
+        "entity_type": "EVENT",
+        "description": "The WiC task requires a model to determine whether an underlined word is used in the same or different supersense within two sentences.",
+        "reason": "The image presents test set results for the WiC dataset, which aligns with the description of the Word in Context (WiC) Task provided in the text. The table shows performance scores for various models on this task, indicating that the image content is directly related to the WiC task.",
+        "matched_chunk_entity_name": "WORD IN CONTEXT (WIC) TASK"
+    },
+    "image_9": {
+        "entity_name": "Table 4",
+        "entity_type": "EVENT",
+        "description": "The General Language Understanding Evaluation (GLUE) benchmark is a popular testbed for language understanding models. It consists of 9 different NLP tasks, covering different linguistic phenomena.",
+        "reason": "The image depicts a table labeled 'Table 4: Results on the GLUE benchmark test set.' The table compares the performance of two models, BERTBASE (OURS) and SenseBERTBASE, across various NLP tasks in the GLUE benchmark. This matches with the description of the GLUE benchmark as a testbed for language understanding models consisting of 9 different NLP tasks.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_10": {
+        "entity_name": "Figure 5 Dendrogram",
+        "entity_type": "CONCEPT",
+        "description": "A tree-like diagram used to illustrate the hierarchical clustering of supersense vectors learned by SenseBERT.",
+        "reason": "The image is a dendrogram visualization of an Agglomerative hierarchical clustering over the supersense embedding vectors learned by SenseBERT in pre-training. The text explicitly mentions Figure 5 as the dendrogram visualization, which matches the content of the image.",
+        "matched_chunk_entity_name": "Figure 5/DENDROGRAM"
+    },
+    "image_11": {
+        "entity_name": "Table 5",
+        "entity_type": "CONCEPT",
+        "description": "A list of supersense categories from WordNet lexicographer.",
+        "reason": "The image is a table that categorizes different types of nouns and verbs into specific groups based on their semantic content, which aligns with the description of Table 5 in the text information.",
+        "matched_chunk_entity_name": "TABLE 5"
+    }
+}

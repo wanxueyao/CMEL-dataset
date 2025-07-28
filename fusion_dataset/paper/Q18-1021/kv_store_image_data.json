@@ -1,0 +1,98 @@
+{
+    "image_1": {
+        "image_id": 1,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_1.jpg",
+        "caption": [
+            "Entities Documents KB "
+        ],
+        "footnote": [],
+        "context": "WIKIPEDIA contains an abundance of humancurated, multi-domain information and has several structured resources such as infoboxes and WIKIDATA (Vrandeˇci´c, 2012) associated with it. WIKIPEDIA has thus been used for a wealth of research to build datasets posing queries about a single sentence (Morales et al., 2016; Levy et al., 2017) or article (Yang 3 WIKIHOP Figure 2: A bipartite graph connecting entities and documents mentioning them. Bold edges are those traversed for the first fact in the small KB on the right; yellow highlighting indicates documents in $S_{q}$ and candidates in $C_{q}$ .Check and cross indicate correct and false candidates. along the chain connecting $s$ and $a^{*}$ – ensuring that multihop reasoning goes beyond resolving co-reference within a single document. Note that including other type-consistent candidates alongside $a^{*}$ as end points in the graph traversal – and thus into the support documents – renders the task considerably more challenging (Jia and Liang, 2017). Models could otherwise identify $a^{*}$ in the documents by simply relying on type-consistency heuristics. It is worth pointing out that by introducing alternative candidates we counterbalance a type-consistency bias, in contrast to Hermann et al. (2015) and Hill et al. (2016) who instead rely on entity masking. ",
+        "chunk_order_index": 2,
+        "chunk_id": "chunk-2cf3bcf58b5b0f5cc35acfe0d7b78764",
+        "description": "The image is a bipartite graph illustrating the connections between entities, documents, and a knowledge base (KB). The graph consists of three main sections: Entities on the left, Documents in the middle, and KB on the right. Each entity is represented by a colored circle with a label (e.g., s, o, o', o''), and each document is depicted as a yellow box containing lines of text. The KB section contains tuples in the form (s, r, o) representing relationships between subjects (s), relations (r), and objects (o). Bold edges indicate the traversal path for the first fact in the small KB, connecting entities and documents. Yellow highlighting marks documents in $S_{q}$ and candidates in $C_{q}$. A check mark indicates a correct candidate, while a cross symbolizes a false candidate. The graph demonstrates multihop reasoning beyond co-reference resolution within a single document.",
+        "segmentation": false
+    },
+    "image_2": {
+        "image_id": 2,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg",
+        "caption": [],
+        "footnote": [],
+        "context": "WIKIHOP Table 3 lists characteristics along with the proportion of samples that exhibit them. For $45\\%$ , the true answer either uniquely follows from multiple texts directly or is suggested as likely. For $26\\%$ , more than one candidate is plausibly supported by the documents, including the correct answer. This is often due to hypernymy, where the appropriate level of granularity for the answer is difficult to predict – e.g. (west suffolk, administrative entity, To establish the quality of the data and analyze potential distant supervision errors, we sampled and annotated 100 samples from each development set. 5.1 Qualitative Analysis   sample containing the supervised learning signal from an average of 19.5 and 59.8 unique document paths. Table 2 shows statistics on the number of candidates and documents per sample on the respective training sets. For MEDHOP, the majority of samples have 9 candidates, due to the way documents are selected up until a maximum of 64 documents is reached. Few samples have less than 9 candidates, and samples would have far more false candidates if more than 64 support documents were included. The number of query types in WIKIHOP is 277, whereas in MEDHOP there is only one: interacts with. ",
+        "chunk_order_index": 4,
+        "chunk_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7",
+        "description": "The image is a table that provides statistics for two datasets, WIKIHOP and MEDHOP. The table has four columns: 'Documents', 'Tokens', 'Vocab. Size', and 'Mention Tokens'. For WIKIHOP, the values are as follows: 'Documents' - 43,738, 'Tokens' - 5,129, 'Vocab. Size' - 2,451, and 'Mention Tokens' - 51,318. For MEDHOP, the values are: 'Documents' - 1,620, 'Tokens' - 342, 'Vocab. Size' - 546, and 'Mention Tokens' - 2,508. The table highlights the significant differences in the size and complexity of the two datasets.",
+        "segmentation": false
+    },
+    "image_3": {
+        "image_id": 3,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_3.jpg",
+        "caption": [
+            "Table 1: Dataset sizes for our respective datasets. "
+        ],
+        "footnote": [
+            "Table 2: Candidates and documents per sample and document length statistics. WH: WIKIHOP; MH: MEDHOP. "
+        ],
+        "context": "WIKIHOP Table 3 lists characteristics along with the proportion of samples that exhibit them. For $45\\%$ , the true answer either uniquely follows from multiple texts directly or is suggested as likely. For $26\\%$ , more than one candidate is plausibly supported by the documents, including the correct answer. This is often due to hypernymy, where the appropriate level of granularity for the answer is difficult to predict – e.g. (west suffolk, administrative entity, To establish the quality of the data and analyze potential distant supervision errors, we sampled and annotated 100 samples from each development set. 5.1 Qualitative Analysis  sample containing the supervised learning signal from an average of 19.5 and 59.8 unique document paths. Table 2 shows statistics on the number of candidates and documents per sample on the respective training sets. For MEDHOP, the majority of samples have 9 candidates, due to the way documents are selected up until a maximum of 64 documents is reached. Few samples have less than 9 candidates, and samples would have far more false candidates if more than 64 support documents were included. The number of query types in WIKIHOP is 277, whereas in MEDHOP there is only one: interacts with.  ",
+        "chunk_order_index": 4,
+        "chunk_id": "chunk-0a59ac02a0bfe8791934461b2a9f97d7",
+        "description": "The image is a table labeled 'Table 2: Candidates and documents per sample and document length statistics.' The table is divided into two main sections, one for WH (WIKIHOP) and one for MH (MEDHOP). Each section contains four columns: min, max, avg, and median. For WH, the rows are as follows: '# cand. – WH' with values 2, 79, 19.8, and 14; '# docs. – WH' with values 3, 63, 13.7, and 11; '# tok/doc – WH' with values 4, 2,046, 100.4, and 91. For MH, the rows are as follows: '# cand. – MH' with values 2, 9, 8.9, and 9; '# docs. – MH' with values 5, 64, 36.4, and 29; '# tok/doc – MH' with values 5, 458, 253.9, and 264. The table provides statistical information about the number of candidates, documents, and tokens per document for both WIKIHOP and MEDHOP datasets.",
+        "segmentation": false
+    },
+    "image_4": {
+        "image_id": 4,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_4.jpg",
+        "caption": [
+            "Model Unfiltered Filtered "
+        ],
+        "footnote": [
+            "Table 4: Accuracy comparison for simple baseline models on WIKIHOP before and after filtering. ",
+            "Train set size 527,773 43,738 "
+        ],
+        "context": "The Document-cue baseline can predict more than a third of the samples correctly, The TF-IDF retrieval baseline clearly performs better than random for WIKIHOP, but is not very strong overall. That is, the question tokens are helpful to detect relevant documents, but exploiting only this information compares poorly to the other baselines. On the other hand, as no co-mention of an interacting drug pair occurs within any single document in MEDHOP, the TF-IDF baseline performs worse than random. We conclude that lexical matching with a single support document is not enough to build a strong predictive model for both datasets.  5 shows the experimental outcomes for WIKIHOP and MEDHOP, together with results for the masked setting; we will first discuss the former. A first observation is that candidate mention frequency does not produce better predictions than a random guess. Predicting the answer most frequently observed at training time achieves strong results: as much as $38.8\\%\\ /\\ 44.2\\%$ and $58.4\\%\\ /\\ 67.3\\%$ on the two datasets, for the full and validated test sets respectively. That is, a simple frequency statistic together with answer type constraints alone is a relatively strong predictor, and the strongest overall for the “unmasked” version of MEDHOP. ",
+        "chunk_order_index": 7,
+        "chunk_id": "chunk-d5683a5861bc57565129ae8c176a8aea",
+        "description": "The image is a table labeled 'Table 4: Accuracy comparison for simple baseline models on WIKIHOP before and after filtering.' The table contains three rows and four columns. The first column lists the model names: Document-cue, Maj. candidate, and TF-IDF. The second and third columns represent the accuracy values for the unfiltered and filtered datasets, respectively. The accuracy values are as follows: Document-cue has an accuracy of 74.6% for the unfiltered dataset and 36.7% for the filtered dataset. Maj. candidate has an accuracy of 41.2% for the unfiltered dataset and 38.8% for the filtered dataset. TF-IDF has an accuracy of 43.8% for the unfiltered dataset and 25.6% for the filtered dataset. The table highlights the performance differences between the models before and after filtering.",
+        "segmentation": false
+    },
+    "image_5": {
+        "image_id": 5,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_5.jpg",
+        "caption": [
+            "WIKIHOP MEDHOP "
+        ],
+        "footnote": [
+            "Table 5: Test accuracies for the WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setup. Columns marked with asterisk are for the validated portion of the dataset. "
+        ],
+        "context": "Among the two neural models, $B i D A F$ is overall strongest across both datasets – this is in contrast to the reported results for SQuAD where their performance is nearly indistinguishable. This is possibly due to the iterative latent interactions in the $B i D A F$ the measures undertaken successfully mitigate the issue. A downside to aggressive filtering is a significantly reduced dataset size, rendering it infeasible for smaller datasets like MEDHOP. Table 6: Test accuracy comparison when only using documents leading to the correct answer (gold chain). Columns with asterisk hold results for the validated samples.  pairs for WIKIHOP. The relative strength of this and other baselines proves to be an important issue when designing multi-hop datasets, which we addressed through the measures described in Section 3.2. In Table 4 we compare the two relevant baselines on WIKIHOP before and after applying filtering measures. The absolute strength of these baselines before filtering shows how vital addressing this issue is: $74.6\\%$ accuracy could be reached through exploiting the cooccurrence $(d,c)$ statistic alone. This underlines the paramount importance of investigating and addressing dataset biases that otherwise would confound seemingly strong RC model performance. The relative drop demonstrates that ",
+        "chunk_order_index": 7,
+        "chunk_id": "chunk-d5683a5861bc57565129ae8c176a8aea",
+        "description": "The image is a table labeled 'Table 5: Test accuracies for the WIKIHOP and MEDHOP datasets, both in standard (unmasked) and masked setup.' The table is structured with rows representing different models and columns representing test accuracies under various conditions. The models listed are Random, Max-mention, Majority-candidate-per-query-type, TF-IDF, Document-cue, FastQA, and BiDAF. Each model has corresponding accuracy values for standard and masked setups, further divided into test and test* (validated portion of the dataset). For example, the Random model has accuracies of 11.5 and 12.2 for standard test and test*, respectively, and 12.2 and 13.0 for masked test and test*. The highest accuracies are highlighted in bold, such as 58.4 and 67.3 for Majority-candidate-per-query-type in the standard setup. The context indicates that among the neural models, BiDAF is overall the strongest across both datasets.",
+        "segmentation": false
+    },
+    "image_6": {
+        "image_id": 6,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg",
+        "caption": [],
+        "footnote": [],
+        "context": "Among the two neural models, $B i D A F$ is overall strongest across both datasets – this is in contrast to the reported results for SQuAD where their performance is nearly indistinguishable. This is possibly due to the iterative latent interactions in the $B i D A F$ the measures undertaken successfully mitigate the issue. A downside to aggressive filtering is a significantly reduced dataset size, rendering it infeasible for smaller datasets like MEDHOP. Table 6: Test accuracy comparison when only using documents leading to the correct answer (gold chain). Columns with asterisk hold results for the validated samples. pairs for WIKIHOP. The relative strength of this and other baselines proves to be an important issue when designing multi-hop datasets, which we addressed through the measures described in Section 3.2. In Table 4 we compare the two relevant baselines on WIKIHOP before and after applying filtering measures. The absolute strength of these baselines before filtering shows how vital addressing this issue is: $74.6\\%$ accuracy could be reached through exploiting the cooccurrence $(d,c)$ statistic alone. This underlines the paramount importance of investigating and addressing dataset biases that otherwise would confound seemingly strong RC model performance. The relative drop demonstrates that  ",
+        "chunk_order_index": 7,
+        "chunk_id": "chunk-d5683a5861bc57565129ae8c176a8aea",
+        "description": "The image is a table comparing the test accuracy of different models on two datasets, WIKIHOP and MEDHOP. The table is divided into four main columns: 'standard' and 'gold chain' for both WIKIHOP and MEDHOP. Each column further splits into 'test' and 'test*' sub-columns. The rows represent different models: BiDAF, BiDAF mask, FastQA, and FastQA mask. The values in the table are as follows:\\n\\n- For WIKIHOP standard, the accuracies are: BiDAF (42.9), BiDAF mask (54.5), FastQA (25.7), FastQA mask (35.8).\\n- For WIKIHOP gold chain, the accuracies are: BiDAF (57.9), BiDAF mask (81.2), FastQA (44.5), FastQA mask (65.3).\\n- For MEDHOP standard, the accuracies are: BiDAF (47.8), BiDAF mask (33.7), FastQA (23.1), FastQA mask (31.3).\\n- For MEDHOP gold chain, the accuracies are: BiDAF (86.4), BiDAF mask (99.3), FastQA (54.6), FastQA mask (51.8).\\n\\nThe asterisked values ('test*') represent validated samples, with the following accuracies:\\n\\n- For WIKIHOP standard, the accuracies are: BiDAF (49.7), BiDAF mask (59.8), FastQA (27.2), FastQA mask (38.0).\\n- For WIKIHOP gold chain, the accuracies are: BiDAF (63.4), BiDAF mask (85.7), FastQA (53.5), FastQA mask (70.0).\\n- For MEDHOP standard, the accuracies are: BiDAF (61.2), BiDAF mask (42.9), FastQA (24.5), FastQA mask (30.6).\\n- For MEDHOP gold chain, the accuracies are: BiDAF (89.8), BiDAF mask (100.0), FastQA (59.2), FastQA mask (55.1).\\n\\nThe table highlights the performance of each model across different conditions and datasets, with notable differences in accuracy between the standard and gold chain setups.",
+        "segmentation": false
+    },
+    "image_7": {
+        "image_id": 7,
+        "image_path": "./fusion_research/fusion_dataset/paper/Q18-1021/images/image_7.jpg",
+        "caption": [
+            "WIKIHOP MEDHOP "
+        ],
+        "footnote": [
+            "Table 7: Test accuracy (masked) when only documents containing answer candidates are given (rem). "
+        ],
+        "context": "We conducted further experiments to examine the RC models when presented with only the relevant documents in $S_{q}$ , i.e., the chain of documents leading to the correct answer. This allows us to investigate the hypothetical performance of the models if they were able to select and read only relevant documents: Table 6 summarizes these results. Models improve greatly in this gold chain setup, with up to $81.2\\%\\ /\\ 85.7\\%$ on WIKIHOP in the masked setting for $B i D A F$ . This demonstrates that RC models are capable of identifying the answer when 6.4 Using only relevant documents  to 100 random single-token mask expressions clearly helps the model in selecting a candidate span, compared to the multi-token candidate expressions in the unmasked setting. Overall, although both neural RC models clearly outperform the other baselines, they still have large room for improvement compared to human performance at $74\\%\\ /\\ 85\\%$ for WIKIHOP. Comparing results on the full and validated test sets, we observe that the results consistently improve on the validated sets. This suggests that the training set contains the signal necessary to make inference on valid samples at test time, and that noisy samples are harder to predict. ",
+        "chunk_order_index": 8,
+        "chunk_id": "chunk-ef724a54d3b43cd7b7abda19fadfc6d1",
+        "description": "The image is a table comparing the test accuracy of different models on two datasets, WIKIHOP and MEDHOP. The table has four rows and five columns. The first column lists the models: BiDAF, BiDAF rem, FastQA, and FastQA rem. The subsequent columns show the test accuracy for each model on the WIKIHOP and MEDHOP datasets, with both 'test' and 'test*' conditions. The values are as follows: BiDAF on WIKIHOP test is 54.5, test* is 59.8; on MEDHOP test is 33.7, test* is 42.9. BiDAF rem on WIKIHOP test is 44.6, test* is 57.7; on MEDHOP test is 30.4, test* is 36.7. FastQA on WIKIHOP test is 35.8, test* is 38.0; on MEDHOP test is 31.3, test* is 30.6. FastQA rem on WIKIHOP test is 38.0, test* is 41.2; on MEDHOP test is 28.6, test* is 24.5. The table highlights the performance differences between the models and conditions.",
+        "segmentation": false
+    }
+}

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;USER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The individual seeking information and making requests regarding hotel, attraction, and train details."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;SYSTEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The automated system providing responses and information based on the user's queries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;HOTEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A 4-star hotel located in the north side of Cambridge, offering free internet and parking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;ATTRACTION&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Swimming pools located in the north area of the city, specifically Jesus Green Outdoor Pool and Kings Hedges Learner Pool."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;TRAIN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Trains departing from Norwich to Cambridge on Wednesday, with specific times and booking details."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;CAMBRIDGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The city where the hotel, attractions, and train station are located."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_8 is a table labeled 'Table 6: Predicted dialog states on the MultiWOZ 2.1 validation set'. The table is divided into three main sections, each representing a different dialogue scenario between a user and a system. These sections include the Hotel Booking Scenario, Swimming Pool Recommendation Scenario, and Train Booking Scenario. Each section contains a conversation log and the corresponding ground truths and predictions from three different models: DS-Span, DS-DST, and DS-Picklist. 
+
+In the Hotel Booking Scenario, the user is looking for an expensive 4-star hotel with free internet and parking on the north side of Cambridge. The DS-Picklist model correctly predicts all attributes, while DS-Span and DS-DST miss some details. In the Swimming Pool Recommendation Scenario, the user asks for a good pool to visit on the north side of the city. The DS-DST and DS-Picklist models correctly predict all attributes, while DS-Span incorrectly predicts the type. In the Train Booking Scenario, the user inquires about trains leaving for Cambridge on Wednesday. All three models, DS-Span, DS-DST, and DS-Picklist, correctly predict all attributes.
+
+The table highlights the performance of different models in predicting dialog states, with DS-Picklist generally performing better in terms of string matching.</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+</node>
+<edge source="&quot;USER&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"User是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;SYSTEM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The user interacts with the system to obtain information and services."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;HOTEL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The user is looking for a specific type of hotel and has certain requirements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;ATTRACTION&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The user is interested in visiting a swimming pool in the specified area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;USER&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The user is seeking information about train schedules and bookings."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SYSTEM&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"System是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hotel是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL&quot;" target="&quot;CAMBRIDGE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The hotel is situated in the north side of Cambridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Attraction是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION&quot;" target="&quot;CAMBRIDGE&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"The swimming pools are located in the north area of Cambridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;CAMBRIDGE&quot;">
+  <data key="d3">3.0</data>
+  <data key="d4">"The train destination is Cambridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CAMBRIDGE&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cambridge是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Model parameters used for each dataset (SN: Snopes, PF: PolitiFact, NT: NewsTrust, SE: SemEval)'. The table is structured with the following columns: Parameter, SN, PF, NT, and SE. Each row represents a different parameter used in the model. The parameters listed are Word embedding length, Claim source embedding length, Article source embedding length, LSTM size (for each pass), Size of fully connected layers, and Dropout. The values for these parameters are as follows: Word embedding length is 100 for SN, PF, and SE, and 300 for NT. Claim source embedding length is not applicable for SN, 4 for PF and SE, and 8 for NT. Article source embedding length is 8 for SN and NT, and 4 for PF and SE. LSTM size (for each pass) is 64 for SN, PF, and NT, and 16 for SE. Size of fully connected layers is 32 for SN and PF, 64 for NT, and 8 for SE. Dropout is 0.5 for SN and PF, and 0.3 for NT and SE."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying parameters for different models: SN, PF, NT, and SE. The parameters include word embedding length, claim source embedding length, article source embedding length, LSTM size, size of fully connected layers, and dropout."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<node id="&quot;SN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Model with a word embedding length of 100, no claim source embedding, article source embedding length of 8, LSTM size of 64, fully connected layer size of 32, and dropout of 0.5."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<node id="&quot;PF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Model with a word embedding length of 100, claim source embedding length of 4, article source embedding length of 4, LSTM size of 64, fully connected layer size of 32, and dropout of 0.5."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<node id="&quot;NT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Model with a word embedding length of 300, claim source embedding length of 8, article source embedding length of 8, LSTM size of 64, fully connected layer size of 64, and dropout of 0.3."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<node id="&quot;SE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Model with a word embedding length of 100, claim source embedding length of 4, article source embedding length of 4, LSTM size of 16, fully connected layer size of 8, and dropout of 0.3."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SN是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"PF是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NT是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SE是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"SN is one of the models listed in the table with specific parameter values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;PF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"PF is one of the models listed in the table with specific parameter values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;NT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"NT is one of the models listed in the table with specific parameter values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;SE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"SE is one of the models listed in the table with specific parameter values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1003/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

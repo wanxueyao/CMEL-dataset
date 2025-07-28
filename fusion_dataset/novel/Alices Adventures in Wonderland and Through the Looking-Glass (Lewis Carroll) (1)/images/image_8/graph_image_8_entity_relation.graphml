@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of a pattern of black asterisks (*) arranged in a grid-like formation against a white background. There are three rows and five columns, making a total of fifteen asterisks. Each asterisk is evenly spaced from the others, creating a uniform and symmetrical appearance. The asterisks are identical in size and shape, appearing as simple, solid black symbols."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_8.jpg</data>
+</node>
+<node id="&quot;STAR PATTERN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A pattern of stars arranged in a triangular formation with the base at the bottom and the apex at the top. The stars are evenly spaced and form a symmetrical design."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;STAR PATTERN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Star Pattern是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;STAR PATTERN&quot;" target="&quot;STAR PATTERN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The stars are part of the same pattern and are related by their geometric arrangement."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (1)/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

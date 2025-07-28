@@ -1,0 +1,100 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Example annotation",
+        "entity_type": "EVENT",
+        "description": "MORPA is a scientific concept used in the paper to illustrate the problem of cross-sentence relations in scientific articles.",
+        "reason": "The image and text both highlight 'MORPA' as a key concept, with the image showing it as a central node in the diagram and the text discussing its role in resolving ambiguity in natural language processing tasks.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Table 1",
+        "entity_type": "CONCEPT",
+        "description": "Table 1 shows the dataset statistics for SCIERC and two previous datasets on scientific information extraction.",
+        "reason": "The image is a table labeled 'Table 1: Dataset statistics for our dataset SCIERC and two previous datasets on scientific information extraction.' This matches the description of 'Table 1' in the text, which provides statistics for the SCIERC and SemEval datasets.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_3": {
+        "entity_name": "Figure 2: Overview of the multitask setup",
+        "entity_type": "ORGANIZATION",
+        "description": "A unified framework developed to identify and classify scientific entities, relations, and coreference resolution across sentences.",
+        "reason": "The image depicts a flowchart illustrating the multitask setup for entity recognition, relation extraction, and coreference resolution, which aligns with the description of SCIIE in the text. The image shows the tasks of entity recognition, relation extraction, and coreference resolution, which are key components of the SCIIE framework.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_4": {
+        "entity_name": "Figure 3: Knowledge graph construction process",
+        "entity_type": "EVENT",
+        "description": "The process of constructing a scientific knowledge graph from a large corpus of scientific articles. The process involves extracting entities, their relations, and coreference clusters within documents using the SCIIE model, and then integrating these across multiple documents.",
+        "reason": "The image clearly shows the flowchart for constructing a scientific knowledge graph, which aligns with the description in the text. The process begins with abstracts being processed by the SciIE system to generate document-level KGs, which are then merged into a larger scientific KG.",
+        "matched_chunk_entity_name": "Knowledge Graph Construction"
+    },
+    "image_5": {
+        "entity_name": "Figure 4: A part of an automatically constructed scientific knowledge graph with the most frequent neighbors of the scientific term statistical machine translation (SMT) on the graph",
+        "entity_type": "GEO",
+        "description": "Statistical Machine Translation (SMT) is a scientific term and a node in the knowledge graph, connected to other nodes through various relation types.",
+        "reason": "The image depicts a radial diagram centered around 'statistical machine translation' (SMT), which is the central concept in the knowledge graph. The text also mentions SMT as a key node in the graph, with connections to other related concepts such as 'translation', 'search', 'paraphrasing', etc.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_6": {
+        "entity_name": "Figure 5: Frequency of detected entities with and without coreference resolution",
+        "entity_type": "EVENT",
+        "description": "The event depicted in the image is a comparison of the frequency of detected entities with and without coreference resolution across various detection tasks. The chart shows that using coreference generally reduces the frequency of generic phrase detection while significantly increasing the frequency of specific phrases.",
+        "reason": "The image clearly shows a bar chart comparing the frequency of detected entities with and without coreference resolution, which aligns with the description provided in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_7": {
+        "entity_name": "Figure 6: Frequency of relation types between pairs of entities",
+        "entity_type": "EVENT",
+        "description": "The image depicts two bar charts showing the frequency of different relation types between pairs of entities in a knowledge graph. The left chart is labeled 'MT-ASR' and the right chart is labeled 'CRF-GM'. Both charts display the number of relation triples for various relation types.",
+        "reason": "The image clearly shows two bar charts with the y-axis labeled as '# Relation Triples' and the x-axis labeled with different relation types, which aligns with the description of the event in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_8": {
+        "entity_name": "Table 2: Comparison with previous systems on the development and test set for our three tasks",
+        "entity_type": "ORGANIZATION",
+        "description": "SCIIE is a unified framework evaluated on SCIERC and SemEval 17 datasets for various tasks including entity recognition, relation extraction, and coreference resolution.",
+        "reason": "The image is a table comparing the performance of different models, including SCIIE, on three tasks: entity recognition, relation extraction, and coreference resolution. The text also mentions SCIIE as a model that outperforms other baselines in these tasks.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_9": {
+        "entity_name": "Table 3: Ablation study for multitask learning on SCIERC development set.",
+        "entity_type": "TABLE",
+        "description": "The table compares the performance of different tasks in a multi-task learning setup, including entity recognition, relation extraction, and coreference resolution.",
+        "reason": "The image clearly shows a table labeled 'Table 3' which matches the description provided in the text. The table is used to report the results of an ablation study on the SCIERC development set, comparing the performance of individual tasks when additional tasks are included in the learning objective function.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_10": {
+        "entity_name": "Figure 7: Historical trend for top applications of neural networks",
+        "entity_type": "EVENT",
+        "description": "The image shows the historical trend analysis (from 1996 to 2016) of the most popular applications of the phrase 'neural network' in NLP, speech, and CV conference papers. The y-axis indicates the ratio of papers that use neural network in the task to the number of papers that is about the task.",
+        "reason": "The image clearly depicts three line graphs representing the trends of neural network applications in NLP, speech, and computer vision tasks over time, which aligns with the description provided in the text.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_11": {
+        "entity_name": "Figure 8: Precision/pseudo-recall curves for human evaluation by varying cut-off thresholds",
+        "entity_type": "EVENT",
+        "description": "The evaluation of the constructed knowledge graph, comparing the quality of automatically generated knowledge graphs with and without coreference links.",
+        "reason": "The image depicts precision/pseudo-recall curves for human evaluation by varying cut-off thresholds, which directly aligns with the event of Knowledge Graph Evaluation. The AUC values provided in the text (0.751 with coreference and 0.695 without) are reflected in the image, showing the performance improvement with coreference.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_12": {
+        "entity_name": "Table 4: Results for scientific keyphrase extraction and extraction on SemEval 2017 Task 10, comparing with previous best systems.",
+        "entity_type": "TABLE",
+        "description": "The table compares the performance of different models on tasks related to scientific keyphrase extraction and relation extraction. It includes precision (P), recall (R), and F1 scores for each model across various tasks such as span identification, keyphrase extraction, and relation extraction.",
+        "reason": "The image is a table labeled 'Table 4' which matches the description in the text. The table provides results for scientific keyphrase extraction and relation extraction on SemEval 2017 Task 10, comparing with previous best systems. This aligns with the content of the table in the image.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_13": {
+        "entity_name": "Figure 9: Annotation example 1 from ACL",
+        "entity_type": "ORGANIZATION",
+        "description": "BRAT is a web-based tool for NLP-assisted text annotation.",
+        "reason": "The image clearly shows the BRAT interface being used to annotate scientific texts. The annotations and relationships highlighted in the image are consistent with the functionality of BRAT as described in the text information.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_14": {
+        "entity_name": "Figure 10: An example of our automatically generated knowledge graph centered on statistical machine translation",
+        "entity_type": "EVENT",
+        "description": "Statistical machine translation is the central theme of the automatically generated knowledge graph.",
+        "reason": "The image is a radial diagram centered on 'statistical machine translation,' which is the main concept connecting all other related terms and concepts. The text information also mentions this term as the central theme of the knowledge graph.",
+        "matched_chunk_entity_name": "no match"
+    }
+}

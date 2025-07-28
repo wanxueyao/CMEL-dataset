@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table with two sections labeled 'Negative' and 'Positive'. The 'Negative' section states: 'Friendly staff and nice selection of vegetarian options. Food is just okay, not great. Makes me wonder why everyone likes food fight so much.' The 'Positive' section states: 'The store is small, but it carries specialties that are difficult to find in Pittsburgh. I was particularly excited to find middle eastern chili sauce and chocolate covered turkish delights.'"</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+</node>
+<node id="&quot;FOOD FIGHT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A restaurant known for its vegetarian options and friendly staff."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+</node>
+<node id="&quot;PITTSBURGH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A city where the store is located, and where certain food items are difficult to find."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+</node>
+<node id="&quot;MIDDLE EASTERN CHILI SAUCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A specialty food item that was particularly exciting to find at the store."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+</node>
+<node id="&quot;CHOCOLATE COVERED TURKISH DELIGHTS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Another specialty food item that was particularly exciting to find at the store."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;FOOD FIGHT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Food Fight是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;PITTSBURGH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pittsburgh是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;MIDDLE EASTERN CHILI SAUCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Middle Eastern Chili Sauce是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;CHOCOLATE COVERED TURKISH DELIGHTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chocolate Covered Turkish Delights是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOOD FIGHT&quot;" target="&quot;PITTSBURGH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Food Fight is a restaurant located in Pittsburgh."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOOD FIGHT&quot;" target="&quot;MIDDLE EASTERN CHILI SAUCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Food Fight carries Middle Eastern chili sauce, which is difficult to find in Pittsburgh."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOOD FIGHT&quot;" target="&quot;CHOCOLATE COVERED TURKISH DELIGHTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Food Fight carries chocolate covered Turkish delights, which are also difficult to find in Pittsburgh."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

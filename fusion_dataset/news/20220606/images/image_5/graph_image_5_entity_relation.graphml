@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Light with a slightly yellowish tone- Hairstyle: Short, bleached blonde hair- Facial expression: Neutral, with a slight frown and lips pressed together- Age: Appears to be in his late twenties or early thirties- Clothing: Wearing a light gray sleeveless shirt- Posture: Head turned to the side, looking over his left shoulder- Accessories: Has a tattoo on his left shoulder, which appears to be a word or phrase written in a scriptOverall, the person has a distinctive appearance with his unique hairstyle and visible tattoo."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a person with short, bleached blonde hair wearing a gray tank top. The individual is standing in front of a dark background that appears to be a wall or curtain with some texture. To the right side of the image, there is a door with a poster or sign attached to it. The poster has text and possibly an image, but the details are not clear. The overall lighting is dim, creating a somewhat moody atmosphere. The person's expression is neutral, and they appear to be looking directly at the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with short, bleached blonde hair, wearing a sleeveless gray shirt and has a tattoo on his left shoulder."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+</node>
+<node id="&quot;WALL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dark-colored wall with some greenery and a poster."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WALL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wall是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;WALL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing in front of the wall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220606/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

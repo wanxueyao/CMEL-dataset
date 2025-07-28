@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Bottle- Color: Red- Shape: Tall and slender with a narrow neck, typical of a bottle shape- Size: Appears to be of standard size for a bottle, but the exact dimensions cannot be determined from this view- Material: Likely made of glass or plastic, given the smooth texture and reflective surface- Possible function: Could be used for holding liquids such as beverages, sauces, or other liquid productsOverall, the object appears to be a standard red bottle, commonly used for various liquid storage purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, light-colored hair that is combed to one side- Eyes: Not clearly visible due to the angle and lighting- Expression: Neutral or serious expression- Age: Appears to be an older adult- Clothing: Wearing a dark suit with a white shirt and a dark tie- Posture: Standing upright with arms not visible in the imageOverall, the individual presents a formal and professional appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a man with light blonde hair, wearing a dark blue suit and a bright red tie. He is standing in front of a backdrop that appears to be the interior of an aircraft, possibly an airplane, given the curved ceiling and the visible part of what seems to be a door or window structure. The man has a serious expression on his face, with his lips pressed together and his eyebrows slightly furrowed. His posture is upright, and he appears to be looking directly at the camera. The lighting is bright, highlighting the details of his suit and the texture of his hair. The overall atmosphere conveyed by the image is one of formality and seriousness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+</node>
+<node id="&quot;DONALD TRUMP&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with light-colored hair, wearing a dark suit and a red tie, looking forward with a serious expression."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+</node>
+<node id="&quot;AIRPLANE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Part of an airplane is visible in the background, suggesting the setting is an airport or near an aircraft."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_TIE-1.JPG&quot;" target="&quot;DONALD TRUMP&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_1_tie-1.jpg is a picture of the red tie worn by Donald Trump."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_TIE-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_tie-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;DONALD TRUMP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of Donald Trump."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DONALD TRUMP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Donald Trump是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;AIRPLANE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Airplane是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DONALD TRUMP&quot;" target="&quot;AIRPLANE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Donald Trump is standing in front of an airplane, indicating he may be about to board or has just disembarked."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

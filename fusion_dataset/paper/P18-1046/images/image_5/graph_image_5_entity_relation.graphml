@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph depicting the performance change of the discriminator on $N^{D}$ during the training process. The x-axis represents the epoch number, ranging from 5 to 85, while the y-axis shows the accuracy, ranging from 0.5 to 1.05. There are three distinct lines representing different categories: '/business/person/company' (blue triangles), '/people/person/place_lived' (red squares), and '/location/neighborhood/neighborhood_of' (black circles). The blue triangles start at an accuracy of approximately 0.95 and show a slight downward trend, ending around 0.85. The red squares start at an accuracy of approximately 0.75 and also show a slight downward trend, ending around 0.7. The black circles start at an accuracy of approximately 1.0 and show a more stable trend, ending around 0.95. The graph indicates that the accuracy of the discriminator decreases over epochs for all categories, with '/location/neighborhood/neighborhood_of' maintaining the highest accuracy throughout."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<node id="&quot;ACCURACY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The accuracy of three different categories over epochs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<node id="&quot;EPOCH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The x-axis representing the number of epochs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<node id="&quot;/BUSINESS/PERSON/COMPANY&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Accuracy trend for business/person/company category."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<node id="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Accuracy trend for people/person/place_lived category."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<node id="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Accuracy trend for location/neighborhood/neighborhood_of category."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ACCURACY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Accuracy是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;EPOCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Epoch是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;/BUSINESS/PERSON/COMPANY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/business/person/company是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/people/person/place_lived是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"/location/neighborhood/neighborhood_of是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ACCURACY&quot;" target="&quot;EPOCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Accuracy is measured across different epochs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ACCURACY&quot;" target="&quot;/BUSINESS/PERSON/COMPANY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Accuracy trend for /business/person/company category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ACCURACY&quot;" target="&quot;/PEOPLE/PERSON/PLACE_LIVED&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Accuracy trend for /people/person/place_lived category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ACCURACY&quot;" target="&quot;/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Accuracy trend for /location/neighborhood/neighborhood_of category."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

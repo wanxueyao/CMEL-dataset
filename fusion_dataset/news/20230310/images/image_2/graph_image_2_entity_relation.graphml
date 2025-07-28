@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a winter scene in a heavily snow-covered area, likely a mountainous region. The main focus is on a house or cabin with a steeply pitched roof, which is almost entirely buried under a thick layer of snow. The snow has accumulated to such an extent that it reaches the top of the windows and doors, indicating a significant amount of snowfall. The house has a wooden exterior with a brownish hue, and there are several windows visible, some of which are partially obscured by the snow. The entrance door is also partially covered, making it difficult to access. Surrounding the house are tall pine trees, their branches also laden with snow, creating a serene and somewhat isolated atmosphere. The sky is clear with a bright blue color, suggesting a sunny day despite the heavy snow. The overall mood conveyed by the image is one of tranquility and the quiet beauty of a winter landscape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+</node>
+<node id="&quot;CABIN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A wooden cabin with a steeply pitched roof covered in thick snow. The cabin has a small door and windows, indicating it is likely used for shelter or as a vacation home."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+</node>
+<node id="&quot;SNOW&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Thick layer of white snow covering the ground and the roof of the cabin. The snow appears to be deep and undisturbed, suggesting recent heavy snowfall."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Tall evergreen trees surrounding the cabin. The trees are partially covered in snow, indicating they are part of a forested area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CABIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cabin是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SNOW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Snow是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CABIN&quot;" target="&quot;SNOW&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cabin is heavily covered in snow, indicating it is located in a snowy environment and has experienced significant snowfall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CABIN&quot;" target="&quot;TREES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The cabin is situated among tall trees, suggesting it is located in a forested area and provides shelter within this natural setting."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNOW&quot;" target="&quot;TREES&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The trees are partially covered in snow, indicating that the snowfall has affected both the cabin and the surrounding forest."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230310/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

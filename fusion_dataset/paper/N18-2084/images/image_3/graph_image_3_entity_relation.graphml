@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two graphs that illustrate the BLEU scores and the gain in BLEU scores for different language pairs as a function of training set size. The top graph shows the BLEU scores for Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En) translations. The x-axis represents the training set size, ranging from 0.2 to 1.0, while the y-axis represents the BLEU score, ranging from 5 to 30. The lines are color-coded: blue for Pt→En, red for Tr→En, and green for Ru→En. Each language pair has two lines, one solid and one dashed, representing standard (std) and pre-trained (pre) models, respectively. The bottom graph shows the gain in BLEU scores (BLEU(pre) - BLEU(std)) for the same language pairs. The x-axis is the same as the top graph, while the y-axis ranges from 2 to 14. The points are marked with circles and connected by lines, with colors corresponding to the language pairs. The data points indicate that the gain in BLEU scores is highest when the baseline system is poor but not too poor, usually with a baseline BLEU score in the range of 3-4."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_3.jpg</data>
+</node>
+<node id="&quot;GRAPH 1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A line graph showing the BLEU scores for different language translations as a function of training set size. The languages include Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En). Each language has two lines representing standard (std) and pre-trained (pre) models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_3.jpg</data>
+</node>
+<node id="&quot;GRAPH 2&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A line graph showing the difference in BLEU scores between pre-trained and standard models for the same language translations as Graph 1. The languages are Portuguese to English (Pt→En), Turkish to English (Tr→En), and Russian to English (Ru→En)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-2084/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GRAPH 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph 1是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GRAPH 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph 2是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-2084/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

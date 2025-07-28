@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides statistics for two datasets, WIKIHOP and MEDHOP. The table has four columns: 'Documents', 'Tokens', 'Vocab. Size', and 'Mention Tokens'. For WIKIHOP, the values are as follows: 'Documents' - 43,738, 'Tokens' - 5,129, 'Vocab. Size' - 2,451, and 'Mention Tokens' - 51,318. For MEDHOP, the values are: 'Documents' - 1,620, 'Tokens' - 342, 'Vocab. Size' - 546, and 'Mention Tokens' - 2,508. The table highlights the significant differences in the size and complexity of the two datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+</node>
+<node id="&quot;WIKIHOP&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset used for machine reading comprehension tasks, containing 43,738 questions and 51,318 total entries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+</node>
+<node id="&quot;MEDHOP&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another dataset used for medical-related machine reading comprehension tasks, containing 1,620 questions and 2,508 total entries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WIKIHOP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"WIKIHOP是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MEDHOP是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WIKIHOP&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both WIKIHOP and MEDHOP are datasets used in the field of machine reading comprehension, but they differ in their focus areas and size."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

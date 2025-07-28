@@ -1,0 +1,144 @@
+{
+    "image_1": [
+    ],
+    "image_2": [
+        {
+            "entity_name": "WORD EMBEDDINGS",
+            "entity_type": "CONCEPT",
+            "description": "Word embeddings are numerical representations of words in a vector space, capturing both word-level and character-level information, and are optimized and aligned in the described process to facilitate tasks like NER and word translation.",
+            "source_image_entities": [
+                "WORD EMBEDDING"
+            ],
+            "source_text_entities": [
+                "WORD EMBEDDINGS"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "BWET",
+            "entity_type": "ORGANIZATION",
+            "description": "BWET (bilingual word embedding translation) is a method developed by our team, achieving scores of 71.33 ± 1.26 for Spanish, 69.39 ± 0.53 for Dutch, and 56.95 ± 1.20 for German, and denotes using the hierarchical neural CRF model trained on data translated from English.",
+            "source_image_entities": [
+                "BWET"
+            ],
+            "source_text_entities": [
+                "BWET"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "SPANISH",
+            "entity_type": "GEO",
+            "description": "The first column of data representing performance metrics for the Spanish language, where the methods outperform previous results by a large margin.",
+            "source_image_entities": [
+                "SPANISH"
+            ],
+            "source_text_entities": [
+                "SPANISH"
+            ]
+        },
+        {
+            "entity_name": "DUTCH",
+            "entity_type": "GEO",
+            "description": "The second column of data representing performance metrics for the Dutch language, where the methods outperform previous results by a large margin.",
+            "source_image_entities": [
+                "DUTCH"
+            ],
+            "source_text_entities": [
+                "DUTCH"
+            ]
+        },
+        {
+            "entity_name": "GERMAN",
+            "entity_type": "GEO",
+            "description": "The third column of data representing performance metrics for the German language, where the model does not outperform the previous best result, and the text speculates on the reasons for this.",
+            "source_image_entities": [
+                "GERMAN"
+            ],
+            "source_text_entities": [
+                "GERMAN"
+            ]
+        },
+        {
+            "entity_name": "COMMON SPACE",
+            "entity_type": "CONCEPT",
+            "description": "The first row of data representing a model where all languages are processed in a common space, which is a setting for using bilingual word embeddings.",
+            "source_image_entities": [
+                "COMMON SPACE"
+            ],
+            "source_text_entities": [
+                "COMMON SPACE"
+            ]
+        },
+        {
+            "entity_name": "REPLACE",
+            "entity_type": "CONCEPT",
+            "description": "The second row of data representing a model where one language is replaced by another, which is a setting where original word embeddings are replaced with their nearest neighbors in the common space without performing translation.",
+            "source_image_entities": [
+                "REPLACE"
+            ],
+            "source_text_entities": [
+                "REPLACE"
+            ]
+        },
+        {
+            "entity_name": "TRANSLATION",
+            "entity_type": "CONCEPT",
+            "description": "The third row of data representing a model where translation is used between languages, which is the proposed approach where the model is trained on both exact points in the target space and target language character sequences.",
+            "source_image_entities": [
+                "TRANSLATION"
+            ],
+            "source_text_entities": [
+                "TRANSLATION"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "MAYHEW ET AL. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A research group that published a study in 2017, achieving the highest score of 51.32 on the Cygnar Unsequestered Set, proposing a dictionary-based translation baseline.",
+            "source_image_entities": [
+                "MAYHEW ET AL. (2017)"
+            ],
+            "source_text_entities": [
+                "MAYHEW ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "BWET",
+            "entity_type": "ORGANIZATION",
+            "description": "An organization or model that achieved a score of 25.73 ± 0.89 on the Cygnar Unsequestered Set using a 5K dictionary, denoting the use of the hierarchical neural CRF model trained on data translated from English.",
+            "source_image_entities": [
+                "BWET"
+            ],
+            "source_text_entities": [
+                "BWET"
+            ]
+        },
+        {
+            "entity_name": "CYGNAR UNSEQUESTERED SET",
+            "entity_type": "EVENT",
+            "description": "A benchmark dataset used to evaluate the performance of different models and methods, mentioned in the context of NER F1 scores on Uyghur with extra resources.",
+            "source_image_entities": [
+                "CYGNAR UNSEQUESTERED SET"
+            ],
+            "source_text_entities": [
+                "UNSEQUESTERED SET"
+            ]
+        },
+        {
+            "entity_name": "WIKIPEDIA",
+            "entity_type": "ORGANIZATION",
+            "description": "An online encyclopedia used as an extra resource for some of the models, used not as a monolingual corpus but to provide external knowledge.",
+            "source_image_entities": [
+                "WIKIPEDIA"
+            ],
+            "source_text_entities": [
+                "WIKIPEDIA"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a diagram illustrating the character-level neural network architecture for Named Entity Recognition (NER). The diagram is structured in four rows. The top row, labeled 'Label', shows a sequence of labels: B-ORG repeated eight times followed by two O labels. The second row, labeled 'Char Representation', displays a series of boxes with arrows pointing upwards, indicating the representation of characters. The third row, labeled 'Char LSTM-B', shows a sequence of blue boxes connected by arrows, representing the forward pass of the Bi-directional Long Short-Term Memory (Bi-LSTM) network. The fourth row, labeled 'Char LSTM-F', mirrors the third row but represents the backward pass of the Bi-LSTM network. The bottom row, labeled 'Characters', shows the actual characters corresponding to the labels: 'B', 'e', 's', 't', '_', 'B', 'u', 'y', ',', and 's'. Each character is represented by a red box. The diagram visually explains how each character is processed through the Bi-LSTM layers to predict the label for each character."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAR LSTM-B&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component of the model that processes characters in a backward direction, contributing to the representation of each character in the sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAR LSTM-F&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A component of the model that processes characters in a forward direction, contributing to the representation of each character in the sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAR EMBEDDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A layer that converts character inputs into dense vectors of fixed size, which are then used as input to the Char LSTMs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHARACTERS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The sequence of individual letters or symbols being processed by the model, starting with 'B' and ending with 's'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAR LSTM-B&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Char LSTM-B是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAR LSTM-F&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Char LSTM-F是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAR EMBEDDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Char Embedding是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHARACTERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Characters是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR LSTM-B&quot;" target="&quot;CHAR LSTM-F&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are components of the same model architecture, working together to process the sequence of characters in both directions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR LSTM-B&quot;" target="&quot;CHAR EMBEDDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The output of the Char Embedding layer is used as input to the Char LSTM-B, allowing it to understand the context of each character."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR LSTM-B&quot;" target="&quot;CHARACTERS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Each character in the sequence is processed by the Char LSTM-B in reverse order, starting from the end of the sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR LSTM-F&quot;" target="&quot;CHAR EMBEDDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The output of the Char Embedding layer is used as input to the Char LSTM-F, allowing it to understand the context of each character."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR LSTM-F&quot;" target="&quot;CHARACTERS&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Each character in the sequence is processed by the Char LSTM-F in forward order, starting from the beginning of the sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAR EMBEDDING&quot;" target="&quot;CHARACTERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Each character in the sequence is passed through the Char Embedding layer to be converted into a vector representation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/C18-1182/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

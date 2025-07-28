@@ -1,0 +1,1861 @@
+{
+    "3": {
+        "chunk_key": "chunk-b964f30fcaf33e260b19e3732b140766",
+        "entities": [
+            {
+                "entity_name": "\"GRU NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GRU network is a type of neural network used for modeling short-term user representations in the context of online news recommendation.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"OKURA ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Okura et al., 2017 are referenced for their work on using a simple dot product for computing news click probability scores.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"HUANG ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Huang et al., 2013 are referenced for their work on using negative sampling technique for model training.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"ZHAI ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhai et al., 2016 are referenced for their work on using negative sampling technique for model training.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"LSTUR-INI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LSTUR-ini is a method for combining long-term and short-term user representations by initializing the hidden state of the GRU network with the long-term user representation.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"LSTUR-CON\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LSTUR-con is a method for combining long-term and short-term user representations by concatenating them.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NBA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NBA is mentioned as an example of a long-term interest for online users, specifically basketball fans.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"USER IDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"User IDs are used to learn long-term representations of users to capture their consistent preferences.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NEWS ARTICLES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"News articles are the content that users interact with in the context of online news recommendation services.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"ONLINE USERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Online users are individuals who have both short-term and long-term interests in reading news, and are the subject of user representation modeling.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NEWS RECOMMENDATION SERVICES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News recommendation services are the online platforms that provide personalized news recommendations to users.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"MODEL TRAINING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Model training refers to the process of training the news recommendation model using user and news representations.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NEWS CLICK PREDICTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"News click prediction is the task of predicting the probability of a user clicking on a news article.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NEGATIVE SAMPLING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Negative sampling is a technique used in model training where unclicked news articles are used as negative samples.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"PSEUDO $K+1$-WAY CLASSIFICATION TASK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pseudo $K+1$-way classification task is how the news click prediction problem is reformulated using negative sampling.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"NEW COMING USERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"New coming users are users who have not yet been incorporated into the news recommendation model training.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"LONG-TERM REPRESENTATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Long-term representations refer to the learned representations of users that capture their consistent preferences over time.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"SHORT-TERM USER REPRESENTATIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Short-term user representations are computed to capture the temporal interests of online users.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "entity_name": "\"UNIFIED USER REPRESENTATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Unified user representation is the combined representation of long-term and short-term user presentations.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"GRU NETWORK\"",
+                "tgt_id": "\"OKURA ET AL., 2017\"",
+                "weight": 6.0,
+                "description": "\"The GRU network is used in the context of a scoring function inspired by Okura et al., 2017.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"GRU NETWORK\"",
+                "tgt_id": "\"HUANG ET AL., 2013\"",
+                "weight": 6.0,
+                "description": "\"The GRU network is used in a model training approach motivated by the work of Huang et al., 2013.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"GRU NETWORK\"",
+                "tgt_id": "\"ZHAI ET AL., 2016\"",
+                "weight": 6.0,
+                "description": "\"The GRU network is used in a model training approach motivated by the work of Zhai et al., 2016.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"LSTUR-INI\"",
+                "tgt_id": "\"GRU NETWORK\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-ini is a method that uses the GRU network to initialize the hidden state with long-term user representations.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"GRU NETWORK\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-con is a method that concatenates long-term user representations with the output of the GRU network.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"NBA\"",
+                "tgt_id": "\"ONLINE USERS\"",
+                "weight": 5.0,
+                "description": "\"NBA is an example of a long-term interest for a subset of online users, specifically basketball fans.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"USER IDS\"",
+                "tgt_id": "\"LONG-TERM REPRESENTATIONS\"",
+                "weight": 8.0,
+                "description": "\"User IDs are used to learn the long-term representations of users.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"NEWS ARTICLES\"",
+                "tgt_id": "\"NEWS RECOMMENDATION SERVICES\"",
+                "weight": 7.0,
+                "description": "\"News articles are the content provided by news recommendation services to users.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"ONLINE USERS\"",
+                "tgt_id": "\"SHORT-TERM USER REPRESENTATIONS\"",
+                "weight": 7.0,
+                "description": "\"Online users have short-term user representations that capture their temporal interests.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"MODEL TRAINING\"",
+                "tgt_id": "\"NEGATIVE SAMPLING\"",
+                "weight": 7.0,
+                "description": "\"Model training involves the use of negative sampling technique.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"NEWS CLICK PREDICTION\"",
+                "tgt_id": "\"PSEUDO $K+1$-WAY CLASSIFICATION TASK\"",
+                "weight": 8.0,
+                "description": "\"News click prediction is reformulated as a pseudo $K+1$-way classification task.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"NEW COMING USERS\"",
+                "tgt_id": "\"LONG-TERM REPRESENTATIONS\"",
+                "weight": 6.0,
+                "description": "\"New coming users may not have long-term representations in the model.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"UNIFIED USER REPRESENTATION\"",
+                "tgt_id": "\"LONG-TERM REPRESENTATIONS\"",
+                "weight": 8.0,
+                "description": "\"Unified user representation includes long-term representations.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            },
+            {
+                "src_id": "\"UNIFIED USER REPRESENTATION\"",
+                "tgt_id": "\"SHORT-TERM USER REPRESENTATIONS\"",
+                "weight": 8.0,
+                "description": "\"Unified user representation includes short-term user representations.\"",
+                "source_id": "chunk-b964f30fcaf33e260b19e3732b140766"
+            }
+        ]
+    },
+    "2": {
+        "chunk_key": "chunk-40a50e43f2e71428b8dbff5c388e34ae",
+        "entities": [
+            {
+                "entity_name": "\"NBA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NBA is a professional basketball league in North America, indicated as an important sports news topic.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"MSN NEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MSN news is an online news platform that labels news articles with topic and subtopic categories.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"SPORTS\"",
+                "entity_type": "\"TOPIC\"",
+                "description": "\"Sports is a general topic category used to label news articles, indicating user interests.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"FOOTBALL NFL\"",
+                "entity_type": "\"SUBTOPIC\"",
+                "description": "\"Football NFL is a subtopic category under the Sports topic, used for news article categorization.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"MISSION: IMPOSSIBLE 6 – FALLOUT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Mission: Impossible 6 – Fallout is an event, specifically a movie, that influences user interest in related news articles.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"TOM CRUISE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tom Cruise is an actor related to the movie 'Mission: Impossible 6 – Fallout', and a potential interest for users who read related news.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"CNN NETWORK\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "CNN Network is part of the Title Encoder, used to learn contextual word representations by capturing local context information.",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"RELU\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"ReLU stands for Rectified Linear Unit, a type of activation function used in the CNN network.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"BAHDANAU ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bahdanau et al., 2015 refers to the authors of the attention network model used in the news encoder framework.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"TANH\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"tanh is the hyperbolic tangent function, used in the formulation of the attention weight in the attention network.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"LSTUR APPROACH\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"LSTUR approach refers to the Long-Short Term User Representation approach, a framework for user and news representation.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"STUR\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"STUR stands for Short-Term User Representation model, used to capture user's temporal interests.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"LTUR\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"LTUR stands for Long-Term User Representation model, used to capture user's consistent preferences.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"GRU\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"GRU stands for Gated Recurrent Units, a type of recurrent neural network used to capture sequential news reading patterns.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"OKURA ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Okura et al., 2017 refers to the authors whose work on news reading patterns is referenced in the context of using GRU networks.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "entity_name": "\"CHO ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Cho et al., 2014 refers to the authors of the original GRU network model.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"NBA\"",
+                "tgt_id": "\"SPORTS\"",
+                "weight": 8.0,
+                "description": "\"NBA is a part of the Sports topic, indicating that NBA news falls under the sports category.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"MSN NEWS\"",
+                "tgt_id": "\"SPORTS\"",
+                "weight": 7.0,
+                "description": "\"MSN news uses the Sports topic category to label news articles, helping target user interests.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"MSN NEWS\"",
+                "tgt_id": "\"FOOTBALL NFL\"",
+                "weight": 7.0,
+                "description": "\"MSN news uses the Football NFL subtopic to categorize news articles under the Sports topic.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"MISSION: IMPOSSIBLE 6 – FALLOUT\"",
+                "tgt_id": "\"TOM CRUISE\"",
+                "weight": 9.0,
+                "description": "\"The event 'Mission: Impossible 6 – Fallout' is related to Tom Cruise, as he is an actor in the movie.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"CNN NETWORK\"",
+                "tgt_id": "\"RELU\"",
+                "weight": 8.0,
+                "description": "\"The CNN network uses ReLU as an activation function in its convolutional filters.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"CNN NETWORK\"",
+                "tgt_id": "\"BAHDANAU ET AL., 2015\"",
+                "weight": 7.0,
+                "description": "\"The CNN network incorporates the attention network model by Bahdanau et al., 2015 to select important words in news titles.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"TANH\"",
+                "tgt_id": "\"BAHDANAU ET AL., 2015\"",
+                "weight": 8.0,
+                "description": "\"The attention network model by Bahdanau et al., 2015 uses the tanh function in the formulation of the attention weight.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"LSTUR APPROACH\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 9.0,
+                "description": "\"The LSTUR approach includes the STUR model to capture short-term user interests.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"LSTUR APPROACH\"",
+                "tgt_id": "\"LTUR\"",
+                "weight": 9.0,
+                "description": "\"The LSTUR approach includes the LTUR model to capture long-term user preferences.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"STUR\"",
+                "tgt_id": "\"GRU\"",
+                "weight": 8.0,
+                "description": "\"The STUR model uses GRU networks to capture sequential news reading patterns.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            },
+            {
+                "src_id": "\"GRU\"",
+                "tgt_id": "\"CHO ET AL., 2014\"",
+                "weight": 9.0,
+                "description": "\"The GRU network model was originally proposed by Cho et al., 2014.\"",
+                "source_id": "chunk-40a50e43f2e71428b8dbff5c388e34ae"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-6ed1a98565ec22824cdc72d53742fe1a",
+        "entities": [
+            {
+                "entity_name": "\"LSTUR-CON\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTUR-con is a model that uses the concatenation of both short-term and long-term user representations for news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"LSTUR-INI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTUR-ini is a model that focuses on either long-term or short-term user representations for news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"LTUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LTUR is a long-term user representation model used for news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"STUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"STUR is a short-term user representation model used for news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"GRU\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GRU is used in the STUR model to learn short-term user representations from recent browsing news.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"AVERAGE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Average is a method that uses the average of all news representations in recent browsing history.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"ATTENTION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Attention is a method that uses the summation of news representations weighted by their attention weights.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "LSTM is a sequence-based encoder used in the STUR model for learning short-term user representations and can replace GRU. It is associated with the development by Hochreiter and Schmidhuber.",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"CNN+ATT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN+Att is a news encoder that combines a CNN network and an attention network.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN is a variant of the news title encoder used for learning news representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"LSTM+ATT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM+Att is a variant of the news title encoder that includes an attention mechanism.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"HOCHREITER AND SCHMIDHUBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hochreiter and Schmidhuber are associated with the development of the LSTM model, referenced in the context of replacing GRU.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"NEWS ENCODERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Encoders are evaluated in the STUR model for their effectiveness in encoding news, with GRU outperforming LSTM.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"NEWS TITLE ENCODERS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Title Encoders are compared in terms of effectiveness, with CNN+Att showing better performance than other variants.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"ATTENTION MECHANISM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Attention Mechanism is used in encoders based on CNN and LSTM to select important words for learning more informative news representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"NEWS TOPIC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Topic is a component of the news encoder that, when incorporated, improves the performance of news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"NEWS SUBTOPIC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Subtopic is a more fine-grained component of the news encoder that outperforms News Topic in improving news recommendation performance.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "entity_name": "\"MASKING PROBABILITY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Masking Probability refers to the probability p in Eq. (6) for randomly masking long-term user representation in model training, which is explored for its influence on model performance.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"LSTUR-INI\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-con and LSTUR-ini are compared for performance in news recommendation, with LSTUR-con showing more stability.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"LTUR\"",
+                "weight": 6.0,
+                "description": "\"LSTUR-con is compared with LTUR to show the effectiveness of combining long-term and short-term user representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 6.0,
+                "description": "\"LSTUR-con incorporates elements of STUR to improve news recommendation performance.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"STUR\"",
+                "tgt_id": "\"GRU\"",
+                "weight": 8.0,
+                "description": "\"GRU is selected as the news encoder in STUR due to its better performance over LSTM.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"STUR\"",
+                "tgt_id": "\"AVERAGE\"",
+                "weight": 7.0,
+                "description": "\"STUR outperforms the Average method in encoding news for short-term user representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"STUR\"",
+                "tgt_id": "\"ATTENTION\"",
+                "weight": 7.0,
+                "description": "\"STUR outperforms the Attention method in encoding news for short-term user representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"CNN+ATT\"",
+                "tgt_id": "\"CNN\"",
+                "weight": 8.0,
+                "description": "\"CNN+Att outperforms CNN in learning news title representations due to the effectiveness of the attention mechanism.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"CNN+ATT\"",
+                "tgt_id": "\"LSTM+ATT\"",
+                "weight": 7.0,
+                "description": "\"CNN+Att outperforms LSTM+Att, indicating the importance of local contexts in news titles for news representation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"GRU\"",
+                "weight": 7.0,
+                "description": "\"LSTM is compared with GRU in the STUR model, with GRU showing better performance due to fewer parameters and lower risk of overfitting.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"HOCHREITER AND SCHMIDHUBER\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 5.0,
+                "description": "\"Hochreiter and Schmidhuber are associated with the development of LSTM, which is evaluated in the STUR model.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"NEWS ENCODERS\"",
+                "tgt_id": "\"GRU\"",
+                "weight": 8.0,
+                "description": "\"GRU is selected over LSTM in News Encoders due to better performance in encoding news for short-term user representations.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"NEWS TITLE ENCODERS\"",
+                "tgt_id": "\"ATTENTION MECHANISM\"",
+                "weight": 8.0,
+                "description": "\"The effectiveness of News Title Encoders is improved by incorporating the Attention Mechanism, as seen in CNN+Att.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"NEWS TOPIC\"",
+                "tgt_id": "\"NEWS SUBTOPIC\"",
+                "weight": 7.0,
+                "description": "\"News Subtopic provides more fine-grained information than News Topic and outperforms it in the news encoder for news recommendation.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"MASKING PROBABILITY\"",
+                "tgt_id": "\"LSTUR-INI\"",
+                "weight": 6.0,
+                "description": "\"The influence of Masking Probability on model training is explored for LSTUR-ini, affecting its performance.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            },
+            {
+                "src_id": "\"MASKING PROBABILITY\"",
+                "tgt_id": "\"LSTUR-CON\"",
+                "weight": 6.0,
+                "description": "\"The influence of Masking Probability on model training is explored for LSTUR-con, affecting its performance.\"",
+                "source_id": "chunk-6ed1a98565ec22824cdc72d53742fe1a"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-278340890fd0f192f781f9e8a3aa3bbf",
+        "entities": [
+            {
+                "entity_name": "\"MICROSOFT NEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "Microsoft News provided technical support, data, and personnel for the experiments in the paper. It is also the source of the real-world dataset used for experiments.",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"JIUN-HUNG CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiun-Hung Chen is associated with Microsoft News and contributed to the paper through support and discussions.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"YING QIAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ying Qiao is associated with Microsoft News and contributed to the paper through support and discussions.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"JIANQIANG HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianqiang Huang provided help in the experiments mentioned in the paper.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"MSN NEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MSN news is the source of the real-world dataset used for experiments in the paper.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"2019 CES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"2019 CES is an event where highlights include innovations in Enviro-Sensing for Robocars.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"CALIFORNIA\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"California is a geographical location mentioned in the context of weather conditions affecting the state.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"TEXAS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Texas is a geographical location where State Rep. Dennis Bonnen was elected as House Speaker.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"LSTUR-INI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTUR-ini is one of the methods used in the study to randomly mask long-term user representation in model training.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"LSTUR-CON\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTUR-con is another method used in the study to randomly mask long-term user representation in model training.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"LTUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LTUR refers to the long-term user representation model, which has many parameters and is part of the study's focus.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"STUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"STUR refers to the short-term user representation model, which is part of the study's focus on balancing learning between LTUR and STUR.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"GRU NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GRU network is used to learn short-term representations of users from their recently browsed news in the study's model.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"ENVIRO-SENSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Enviro-Sensing is an event or technology highlighted at the 2019 CES, focusing on innovations for Robocars.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"ROBOCARS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Robocars are a focus at the 2019 CES, particularly in relation to Enviro-Sensing technologies.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"DENNIS BONNEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dennis Bonnen is a Texas State Representative who was elected as the House Speaker.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"AMERICAN EXPRESS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"American Express is a company mentioned in the context of a question about whether to buy its stock after earnings.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"MEGHAN MARKLE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Meghan Markle is a person who has considerably changed Prince Harry, as mentioned in the text.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "entity_name": "\"PRINCE HARRY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Prince Harry is a person who has been considerably changed by Meghan Markle, as mentioned in the text.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MICROSOFT NEWS\"",
+                "tgt_id": "\"JIUN-HUNG CHEN\"",
+                "weight": 6.0,
+                "description": "\"Jiun-Hung Chen is associated with Microsoft News and contributed to the paper.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"MICROSOFT NEWS\"",
+                "tgt_id": "\"YING QIAO\"",
+                "weight": 6.0,
+                "description": "\"Ying Qiao is associated with Microsoft News and contributed to the paper.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"MICROSOFT NEWS\"",
+                "tgt_id": "\"JIANQIANG HUANG\"",
+                "weight": 5.0,
+                "description": "\"Jianqiang Huang is associated with Microsoft News and helped in the experiments.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"MICROSOFT NEWS\"",
+                "tgt_id": "\"MSN NEWS\"",
+                "weight": 7.0,
+                "description": "\"Microsoft News collected the dataset from MSN news for the experiments.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"2019 CES\"",
+                "tgt_id": "\"ENVIRO-SENSING\"",
+                "weight": 7.0,
+                "description": "\"2019 CES highlighted innovations in Enviro-Sensing for Robocars.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"2019 CES\"",
+                "tgt_id": "\"ROBOCARS\"",
+                "weight": 7.0,
+                "description": "\"2019 CES highlighted innovations in Enviro-Sensing for Robocars.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"TEXAS\"",
+                "tgt_id": "\"DENNIS BONNEN\"",
+                "weight": 7.0,
+                "description": "\"Dennis Bonnen is a State Rep from Texas who was elected as House Speaker.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"LSTUR-INI\"",
+                "tgt_id": "\"LTUR\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-ini is a method that involves the LTUR model, which has many parameters and is prone to overfitting.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"LTUR\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-con is a method that involves the LTUR model, which has many parameters and is prone to overfitting.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"LSTUR-INI\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-ini is a method that balances the learning of LTUR and STUR in the study's approach.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"LSTUR-CON\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 7.0,
+                "description": "\"LSTUR-con is a method that balances the learning of LTUR and STUR in the study's approach.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"GRU NETWORK\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 8.0,
+                "description": "\"The GRU network is used to learn short-term representations of users, which is part of the STUR model.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"ENVIRO-SENSING\"",
+                "tgt_id": "\"ROBOCARS\"",
+                "weight": 8.0,
+                "description": "\"Enviro-Sensing and Robocars are related technologies highlighted at the 2019 CES.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            },
+            {
+                "src_id": "\"MEGHAN MARKLE\"",
+                "tgt_id": "\"PRINCE HARRY\"",
+                "weight": 9.0,
+                "description": "\"Meghan Markle has considerably changed Prince Harry, as indicated in the text.\"",
+                "source_id": "chunk-278340890fd0f192f781f9e8a3aa3bbf"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-72f78c27dad5114374bbbb67fbfc4777",
+        "entities": [
+            {
+                "entity_name": "\"MSN NEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MSN News is the source of the dataset used for news recommendation experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"LSTUR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LSTUR refers to a news recommendation approach that outperforms baseline methods by capturing both long-term preferences and short-term interests of users.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"LIBFM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LibFM is a state-of-the-art matrix factorization method used as a baseline in the news recommendation experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"DEEPFM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DeepFM is a method that combines factorization machines and deep neural networks, used as a baseline in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"WIDE & DEEP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Wide & Deep is a deep learning-based recommendation method that combines wide and deep channels, used as a baseline in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"DSSM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DSSM, or deep structured semantic model, is used as a baseline method in the news recommendation experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN refers to a method using convolutional neural networks with max pooling for learning news representations, used as a baseline.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"DKN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DKN is a deep news recommendation model containing CNN and candidate-aware attention, used as a baseline in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"GRU\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GRU refers to a method that learns news representations by a denoising autoencoder and user representations by a GRU network, used as a baseline.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"LSTURINI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LSTURini is a proposed method for learning short-term user representations, achieving comparable performance to LSTUR-con.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"LSTUR-CON\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LSTUR-con is a proposed method for learning long-term user representations, achieving comparable performance to LSTURini and outperforming baseline methods.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe, created by Pennington et al., is used for initializing word embeddings in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"ADAM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Adam, introduced by Kingma and Ba, is used for model optimization in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"AUC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AUC, or area under the ROC curve, is an impression-based ranking metric used to evaluate the performance of the model.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"MRR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MRR, or mean reciprocal rank, is an impression-based ranking metric used to evaluate the performance of the model.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"NDCG\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"nDCG, or normalized discounted cumulative gain, is an impression-based ranking metric used to evaluate the performance of the model.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 1 summarizes the statistics of the dataset used in the experiments for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Table 2 summarizes the results of comparing different methods in news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"DECEMBER 23RD, 2018\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"December 23rd, 2018 marks the start date of the four-week log collection period from MSN News.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"JANUARY 19TH, 2019\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"January 19th, 2019 marks the end date of the four-week log collection period from MSN News.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"BERNOULLI DISTRIBUTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Bernoulli distribution is mentioned in the context of the model training trick involving a random variable subject to B(1,1-p).\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"DROPOUT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Dropout, introduced by Srivastava et al., is applied to each layer in the approach to mitigate overfitting.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"LONG-TERM USER REPRESENTATION MASKING PROBABILITY $P$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The long-term user representation masking probability $p$ is a default value used in model training, set to 0.5.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"BATCH SIZE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Batch size refers to the number of samples processed before the model is updated, set to 400 in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "entity_name": "\"NUMBER OF NEGATIVE SAMPLES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The number of negative samples for each positive sample is a hyperparameter set to 4 in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MSN NEWS\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 7.0,
+                "description": "\"MSN News provided the dataset used to evaluate the performance of the LSTUR approach in news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"LIBFM\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms LibFM in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"DEEPFM\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms DeepFM in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"WIDE & DEEP\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms Wide & Deep in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"DSSM\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms DSSM in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"CNN\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms CNN in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"DKN\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms DKN in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTUR\"",
+                "tgt_id": "\"GRU\"",
+                "weight": 8.0,
+                "description": "\"LSTUR outperforms GRU in capturing user preferences for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"LSTURINI\"",
+                "tgt_id": "\"LSTUR-CON\"",
+                "weight": 7.0,
+                "description": "\"LSTURini and LSTUR-con achieve comparable performance in learning user representations for news recommendation.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"GLOVE\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"GloVe embeddings are used as the initialization for word embeddings in the LSTUR approach.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"ADAM\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"Adam is used to optimize the LSTUR model in the experiments.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"AUC\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"AUC is used to evaluate the performance of the LSTUR approach.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"MRR\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"MRR is used to evaluate the performance of the LSTUR approach.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"NDCG\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"nDCG is used to evaluate the performance of the LSTUR approach.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"TABLE 1\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"Table 1 provides dataset statistics that are relevant to the LSTUR approach.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            },
+            {
+                "src_id": "\"TABLE 2\"",
+                "tgt_id": "\"LSTUR\"",
+                "weight": 6.0,
+                "description": "\"Table 2 compares the performance of LSTUR with other methods.\"",
+                "source_id": "chunk-72f78c27dad5114374bbbb67fbfc4777"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc",
+        "entities": [
+            {
+                "entity_name": "\"MINGXIAO AN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mingxiao An is the first author of the paper on neural news recommendation, affiliated with University of Science and Technology of China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"FANGZHAO WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fangzhao Wu is a co-author of the paper, affiliated with Tsinghua University.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"CHUHAN WU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chuhan Wu is a co-author of the paper, affiliated with Tsinghua University.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"KUN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kun Zhang is a co-author of the paper, affiliated with University of Science and Technology of China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"ZHENG LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zheng Liu is a co-author of the paper, affiliated with Microsoft Research Asia.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"XING XIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xing Xie is a co-author of the paper, affiliated with Microsoft Research Asia.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"UNIVERSITY OF SCIENCE AND TECHNOLOGY OF CHINA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"University of Science and Technology of China is an institution where some of the authors are affiliated, located in Hefei, China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"MICROSOFT RESEARCH ASIA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Microsoft Research Asia is an organization where some of the authors are affiliated, located in Beijing, China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"DEPARTMENT OF ELECTRONIC ENGINEERING, TSINGHUA UNIVERSITY\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Department of Electronic Engineering at Tsinghua University is an institution where some of the authors are affiliated, located in Beijing, China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"HEFEI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Hefei is a city in China, where the University of Science and Technology of China is located.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"BEIJING\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Beijing is a city in China, where Microsoft Research Asia and Tsinghua University are located.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"NEURAL NEWS RECOMMENDATION WITH LONG- AND SHORT-TERM USER REPRESENTATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Neural News Recommendation with Long- and Short-term User Representations is the title of the paper discussing a new approach to personalized news recommendation.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"GOOGLE NEWS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Google News is an online news platform that distributes news to users.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"GOLDEN STATE WARRIORS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Golden State Warriors is an NBA team, used as an example of a long-term interest for a user.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"BOHEMIAN RHAPSODY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Bohemian Rhapsody is a movie, which triggered related news browsing as a short-term interest example.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"RAMI MALEK WINS THE 2019 OSCAR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Rami Malek's Oscar win is an event that caused a user to read related news, illustrating short-term interest.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"PERSONALIZED NEWS RECOMMENDATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Personalized news recommendation is the process of helping users find news they are interested in to improve their reading experience.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"LONG-TERM INTEREST\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Long-term interest refers to user preferences that last for a long time and are consistent.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"SHORT-TERM INTEREST\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Short-term interest refers to user interests that evolve with time and may be triggered by specific contexts or temporal demands.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"NEWS ENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"News encoder is a component used to learn representations of news articles from their titles and topic categories.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"USER ENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"User encoder is a component consisting of long-term and short-term user representation modules.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"ATTENTION MECHANISM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attention mechanism is used in the news encoder to select important words for learning informative news representations.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"GRU NETWORK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"GRU network is used in the user encoder to learn short-term representations of users from their recently browsed news.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"LTUR MODULE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"LTUR module refers to the long-term user representation module within the user encoder.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "entity_name": "\"STUR MODULE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"STUR module refers to the short-term user representation module within the user encoder.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"MINGXIAO AN\"",
+                "tgt_id": "\"UNIVERSITY OF SCIENCE AND TECHNOLOGY OF CHINA\"",
+                "weight": 8.0,
+                "description": "\"Mingxiao An is affiliated with the University of Science and Technology of China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"FANGZHAO WU\"",
+                "tgt_id": "\"DEPARTMENT OF ELECTRONIC ENGINEERING, TSINGHUA UNIVERSITY\"",
+                "weight": 8.0,
+                "description": "\"Fangzhao Wu is affiliated with the Department of Electronic Engineering, Tsinghua University.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"CHUHAN WU\"",
+                "tgt_id": "\"DEPARTMENT OF ELECTRONIC ENGINEERING, TSINGHUA UNIVERSITY\"",
+                "weight": 8.0,
+                "description": "\"Chuhan Wu is affiliated with the Department of Electronic Engineering, Tsinghua University.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"KUN ZHANG\"",
+                "tgt_id": "\"UNIVERSITY OF SCIENCE AND TECHNOLOGY OF CHINA\"",
+                "weight": 8.0,
+                "description": "\"Kun Zhang is affiliated with the University of Science and Technology of China.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"ZHENG LIU\"",
+                "tgt_id": "\"MICROSOFT RESEARCH ASIA\"",
+                "weight": 8.0,
+                "description": "\"Zheng Liu is affiliated with Microsoft Research Asia.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"XING XIE\"",
+                "tgt_id": "\"MICROSOFT RESEARCH ASIA\"",
+                "weight": 8.0,
+                "description": "\"Xing Xie is affiliated with Microsoft Research Asia.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"UNIVERSITY OF SCIENCE AND TECHNOLOGY OF CHINA\"",
+                "tgt_id": "\"HEFEI\"",
+                "weight": 9.0,
+                "description": "\"The University of Science and Technology of China is located in Hefei.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"MICROSOFT RESEARCH ASIA\"",
+                "tgt_id": "\"BEIJING\"",
+                "weight": 9.0,
+                "description": "\"Microsoft Research Asia is located in Beijing.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"DEPARTMENT OF ELECTRONIC ENGINEERING, TSINGHUA UNIVERSITY\"",
+                "tgt_id": "\"BEIJING\"",
+                "weight": 1.0,
+                "description": "\"The Department of Electronic Engineering, Tsinghua University is located in Beijing.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"GOOGLE NEWS\"",
+                "tgt_id": "\"PERSONALIZED NEWS RECOMMENDATION\"",
+                "weight": 7.0,
+                "description": "\"Google News is an online news platform that uses personalized news recommendation to distribute news to users.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"GOLDEN STATE WARRIORS\"",
+                "tgt_id": "\"LONG-TERM INTEREST\"",
+                "weight": 6.0,
+                "description": "\"The NBA team Golden State Warriors is used as an example of a long-term interest for a user.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"BOHEMIAN RHAPSODY\"",
+                "tgt_id": "\"SHORT-TERM INTEREST\"",
+                "weight": 6.0,
+                "description": "\"The movie 'Bohemian Rhapsody' is an example that triggers short-term interest in related news.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"RAMI MALEK WINS THE 2019 OSCAR\"",
+                "tgt_id": "\"SHORT-TERM INTEREST\"",
+                "weight": 6.0,
+                "description": "\"The event of Rami Malek winning the Oscar is related to short-term interest in news about him.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"NEWS ENCODER\"",
+                "tgt_id": "\"ATTENTION MECHANISM\"",
+                "weight": 8.0,
+                "description": "\"The news encoder uses the attention mechanism to select important words for learning informative news representations.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"USER ENCODER\"",
+                "tgt_id": "\"LTUR MODULE\"",
+                "weight": 8.0,
+                "description": "\"The user encoder includes the LTUR module for learning long-term user representations.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            },
+            {
+                "src_id": "\"USER ENCODER\"",
+                "tgt_id": "\"STUR MODULE\"",
+                "weight": 8.0,
+                "description": "\"The user encoder includes the STUR module for learning short-term user representations.\"",
+                "source_id": "chunk-cfc4856ec35cb9a74b12e7ab5c8a14fc"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-d32cfda1064fc979d2b4d17b3455cf82",
+        "entities": [
+            {
+                "entity_name": "\"HUIFENG GUO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Huifeng Guo is an author of the paper DeepFM: A factorization-machine based neural network for CTR prediction.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"RUIMING TANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ruiming TANG is an author of the paper DeepFM: A factorization-machine based neural network for CTR prediction.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"YUNMING YE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yunming Ye is an author of the paper DeepFM: A factorization-machine based neural network for CTR prediction.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"ZHENGUO LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhenguo Li is an author of the paper DeepFM: A factorization-machine based neural network for CTR prediction.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"XIUQIANG HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiuqiang He is an author of the paper DeepFM: A factorization-machine based neural network for CTR prediction.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"IJCAI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"IJCAI is the conference where the paper DeepFM: A factorization-machine based neural network for CTR prediction was presented.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"SEPP HOCHREITER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sepp Hochreiter is an author of the paper Long short-term memory.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JU¨RGEN SCHMIDHUBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ju¨rgen Schmidhuber is an author of the paper Long short-term memory.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"NEURAL COMPUTATION\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Neural Computation is the journal where the paper Long short-term memory was published.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"PO-SEN HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Po-Sen Huang is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"XIAODONG HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaodong He is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"LI DENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li Deng is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"ALEX ACERO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Acero is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"LARRY HECK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Larry Heck is an author of the paper Learning deep structured semantic models for web search using clickthrough data.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"CIKM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CIKM is the conference where the paper Learning deep structured semantic models for web search using clickthrough data was presented.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"YOON KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoon Kim is an author of the paper Convolutional neural networks for sentence classification.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"EMNLP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP is the conference where the paper Convolutional neural networks for sentence classification was presented.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"DIEDERIK P KINGMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Diederik P Kingma is an author of the paper Adam: A method for stochastic optimization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JIMMY BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jimmy Ba is an author of the paper Adam: A method for stochastic optimization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"ARXIV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"arXiv is the platform where the paper Adam: A method for stochastic optimization was published as a preprint.\"(\"entity\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"MICHAL SELA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michal Sela is an author of the paper User attitudes towards news content personalization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"ILIT OPPENHEIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilit Oppenheim is an author of the paper User attitudes towards news content personalization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"OHAD INBAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ohad Inbar is an author of the paper User attitudes towards news content personalization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JOACHIM MEYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joachim Meyer is an author of the paper User attitudes towards news content personalization.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL JOURNAL OF HUMAN-COMPUTER STUDIES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"International Journal of Human-Computer Studies is the journal where the paper User attitudes towards news content personalization was published.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"YANN LECUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yann LeCun is an author of the paper Deep learning.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"YOSHUA BENGIO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoshua Bengio is an author of the paper Deep learning.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"GEOFFREY HINTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Geoffrey Hinton is an author of the paper Deep learning.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"NATURE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Nature is the journal where the paper Deep learning was published.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"LEI LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lei Li is an author of the paper Modeling and broadening temporal user interest in personalized news recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"LI ZHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li Zheng is an author of the paper Modeling and broadening temporal user interest in personalized news recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"FAN YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fan Yang is an author of the paper Modeling and broadening temporal user interest in personalized news recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"TAO LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tao Li is an author of the paper Modeling and broadening temporal user interest in personalized news recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"EXPERT SYSTEMS WITH APPLICATIONS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Expert Systems with Applications is the journal where the paper Modeling and broadening temporal user interest in personalized news recommendation was published.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"LIHONG LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lihong Li is an author of the paper A contextual-bandit approach to personalized news article recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"WEI CHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wei Chu is an author of the paper A contextual-bandit approach to personalized news article recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JOHN LANGFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Langford is an author of the paper A contextual-bandit approach to personalized news article recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"ROBERT E. SCHAPIRE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Robert E. Schapire is an author of the paper A contextual-bandit approach to personalized news article recommendation.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"WWW\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"WWW is the conference where the paper A contextual-bandit approach to personalized news article recommendation was presented.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"JIANXUN LIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianxun Lian is an author of the paper Towards better representation learning for personalized news recommendation: a multi-channel deep fusion approach.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            },
+            {
+                "entity_name": "\"FUZHENG ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fuzheng Zhang is an author of the paper Towards better representation learning for personalized news recommendation: a multi-channel deep fusion approach.\"",
+                "source_id": "chunk-d32cfda1064fc979d2b4d17b3455cf82"
+            }
+        ],
+        "relationships": []
+    },
+    "1": {
+        "chunk_key": "chunk-f08fa90ed86e33cca2697ff366884585",
+        "entities": [
+            {
+                "entity_name": "\"LTUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LTUR refers to the long-term user representation module, which is part of the user encoder system for learning user representations from their IDs.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"STUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"STUR stands for short-term user representation module, which uses a GRU network to learn short-term user representations from recent browsing data.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"GRU NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GRU network is utilized in the STUR module to learn short-term user representations based on recent browsing news.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LSTUR\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTUR is the neural news recommendation approach that includes both long- and short-term user representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"NEWS ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News Encoder is a component of the LSTUR approach, responsible for learning representations of news from titles, topics, and subtopics.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"TITLE ENCODER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Title Encoder is a sub-module of the News Encoder, used to learn news representations from news titles.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"CNN NETWORK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "CNN Network is part of the Title Encoder, used to learn contextual word representations by capturing local context information.",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"ZHENG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zheng et al., 2018 are researchers who have contributed to the field of personalized news recommendation.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2018 are researchers who have worked on learning accurate news and user representations for news recommendation.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"PHELAN ET AL., 2009\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Phelan et al., 2009 are researchers who have worked on conventional news recommendation methods relying on manual feature engineering.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LIU ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu et al., 2010 are researchers who proposed using topic categories and interests features predicted by a Bayesian model to represent news and users.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LI ET AL., 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li et al., 2010 are researchers who contributed to the field of news recommendation.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"SON ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Son et al., 2013 are researchers who have worked on conventional news recommendation methods.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"BANSAL ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bansal et al., 2015 are researchers who have contributed to the field of news recommendation.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LIAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lian et al., 2018 are researchers who have worked on conventional news recommendation methods.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"OKURA ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Okura et al., 2017 are researchers who proposed a deep learning method for personalized news recommendation.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"WU ET AL., 2019\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wu et al., 2019 are researchers who proposed a method to learn news and user representations with personalized word- and news-level attention networks.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LECUN ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"LeCun et al., 2015 are researchers who contributed to the development of convolutional neural networks (CNN).\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"NEWS RECOMMENDATION METHODS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"News recommendation methods are critical for learning accurate news and user representations in the field of natural language processing.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"MANUAL FEATURE ENGINEERING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Manual feature engineering is a technique relied upon by many conventional news recommendation methods, requiring massive domain knowledge.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"BAYESIAN MODEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The Bayesian model is used to predict topic categories and interests features for representing news and users.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"LATENT DIRICHLET ALLOCATION (LDA)\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"LDA is a model used to generate topic distribution features as news representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"DENOISING AUTOENCODER\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Denoising autoencoder is a deep learning method proposed to learn representations of news from news bodies.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"KNOWLEDGE-AWARE CNN NETWORK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Knowledge-aware CNN network is a method proposed to learn representations of news from their titles.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"PERSONALIZED WORD- AND NEWS-LEVEL ATTENTION NETWORKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Personalized word- and news-level attention networks exploit user ID embeddings to generate query vectors for attentions, used for learning news and user representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"WORD EMBEDDING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Word embedding is a technique used to convert word sequences into dense semantic vectors.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "entity_name": "\"BLEI ET AL., 2003\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Blei et al., 2003 are researchers who developed the Latent Dirichlet Allocation (LDA) model.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LTUR\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 8.0,
+                "description": "\"LTUR and STUR are both modules within the user encoder system, working together to learn long-term and short-term user representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"GRU NETWORK\"",
+                "tgt_id": "\"STUR\"",
+                "weight": 1.0,
+                "description": "\"The GRU network(\"entity\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"NEWS RECOMMENDATION METHODS\"",
+                "tgt_id": "\"MANUAL FEATURE ENGINEERING\"",
+                "weight": 7.0,
+                "description": "\"Many news recommendation methods rely on manual feature engineering.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"LIU ET AL., 2010\"",
+                "tgt_id": "\"BAYESIAN MODEL\"",
+                "weight": 8.0,
+                "description": "\"Liu et al., 2010 proposed using the Bayesian model to represent news and users.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"OKURA ET AL., 2017\"",
+                "tgt_id": "\"DENOISING AUTOENCODER\"",
+                "weight": 8.0,
+                "description": "\"Okura et al., 2017 proposed using denoising autoencoder to learn news representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"WANG ET AL., 2018\"",
+                "tgt_id": "\"KNOWLEDGE-AWARE CNN NETWORK\"",
+                "weight": 8.0,
+                "description": "\"Wang et al., 2018 proposed using a knowledge-aware CNN network to learn news representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"WU ET AL., 2019\"",
+                "tgt_id": "\"PERSONALIZED WORD- AND NEWS-LEVEL ATTENTION NETWORKS\"",
+                "weight": 8.0,
+                "description": "\"Wu et al., 2019 proposed using personalized word- and news-level attention networks to learn news and user representations.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            },
+            {
+                "src_id": "\"TITLE ENCODER\"",
+                "tgt_id": "\"WORD EMBEDDING\"",
+                "weight": 8.0,
+                "description": "\"The Title Encoder uses word embedding to convert news titles into dense semantic vectors.\"",
+                "source_id": "chunk-f08fa90ed86e33cca2697ff366884585"
+            }
+        ]
+    }
+}

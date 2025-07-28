@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a bar chart titled 'MONTHLY CHANGE IN JOBS' sourced from the Bureau of Labor Statistics. The chart displays monthly job changes over a series of months, with each bar representing the number of jobs added or lost in that month. The bars are shaded in gray, and the scale on the y-axis ranges from +200,000 to +600,000, marked at intervals of +200,000. The x-axis represents the months, although the specific months are not labeled. The tallest bar reaches approximately +600,000, indicating the highest number of jobs added in a single month. Most bars hover around the +400,000 mark. A notable feature is the last bar, which is colored red and stands out from the rest. This bar indicates an addition of +223,000 jobs in December, as explicitly stated next to it. The overall trend shows fluctuations in job additions, with some months experiencing higher gains than others."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_3.jpg</data>
+</node>
+<node id="&quot;BAR CHART&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A bar chart displaying data with a range from +200,000 to +600,000. The last bar is highlighted in red and indicates an increase of +223,000 in December."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_3.jpg</data>
+</node>
+<node id="&quot;DECEMBER DATA&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_3.jpg</data>
+  <data key="d1">"The bar chart includes a specific data point for December, which shows an increase of +223,000."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;BAR CHART&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bar Chart是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BAR CHART&quot;" target="&quot;DECEMBER DATA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bar chart includes a specific data point for December, which shows an increase of +223,000."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

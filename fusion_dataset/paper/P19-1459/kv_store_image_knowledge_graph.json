@@ -1,0 +1,266 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the performance of various models on a specific task, likely related to argument comprehension or text classification. The table is divided into two main sections: 'Dev' and 'Test'. Under 'Dev', there are columns for 'Mean' and 'Median', while under 'Test', there are columns for 'Mean', 'Median', and 'Max'. The rows represent different models and baselines. The first row shows 'Human (trained)' with a test mean of 0.909 ± 0.11. The second row shows 'Human (untrained)' with a test mean of 0.798 ± 0.16. The subsequent rows list various models: BERT (Large) with a dev mean of 0.701 ± 0.05, a test mean of 0.671 ± 0.09, a test median of 0.712, and a test max of 0.770; GIST (Choi and Lee, 2018) with a dev mean of 0.716 ± 0.01 and a test mean of 0.711 ± 0.01; BERT (Base) with a dev mean of 0.680 ± 0.02, a test mean of 0.623 ± 0.07, a test median of 0.651, and a test max of 0.685; World Knowledge (Botschen et al., 2018) with a dev mean of 0.674 ± 0.01 and a test mean of 0.568 ± 0.03; BoV with a dev mean of 0.639 ± 0.02 and a test mean of 0.564 ± 0.02; and BiLSTM with a dev mean of 0.658 ± 0.01 and a test mean of 0.552 ± 0.02. The table highlights the performance of these models, with BERT (Large) achieving the highest test max value of 0.770."
+        },
+        {
+            "entity_name": "HUMAN (TRAINED)",
+            "entity_type": "PERSON",
+            "description": "A trained human participant in the study, achieving a mean test score of 0.909 ± 0.11."
+        },
+        {
+            "entity_name": "HUMAN (UNTRAINED)",
+            "entity_type": "PERSON",
+            "description": "An untrained human participant in the study, achieving a mean test score of 0.798 ± 0.16."
+        },
+        {
+            "entity_name": "BERT (LARGE)",
+            "entity_type": "ORGANIZATION",
+            "description": "A large version of the BERT model, achieving a mean test score of 0.671 ± 0.09 and a maximum score of 0.770."
+        },
+        {
+            "entity_name": "GIST (CHOI AND LEE, 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "The GIST model proposed by Choi and Lee in 2018, achieving a mean test score of 0.711 ± 0.01."
+        },
+        {
+            "entity_name": "BERT (BASE)",
+            "entity_type": "ORGANIZATION",
+            "description": "A base version of the BERT model, achieving a mean test score of 0.623 ± 0.07 and a maximum score of 0.685."
+        },
+        {
+            "entity_name": "WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "The World Knowledge model proposed by Botschen et al. in 2018, achieving a mean test score of 0.568 ± 0.03 and a maximum score of 0.610."
+        },
+        {
+            "entity_name": "BOV",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bag of Visual Words model, achieving a mean test score of 0.564 ± 0.02 and a maximum score of 0.595."
+        },
+        {
+            "entity_name": "BILSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bi-directional Long Short-Term Memory model, achieving a mean test score of 0.552 ± 0.02 and a maximum score of 0.592."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the general architecture of models used in experiments. It consists of three main layers: the input layer, the processing layer, and the output layer. The input layer contains two sets of inputs represented by pink rectangles labeled 'c', 'r', and 'w_0' for the first set, and 'c', 'r', and 'w_1' for the second set. These inputs are passed through a blue rectangle labeled 'θ', which represents some form of processing or transformation. From this processing layer, two outputs are generated, represented by orange rectangles labeled 'z_0' and 'z_1'. These outputs are then concatenated and passed through a green rectangle labeled 'Softmax', which likely represents the final classification or probability distribution over classes."
+        },
+        {
+            "entity_name": "SOFTMAX",
+            "entity_type": "EVENT",
+            "description": "A mathematical function used in machine learning to turn a vector of real numbers into a probability distribution. It is often used as the activation function for the output layer in neural networks, especially in classification tasks."
+        },
+        {
+            "entity_name": "Z_0",
+            "entity_type": "OBJECT",
+            "description": "A variable representing an input to the Softmax function. It is one of the two inputs shown in the diagram."
+        },
+        {
+            "entity_name": "Z_1",
+            "entity_type": "OBJECT",
+            "description": "Another variable representing an input to the Softmax function. It is the second of the two inputs shown in the diagram."
+        },
+        {
+            "entity_name": "Θ",
+            "entity_type": "OBJECT",
+            "description": "A parameter or weight that is applied to the inputs before they are passed to the Softmax function. This parameter is typically learned during the training process of a machine learning model."
+        },
+        {
+            "entity_name": "C",
+            "entity_type": "OBJECT",
+            "description": "A constant value that is part of the input vectors to the system. It appears twice in the diagram, suggesting it might be a common factor or bias term."
+        },
+        {
+            "entity_name": "R",
+            "entity_type": "OBJECT",
+            "description": "A variable that is part of the input vectors to the system. It appears twice in the diagram, indicating it might represent a repeated measurement or feature."
+        },
+        {
+            "entity_name": "W_0",
+            "entity_type": "OBJECT",
+            "description": "A weight associated with the first input vector. Weights like this are used to scale the inputs before applying the Softmax function."
+        },
+        {
+            "entity_name": "W_1",
+            "entity_type": "OBJECT",
+            "description": "A weight associated with the second input vector. Similar to w_0, it scales the input before the Softmax function is applied."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the processing of an argument-warrant pair using the BERT (Bidirectional Encoder Representations from Transformers) model. The diagram is divided into three main sections: input tokens, BERT layers, and output embeddings. At the top, there are input tokens represented by green boxes with labels such as 'v_CLS', 'v_1(c)', 'v_a(c)', 'v_1(r)', 'v_b(r)', 'v_SEP', 'v_1(w)', and 'v_c(w)'. These tokens correspond to different parts of the input text, including the claim, reason, and warrant. The tokens are connected to the BERT layers, which are depicted as a series of interconnected circles within a blue rectangle labeled 'BERT'. The BERT layers process the input tokens and produce output embeddings, represented by yellow boxes at the bottom with labels such as 'E_CLS', 'E_1(c)', 'E_a(c)', 'E_1(r)', 'E_b(r)', 'E_SEP', 'E_1(w)', and 'E_c(w)'. These embeddings are then used for further processing. The diagram also includes hexagonal shapes at the bottom representing the original text segments, labeled as 'Claim', 'Reason', and 'Warrant'. The overall structure shows how the BERT model processes the input text and generates embeddings for each segment."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep learning model used for natural language processing tasks. It is a transformer-based model that uses bidirectional training to understand the context of words in a sentence."
+        },
+        {
+            "entity_name": "CLAIM",
+            "entity_type": "EVENT",
+            "description": "The initial statement or proposition that is being argued or supported."
+        },
+        {
+            "entity_name": "REASON",
+            "entity_type": "EVENT",
+            "description": "The explanation or justification provided to support the claim."
+        },
+        {
+            "entity_name": "WARRANT",
+            "entity_type": "EVENT",
+            "description": "The underlying assumption or principle that connects the reason to the claim."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Productivity and coverage of using the presence of “not” in the warrant to predict the label in ARCT.' The table is structured with two main columns: 'Productivity' and 'Coverage'. Each column represents a metric and contains the following rows: 'Train', 'Validation', 'Test', and 'All'. The values for each row are as follows: Train - Productivity: 0.65, Coverage: 0.66; Validation - Productivity: 0.62, Coverage: 0.44; Test - Productivity: 0.52, Coverage: 0.77; All - Productivity: 0.61, Coverage: 0.64. The table highlights the productivity and coverage metrics across different dataset partitions, showing that while the productivity is highest in the training set, the coverage is highest in the test set."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying metrics for productivity and coverage across different datasets: Train, Validation, Test, and All. The table includes numerical values for each dataset under the categories of Productivity and Coverage."
+        },
+        {
+            "entity_name": "PRODUCTIVITY",
+            "entity_type": "UNKNOWN",
+            "description": "The table provides numerical values for productivity across different datasets, indicating the efficiency or output level of each dataset."
+        },
+        {
+            "entity_name": "COVERAGE",
+            "entity_type": "UNKNOWN",
+            "description": "The table provides numerical values for coverage across different datasets, indicating the breadth or scope of each dataset."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the results of probing experiments with BERT Large, and the BoV and BiLSTM baselines. The table is structured with four main columns: Test Mean, Test Median, and Test Max. Each row represents a different model or model configuration. The first row shows the performance of BERT with a mean of 0.671 ± 0.09, a median of 0.712, and a maximum of 0.770. The subsequent rows show the performance of BERT with different configurations: BERT (W) has a mean of 0.656 ± 0.05, a median of 0.675, and a maximum of 0.712; BERT (R, W) has a mean of 0.600 ± 0.10, a median of 0.574, and a maximum of 0.750; BERT (C, W) has a mean of 0.532 ± 0.09, a median of 0.503, and a maximum of 0.732. The table also includes results for BoV and BiLSTM models with similar configurations. For BoV, the mean ranges from 0.545 to 0.567, the median from 0.544 to 0.572, and the maximum from 0.579 to 0.606. For BiLSTM, the mean ranges from 0.547 to 0.552, the median from 0.547 to 0.555, and the maximum from 0.577 to 0.601. The table highlights the performance differences between the models and their configurations, with BERT showing the highest performance overall."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep learning model used for natural language processing tasks, showing the highest mean test score of 0.671."
+        },
+        {
+            "entity_name": "BERT (W)",
+            "entity_type": "ORGANIZATION",
+            "description": "Variant of BERT with additional weight adjustments, achieving a mean test score of 0.656."
+        },
+        {
+            "entity_name": "BERT (R, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT variant with both regularization and weight adjustments, having a mean test score of 0.600."
+        },
+        {
+            "entity_name": "BERT (C, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT variant with combined and weight adjustments, scoring a mean test score of 0.532."
+        },
+        {
+            "entity_name": "BOV",
+            "entity_type": "ORGANIZATION",
+            "description": "Bag of Words model, achieving a mean test score of 0.564."
+        },
+        {
+            "entity_name": "BOV (W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BoV model with weight adjustments, scoring a mean test score of 0.567."
+        },
+        {
+            "entity_name": "BOV (R, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BoV model with regularization and weight adjustments, achieving a mean test score of 0.554."
+        },
+        {
+            "entity_name": "BOV (C, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BoV model with combined and weight adjustments, scoring a mean test score of 0.545."
+        },
+        {
+            "entity_name": "BILSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "Bidirectional Long Short-Term Memory model, achieving a mean test score of 0.552."
+        },
+        {
+            "entity_name": "BILSTM (W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BiLSTM model with weight adjustments, scoring a mean test score of 0.550."
+        },
+        {
+            "entity_name": "BILSTM (R, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BiLSTM model with regularization and weight adjustments, achieving a mean test score of 0.547."
+        },
+        {
+            "entity_name": "BILSTM (C, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "BiLSTM model with combined and weight adjustments, scoring a mean test score of 0.552."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Figure 4: Original and adversarial data points.' The table is divided into two main columns: 'Original' and 'Adversarial.' Each column contains four rows labeled 'Claim,' 'Reason,' 'Warrant,' and 'Alternative.' In the 'Original' column, the 'Claim' row states 'Google is not a harmful monopoly.' The 'Reason' row states 'People can choose not to use Google.' The 'Warrant' row states 'Other search engines do not redirect to Google.' The 'Alternative' row states 'All other search engines redirect to Google.' In the 'Adversarial' column, the 'Claim' row states 'Google is a harmful monopoly.' The 'Reason' row states 'People can choose not to use Google.' The 'Warrant' row states 'All other search engines redirect to Google.' The 'Alternative' row states 'Other search engines do not redirect to Google.' The table highlights the negation of the claim and the swapping of warrants between the original and adversarial data points. The footnote indicates that the assignment of labels to 'W' and 'A' are kept the same, and by including both, the distribution of linguistic artifacts in the warrants are thereby mirrored around the labels, eliminating the major source of spurious statistical cues in ARCT."
+        },
+        {
+            "entity_name": "GOOGLE",
+            "entity_type": "ORGANIZATION",
+            "description": "A multinational technology company that specializes in Internet-related services and products. It is one of the largest search engines in the world."
+        },
+        {
+            "entity_name": "PEOPLE",
+            "entity_type": "PERSON",
+            "description": "Individuals who have the ability to make choices about which search engines they use."
+        },
+        {
+            "entity_name": "SEARCH ENGINES",
+            "entity_type": "ORGANIZATION",
+            "description": "Software systems designed to search for information on the World Wide Web. They can be categorized into different types, including Google and other alternatives."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the results for BERT Large on an adversarial test set with adversarial training and validation sets. The table has four rows and four columns. The first column lists different versions of BERT: 'BERT', 'BERT (W)', 'BERT (R, W)', and 'BERT (C, W)'. The subsequent columns are labeled 'Mean', 'Median', and 'Max', representing statistical measures of performance. The values in the 'Mean' column are as follows: BERT has a mean of 0.504 ± 0.01, BERT (W) has 0.501 ± 0.00, BERT (R, W) has 0.500 ± 0.00, and BERT (C, W) has 0.501 ± 0.01. The 'Median' column shows that all versions have a median of 0.500 or 0.501. The 'Max' column indicates the maximum values: BERT has 0.533, BERT (W) has 0.502, BERT (R, W) has 0.502, and BERT (C, W) has 0.518. The table highlights the performance metrics of different BERT configurations on the adversarial dataset."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance metrics of different BERT models, including mean, median, and max values for each model."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "The base BERT model with a mean test score of 0.504, a median of 0.505, and a maximum of 0.533."
+        },
+        {
+            "entity_name": "BERT (W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with weight adjustment, having a mean test score of 0.501, a median of 0.501, and a maximum of 0.502."
+        },
+        {
+            "entity_name": "BERT (R, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with both regularization and weight adjustment, showing a mean test score of 0.500, a median of 0.500, and a maximum of 0.502."
+        },
+        {
+            "entity_name": "BERT (C, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with both class weighting and weight adjustment, featuring a mean test score of 0.501, a median of 0.500, and a maximum of 0.518."
+        }
+    ]
+}

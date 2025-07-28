@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_26_VASE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Radish- Color: The radish has a white body with a green top where the leaves would be.- Shape: The radish is round and bulbous, typical of root vegetables.- Size: The radish appears to be of a standard size for its type, neither particularly large nor small.- Material: As a natural object, it would be composed of plant material, including skin and flesh.- Possible function: Used as a vegetable in cooking, often eaten raw in salads or pickled. It can also be used in various culinary dishes.Overall, the radish depicted is a common variety, recognizable by its shape and coloration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+</node>
+<node id="&quot;IMAGE_26&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a whimsical and colorful illustration of a character standing on a green, round object that resembles a planet. The character is dressed in a yellow suit with a white shirt and a green bow tie. He has a red nose and a large, exaggerated smile, giving him a clown-like appearance. He is wearing a yellow hat with a feather, adding to his comical look. The background is filled with bright yellow lines radiating outward, suggesting a burst of light or energy around the character. The overall atmosphere is playful and imaginative, reminiscent of a scene from a children's book."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+</node>
+<node id="&quot;CLOWN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A clown with a red nose, wearing a yellow suit and hat, standing on top of the Earth."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+</node>
+<node id="&quot;EARTH&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The planet Earth, depicted as a green and white sphere with some plants growing on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+</node>
+<node id="&quot;SUN&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A bright yellow sun shining behind the clown."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+</node>
+<edge source="&quot;IMAGE_26_VASE-0.JPG&quot;" target="&quot;EARTH&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_26_vase-0.jpg is a picture of the planet Earth."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26_VASE-0.JPG&quot;" target="&quot;IMAGE_26&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_26_vase-0.jpg是image_26的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;CLOWN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Clown是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;EARTH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Earth是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;SUN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sun是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLOWN&quot;" target="&quot;EARTH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The clown is standing on top of the Earth."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLOWN&quot;" target="&quot;SUN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sun is shining behind the clown."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;EARTH&quot;" target="&quot;SUN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The sun is positioned behind the Earth."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

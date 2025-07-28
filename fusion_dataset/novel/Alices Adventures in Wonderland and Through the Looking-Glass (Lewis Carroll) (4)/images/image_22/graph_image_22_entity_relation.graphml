@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_22_DOG-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair, styled with a headband or ribbon that ties at the back- Expression: Appears to be in a state of surprise or curiosity, with wide eyes and an open mouth- Age: Appears to be a young girl- Clothing: Wearing a long, flowing dress with a high collar and puffed sleeves; the dress has a frilly hem and appears to be from a historical or fantasy setting- Posture: Sitting on the ground with one hand raised to her face, elbows resting on her knees, and the other hand supporting her chinOverall, the character gives off a whimsical, storybook-like vibe, reminiscent of classic fairy tale illustrations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+</node>
+<node id="&quot;IMAGE_22&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. Alice, a young girl with long hair, is shown kneeling on the ground with her hands covering her ears. She appears to be in a state of distress or alarm, as indicated by her posture and expression. The background is filled with numerous drumsticks and drums, which are depicted as if they are floating or flying around Alice, creating a chaotic and noisy atmosphere. The drums and drumsticks are drawn in a whimsical and exaggerated style, contributing to the surreal and fantastical nature of the scene. The ground beneath Alice is grassy, and there is a small brook nearby. The overall mood of the image conveys a sense of chaos and confusion, as Alice tries to block out the overwhelming noise."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, dressed in a dress, kneeling on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+</node>
+<node id="&quot;DISHES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Numerous dishes and utensils flying through the air."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The ground Alice is kneeling on, covered in grass."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+</node>
+<edge source="&quot;IMAGE_22_DOG-0.JPG&quot;" target="&quot;IMAGE_22&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_22_dog-0.jpg是image_22的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;DISHES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dishes是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_22&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_22中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;DISHES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is surrounded by flying dishes and utensils."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is kneeling on the grass."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_22.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

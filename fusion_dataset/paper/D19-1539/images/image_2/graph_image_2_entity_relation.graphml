@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the fine-tuning process for a downstream task in a neural network model. The chart is divided into three main columns labeled 'a', 'b', and 'c'. Each column contains a sequence of green and blue rectangular nodes connected by arrows, representing different states or layers in the model. The green nodes are solid, while the blue nodes have a diagonal striped pattern. The nodes are interconnected with gray arrows indicating the flow of information. At the top of each column, there is a 'comb' node, which combines the outputs from the previous layers. The 'comb' nodes are connected to an output layer labeled 'Embedding of b'. Red dot-dashed arrows indicate connections that are masked during training but unmasked during fine-tuning. These red arrows connect the 'comb' nodes to the final combination layer, allowing the model to access all forward and backward states. The overall structure shows how the model processes information through multiple layers and combines them for the final output."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+</node>
+<node id="&quot;A&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A sequence of elements contributing to the embedding process."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+</node>
+<node id="&quot;B&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A central element that combines embeddings from 'a' and 'c'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+</node>
+<node id="&quot;C&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A sequence of elements contributing to the embedding process."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+</node>
+<node id="&quot;COMB&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The combination function that integrates the embeddings of 'a', 'b', and 'c'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+</node>
+<node id="&quot;EMBEDDING OF A&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d1">"The combination function 'comb' generates an embedding for 'a'."&gt;</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;EMBEDDING OF B&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d1">"The combination function 'comb' generates an embedding for 'b'."&gt;</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;EMBEDDING OF C&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d1">"The combination function 'comb' generates an embedding for 'c'."&gt;</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;A&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"a是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;B&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"b是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;C&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"c是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;COMB&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"comb是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;A&quot;" target="&quot;COMB&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The elements in 'a' feed into the combination function 'comb'."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;B&quot;" target="&quot;COMB&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The central element 'b' is processed by the combination function 'comb'."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;C&quot;" target="&quot;COMB&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The elements in 'c' feed into the combination function 'comb'."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMB&quot;" target="&quot;EMBEDDING OF A&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The combination function 'comb' generates an embedding for 'a'."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMB&quot;" target="&quot;EMBEDDING OF B&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The combination function 'comb' generates an embedding for 'b'."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMB&quot;" target="&quot;EMBEDDING OF C&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The combination function 'comb' generates an embedding for 'c'."&gt;</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

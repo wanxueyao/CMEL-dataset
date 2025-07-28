@@ -1,0 +1,178 @@
+{
+    "chunk-a5eb108ca07f16adae9942cf4d2fadf8": [
+        {
+            "entity_name": "RNN semicharacter architecture",
+            "entity_type": "CONCEPT",
+            "description": "The RNN semicharacter architecture is the basis for the word recognition models proposed in the paper to combat adversarial spelling mistakes, also referred to as the RNN-based semi-character word recognition model.",
+            "source_entities": [
+                "RNN SEMICHARACTER ARCHITECTURE",
+                "RNN-BASED SEMI-CHARACTER WORD RECOGNITION MODEL"
+            ]
+        }
+    ],
+    "chunk-95ba8ed0727ac203c8a613ca825c78cf": null,
+    "chunk-a042c5afc27f9a817cbb4c69d058a331": null,
+    "chunk-481d0257b6245890c5106370c38aa00c": null,
+    "chunk-667f71c87e99d2706ad4a9d7bf4c4383": [
+        {
+            "entity_name": "ScRNN (ATD)",
+            "entity_type": "ORGANIZATION",
+            "description": "ScRNN is a model used for word recognition, with variations that reconstruct better than ATD and vanilla ScRNN models. ATD is a model that predicts 11.2 words incorrectly for every 100 words and is compared with ScRNN models for word recognition accuracy.",
+            "source_entities": [
+                "\"SCRNN\"",
+                "\"ATD\""
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a fine-tuned model used for sentiment analysis and paraphrase detection, setting a new state-of-the-art on several NLP benchmarks. It uses word-piece tokenization as an input format.",
+            "source_entities": [
+                "\"BERT\"",
+                "\"WORD-PIECE TOKENIZATION\""
+            ]
+        },
+        {
+            "entity_name": "Stanford Sentiment Treebank",
+            "entity_type": "EVENT",
+            "description": "Stanford Sentiment Treebank is a dataset used for training and evaluating sentiment analysis models, consisting of positive and negative reviews. It is associated with Socher et al., 2013.",
+            "source_entities": [
+                "\"STANFORD SENTIMENT TREEBANK\"",
+                "\"SOCHER ET AL., 2013\""
+            ]
+        },
+        {
+            "entity_name": "Microsoft Research Paraphrase Corpus",
+            "entity_type": "EVENT",
+            "description": "Microsoft Research Paraphrase Corpus is a dataset used for training and evaluating paraphrase detection models. It is associated with Dolan and Brockett, 2005.",
+            "source_entities": [
+                "\"MICROSOFT RESEARCH PARAPHRASE CORPUS\"",
+                "\"DOLAN AND BROCKETT, 2005\""
+            ]
+        },
+        {
+            "entity_name": "Data Augmentation (DA)",
+            "entity_type": "EVENT",
+            "description": "Data Augmentation (DA) is a method for dealing with adversarial examples, involving fine-tuning the trained model with attacked examples. It is associated with Krizhevsky et al., 2012.",
+            "source_entities": [
+                "\"DATA AUGMENTATION (DA)\"",
+                "\"KRIZHEVSKY ET AL., 2012\""
+            ]
+        },
+        {
+            "entity_name": "Adversarial Training (Adv)",
+            "entity_type": "EVENT",
+            "description": "Adversarial Training (Adv) is a method for dealing with adversarial examples, involving fine-tuning the trained model with additional adversarial examples. It is associated with Goodfellow et al., 2014.",
+            "source_entities": [
+                "\"ADVERSARIAL TRAINING (ADV)\"",
+                "\"GOODFELLOW ET AL., 2014\""
+            ]
+        },
+        {
+            "entity_name": "BiLSTM Architecture",
+            "entity_type": "ORGANIZATION",
+            "description": "BiLSTM is an architecture used for sentiment classification, encoding input sentences into a sequence of embeddings processed sequentially. It has three input formats: Word-only, Char-only, and Word+Char.",
+            "source_entities": [
+                "\"BILSTM\"",
+                "\"WORD-ONLY\"",
+                "\"CHAR-ONLY\"",
+                "\"WORD+CHAR\""
+            ]
+        },
+        {
+            "entity_name": "Adversarial Attacks",
+            "entity_type": "EVENT",
+            "description": "Adversarial Attacks are attacks that involve editing individual characters in input sentences. They include character-level adversarial attacks, add and key attacks, and swap and drop attacks.",
+            "source_entities": [
+                "\"CHARACTER-LEVEL ADVERSARIAL ATTACKS\"",
+                "\"ADD AND KEY ATTACKS\"",
+                "\"SWAP AND DROP ATTACKS\""
+            ]
+        },
+        {
+            "entity_name": "Robustness Tasks",
+            "entity_type": "EVENT",
+            "description": "Robustness Tasks are downstream tasks used to evaluate the robustness of models against adversarial attacks, including Sentiment Analysis and Paraphrase Detection.",
+            "source_entities": [
+                "\"SENTIMENT ANALYSIS\"",
+                "\"PARAPHRASE DETECTION\""
+            ]
+        }
+    ],
+    "chunk-90970573671f6132f5962121c2c4e4f6": [
+        {
+            "entity_name": "Adversarial Attacks",
+            "entity_type": "EVENT",
+            "description": "Adversarial attacks refer to the different types of attacks that can be performed on models, including 1-char attack, 2-char attack, swap attack, drop attack, and add attack. These attacks significantly degrade classifier performance and are used to test the robustness of models and defense methods.",
+            "source_entities": [
+                "1-CHAR ATTACK",
+                "2-CHAR ATTACK",
+                "SWAP ATTACK",
+                "DROP ATTACK",
+                "ADD ATTACK"
+            ]
+        },
+        {
+            "entity_name": "Defense Methods",
+            "entity_type": "ORGANIZATION",
+            "description": "Defense methods are strategies used to protect models against adversarial attacks. DA and Adv are not effective, while ATD spell corrector is effective on keyboard attacks but performs poorly on other attack types. ScRNN model with pass-through backoff offers better protection, especially for swap attack, and can mitigate the adversarial effect in various models. Background models are used as a backoff alternative due to their lower word error rate.",
+            "source_entities": [
+                "DA",
+                "ADV",
+                "ATD SPELL CORRECTOR",
+                "SCRNN MODEL",
+                "BACKGROUND MODELS"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model whose accuracy is significantly degraded by 1-2 character attacks but can be defended by word recognition models. Its accuracy is tested under various attack and defense settings in the MRPC task.",
+            "source_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "MRPC",
+            "entity_type": "EVENT",
+            "description": "MRPC is the event or task where BERT's accuracy is tested under various attack and defense settings, including the 'all' attack setting.",
+            "source_entities": [
+                "MRPC"
+            ]
+        },
+        {
+            "entity_name": "Word Recognizers",
+            "entity_type": "ORGANIZATION",
+            "description": "Word recognizers are models whose sensitivity is tested under different attack types. They can provide an effective defense against adversarial attacks, with pass-through and neutral variants recovering most of the accuracy.",
+            "source_entities": [
+                "WORD RECOGNIZER"
+            ]
+        },
+        {
+            "entity_name": "Model Sensitivity",
+            "entity_type": "EVENT",
+            "description": "Model sensitivity refers to the vulnerability of models to adversarial attacks. The neutral backoff variant has the lowest sensitivity, while open vocabulary downstream classifiers consider every unique combination of characters differently. Sensitivity is a more dominant factor in model robustness than word error rate.",
+            "source_entities": [
+                "TABLE 5",
+                "SECTION $\\S\\ 4.3"
+            ]
+        },
+        {
+            "entity_name": "Human Intelligibility",
+            "entity_type": "EVENT",
+            "description": "Human Intelligibility refers to the study verifying if the sentiment of reviews is preserved with char-level attacks. In a human study with 50 attacked and 50 unchanged reviews, it was noted that 48 and 49, respectively, preserved the sentiment.",
+            "source_entities": [
+                "HUMAN INTELLIGIBILITY"
+            ]
+        },
+        {
+            "entity_name": "Robustness in Models",
+            "entity_type": "EVENT",
+            "description": "Robustness in models refers to their ability to maintain performance under adversarial attacks. Figure 2 depicts the effect of sensitivity and word error rate on robustness in word-only and char-only models. Generally, sensitivity is the more dominant factor out of the two.",
+            "source_entities": [
+                "FIGURE 2"
+            ]
+        }
+    ],
+    "chunk-07348a5a07f00eb932ff919cbdcfdc6d": []
+}

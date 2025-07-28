@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two bar charts side by side, labeled (a) AUC and (b) nDCG@10. Each chart compares the performance of different variants of a news recommendation system, specifically LSTUR-ini and LSTUR-con, with and without incorporating topic and subtopic information. The x-axis of both charts lists the variants: LSTUR-ini and LSTUR-con. The y-axis represents the performance metric values, with the left chart showing AUC values ranging from approximately 0.626 to 0.638, and the right chart showing nDCG@10 values ranging from approximately 0.406 to 0.420. Each variant is represented by a set of four bars, colored yellow, green, dark green, and teal, corresponding to 'None', '+Topic', '+Subtopic', and '+Both' respectively. For example, in the AUC chart, LSTUR-ini with '+Both' achieves the highest value of around 0.638, while LSTUR-con with '+Both' achieves a value of around 0.636. Similarly, in the nDCG@10 chart, LSTUR-ini with '+Both' achieves the highest value of around 0.420, while LSTUR-con with '+Both' achieves a value of around 0.418. The charts clearly show that incorporating both topic and subtopic information generally leads to better performance for both metrics."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+</node>
+<node id="&quot;LSTUR-INI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model or system used in the context of evaluating performance metrics such as AUC and nDCG@10."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+</node>
+<node id="&quot;LSTUR-CON&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another model or system used in the context of evaluating performance metrics such as AUC and nDCG@10."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+</node>
+<node id="&quot;AUC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Area Under the Curve, a metric used to evaluate the performance of classification models. The graph shows the AUC values for different configurations of LSTUR-ini and LSTUR-con."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+</node>
+<node id="&quot;NDCG@10&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Normalized Discounted Cumulative Gain at rank 10, a metric used to evaluate the performance of ranking models. The graph shows the nDCG@10 values for different configurations of LSTUR-ini and LSTUR-con."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;LSTUR-INI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTUR-ini是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;LSTUR-CON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTUR-con是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;AUC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"AUC是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;NDCG@10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"nDCG@10是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTUR-INI&quot;" target="&quot;AUC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of LSTUR-ini is evaluated using the AUC metric, with different configurations showing varying AUC values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTUR-INI&quot;" target="&quot;NDCG@10&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of LSTUR-ini is evaluated using the nDCG@10 metric, with different configurations showing varying nDCG@10 values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTUR-CON&quot;" target="&quot;AUC&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of LSTUR-con is evaluated using the AUC metric, with different configurations showing varying AUC values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTUR-CON&quot;" target="&quot;NDCG@10&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The performance of LSTUR-con is evaluated using the nDCG@10 metric, with different configurations showing varying nDCG@10 values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1033/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

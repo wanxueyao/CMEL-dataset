@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Dataset Statistic' that provides statistical information about two datasets: LANI and CHAI. The table is structured with the following columns: Number paragraphs, Mean instructions per paragraph, Mean actions per instruction, Mean tokens per instruction, and Vocabulary size. For the LANI dataset, the values are as follows: Number paragraphs (6,000), Mean instructions per paragraph (4.7), Mean actions per instruction (24.6), Mean tokens per instruction (12.1), and Vocabulary size (2,292). For the CHAI dataset, the values are: Number paragraphs (1,596), Mean instructions per paragraph (7.70), Mean actions per instruction (54.5), Mean tokens per instruction (8.4), and Vocabulary size (1,018). The table highlights the differences in the complexity and size of the two datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+</node>
+<node id="&quot;LANI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Dataset with 6,000 paragraphs, 4.7 mean instructions per paragraph, 24.6 mean actions per instruction, 12.1 mean tokens per instruction, and a vocabulary size of 2,292."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+</node>
+<node id="&quot;CHAI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Dataset with 1,596 paragraphs, 7.70 mean instructions per paragraph, 54.5 mean actions per instruction, 8.4 mean tokens per instruction, and a vocabulary size of 1,018."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LANI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LANI是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CHAI是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LANI&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both are datasets used for comparison in terms of various statistics such as the number of paragraphs, instructions, actions, tokens, and vocabulary size."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

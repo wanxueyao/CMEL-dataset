@@ -1,0 +1,2306 @@
+{
+    "2": {
+        "chunk_key": "chunk-6ced64911e56248a89a8b530563c72dd",
+        "entities": [
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIERC is an organization that focuses on annotating cross-sentence relations and has more relation coverage than SemEval 17 and SemEval 18.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"SEMEVAL 17\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 17 is an event mostly designed for entity recognition and covers only two relation types.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"SEMEVAL 18\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 18 is an event designed to classify a relation between a pair of entities, but only intra-sentence relations are annotated.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"SCIIE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIIE is a unified framework developed to identify and classify scientific entities, relations, and coreference resolution across sentences.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al., 2017 is referenced for previous work on coreference resolution models.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"HE ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"He et al., 2018 is referenced for previous work on semantic role labeling models.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"GENERAL AI COMMUNITIES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIERC aims at including broader coverage of general AI communities.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Table 1 provides a comparison of statistics among the three datasets: SCIERC, SemEval 17, and SemEval 18.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"D\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"D represents a document as a sequence of words from which spans are derived.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"S\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"S represents the set of all possible within-sentence word sequence spans in the document.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"E\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"E represents the entity types for all spans S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"R\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"R represents the relations for all pairs of spans S×S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"C\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"C represents the coreference links for all spans in S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"L_{\\MATHRM{E}}\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"L_{\\mathrm{E}} represents the set of all possible entity types including the null-type.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "entity_name": "\"L_{\\MATHRM{R}}\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"L_{\\mathrm{R}} represents the set of all possible relation types including the null-type.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SCIERC\"",
+                "tgt_id": "\"SEMEVAL 17\"",
+                "weight": 6.0,
+                "description": "\"SCIERC is compared with SemEval 17 in terms of relation coverage and focus.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"SCIERC\"",
+                "tgt_id": "\"SEMEVAL 18\"",
+                "weight": 6.0,
+                "description": "\"SCIERC is compared with SemEval 18 in terms of relation coverage and focus.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"LEE ET AL., 2017\"",
+                "weight": 7.0,
+                "description": "\"SCIIE extends previous span-based models for coreference resolution by Lee et al., 2017.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"HE ET AL., 2018\"",
+                "weight": 7.0,
+                "description": "\"SCIIE extends previous span-based models for semantic role labeling by He et al., 2018.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"SCIERC\"",
+                "tgt_id": "\"GENERAL AI COMMUNITIES\"",
+                "weight": 5.0,
+                "description": "\"SCIERC aims to include broader coverage of general AI communities in its dataset.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"D\"",
+                "weight": 8.0,
+                "description": "\"SCIIE takes D, a document represented as a sequence of words, as its input.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"D\"",
+                "tgt_id": "\"S\"",
+                "weight": 9.0,
+                "description": "\"D is used to derive S, the set of all possible within-sentence word sequence spans in the document.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"S\"",
+                "tgt_id": "\"E\"",
+                "weight": 9.0,
+                "description": "\"E represents the entity types for all spans S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"S\"",
+                "tgt_id": "\"R\"",
+                "weight": 9.0,
+                "description": "\"R represents the relations for all pairs of spans S×S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"S\"",
+                "tgt_id": "\"C\"",
+                "weight": 9.0,
+                "description": "\"C represents the coreference links for all spans in S.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"E\"",
+                "tgt_id": "\"L_{\\MATHRM{E}}\"",
+                "weight": 7.0,
+                "description": "\"E is indexed by spans and uses L_{\\mathrm{E}} as the set of all possible entity types.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            },
+            {
+                "src_id": "\"R\"",
+                "tgt_id": "\"L_{\\MATHRM{R}}\"",
+                "weight": 7.0,
+                "description": "\"R is indexed over pairs of spans and uses L_{\\mathrm{R}} as the set of all possible relation types.\"",
+                "source_id": "chunk-6ced64911e56248a89a8b530563c72dd"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-2a11044e6b23f189d1c5255331a0663e",
+        "entities": [
+            {
+                "entity_name": "\"E2E REL\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"E2E Rel is an event or process being compared with ELMO in the context of coreference resolution.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ELMO is compared with E2E Rel in coreference resolution, indicating its role as a system or model.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SCIIE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIIE outperforms E2E Coref, suggesting it is a system or model used for comparison.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SEMEVAL 17\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 17 is an event where the model's performance is compared with the state of the art on various tasks.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIERC is associated with a development set used for the ablation study on multitask learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"NLP\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"NLP refers to the field of Natural Language Processing, which is a geolocation in the context of scientific applications.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"NSF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF is an organization that provided funding for the research, as indicated by the acknowledgments.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"OFFICE OF NAVAL RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Office of Naval Research is an organization that supported the research through a MURI grant.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"ENTITY RECOGNITION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Entity recognition is one of the tasks in the dataset where performance is evaluated.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"COREFERENCE RESOLUTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Coreference resolution is a task that shows improvement when combined with other tasks in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"RELATION EXTRACTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Relation extraction is a task that benefits significantly from multi-tasking with coreference resolution.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SPAN IDENTIFICATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Span identification is a task in SemEval 17 that aims at identifying spans of entities.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"KEYPHRASE EXTRACTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Keyphrase extraction is a task in SemEval 17 with the same setting as entity and relation extraction in SCIERC.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SCIERC DEVELOPMENT SET\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"SCIERC development set is a dataset used for ablation study in multitask learning on SCIERC.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"SPEECH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Speech is a field where neural networks have been applied, particularly in the context of scientific trend analysis.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"COMPUTER VISION\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Computer Vision is a field where neural networks gained popularity, especially in object recognition.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"MURI GRANT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MURI grant is a funding source mentioned in the acknowledgments, supporting the research.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "entity_name": "\"ALLEN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Allen is an organization or individual mentioned in the acknowledgments as a supporter of the research.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"E2E REL\"",
+                "tgt_id": "\"ELMO\"",
+                "weight": 6.0,
+                "description": "\"E2E Rel is compared with ELMO in the context of coreference resolution, showing a comparative relationship.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"SEMEVAL 17\"",
+                "tgt_id": "\"SCIERC\"",
+                "weight": 5.0,
+                "description": "\"SemEval 17 results are compared with SCIERC, suggesting a comparative relationship between the two datasets.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"NSF\"",
+                "tgt_id": "\"OFFICE OF NAVAL RESEARCH\"",
+                "weight": 4.0,
+                "description": "\"NSF and Office of Naval Research are both funding sources for the research, indicating a collaborative relationship.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"ENTITY RECOGNITION\"",
+                "tgt_id": "\"COREFERENCE RESOLUTION\"",
+                "weight": 6.0,
+                "description": "\"Entity recognition benefits from coreference resolution in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"ENTITY RECOGNITION\"",
+                "tgt_id": "\"RELATION EXTRACTION\"",
+                "weight": 6.0,
+                "description": "\"Entity recognition benefits from relation extraction in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"RELATION EXTRACTION\"",
+                "tgt_id": "\"COREFERENCE RESOLUTION\"",
+                "weight": 7.0,
+                "description": "\"Relation extraction significantly benefits when multi-tasked with coreference resolution.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"SCIERC DEVELOPMENT SET\"",
+                "tgt_id": "\"ENTITY RECOGNITION\"",
+                "weight": 5.0,
+                "description": "\"SCIERC development set is used to evaluate the performance of entity recognition in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"SCIERC DEVELOPMENT SET\"",
+                "tgt_id": "\"COREFERENCE RESOLUTION\"",
+                "weight": 5.0,
+                "description": "\"SCIERC development set is used to evaluate the performance of coreference resolution in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            },
+            {
+                "src_id": "\"SCIERC DEVELOPMENT SET\"",
+                "tgt_id": "\"RELATION EXTRACTION\"",
+                "weight": 5.0,
+                "description": "\"SCIERC development set is used to evaluate the performance of relation extraction in multi-task learning.\"",
+                "source_id": "chunk-2a11044e6b23f189d1c5255331a0663e"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-050ba62143bccd8f76afdad969812b02",
+        "entities": [
+            {
+                "entity_name": "\"SCIIE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIIE is a unified framework evaluated on SCIERC and SemEval 17 datasets for various tasks including entity recognition, relation extraction, and coreference resolution.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SCIERC is a dataset used for evaluating the performance of the SCIIE framework on tasks such as entity recognition, relation extraction, and coreference resolution.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"SEMEVAL 17\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 17 is another dataset used for evaluating the performance of the SCIIE framework, particularly in entity and relation extraction tasks.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"SEMANTIC SCHOLAR CORPUS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Semantic Scholar Corpus is a corpus used for scientific community analysis, consisting of 110k abstracts.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"LSTM+CRF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM+CRF is a state-of-the-art NER system that applies CRF on top of LSTM for named entity tagging, used as a baseline for comparison with SCIIE.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"E2E REL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"E2E Rel is a state-of-the-art joint entity and relation extraction system that has been used in scientific literature and serves as a baseline for comparison with SCIIE.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"E2E COREF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"E2E Coref is a state-of-the-art coreference system combined with ELMO, which is extended by SCIIE with multi-task learning, used as a baseline for comparison.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"LUAN ET AL., 2017B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luan et al., 2017b refers to a group of researchers whose work has been used in scientific term extraction and keyphrase extraction, serving as a baseline for comparison.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"MIWA AND BANSAL, 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miwa and Bansal, 2016 are researchers who developed a state-of-the-art joint entity and relation extraction system, E2E Rel, used as a baseline for SCIIE.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al., 2017 are researchers who reported the best system in the SemEval leaderboard, which extends E2E Rel with in-domain features and model ensembles.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"AUGENSTEIN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Augenstein et al., 2017 are researchers who have used the E2E Rel system in scientific literature, contributing to its development and application.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al., 2017 developed a state-of-the-art coreference system that is combined with ELMO and extended by SCIIE with multi-task learning.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"GAL AND GHAHRAMANI, 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gal and Ghahramani, 2016 are researchers who introduced variational dropout, a technique used in the implementation of SCIIE.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"AUTOMATIC SPEECH RECOGNITION (ASR)\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Automatic Speech Recognition (ASR) is a technology mentioned in the context of relation types between pairs of entities in the knowledge graph.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"MACHINE TRANSLATION (MT)\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Machine Translation (MT) is a technology mentioned in the context of relation types between pairs of entities in the knowledge graph.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"CONDITIONAL RANDOM FIELD (CRF)\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Conditional Random Field (CRF) is a model used in the LSTM+CRF baseline system for named entity recognition and scientific term extraction.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"GRAPHICAL MODEL (GM)\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Graphical Model (GM) is a model mentioned in the context of relation types between pairs of entities in the knowledge graph.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "entity_name": "\"ELMO\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"ELMO is a feature used as an additional input in various models, including LSTM+CRF and E2E Rel, to improve performance.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"SCIERC\"",
+                "weight": 8.0,
+                "description": "\"SCIIE is evaluated on the SCIERC dataset for its performance in entity recognition, relation extraction, and coreference resolution tasks.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"SEMEVAL 17\"",
+                "weight": 8.0,
+                "description": "\"SCIIE is evaluated on the SemEval 17 dataset for its performance in entity and relation extraction tasks.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"LSTM+CRF\"",
+                "weight": 7.0,
+                "description": "\"SCIIE is compared with LSTM+CRF, showing relative improvements in entity recognition and relation extraction tasks.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"E2E REL\"",
+                "weight": 9.0,
+                "description": "\"SCIIE is compared with E2E Rel, showing significant improvements in relation extraction and coreference resolution tasks.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"SCIIE\"",
+                "tgt_id": "\"E2E COREF\"",
+                "weight": 7.0,
+                "description": "\"SCIIE extends E2E Coref with multi-task learning, showing a relative improvement in coreference resolution.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"LUAN ET AL., 2017B\"",
+                "tgt_id": "\"LSTM+CRF\"",
+                "weight": 6.0,
+                "description": "\"Luan et al., 2017b's work has been used in scientific term extraction, similar to the approach of LSTM+CRF.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"MIWA AND BANSAL, 2016\"",
+                "tgt_id": "\"E2E REL\"",
+                "weight": 9.0,
+                "description": "\"Miwa and Bansal, 2016 developed the E2E Rel system, which is a baseline for SCIIE.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"PETERS ET AL., 2017\"",
+                "tgt_id": "\"E2E REL\"",
+                "weight": 8.0,
+                "description": "\"Peters et al., 2017 extended E2E Rel with in-domain features and model ensembles, contributing to the state of the art in the SemEval task.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"LEE ET AL., 2017\"",
+                "tgt_id": "\"E2E COREF\"",
+                "weight": 8.0,
+                "description": "\"Lee et al., 2017's coreference system is combined with ELMO and extended by SCIIE, indicating a progression in the development of coreference systems.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            },
+            {
+                "src_id": "\"AUTOMATIC SPEECH RECOGNITION (ASR)\"",
+                "tgt_id": "\"MACHINE TRANSLATION (MT)\"",
+                "weight": 7.0,
+                "description": "\"ASR and MT are related as they are both technologies involved in the relation types between pairs of entities in the knowledge graph.\"",
+                "source_id": "chunk-050ba62143bccd8f76afdad969812b02"
+            }
+        ]
+    },
+    "10": {
+        "chunk_key": "chunk-e2c104027cba0af02f4bebfa9c994044",
+        "entities": [
+            {
+                "entity_name": "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ACL RD-TEC Annotation Guideline is a guideline used for entity boundary annotation in text.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"BRA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"BRA is an interface used for annotation examples in ACL papers.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"ACL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ACL is an organization that publishes papers and has annotation guidelines.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"NLP APPLICATIONS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NLP applications is a field that includes machine translation and language generation.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"MACHINE READING SYSTEM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The machine reading system is a system introduced in the text that incorporates prior knowledge.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"POS TAGGER\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The POS tagger is a part-of-speech tagging system developed in the text.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"QASEMIZADEH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"QasemiZadeh is an individual involved in the development of the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"SCHUMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Schumann is an individual involved in the development of the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"STATISTICAL MACHINE TRANSLATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Statistical machine translation is the central theme of the automatically generated knowledge graph.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"QUANTITATIVE PRIOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Quantitative prior refers to a type of prior knowledge that is often compared to qualitative prior.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"QUALITATIVE PRIOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Qualitative prior refers to a type of prior knowledge that is often overlooked.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"CONJUNCTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Conjunction refers to a symmetric relation where two entities function similarly or incorporate with each other.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"HUMAN EXPERT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Human expert is a source of prior knowledge that can be used in NLP applications.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"KNOWLEDGE BASE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Knowledge base is a source of prior knowledge that can be used in NLP applications.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"MACHINE TRANSLATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Machine translation is an NLP application that involves translating text from one language to another.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"LANGUAGE GENERATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Language generation is an NLP application that involves generating text in a specific language.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"ANAPHORA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Anaphora is a linguistic phenomenon where a word or phrase refers back to a previous word or phrase.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"CATAPHORA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cataphora is a linguistic phenomenon where a word or phrase refers forward to a following word or phrase.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"COREFERRING NOUN PHRASE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Coreferring noun phrase refers to a noun phrase that has the same reference as another noun phrase.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"NEURAL BASED APPROACH\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Neural based approach refers to a method that uses neural networks as its foundation.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"LOCAL SMOOTHNESS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Local smoothness refers to a property of certain algorithms that can be exploited for various purposes.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"DATA STRUCTURE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Data structure refers to a way of organizing and storing data in a computer program.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "entity_name": "\"Y\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Y is a placeholder used to represent a concept or entity in the context of negative relations.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "tgt_id": "\"QASEMIZADEH\"",
+                "weight": 8.0,
+                "description": "\"QasemiZadeh is one of the developers of the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "tgt_id": "\"SCHUMANN\"",
+                "weight": 8.0,
+                "description": "\"Schumann is one of the developers of the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"BRA\"",
+                "tgt_id": "\"ACL\"",
+                "weight": 7.0,
+                "description": "\"BRA is an interface used for annotation examples in ACL papers.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"MACHINE READING SYSTEM\"",
+                "tgt_id": "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "weight": 7.0,
+                "description": "\"The machine reading system is developed following the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"POS TAGGER\"",
+                "tgt_id": "\"ACL RD-TEC ANNOTATION GUIDELINE\"",
+                "weight": 7.0,
+                "description": "\"The POS tagger is developed following the ACL RD-TEC Annotation Guideline.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"STATISTICAL MACHINE TRANSLATION\"",
+                "tgt_id": "\"ACL\"",
+                "weight": 6.0,
+                "description": "\"The knowledge graph centered on statistical machine translation is related to ACL as it is an ACL paper topic.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"QUANTITATIVE PRIOR\"",
+                "tgt_id": "\"QUALITATIVE PRIOR\"",
+                "weight": 7.0,
+                "description": "\"Quantitative prior is often compared to qualitative prior in terms of their usage and importance.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"CONJUNCTION\"",
+                "tgt_id": "\"HUMAN EXPERT\"",
+                "weight": 6.0,
+                "description": "\"Conjunction can be used to incorporate knowledge obtained from human experts.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"CONJUNCTION\"",
+                "tgt_id": "\"KNOWLEDGE BASE\"",
+                "weight": 6.0,
+                "description": "\"Conjunction can be used to incorporate knowledge from a knowledge base.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            },
+            {
+                "src_id": "\"NEURAL BASED APPROACH\"",
+                "tgt_id": "\"LOCAL SMOOTHNESS\"",
+                "weight": 7.0,
+                "description": "\"Neural based approach can exploit local smoothness in more aggressive ways.\"",
+                "source_id": "chunk-e2c104027cba0af02f4bebfa9c994044"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-cc0ebc6806895b46dab167f0a64a568d",
+        "entities": [
+            {
+                "entity_name": "\"YI LUAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yi Luan is an author of the paper and affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"LUANHENG HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luanheng He is an author of the paper and affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"MARI OSTENDORF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mari Ostendorf is an author of the paper and affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"HANNANEH HAJISHIRZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hannaneh Hajishirzi is an author of the paper and affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"UNIVERSITY OF WASHINGTON\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The University of Washington is the institution where the authors of the paper are affiliated.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SCIIC\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"SCIIC is a dataset created for scientific information extraction, including annotations for entities, relations, and coreference clusters.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SCIENTIFIC INFORMATION EXTRACTOR (SCIIE)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "SCIIE is a unified framework developed for extracting scientific entities, relations, and coreference clusters with shared span representations.",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"MORPHOLOGICAL PASER (MORPA)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MORPA is a scientific concept used in the paper to illustrate the problem of cross-sentence relations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"DATASET\"",
+                "description": "\"SCIERC is a dataset created for scientific information extraction, which includes annotations for entities, relations, and coreference clusters.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2017 is an event that includes 500 paragraphs from articles in the domains of computer science, physics, and material science for scientific information extraction.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2018 is an event focused on predicting relations between entities within scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"ATHAR AND TEUFEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Athar and Teufel are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"KAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kas is a researcher who has worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"GABOR ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gabor et al. are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"SIM ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sim et al. are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"DO ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Do et al. are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"JAIDKA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jaidka et al. are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"ABUJBARA AND RADEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"AbuJbara and Radev are researchers who have worked on analyzing citations in scientific articles.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"VOGEL AND JURAFSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vogel and Jurafsky are researchers who have worked on analyzing research communities.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"ANDERSON ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anderson et al. are researchers who have worked on analyzing research communities.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"GUPTA AND MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gupta and Manning are researchers who have worked on unsupervised methods for extracting scientific entities and relations.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"TSAI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tsai et al. are researchers who have worked on unsupervised methods for extracting scientific entities and relations.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"GABOR ET AL. 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gabor et al. 2016 are researchers who have worked on unsupervised methods for extracting scientific entities and relations.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"LEE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al. are researchers who have worked on learning span representations and coreference resolution.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"HE ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"He et al. are researchers who have worked on learning span representations and coreference resolution.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"LUAN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luan et al. are researchers who have previously worked on scientific information extraction.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "entity_name": "\"AUGENSTEIN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Augenstein et al. are researchers who have worked on scientific information extraction.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"YI LUAN\"",
+                "tgt_id": "\"UNIVERSITY OF WASHINGTON\"",
+                "weight": 8.0,
+                "description": "\"Yi Luan is affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "src_id": "\"LUANHENG HE\"",
+                "tgt_id": "\"UNIVERSITY OF WASHINGTON\"",
+                "weight": 8.0,
+                "description": "\"Luanheng He is affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "src_id": "\"MARI OSTENDORF\"",
+                "tgt_id": "\"UNIVERSITY OF WASHINGTON\"",
+                "weight": 8.0,
+                "description": "\"Mari Ostendorf is affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "src_id": "\"HANNANEH HAJISHIRZI\"",
+                "tgt_id": "\"UNIVERSITY OF WASHINGTON\"",
+                "weight": 8.0,
+                "description": "\"Hannaneh Hajishirzi is affiliated with the University of Washington.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "src_id": "\"SCIIC\"",
+                "tgt_id": "\"SCIENTIFIC INFORMATION EXTRACTOR (SCIIE)\"",
+                "weight": 9.0,
+                "description": "\"SCIIC is a dataset used in the development and evaluation of the Scientific Information Extractor (SCIIE) framework.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            },
+            {
+                "src_id": "\"MORPHOLOGICAL PASER (MORPA)\"",
+                "tgt_id": "\"SCIIC\"",
+                "weight": 7.0,
+                "description": "\"MORPA is a scientific concept used in the SCIERC dataset to demonstrate the extraction of cross-sentence relations.\"",
+                "source_id": "chunk-cc0ebc6806895b46dab167f0a64a568d"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-309d0af48135e3f30b2c88b741530b50",
+        "entities": [
+            {
+                "entity_name": "\"SCIIE MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The SCIIE model is used for extracting entities, their relations, and coreference clusters within documents.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"SEMANTIC SCHOLAR CORPUS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Semantic Scholar Corpus is a large corpus of scientific articles used for constructing a scientific knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al., 2017 are referenced for their span representations used in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"HOCHREITER AND SCHMIDHUBER, 1997\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hochreiter and Schmidhuber, 1997 are referenced for their work on bi-directional LSTMs used in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"PETERS ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters et al., 2018 are referenced for their work on ELMo embeddings used in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"STATISTICAL MACHINE TRANSLATION (SMT)\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Statistical Machine Translation (SMT) is a scientific term and a node in the knowledge graph, connected to other nodes through various relation types.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"GRAMMATICAL ERROR CORRECTION\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Grammatical error correction is a scientific term and a node in the knowledge graph, connected to SMT through a Used-for relation type.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SCIERC is an event where the SCIIE framework is evaluated.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"SEMEVAL 17\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 17 is an event where the SCIIE framework is evaluated.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"BILSTM OUTPUTS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"BiLSTM outputs are used to construct vector representations for spans in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"ATTENTION-BASED SOFT 'HEADWORD'\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The attention-based soft 'headword' is part of the vector representation for spans in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"EMBEDDED SPAN WIDTH FEATURES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Embedded span width features are part of the vector representation for spans in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"BEAM PRUNING\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Beam pruning is a technique used in the SCIIE model to reduce the number of pairwise span factors.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$B_{\\MATHRM{C}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$B_{\\mathrm{C}}$ is a beam used to prune spans for the coreference resolution task in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$B_{\\MATHRM{R}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$B_{\\mathrm{R}}$ is a beam used to prune spans for relation extraction in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{MC}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$\\phi_{\\mathrm{mc}}$ is a score used to sort spans in the beam $B_{\\mathrm{C}}$ for coreference resolution.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{MR}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$\\phi_{\\mathrm{mr}}$ is a score used to sort spans in the beam $B_{\\mathrm{R}}$ for relation extraction.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{\\MATHRM{C}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$\\lambda_{\\mathrm{C}}$ is a parameter used to limit the size of beam $B_{\\mathrm{C}}$.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{\\MATHSF{R}}$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$\\lambda_{\\mathsf{R}}$ is a parameter used to limit the size of beam $B_{\\mathrm{R}}$.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"$W$\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"$W$ is the fixed maximum width of spans used to further reduce the number of span factors in the SCIIE model.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"COREFERENCE RESOLUTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Coreference resolution is a task in the SCIIE model where coreference clusters are identified and used to normalize phrases.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"RELATION EXTRACTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Relation extraction is a task in the SCIIE model where relations between entities are identified.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"SCIENTIFIC ENTITIES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Scientific entities are nodes in the knowledge graph constructed from the scientific articles corpus.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"SCIENTIFIC RELATIONS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Scientific relations are edges in the knowledge graph that connect pairs of entities.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"USED-FOR RELATION TYPE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Used-for is a relation type in the knowledge graph that connects nodes like SMT and grammatical error correction.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"COREFERENCE LINKS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Coreference links are used to link entities within the same coreference cluster and replace generic terms with nongeneric terms.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"FREQUENT ENTITIES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Frequent entities are those with counts greater than $k$ in the corpus and are assigned nodes in the knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"REMAINING ENTITIES\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Remaining entities are those for which a frequent entity is a substring and are merged into the knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "entity_name": "\"MOST FREQUENT RELATION TYPE\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The most frequent relation type is the relation type assigned to edges between entities in the knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"SEMANTIC SCHOLAR CORPUS\"",
+                "weight": 8.0,
+                "description": "\"The SCIIE model is applied to the Semantic Scholar Corpus to construct a scientific knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"LEE ET AL., 2017\"",
+                "weight": 6.0,
+                "description": "\"The SCIIE model uses span representations from Lee et al., 2017.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"HOCHREITER AND SCHMIDHUBER, 1997\"",
+                "weight": 6.0,
+                "description": "\"The SCIIE model uses bi-directional LSTMs from Hochreiter and Schmidhuber, 1997.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"PETERS ET AL., 2018\"",
+                "weight": 6.0,
+                "description": "\"The SCIIE model uses ELMo embeddings from Peters et al., 2018.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"STATISTICAL MACHINE TRANSLATION (SMT)\"",
+                "tgt_id": "\"GRAMMATICAL ERROR CORRECTION\"",
+                "weight": 7.0,
+                "description": "\"SMT and grammatical error correction are connected through a Used-for relation type in the knowledge graph.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"SCIERC\"",
+                "weight": 7.0,
+                "description": "\"The SCIIE model is evaluated on the SCIERC event.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            },
+            {
+                "src_id": "\"SCIIE MODEL\"",
+                "tgt_id": "\"SEMEVAL 17\"",
+                "weight": 7.0,
+                "description": "\"The SCIIE model is evaluated on the SemEval 17 event.\"",
+                "source_id": "chunk-309d0af48135e3f30b2c88b741530b50"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-e3424edc2971b088a1bbfecbd01f3aa1",
+        "entities": [
+            {
+                "entity_name": "\"OFFICE OF NAVAL RESEARCH\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Office of Naval Research is an organization that supported the research under the MURI grant N00014-18-1-2670.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"NSF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF is an organization that supported the research with grants IIS 1616112 and III 1703166.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ALLEN DISTINGUISHED INVESTIGATOR AWARD\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Allen Distinguished Investigator Award is an organization that supported the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ALLEN INSTITUTE FOR AI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Allen Institute for AI is an organization that provided gifts to support the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"GOOGLE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Google is an organization that provided gifts to support the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"AMAZON\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon is an organization that provided gifts to support the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"BLOOMBERG\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Bloomberg is an organization that provided gifts to support the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"WALEED AMMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Waleed Ammar is a person who, along with AI2, shared the Semantic Scholar Corpus.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"AI2\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"AI2 is an organization that shared the Semantic Scholar Corpus with Waleed Ammar.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"UW-NLP GROUP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The UW-NLP group is an organization that provided helpful comments for the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"SHOOU-I YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shoou-I Yu is a person who provided helpful comments for the research.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ASSOCIATION FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Association for Computational Linguistics: Human Language Technologies is an organization that hosts the Annual Meeting where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"CONF. EMPIRICAL METHODS NATURAL LANGUAGE PROCESS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Conf. Empirical Methods Natural Language Process (EMNLP) is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"NORTH AMERICAN ASSOC. FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The North American Assoc. for Computational Linguistics: Human Language Technologies (NAACL-HLT) is an organization that hosts the Conf. North American Assoc. for Computational Linguistics: Human Language Technologies.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"INT. WORKSHOP ON SEMANTIC EVALUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Int. Workshop on Semantic Evaluation (SemEval) is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ACL SPECIAL WORKSHOP ON REDISCOVERING 50 YEARS OF DISCOVERIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The ACL Special Workshop on Rediscovering 50 Years of Discoveries is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ACL WORKSHOP ON DETECTING STRUCTURE IN SCHOLARLY DISCOURSE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The ACL Workshop on Detecting Structure in Scholarly Discourse is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ACM/IEEE-CS JOINT CONFERENCE ON DIGITAL LIBRARIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The ACM/IEEE-CS Joint Conference on Digital libraries is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"LANGUAGE RESOURCES AND EVALUATION CONFERENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Language Resources and Evaluation Conference (LREC) is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL SYMPOSIUM ON INTELLIGENT DATA ANALYSIS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The International Symposium on Intelligent Data Analysis is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"ANNU. CONF. NEURAL INFORM. PROCESS. SYST.\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Annu. Conf. Neural Inform. Process. Syst. (NIPS) is an event where scientific papers are presented.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. CONF. EMPIRICAL METHODS NATURAL LANGUAGE PROCESS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Conf. Empirical Methods Natural Language Process (EMNLP) is an event where Heike Adel and Hinrich Schütze presented their research on global normalization of convolutional neural networks for joint entity and relation classification.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. CONF. NORTH AMERICAN ASSOC. FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES (NAACL-HLT)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Conf. North American Assoc. for Computational Linguistics: Human Language Technologies (NAACL-HLT) is an event where Waleed Ammar and his team presented their work on the construction of the literature graph in semantic scholar.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. INT. WORKSHOP ON SEMANTIC EVALUATION (SEMEVAL)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Int. Workshop on Semantic Evaluation (SemEval) is an event where Waleed Ammar, Matthew Peters, Chandra Bhagavatula, and Russell Power presented their work on the ai2 system at semeval-2017 task 10 (scienceie).\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. CONF. NORTH AMERICAN ASSOC. FOR COMPUTATIONAL LINGUISTICS: HUMAN LANGUAGE TECHNOLOGIES (NAACLHLT)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Conf. North American Assoc. for Computational Linguistics: Human Language Technologies (NAACLHLT) is an event where Awais Athar and Simone Teufel presented their research on context-enhanced citation sentiment detection.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. ANNU. MEETING ASSOC. FOR COMPUTATIONAL LINGUISTICS (ACL)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Annu. Meeting Assoc. for Computational Linguistics (ACL) is an event where Isabelle Augenstein and Anders Søgaard presented their research on multitask learning of keyphrase boundary classification.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2017 TASK 10: SCIENCEIE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Semeval 2017 task 10: ScienceIE is an event where Isabelle Augenstein, Mrinal Das, Sebastian Riedel, Lakshmi Vikraman, and Andrew McCallum presented their work on extracting keyphrases and relations from scientific publications.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. ACM/IEEE-CS JOINT CONFERENCE ON DIGITAL LIBRARIES\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. ACM/IEEE-CS Joint Conference on Digital libraries is an event where Huy Hoang Nhat Do, Muthu Kumar Chandrasekaran, Philip S Cho, and Min Yen Kan presented their research on extracting and matching authors and affiliations in scholarly documents.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"SEMEVAL-2018 TASK 7\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Semeval-2018 Task 7 is an event where Kata Gabor, Davide Buscaldi, Anne-Kathrin Schumann, Behrang QasemiZadeh, Haïfa Zargayouna, and Thierry Charnois presented their work on semantic relation extraction and classification in scientific papers.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            },
+            {
+                "entity_name": "\"PROC. LANGUAGE RESOURCES AND EVALUATION CONFERENCE (LREC)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proc. Language Resources and Evaluation Conference (LREC) is an event where Kata Gabor, Haïfa Zargayouna, Davide Buscaldi, Isabelle Tellier, and Thierry Charnois presented their work on semantic annotation of the ACL anthology corpus for the automatic analysis of scientific literature.\"",
+                "source_id": "chunk-e3424edc2971b088a1bbfecbd01f3aa1"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-246a08a01372d59dec733cd9bccdc6c1",
+        "entities": [
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{E}}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\Phi_{\\mathrm{E}}$ represents the unnormalized model score for an entity type and a span, which is a key component in the entity recognition task.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{R}}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\Phi_{\\mathrm{R}}$ denotes the score for a relation type and span pairs, which is crucial for the relation extraction task.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{C}}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\Phi_{\\mathrm{C}}$ denotes the score for a binary coreference link between spans, essential for coreference resolution.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$E^{*}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$E^{*}$ represents the gold structures of entity types, which serve as the standard for evaluating the entity recognition task.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$R^{*}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$R^{*}$ represents the gold structures of relations, which are used to evaluate the relation extraction task.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$C^{*}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$C^{*}$ represents the gold structures of coreference, which are used to assess the coreference resolution task.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{D}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$\\mathcal{D}$ is the set of all documents used for training and evaluating the model, encompassing various tasks.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{\\MATHRM{E}}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\lambda_{\\mathrm{E}}$ is a hyper-parameter controlling the importance of the entity recognition task in the model loss function.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{\\MATHRM{R}}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\lambda_{\\mathrm{R}}$ is a hyper-parameter controlling the importance of the relation extraction task in the model loss function.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA_{\\MATHRM{C}}$\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"$\\lambda_{\\mathrm{C}}$ is a hyper-parameter controlling the importance of the coreference resolution task in the model loss function.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$C_{I}^{*}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$C_{i}^{*}$ is the set of all correct antecedents for span $i$, used in the marginalized loss computation for coreference resolution.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{E}(S_{I})$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\phi_{e}(s_{i})$ measures the likelihood of a span $s_{i}$ having an entity type $e$, computed using a feedforward neural network.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{MR}}(S_{I})$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\phi_{\\mathrm{mr}}(s_{i})$ measures the likelihood of a span $s_{i}$ being a mention in a relation, computed using a feedforward neural network.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{MC}}(S_{I})$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\phi_{\\mathrm{mc}}(s_{i})$ measures the likelihood of a span $s_{i}$ being a mention in a coreference link, computed using a feedforward neural network.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{R}(S_{I},S_{J})$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\phi_{r}(s_{i},s_{j})$ measures the likelihood of two spans being associated in a relation, computed using a feedforward neural network.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\PHI_{\\MATHRM{C}}(S_{I},S_{J})$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\phi_{\\mathrm{c}}(s_{i},s_{j})$ measures the likelihood of two spans being associated in a coreference link,(\"entity\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{G}_{I}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\mathbf{g}_{i}$ is the fixed-length vector representation for span $s_{i}$, used in the computation of span scores.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{W}_{\\MATHRM{X}}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\mathbf{w}_{\\mathrm{x}}$ are neural network parameters to be learned, used in the computation of span scores $\\phi_{\\mathrm{x}}(s_{i})$.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{W}_{\\MATHRM{Y}}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\mathbf{w}_{\\mathrm{y}}$ are neural network parameters to be learned, used in the computation of pairwise span scores $\\phi_{\\mathrm{y}}(s_{i},s_{j})$.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\ODOT$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\odot$ represents the element-wise multiplication operation used in the computation of pairwise span scores.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"FFNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"FFNN stands for feedforward neural networks, which are used to compute the span and pairwise span scores for different tasks.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"SECTION 4.3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Section 4.3 is referenced as the place where the computation of span and pairwise span scores from feed-forward networks is explained in detail.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"LEE ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al. (2017) refers to the authors of a previous work on marginalized loss used in coreference resolution.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"EQUATION (2)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Equation (2) is the definition used for computing $P(E^{*}\\mid D)$ and $P(R^{*}\\mid D)$ in entity recognition and relation extraction tasks.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$P(E^{*}\\MID D)$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$P(E^{*}\\mid D)$ is the probability of the gold entity structures given the document, computed using the definition in Equation (2).\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$P(R^{*}\\MID D)$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$P(R^{*}\\mid D)$ is the probability of the gold relation structures given the document, computed using the definition in Equation (2).\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$P(C^{*}\\MID D)$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$P(C^{*}\\mid D)$ is the probability of the gold coreference structures given the document, computed using the marginalized loss.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\LOG P(C^{*}\\MID D)$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\log P(C^{*}\\mid D)$ is the log probability of the gold coreference structures given the document, used in the loss computation.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{G}_{I}\\ODOT\\MATHBF{G}_{J}$\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"$\\mathbf{g}_{i}\\odot\\mathbf{g}_{j}$ represents the element-wise multiplication of the vector representations of spans $s_{i}$ and $s_{j}$, used in pairwise score computation.\"",
+                "source_id": "chunk-246a08a01372d59dec733cd9bccdc6c1"
+            }
+        ],
+        "relationships": []
+    },
+    "1": {
+        "chunk_key": "chunk-f1250fe597dc463227de39d654a649d8",
+        "entities": [
+            {
+                "entity_name": "\"SEMEVAL 17\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 17 is an event that includes 500 paragraphs from articles in the domains of computer science, physics, and material science, focusing on keyphrases: Tasks, Methods, and Materials, and relation types: hyponym-of and synonym-of.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"AUGENSTEIN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Augenstein et al., 2017 are the authors associated with SemEval 17, which focuses on scientific information extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"SEMEVAL 18\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 18 is an event focused on predicting relations between entities within a sentence, consisting of six relation types.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"GA´BOR ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ga´bor et al., 2018 are the authors associated with SemEval 18, which is focused on predicting relations between entities.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"AMMAR ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ammar et al., 2017 are authors who introduced neural models for extracting scientific information.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"AMMAR ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ammar et al., 2018 are authors who contributed to neural models for extracting scientific information.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"LUAN ET AL., 2017B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luan et al., 2017b are authors who introduced neural models for extracting scientific information.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"AUGENSTEIN AND SØGAARD, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Augenstein and Søgaard, 2017 are authors who introduced neural models for extracting scientific information.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"MIWA AND BANSAL, 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miwa and Bansal, 2016 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"XU ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xu et al., 2016 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"PENG ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng et al., 2017 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"QUIRK AND POON, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quirk and Poon, 2017 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"LUAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luan et al., 2018 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"ADEL AND SCHÜTZE, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adel and Schütze, 2017 are authors who worked on IE systems for scientific literature and general domains.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"SINGH ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Singh et al., 2013 are authors who showed improvements by jointly modeling entities, relations, and coreference links.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"CLARK AND MANNING, 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Clark and Manning, 2016 are authors who focused on single tasks or joint entity and relation extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"WISEMAN ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wiseman et al., 2016 are authors who focused on single tasks or joint entity and relation extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"LEE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lee et al., 2017 are authors who worked on end-to-end span-based models for coreference resolution and semantic role labeling.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"LAMPLE ET AL., 2016\"",
+                "entity_type": "\"(\"ENTITY\"",
+                "description": "\"Katiyar and Cardie, 2017\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al., 2017 are authors who focused on joint entity and relation extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"ZHENG ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zheng et al., 2017 are authors who focused on joint entity and relation extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"COLLOBERT AND WESTON, 2008\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Collobert and Weston, 2008 are authors who contributed to neural multi-task learning models sharing word-level representations.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"KLERKE ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Klerke et al., 2016 are authors who contributed to neural multi-task learning models sharing word-level representations.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"REI, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rei, 2017 is an author who contributed to neural multi-task learning models sharing word-level representations.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"SWAYAMDIPTA ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Swayamdipta et al., 2017 are authors related to the propagation of cross-task information via span representations.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"SCIERC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SCIERC is the dataset that includes annotations for scientific entities, their relations, and coreference clusters for 500 scientific abstracts.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"SEMANTIC SCHOLAR CORPUS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Semantic Scholar Corpus is the source of 500 scientific abstracts taken from 12 AI conference/workshop proceedings and used in SCIERC.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"QASEMIZADEH AND SCHUMANN, 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"QasemiZadeh and Schumann, 2016 are authors whose annotation guidelines were followed for the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"STENETORP ET AL., 2012\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stenetorp et al., 2012 are authors associated with the BRAT interface used for annotation in the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"HUMAN AGREEMENTS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Agreements refers to the evaluation of user agreements in the annotation process of the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"KAPPA SCORE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The kappa score is a measure of inter-annotator agreement used to evaluate the user agreements in the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Table 1 shows the dataset statistics for SCIERC and two previous datasets on scientific information extraction.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"ANNOTATION SCHEME\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Annotation Scheme defines the types for annotating scientific entities and relation types in the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"BRAT INTERFACE\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Brat Interface is the tool used by annotators to perform a greedy annotation for spans in the SCIERC dataset.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"CONJUNCTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Conjunction is one of the symmetric relation types in the SCIERC dataset's Annotation Scheme.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"COMPARE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Compare is one of the relation types in the SCIERC dataset's Annotation Scheme.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"PART-OF\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Part-of is one of the relation types in the SCIERC dataset's Annotation Scheme.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            },
+            {
+                "entity_name": "\"EVALUATE-FOR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Evaluate-for is one of the relation types in the SCIERC dataset's Annotation Scheme.\"",
+                "source_id": "chunk-f1250fe597dc463227de39d654a649d8"
+            }
+        ],
+        "relationships": []
+    },
+    "9": {
+        "chunk_key": "chunk-891a47d0fc79ec5c8979001b802bb091",
+        "entities": [
+            {
+                "entity_name": "\"SAMEER SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sameer Singh is an author of a paper on joint inference of entities, relations, and coreference.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SEBASTIAN RIEDEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sebastian Riedel is an author of a paper on joint inference of entities, relations, and coreference.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"BRIAN MARTIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brian Martin is an author of a paper on joint inference of entities, relations, and coreference.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"JIAPING ZHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiaping Zheng is an author of a paper on joint inference of entities, relations, and coreference.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"ANDREW MCCALLUM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew McCallum is an author of a paper on joint inference of entities, relations, and coreference.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"PONTUS STENETORP\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pontus Stenetorp is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SAMPO PYYSALO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sampo Pyysalo is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"GORAN TOPIC\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Goran Topic is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"TOMOKO OHTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tomoko Ohta is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SOPHIA ANANIADOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sophia Ananiadou is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"JUN'ICHI TSUJII\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jun'ichi Tsujii is an author of a paper on Brat, a web-based tool for NLP-assisted text annotation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SWABHA SWAYAMDIPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Swabha Swayamdipta is an author of a paper on frame-semantic parsing with softmax-margin segmental RNNs and a syntactic scaffold.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SAM THOMSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sam Thomson is an author of a paper on frame-semantic parsing with softmax-margin segmental RNNs and a syntactic scaffold.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"CHRIS DYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Dyer is an author of a paper on frame-semantic parsing with softmax-margin segmental RNNs and a syntactic scaffold.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"NOAH A. SMITH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noah A. Smith is an author of a paper on frame-semantic parsing with softmax-margin segmental RNNs and a syntactic scaffold.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"CHEN-TSE TSAI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen-Tse Tsai is an author of a paper on concept-based analysis of scientific literature.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"GOURAB KUNDU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gourab Kundu is an author of a paper on concept-based analysis of scientific literature.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"DAN ROTH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Roth is an author of a paper on concept-based analysis of scientific literature.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"ADAM VOGEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Adam Vogel is an author of a paper on gender in the ACL anthology.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"DAN JURAFSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Jurafsky is an author of a paper on gender in the ACL anthology.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SAM WISEMAN\"(\"ENTITY\"",
+                "entity_type": "\"ALEXANDER M. RUSH\"",
+                "description": "\"person\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"STUART M. SHIEBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stuart M. Shieber is an author of a paper on learning global features for coreference resolution.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"YAN XU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yan Xu is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"RAN JIA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ran Jia is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"LILI MOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lili Mou is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"GE LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ge Li is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"YUNCHUAN CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yunchuan Chen is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"YANGYANG LU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yangyang Lu is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"ZHI JIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhi Jin is an author of a paper on improved relation classification by deep recurrent neural networks with data augmentation.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"CONGLE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Congle Zhang is an author of a paper on exploiting parallel news streams for unsupervised event extraction.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"STEPHEN SODERLAND\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stephen Soderland is an author of a paper on exploiting parallel news streams for unsupervised event extraction.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"DANIEL S. WELD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel S. Weld is an author of a paper on exploiting parallel news streams for unsupervised event extraction.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"MEISHAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Meishan Zhang is an author of a paper on end-to-end neural relation extraction with global optimization.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"YUE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yue Zhang is an author of a paper on end-to-end neural relation extraction with global optimization.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"GUOHONG FU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Guohong Fu is an author of a paper on end-to-end neural relation extraction with global optimization.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"SUNCONG ZHENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Suncong Zheng is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"FENG WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Feng Wang is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"HONGYUN BAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hongyun Bao is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"YUEXING HAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yuexing Hao is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"PENG ZHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng Zhou is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            },
+            {
+                "entity_name": "\"BO XU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bo Xu is an author of a paper on joint extraction of entities and relations based on a novel tagging scheme.\"",
+                "source_id": "chunk-891a47d0fc79ec5c8979001b802bb091"
+            }
+        ],
+        "relationships": []
+    },
+    "8": {
+        "chunk_key": "chunk-e78c6a7dfaf146be5a80114b8b7208b3",
+        "entities": [
+            {
+                "entity_name": "\"INFORM. PROCESS. SYST. (NIPS)\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NIPS is an organization that hosts conferences, as indicated by the reference to a paper presented at the conference.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"SONAL GUPTA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sonal Gupta is an author of a scientific paper on analyzing research dynamics, published in Proc. IJCNLP.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D Manning is a co-author of a scientific paper on analyzing research dynamics, published in Proc. IJCNLP.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"LUHENG HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luheng He is an author of multiple papers on computational linguistics and neural semantic role labeling.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"KENTON LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kenton Lee is an author of multiple papers on computational linguistics, including coreference resolution.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"OMER LEVY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Omer Levy is an author of a paper on jointly predicting predicates and arguments in neural semantic role labeling.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"LUKE ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luke Zettlemoyer is an author of multiple papers on computational linguistics, including coreference resolution.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"SEPP HOCHREITER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sepp Hochreiter is an author of a paper on Long short-term memory published in Neural computation.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"JU¨RGEN SCHMIDHUBER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ju¨rgen Schmidhuber is a co-author of a paper on Long short-term memory published in Neural computation.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"KOKIL JAIDKA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kokil Jaidka is an author of a paper on the computational linguistics summarization pilot task.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MIRAY KAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miray Kas is an author of a technical report on structures and statistics of citation networks.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"ARZOO KATIYAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Arzoo Katiyar is an author of a paper on joint extraction of entity mentions and relations without dependency trees.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CLAIRE CARDIE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Claire Cardie is a co-author of a paper on joint extraction of entity mentions and relations without dependency trees.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"SIGRID KLERKE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sigrid Klerke is an author of a paper on improving sentence compression by learning to predict gaze.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"YOAV GOLDBERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Goldberg is a co-author of a paper on improving sentence compression by learning to predict gaze.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"ANDERS SØGAARD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anders Søgaard is a co-author of a paper on improving sentence compression by learning to predict gaze.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"GUILLAUME LAMPLE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Guillaume Lample is an author of a paper on neural architectures for named entity recognition.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MIGUEL BALLESTEROS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miguel Ballesteros is a co-author of a paper on neural architectures for named entity recognition.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"SANDEEP SUBRAMANIAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sandeep Subramanian is a co-author of a paper on neural architectures for named entity recognition.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"KAZUYA KAWAKAMI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kazuya Kawakami is a co-author of a paper on neural architectures for named entity recognition.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CHRIS DYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Dyer is a co-author of a paper on neural architectures for named entity recognition.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MIKE(\"ENTITY\"",
+                "entity_type": "\"YI LUAN\"",
+                "description": "\"person\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CHRIS BROCKETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chris Brockett is a co-author of a paper on multi-task learning for speaker-role adaptation in neural conversation models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"BILL DOLAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bill Dolan is a co-author of a paper on multi-task learning for speaker-role adaptation in neural conversation models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"JIANFENG GAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jianfeng Gao is a co-author of a paper on multi-task learning for speaker-role adaptation in neural conversation models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MICHEL GALLEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michel Galley is a co-author of a paper on multi-task learning for speaker-role adaptation in neural conversation models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"YANGFENG JI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yangfeng Ji is a co-author of a paper on multiplicative representations for unsupervised semantic role induction.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"HANNANEH HAJISHIRZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hannaneh Hajishirzi is an author of multiple papers on unsupervised semantic role induction and scientific information extraction.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MARI OSTENDORF\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mari Ostendorf is a co-author of a paper on scientific information extraction with semisupervised neural tagging.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MAKOTO MIWA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Makoto Miwa is an author of a paper on end-to-end relation extraction using LSTMs on sequences and tree structures.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MOHIT BANSAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Bansal is a co-author of a paper on end-to-end relation extraction using LSTMs on sequences and tree structures.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"NANYUN PENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nanyun Peng is an author of a paper on cross-sentence n-ary relation extraction with graph LSTMs.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"HOIFUNG POON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hoifung Poon is an author of a paper on cross-sentence n-ary relation extraction with graph LSTMs and distant supervision for relation extraction.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"KRISTINA TOUTANOVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kristina Toutanova is a co-author of a paper on cross-sentence n-ary relation extraction with graph LSTMs.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"WEN-TAU YIH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wen-tau Yih is a co-author of a paper on cross-sentence n-ary relation extraction with graph LSTMs.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"WALEED AMMAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Waleed Ammar is a co-author of a paper on semi-supervised sequence tagging with bidirectional language models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CHANDRA BHAGAVATULA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chandra Bhagavatula is a co-author of a paper on semi-supervised sequence tagging with bidirectional language models.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MARK NEUMANN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Neumann is a co-author of a paper on deep contextualized word representations.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MOHIT IYYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Iyyer is a co-author of a paper on deep contextualized word representations.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"MATT GARDNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matt Gardner is a co-author of a paper on deep contextualized word representations.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER CLARK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Clark is a co-author of a paper on deep contextualized word representations.\"",
+                "source_id": "chunk-e78c6a7dfaf146be5a80114b8b7208b3"
+            }
+        ],
+        "relationships": []
+    }
+}

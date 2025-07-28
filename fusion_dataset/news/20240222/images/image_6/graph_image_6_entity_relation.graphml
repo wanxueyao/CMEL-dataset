@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_MOTORCYCLE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Monster truck- Color: The body is primarily white with a black and red spider web design, and the wheels are black.- Shape: The truck has an exaggerated, oversized appearance with large, thick tires and an elevated chassis. The body is boxy with angular lines.- Size: The truck appears to be significantly larger than a standard vehicle, characteristic of monster trucks designed for stunts and off-road performance.- Material: Likely made of metal and reinforced materials to withstand the rigors of off-road driving and stunts.- Possible function: Used for entertainment in monster truck shows, where it performs stunts and drives over obstacles like cars and ramps.Overall, the truck is designed for high-impact performances and visually striking displays, combining elements of danger and excitement."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image captures a dynamic scene from a Monster Jam event. The main focus is on a monster truck, which appears to be in motion, possibly performing a stunt or racing. The truck has a distinctive white and black color scheme with red accents. It features large, rugged tires designed for off-road performance and a high ground clearance. The driver's seat is visible through the open cockpit, indicating that the driver is actively controlling the vehicle. The background shows a dirt track with tire tracks and a cone marker, suggesting a designated course for the event. The atmosphere is energetic and thrilling, typical of a live motorsport event. The audience is not visible in this particular shot, but the context implies a lively and engaged crowd."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+</node>
+<node id="&quot;MONSTER TRUCK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, white monster truck with black and red accents, equipped with oversized wheels, performing a stunt on the dirt track."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+</node>
+<node id="&quot;DIRT TRACK&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An indoor dirt track with tire marks, designed for monster truck racing events."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+</node>
+<node id="&quot;CONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white cone placed on the dirt track as a marker or obstacle for the monster truck."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_MOTORCYCLE-0.JPG&quot;" target="&quot;MONSTER TRUCK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_motorcycle-0.jpg is a picture of a monster truck."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_MOTORCYCLE-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_motorcycle-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;MONSTER TRUCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Monster Truck是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;DIRT TRACK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dirt Track是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cone是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MONSTER TRUCK&quot;" target="&quot;DIRT TRACK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The monster truck is driving on the dirt track, performing a stunt near the cone."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MONSTER TRUCK&quot;" target="&quot;CONE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The monster truck is positioned close to the cone on the dirt track."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

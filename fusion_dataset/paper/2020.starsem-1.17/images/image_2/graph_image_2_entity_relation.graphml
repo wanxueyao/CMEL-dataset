@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a detailed diagram illustrating the architecture of a proposed DS-DST model. The left part of the diagram represents a fixed BERT model, which acts as a feature extractor and outputs representations of values in the candidate-value list for each categorical slot (marked in purple). This part includes nodes labeled 'CLS', 'v1', ..., 'vc', and 'SEP', with arrows indicating the flow of information through the network. The right part of the diagram shows another fine-tuned BERT model that outputs representations for the concatenation of each domain-slot pair and the recent dialog context. This section includes nodes labeled 'r^CLS', 'r1', ..., 'rn', 'r^SEP', 'rn+2', ..., 'rK', with arrows indicating the flow of information. Above this section, there are two bar charts labeled 'Start Vector Distribution' and 'End Vector Distribution', showing the distribution of start and end positions for non-categorical slots in the dialog context. Below the BERT models, there are boxes labeled 'Candidate-Value List', 'Domain-Slot Pair', and 'Recent Dialog Context', providing examples of the types of data these models process. The Candidate-Value List includes examples such as 'cheap', 'expensive', 'moderate'. The Domain-Slot Pair includes examples like 'hotel, price range', 'taxi, arrive by'. The Recent Dialog Context includes an example dialogue snippet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;COSINE SIMILARITY MATCHING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The process of matching using cosine similarity between the candidate-value list and the BERT output vectors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;CANDIDATE-VALUE LIST&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A list containing values such as 'cheap', 'expensive', and 'moderate' for comparison with the BERT output."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The Bidirectional Encoder Representations from Transformers model used for generating vector representations of input text."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;CLS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Special token in BERT representing the classification token at the beginning of a sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Special token in BERT representing the separation token used to separate sentences in a sequence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;START VECTOR DISTRIBUTION&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Distribution of start vectors indicating the probability of each token being the start of an entity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;END VECTOR DISTRIBUTION&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Distribution of end vectors indicating the probability of each token being the end of an entity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;DOMAIN-SLOT PAIR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Pair consisting of a domain (e.g., hotel) and a slot (e.g., price range) used for specifying information in a dialogue system."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<node id="&quot;RECENT DIALOG CONTEXT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Contextual information from recent dialogues, including system and user utterances."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;COSINE SIMILARITY MATCHING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cosine Similarity Matching是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CANDIDATE-VALUE LIST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Candidate-Value List是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CLS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CLS是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SEP是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;START VECTOR DISTRIBUTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Start Vector Distribution是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;END VECTOR DISTRIBUTION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"End Vector Distribution是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DOMAIN-SLOT PAIR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Domain-Slot Pair是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RECENT DIALOG CONTEXT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Recent Dialog Context是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COSINE SIMILARITY MATCHING&quot;" target="&quot;CANDIDATE-VALUE LIST&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cosine similarity matching event uses the candidate-value list for comparison with BERT outputs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COSINE SIMILARITY MATCHING&quot;" target="&quot;BERT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cosine similarity matching event relies on the vector representations generated by BERT."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;CLS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The CLS token is used by BERT to represent the entire sequence for classification tasks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;SEP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The SEP token is used by BERT to separate different sentences within a sequence."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;START VECTOR DISTRIBUTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The start vector distribution is derived from the BERT output to identify potential start tokens of entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BERT&quot;" target="&quot;END VECTOR DISTRIBUTION&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The end vector distribution is derived from the BERT output to identify potential end tokens of entities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DOMAIN-SLOT PAIR&quot;" target="&quot;RECENT DIALOG CONTEXT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The domain-slot pair is used in the context of recent dialogues to specify information needs."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

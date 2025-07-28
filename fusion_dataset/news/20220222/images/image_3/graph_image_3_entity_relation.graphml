@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair- Hairstyle: Short, light brown hair that is receding- Facial Expression: Serious and focused, with a slight frown- Age: Appears to be an older adult- Clothing: Wearing a black suit jacket, a white dress shirt, and a black tie- Posture: Sitting with one hand raised, possibly gesturing while speakingOverall, the individual appears to be engaged in a formal or professional setting, possibly giving a speech or participating in a discussion."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_TIE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Bottle- Color: Dark brown- Shape: Tall and slender with a narrow neck and a wider base, resembling a traditional bottle shape- Size: Appears to be of a standard size for a bottle, neither too large nor too small based on proportions- Material: Likely made of glass or ceramic, given the smooth texture and solid appearance- Possible function: Could be used for storing liquids such as wine, spirits, or other beverages, given its shape and materialOverall, the object has a classic and elegant design, suggesting it could be used for serving or storing high-quality beverages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3_DINING TABLE-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Wooden surface- Color: Light brown- Shape: Rectangular, with a smooth and flat surface- Size: Appears to be a medium-sized object, possibly a table or desk- Material: Wood- Possible function: Used as a surface for placing items, such as in an office or dining settingOverall, the object appears to be a simple, functional piece of furniture made from light brown wood."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a man seated at a wooden desk, gesturing with his right hand. He is wearing a black suit jacket, a white dress shirt, and a dark red tie. His expression appears serious and engaged, suggesting he is in the midst of speaking or explaining something. The background features a wooden panel wall, and to the left, there is a partial view of a flag with blue and orange colors. The overall setting suggests a formal environment, possibly an office or a meeting room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;VLADIMIR PUTIN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with short, light-colored hair, wearing a dark suit, white shirt, and dark tie. He is seated at a wooden desk and appears to be speaking or gesturing with his right hand."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;DESK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden desk in front of the person."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<node id="&quot;FLAG&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A flag with blue and red colors positioned behind the person."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;VLADIMIR PUTIN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The image feature block image_3_person-0.jpg is a picture of Vladimir Putin."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_PERSON-0.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_person-0.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-1.JPG&quot;" target="&quot;VLADIMIR PUTIN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_3_tie-1.jpg is a picture of the tie worn by Vladimir Putin."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_TIE-1.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_tie-1.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_DINING TABLE-2.JPG&quot;" target="&quot;DESK&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_3_dining table-2.jpg is a picture of a desk."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3_DINING TABLE-2.JPG&quot;" target="&quot;IMAGE_3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_3_dining table-2.jpg是image_3的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;VLADIMIR PUTIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vladimir Putin是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;DESK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Desk是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FLAG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flag是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;VLADIMIR PUTIN&quot;" target="&quot;DESK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The person is seated at the desk."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;VLADIMIR PUTIN&quot;" target="&quot;FLAG&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The flag is positioned behind the person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

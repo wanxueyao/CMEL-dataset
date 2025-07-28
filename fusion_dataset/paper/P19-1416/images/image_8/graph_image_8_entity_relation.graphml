@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 6: The question operations used for categorizing comparison questions.' The table is divided into three main categories: Numerical Questions, Logical Questions, and String Questions. Each category lists specific operations and provides examples.\n\n- **Numerical Questions**\n  - Operations: Is greater / Is smaller / Which is greater / Which is smaller\n  - Example (Which is smaller): Who was born first, Arthur Conan Doyle or Penelope Lively?\n\n- **Logical Questions**\n  - Operations: And / Or / Which is true\n  - Example (And): Are Hot Rod and the Memory of Our People both magazines?\n\n- **String Questions**\n  - Operations: Is equal / Not equal / Intersection\n  - Example (Is equal): Are Cardinal Health and Kansas City Southern located in the same state?"</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+</node>
+<node id="&quot;NUMERICAL QUESTIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category of questions that involve comparisons using operations such as 'is greater,' 'is smaller,' 'which is greater,' and 'which is smaller.' Examples include determining who was born first between Arthur Conan Doyle and Penelope Lively."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+</node>
+<node id="&quot;LOGICAL QUESTIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category of questions that involve logical operations such as 'and,' 'or,' and 'which is true.' An example would be checking if both Hot Rod and the Memory of Our People are magazines."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+</node>
+<node id="&quot;STRING QUESTIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Category of questions that involve string comparisons using operations like 'is equal,' 'not equal,' and 'intersection.' An example is verifying if Cardinal Health and Kansas City Southern are located in the same state."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;NUMERICAL QUESTIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Numerical Questions是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;LOGICAL QUESTIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Logical Questions是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;STRING QUESTIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"String Questions是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NUMERICAL QUESTIONS&quot;" target="&quot;LOGICAL QUESTIONS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are types of comparison questions but differ in the kind of operations they use. Numerical questions compare numerical values, while logical questions deal with logical relationships."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NUMERICAL QUESTIONS&quot;" target="&quot;STRING QUESTIONS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are types of comparison questions but differ in the kind of operations they use. Numerical questions compare numerical values, whereas string questions compare textual data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LOGICAL QUESTIONS&quot;" target="&quot;STRING QUESTIONS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are types of comparison questions but differ in the kind of operations they use. Logical questions deal with logical relationships, while string questions compare textual data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1416/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

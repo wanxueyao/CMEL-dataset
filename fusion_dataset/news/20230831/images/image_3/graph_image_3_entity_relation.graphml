@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two distinct scenes depicting the aftermath of Hurricane Idalia in Florida. The top image shows a flooded area with two buildings, each marked with numbers '14' and '15'. The building on the left has a yellow door and a window with a fish painting, while the building on the right has an orange door and a similar window. Both doors are partially submerged in water, indicating significant flooding. The surrounding area is also flooded, with vegetation emerging from the water. The bottom image depicts a flooded street lined with large trees covered in Spanish moss. The street is completely submerged, with only the tops of the trees and some road signs visible above the water. The overall atmosphere conveys the severity of the flood and its impact on the local environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+</node>
+<node id="&quot;FLOODED BUILDING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A building with yellow and red doors is partially submerged in floodwaters. The building has two windows with fish paintings and numbers 14 and 15 on the doors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+</node>
+<node id="&quot;FLOODED ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A road surrounded by trees and covered in floodwaters. The road has tire tracks indicating recent vehicle movement."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FLOODED BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flooded Building是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FLOODED ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flooded Road是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FLOODED BUILDING&quot;" target="&quot;FLOODED ROAD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both the building and the road are affected by the same flood event, indicating a widespread impact of the flood."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230831/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

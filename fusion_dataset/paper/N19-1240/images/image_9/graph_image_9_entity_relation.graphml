@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Model architecture' that outlines the architecture of a machine learning model. The table is structured with multiple rows and columns, detailing the components of the model. The first row specifies the input as 'query ELMo 3072-dim' and 'candidates ELMo 3072-dim'. The second row describes the layers used in the model: '2 layers bi-LSTM [256, 128]-dim' for the query and '1 layer FF 256-dim' for the candidates. The third row indicates a concatenation step resulting in a 512-dimensional vector. The fourth row shows a two-layer feed-forward (FF) network with dimensions [1024, 512]-dim, producing outputs denoted as '{x̂}_i^N'. The fifth row lists three layers of R-GCN, each with 512 dimensions and shared parameters. The sixth row mentions a concatenation with q resulting in a 768-dimensional vector. The seventh row details a three-layer feed-forward network with dimensions [256, 128, 1]-dim. The final row specifies the output as 'probabilities over C_q'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;INPUT - Q, {V_I}_{I=1}^N&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The input consists of a query and a set of candidates. The query is represented by 'q' and the candidates are denoted as '{v_i}_{i=1}^N'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;QUERY ELMO 3072-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The query is processed using ELMo embeddings with a dimensionality of 3072."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;CANDIDATES ELMO 3072-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The candidates are also processed using ELMo embeddings with a dimensionality of 3072."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;2 LAYERS BI-LSTM [256, 128]-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The query is passed through a two-layer bidirectional LSTM network with hidden dimensions of 256 and 128."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;1 LAYER FF 256-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The candidates are passed through a single-layer feedforward network with a hidden dimension of 256."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;CONCATENATION 512-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The outputs from the LSTM and feedforward networks are concatenated into a vector of 512 dimensions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;2 LAYER FF [1024, 512]-DIM: : {X̂_I}_{I=1}^N&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The concatenated vector is then passed through a two-layer feedforward network with hidden dimensions of 1024 and 512."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;3 LAYERS R-GCN 512-DIM EACH (SHARED PARAMETERS)&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The output from the feedforward network is fed into a three-layer Relational Graph Convolutional Network (R-GCN) with shared parameters, each layer having a dimensionality of 512."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;CONCATENATION WITH Q 768-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The output from the R-GCN is concatenated with the original query 'q', resulting in a vector of 768 dimensions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;3 LAYERS FF [256,128,1]-DIM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The concatenated vector is passed through a three-layer feedforward network with hidden dimensions of 256, 128, and 1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<node id="&quot;OUTPUT - PROBABILITIES OVER C_Q&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The final output is a set of probabilities over the candidate set 'C_q', indicating the likelihood of each candidate being the correct match for the query."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;INPUT - Q, {V_I}_{I=1}^N&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Input - q, {v_i}_{i=1}^N是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;QUERY ELMO 3072-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"query ELMo 3072-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CANDIDATES ELMO 3072-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"candidates ELMo 3072-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;2 LAYERS BI-LSTM [256, 128]-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"2 layers bi-LSTM [256, 128]-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;1 LAYER FF 256-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"1 layer FF 256-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CONCATENATION 512-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"concatenation 512-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;2 LAYER FF [1024, 512]-DIM: : {X̂_I}_{I=1}^N&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"2 layer FF [1024, 512]-dim: : {x̂_i}_{i=1}^N是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;3 LAYERS R-GCN 512-DIM EACH (SHARED PARAMETERS)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"3 layers R-GCN 512-dim each (shared parameters)是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CONCATENATION WITH Q 768-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"concatenation with q 768-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;3 LAYERS FF [256,128,1]-DIM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"3 layers FF [256,128,1]-dim是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;OUTPUT - PROBABILITIES OVER C_Q&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Output - probabilities over C_q是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1240/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

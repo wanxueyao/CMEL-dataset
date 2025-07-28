@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents the performance of different models on a dataset with various data augmentation strategies. The table has six columns: 'original', '+ positive', '+ negative', '- negative', and '+ positive &amp; negative'. Each row represents a different model configuration. The first row is labeled 'BERT' and shows the following values: 91.3 for 'original', 92.27 for '+ positive', 90.08 for '+ negative', 89.73 for '- negative', and 93.14 for '+ positive &amp; negative'. The second row, 'BERT+FL', shows slight improvements over BERT, with values of 91.86 (+0.56), 92.64 (+0.37), 90.61 (+0.53), 90.79 (+1.06), and 93.45 (+0.31). The third row, 'BERT+DL', also shows improvements, with values of 91.92 (+0.62), 92.87 (+0.60), 90.22 (+0.14), 90.49 (+0.76), and 93.52 (+0.38). The last row, 'BERT+DSC', shows the highest improvements, with values of 92.11 (+0.81), 92.92 (+0.65), 90.78 (+0.70), 90.80 (+1.07), and 93.63 (+0.49)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A deep learning model used for natural language processing tasks, specifically shown in the table with various modifications."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+FL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"BERT model augmented with a focal loss function, as indicated in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+DL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"BERT model enhanced with a dynamic loss function, as presented in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;BERT+DSC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"BERT model improved with a dynamic sample weighting scheme, as detailed in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;ORIGINAL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The baseline performance of the BERT model without any additional modifications."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ POSITIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance of the BERT model after adding positive examples to the training set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance of the BERT model after adding negative examples to the training set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;- NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance of the BERT model after removing negative examples from the training set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<node id="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The performance of the BERT model after adding both positive and negative examples to the training set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+FL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+FL是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+DL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DL是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;BERT+DSC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT+DSC是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;ORIGINAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"original是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ POSITIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ negative是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;- NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"- negative是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;+ POSITIVE &amp; NEGATIVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"+ positive &amp; negative是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.45/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

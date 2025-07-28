@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides an example annotation of a sentence from Figure 1, including corresponding variables from Figure 2. The table is structured with rows and columns representing different aspects of the annotation process. The columns include 'Tokens', 'Mention type', 'Entity Mentioned', 'Relation', and 'Parent Entity'. Each row corresponds to a token in the sentence. For example, the token 'Super' is marked as 'new' in the 'Mention type' column and has 'SML' (Q647249) as its 'Entity Mentioned'. The date '1989' is linked to '04-21-1989' and has a 'pub date' relation. The term 'side-scrolling' is marked as 'new' and has 'SIDE_SCROLL' as its 'Entity Mentioned'. The entity 'Game Boy' has multiple parent and relation annotations, indicating it is both the platform for Super Mario Land and manufactured by Nintendo. The table uses human-readable identifiers for clarity, such as 'SML' for Q647249. The context explains the expansion of annotations using string matching for entities, dates, and quantities, and the iterative creation of a generative story for entities using relations in the knowledge graph."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+</node>
+<node id="&quot;SUPER MARIO LAND&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A 1989 side-scrolling platform video game developed and published by Nintendo as a launch title for their Game Boy handheld game console."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+</node>
+<node id="&quot;NINTENDO&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The company that developed and published Super Mario Land."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+</node>
+<node id="&quot;GAME BOY&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The handheld game console for which Super Mario Land was a launch title."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;SUPER MARIO LAND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Super Mario Land是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;NINTENDO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nintendo是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;GAME BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Game Boy是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;NINTENDO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Nintendo developed and published Super Mario Land."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUPER MARIO LAND&quot;" target="&quot;GAME BOY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Super Mario Land was a launch title for the Game Boy."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

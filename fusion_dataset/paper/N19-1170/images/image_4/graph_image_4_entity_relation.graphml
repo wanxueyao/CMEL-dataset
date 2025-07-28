@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph titled 'Controlling question-asking via conditional training.' The x-axis represents the 'Question-Asking Control Level (CT)' ranging from 0 to 10, with an additional point labeled 'boost' at 10. The y-axis represents the percentage of utterances containing a question mark, ranging from 0% to 100%. There are six lines plotted on the graph, each representing different conditions or baselines. The blue solid line represents 'Question-controlled CT,' starting at approximately 20% at CT=0 and increasing steadily to around 95% at CT=10. The purple dashed line represents 'Question-controlled CT w/ rep ctrl,' starting at around 30% at CT=0 and increasing to about 80% at CT=10. The red dotted line represents the 'Target for question-controlled CT,' which is a straight line starting at 0% at CT=0 and ending at 100% at CT=10. The light blue dash-dotted line represents the 'Beam search baseline,' which remains constant at 80% across all CT levels. The dark purple dashed line represents the 'Repetition-controlled baseline,' which starts at around 40% at CT=0 and increases to about 70% at CT=10. The orange dash-dot-dotted line represents the 'Gold data,' which starts at around 20% at CT=0 and increases to about 60% at CT=10. The graph shows the effectiveness of different methods in controlling the frequency of question-asking in utterances."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;QUESTION-CONTROLLED CT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A curve representing the percentage of utterances containing '?' as a function of the Question-Asking Control Level (CT). The curve starts at 0% and rises to approximately 95% at the highest CT level."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;QUESTION-CONTROLLED CT W/ REP CTRL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A curve representing the percentage of utterances containing '?' with repetition control. This curve is generally below the Question-controlled CT curve, indicating that repetition control reduces the frequency of question-asking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;TARGET FOR QUESTION-CONTROLLED CT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dotted line representing the target percentage of utterances containing '?' for the Question-controlled CT. This line is linear and rises from 0% to 100% as CT increases."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A horizontal dashed line representing the performance of a beam search algorithm without any control over question-asking. It remains constant at around 80% across all CT levels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A horizontal dashed line representing the performance of a repetition-controlled algorithm. It remains constant at around 50% across all CT levels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<node id="&quot;GOLD DATA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A horizontal dashed line representing the ideal or 'gold' standard for the percentage of utterances containing '?'. It remains constant at around 100% across all CT levels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;QUESTION-CONTROLLED CT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question-controlled CT是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;QUESTION-CONTROLLED CT W/ REP CTRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Question-controlled CT w/ rep ctrl是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TARGET FOR QUESTION-CONTROLLED CT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Target for question-controlled CT是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BEAM SEARCH BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beam search baseline是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;REPETITION-CONTROLLED BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Repetition-controlled baseline是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;GOLD DATA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Gold data是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

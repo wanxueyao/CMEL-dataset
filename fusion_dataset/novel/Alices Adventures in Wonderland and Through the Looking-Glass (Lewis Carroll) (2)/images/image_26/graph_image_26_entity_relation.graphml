@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_26_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair, parted in the middle, with a ribbon tied around the head- Expression: Neutral, focused on the activity at hand- Age: Appears to be a young girl- Clothing: Wearing a long dress with a full skirt and a bodice; the dress has a patterned design and is cinched at the waist with a belt; she also wears knee-high socks and shoes- Accessories: Holding a large flamingo under one arm and using it like a croquet mallet; there is a hedgehog nearby, which appears to be serving as a ball in a game of croquetOverall, the character is engaged in an unusual and whimsical activity, indicative of a fantastical or dreamlike scenario."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<node id="&quot;IMAGE_26_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, wavy hair that reaches down to the shoulders- Expression: Appears to be in a state of surprise or curiosity, with wide eyes and an open mouth- Age: Appears to be a young girl- Clothing: Wearing a long-sleeved dress with a checkered pattern; the dress has a high collar and puffed sleeves- Posture: Standing on one foot with the other foot lifted, as if she is about to take a step or is in motion; her arms are bent at the elbows and positioned in front of her bodyOverall, the character gives off a whimsical and curious vibe, reminiscent of a classic storybook illustration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<node id="&quot;IMAGE_26&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene from the story of Alice in Wonderland. It shows Alice, a young girl with long hair, holding a flamingo under her arm as if it were a croquet mallet. The flamingo's neck is extended, and its head is turned towards Alice, who appears to be blowing on it or speaking to it. Alice is dressed in a dress with puffed sleeves and a full skirt, typical of the Victorian era. At her feet, there is a hedgehog, which is depicted as a live croquet ball. The background suggests an outdoor setting with a grassy ground that has ridges and furrows, contributing to the whimsical and surreal atmosphere of the scene. The overall mood conveyed by the image is one of curiosity and wonder, as Alice interacts with these fantastical creatures in a playful yet peculiar manner."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress, holding a flamingo."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<node id="&quot;FLAMINGO&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large bird with a long neck and legs, being held by Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<node id="&quot;HEDGEHOG&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small animal with spines, lying on the ground near Alice's feet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+</node>
+<edge source="&quot;IMAGE_26_PERSON-0.JPG&quot;" target="&quot;IMAGE_26&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_26_person-0.jpg是image_26的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26_PERSON-1.JPG&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_26_person-1.jpg is a picture of Alice."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26_PERSON-1.JPG&quot;" target="&quot;IMAGE_26&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_26_person-1.jpg是image_26的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;FLAMINGO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flamingo是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_26&quot;" target="&quot;HEDGEHOG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hedgehog是从image_26中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;FLAMINGO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is holding the flamingo in her arms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;HEDGEHOG&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hedgehog is near Alice's feet, possibly part of the game she is playing."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_26.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

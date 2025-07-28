@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_11&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a bar chart labeled 'Figure 5: Likert rating histogram for expert human follower and our approach for LANI.' The x-axis represents the rating categories, ranging from 1 to 5. The y-axis indicates the percentage of ratings, with values ranging from 0 to 60%. There are two sets of bars for each rating category: blue bars representing 'Human' and red bars representing 'Our Approach.' The exact percentages for each category are as follows: For rating 1, the Human has approximately 0% and Our Approach has around 10%; for rating 2, Human has around 5% and Our Approach has about 15%; for rating 3, both have around 10%; for rating 4, Human has around 25% and Our Approach has about 15%; and for rating 5, Human has around 50% and Our Approach has about 45%. The chart shows that the Human ratings are generally higher than those of Our Approach, especially in the higher rating categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+</node>
+<node id="&quot;HUMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Represents the performance of human subjects in the given categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+</node>
+<node id="&quot;OUR APPROACH&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Represents the performance of a specific method or system being evaluated against human performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+</node>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_11&quot;" target="&quot;OUR APPROACH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Our Approach是从image_11中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HUMAN&quot;" target="&quot;OUR APPROACH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Both entities are compared across five different categories to evaluate the effectiveness of the approach relative to human performance."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_11.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_14_VASE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Hair is tied up in a bun with a decorative element, possibly a ribbon or hair accessory- Eyes: Looking downward, focused on an object in her hands- Expression: Neutral, concentrated on the task at hand- Age: Appears to be an adult woman- Clothing: Wearing a collared shirt with rolled-up sleeves and a necklace- Posture: Seated in an armchair, leaning slightly forward with her hands engaged in an activity, possibly knitting or crochetingOverall, the character gives off a calm and focused demeanor, engaged in a domestic activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;IMAGE_14&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of a young girl sitting in an armchair. She has her hair styled in a bun and is wearing a necklace. The girl appears to be engaged in an activity, possibly sewing or knitting, as she is holding a piece of fabric with both hands. Her posture is relaxed, and she seems focused on her task. The armchair has a textured pattern, and the girl's clothing includes a collared shirt and a dress. The overall atmosphere of the image conveys a sense of calm and concentration."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with her hair tied up, wearing a necklace and a hat, sitting in an armchair."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;ARMCHAIR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"An armchair with a textured backrest, on which the girl is seated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+</node>
+<node id="&quot;DOLL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A doll being held by the girl, dressed in detailed clothing."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+</node>
+<edge source="&quot;IMAGE_14_VASE-0.JPG&quot;" target="&quot;IMAGE_14&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_14_vase-0.jpg是image_14的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;ARMCHAIR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Armchair是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_14&quot;" target="&quot;DOLL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Doll是从image_14中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;ARMCHAIR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The girl is seated in the armchair."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;DOLL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is holding the doll in her lap."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (2)/images/image_14.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

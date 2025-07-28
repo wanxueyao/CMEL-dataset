@@ -1,0 +1,365 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the process of a single-paragraph BERT model in answering questions. The flowchart consists of multiple rows, each representing a question and its corresponding paragraph. Each row contains four main components: 'Question', 'Paragraph', 'BERT', and two output fields labeled 'y_empty' and 'span/yes/no'. The 'Question' column lists the input questions, while the 'Paragraph' column shows the paragraphs that are read by the BERT model. The 'BERT' component represents the model's processing of the paragraph to generate scores. The 'y_empty' field indicates the score for an empty answer, and the 'span/yes/no' field provides the final answer from the paragraph. The paragraph with the lowest 'y_empty' score is chosen as the final answer. The flowchart uses different colors to distinguish between the components: 'Question' is in light blue, 'Paragraph' is in yellow, 'BERT' is in dark blue, and the output fields are in green. The red box highlights the 'y_empty' field with the lowest score, indicating the selected paragraph for the final answer."
+        },
+        {
+            "entity_name": "QUESTION",
+            "entity_type": "EVENT",
+            "description": "A query posed to the system, seeking information from a given paragraph."
+        },
+        {
+            "entity_name": "PARAGRAPH 1",
+            "entity_type": "ORGANIZATION",
+            "description": "The first text block containing information relevant to the question."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep learning model used for natural language processing tasks, including reading comprehension."
+        },
+        {
+            "entity_name": "Y_EMPTY",
+            "entity_type": "PERSON",
+            "description": "An output indicating whether the answer is empty or not."
+        },
+        {
+            "entity_name": "SPAN/YES/NO",
+            "entity_type": "PERSON",
+            "description": "An output indicating the type of answer: a span of text, yes, or no."
+        },
+        {
+            "entity_name": "PARAGRAPH 2",
+            "entity_type": "ORGANIZATION",
+            "description": "The second text block containing information relevant to the question."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: F1 scores on HOTPOTQA.' The table presents the performance of various models on two different settings of the HOTPOTQA dataset: Distractor and Open. The table has three columns: Model, Distractor F1, and Open F1. The rows list different models and their corresponding F1 scores. The models listed are Single-paragraph BERT*, BiDAF*, BiDAF, GRN, QFE, DFGN + BERT, MultiQA, DecompRC, BERT Plus, and Cognitive Graph. The Distractor F1 scores range from 58.28 to 69.76, with the highest score achieved by BERT Plus. The Open F1 scores range from 32.89 to 48.87, with the highest score achieved by Cognitive Graph. The asterisk (*) indicates that the result is on the validation set; the other results are on the hidden test set shown in the official leaderboard."
+        },
+        {
+            "entity_name": "SINGLE-PARAGRAPH BERT*",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 67.08 and an Open F1 score of 38.40."
+        },
+        {
+            "entity_name": "BIDAF*",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 58.28 and an Open F1 score of 34.36."
+        },
+        {
+            "entity_name": "BIDAF",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 58.99 and an Open F1 score of 32.89."
+        },
+        {
+            "entity_name": "GRN",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 66.71 and an Open F1 score of 36.48."
+        },
+        {
+            "entity_name": "QFE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 68.06 and an Open F1 score of 38.06."
+        },
+        {
+            "entity_name": "DFGN + BERT",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 68.49 with no Open F1 score provided."
+        },
+        {
+            "entity_name": "MULTIQA",
+            "entity_type": "MODEL",
+            "description": "A model that achieves an Open F1 score of 40.23 with no Distractor F1 score provided."
+        },
+        {
+            "entity_name": "DECOMPRC",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 69.63 and an Open F1 score of 40.65."
+        },
+        {
+            "entity_name": "BERT PLUS",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a Distractor F1 score of 69.76 with no Open F1 score provided."
+        },
+        {
+            "entity_name": "COGNITIVE GRAPH",
+            "entity_type": "MODEL",
+            "description": "A model that achieves an Open F1 score of 48.87 with no Distractor F1 score provided."
+        },
+        {
+            "entity_name": "DISTRACTOR F1",
+            "entity_type": "UNKNOWN",
+            "description": "The model's performance is measured by the Distractor F1 score."
+        },
+        {
+            "entity_name": "OPEN F1",
+            "entity_type": "UNKNOWN",
+            "description": "The model's performance is measured by the Open F1 score."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table with four rows and three columns. The first column, labeled 'Type,' lists different types of questions: Multi-hop, Weak distractors, Redundant evidence, and Non-compositional 1-hop. The second column, labeled 'Question,' provides specific examples for each type. For example, the Multi-hop question asks about the city where Ralph Hefferline was a psychology professor at a university. The Weak distractors question inquires about the government position held by the woman who portrayed Corliss Archer in the film Kiss and Tell. The Redundant evidence question mentions Kaiser Ventures corporation and its founder. The Non-compositional 1-hop question asks about the release date of Poison’s album ‘Shut Up, Make Love’. The third column, labeled '%', shows the percentage associated with each type of question: 27% for Multi-hop, 35% for Weak distractors, 26% for Redundant evidence, and 8% for Non-compositional 1-hop."
+        },
+        {
+            "entity_name": "RALPH HEFFERLINE",
+            "entity_type": "PERSON",
+            "description": "A psychology professor at a university."
+        },
+        {
+            "entity_name": "UNIVERSITY",
+            "entity_type": "ORGANIZATION",
+            "description": "An educational institution where Ralph Hefferline worked as a psychology professor."
+        },
+        {
+            "entity_name": "CITY",
+            "entity_type": "GEO",
+            "description": "The location of the university where Ralph Hefferline was a psychology professor."
+        },
+        {
+            "entity_name": "CORLISS ARCHER",
+            "entity_type": "PERSON",
+            "description": "A character portrayed by a woman in the film Kiss and Tell."
+        },
+        {
+            "entity_name": "FILM KISS AND TELL",
+            "entity_type": "EVENT",
+            "description": "A movie featuring the character Corliss Archer."
+        },
+        {
+            "entity_name": "GOVERNMENT POSITION",
+            "entity_type": "ORGANIZATION",
+            "description": "The role held by the woman who portrayed Corliss Archer in the film Kiss and Tell."
+        },
+        {
+            "entity_name": "KAISER VENTURES CORPORATION",
+            "entity_type": "ORGANIZATION",
+            "description": "An American company founded by an industrialist known as the father of modern American shipbuilding."
+        },
+        {
+            "entity_name": "AMERICAN INDUSTRIALIST",
+            "entity_type": "PERSON",
+            "description": "The founder of Kaiser Ventures corporation, known as the father of modern American shipbuilding."
+        },
+        {
+            "entity_name": "POISON",
+            "entity_type": "ORGANIZATION",
+            "description": "A band that released an album titled 'Shut Up, Make Love'."
+        },
+        {
+            "entity_name": "ALBUM 'SHUT UP, MAKE LOVE'",
+            "entity_type": "OBJECT",
+            "description": "A music album released by the band Poison."
+        },
+        {
+            "entity_name": "",
+            "entity_type": "UNKNOWN",
+            "description": "image_3"
+        },
+        {
+            "entity_name": "WOMAN",
+            "entity_type": "UNKNOWN",
+            "description": "The woman who portrayed Corliss Archer held this government position."
+        },
+        {
+            "entity_name": "FATHER OF MODERN AMERICAN SHIPBUILDING",
+            "entity_type": "UNKNOWN",
+            "description": "The industrialist is known as the father of modern American shipbuilding."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2' that categorizes bridge questions while taking paragraphs into account. The table has four rows and four columns. The first column, labeled 'Type', lists three types of questions: Multi-hop, Context-dependent, and Single-hop. The second column, labeled 'Question', provides examples for each type. For the Multi-hop type, the question is 'Who was born first, Arthur Conan Doyle or Penelope Lively?', with a percentage value of 45% and an F1 score of 54.46. For the Context-dependent type, the question is 'Are Hot Rod and the Memory of Our People both magazines?', with a percentage value of 36% and an F1 score of 56.16. For the Single-hop type, the question is 'Which writer was from England, Henry Roth or Robert Erskine Childers?', with a percentage value of 17% and an F1 score of 70.54. The table is used to analyze the performance of a model on different types of questions."
+        },
+        {
+            "entity_name": "ARTHUR CONAN DOYLE",
+            "entity_type": "PERSON",
+            "description": "A famous author known for creating the detective Sherlock Holmes."
+        },
+        {
+            "entity_name": "PENELOPE LIVELY",
+            "entity_type": "PERSON",
+            "description": "An English writer of fiction for both children and adults, known for her historical novels and literary fiction."
+        },
+        {
+            "entity_name": "HOT ROD",
+            "entity_type": "ORGANIZATION",
+            "description": "A magazine focused on automotive content, particularly hot rods and custom cars."
+        },
+        {
+            "entity_name": "THE MEMORY OF OUR PEOPLE",
+            "entity_type": "ORGANIZATION",
+            "description": "A publication that seems to be related to cultural or historical memory, possibly a magazine or journal."
+        },
+        {
+            "entity_name": "HENRY ROTH",
+            "entity_type": "PERSON",
+            "description": "An American novelist best known for his debut novel 'Call It Sleep'."
+        },
+        {
+            "entity_name": "ROBERT ERSKINE CHILDERS",
+            "entity_type": "PERSON",
+            "description": "An Irish writer and politician, known for his novel 'The Riddle of the Sands' and his role in the Irish War of Independence."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: We train on HOTPOTQA using standard distractors (Original) or using adversarial distractors (Adversarial).' The table is structured with two main columns under the header 'Training Data': 'Original' and 'Adversarial.' Each of these columns is further divided into rows corresponding to different types of evaluation data. The rows are labeled as follows: 'Original,' 'Adversarial,' and '+ Type.' The values in the table represent performance metrics, likely accuracy or F1 scores, for different combinations of training and evaluation data. The exact values are as follows: For 'Original' training data, the 'Original' evaluation data yields a score of 67.08, while 'Adversarial' evaluation data yields 59.12. For 'Adversarial' training data, 'Original' evaluation data results in a score of 46.84, and 'Adversarial' evaluation data results in 60.10. The '+ Type' row shows a score of 40.73 for 'Original' evaluation data and 58.42 for 'Adversarial' evaluation data. The table highlights the performance differences when using original versus adversarial distractors during training and evaluation."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of a model on original and adversarial data for both training and evaluation."
+        },
+        {
+            "entity_name": "ORIGINAL TRAINING DATA",
+            "entity_type": "UNKNOWN",
+            "description": "The table shows the performance of the model when trained on original data."
+        },
+        {
+            "entity_name": "ADVERSARIAL TRAINING DATA",
+            "entity_type": "UNKNOWN",
+            "description": "The table shows the performance of the model when trained on adversarial data."
+        },
+        {
+            "entity_name": "ORIGINAL EVALUATION DATA",
+            "entity_type": "UNKNOWN",
+            "description": "The table shows the performance of the model when evaluated on original data."
+        },
+        {
+            "entity_name": "ADVERSARIAL EVALUATION DATA",
+            "entity_type": "UNKNOWN",
+            "description": "The table shows the performance of the model when evaluated on adversarial data."
+        },
+        {
+            "entity_name": "+ TYPE",
+            "entity_type": "UNKNOWN",
+            "description": "The table includes an additional row labeled '+ Type' which may indicate a different type of data or processing."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: The accuracy of single-paragraph BERT in different open-domain retrieval settings.' The table has two columns: 'Setting' and 'F1'. The rows under the 'Setting' column are as follows: 'Distractor', 'Open-domain 10 Paragraphs', 'Open-domain 500 Paragraphs', and 'Open-domain 500 Paragraphs + Gold Paragraph'. The corresponding F1 scores for these settings are 67.08, 38.40, 39.12, and 53.12, respectively. The table highlights the performance of the model in various retrieval settings, with the highest F1 score achieved when additional gold paragraphs are included."
+        },
+        {
+            "entity_name": "DISTRACTOR",
+            "entity_type": "EVENT",
+            "description": "A setting where the F1 score is 67.08."
+        },
+        {
+            "entity_name": "OPEN-DOMAIN 10 PARAGRAPHS",
+            "entity_type": "EVENT",
+            "description": "A setting where the F1 score is 38.40."
+        },
+        {
+            "entity_name": "OPEN-DOMAIN 500 PARAGRAPHS",
+            "entity_type": "EVENT",
+            "description": "A setting where the F1 score is 39.12."
+        },
+        {
+            "entity_name": "GOLD PARAGRAPH",
+            "entity_type": "EVENT",
+            "description": "An additional setting that, when combined with Open-domain 500 Paragraphs, results in an F1 score of 53.12."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed flowchart illustrating the process of single-paragraph BERT for reading and scoring each paragraph independently. The chart is divided into two main sections. On the left, there is a flowchart showing the input sequence consisting of a question and a paragraph, which are merged into a single sequence with a special token [SEP] indicating the boundary. This sequence is then fed into BERT-BASE. The output from BERT-BASE is a tensor \\( S' \\in \\mathbb{R}^{h \\times (m+n+1)} \\), where \\( h \\) is the hidden dimension of BERT. This tensor is then processed through max-pooling and learned parameters \\( W_1 \\in \\mathbb{R}^{h \\times 4} \\) to generate four scalars: \\( y_{\\mathrm{span}} \\), \\( y_{\\mathrm{yes}} \\), \\( y_{\\mathrm{no}} \\), and \\( y_{\\mathrm{empty}} \\). These scalars indicate whether the answer is a span, yes, no, or empty. The start and end positions of the span are determined by finding the maximum product of the start and end probabilities \\( p_{\\mathrm{start}}^i \\) and \\( p_{\\mathrm{end}}^j \\) respectively, using learned parameters \\( W_2, W_3 \\in \\mathbb{R}^{h} \\). On the right, the chart shows the outputs from multiple paragraphs, with the final answer chosen from the paragraph with the lowest \\( y_{\\mathrm{empty}} \\) score."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep learning model used for natural language processing tasks, shown in the diagram as a central component that processes input data and generates outputs."
+        },
+        {
+            "entity_name": "QUESTION",
+            "entity_type": "EVENT",
+            "description": "The input to the BERT model, represented as a sequence of tokens in the diagram."
+        },
+        {
+            "entity_name": "PARAGRAPH",
+            "entity_type": "EVENT",
+            "description": "Another input to the BERT model, also represented as a sequence of tokens in the diagram."
+        },
+        {
+            "entity_name": "OUTPUT 1",
+            "entity_type": "EVENT",
+            "description": "One of the possible outputs from the BERT model, indicating whether the span is empty or contains a yes/no answer."
+        },
+        {
+            "entity_name": "OUTPUT 2",
+            "entity_type": "EVENT",
+            "description": "Another possible output from the BERT model, similar to Output 1 but with a different index."
+        },
+        {
+            "entity_name": "OUTPUT N",
+            "entity_type": "EVENT",
+            "description": "The final possible output from the BERT model, again indicating whether the span is empty or contains a yes/no answer."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: The question operations used for categorizing comparison questions.' The table is divided into three main categories: Numerical Questions, Logical Questions, and String Questions. Each category lists specific operations and provides examples.\\n\\n- **Numerical Questions**\\n  - Operations: Is greater / Is smaller / Which is greater / Which is smaller\\n  - Example (Which is smaller): Who was born first, Arthur Conan Doyle or Penelope Lively?\\n\\n- **Logical Questions**\\n  - Operations: And / Or / Which is true\\n  - Example (And): Are Hot Rod and the Memory of Our People both magazines?\\n\\n- **String Questions**\\n  - Operations: Is equal / Not equal / Intersection\\n  - Example (Is equal): Are Cardinal Health and Kansas City Southern located in the same state?"
+        },
+        {
+            "entity_name": "NUMERICAL QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "Category of questions that involve comparisons using operations such as 'is greater,' 'is smaller,' 'which is greater,' and 'which is smaller.' Examples include determining who was born first between Arthur Conan Doyle and Penelope Lively."
+        },
+        {
+            "entity_name": "LOGICAL QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "Category of questions that involve logical operations such as 'and,' 'or,' and 'which is true.' An example would be checking if both Hot Rod and the Memory of Our People are magazines."
+        },
+        {
+            "entity_name": "STRING QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "Category of questions that involve string comparisons using operations like 'is equal,' 'not equal,' and 'intersection.' An example is verifying if Cardinal Health and Kansas City Southern are located in the same state."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a pseudocode representation of an algorithm titled 'Algorithm for Identifying Question Operations'. The algorithm is structured as a procedure named CATEGORIZE, which takes three parameters: question, entity1, and entity2. The procedure begins by calling a function f(question, entity1, entity2) to determine coordination and preconjunct values. It then checks if the question is either or both from the coordination and preconjunct values. Next, it calls another function f_head(question, entity1, entity2) to determine the head entity. The algorithm then proceeds with a series of conditional statements based on specific keywords in the question (e.g., more, most, less, earlier, etc.). Depending on these keywords and the existence of the head entity, the algorithm assigns a discrete_operation value, which can be one of the following: 'Which is greater', 'Is greater', 'Which is smaller', 'Is smaller', 'Which is true', 'Intersection', 'Or', 'And', 'Is equal', 'Not equal'. The final step returns the discrete_operation value."
+        },
+        {
+            "entity_name": "CATEGORIZE FUNCTION",
+            "entity_type": "ORGANIZATION",
+            "description": "A function named CATEGORIZE that takes three parameters: a question and two entities. It processes the question to determine the type of operation needed based on keywords and the relationship between the entities."
+        },
+        {
+            "entity_name": "QUESTION",
+            "entity_type": "OBJECT",
+            "description": "The first parameter of the CATEGORIZE function, representing the question to be analyzed."
+        },
+        {
+            "entity_name": "ENTITY1",
+            "entity_type": "OBJECT",
+            "description": "The second parameter of the CATEGORIZE function, representing the first entity in the question."
+        },
+        {
+            "entity_name": "ENTITY2",
+            "entity_type": "OBJECT",
+            "description": "The third parameter of the CATEGORIZE function, representing the second entity in the question."
+        }
+    ]
+}

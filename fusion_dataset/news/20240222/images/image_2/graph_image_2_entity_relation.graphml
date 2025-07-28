@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Fair- Hairstyle: Short, white hair- Facial Expression: Serious expression with a furrowed brow and lips pressed together- Age: Appears to be an elderly man- Clothing: Wearing a black quilted jacket over a dark sweater; gray pants; black shoes- Posture: Standing upright with hands in pocketsOverall, the character gives off a serious and somewhat stern demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts an elderly man standing inside a narrow, dimly lit tunnel. The tunnel walls are covered with graffiti and various posters. The man is wearing a black jacket over a dark shirt and gray pants. He has white hair and appears to be looking directly at the camera with a serious expression. The tunnel is approximately 30 yards long, as indicated by the context provided. The lighting is low, creating a somber atmosphere. The graffiti on the walls includes various writings and drawings in different colors. Some of the posters attached to the walls appear to be related to political or social messages, including one that reads 'Bring them home now!' The floor of the tunnel is concrete and shows signs of wear and dirt. The overall mood of the image conveys a sense of solemnity and reflection, possibly simulating the experiences of hostages as mentioned in the caption."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An elderly man with white hair, wearing a black jacket and gray pants, standing in a graffiti-covered tunnel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<node id="&quot;TUNNEL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A narrow, curved tunnel with walls covered in various graffiti and posters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<node id="&quot;GRAFFITI&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various writings and drawings on the walls of the tunnel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<node id="&quot;POSTERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several posters attached to the wall of the tunnel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TUNNEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tunnel是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;GRAFFITI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graffiti是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;POSTERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Posters是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TUNNEL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is standing inside the tunnel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;GRAFFITI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is surrounded by graffiti on the walls of the tunnel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;POSTERS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is near posters attached to the wall of the tunnel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

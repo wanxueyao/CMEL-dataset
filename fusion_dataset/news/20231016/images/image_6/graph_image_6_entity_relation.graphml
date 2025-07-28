@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts the exterior of a modern airport terminal building. The architecture features a series of large, curved arches that form the roof structure, giving it a distinctive and futuristic appearance. The facade is composed of dark glass panels interspersed with white columns, creating a sleek and contemporary look. The name 'BOISEAIR' is prominently displayed in gold letters above the entrance. In front of the building, there are several vehicles, including taxis and buses, indicating an active transportation hub. The sky is clear with a few scattered clouds, suggesting a bright and sunny day. The overall atmosphere conveys a sense of modernity and efficiency, typical of a major international airport."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+</node>
+<node id="&quot;BUKHARA AIRPORT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A modern airport terminal with a distinctive architectural design featuring large arches and a curved roof. The name 'BUKHARA' is prominently displayed above the entrance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+</node>
+<node id="&quot;VEHICLES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several vehicles, including taxis, are parked in front of the airport terminal."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+</node>
+<node id="&quot;ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The road in front of the airport where vehicles are parked and likely where passengers arrive and depart."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BUKHARA AIRPORT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bukhara Airport是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Vehicles是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Road是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BUKHARA AIRPORT&quot;" target="&quot;VEHICLES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Vehicles are parked in front of the Bukhara Airport terminal, indicating they are used for transportation to and from the airport."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BUKHARA AIRPORT&quot;" target="&quot;ROAD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The road is located directly in front of the Bukhara Airport terminal, serving as the primary access point for vehicles and passengers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231016/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration of the Mad Hatter from Lewis Carroll's 'Alice in Wonderland.' The Mad Hatter is depicted wearing a large, tall top hat with the label 'In this style 10/6' written on it. He is dressed in a checkered outfit consisting of a jacket, vest, and pants, all featuring a pattern of squares. The Mad Hatter has a peculiar posture, with his body slightly bent forward and his head turned to the side, giving him a whimsical and eccentric appearance. His face is partially obscured by the brim of his hat, adding to his mysterious and chaotic demeanor. He is holding a piece of bread in one hand, which he appears to be examining closely. The background is minimalistic, with simple lines suggesting a ground or floor, and there are no other objects or characters present. The overall atmosphere conveyed by the image is one of absurdity and madness, fitting the character's reputation in the story."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+</node>
+<node id="&quot;MAD HATTER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A whimsical character from Alice in Wonderland, characterized by his tall hat with a band reading '10/6', and his eccentric clothing including a checkered coat and mismatched shoes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+</node>
+<node id="&quot;HAT&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+  <data key="d1">"The Mad Hatter is wearing a tall hat with a band reading '10/6'. This hat is a distinctive feature of the character."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CLOTHING&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+  <data key="d1">"The Mad Hatter is dressed in a checkered coat and mismatched shoes, which are part of his eccentric appearance."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MAD HATTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mad Hatter是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAD HATTER&quot;" target="&quot;HAT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Mad Hatter is wearing a tall hat with a band reading '10/6'. This hat is a distinctive feature of the character."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAD HATTER&quot;" target="&quot;CLOTHING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Mad Hatter is dressed in a checkered coat and mismatched shoes, which are part of his eccentric appearance."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

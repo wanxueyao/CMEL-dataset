@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Dark skin- Hairstyle: Bald head- Facial expression: Not visible due to the angle, but appears to be speaking or shouting- Age: Appears to be an adult male- Clothing: Wearing a white long-sleeved shirt with the sleeves rolled up, a black tactical vest over the shirt, and gray pants- Accessories: Black watch on the left wrist, glasses with blue frames- Posture: Standing with the right arm extended outward, possibly pointing or directingOverall, the person gives off an authoritative and professional vibe, likely in a role that requires communication and direction, such as law enforcement or security."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light- Hairstyle: Not visible due to headgear- Facial Expression: Eyes closed, appears to be drinking from a water bottle- Age: Appears to be an adult- Clothing: Wearing a traditional red military uniform with gold buttons and a white belt; black trousers; a large, black fur hat (bearskin cap) with a gold band and tassel; and a black shoulder strap with a bayonet attached- Accessories: Black wristwatch on the left wrist- Posture: Standing upright, holding a water bottle to the mouth with the right handOverall, the person is dressed in a ceremonial military uniform, likely participating in a formal event or parade."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image captures a moment at Buckingham Palace during the changing of the guard ceremony, which was scaled back due to extreme heat. A soldier in traditional ceremonial attire is being assisted by a security officer. The soldier is dressed in a bright red uniform with gold buttons and a black bearskin hat, holding a rifle. He appears to be experiencing heat-related distress, as he is receiving assistance from the security officer, who is providing him with water or possibly oxygen. The security officer is wearing a dark vest over a white shirt and has a radio attached to his belt. The background features part of the palace's ornate architecture, including a stone balustrade and a blue door with gold trim. The scene conveys a sense of urgency and care, highlighting the impact of extreme weather conditions on public events and individuals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<node id="&quot;GUARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person dressed in a traditional red uniform with a black fur hat, holding a rifle and appearing to receive assistance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<node id="&quot;SECURITY OFFICER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A bald man wearing a white shirt and black vest, providing assistance to the guard."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A building with ornate architectural features, including a column and a gold-trimmed door."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;SECURITY OFFICER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-0.jpg is a picture of a security officer."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;GUARD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_1_person-1.jpg is a picture of a guard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1_PERSON-1.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-1.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;GUARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Guard是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SECURITY OFFICER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Security Officer是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GUARD&quot;" target="&quot;SECURITY OFFICER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The security officer is assisting the guard, who appears to be experiencing distress."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GUARD&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The guard is standing in front of the building, performing ceremonial duties."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SECURITY OFFICER&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The security officer is standing in front of the building, providing assistance to the guard."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220719/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a precision-recall (PR) curve graph comparing four different CNN-based models. The x-axis represents Recall, ranging from 0 to 0.4, and the y-axis represents Precision, ranging from 0.3 to 1.0. Four curves are plotted on the graph, each representing a different model configuration: CNN+ONE (blue triangles), CNN+ONE+DSGAN (red circles), CNN+ATT (black squares), and CNN+ATT+DSGAN (magenta stars). The curves show the trade-off between precision and recall for each model. The CNN+ONE+DSGAN model starts with the highest precision but drops rapidly as recall increases. The CNN+ATT+DSGAN model maintains a relatively high precision across a wider range of recall values compared to the other models. The CNN+ONE and CNN+ATT models have similar trends, with the CNN+ATT model generally having slightly higher precision at lower recall values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_6.jpg</data>
+</node>
+<node id="&quot;PRECISION-RECALL CURVE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Graph displaying the precision-recall curve for different models: CNN+ONE, CNN+ONE+DSGAN, CNN+ATT, and CNN+ATT+DSGAN. The x-axis represents recall, and the y-axis represents precision."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_6.jpg</data>
+</node>
+<node id="&quot;MODELS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1046/images/image_6.jpg</data>
+  <data key="d1">"The graph compares the performance of four different models in terms of precision and recall."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;PRECISION-RECALL CURVE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Precision-Recall Curve是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PRECISION-RECALL CURVE&quot;" target="&quot;MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graph compares the performance of four different models in terms of precision and recall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1046/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

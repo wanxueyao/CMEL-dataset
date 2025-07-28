@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, platinum blonde hair, styled in a spiky manner- Facial Expression: Serious and focused- Age: Appears to be an adult male- Clothing: Wearing a dark blue sleeveless jacket with a high collar and silver accents; white pants with a black belt; black shoes with white socks- Posture: Leaning back with one leg extended forward and the other bent at the knee, giving a dynamic and action-oriented poseOverall, the character appears to be in a combat or performance stance, suggesting a strong and determined personality."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Clothing: Wearing white socks and black dress shoes with a shiny finish- Posture: Legs are crossed at the ankles, with one leg resting on top of the other, suggesting a relaxed or confident poseOverall, the image captures a detail of a person's lower legs and feet in a formal attire, indicating a possible business or formal event setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, platinum blonde hair with a slightly tousled appearance- Expression: Neutral to slightly serious expression, looking over the shoulder- Age: Appears to be an adult woman- Clothing: Wearing a sleeveless denim dress with a collar and buttons; the dress has a dark blue color with a slightly worn texture- Accessories: Holding a white object that appears to be a Wii Remote in her right hand, which is resting on her hipOverall, the character gives off a casual and modern vibe, possibly engaged in a gaming activity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a person with short, platinum blonde hair styled in a pixie cut. They are wearing a sleeveless navy blue dress that has a structured, almost military-like appearance with visible buttons and a high collar. The individual is seated on what appears to be a metal bench or railing, with one leg extended outward and the other bent at the knee. They are wearing black lace-up shoes and white socks. The background includes a building with large windows and some architectural details, suggesting an urban setting. The overall mood of the image conveys a sense of casual confidence and modern style."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with short, platinum blonde hair, wearing a sleeveless denim dress and black shoes. She is sitting on a bench with one leg extended out and the other bent at the knee."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;BENCH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A white bench on which the woman is sitting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<node id="&quot;BUILDING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A building with decorative elements above the windows in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-1.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The image feature block image_5_person-1.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-2.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-2.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-2.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-2.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BENCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bench是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Building是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BENCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is sitting on the bench."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is in front of the building."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BENCH&quot;" target="&quot;BUILDING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The bench is located in front of the building."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221205/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

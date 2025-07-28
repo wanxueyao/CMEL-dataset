@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_BIRD-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Beaver- Age: Adult- Color: Dark brown fur with a mix of lighter shades on the face and around the eyes- Shape: Characteristic beaver shape with a broad head, small rounded ears, and a wide flat tail- Size: The image shows a close-up, but beavers are typically large rodents, with adults reaching up to 30 inches in length- Posture: The beaver appears to be in a resting or neutral position, with its head turned slightly to one sideOverall, the beaver exhibits the typical features of its species, including its distinctive fur pattern and body shape."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a beaver swimming in a calm body of water, likely a pond or a slow-moving river. The beaver is positioned towards the right side of the image, with its head and part of its body visible above the water surface. The water is relatively still, creating a mirror-like reflection of the surrounding vegetation. The background shows tall grasses and reeds along the edge of the water, indicating a natural wetland habitat. The beaver's fur appears dark brown, and its posture suggests it is moving forward through the water. The overall atmosphere of the image is serene and natural, capturing the beaver in its typical environment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+</node>
+<node id="&quot;BEAVER&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A beaver swimming in the water with its head above the surface, surrounded by reeds and grass."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+</node>
+<node id="&quot;WATER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A calm body of water reflecting the surrounding vegetation and sky."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+</node>
+<node id="&quot;REEDS&quot;">
+  <data key="d0">"PLANT"</data>
+  <data key="d1">"Tall green reeds growing at the edge of the water."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_BIRD-0.JPG&quot;" target="&quot;BEAVER&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_2_bird-0.jpg is a picture of a beaver."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_BIRD-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_bird-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BEAVER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Beaver是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WATER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Water是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;REEDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Reeds是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEAVER&quot;" target="&quot;WATER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The beaver is swimming in the water."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BEAVER&quot;" target="&quot;REEDS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The beaver is near the reeds at the edge of the water."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WATER&quot;" target="&quot;REEDS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The reeds are growing at the edge of the water."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

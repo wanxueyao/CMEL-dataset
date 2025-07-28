@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Qualitative analysis of the LANI and CHAI corpora.' It provides a detailed comparison between two corpora, LANI and CHAI, based on various categories. The table is structured with the following columns: Category, Count (with sub-columns for LANI and CHAI), and Example. The rows represent different categories analyzed in the corpora. The categories include Spatial relations between locations, Conjunctions of two or more locations, Temporal coordination of sub-goals, Constraints on the shape of trajectory, Co-reference, and Comparatives. For each category, the table shows the count of examples found in each corpus out of 200 sampled instructions and provides an example sentence from each corpus. For instance, under Spatial relations between locations, LANI has 123 examples, while CHAI has 52. An example from LANI is 'go to the right side of the rock,' and from CHAI is 'pick up the cup next to the bathtub and place it on ...'. The table highlights the differences in the frequency and types of instructions between the two corpora."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+</node>
+<node id="&quot;LANI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 123 spatial relations between locations, 36 conjunctions of two or more locations, 65 temporal coordinations of sub-goals, 94 constraints on the shape of trajectory, 32 co-references, and 2 comparatives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+</node>
+<node id="&quot;CHAI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 52 spatial relations between locations, 5 conjunctions of two or more locations, 68 temporal coordinations of sub-goals, 0 constraints on the shape of trajectory, 18 co-references, and 0 comparatives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;LANI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LANI是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CHAI是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LANI&quot;" target="&quot;CHAI&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are datasets used for natural language processing tasks, but they differ in the types and counts of linguistic features they contain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1287/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

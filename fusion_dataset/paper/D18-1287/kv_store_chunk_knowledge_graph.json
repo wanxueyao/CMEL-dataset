@@ -1,0 +1,2370 @@
+{
+    "5": {
+        "chunk_key": "chunk-a5cbc3dc3119bb20857ce5133d72aac4",
+        "entities": [
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LANI is an event or task designed to evaluate an agent's ability to follow navigation instructions in an environment with landmarks.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAI is an organization that combines navigation and manipulation tasks in a simulated household environment, using the CHALET simulator.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Mechanical Turk is a crowdsourcing platform used to collect a corpus of navigation instructions for the LANI task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"UNITY3D\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Unity3D is the technology used to implement the environment simulator for the LANI task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"CHALET SIMULATOR\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The CHALET simulator is a 3D house simulator used by the CHAI organization to create a complex, simulated household environment.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"NG ET AL., 1999\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ng et al., 1999 refers to a group of researchers or authors who contributed to the shaping term component of the reward function.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"WILLIAMS, 1992\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Williams, 1992 refers to a researcher or author who contributed to the method of approximating the gradient by sampling an action using the policy.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"RECHT ET AL., 2011\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Recht et al., 2011 refers to a group of researchers or authors who contributed to the Hogwild! method used for updating parameters.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"YAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yan et al., 2018 refers to a group of researchers or authors who developed the CHALET simulator used by the CHAI organization.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"AGENT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The agent in the text refers to a computational entity that is being trained to follow navigation instructions and perform tasks in a simulated environment.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"GOAL POSITION\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The goal position is a specific location in the environment that the agent is trying to reach, as part of the navigation task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"FIRST PERSON VIEW\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The first person view refers to the perspective from which the agent observes the environment, as if the agent were a person.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"RGB IMAGE\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"An RGB image is the type of visual data the agent receives as input when observing the environment, representing color images.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"SCALAR REWARD\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A scalar reward is a single numerical value provided to the agent as feedback for its actions in the environment.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"SOCKET API\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The socket API is the interface used by the simulator to control the agent and the environment in the LANI task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"TASK COMPLETION ACCURACY\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Task completion accuracy is a metric used to evaluate how accurately the agent completes the navigation task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"STOP DISTANCE ERROR\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Stop distance error is a metric used to evaluate the agent's performance, specifically how close the agent stops to the goal.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"AERIAL DISTANCE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Aerial distance refers to the distance measured from above, used to determine if the agent has completed the task within the required proximity to the goal.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"DEVELOPMENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Development in this context refers to the process of refining and improving the agent's performance on the navigation task.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"QUALITATIVE ANALYSIS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Qualitative analysis is the process of analyzing the language challenge presented by the corpus, which is part of the development process.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"SEGMENTED INSTRUCTIONS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Segmented instructions are instructions that are broken down into parts, each corresponding to a specific action or segment of the path.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"DEMONSTRATIONS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Demonstrations refer to the act of showing how to perform a task, in this case, how to follow the navigation instructions.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"OVERHEAD VIEW\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"An overhead view is the perspective from which the workers provide instructions, observing the environment from above.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"DRONE ICON\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The drone icon represents the agent in the environment, used to visualize the path and the agent's position.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "entity_name": "\"FOLLOWER PATH\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"The follower path is the path that the agent takes while following the navigation instructions, visualized in the environment.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"AMAZON MECHANICAL TURK\"",
+                "weight": 6.0,
+                "description": "\"LANI uses Amazon Mechanical Turk to crowdsource navigation instructions.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"UNITY3D\"",
+                "weight": 7.0,
+                "description": "\"LANI's environment simulator is implemented using Unity3D technology.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"CHALET SIMULATOR\"",
+                "weight": 8.0,
+                "description": "\"CHAI uses the CHALET simulator to create a simulated household environment for their tasks.\"",
+                "source_id": "chunk-a5cbc3dc3119bb20857ce5133d72aac4"
+            }
+        ]
+    },
+    "6": {
+        "chunk_key": "chunk-ecb5de346dd7867cf3eb231fcde80125",
+        "entities": [
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAI is an organization that has developed a corpus combining navigation and simple manipulation in a simulated household environment.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"CHALET SIMULATOR\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"The CHALET simulator is a 3D house simulator used by CHAI, providing multiple houses with rooms for navigation and object manipulation tasks.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"YAN ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yan et al., 2018 are the authors who provided the full details of the CHALET simulator and evaluation metrics for the CHAI corpus.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"AMAZON MECHANICAL TURK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Mechanical Turk is a crowdsourcing platform used by CHAI to collect a corpus of navigation and manipulation instructions.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"MISRA ET AL. (2017)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Misra et al. (2017) are referenced as a baseline approach in the experimental setup for the CHAI corpus.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"CHAPLOT ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chaplot et al. (2018) are referenced as a baseline approach in the experimental setup for the CHAI corpus.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"JANNER ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Janner et al. (2018) are referenced for a method of goal prediction in the evaluation of the CHAI corpus.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LANI is another organization mentioned in the context of the CHAI corpus, possibly related to language or instruction analysis.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"NAVIGATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NAVIGATION is an event type in the CHAI corpus, representing action sequences that require movement and end with the STOP action.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"INTERACTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"INTERACTION is an event type in the CHAI corpus, representing sequences of movement actions that end with an INTERACT action.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"INTERACT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"INTERACT is an event in the CHAI corpus where the agent interacts with objects, requiring a 2D position in the agent’s view.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"STOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"STOP is an event in the CHAI corpus where the agent ceases movement, used as an endpoint for NAVIGATION and INTERACTION sequences.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"TURNLEFT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"TURNLEFT is an event in the CHAI corpus where the agent turns left, one of the five actions the agent can take.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"TURNRIGHT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"TURNRIGHT is an event in the CHAI corpus where the agent turns right, one of the five actions the agent can take.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"FORWARD\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"FORWARD is an event in the CHAI corpus where the agent moves forward, set at a distance of 0.1, one of the five actions the agent can take.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"RAY CASTING\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Ray casting is a technology used in the CHAI corpus for inferring the goal location, especially for INTERACTION goals that are not on the ground.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"HORIZON\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Horizon refers to the limit or boundary within which the agent operates in the CHAI corpus, with a specified horizon of 40 for both domains.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"GOAL PREDICTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Goal prediction is an event in the CHAI corpus where an additional RNN predicts the sequence of intermediate goals given the instruction only.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"CENTER BASELINE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"CENTER baseline is a concept in the CHAI corpus where the method always predicts the center pixel for goal prediction.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"TASK COMPLETION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Task completion (TC) is an evaluation metric in the CHAI corpus for measuring whether the agent has successfully completed a task.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"MANIPULATION ACCURACY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Manipulation accuracy (MA) is an evaluation metric in the CHAI corpus for comparing the set of manipulation actions to a reference set.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "entity_name": "\"STOP DISTANCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Stop distance (SD) is an evaluation metric in the CHAI corpus that measures the distance of the agent’s final state to the final annotated position.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"CHALET SIMULATOR\"",
+                "weight": 9.0,
+                "description": "\"CHAI uses the CHALET simulator for their navigation and manipulation tasks in a simulated household environment.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"YAN ET AL., 2018\"",
+                "weight": 8.0,
+                "description": "\"CHAI's corpus and evaluation methods are based on the work detailed by Yan et al., 2018.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"AMAZON MECHANICAL TURK\"",
+                "weight": 7.0,
+                "description": "\"CHAI collected their corpus of instructions using Amazon Mechanical Turk's crowdsourcing service.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"MISRA ET AL. (2017)\"",
+                "weight": 6.0,
+                "description": "\"CHAI compares its approach against the baseline established by Misra et al. (2017) in their experimental setup.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"CHAPLOT ET AL. (2018)\"",
+                "weight": 6.0,
+                "description": "\"CHAI compares its approach against the baseline established by Chaplot et al. (2018) in their experimental setup.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"JANNER ET AL. (2018)\"",
+                "weight": 6.0,
+                "description": "\"CHAI evaluates its goal prediction method against the one proposed by Janner et al. (2018).\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"LANI\"",
+                "weight": 5.0,
+                "description": "\"CHAI and LANI are both mentioned in the context of corpora, possibly indicating a relationship or comparison between the two.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"NAVIGATION\"",
+                "weight": 7.0,
+                "description": "\"CHAI includes NAVIGATION as one of the two types of goals in their model for executing instructions.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"INTERACTION\"",
+                "weight": 7.0,
+                "description": "\"CHAI includes INTERACTION as one of the two types of goals in their model for executing instructions.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"NAVIGATION\"",
+                "tgt_id": "\"STOP\"",
+                "weight": 7.0,
+                "description": "\"NAVIGATION events in CHAI end with the STOP action, indicating a sequential relationship.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            },
+            {
+                "src_id": "\"INTERACTION\"",
+                "tgt_id": "\"STOP\"",
+                "weight": 7.0,
+                "description": "\"INTERACTION events in CHAI end with an INTERACT action, which is followed by a STOP, indicating a sequential relationship.\"",
+                "source_id": "chunk-ecb5de346dd7867cf3eb231fcde80125"
+            }
+        ]
+    },
+    "7": {
+        "chunk_key": "chunk-6c1df1d042170364405c60ca34c8951c",
+        "entities": [
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LANI is an organization involved in evaluating the performance of approaches in task completion and stop distance accuracy.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAI is an organization involved in evaluating the performance of approaches in stop distance and manipulation accuracy.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"CHAPLOT18\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAPLOT18 is an approach that is compared with others in terms of task completion accuracy on LANI.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"MISRA17\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MISRA17 is an approach that is compared with others in terms of task completion accuracy on LANI.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"STOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"STOP is a baseline event used for comparison in performance metrics such as stop distance.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"RANDOMWALK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"RANDOMWALK is a baseline event used for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"MOSTFREQUENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MOSTFREQUENT is a baseline event used for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"TASK COMPLETION (TC)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Task Completion (TC) is a metric used to evaluate the accuracy of approaches in completing tasks.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"STOP DISTANCE (SD)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Stop Distance (SD) is a metric used to evaluate the accuracy of approaches in stopping at the correct location.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"MANIPULATION (MA)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Manipulation (MA) is a metric used to evaluate the accuracy of approaches in manipulation tasks.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"JANNER ET AL. (2018)\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Janner et al. (2018) is a reference to a method that is outperformed by the described approach in goal prediction.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"HUMAN EVALUATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Human Evaluation is a process used to assess the performance of approaches by comparing generated paths with instructions on a Likert scale.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"LIKERT SCALE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Likert Scale is a scale of 1–5 used by raters to evaluate if the generated path follows the instruction.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"RATERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raters are individuals who evaluate the generated path, the reference path, and the instruction on a Likert scale.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"HORIZON\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Horizon refers to the limit set for both domains during training, allowing additional steps to encourage learning after errors.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"INTERMEDIATE GOALS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Intermediate Goals are used in CHAI, with the horizon applied separately for each goal.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"ACTION GENERATION RNN\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Action Generation RNN is a component of the model that is ablated to demonstrate its importance.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"LANGUAGE INPUT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Language Input is a component of the model that is ablated to demonstrate its importance.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"JOINT LEARNING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Joint Learning is a component of the model that is ablated to demonstrate its importance.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"ORACLE GOALS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Oracle Goals are hypothetical goals used to evaluate the approach's performance in navigation tasks.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"CASCADING ERRORS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Cascading Errors refer to the potential issue where errors in predicted goals lead to errors in action generation.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"GOAL PREDICTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Goal Prediction is a process that is explicitly separated from action generation in the proposed model.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "entity_name": "\"ACTION GENERATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Action Generation is a process that relies on the predicted goal in the proposed model.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"CHAPLOT18\"",
+                "weight": 6.0,
+                "description": "\"LANI is used to evaluate the performance of CHAPLOT18 in task completion accuracy.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"MISRA17\"",
+                "weight": 6.0,
+                "description": "\"LANI is used to evaluate the performance of MISRA17 in task completion accuracy.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"STOP\"",
+                "weight": 5.0,
+                "description": "\"LANI uses STOP as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"RANDOMWALK\"",
+                "weight": 5.0,
+                "description": "\"LANI uses RANDOMWALK as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"MOSTFREQUENT\"",
+                "weight": 5.0,
+                "description": "\"LANI uses MOSTFREQUENT as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"STOP\"",
+                "weight": 5.0,
+                "description": "\"CHAI uses STOP as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"RANDOMWALK\"",
+                "weight": 5.0,
+                "description": "\"CHAI uses RANDOMWALK as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"MOSTFREQUENT\"",
+                "weight": 5.0,
+                "description": "\"CHAI uses MOSTFREQUENT as a baseline for comparison in performance metrics.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"JANNER ET AL. (2018)\"",
+                "weight": 6.0,
+                "description": "\"CHAI is used to evaluate the performance of the approach by Janner et al. (2018) in goal prediction.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"HUMAN EVALUATION\"",
+                "tgt_id": "\"RATERS\"",
+                "weight": 8.0,
+                "description": "\"Human Evaluation is conducted by Raters who assess the performance of approaches on a Likert scale.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"HUMAN EVALUATION\"",
+                "tgt_id": "\"LIKERT SCALE\"",
+                "weight": 9.0,
+                "description": "\"Human Evaluation uses the Likert Scale for raters to evaluate the generated path against the instruction.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            },
+            {
+                "src_id": "\"GOAL PREDICTION\"",
+                "tgt_id": "\"ACTION GENERATION\"",
+                "weight": 8.0,
+                "description": "\"Goal Prediction is a separate process from Action Generation in the proposed model.\"",
+                "source_id": "chunk-6c1df1d042170364405c60ca34c8951c"
+            }
+        ]
+    },
+    "1": {
+        "chunk_key": "chunk-798992cc0090fbebd246f289f620d883",
+        "entities": [
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAI is an organization associated with the development of the CIFF project, as indicated by the GitHub repository.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"CIFF\"",
+                "entity_type": "\"PROJECT\"",
+                "description": "\"CIFF is a project developed by the CHAI organization, with code and data available on GitHub.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"LANI is a navigation domain used in the project, where actions include moving the agent and changing its orientation.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"CHALET\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CHALET is a house environment used in the project, where agent actions include moving, changing orientation, and object interaction.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"HCRC MAP TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"HCRC Map Task is an event that inspired LANI, involving a leader directing a follower to navigate between landmarks on a map.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"GITHUB\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GitHub is the platform where the CIFF project's code and data are hosted.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{X}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathcal{X}$ represents the set of all instructions in the technical overview of the project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"$\\MATHCAL{S}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathcal{S}$ represents the set of all world states in the technical overview of the project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"$\\BOLDSYMBOL{\\MATHCAL{A}}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\boldsymbol{\\mathcal{A}}$ represents the set of all actions in the technical overview of the project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"STOP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"STOP is the special action indicating execution completion in the agent's sequence of actions.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"AGENT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The agent is the entity that executes instructions by generating a sequence of actions in the project's model.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"AGENT CONTEXT $\\TILDE{S}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The agent context $\\tilde{s}$ is defined as the agent's pose and an RGB image of the environment from its point of view.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"N\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"N represents the number of training data examples in the learning process of the project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"M\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"M represents the number of test set examples in the evaluation process of the project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"CHEN AND MOONEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen and Mooney are researchers cited in the related work section for their study on mapping instruction to action.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"KIM AND MOONEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kim and Mooney are researchers cited in the related work section for their study on mapping instruction to action.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"ARTZI AND ZETTLEMOYER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Artzi and Zettlemoyer are researchers cited in the related work section for their study on mapping instruction to action.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"MISRA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Misra et al. are researchers cited multiple times in the related work section for their studies on mapping instruction to action and direct mapping from raw visual observations to actions.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"XIONG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiong et al. are researchers cited in the related work section for their study on direct mapping from raw visual observations to actions.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"ANDERSON ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anderson et al. are researchers cited in the related work section for their study on direct mapping from raw visual observations to actions and for the HCRC Map Task.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"FRIED ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Fried et al. are researchers cited in the related work section for their study on direct mapping from raw visual observations to actions.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"CHAPLOT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chaplot et al. are researchers cited in the related work section for their study on using synthetic language for instruction following.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al. are researchers cited in the related work section for their study on using synthetic language for instruction following.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"SUTTON ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sutton et al. are researchers cited in the related work section for their study on hierarchical reinforcement learning.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "entity_name": "\"OH ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oh et al. are researchers cited in the related work section for their study on mapping synthetic language to actions using a two-level hierarchy.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"CIFF\"",
+                "weight": 9.0,
+                "description": "\"CHAI is the organization responsible for the development of the CIFF project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "src_id": "\"CIFF\"",
+                "tgt_id": "\"LANI\"",
+                "weight": 8.0,
+                "description": "\"LANI is a navigation domain utilized in the CIFF project.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "src_id": "\"CIFF\"",
+                "tgt_id": "\"CHALET\"",
+                "weight": 8.0,
+                "description": "\"CHALET is a house environment used in the CIFF project for agent actions and state encoding.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"HCRC MAP TASK\"",
+                "weight": 7.0,
+                "description": "\"LANI is inspired by the HCRC Map Task, adapting the concept of navigation between landmarks.\"",
+                "source_id": "chunk-798992cc0090fbebd246f289f620d883"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-2e26f790536e5feae530d964770f265f",
+        "entities": [
+            {
+                "entity_name": "\"LINGUNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LINGUNET is a system that includes various components such as CNNs, affine transformations, and RNNs, used for action generation and goal prediction.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"PETERS AND SCHAAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peters and Schaal are referenced in the context of reinforcement learning, indicating their contribution to the field.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"MNIH ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mnih et al. are mentioned in relation to reinforcement learning methods that require many samples due to high sample complexity.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"MISRA ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Misra et al. are referenced for their work on learning in a contextual bandit setting and mixing reinforcement and supervised learning.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"XIONG ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiong et al. are mentioned for their work on mixing reinforcement and supervised learning.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"KINGMA AND BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kingma and Ba are the authors of the Adam optimization method used for updating model parameters.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"CHAPLOT ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chaplot et al. are referenced in the context of a learned embedding lookup table for the current time.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"RNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RNN refers to the Recurrent Neural Network used in the action generation process of LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM stands for Long Short-Term Memory, a type of RNN used in LINGUNET for action generation and goal prediction.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN refers to Convolutional Neural Networks, which are part of the model parameters in LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"DECONV\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DECONV likely refers to Deconvolutional Networks, which are part of the model parameters in LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"AFFINE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"AFFINE refers to the learned affine transformations within the LINGUNET model.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"ADAM\"",
+                "entity_type": "\"EVENT\"",
+                "description": "Adam is the optimization method used for updating model parameters in the LINGUNET model, also referred to as Adam Optimization.",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"POLICY GRADIENT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Policy Gradient is the method used for action generation in a contextual bandit setting within LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"CONTEXTUAL BANDIT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Contextual Bandit is the setting used for action generation in LINGUNET, as referenced in the text.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"SUPERVISED LEARNING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Supervised Learning is the method used to address the language understanding problem in LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"REINFORCEMENT LEARNING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Reinforcement Learning is the method mentioned for tasks that benefit from exploration in the context of LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"EXPLORATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Exploration is a concept related to the use of reinforcement learning in LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"ACTION GENERATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Action Generation is a process in LINGUNET that involves generating actions using an RNN.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"GOAL PREDICTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Goal Prediction is a component of LINGUNET that predicts the goal state.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"CROSS-ENTROPY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Cross-Entropy is the measure used to train the goal prediction component by minimizing the error with the gold-standard goal distribution.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"GOLD-STANDARD GOAL DISTRIBUTION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Gold-Standard Goal Distribution is the deterministic distribution used as a reference for training the goal prediction component.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "entity_name": "\"EXPECTED IMMEDIATE REWARD\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Expected Immediate Reward is the objective for training action generation by maximizing the reward the agent observes.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"PETERS AND SCHAAL\"",
+                "weight": 4.0,
+                "description": "\"LINGUNET's action generation component is contrasted with the reinforcement learning methods of Peters and Schaal.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"MNIH ET AL.\"",
+                "weight": 4.0,
+                "description": "\"LINGUNET's approach is compared to the reinforcement learning methods that Mnih et al. are known for, which have high sample complexity.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"MISRA ET AL.\"",
+                "weight": 5.0,
+                "description": "\"LINGUNET's learning approach is informed by the work of Misra et al. on contextual bandit settings and the combination of reinforcement and supervised learning.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"XIONG ET AL.\"",
+                "weight": 4.0,
+                "description": "\"LINGUNET's learning strategy is related to the approach of Xiong et al., which combines reinforcement and supervised learning.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"KINGMA AND BA\"",
+                "weight": 6.0,
+                "description": "\"LINGUNET uses the Adam optimization method developed by Kingma and Ba for updating its model parameters.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"CHAPLOT ET AL.\"",
+                "weight": 5.0,
+                "description": "\"LINGUNET incorporates the learned embedding lookup table for the current time as described by Chaplot et al.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"RNN\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 7.0,
+                "description": "\"LSTM is a type of RNN used in the LINGUNET model for action generation and goal prediction.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"CNN\"",
+                "tgt_id": "\"LINGUNET\"",
+                "weight": 7.0,
+                "description": "\"CNNs are part of the model parameters within LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"DECONV\"",
+                "tgt_id": "\"LINGUNET\"",
+                "weight": 7.0,
+                "description": "\"DECONVs are part of the model parameters within LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"AFFINE\"",
+                "tgt_id": "\"LINGUNET\"",
+                "weight": 7.0,
+                "description": "\"AFFINE transformations are part of the model parameters within LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"ADAM\"",
+                "tgt_id": "\"LINGUNET\"",
+                "weight": 8.0,
+                "description": "\"Adam is the optimization method used to update the model parameters in LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            },
+            {
+                "src_id": "\"POLICY GRADIENT\"",
+                "tgt_id": "\"LINGUNET\"",
+                "weight": 7.0,
+                "description": "\"Policy Gradient is used in the action generation process of LINGUNET.\"",
+                "source_id": "chunk-2e26f790536e5feae530d964770f265f"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-87d2e06a31aa878bb79077cd36b9e783",
+        "entities": [
+            {
+                "entity_name": "\"DIPENDRA MISRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dipendra Misra is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"ANDREW BENNETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Bennett is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"VALTS BLUKIS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Valts Blukis is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"EYVIND NIKLASSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Eyvind Niklasson is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"MAX SHATKHIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Max Shatkhin is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"YOAV ARTZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Artzi is one of the authors of the paper on mapping instructions to actions in 3D environments with visual goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Department of Computer Science and Cornell Tech at Cornell University is the institution where the research was conducted.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"LINGUNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LINGUNET is a language-conditioned image generation network used in the research to map raw visual observations to goals.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"LANI is a benchmark for instruction following, specifically a navigation task used to evaluate the model's performance.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CHAI is a benchmark for instruction following, where an agent executes household instructions, used to evaluate the model's performance.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"NY\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"NY is the abbreviation for New York, indicating the state where the research was conducted.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"CHALET ENVIRONMENT\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CHALET environment is a 3D house environment used in the CHAI benchmark for executing household instructions.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"MEI ET AL., 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Mei et al., 2016 is a reference to a previous study that proposed learning to directly map from inputs to actions.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"SUHR AND ARTZI, 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Suhr and Artzi, 2018 is a reference to a study that proposed learning to directly map from inputs to actions.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"MISRA ET AL., 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Misra et al., 2017 is a reference to a study that proposed learning to directly map from inputs to actions using a single model.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"XIONG ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Xiong et al., 2018 is a reference to a study that proposed learning to directly map from inputs to actions.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"RONNEBERGER ET AL., 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Ronneberger et al., 2015 is a reference to the study that introduced the U-NET image-to-image architecture used in LINGUNET.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"YAN ET AL., 2018\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Yan et al., 2018 is a reference to a study that contributed to the CHALET environment used in the CHAI benchmark.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"CIFF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ciff is the code name or identifier for the project where the code and data for this research are available.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"U-NET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"U-NET is the image-to-image architecture used as a basis for developing LINGUNET.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "entity_name": "\"RNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RNN stands for Recurrent Neural Network, the method used to generate actions after goal prediction.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"DIPENDRA MISRA\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Dipendra Misra is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"ANDREW BENNETT\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Andrew Bennett is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"VALTS BLUKIS\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Valts Blukis is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"EYVIND NIKLASSON\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Eyvind Niklasson is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"MAX SHATKHIN\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Max Shatkhin is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"YOAV ARTZI\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 8.0,
+                "description": "\"Yoav Artzi is affiliated with the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 9.0,
+                "description": "\"LINGUNET is developed by researchers at the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"NY\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 7.0,
+                "description": "\"NY is the abbreviation for the state where the Department of Computer Science and Cornell Tech at Cornell University is located.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"CHALET ENVIRONMENT\"",
+                "tgt_id": "\"CHAI\"",
+                "weight": 8.0,
+                "description": "\"The CHALET environment is used in the CHAI benchmark for executing household instructions.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"MEI ET AL., 2016\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 6.0,
+                "description": "\"Mei et al., 2016 is a reference to a previous study related to the research conducted at the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            },
+            {
+                "src_id": "\"SUHR AND ARTZI, 2018\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE AND CORNELL TECH, CORNELL UNIVERSITY, NEW YORK, NY, 10044\"",
+                "weight": 6.0,
+                "description": "\"Suhr and Artzi, 2018 is a reference to a study related to the research conducted at the Department of Computer Science and Cornell Tech at Cornell University.\"",
+                "source_id": "chunk-87d2e06a31aa878bb79077cd36b9e783"
+            }
+        ]
+    },
+    "2": {
+        "chunk_key": "chunk-678394879a21253bf623b2593fe21b70",
+        "entities": [
+            {
+                "entity_name": "\"LANI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LANI is an organization that has inspired work related to data collection and navigation tasks, aiming for a larger corpus and interactive environment.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"HCRC MAP TASK\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The HCRC Map Task is an event or study conducted by Anderson et al., 1991, where a leader directs a follower to navigate between landmarks on a map.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"SAIL NAVIGATION CORPUS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The SAIL navigation corpus is an event or study collected by MacMahon et al., 2006, abstracting away interaction challenges in navigation tasks.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"ATIS COLLECTION PROCESS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The ATIS collection process is an event or study conducted by Hemphill et al., 1990 and Dahl et al., 1994, used for collecting CHAI instructions.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"CHAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CHAI is an organization that collected instructions using scenarios given to workers, similar to the ATIS collection process.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"CHALET\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"CHALET is a geographical location or environment used for CHAI, which is larger and has more complex manipulation compared to similar environments.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"ROOM-TO-ROOM DATASET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Room-to-Room dataset is an event or study by Anderson et al., 2018, that makes use of an environment of connected panoramas of house settings.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"ANDERSON ET AL., 1991\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anderson et al., 1991 are researchers who conducted the HCRC Map Task, which inspired LANI's approach to navigation tasks.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"MACMAHON ET AL., 2006\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"MacMahon et al., 2006 are researchers who collected the SAIL navigation corpus, which influenced LANI's approach to data collection.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"HEMPHILL ET AL., 1990\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hemphill et al., 1990 are researchers who contributed to the ATIS collection process, which was used for collecting CHAI instructions.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"DAHL ET AL., 1994\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dahl et al., 1994 are researchers who contributed to the ATIS collection process, which was used for collecting CHAI instructions.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"HERMANN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hermann et al., 2017 are researchers who released multiple 3D research environments, which are compared to LANI's navigation environments.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"CHAPLOT ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chaplot et al., 2018 are researchers who released multiple 3D research environments, which are compared to LANI's navigation environments.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"GORDON ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Gordon et al., 2018 are researchers who contributed to the CHALET environment, which is used for CHAI.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"DAS ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Das et al., 2018 are researchers who contributed to the CHALET environment, which is used for CHAI.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "entity_name": "\"ANDERSON ET AL., 2018\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anderson et al., 2018 are researchers who created the Room-to-Room dataset, which is compared to LANI's environments.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"HCRC MAP TASK\"",
+                "weight": 7.0,
+                "description": "\"LANI is inspired by the HCRC Map Task, using a similar task but with a scalable data collection process and an interactive navigation environment.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"SAIL NAVIGATION CORPUS\"",
+                "weight": 6.0,
+                "description": "\"LANI's approach to data collection abstracts away interaction challenges, similar to how the SAIL navigation corpus was collected.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"ATIS COLLECTION PROCESS\"",
+                "weight": 7.0,
+                "description": "\"CHAI instructions were collected using scenarios given to workers, similar to the ATIS collection process.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"CHAI\"",
+                "weight": 8.0,
+                "description": "\"LANI has a significantly larger state space than existing navigation environments, including the environment used for CHAI.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"CHALET\"",
+                "weight": 9.0,
+                "description": "\"CHALET is the environment used for CHAI, which is larger and has more complex manipulation compared to similar environments.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"ROOM-TO-ROOM DATASET\"",
+                "tgt_id": "\"LANI\"",
+                "weight": 5.0,
+                "description": "\"Unlike LANI, the Room-to-Room dataset provides a realistic vision challenge but has a limited state space and no manipulation.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"ANDERSON ET AL., 1991\"",
+                "weight": 7.0,
+                "description": "\"LANI is inspired by the work of Anderson et al., 1991, who conducted the HCRC Map Task.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"MACMAHON ET AL., 2006\"",
+                "weight": 6.0,
+                "description": "\"LANI's approach to data collection is influenced by the SAIL navigation corpus collected by MacMahon et al., 2006.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"HEMPHILL ET AL., 1990\"",
+                "weight": 7.0,
+                "description": "\"CHAI instructions were collected using a process similar to the ATIS collection process conducted by Hemphill et al., 1990.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"DAHL ET AL., 1994\"",
+                "weight": 7.0,
+                "description": "\"CHAI instructions were collected using a process similar to the ATIS collection process conducted by Dahl et al., 1994.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"HERMANN ET AL., 2017\"",
+                "weight": 8.0,
+                "description": "\"LANI has a significantly larger state space than the navigation environments released by Hermann et al., 2017.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"LANI\"",
+                "tgt_id": "\"CHAPLOT ET AL., 2018\"",
+                "weight": 8.0,
+                "description": "\"LANI has a significantly larger state space than the navigation environments released by Chaplot et al., 2018.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"GORDON ET AL., 2018\"",
+                "weight": 5.0,
+                "description": "\"The environment used for CHAI, CHALET, is influenced by the work of Gordon et al., 2018.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            },
+            {
+                "src_id": "\"CHAI\"",
+                "tgt_id": "\"DAS ET AL., 2018\"",
+                "weight": 5.0,
+                "description": "\"The environment used for CHAI, CHALET, is influenced by the work of Das et al., 2018.\"",
+                "source_id": "chunk-678394879a21253bf623b2593fe21b70"
+            }
+        ]
+    },
+    "9": {
+        "chunk_key": "chunk-be5e69e3ae7434c1a93f37632b0b925e",
+        "entities": [
+            {
+                "entity_name": "\"MICHAEL JANNER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael Janner is an author of a paper on representation learning for grounded spatial reasoning.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"KARTHIK NARASIMHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Karthik Narasimhan is an author of a paper on representation learning for grounded spatial reasoning.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"REGINA BARZILAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Regina Barzilay is an author of a paper on representation learning for grounded spatial reasoning.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"SAHAR KAZEMZADEH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sahar Kazemzadeh is an author of a paper on referring to objects in photographs of natural scenes.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"VICENTE ORDONEZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vicente Ordonez is an author of a paper on referring to objects in photographs of natural scenes.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MARK MATTEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mark Matten is an author of a paper on referring to objects in photographs of natural scenes.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"TAMARA L. BERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tamara L. Berg is an author of a paper on referring to objects in photographs of natural scenes.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JOOHYUN KIM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Joohyun Kim is an author of a paper on unsupervised PCFG induction for grounded language learning.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"RAYMOND MOONEY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raymond Mooney is an author of a paper on unsupervised PCFG induction for grounded language learning.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"DIEDERIK KINGMA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Diederik Kingma is an author of a paper on Adam: A method for stochastic optimization.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JIMMY BA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jimmy Ba is an author of a paper on Adam: A method for stochastic optimization.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"NIKITA KITAEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nikita Kitaev is an author of a paper on interpreting spatial descriptors by modeling regions in space.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"DAN KLEIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dan Klein is an author of a paper on interpreting spatial descriptors by modeling regions in space.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"CHEN KONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen Kong is an author of a paper on text-to-image coreference.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"DAHUA LIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dahua Lin is an author of a paper on text-to-image coreference.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MOHIT BANSAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mohit Bansal is an author of a paper on text-to-image coreference.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"RAQUEL URTASUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Raquel Urtasun is an author of a paper on text-to-image coreference.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"SANJA FIDLER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sanja Fidler is an author of a paper on text-to-image coreference.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JAYANT KRISHNAMURTHY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jayant Krishnamurthy is an author of a paper on jointly learning to parse and perceive.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"T. KOLLAR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"T. Kollar is an author of a paper on jointly learning to parse and perceive.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"YANN LECUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yann LeCun is an author of a paper on gradient-based learning applied to document recognition.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"LÉON BOTTOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Léon Bottou is an author of a paper on gradient-based learning applied to document recognition.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"ANDREW L MAAS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew L Maas is an author of a paper on rectifier nonlinearities improving neural network acoustic models.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"AWNI Y HANNUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Awni Y Hannun is an author of a paper on rectifier nonlinearities improving neural network acoustic models.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"ANDREW Y N G\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Y N g is an author of a paper on rectifier nonlinearities improving neural network acoustic models.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JAMES MACGLASHAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"James MacGlashan is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MONICA BABES-VROMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Monica Babes-Vroman is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MARIE DESJARDINS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Marie desJardins is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MICHAEL L. LITTMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael L. Littman is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"SMARANDA MURESAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Smaranda Muresan is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"S BERTEL SQUIRE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"S Bertel Squire is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"STEFANIE TELLEX\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stefanie Tellex is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"DILIP ARUMUGAM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dilip Arumugam is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"LEI YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lei Yang is an author of a paper on grounding English commands to reward functions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"MATTHEW MACMAHON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew MacMahon is an author of a paper on connecting language, knowledge, action in route instructions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"BRIAN STANKIEWICS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Brian Stankiewics is an author of a paper on connecting language, knowledge, action in route instructions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"BENJAMIN KUIPERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Kuipers is an author of a paper on connecting language, knowledge, action in route instructions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JUNHUA MAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Junhua Mao is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"JONATHAN HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan Huang is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"ALEXANDER TOSHEV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander Toshev is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"OANA CAMBURU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Oana Camburu is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"ALAN YUILLE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alan Yuille is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            },
+            {
+                "entity_name": "\"KEVIN MURPHY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Murphy is an author of a paper on generation and comprehension of unambiguous object descriptions.\"",
+                "source_id": "chunk-be5e69e3ae7434c1a93f37632b0b925e"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-43c0e6273288c7932f0bd88a4e25c435",
+        "entities": [
+            {
+                "entity_name": "\"LINGUNET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LINGUNET is an architecture inspired by the U-NET image generation method, used for generating a probability distribution over pixels in a feature map based on natural language instructions.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"LECUN ET AL., 1998\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"LeCun et al., 1998 are credited with the development of the CNN with rectified linear units (ReLU), which is part of the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"NAIR AND HINTON, 2010\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nair and Hinton, 2010 are associated with the development of rectified linear units (ReLU), used in the CNN within the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"RONNEBERGER ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ronneberger et al., 2015 are credited with the U-NET image generation method, which inspired the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"MAAS ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Maas et al., 2013 are associated with the development of leaky ReLU non-linearities, used in the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"ULYANOV ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ulyanov et al., 2016 are associated with the development of instance normalization, used in the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"SRIVASTAVA ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Srivastava et al., 2014 are credited with the development of dropout regularization, used in the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"HOCHREITER AND SCHMIDHUBER, 1997\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hochreiter and Schmidhuber, 1997 are credited with the development of the long short-term memory (LSTM) RNN, used in the process of generating representations from instructions.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"CNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"CNN refers to a convolutional neural network, which is a part of the LINGUNET architecture and is used for feature extraction from the initial panorama observation.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"RELU\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"ReLU stands for rectified linear units, a type of activation function used in the CNN layers within the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"POSITIONAL EMBEDDINGS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Positional embeddings are used in the feature map generation process to incorporate positional information into the CNN output.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM refers to a long short-term memory network, which is used to map the instruction to a sequence of hidden states.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"INSTRUCTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The instruction is a sequence of natural language commands that are used to guide the LINGUNET architecture in generating the goal prediction.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"FEATURE MAP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A feature map is a representation used in the LINGUNET architecture, generated from the initial panorama observation and used for goal prediction.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"GOAL MASK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The goal mask is a part of the LINGUNET architecture, computed based on the predicted goal location and used as input to an RNN for action generation.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"RNN\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"RNN refers to a recurrent neural network, which is used in the LINGUNET architecture to output actions based on the goal mask.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"PROBABILITY DISTRIBUTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A probability distribution is generated over a feature map by LINGUNET, representing the likelihood of different areas being the goal location.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"GOAL LOCATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The goal location is the predicted destination in the environment, inferred from the max probability in the probability distribution generated by LINGUNET.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"AGENT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The agent refers to the entity executing actions in the environment, using the goal prediction and action generation components of the LINGUNET architecture.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"PANORAMA OBSERVATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The panorama observation is the initial input to the LINGUNET architecture, from which a feature map is generated.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"BACKWARD CAMERA PROJECTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Backward camera projection is the process used to identify the 3D location in the environment corresponding to the goal pixel in the feature map.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"SOFTMAX\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Softmax is a function applied to the feature map to generate the probability distribution over the goal location.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"LEARNED SCALAR BIAS TERM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The learned scalar bias term is an additional component in the softmax function, representing events where the goal is out of sight.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"DROPOUT\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"DROPOUT is a regularization technique used in the LINGUNET architecture to prevent overfitting.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"DECONV\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"DECONV refers to the deconvolution operation used in the LINGUNET architecture to generate a sequence of feature maps during the reconstruction phase.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"AFFINE\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"AFFINE transformation is used to create a 1x1 kernel from the instruction representation, which is then used in the convolution process.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"TEXT KERNEL\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"The text kernel is a 1x1 kernel generated from the instruction representation, used in the convolution process to create a text-conditioned feature map.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "entity_name": "\"TEXT-CONDITIONED FEATURE MAP\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"A text-conditioned feature map is a feature map generated by applying a text kernel to the feature map, incorporating natural language instruction information.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"LECUN ET AL., 1998\"",
+                "weight": 7.0,
+                "description": "\"LINGUNET is inspired by the CNN architecture developed by LeCun et al., 1998, which includes ReLU units.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"NAIR AND HINTON, 2010\"",
+                "weight": 7.0,
+                "description": "\"LINGUNET uses rectified linear units (ReLU), which were introduced by Nair and Hinton, 2010.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"RONNEBERGER ET AL., 2015\"",
+                "weight": 8.0,
+                "description": "\"LINGUNET is based on the U-NET image generation method by Ronneberger et al., 2015, with modifications for natural language instructions.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"MAAS ET AL., 2013\"",
+                "weight": 6.0,
+                "description": "\"LINGUNET incorporates leaky ReLU non-linearities, which were developed by Maas et al., 2013.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"ULYANOV ET AL., 2016\"",
+                "weight": 6.0,
+                "description": "\"LINGUNET uses instance normalization, a technique developed by Ulyanov et al., 2016.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"SRIVASTAVA ET AL., 2014\"",
+                "weight": 6.0,
+                "description": "\"LINGUNET employs dropout regularization, a technique introduced by Srivastava et al., 2014.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            },
+            {
+                "src_id": "\"LINGUNET\"",
+                "tgt_id": "\"HOCHREITER AND SCHMIDHUBER, 1997\"",
+                "weight": 7.0,
+                "description": "\"LINGUNET is used in conjunction with LSTM RNN, which was developed by Hochreiter and Schmidhuber, 1997, for instruction representation.\"",
+                "source_id": "chunk-43c0e6273288c7932f0bd88a4e25c435"
+            }
+        ]
+    },
+    "10": {
+        "chunk_key": "chunk-a987eba1a6ba6182c93726a0262494ac",
+        "entities": [
+            {
+                "entity_name": "\"JAN PETERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jan Peters is an author of a paper on reinforcement learning of motor skills with policy gradients.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"STEFAN SCHAAL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stefan Schaal is an author of a paper on reinforcement learning of motor skills with policy gradients.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"BENJAMIN RECHT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Benjamin Recht is an author of a paper on a lock-free approach to parallelizing stochastic gradient descent.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER RE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher Re is an author of a paper on a lock-free approach to parallelizing stochastic gradient descent.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"STEPHEN WRIGHT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Stephen Wright is an author of a paper on a lock-free approach to parallelizing stochastic gradient descent.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"FENG NIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Feng Niu is an author of a paper on a lock-free approach to parallelizing stochastic gradient descent.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"OLAF RONNEBERGER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Olaf Ronneberger is an author of a paper on convolutional networks for biomedical image segmentation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"PHILIPP FISCHER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philipp Fischer is an author of a paper on convolutional networks for biomedical image segmentation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"THOMAS BROX\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Thomas Brox is an author of a paper on convolutional networks for biomedical image segmentation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"JOHN SCHULMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Schulman is an author of a paper on high-dimensional continuous control using generalized advantage estimation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"PHILIPP MORITZ\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Philipp Moritz is an author of a paper on high-dimensional continuous control using generalized advantage estimation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"SERGEY LEVINE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sergey Levine is an author of a paper on high-dimensional continuous control using generalized advantage estimation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"MICHAEL I. JORDAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Michael I. Jordan is an author of a paper on high-dimensional continuous control using generalized advantage estimation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"PIETER ABBEEL\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pieter Abbeel is an author of a paper on high-dimensional continuous control using generalized advantage estimation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"NITISH SRIVASTAVA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nitish Srivastava is an author of a paper on Dropout, a method to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"GEOFFREY HINTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Geoffrey Hinton is an author of a paper on Dropout, a method to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ALEX KRIZHEVSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Krizhevsky is an author of a paper on Dropout, a method to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of a paper on Dropout, a method to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"RUSLAN SALAKHUTDINOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ruslan Salakhutdinov is an author of a paper on Dropout, a method to prevent neural networks from overfitting.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ALANE SUHR\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alane Suhr is an author of a paper on situated mapping of sequential instructions to actions with single-step reward observation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"YOAV ARTZI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yoav Artzi is an author of a paper on situated mapping of sequential instructions to actions with single-step reward observation.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"RICHARD S. SUTTON\"",
+                "entity_type": "\"(\"ENTITY\"",
+                "description": "\"Doina Precup\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"SATINDER P. SINGH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Satinder P. Singh is an author of a paper on intra-option learning about temporally abstract actions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"DMITRY ULYANOV\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dmitry Ulyanov is an author of a paper on instance normalization for fast stylization.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ANDREA VEDALDI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrea Vedaldi is an author of a paper on instance normalization for fast stylization.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"VICTOR S. LEMPITSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Victor S. Lempitsky is an author of a paper on instance normalization for fast stylization.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"RONALD J. WILLIAMS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ronald J. Williams is an author of a paper on simple statistical gradient-following algorithms for connectionist reinforcement learning.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"WENHAN XIONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wenhan Xiong is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"XIAOXIAO GUO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaoxiao Guo is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"MO YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mo Yu is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"SHIYU CHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shiyu Chang is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"BOWEN ZHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bowen Zhou is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"WILLIAM YANG WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"William Yang Wang is an author of a paper on scheduled policy optimization for natural language communication with intelligent agents.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"CLAUDIA YAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Claudia Yan is an author of a paper on Chalet: Cornell house agent learning environment.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"DIPENDRA KUMAR MISRA\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dipendra Kumar Misra is an author of a paper on Chalet: Cornell house agent learning environment.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ANDREW BENNETT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew Bennett is an author of a paper on Chalet: Cornell house agent learning environment.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"AARON WALSMAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Aaron Walsman is an author of a paper on Chalet: Cornell house agent learning environment.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"YONATAN BISK\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yonatan Bisk is an author of a paper on Chalet: Cornell house agent learning environment.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"LICHENG YU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Licheng Yu is an author of a paper on modeling context in referring expressions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"PATRICK POIRSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Patrick Poirson is an author of a paper on modeling context in referring expressions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"SHAN YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Shan Yang is an author of a paper on modeling context in referring expressions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"ALEXANDER C. BERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alexander C. Berg is an author of a paper on modeling context in referring expressions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            },
+            {
+                "entity_name": "\"TAMARA L. BERG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tamara L. Berg is an author of a paper on modeling context in referring expressions.\"",
+                "source_id": "chunk-a987eba1a6ba6182c93726a0262494ac"
+            }
+        ],
+        "relationships": []
+    },
+    "8": {
+        "chunk_key": "chunk-0615433e74da4421e4727762494fe775",
+        "entities": [
+            {
+                "entity_name": "\"NSF\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"NSF is an organization that supported the research with grant CRII1656998.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"SCHMIDT SCIENCES\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Schmidt Sciences is an organization that supported the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"MICROSOFT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Microsoft is an organization that provided cloud computing credits for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"JOHN LANGFORD\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"John Langford is a person who provided advice for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"CLAUDIA YAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Claudia Yan is a person who provided advice for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"BHARATH HARIHARAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bharath Hariharan is a person who provided advice for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"NOAH SNAVELY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Noah Snavely is a person who provided advice for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"CORNELL NLP GROUP\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Cornell NLP group is an organization that provided advice for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"ANONYMOUS REVIEWERS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anonymous reviewers are individuals who provided feedback for the research.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"IEEE Conference on Computer Vision and Pattern Recognition is an event where several papers related to vision and language navigation were presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"PROCEEDINGS OF THE IEEE CONFERENCE ON COMPUTER VISION AND PATTERN RECOGNITION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition is an event where research papers are published, including those mentioned in the text.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"2014 CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"2014 Conference on Empirical Methods in Natural Language Processing is an event where a paper on learning compact lexicons for CCG semantic parsing was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"TRANSACTIONS OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "An event where research papers on computational linguistics are published, including papers on semantic parsers and representation learning for grounded spatial reasoning.",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"AAAI WORKSHOP ON SYMBIOTIC COGNITIVE SYSTEMS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AAAI Workshop on Symbiotic Cognitive Systems is an event where a paper towards a dataset for human computer communication via grounded language acquisition was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"NATIONAL CONFERENCE ON ARTIFICIAL INTELLIGENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"National Conference on Artificial Intelligence is an event where a paper on learning to interpret natural language navigation instructions was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"WORKSHOP ON HUMAN LANGUAGE TECHNOLOGY\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Workshop on Human Language Technology is an event where the ATIS-3 corpus was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"DARPA SPEECH AND NATURAL LANGUAGE WORKSHOP\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"DARPA speech and natural language workshop is an event where the ATIS spoken language systems pilot corpus was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"CORR\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"CoRR is an event where research papers are published, including the one on grounded language learning in a simulated 3D world.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"NEURAL COMPUTATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Neural computation is an event where a paper on Long short-term memory was published.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Conference on Empirical Methods in Natural Language Processing is an event where a paper on Referitgame was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"IEEE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"IEEE is an organization that hosts the Conference on Computer Vision and Pattern Recognition, where several papers related to vision and language navigation were presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"AAAI\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"AAAI is an organization that hosts the Workshop on Symbiotic Cognitive Systems, where a paper was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"DARPA\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"DARPA is an organization that hosted the workshop on speech and natural language, where the ATIS spoken language systems pilot corpus was presented.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"ATISPARK\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"ATISpark is an organization that was involved in the development of the ATIS-3 corpus.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"HCRC\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"HCRC is an organization that created the HCRC map task corpus.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"ANNE H ANDERSON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Anne H Anderson is a person who contributed to the HCRC map task corpus.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            },
+            {
+                "entity_name": "\"MILES BADER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Miles Bader is a person who contributed to the HCRC map task corpus.\"",
+                "source_id": "chunk-0615433e74da4421e4727762494fe775"
+            }
+        ],
+        "relationships": []
+    }
+}

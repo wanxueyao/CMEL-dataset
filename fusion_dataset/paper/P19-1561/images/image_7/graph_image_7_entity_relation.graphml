@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image consists of two scatter plots side by side, each depicting the relationship between sensitivity and word error rate (WER) for different models. The left plot is labeled 'word-only models' and the right plot is labeled 'char-only models'. Each plot has sensitivity on the x-axis and WER on the y-axis. The points in the plots are color-coded to represent different backoff variants: blue for 'Pass-through', orange for 'Background', and green for 'Neutral'. The size of the bubbles indicates robustness. In the left plot, there are three data points: a large green bubble at (10.8, 63.2), a medium-sized blue bubble at (10.8, 63.2), and a small orange bubble at (12.4, 59.6). In the right plot, there are four data points: a large green bubble at (10.8, 55.2), a medium-sized blue bubble at (29.6, 51.6), and a small orange bubble at (10.8, 53.6). The scales for both axes range from 6 to 12 for sensitivity and from 7 to 11 for WER. The plots illustrate the trade-off between sensitivity and WER, with larger bubbles indicating higher robustness."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+</node>
+<node id="&quot;GRAPH 1&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A scatter plot showing the relationship between WER and Sensitivity for Pass-through, Background, and Neutral conditions. The graph has a blue dot labeled 'Pass-through' at coordinates (63.2, 10), an orange dot labeled 'Background' at coordinates (59.6, 7), and a green dot labeled 'Neutral' at coordinates (63.2, 11)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+</node>
+<node id="&quot;GRAPH 2&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A scatter plot showing the relationship between WER and Sensitivity for different conditions. The graph has a blue dot at coordinates (51.6, 10), a green dot at coordinates (55.2, 11), and an orange dot at coordinates (53.6, 7)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GRAPH 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph 1是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;GRAPH 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graph 2是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GRAPH 1&quot;" target="&quot;GRAPH 2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both graphs depict the relationship between WER and Sensitivity but with different data points and scales."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

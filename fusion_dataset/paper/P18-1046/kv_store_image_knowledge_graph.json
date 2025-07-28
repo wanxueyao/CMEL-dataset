@@ -1,0 +1,248 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating the distribution of distant supervision (DS) training data for one relation type. The main elements include various symbols representing different types of data points: blue circles represent DS true positive data, yellow triangles represent DS false positive data, and red crosses represent DS negative data. There are two decision boundaries depicted: a dashed line represents the desired decision boundary, while a solid line with dashes represents the actual decision boundary of DS data. The background is a simple white space with a rounded rectangle framing the data points. The legend on the left side of the image explains the meaning of each symbol and line."
+        },
+        {
+            "entity_name": "DS TRUE POSITIVE DATA",
+            "entity_type": "UNKNOWN",
+            "description": "DS true positive data是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "DS FALSE POSITIVE DATA",
+            "entity_type": "UNKNOWN",
+            "description": "DS false positive data是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "DS NEGATIVE DATA",
+            "entity_type": "UNKNOWN",
+            "description": "DS negative data是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "THE DECISION BOUNDARY OF DS DATA",
+            "entity_type": "UNKNOWN",
+            "description": "The decision boundary of DS data是从image_1中提取的实体。"
+        },
+        {
+            "entity_name": "THE DESIRED DECISION BOUNDARY",
+            "entity_type": "UNKNOWN",
+            "description": "The desired decision boundary是从image_1中提取的实体。"
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the training pipeline of a Deep Supervised Generative Adversarial Network (DSGAN). The process is divided into four main stages: DS Positive Dataset, Generator, Sampling, and Discriminator. In the DS Positive Dataset stage, multiple bags of positive samples are shown, labeled as Bag_{k-1}, Bag_k, and Bag_{k+1}. Each bag contains sentences denoted as s_1, s_2, ..., s_n. The Generator (G) takes these sentences as input and outputs probabilities p_1, p_2, ..., p_n for each sentence. These probabilities range from 0.02 to 0.90. The Sampling stage then divides the generated samples into two categories: low-confidence samples with label = 1 and high-confidence samples with label = 0. The low-confidence samples are fed into the Discriminator (D), which treats them as negative samples, while the high-confidence samples are treated as positive samples. The Discriminator's goal is to minimize the probability of the high-confidence samples being true positives. The network parameters \\\\theta_G and \\\\theta_D are updated after processing one bag B_i. Pre-training is also indicated on the right side of the flowchart, where the Discriminator is pre-trained on both DS positive and negative datasets."
+        },
+        {
+            "entity_name": "DS POSITIVE DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset containing positive examples used for training the generator and discriminator in a machine learning model."
+        },
+        {
+            "entity_name": "GENERATOR (G)",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model component that generates samples from a given dataset, aiming to fool the discriminator into classifying these samples as real."
+        },
+        {
+            "entity_name": "SAMPLING",
+            "entity_type": "EVENT",
+            "description": "The process of selecting samples from the output of the generator, categorizing them into high-confidence and low-confidence samples based on their probability scores."
+        },
+        {
+            "entity_name": "DISCRIMINATOR (D)",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model component that distinguishes between real and generated samples, providing feedback to the generator to improve its performance."
+        },
+        {
+            "entity_name": "PRE-TRAINING",
+            "entity_type": "EVENT",
+            "description": "The initial phase of training where the discriminator is trained using both positive and negative datasets before it interacts with the generator."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Hyperparameter settings of the generator and the discriminator.' The table contains four rows and two columns. The first column lists the hyperparameters, and the second column provides their respective values. The hyperparameters and their values are as follows: CNN Window \\( c_w \\), kernel size \\( c_k \\) with values 3 and 100; Word embedding \\( d_e \\), vocabulary size \\( |V| \\) with values 50 and 114042; Position embedding \\( d_p \\) with a value of 5; Learning rate of G (generator) and D (discriminator) with values 1e-5 and 1e-4 respectively. The table provides specific settings for the neural network architecture used in the relation extraction system."
+        },
+        {
+            "entity_name": "CNN WINDOW C_W, KERNEL SIZE C_K",
+            "entity_type": "HYPERPARAMETER",
+            "description": "The CNN window size is set to 3 and the kernel size is set to 100."
+        },
+        {
+            "entity_name": "WORD EMBEDDING D_E, |V|",
+            "entity_type": "HYPERPARAMETER",
+            "description": "The word embedding dimension is set to 50 and the vocabulary size is 114042."
+        },
+        {
+            "entity_name": "POSITION EMBEDDING D_P",
+            "entity_type": "HYPERPARAMETER",
+            "description": "The position embedding dimension is set to 5."
+        },
+        {
+            "entity_name": "LEARNING RATE OF G, D",
+            "entity_type": "HYPERPARAMETER",
+            "description": "The learning rate for the generator (G) is set to 1e-5 and for the discriminator (D) it is set to 1e-4."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of six graphs, arranged in two rows and three columns. Each graph represents the performance change during the training process for different relation types using DSGAN. The first row shows the accuracy of the discriminator over epochs for three relation types: /business/person/company, /people/person/place_lived, and /location/neighborhood/neighborhood_of. The x-axis represents the bag sequence, ranging from 1 to 17, while the y-axis represents the accuracy, ranging from approximately 0.8 to 1.0. Each curve corresponds to a specific epoch, with darker colors indicating later epochs. The curves start from the same point at the beginning of each epoch due to the discriminator reloading pre-trained parameters. As the epochs progress, the accuracy generally decreases, indicating that the generator is gradually collapsing the discriminator. The second row shows the F1 score over epochs for the same three relation types. The x-axis represents the epoch number, ranging from 6 to 28, while the y-axis represents the F1 score, ranging from approximately 0.7 to 1.0. Three lines are plotted for each graph: Random (black triangles), Pre-training (blue circles), and DSGAN (red squares). The F1 score generally increases as the epochs progress, with DSGAN consistently outperforming the other methods."
+        },
+        {
+            "entity_name": "/BUSINESS/PERSON/COMPANY",
+            "entity_type": "EVENT",
+            "description": "Graph showing accuracy and F1 score for different bag sequences in the context of business, person, and company."
+        },
+        {
+            "entity_name": "/PEOPLE/PERSON/PLACE_LIVED",
+            "entity_type": "EVENT",
+            "description": "Graph showing accuracy and F1 score for different bag sequences in the context of people, person, and place lived."
+        },
+        {
+            "entity_name": "/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF",
+            "entity_type": "EVENT",
+            "description": "Graph showing accuracy and F1 score for different bag sequences in the context of location, neighborhood, and neighborhood of."
+        },
+        {
+            "entity_name": "RANDOM",
+            "entity_type": "PERSON",
+            "description": "A baseline method used for comparison, represented by black triangles in the graphs."
+        },
+        {
+            "entity_name": "PRE-TRAINING",
+            "entity_type": "PERSON",
+            "description": "A method that uses pre-training, represented by blue circles in the graphs."
+        },
+        {
+            "entity_name": "DSGAN",
+            "entity_type": "PERSON",
+            "description": "A method using DSGAN, represented by red squares in the graphs."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a line graph depicting the performance change of the discriminator on $N^{D}$ during the training process. The x-axis represents the epoch number, ranging from 5 to 85, while the y-axis shows the accuracy, ranging from 0.5 to 1.05. There are three distinct lines representing different categories: '/business/person/company' (blue triangles), '/people/person/place_lived' (red squares), and '/location/neighborhood/neighborhood_of' (black circles). The blue triangles start at an accuracy of approximately 0.95 and show a slight downward trend, ending around 0.85. The red squares start at an accuracy of approximately 0.75 and also show a slight downward trend, ending around 0.7. The black circles start at an accuracy of approximately 1.0 and show a more stable trend, ending around 0.95. The graph indicates that the accuracy of the discriminator decreases over epochs for all categories, with '/location/neighborhood/neighborhood_of' maintaining the highest accuracy throughout."
+        },
+        {
+            "entity_name": "ACCURACY",
+            "entity_type": "EVENT",
+            "description": "The accuracy of three different categories over epochs."
+        },
+        {
+            "entity_name": "EPOCH",
+            "entity_type": "GEO",
+            "description": "The x-axis representing the number of epochs."
+        },
+        {
+            "entity_name": "/BUSINESS/PERSON/COMPANY",
+            "entity_type": "ORGANIZATION",
+            "description": "Accuracy trend for business/person/company category."
+        },
+        {
+            "entity_name": "/PEOPLE/PERSON/PLACE_LIVED",
+            "entity_type": "ORGANIZATION",
+            "description": "Accuracy trend for people/person/place_lived category."
+        },
+        {
+            "entity_name": "/LOCATION/NEIGHBORHOOD/NEIGHBORHOOD_OF",
+            "entity_type": "ORGANIZATION",
+            "description": "Accuracy trend for location/neighborhood/neighborhood_of category."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a precision-recall (PR) curve graph comparing four different CNN-based models. The x-axis represents Recall, ranging from 0 to 0.4, and the y-axis represents Precision, ranging from 0.3 to 1.0. Four curves are plotted on the graph, each representing a different model configuration: CNN+ONE (blue triangles), CNN+ONE+DSGAN (red circles), CNN+ATT (black squares), and CNN+ATT+DSGAN (magenta stars). The curves show the trade-off between precision and recall for each model. The CNN+ONE+DSGAN model starts with the highest precision but drops rapidly as recall increases. The CNN+ATT+DSGAN model maintains a relatively high precision across a wider range of recall values compared to the other models. The CNN+ONE and CNN+ATT models have similar trends, with the CNN+ATT model generally having slightly higher precision at lower recall values."
+        },
+        {
+            "entity_name": "PRECISION-RECALL CURVE",
+            "entity_type": "EVENT",
+            "description": "Graph displaying the precision-recall curve for different models: CNN+ONE, CNN+ONE+DSGAN, CNN+ATT, and CNN+ATT+DSGAN. The x-axis represents recall, and the y-axis represents precision."
+        },
+        {
+            "entity_name": "MODELS",
+            "entity_type": "UNKNOWN",
+            "description": "The graph compares the performance of four different models in terms of precision and recall."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a graph depicting the Precision-Recall (PR) curves of four different PCNN-based models. The x-axis represents Recall, ranging from 0 to 0.4, while the y-axis represents Precision, ranging from 0.4 to 1.0. Four distinct curves are plotted: PCNN+ONE (blue triangles), PCNN+ONE+DSGAN (red circles), PCNN+ATT (black squares), and PCNN+ATT+DSGAN (magenta diamonds). Each curve shows the trade-off between precision and recall for the respective model. The PCNN+ATT+DSGAN model consistently achieves the highest precision across all recall values, followed by PCNN+ATT, PCNN+ONE+DSGAN, and PCNN+ONE. The curves exhibit a general downward trend as recall increases, indicating that higher recall is associated with lower precision."
+        },
+        {
+            "entity_name": "PRECISION-RECALL CURVE",
+            "entity_type": "EVENT",
+            "description": "Graph displaying the precision-recall trade-off for four different models: PCNN+ONE, PCNN+ONE+DSGAN, PCNN+ATT, and PCNN+ATT+DSGAN. The x-axis represents recall, and the y-axis represents precision."
+        },
+        {
+            "entity_name": "PCNN+ONE",
+            "entity_type": "UNKNOWN",
+            "description": "The curve shows the performance of the PCNN+ONE model in terms of precision and recall."
+        },
+        {
+            "entity_name": "PCNN+ONE+DSGAN",
+            "entity_type": "UNKNOWN",
+            "description": "The curve shows the performance of the PCNN+ONE+DSGAN model in terms of precision and recall."
+        },
+        {
+            "entity_name": "PCNN+ATT",
+            "entity_type": "UNKNOWN",
+            "description": "The curve shows the performance of the PCNN+ATT model in terms of precision and recall."
+        },
+        {
+            "entity_name": "PCNN+ATT+DSGAN",
+            "entity_type": "UNKNOWN",
+            "description": "The curve shows the performance of the PCNN+ATT+DSGAN model in terms of precision and recall."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Comparison of AUC values between previous studies and our DSGAN method.' The table is structured with four main columns: Model, -, +DSGAN, and p-value. Each row represents a different model configuration and its corresponding AUC values with and without the DSGAN method. The rows are as follows: CNN+ONE (0.177, 0.189, 4.37e-04), CNN+ATT (0.219, 0.226, 8.36e-03), PCNN+ONE (0.206, 0.221, 2.89e-06), and PCNN+ATT (0.253, 0.264, 2.34e-03). The table highlights the improvements in AUC values when using the DSGAN method compared to the baseline models. The p-values indicate the statistical significance of these improvements, all being less than 5e-02."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the performance of different models with and without DSGAN, including CNN+ONE, CNN+ATT, PCNN+ONE, and PCNN+ATT."
+        },
+        {
+            "entity_name": "CNN+ONE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that combines Convolutional Neural Network (CNN) with a one-hot encoding scheme."
+        },
+        {
+            "entity_name": "CNN+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that combines Convolutional Neural Network (CNN) with an attention mechanism."
+        },
+        {
+            "entity_name": "PCNN+ONE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that combines Position-aware Convolutional Neural Network (PCNN) with a one-hot encoding scheme."
+        },
+        {
+            "entity_name": "PCNN+ATT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model that combines Position-aware Convolutional Neural Network (PCNN) with an attention mechanism."
+        },
+        {
+            "entity_name": "DSGAN",
+            "entity_type": "ORGANIZATION",
+            "description": "A generative adversarial network designed to improve the performance of relation extraction models."
+        }
+    ]
+}

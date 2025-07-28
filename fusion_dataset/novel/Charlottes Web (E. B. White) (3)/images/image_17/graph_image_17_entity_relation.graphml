@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_17_BENCH-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Bear- Age: Appears to be an adult bear- Color: Dark fur, with lighter fur on the face and chest- Shape: Robust and sturdy body, with a broad head and short tail- Size: Large, indicating a mature bear- Posture: Sitting upright on its hind legs, with its front paws resting on a log- Structural Characteristics: Thick fur, large paws, and a prominent snoutOverall, the bear appears to be in a natural setting, possibly in a forest or woodland area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;IMAGE_17&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene with two animals. In the foreground, there is a rat sitting on a wooden box. The rat has a long tail and appears to be in a relaxed posture, facing towards the right side of the image. Behind the rat, there is a sheep peeking over a wooden fence. The sheep has a fluffy coat and is looking down at the rat with an expression that could be interpreted as curiosity or concern. The background includes some grass and a piece of wood, suggesting an outdoor setting, possibly a farm or barnyard. The overall atmosphere of the image conveys a sense of interaction between the two animals, with the sheep observing the rat from behind the fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;RAT&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A rat sitting on a wooden box, facing a sheep."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;SHEEP&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A sheep looking over a wooden fence at the rat."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;WOODEN BOX&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small wooden box on which the rat is sitting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence separating the rat and the sheep."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+</node>
+<edge source="&quot;IMAGE_17_BENCH-0.JPG&quot;" target="&quot;IMAGE_17&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_17_bench-0.jpg是image_17的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;RAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rat是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sheep是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;WOODEN BOX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wooden Box是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_17&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_17中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAT&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The rat is facing the sheep, which is looking over the fence at it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAT&quot;" target="&quot;WOODEN BOX&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The rat is sitting on top of the wooden box."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RAT&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The fence separates the rat from the sheep."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The sheep is standing behind the fence, looking over it."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (3)/images/image_17.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Dark skin tone- Hairstyle: Short hair, closely cropped to the head- Facial hair: Full beard and mustache, neatly trimmed- Expression: Serious expression, eyes slightly squinted, lips closed- Age: Appears to be a middle-aged man- Clothing: Wearing a black long-sleeved shirt with buttons; black pants with a wide belt featuring a large, ornate buckle- Accessories: Black cowboy hat with a curved brim- Posture: Standing with hands in pockets, giving a confident and relaxed stanceOverall, the character exudes a rugged, Western-style appearance with a strong and composed demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2_COW-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Cow- Color: Dark, possibly black or very dark brown- Shape: The cow has a robust and sturdy build, typical of bovine species. The body is broad and muscular, with a prominent hump at the shoulder area.- Size: The cow appears to be an adult, given the full development of its body structure.- Posture: The cow is standing, facing to the left side of the image, with all four legs visible and positioned in a natural stance.Overall, the cow depicted is a mature animal with a strong and healthy appearance, characteristic of domesticated cattle used for farming purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a man standing in an open field with a clear blue sky and scattered clouds. The man is wearing a black cowboy hat, a black long-sleeved shirt, and dark pants with a silver belt buckle. He has his hands in his pockets and is looking off to the side with a serious expression. In the background, there are leafless trees and a few scattered objects, including what appears to be farm equipment and a black cow. The overall atmosphere of the image conveys a sense of calmness and contemplation, with the man appearing to be deep in thought or reflecting on something."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+</node>
+<node id="&quot;PERSON&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d1">"The image feature block image_2_person-0.jpg is a picture of a person."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;COW&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d1">"The image feature block image_2_cow-1.jpg is a picture of a cow."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d1">"Man是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;TREES&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d1">"Trees是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;FIELD&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d1">"Field是从image_2中提取的实体。"</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;PERSON&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The image feature block image_2_person-0.jpg is a picture of a person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_COW-1.JPG&quot;" target="&quot;COW&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_cow-1.jpg is a picture of a cow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_COW-1.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_cow-1.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;COW&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cow是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Field是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COW&quot;" target="&quot;MAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The man is standing in front of the cow in the same field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COW&quot;" target="&quot;TREES&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The cow is standing in the field near the trees."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COW&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The cow is standing in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;TREES&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The man is standing in front of the trees in the same field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is standing in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TREES&quot;" target="&quot;FIELD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The trees are located in the field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

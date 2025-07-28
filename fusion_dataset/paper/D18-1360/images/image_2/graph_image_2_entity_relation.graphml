@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Dataset statistics for our dataset SCIERC and two previous datasets on scientific information extraction.' The table is structured with four main columns: Statistics, SCIERC, SemEval 17, and SemEval 18. Each column represents a different dataset and contains the following rows: '#Entities' (SCIERC: 8089, SemEval 17: 9946, SemEval 18: 7483), '#Relations' (SCIERC: 4716, SemEval 17: 672, SemEval 18: 1595), '#Relations/Doc' (SCIERC: 9.4, SemEval 17: 1.3, SemEval 18: 3.2), '#Coref links' (SCIERC: 2752, SemEval 17: -, SemEval 18: -), and '#Coref clusters' (SCIERC: 1023, SemEval 17: -, SemEval 18: -). The table highlights the significant differences in the number of entities, relations, and coreference annotations across the three datasets. The context indicates that SCIERC focuses on annotating cross-sentence relations and has more relation coverage than SemEval 17 and SemEval 18."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+</node>
+<node id="&quot;SCIERC&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A dataset with 8089 entities, 4716 relations, and an average of 9.4 relations per document. It also has 2752 coreference links and 1023 coreference clusters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEMEVAL 17&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset with 9946 entities and 672 relations, averaging 1.3 relations per document."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEMEVAL 18&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A dataset with 7483 entities and 1595 relations, averaging 3.2 relations per document."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SCIERC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SCIERC是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEMEVAL 17&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SemEval 17是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEMEVAL 18&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SemEval 18是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SCIERC&quot;" target="&quot;SEMEVAL 17&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are datasets used for evaluating entity and relation extraction systems, but SCIERC has more entities and relations per document."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SCIERC&quot;" target="&quot;SEMEVAL 18&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are datasets used for evaluating entity and relation extraction systems, but SCIERC has more entities and a higher number of relations per document."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SEMEVAL 17&quot;" target="&quot;SEMEVAL 18&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are SemEval tasks focusing on entity and relation extraction, but SemEval 18 has fewer entities and more relations overall."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

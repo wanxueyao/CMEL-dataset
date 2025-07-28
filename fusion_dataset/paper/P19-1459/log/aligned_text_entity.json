@@ -1,0 +1,368 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "BERT (LARGE)",
+            "entity_type": "ORGANIZATION",
+            "description": "A large version of the BERT model mentioned in the paper, achieving a mean test score of 0.671 ± 0.09 and a maximum score of 0.770, which is a model that has shown surprising performance in argument comprehension tasks, but its effectiveness can be attributed to exploiting spurious statistical cues.",
+            "source_image_entities": [
+                "BERT (LARGE)"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT (BASE)",
+            "entity_type": "ORGANIZATION",
+            "description": "A base version of the BERT model, achieving a mean test score of 0.623 ± 0.07 and a maximum score of 0.685, which is a model that has shown surprising performance in argument comprehension tasks, but its effectiveness can be attributed to exploiting spurious statistical cues.",
+            "source_image_entities": [
+                "BERT (BASE)"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "GIST (CHOI AND LEE, 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "The GIST model proposed by Choi and Lee in 2018, achieving a mean test score of 0.711 ± 0.01, which is the SemEval winning model, used as a baseline in the experiments for argument comprehension tasks.",
+            "source_image_entities": [
+                "GIST (CHOI AND LEE, 2018)"
+            ],
+            "source_text_entities": [
+                "GIST"
+            ]
+        },
+        {
+            "merged_entity_name": "WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "The World Knowledge model proposed by Botschen et al. in 2018, achieving a mean test score of 0.568 ± 0.03 and a maximum score of 0.610, which is the best model of Botschen et al. used as a baseline in the experiments for argument comprehension tasks.",
+            "source_image_entities": [
+                "WORLD KNOWLEDGE (BOTSCHEN ET AL., 2018)"
+            ],
+            "source_text_entities": [
+                "BOTSCHEN ET AL."
+            ]
+        },
+        {
+            "merged_entity_name": "BILSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bi-directional Long Short-Term Memory model, achieving a mean test score of 0.552 ± 0.02 and a maximum score of 0.592, which is a baseline model used in the experiments for argument comprehension tasks and introduced by Hochreiter and Schmidhuber.",
+            "source_image_entities": [
+                "BILSTM"
+            ],
+            "source_text_entities": [
+                "BILSTM",
+                "HOCHREITER AND SCHMIDHUBER"
+            ]
+        },
+        {
+            "merged_entity_name": "BOV",
+            "entity_type": "ORGANIZATION",
+            "description": "The Bag of Visual Words model, achieving a mean test score of 0.564 ± 0.02 and a maximum score of 0.595, which is a baseline model used in the experiments for argument comprehension tasks and utilizes GloVe embeddings provided by Pennington et al.",
+            "source_image_entities": [
+                "BOV"
+            ],
+            "source_text_entities": [
+                "BOV",
+                "GLOVE",
+                "PENNINGTON ET AL."
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "SOFTMAX",
+            "entity_type": "TECHNOLOGY",
+            "description": "Softmax is a mathematical function used in machine learning, including in the model described in the paper, to turn a vector of real numbers into a probability distribution. It is often used as the activation function for the output layer in neural networks, especially in classification tasks, to determine a probability distribution over the two warrants based on the logits.",
+            "source_image_entities": [
+                "SOFTMAX"
+            ],
+            "source_text_entities": [
+                "SOFTMAX"
+            ]
+        },
+        {
+            "merged_entity_name": "Z_0 and Z_1",
+            "entity_type": "OBJECT",
+            "description": "Z_0 and Z_1 are variables representing inputs to the Softmax function, which is used in the model to determine a probability distribution over the two warrants based on the logits. These inputs are part of the argument-warrant pairs used for training and evaluating models on argument comprehension tasks.",
+            "source_image_entities": [
+                "Z_0",
+                "Z_1"
+            ],
+            "source_text_entities": [
+                "ARGUMENT-WARRANT PAIR"
+            ]
+        },
+        {
+            "merged_entity_name": "Θ",
+            "entity_type": "OBJECT",
+            "description": "Θ is a parameter or weight that is applied to the inputs before they are passed to the Softmax function in the model. This parameter is typically learned during the training process of a machine learning model and is used to scale the inputs in the context of argument-warrant pairs.",
+            "source_image_entities": [
+                "Θ"
+            ],
+            "source_text_entities": [
+                "ARGUMENT-WARRANT PAIR"
+            ]
+        },
+        {
+            "merged_entity_name": "C",
+            "entity_type": "OBJECT",
+            "description": "C is a constant value that is part of the input vectors to the system, appearing twice in the diagram, suggesting it might be a common factor or bias term. In the context of the paper, this could relate to the claim in an argument-warrant pair, which is a central component in the Argument Reasoning Comprehension Task (ARCT).",
+            "source_image_entities": [
+                "C"
+            ],
+            "source_text_entities": [
+                "ARGUMENT-WARRANT PAIR"
+            ]
+        },
+        {
+            "merged_entity_name": "R",
+            "entity_type": "OBJECT",
+            "description": "R is a variable that is part of the input vectors to the system, appearing twice in the diagram, indicating it might represent a repeated measurement or feature. In the context of the paper, R could represent the reason in an argument-warrant pair, which is a statement in an argument that supports or attacks a claim.",
+            "source_image_entities": [
+                "R"
+            ],
+            "source_text_entities": [
+                "REASON"
+            ]
+        },
+        {
+            "merged_entity_name": "W_0 and W_1",
+            "entity_type": "OBJECT",
+            "description": "W_0 and W_1 are weights associated with the input vectors. These weights are used to scale the inputs before applying the Softmax function in the model. In the context of the Argument Reasoning Comprehension Task (ARCT), these weights could be related to the processing of claims and reasons, which are used to pick the correct warrant over a distractor.",
+            "source_image_entities": [
+                "W_0",
+                "W_1"
+            ],
+            "source_text_entities": [
+                "ARGUMENT-WARRANT PAIR"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a deep learning model used for natural language processing tasks, including the Argument Reasoning Comprehension Task (ARCT). It is a transformer-based model that uses bidirectional training to understand the context of words in a sentence and has shown surprising performance in argument comprehension tasks, but this effectiveness can be attributed to exploiting spurious statistical cues.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "CLAIM",
+            "entity_type": "CONCEPT",
+            "description": "Claim refers to a statement in an argument that is supported or attacked by reasons. It is an essential component of the argument structure and is used in the Argument Reasoning Comprehension Task (ARCT) to evaluate model performance on understanding arguments.",
+            "source_image_entities": [
+                "CLAIM"
+            ],
+            "source_text_entities": [
+                "CLAIM"
+            ]
+        },
+        {
+            "entity_name": "REASON",
+            "entity_type": "CONCEPT",
+            "description": "Reason refers to a statement in an argument that supports or attacks a claim. It provides the explanation or justification for the claim and is a key element in the Argument Reasoning Comprehension Task (ARCT) used to assess model capabilities in argument comprehension.",
+            "source_image_entities": [
+                "REASON"
+            ],
+            "source_text_entities": [
+                "REASON"
+            ]
+        },
+        {
+            "entity_name": "WARRANT",
+            "entity_type": "CONCEPT",
+            "description": "Warrants are a form of world knowledge that permit inferences and are central to the argumentation mining task discussed in the paper. They serve as the underlying assumption or principle that connects the reason to the claim, and their role is crucial in the Argument Reasoning Comprehension Task (ARCT) for evaluating models' ability to understand argument structures.",
+            "source_image_entities": [
+                "WARRANT"
+            ],
+            "source_text_entities": [
+                "WARRANTS"
+            ]
+        },
+        {
+            "entity_name": "ARCT",
+            "entity_type": "EVENT",
+            "description": "The Argument Reasoning Comprehension Task (ARCT) is a task focused on inference within argumentation mining, which is central to the research paper. It is used to evaluate models' performance in understanding arguments, particularly in the presence of statistical cues over labels.",
+            "source_image_entities": [
+                "ARCT"
+            ],
+            "source_text_entities": [
+                "ARGUMENT REASONING COMPREHENSION TASK (ARCT)",
+                "ARCT SEMEVAL SHARED TASK",
+                "ARCT"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "Productivity and Coverage Metrics",
+            "entity_type": "CONCEPT",
+            "description": "Productivity and coverage metrics are used to evaluate the efficiency and scope of different datasets, specifically in the context of argument comprehension tasks. Productivity measures the benefit of exploiting a cue, while coverage measures the strength of the signal it provides. These metrics are crucial for understanding the performance of models like BERT on datasets such as ARCT.",
+            "source_image_entities": [
+                "PRODUCTIVITY",
+                "COVERAGE"
+            ],
+            "source_text_entities": [
+                "$\\PI_{K}$",
+                "$\\XI_{K}$"
+            ]
+        },
+        {
+            "entity_name": "Argument Comprehension Task (ARCT)",
+            "entity_type": "EVENT",
+            "description": "ARCT is a dataset used to evaluate argument comprehension, where models including BERT are tested for their performance. It focuses on the presence of statistical cues over labels and is used to demonstrate the presence and nature of these cues in linguistic artifacts.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "ARCT"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a deep learning model used for natural language processing tasks, including argument comprehension, showing surprising performance but attributed to exploiting spurious statistical cues. It has the highest mean test score of 0.671 in certain tasks.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "\"BERT\""
+            ]
+        },
+        {
+            "entity_name": "BOV",
+            "entity_type": "ORGANIZATION",
+            "description": "BoV, or Bag of Vectors, is a baseline model used in the experiments for argument comprehension tasks, achieving a mean test score of 0.564 with additional variants showing different performance scores.",
+            "source_image_entities": [
+                "BOV"
+            ],
+            "source_text_entities": [
+                "\"BOV\""
+            ]
+        },
+        {
+            "entity_name": "BILSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "BiLSTM, or Bidirectional LSTM, is a baseline model used in the experiments for argument comprehension tasks, achieving a mean test score of 0.552 with various weight and regularization adjustments.",
+            "source_image_entities": [
+                "BILSTM"
+            ],
+            "source_text_entities": [
+                "\"BILSTM\""
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "GOOGLE",
+            "entity_type": "ORGANIZATION",
+            "description": "A multinational technology company that specializes in Internet-related services and products. It is one of the largest search engines in the world.",
+            "source_image_entities": [
+                "GOOGLE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "PEOPLE",
+            "entity_type": "PERSON",
+            "description": "Individuals who have the ability to make choices about which search engines they use.",
+            "source_image_entities": [
+                "PEOPLE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "SEARCH ENGINES",
+            "entity_type": "ORGANIZATION",
+            "description": "Software systems designed to search for information on the World Wide Web. They can be categorized into different types, including Google and other alternatives.",
+            "source_image_entities": [
+                "SEARCH ENGINES"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model used in experiments to evaluate the exploitation of spurious statistical cues in the ARCT dataset and is known for its performance in natural language processing tasks, with a focus on its ability to comprehend arguments in the context of ARCT.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "BERT",
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "ARCT",
+            "entity_type": "EVENT",
+            "description": "ARCT is the event or dataset used for training and testing models, particularly focusing on the presence of statistical cues over labels, and is an event/task focused on machine argument comprehension, with the aim of evaluating machine learning models' performance.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ARCT",
+                "ARCT"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "The base BERT model with a mean test score of 0.504, a median of 0.505, and a maximum of 0.533, used in experiments to evaluate the exploitation of spurious statistical cues in the ARCT dataset.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BERT (W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with weight adjustment, having a mean test score of 0.501, a median of 0.501, and a maximum of 0.502, used in the setup where models are trained only on the warrants to evaluate the exploitation of distributional cues over the labels.",
+            "source_image_entities": [
+                "BERT (W)"
+            ],
+            "source_text_entities": [
+                "W"
+            ]
+        },
+        {
+            "entity_name": "BERT (R, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with both regularization and weight adjustment, showing a mean test score of 0.500, a median of 0.500, and a maximum of 0.502, used in the setup where models consider cues in the reasons and warrants to evaluate model performance.",
+            "source_image_entities": [
+                "BERT (R, W)"
+            ],
+            "source_text_entities": [
+                "R, W"
+            ]
+        },
+        {
+            "entity_name": "BERT (C, W)",
+            "entity_type": "ORGANIZATION",
+            "description": "The BERT model with both class weighting and weight adjustment, featuring a mean test score of 0.501, a median of 0.500, and a maximum of 0.518, used in the setup where models consider cues in the claims and warrants to evaluate model performance.",
+            "source_image_entities": [
+                "BERT (C, W)"
+            ],
+            "source_text_entities": [
+                "C, W"
+            ]
+        },
+        {
+            "entity_name": "ARCT",
+            "entity_type": "EVENT",
+            "description": "ARCT is the event or dataset used for training and testing models, particularly focusing on the presence of statistical cues over labels, and is focused on machine argument comprehension, with the aim of evaluating machine learning models' performance.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ARCT",
+                "ARCT"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "image_1": [
+        {
+            "entity_name": "BI-LSTM UTTERANCE ENCODER",
+            "entity_type": "CONCEPT",
+            "description": "The BI-LSTM Utterance Encoder is a component that encodes user input to the system in natural language format to a continuous vector using a bidirectional LSTM, as detailed in the process of Utterance Encoding.",
+            "source_image_entities": [
+                "BI-LSTM UTTERANCE ENCODER"
+            ],
+            "source_text_entities": [
+                "BIDIRECTIONAL LSTM UTTERANCE ENCODER"
+            ]
+        },
+        {
+            "entity_name": "LSTM DIALOGUE STATE",
+            "entity_type": "CONCEPT",
+            "description": "The LSTM Dialogue State is a component that maintains a continuous representation of the dialogue state based on user utterance encoding and previous system action encoding, as detailed in the process of Dialogue State Tracking.",
+            "source_image_entities": [
+                "LSTM DIALOGUE STATE"
+            ],
+            "source_text_entities": [
+                "DIALOGUE-LEVEL LSTM"
+            ]
+        },
+        {
+            "entity_name": "DIALOGUE STATE TRACKING",
+            "entity_type": "EVENT",
+            "description": "Dialogue State Tracking is the process of maintaining the state of a conversation, such as user’s goals, by accumulating evidence along the sequence of dialogue turns, as described by the LSTM Dialogue State component and the DIALOGUE STATE TRACKING concept.",
+            "source_image_entities": [
+                "DIALOGUE STATE TRACKING"
+            ],
+            "source_text_entities": [
+                "DIALOGUE STATE TRACKING"
+            ]
+        },
+        {
+            "entity_name": "KNOWLEDGE BASE",
+            "entity_type": "CONCEPT",
+            "description": "The Knowledge Base is a source of information from which the system formulates and issues query commands based on the state tracking outputs to retrieve requested information, as detailed in the KB Operation event and the description of the KNOWLEDGE BASE concept.",
+            "source_image_entities": [
+                "KNOWLEDGE BASE"
+            ],
+            "source_text_entities": [
+                "KNOWLEDGE BASE"
+            ]
+        },
+        {
+            "entity_name": "POLICY NETWORK",
+            "entity_type": "CONCEPT",
+            "description": "The Policy Network is a deep neural network that models the dialogue policy and takes dialogue-level LSTM state, log probabilities from the belief tracker, and encoding of query results summary as inputs, as detailed in the DIALOGUE POLICY event and the POLICY NETWORK description.",
+            "source_image_entities": [
+                "POLICY NETWORK"
+            ],
+            "source_text_entities": [
+                "POLICY NETWORK"
+            ]
+        },
+        {
+            "entity_name": "NATURAL LANGUAGE GENERATOR",
+            "entity_type": "CONCEPT",
+            "description": "The Natural Language Generator is responsible for generating the final natural language system response based on the dialogue action, user goal tracking results, and query results, as detailed in the NATURAL LANGUAGE GENERATOR (NLG) description and the NATURAL LANGUAGE GENERATOR (NLG) concept.",
+            "source_image_entities": [
+                "NATURAL LANGUAGE GENERATOR"
+            ],
+            "source_text_entities": [
+                "NATURAL LANGUAGE GENERATOR (NLG)"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "POLICY NETWORK",
+            "entity_type": "ORGANIZATION",
+            "description": "The Policy Network, also referred to as PolicyNet, is a deep neural network responsible for modeling the dialogue policy and selecting the next system action based on the dialogue state. It takes as inputs the dialogue-level LSTM state, log probabilities from the belief tracker, and encoding of query results summary.",
+            "source_image_entities": [
+                "POLICY NETWORK"
+            ],
+            "source_text_entities": [
+                "POLICY NETWORK"
+            ]
+        },
+        {
+            "entity_name": "LSTM DIALOGUE STATE",
+            "entity_type": "OBJECT",
+            "description": "The LSTM Dialogue State, represented as \\(S_k\\), is the internal state of the dialogue maintained by an LSTM network, capturing the history and context of the conversation and serving as input to the Policy Network.",
+            "source_image_entities": [
+                "LSTM DIALOGUE STATE"
+            ],
+            "source_text_entities": [
+                "DIALOGUE-LEVEL LSTM",
+                "LSTM_D"
+            ]
+        },
+        {
+            "entity_name": "SYSTEM ACTION AT TURN K",
+            "entity_type": "EVENT",
+            "description": "The System Action at Turn K, denoted as \\(a_k\\), is the action determined by the Policy Network based on the current state of the dialogue, which includes the dialogue state, user's goal, and the encoding of the query results.",
+            "source_image_entities": [
+                "SYSTEM ACTION AT TURN K"
+            ],
+            "source_text_entities": [
+                "TURN K"
+            ]
+        }
+    ],
+    "image_3": [
+    ],
+    "image_4": [
+    ],
+    "image_5": [
+        {
+            "entity_name": "SL + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "Indicates the performance when supervised learning is combined with reinforcement learning. The task success rate starts low but increases over time, reaching a plateau around 0.55 after approximately 6000 sessions.",
+            "source_image_entities": [
+                "SL + RL"
+            ],
+            "source_text_entities": [
+                "SL + RL MODEL"
+            ]
+        },
+        {
+            "entity_name": "SL + IL 500 + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "Shows the performance when supervised learning is augmented with imitation learning for the first 500 sessions and then reinforced with reinforcement learning. The task success rate improves more rapidly initially and stabilizes around 0.62.",
+            "source_image_entities": [
+                "SL + IL 500 + RL"
+            ],
+            "source_text_entities": [
+                "SL + ΔΩIL 500 + Μ RL MODEL"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "SL BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "The baseline method using supervised learning, also known as the Supervised Learning Model, which is initially trained and later improved with interactive learning techniques.",
+            "source_image_entities": [
+                "SL BASELINE"
+            ],
+            "source_text_entities": [
+                "SUPERVISED LEARNING MODEL"
+            ]
+        },
+        {
+            "entity_name": "SL + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "The method combining supervised learning with reinforcement learning, also referred to as the SL + RL Model, which shows low average turn size for easy tasks and is optimized for better performance.",
+            "source_image_entities": [
+                "SL + RL"
+            ],
+            "source_text_entities": [
+                "SL + RL MODEL"
+            ]
+        },
+        {
+            "entity_name": "SL + IL 500 + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "The method combining supervised learning, imitation learning with 500 sessions, and reinforcement learning, also known as the SL + ΔΩIL 500 + Μ RL Model, which attempts to learn better strategies to handle more challenging tasks.",
+            "source_image_entities": [
+                "SL + IL 500 + RL"
+            ],
+            "source_text_entities": [
+                "SL + ΔΩIL 500 + Μ RL MODEL"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "SL BASELINE",
+            "entity_type": "ORGANIZATION",
+            "description": "The baseline method using supervised learning (SL) without reinforcement learning (RL), which is initially trained and later improved with interactive learning techniques.",
+            "source_image_entities": [
+                "SL BASELINE"
+            ],
+            "source_text_entities": [
+                "SL MODEL"
+            ]
+        },
+        {
+            "entity_name": "SL + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "The method combining supervised learning (SL) with reinforcement learning (RL), which is used to enhance the performance of the dialogue system by optimizing dialogue policy.",
+            "source_image_entities": [
+                "SL + RL"
+            ],
+            "source_text_entities": [
+                "SL + RL MODEL"
+            ]
+        },
+        {
+            "entity_name": "SL + IL 500 + RL",
+            "entity_type": "ORGANIZATION",
+            "description": "The method combining supervised learning (SL), initial learning (IL) with 500 sessions, and reinforcement learning (RL), which shows the benefits of performing end-to-end optimization of the neural dialogue model with RL during interactive learning.",
+            "source_image_entities": [
+                "SL + IL 500 + RL"
+            ],
+            "source_text_entities": [
+                "SL + ΔΩIL 500 + Μ RL MODEL"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "SL BASELINE",
+            "entity_type": "UNKNOWN",
+            "description": "The SL Baseline is a data point on the graph representing the supervised learning baseline performance.",
+            "source_image_entities": [
+                "SL BASELINE"
+            ],
+            "source_text_entities": [
+                "SUPERVISED LEARNING MODEL"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "SL MODEL",
+            "entity_type": "CONCEPT",
+            "description": "SL model refers to a dialogue system that is trained using supervised learning from dialogue corpora, with scores and performance metrics detailed in a table displaying the scores of different models in a machine learning context.",
+            "source_image_entities": [
+                "SL"
+            ],
+            "source_text_entities": [
+                "SL MODEL"
+            ]
+        }
+    ]
+}

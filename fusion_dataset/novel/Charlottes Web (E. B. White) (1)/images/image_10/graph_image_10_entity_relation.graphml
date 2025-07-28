@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short hair, not very detailed due to the hat covering most of it- Eyes: Not clearly visible due to the simplicity of the drawing- Expression: Neutral, with a slight smile- Age: Appears to be an adult man, possibly middle-aged- Clothing: Wearing a wide-brimmed hat, a buttoned shirt with rolled-up sleeves, and pants secured with a belt- Accessories: Holding a bucket in his left hand- Posture: Standing upright with one leg slightly bent, suggesting movement or walkingOverall, the character gives off a rustic, working-class vibe, likely involved in manual labor or farming."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+</node>
+<node id="&quot;IMAGE_10_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, curly hair- Expression: Appears to be in a state of surprise or alarm, with wide eyes and an open mouth- Age: Appears to be an adult woman- Clothing: Wearing a dress with a pattern that includes dots; the dress has short sleeves and reaches below the knees- Posture: Standing with one arm extended forward and the other bent at the elbow, with hands open as if reaching out or gesturingOverall, the character appears to be in a moment of unexpected reaction, possibly surprised or alarmed by something."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+</node>
+<node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting two characters in an outdoor setting. On the left, there is a man wearing a wide-brimmed hat and a long-sleeved shirt with rolled-up sleeves. He appears to be in motion, stepping forward with one foot raised, suggesting he is walking or running. His posture is upright, and he has a calm expression on his face. To his right, there is a woman dressed in a long, patterned dress with a full skirt. She is also in motion, with one arm extended outward and her other hand resting on her hip. Her expression conveys urgency or concern, as if she is trying to reach out to someone or something. The background is minimalistic, featuring only a few tufts of grass, which suggests they are in a field or open area. The overall atmosphere of the image conveys a sense of action and urgency, possibly related to a chase or pursuit."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wearing a hat, shirt, and pants, holding a bucket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Wearing a dress and apron, with an expressive posture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10_PERSON-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_10_person-1.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10_PERSON-1.JPG&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_10_person-1.jpg是image_10的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10_PERSON-0.JPG&quot;" target="&quot;IMAGE_10&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_10_person-0.jpg是image_10的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man and woman are standing next to each other in a field."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

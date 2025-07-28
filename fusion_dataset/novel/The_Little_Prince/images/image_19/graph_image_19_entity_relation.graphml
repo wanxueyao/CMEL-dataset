@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_19_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Tennis racket- Color: The handle appears to be a light color, possibly white or light gray, while the head of the racket is dark, likely black.- Shape: The object has an elongated handle that tapers slightly towards the end and a rounded head with a pattern of strings.- Size: The image does not provide a scale, but based on typical tennis rackets, the handle is proportionally correct for a standard adult-sized racket.- Material: The handle looks like it could be made of a composite material or wood, common in tennis rackets, while the head is likely made of metal or graphite for strength and flexibility.- Possible function: This object is designed for playing tennis, used to hit a tennis ball during the game. The strings are tensioned to provide the necessary bounce and control when striking the ball.Overall, the image depicts a classic tennis racket, recognizable by its distinctive shape and design, which is essential equipment for the sport of tennis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<node id="&quot;IMAGE_19_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky hair- Expression: Neutral to slightly displeased or concerned- Age: Appears to be an adult male- Clothing: Wearing a long coat that reaches down to the ankles; the coat has a high collar and appears to be buttoned up- Posture: Standing upright with arms at sides, giving a formal or serious demeanorOverall, the character gives off a formal and somewhat stern appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<node id="&quot;IMAGE_19&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a simple black-and-white illustration of a small boy standing on a rounded surface, which appears to be a planet or asteroid. The boy has spiky hair and is dressed in a long-sleeved outfit that covers his entire body. His posture is upright, and he looks slightly to the side with a neutral expression. To his left, there is a small plant with a single flower bud emerging from the ground. The background is plain and does not provide any additional context or details. The overall atmosphere of the image is calm and somewhat whimsical, suggesting a scene from a story or a fairy tale."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A boy with curly hair, wearing a long-sleeved shirt and pants, standing on a small hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<node id="&quot;HILL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A small hill with a single flower growing on it."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<node id="&quot;FLOWER&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A single flower with a round bloom, growing on the hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+</node>
+<edge source="&quot;IMAGE_19_PERSON-1.JPG&quot;" target="&quot;IMAGE_19&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_19_person-1.jpg是image_19的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19_PERSON-0.JPG&quot;" target="&quot;BOY&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_19_person-0.jpg is a picture of a boy."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19_PERSON-0.JPG&quot;" target="&quot;IMAGE_19&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_19_person-0.jpg是image_19的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;HILL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hill是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_19&quot;" target="&quot;FLOWER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flower是从image_19中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;HILL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The boy is standing on the hill."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HILL&quot;" target="&quot;FLOWER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The flower is growing on the hill."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_19.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

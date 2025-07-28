@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1' that provides examples of controlling specificity (NIDF) in response generation. The table is divided into two main sections: 'Weighted Decoding Response' and 'Conditional Training Response'. Each section contains rows with different values of NIDF and corresponding responses. In the 'Weighted Decoding Response' section, the first row has a weight (Wt) of -5.0 and an NIDF of 0.6%, with the response 'Oh.................................'. The second row has a Wt of 0.0 and an NIDF of 17.1%, with the response 'That sounds like a lot of fun!'. The third row has a Wt of 3.0 and an NIDF of 18.3%, with the response 'That sounds like a lot of fun. How long have you been studying?'. The fourth row has a Wt of 7.0 and an NIDF of 38.5%, with the response 'I majored in practising my spiritual full time philosophy test'. The fifth row has a Wt of 10.0 and an NIDF of 71.9%, with the response 'Oh wow! Merna jean isa paino yi hao hui bu acara sya gila [...]' which appears nonsensical. In the 'Conditional Training Response' section, the first row has an NIDF of 16.8% and the response 'Sounds like you are a great person!'. The second row has an NIDF of 18.3% and the response 'So you are a law student?'. The third row has an NIDF of 18.4% and the response 'That sounds like a lot of fun'. The fourth row has an NIDF of 22.8% and the response 'That sounds like a rewarding job!'. The fifth row has an NIDF of 24.4% and the response 'That sounds like a rewarding career!'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+</node>
+<node id="&quot;LAW STUDENT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person who is currently studying law."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+</node>
+<node id="&quot;BASELINE RESPONSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The initial response to the statement about studying law, which is 'That sounds like a lot of fun!'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+</node>
+<node id="&quot;WEIGHTED DECODING RESPONSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Responses generated based on weighted decoding with varying weights and NIDF values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+</node>
+<node id="&quot;CONDITIONAL TRAINING RESPONSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Responses generated based on conditional training with varying z values and NIDF percentages."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;LAW STUDENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Law Student是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BASELINE RESPONSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Baseline Response是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WEIGHTED DECODING RESPONSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Weighted Decoding Response是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CONDITIONAL TRAINING RESPONSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Conditional Training Response是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAW STUDENT&quot;" target="&quot;BASELINE RESPONSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Baseline Response is a reaction to the Law Student's statement about studying law."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAW STUDENT&quot;" target="&quot;WEIGHTED DECODING RESPONSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Weighted Decoding Responses are potential reactions to the Law Student's statement about studying law, generated with different weights and NIDF values."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAW STUDENT&quot;" target="&quot;CONDITIONAL TRAINING RESPONSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Conditional Training Responses are potential reactions to the Law Student's statement about studying law, generated with different z values and NIDF percentages."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

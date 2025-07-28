@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a UMAP visualization of supersense vectors learned by SenseBERT at pre-training. The visualization is divided into two parts: (a) Clustering by the supersense’s part-of-speech and (b) Clustering within noun supersenses. In part (a), different colors represent different parts of speech, with Verb Supersenses in dark gray, Noun Supersenses in yellow, and Other (adv./adj.) in light blue. The points are scattered across the plot, forming distinct clusters for each part of speech. In part (b), various noun supersenses are labeled and clustered together based on semantic similarity. The labels include 'noun.artifact', 'noun.group', 'noun.location', 'noun.animal', 'noun.object', 'noun.food', 'noun.substance', 'noun.attribute', 'noun.person', 'noun.shape', 'noun.feeling', 'noun.body', 'noun.plant', and 'noun.concrete'. Each label is associated with a specific color, and the points are distributed across the plot, forming clusters that reflect their semantic relationships."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;VERB SUPERSENSES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster of gray dots representing verb supersenses in the left part of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN SUPERSENSES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster of yellow dots representing noun supersenses in the left part of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;OTHER (ADV./ADJ.)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cluster of cyan dots representing other parts of speech such as adverbs and adjectives in the left part of the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.ARTIFACT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A red dot labeled 'noun.artifact' in the right part of the image, indicating an abstract concept related to artifacts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.GROUP&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A blue dot labeled 'noun.group' in the right part of the image, indicating an abstract concept related to groups."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.LOCATION&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A blue dot labeled 'noun.location' in the right part of the image, indicating an abstract concept related to locations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.PERSON&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A blue dot labeled 'noun.person' in the right part of the image, indicating an abstract concept related to persons."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.ANIMAL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green dot labeled 'noun.animal' in the right part of the image, indicating an abstract concept related to animals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.OBJECT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green dot labeled 'noun.object' in the right part of the image, indicating an abstract concept related to objects."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.FOOD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green dot labeled 'noun.food' in the right part of the image, indicating an abstract concept related to food."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<node id="&quot;NOUN.SUBSTANCE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A green dot labeled 'noun.substance' in the right part of the image, indicating an abstract concept related to substances."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;VERB SUPERSENSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Verb Supersenses是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN SUPERSENSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Noun Supersenses是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;OTHER (ADV./ADJ.)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Other (adv./adj.)是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.ARTIFACT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.artifact是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.GROUP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.group是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.LOCATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.location是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.PERSON&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.person是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.ANIMAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.animal是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.OBJECT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.object是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.FOOD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.food是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;NOUN.SUBSTANCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"noun.substance是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.423/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

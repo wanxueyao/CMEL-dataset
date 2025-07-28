@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: Joint accuracy on the test sets of MultiWOZ 2.1.' The table compares the joint accuracy of different dialogue state tracking (DST) models. It contains two columns: 'Models' and 'Joint Accuracy'. The rows under 'Models' include BERT-DST (Rastogi et al., 2020), DS-DST, BERT-DST-Picklist (single turn), BERT-DST-Picklist (whole dialog history), ToD-BERT (Wu et al., 2020), and DS-Picklist. The corresponding 'Joint Accuracy' values are as follows: BERT-DST has 43.40%, DS-DST has 51.21%, BERT-DST-Picklist (single turn) has 39.86%, BERT-DST-Picklist (whole dialog history) has 46.42%, ToD-BERT has 48.00%, and DS-Picklist has 53.30%. The table highlights the performance differences among these models, with DS-Picklist achieving the highest joint accuracy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-DST (RASTOGI ET AL., 2020)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model developed by Rastogi et al. in 2020 for dialogue state tracking with a joint accuracy of 43.40%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;DS-DST&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model for dialogue state tracking with a joint accuracy of 51.21%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-DST-PICKLIST (SINGLE TURN)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A variant of BERT-DST that uses picklist information for a single turn with a joint accuracy of 39.86%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;BERT-DST-PICKLIST (WHOLE DIALOG HISTORY)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A variant of BERT-DST that uses picklist information for the whole dialog history with a joint accuracy of 46.42%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;TOD-BERT (WU ET AL., 2020)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model developed by Wu et al. in 2020 for task-oriented dialogue with a joint accuracy of 48.00%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<node id="&quot;DS-PICKLIST&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model for dialogue state tracking that uses picklist information with a joint accuracy of 53.30%."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-DST (RASTOGI ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-DST (Rastogi et al., 2020)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-DST是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-DST-PICKLIST (SINGLE TURN)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-DST-Picklist (single turn)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;BERT-DST-PICKLIST (WHOLE DIALOG HISTORY)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BERT-DST-Picklist (whole dialog history)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TOD-BERT (WU ET AL., 2020)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ToD-BERT (Wu et al., 2020)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"DS-Picklist是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 3: CoNLL-2003 Named Entity Recognition results.' The table presents the F1 scores for different models on the development (dev) and test sets. It contains four rows and three columns. The first column lists the models: ELMo_BASE, CNN Large + ELMo, and CNN Large + fine-tune. The second column shows the dev F1 scores: 95.2 for ELMo_BASE, 95.1 for CNN Large + ELMo, and 95.5 for CNN Large + fine-tune. The third column shows the test F1 scores: 95.1 for ELMo_BASE, 95.2 for CNN Large + ELMo, and 95.6 for CNN Large + fine-tune. The table highlights that the CNN Large + fine-tune model achieves the highest F1 scores on both the dev and test sets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+</node>
+<node id="&quot;ELMO_BASE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A baseline model with a dev F1 score of 95.2 and a test F1 score of 95.1."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+</node>
+<node id="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model combining CNN Large with ELMo, achieving a dev F1 score of 95.1 and a test F1 score of 95.2."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+</node>
+<node id="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model combining CNN Large with fine-tuning, achieving a dev F1 score of 95.5 and a test F1 score of 95.6."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ELMO_BASE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ELMo_BASE是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Large + ELMo是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN Large + fine-tune是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;CNN LARGE + ELMO&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both models use ELMo, but CNN Large + ELMo combines it with a larger CNN architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ELMO_BASE&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both models are compared in terms of performance, with CNN Large + fine-tune showing slightly better results."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN LARGE + ELMO&quot;" target="&quot;CNN LARGE + FINE-TUNE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both models are variants of the CNN Large architecture, with fine-tuning providing a slight performance boost over using ELMo."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D19-1539/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

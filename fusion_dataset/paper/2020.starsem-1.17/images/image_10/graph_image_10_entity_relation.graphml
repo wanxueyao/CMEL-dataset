@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_10&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that documents a dialogue interaction between a user and a system, detailing the booking process for a restaurant named Nandos on Monday at 15:00 for 6 people. The table is structured into multiple turns of conversation, each turn containing the user's request, the system's response, and the ground truths along with predictions from two models, DS-Span and DS-DST. The ground truths include various attributes such as the restaurant name, booking day, time, number of people, attraction area, and taxi details. The predictions from DS-Span and DS-DST are compared against these ground truths. For instance, in Turn 2, the ground truth includes &lt;restaurant, book day, monday&gt;, &lt;restaurant, name, nandos&gt;, &lt;restaurant, book time, 15:00&gt;, &lt;restaurant, book people, 6&gt;. Both DS-Span and DS-DST correctly predict these values. In Turn 3, the ground truth includes an additional attribute &lt;attraction, area, east&gt;, which both models also predict correctly. However, in Turn 6, DS-Span fails to predict the state &lt;taxi, departure, funky fun house&gt; correctly, while DS-DST does. The table highlights the accuracy of the models in predicting the dialog states across different turns."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;NANDOS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A restaurant where the user wants to book a table for 6 people on Monday at 15:00."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;MONDAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The day of the week when the user wants to book a table at Nandos."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;15:00&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The time when the user wants to book a table at Nandos."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;6 PEOPLE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"The number of guests for whom the user wants to book a table at Nandos."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;HVB51VAM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The reference number for the reservation at Nandos."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;FUNKY FUN HOUSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An attraction located in the east area that the user is interested in visiting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;EAST AREA&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The location where the Funky Fun House is situated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;01223304705&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The phone number for the Funky Fun House."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;WHITE AUDI TAXI&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The taxi booked by the system to transport the user from Funky Fun House to Nandos."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<node id="&quot;07057575130&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The contact number for the White Audi Taxi."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+</node>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;NANDOS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Nandos是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;MONDAY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Monday是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;15:00&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"15:00是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;6 PEOPLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"6 people是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;HVB51VAM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"HVB51VAM是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;FUNKY FUN HOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Funky Fun House是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;EAST AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"East Area是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;01223304705&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"01223304705是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;WHITE AUDI TAXI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"White Audi Taxi是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_10&quot;" target="&quot;07057575130&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"07057575130是从image_10中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NANDOS&quot;" target="&quot;MONDAY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The user wants to book a table at Nandos on Monday."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NANDOS&quot;" target="&quot;15:00&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The user wants to book a table at Nandos at 15:00."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NANDOS&quot;" target="&quot;6 PEOPLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The user wants to book a table for 6 people at Nandos."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NANDOS&quot;" target="&quot;HVB51VAM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The reference number for the reservation at Nandos."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NANDOS&quot;" target="&quot;WHITE AUDI TAXI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The taxi is booked to transport the user to Nandos."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FUNKY FUN HOUSE&quot;" target="&quot;EAST AREA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Funky Fun House is located in the East Area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FUNKY FUN HOUSE&quot;" target="&quot;01223304705&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The phone number for the Funky Fun House."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FUNKY FUN HOUSE&quot;" target="&quot;WHITE AUDI TAXI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The taxi is booked to transport the user from Funky Fun House."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WHITE AUDI TAXI&quot;" target="&quot;07057575130&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The contact number for the White Audi Taxi."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_10.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_TRAIN-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Ancient wooden boat- Color: Dark brown, with signs of weathering and age- Shape: Elongated, with a pointed bow and a flat stern- Size: Large, spanning the width of the image- Material: Wood, with visible planks and bindings- Possible function: Used for transportation on water, possibly for fishing or travel in ancient times- Other significant characteristics: Shows signs of wear and tear, with some parts broken or missing, indicating its age and historical significanceOverall, the object appears to be an ancient wooden boat, likely used for transportation on water, and shows significant signs of age and historical use."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene of devastation following a wildfire on the island of Maui in Hawaii. The foreground shows a charred boat sitting on a scorched waterfront, with remnants of debris scattered around it. The water appears to be calm, reflecting the smoke-filled sky above. In the background, several palm trees stand tall but are visibly burnt, their fronds hanging limply. A building, likely part of a marina or dock facility, is also visible and appears to have suffered significant damage. The overall atmosphere is one of desolation and destruction, with a thick haze of smoke lingering in the air, indicating that the fire may still be active or has recently been extinguished. The sky is overcast with a mix of gray and orange hues, suggesting the presence of ongoing wildfires. The scene conveys a sense of loss and the aftermath of a natural disaster."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;BURNT PALM TREES&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A group of palm trees that have been burnt and are standing with their leaves hanging down."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;DAMAGED BUILDING&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A building in the background that appears to be heavily damaged, with its structure exposed and no visible roof."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;RUINED ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A road in the foreground that is covered with debris and ash, showing signs of being affected by a fire."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;WATER BODY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A body of water adjacent to the road, reflecting the smoke-filled sky and surrounded by burnt debris."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<node id="&quot;SMOKE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Smoke filling the sky, indicating recent fire activity and contributing to a hazy atmosphere."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_TRAIN-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_train-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;BURNT PALM TREES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Burnt Palm Trees是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DAMAGED BUILDING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Damaged Building是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RUINED ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ruined Road是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;WATER BODY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Water Body是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Smoke是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BURNT PALM TREES&quot;" target="&quot;DAMAGED BUILDING&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The burnt palm trees are located in front of the damaged building, suggesting they were both affected by the same event."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BURNT PALM TREES&quot;" target="&quot;RUINED ROAD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The burnt palm trees are situated next to the ruined road, indicating they were part of the same environment affected by the fire."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BURNT PALM TREES&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The smoke fills the sky above the burnt palm trees, indicating the aftermath of a fire that affected the area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED BUILDING&quot;" target="&quot;RUINED ROAD&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The damaged building is located behind the ruined road, both showing signs of destruction from the same event."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DAMAGED BUILDING&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The smoke surrounds the damaged building, suggesting it was recently on fire or still smoldering."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RUINED ROAD&quot;" target="&quot;WATER BODY&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The water body is adjacent to the ruined road, with both areas showing evidence of fire damage."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RUINED ROAD&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The smoke hangs over the ruined road, indicating the fire's impact on this area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WATER BODY&quot;" target="&quot;SMOKE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"The smoke reflects off the water body, highlighting the extent of the fire's reach into the surrounding environment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230810/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

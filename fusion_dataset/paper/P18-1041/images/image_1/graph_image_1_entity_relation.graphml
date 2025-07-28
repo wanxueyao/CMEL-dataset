@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Comparisons of CNN, LSTM and SWEM architectures.' The table is structured with four main columns: Model, Parameters, Complexity, and Sequential Ops. Each row represents a different model architecture and contains the following information: \n- **CNN**: Parameters are given as \( n \cdot K \cdot d \), Complexity is \( \mathcal{O}(n \cdot L \cdot K \cdot d) \), and Sequential Ops are \( \mathcal{O}(1) \). \n- **LSTM**: Parameters are given as \( 4 \cdot d \cdot (K + d) \), Complexity is \( \mathcal{O}(L \cdot d^2 + L \cdot K \cdot d) \), and Sequential Ops are \( \mathcal{O}(L) \). \n- **SWEM**: Parameters are given as 0, Complexity is \( \mathcal{O}(L \cdot K) \), and Sequential Ops are \( \mathcal{O}(1) \). \nThe table highlights the differences in parameters, computational complexity, and sequential operations between the three models. The context discusses the hierarchical pooling layer proposed for SWEM, which aims to improve upon SWEM-aver and SWEM-max by incorporating word-order and spatial information."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+</node>
+<node id="&quot;CNN&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model with parameters n * K * d and complexity O(n * L * K * d). Sequential operations are O(1)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+</node>
+<node id="&quot;LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model with parameters 4 * d * (K + d) and complexity O(L * d^2 + L * K * d). Sequential operations are O(L)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+</node>
+<node id="&quot;SWEM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A model with no parameters and complexity O(L * K). Sequential operations are O(1)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CNN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"CNN是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SWEM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SWEM是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN&quot;" target="&quot;LSTM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are models used in machine learning, but they have different parameter structures and computational complexities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CNN&quot;" target="&quot;SWEM&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both are models used in machine learning, but they differ in parameter structure and computational complexity. SWEM has no parameters."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM&quot;" target="&quot;SWEM&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both are models used in machine learning, but they differ significantly in parameter structure and computational complexity. SWEM has no parameters."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1041/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

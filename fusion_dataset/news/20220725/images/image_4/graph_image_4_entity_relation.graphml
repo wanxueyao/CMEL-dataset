@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short hair, dark in color- Clothing: Wearing a light-colored shirt with a collar- Posture: Standing with back facing the camera, hands not visible, suggesting a relaxed or neutral stance- Age: Cannot be determined due to lack of facial features, but appears to be an adult based on body structure"</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Dark skin tone- Hairstyle: Hair is pulled back tightly, possibly in a bun or ponytail, with some small braids visible- Facial Expression: Mouth open, appearing to be speaking or singing; eyes looking slightly upwards and to the side- Age: Appears to be an adult woman- Clothing: Wearing a white top with a high neckline- Accessories: Pink nail polish on her fingers- Posture: Head tilted slightly to one side, hand raised near the faceOverall, the character gives off an expressive and dynamic vibe, suggesting she might be engaged in a performance or conversation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4_PERSON-2.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, dark hair, styled in a neat, straight manner- Clothing: Wearing a white t-shirt that fits closely to the body- Posture: Standing with back facing the camera, shoulders relaxed, and head slightly tilted to one sideOverall, the person appears to be casually dressed and relaxed."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a person with dark hair, wearing a white top, standing in front of a mirror. The individual is applying lipstick using a compact mirror and a tube of lipstick. The reflection in the mirror reveals the person's face, which is focused on the task at hand. The background includes multiple mirrors, suggesting that this scene takes place in a bathroom or a dressing area. The lighting is warm, creating a cozy and intimate atmosphere. The person appears to be engaged in a personal grooming routine, possibly preparing for an event or daily activities."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with braided hair, wearing a white top, applying lipstick in front of a mirror."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;MIRROR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A large, rectangular mirror reflecting the woman and the room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<node id="&quot;LIPSTICK&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tube of pink lipstick being applied by the woman."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The image feature block image_4_person-0.jpg is a picture of a woman."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-1.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-1.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_PERSON-2.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-2.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;MIRROR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Mirror是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;LIPSTICK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lipstick是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;MIRROR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is using the mirror to apply lipstick."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;LIPSTICK&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is holding and applying the lipstick."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MIRROR&quot;" target="&quot;LIPSTICK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The lipstick is visible in the reflection of the mirror."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220725/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

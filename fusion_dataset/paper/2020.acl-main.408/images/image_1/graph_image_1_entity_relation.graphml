@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a composite of four sections, each illustrating different datasets included in the ERASER benchmark. The first section is labeled 'Movie Reviews' and contains a positive review snippet: 'In this movie, ... Plots to take over the world. The acting is great! The soundtrack is run-of-the-mill, but the action more than makes up for it.' Below this snippet are two options: (a) Positive and (b) Negative. The second section is labeled 'e-SNLI' and shows a hypothesis (H): 'A man in an orange vest leans over a pickup truck,' and a premise (P): 'A man is touching a truck.' Below these statements are three options: (a) Entailment, (b) Contradiction, and (c) Neutral. The third section is labeled 'Commonsense Explanations (CoS-E)' and poses the question: 'Where do you find the most amount of leafs?' with five options: (a) Compost pile, (b) Flowers, (c) Forest, (d) Field, and (e) Ground. The fourth section is labeled 'Evidence Inference' and includes an article snippet about a clinical trial comparing saline with furosemide. A prompt asks about the reported difference between patients receiving placebo and those receiving furosemide, with three options: (a) Sig. decreased, (b) No sig. difference, and (c) Sig. increased."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+</node>
+<node id="&quot;MOVIE REVIEWS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A section detailing reviews for a movie, including positive and negative aspects such as acting, soundtrack, and plot."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+</node>
+<node id="&quot;E-SNLI&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event showing a natural language inference example with a hypothesis and premise about a man in an orange vest and a pickup truck."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+</node>
+<node id="&quot;COMMONSENSE EXPLANATIONS (COS-E)&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event presenting a question about where to find the most amount of leaves, with multiple-choice answers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+</node>
+<node id="&quot;EVIDENCE INFERENCE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An event involving a medical article and a prompt asking about the effect of furosemide on breathlessness during exercise compared to a placebo."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;MOVIE REVIEWS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Movie Reviews是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;E-SNLI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"e-SNLI是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;COMMONSENSE EXPLANATIONS (COS-E)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Commonsense Explanations (CoS-E)是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;EVIDENCE INFERENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Evidence Inference是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOVIE REVIEWS&quot;" target="&quot;E-SNLI&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are events that involve analyzing text for understanding and inference, but Movie Reviews focuses on sentiment analysis while e-SNLI is about natural language inference."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOVIE REVIEWS&quot;" target="&quot;COMMONSENSE EXPLANATIONS (COS-E)&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both involve evaluating information to reach a conclusion, but Movie Reviews deals with subjective opinions while CoS-E involves factual knowledge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MOVIE REVIEWS&quot;" target="&quot;EVIDENCE INFERENCE&quot;">
+  <data key="d3">5.0</data>
+  <data key="d4">"Both require critical thinking and analysis, but Movie Reviews is about entertainment critique while Evidence Inference is about scientific research evaluation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E-SNLI&quot;" target="&quot;COMMONSENSE EXPLANATIONS (COS-E)&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both involve logical reasoning, but e-SNLI is about understanding relationships between sentences while CoS-E is about general world knowledge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E-SNLI&quot;" target="&quot;EVIDENCE INFERENCE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both involve drawing conclusions from given information, but e-SNLI is about textual entailment while Evidence Inference is about interpreting scientific data."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COMMONSENSE EXPLANATIONS (COS-E)&quot;" target="&quot;EVIDENCE INFERENCE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Both require evaluating information to answer questions, but CoS-E is about everyday knowledge while Evidence Inference is about clinical trial results."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

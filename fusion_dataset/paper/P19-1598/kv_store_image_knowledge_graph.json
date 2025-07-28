@@ -1,0 +1,316 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart representing the relationships and attributes of the video game 'Super Mario Land'. The chart includes several nodes connected by arrows, each node representing a different attribute or entity related to the game. The main nodes are as follows: 'Super Mario Land' (Q647249) is connected to 'Nintendo' (Q8093) as the publisher, 'platform game' (Q828322) as the genre, 'Game Boy' (Q186437) as the platform, and 'launch game' (Q1425505) as the launch title. The publication date is indicated as '21 April 1989'. Additionally, 'Super Mario Land' is categorized as a 'side-scrolling video game' (Q2281714). The chart uses different colors for each node: green for 'Super Mario Land', orange for 'Nintendo', pink for 'platform game', brown for 'Game Boy', blue for 'launch game', and purple for 'side-scrolling video game'. The arrows indicate the relationships between these entities, such as 'PUBLISHER', 'GENRE', 'PLATFORM', 'MANUFACTURER', and 'INSTANCE OF'."
+        },
+        {
+            "entity_name": "SUPER MARIO LAND",
+            "entity_type": "EVENT",
+            "description": "A video game published by Nintendo, launched on 21 April 1989."
+        },
+        {
+            "entity_name": "NINTENDO",
+            "entity_type": "ORGANIZATION",
+            "description": "The company that published Super Mario Land."
+        },
+        {
+            "entity_name": "LAUNCH GAME",
+            "entity_type": "EVENT",
+            "description": "The event of launching the game Super Mario Land."
+        },
+        {
+            "entity_name": "21 APRIL 1989",
+            "entity_type": "EVENT",
+            "description": "The publication date of Super Mario Land."
+        },
+        {
+            "entity_name": "PLATFORM GAME",
+            "entity_type": "EVENT",
+            "description": "The genre of Super Mario Land, which is a platform game."
+        },
+        {
+            "entity_name": "GAME BOY",
+            "entity_type": "OBJECT",
+            "description": "The handheld game console on which Super Mario Land was played."
+        },
+        {
+            "entity_name": "SIDE-SCROLLING VIDEO GAME",
+            "entity_type": "EVENT",
+            "description": "The type of video game Super Mario Land is, which is a side-scrolling video game."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the process of generating tokens in the context of a knowledge graph language model (KGLM). The flowchart is divided into several sections, each representing a step in the token generation process. The first section, labeled 'Relation to Existing Entity', shows a decision point where the model decides if the token is related to an existing entity. This is indicated by a darker shade, suggesting a higher probability. The next section, 'parent from local entities', lists potential parent entities such as 'platform game' and 'side-scrolling game', with 'Super Mario Land' highlighted. The third section, 'pick from all entities', shows a list of entities including 'AAA Inc.', 'Sony Inc.', and 'Zzyzx, CA'. The fourth section, 'Distribution over standard vocabulary and aliases of e_t', includes a list of words like 'a', 'the', 'company', 'dog', etc., along with aliases for 'Nintendo' such as 'Kabushiki', 'Koppai', and 'Nintendo'. The final section, 'Not an Entity Mention', indicates that if the token is not an entity mention, the distribution is over the standard vocabulary. The flowchart also includes a graphical representation of the relationships between entities, showing 'Super Mario Land' as the parent entity, 'Publisher' as the relation, and 'Nintendo' as the entity to render. The final distribution over words includes the standard vocabulary along with aliases of 'Nintendo', and the model selects 'Nintendo' as the token x_t. Facts related to Nintendo will be added to the local graph."
+        },
+        {
+            "entity_name": "SUPER MARIO LAND",
+            "entity_type": "EVENT",
+            "description": "A side-scrolling platform game published by Nintendo in 1989."
+        },
+        {
+            "entity_name": "NINTENDO",
+            "entity_type": "ORGANIZATION",
+            "description": "A company that publishes video games, including Super Mario Land."
+        },
+        {
+            "entity_name": "GAME BOY",
+            "entity_type": "OBJECT",
+            "description": "The gaming platform on which Super Mario Land was released."
+        },
+        {
+            "entity_name": "PLATFORM GAME",
+            "entity_type": "OBJECT",
+            "description": "A type of video game genre characterized by jumping and movement across platforms."
+        },
+        {
+            "entity_name": "SIDE-SCROLLING GAME",
+            "entity_type": "OBJECT",
+            "description": "A type of video game genre where the player moves through a level from left to right."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that provides an example annotation of a sentence from Figure 1, including corresponding variables from Figure 2. The table is structured with rows and columns representing different aspects of the annotation process. The columns include 'Tokens', 'Mention type', 'Entity Mentioned', 'Relation', and 'Parent Entity'. Each row corresponds to a token in the sentence. For example, the token 'Super' is marked as 'new' in the 'Mention type' column and has 'SML' (Q647249) as its 'Entity Mentioned'. The date '1989' is linked to '04-21-1989' and has a 'pub date' relation. The term 'side-scrolling' is marked as 'new' and has 'SIDE_SCROLL' as its 'Entity Mentioned'. The entity 'Game Boy' has multiple parent and relation annotations, indicating it is both the platform for Super Mario Land and manufactured by Nintendo. The table uses human-readable identifiers for clarity, such as 'SML' for Q647249. The context explains the expansion of annotations using string matching for entities, dates, and quantities, and the iterative creation of a generative story for entities using relations in the knowledge graph."
+        },
+        {
+            "entity_name": "SUPER MARIO LAND",
+            "entity_type": "EVENT",
+            "description": "A 1989 side-scrolling platform video game developed and published by Nintendo as a launch title for their Game Boy handheld game console."
+        },
+        {
+            "entity_name": "NINTENDO",
+            "entity_type": "ORGANIZATION",
+            "description": "The company that developed and published Super Mario Land."
+        },
+        {
+            "entity_name": "GAME BOY",
+            "entity_type": "OBJECT",
+            "description": "The handheld game console for which Super Mario Land was a launch title."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Linked WikiText-2 Corpus Statistics' that provides statistical information about the Linked WikiText-2 dataset. The table is structured with three main columns: Train, Dev, and Test. Each column represents a partition of the dataset and contains the following rows: 'Documents' (Train: 600, Dev: 60, Test: 60), 'Tokens' (Train: 2,019,195, Dev: 207,982, Test: 236,062), 'Vocab. Size' (Train: 33,558, Dev and Test: not provided), 'Mention Tokens' (Train: 207,803, Dev: 21,226, Test: 24,441), 'Mention Spans' (Train: 122,983, Dev: 12,214, Test: 15,007), 'Unique Entities' (Train: 41,058, Dev: 5,415, Test: 5,625), and 'Unique Relations' (Train: 1,291, Dev: 484, Test: 504). The table highlights the dataset's significant size and the detailed annotations across its splits. The caption indicates the table summarizes corpus statistics, while the context discusses the importance of entity tokens, relations, and knowledge graph annotations in training language models."
+        },
+        {
+            "entity_name": "TRAIN",
+            "entity_type": "EVENT",
+            "description": "The training dataset consists of 600 documents with 2,019,195 tokens and a vocabulary size of 33,558. It includes 207,803 mention tokens and 122,983 mention spans, with 41,058 unique entities and 1,291 unique relations."
+        },
+        {
+            "entity_name": "DEV",
+            "entity_type": "EVENT",
+            "description": "The development dataset consists of 60 documents with 207,982 tokens. It includes 21,226 mention tokens and 12,214 mention spans, with 5,415 unique entities and 484 unique relations."
+        },
+        {
+            "entity_name": "TEST",
+            "entity_type": "EVENT",
+            "description": "The test dataset consists of 60 documents with 236,062 tokens. It includes 24,441 mention tokens and 15,007 mention spans, with 5,625 unique entities and 504 unique relations."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Perplexity Results on Linked WikiText-2.' The table presents the perplexity (PPL) and unknown penalized perplexity (UPP) results for different language models. The rows of the table are as follows: ENTITYNLM* (Ji et al., 2017) with PPL of 85.4 and UPP of 189.2, EntityCopyNet* with PPL of 76.1 and UPP of 144.0, AWD-LSTM (Merity et al., 2018) with PPL of 74.8 and UPP of 165.8, and KGLM* with PPL of 44.1 and UPP of 88.5. The footnote indicates that results for models marked with * are obtained using importance sampling. The context explains that the KGLM model achieves substantially lower perplexity than other entity-based language models, providing strong evidence that leveraging knowledge graphs is crucial for accurate language modeling."
+        },
+        {
+            "entity_name": "ENTITYNLM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Ji et al. in 2017, with a PPL of 85.4 and UPP of 189.2."
+        },
+        {
+            "entity_name": "ENTITYCOPYNET",
+            "entity_type": "ORGANIZATION",
+            "description": "A model with a PPL of 76.1 and UPP of 144.0."
+        },
+        {
+            "entity_name": "AWD-LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Merity et al. in 2018, with a PPL of 74.8 and UPP of 165.8."
+        },
+        {
+            "entity_name": "KGLM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model with the lowest PPL of 44.1 and UPP of 88.5."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Fact Completion' that provides the top-k accuracy (@1/@5, %) for predicting the next token for an incomplete factual sentence. The table is structured with four main columns: AWD-LSTM, GPT-2, KGLM Oracle, and KGLM NEL. Each column represents a different language model and contains the following rows: 'nation-capital' (AWD-LSTM: 0/0, GPT-2: 6/7, KGLM Oracle: 0/0, KGLM NEL: 0/4), 'birthloc' (AWD-LSTM: 0/9, GPT-2: 14/14, KGLM Oracle: 94/95, KGLM NEL: 85/92), 'birthdate' (AWD-LSTM: 0/25, GPT-2: 8/9, KGLM Oracle: 65/68, KGLM NEL: 61/67), 'spouse' (AWD-LSTM: 0/0, GPT-2: 2/3, KGLM Oracle: 2/2, KGLM NEL: 1/19), 'city-state' (AWD-LSTM: 0/13, GPT-2: 62/62, KGLM Oracle: 9/59, KGLM NEL: 4/59), 'book-author' (AWD-LSTM: 0/2, GPT-2: 0/0, KGLM Oracle: 61/62, KGLM NEL: 25/28). The table highlights the performance of each language model across various relations, with KGLM variants significantly outperforming AWD-LSTM in most cases. The average accuracy is also provided at the bottom of the table (AWD-LSTM: 0.0/8.2, GPT-2: 15.3/15.8, KGLM Oracle: 38.5/47.7, KGLM NEL: 29.3/44.8)."
+        },
+        {
+            "entity_name": "AWD-LSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A machine learning model used for natural language processing tasks, specifically shown in the table with performance metrics across various categories."
+        },
+        {
+            "entity_name": "GPT-2",
+            "entity_type": "ORGANIZATION",
+            "description": "An advanced language model developed by OpenAI, known for its text generation capabilities, also evaluated in the table for different relation types."
+        },
+        {
+            "entity_name": "KGLM",
+            "entity_type": "ORGANIZATION",
+            "description": "A knowledge-grounded language model that uses external knowledge to improve its performance, showcased in the table with two variants: Oracle and NEL."
+        },
+        {
+            "entity_name": "ORACLE",
+            "entity_type": "ORGANIZATION",
+            "description": "Variant of KGLM that assumes perfect entity linking, providing an upper bound on performance as seen in the table."
+        },
+        {
+            "entity_name": "NEL",
+            "entity_type": "ORGANIZATION",
+            "description": "Variant of KGLM that performs named entity linking, demonstrating real-world applicability as indicated in the table."
+        },
+        {
+            "entity_name": "NATION-CAPITAL",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating the capital of a nation, with performance scores for different models listed in the table."
+        },
+        {
+            "entity_name": "BIRTHLOC",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating the place of birth, with corresponding performance metrics for each model displayed in the table."
+        },
+        {
+            "entity_name": "BIRTHDATE",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating the date of birth, with associated performance scores for the models shown in the table."
+        },
+        {
+            "entity_name": "SPOUSE",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating marital relationships, with performance data for each model provided in the table."
+        },
+        {
+            "entity_name": "CITY-STATE",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating the state a city is located in, with performance metrics for the models listed in the table."
+        },
+        {
+            "entity_name": "BOOK-AUTHOR",
+            "entity_type": "EVENT",
+            "description": "Relationship type indicating the authorship of a book, with performance scores for the models shown in the table."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "PARIS HILTON",
+            "entity_type": "PERSON",
+            "description": "A celebrity whose birthplace is being questioned in the image."
+        },
+        {
+            "entity_name": "NEW YORK CITY",
+            "entity_type": "GEO",
+            "description": "The correct birthplace of Paris Hilton according to the gold standard."
+        },
+        {
+            "entity_name": "ARNOLD SCHWARZENEGGER",
+            "entity_type": "PERSON",
+            "description": "A celebrity whose birthdate is being questioned in the image."
+        },
+        {
+            "entity_name": "1947-07-30",
+            "entity_type": "EVENT",
+            "description": "The correct birthdate of Arnold Schwarzenegger according to the gold standard."
+        },
+        {
+            "entity_name": "BOB DYLAN",
+            "entity_type": "PERSON",
+            "description": "A celebrity whose birthplace is being questioned in the image."
+        },
+        {
+            "entity_name": "DULUTH",
+            "entity_type": "GEO",
+            "description": "The correct birthplace of Bob Dylan according to the gold standard."
+        },
+        {
+            "entity_name": "BARACK OBAMA",
+            "entity_type": "PERSON",
+            "description": "A former U.S. President whose birthdate is being questioned in the image."
+        },
+        {
+            "entity_name": "1961-08-04",
+            "entity_type": "EVENT",
+            "description": "The correct birthdate of Barack Obama according to the gold standard."
+        },
+        {
+            "entity_name": "JAMES JOYCE",
+            "entity_type": "PERSON",
+            "description": "An author whose work 'Ulysses' is being referenced in the image."
+        },
+        {
+            "entity_name": "ULYSSES",
+            "entity_type": "OBJECT",
+            "description": "A book written by James Joyce."
+        },
+        {
+            "entity_name": "ST. LOUIS",
+            "entity_type": "GEO",
+            "description": "A city whose state is being questioned in the image."
+        },
+        {
+            "entity_name": "MISSOURI",
+            "entity_type": "GEO",
+            "description": "The correct state where St. Louis is located according to the gold standard."
+        },
+        {
+            "entity_name": "RICHARD NIXON",
+            "entity_type": "PERSON",
+            "description": "A former U.S. President whose birthdate is being questioned in the image."
+        },
+        {
+            "entity_name": "1913-01-09",
+            "entity_type": "EVENT",
+            "description": "The correct birthdate of Richard Nixon according to the gold standard."
+        },
+        {
+            "entity_name": "KANYE WEST",
+            "entity_type": "PERSON",
+            "description": "A celebrity whose marital status is being questioned in the image."
+        },
+        {
+            "entity_name": "KIM KARDASHIAN",
+            "entity_type": "PERSON",
+            "description": "A celebrity who is married to Kanye West according to the gold standard."
+        },
+        {
+            "entity_name": "NEW DELHI",
+            "entity_type": "GEO",
+            "description": "The capital of India according to the gold standard."
+        },
+        {
+            "entity_name": "MADONNA",
+            "entity_type": "PERSON",
+            "description": "A celebrity whose marital status is being questioned in the image."
+        },
+        {
+            "entity_name": "CARLOS LEON",
+            "entity_type": "PERSON",
+            "description": "A person who was previously married to Madonna according to the gold standard."
+        },
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_7 is a table labeled \"Table 5: Completion Examples\" that provides examples of fact completion by KGLM and GPT-2. The table is structured with four main columns: Input Sentence, Gold (the correct answer), GPT-2 (the generated answer by GPT-2), and KGLM (the generated answer by KGLM). Each row represents a different input sentence and its corresponding answers. The rows are categorized into three groups: Both correct, KGLM correct, GPT-2 correct, and Both incorrect. The table highlights the differences in factual accuracy and specificity of the generated tokens between KGLM and GPT-2."
+        },
+        {
+            "entity_name": "INDIA",
+            "entity_type": "UNKNOWN",
+            "description": "New Delhi is the capital of India according to the gold standard."
+        }
+    ]
+}

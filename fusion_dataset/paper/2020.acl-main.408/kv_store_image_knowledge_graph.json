@@ -1,0 +1,303 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a composite of four sections, each illustrating different datasets included in the ERASER benchmark. The first section is labeled 'Movie Reviews' and contains a positive review snippet: 'In this movie, ... Plots to take over the world. The acting is great! The soundtrack is run-of-the-mill, but the action more than makes up for it.' Below this snippet are two options: (a) Positive and (b) Negative. The second section is labeled 'e-SNLI' and shows a hypothesis (H): 'A man in an orange vest leans over a pickup truck,' and a premise (P): 'A man is touching a truck.' Below these statements are three options: (a) Entailment, (b) Contradiction, and (c) Neutral. The third section is labeled 'Commonsense Explanations (CoS-E)' and poses the question: 'Where do you find the most amount of leafs?' with five options: (a) Compost pile, (b) Flowers, (c) Forest, (d) Field, and (e) Ground. The fourth section is labeled 'Evidence Inference' and includes an article snippet about a clinical trial comparing saline with furosemide. A prompt asks about the reported difference between patients receiving placebo and those receiving furosemide, with three options: (a) Sig. decreased, (b) No sig. difference, and (c) Sig. increased."
+        },
+        {
+            "entity_name": "MOVIE REVIEWS",
+            "entity_type": "EVENT",
+            "description": "A section detailing reviews for a movie, including positive and negative aspects such as acting, soundtrack, and plot."
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "EVENT",
+            "description": "An event showing a natural language inference example with a hypothesis and premise about a man in an orange vest and a pickup truck."
+        },
+        {
+            "entity_name": "COMMONSENSE EXPLANATIONS (COS-E)",
+            "entity_type": "EVENT",
+            "description": "An event presenting a question about where to find the most amount of leaves, with multiple-choice answers."
+        },
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "EVENT",
+            "description": "An event involving a medical article and a prompt asking about the effect of furosemide on breathlessness during exercise compared to a placebo."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Overview of datasets in the ERASER benchmark.' The table is structured with four main columns: Name, Size (train/dev/test), Tokens, and Comp?. Each row represents a different dataset. The 'Name' column lists the names of the datasets: Evidence Inference, BoolQ, Movie Reviews, FEVER, MultiRC, CoS-E, and e-SNLI. The 'Size (train/dev/test)' column provides the number of instances for each split of the dataset. For example, Evidence Inference has 7958 train, 972 dev, and 959 test instances. The 'Tokens' column shows the average number of tokens in each document. For instance, Evidence Inference has an average of 4761 tokens. The 'Comp?' column indicates whether comprehensive rationales are available for the dataset, marked with symbols such as $\\diamond$, $\\bullet$, or a checkmark. For example, Evidence Inference and BoolQ have $\\diamond$ symbols, indicating that comprehensive rationales are collected for either a subset or all of the test datasets."
+        },
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "EVENT",
+            "description": "A dataset with 7958 training, 972 development, and 959 test samples. It contains 4761 tokens."
+        },
+        {
+            "entity_name": "BOOLQ",
+            "entity_type": "EVENT",
+            "description": "A dataset with 6363 training, 1491 development, and 2817 test samples. It contains 3583 tokens."
+        },
+        {
+            "entity_name": "MOVIE REVIEWS",
+            "entity_type": "EVENT",
+            "description": "A dataset with 1600 training, 200 development, and 200 test samples. It contains 774 tokens."
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "EVENT",
+            "description": "A dataset with 97957 training, 6122 development, and 6111 test samples. It contains 327 tokens."
+        },
+        {
+            "entity_name": "MULTIRC",
+            "entity_type": "EVENT",
+            "description": "A dataset with 24029 training, 3214 development, and 4848 test samples. It contains 303 tokens."
+        },
+        {
+            "entity_name": "COS-E",
+            "entity_type": "EVENT",
+            "description": "A dataset with 8733 training, 1092 development, and 1092 test samples. It contains 28 tokens."
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "EVENT",
+            "description": "A dataset with 911938 training, 16449 development, and 16429 test samples. It contains 16 tokens."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "DATASET",
+            "entity_type": "ORGANIZATION",
+            "description": "A collection of data used for various tasks such as evidence inference, Boolean questions (BoolQ), movie reviews, FEVER, MultiRC, CoS-E, and e-SNLI."
+        },
+        {
+            "entity_name": "COHEN Κ",
+            "entity_type": "EVENT",
+            "description": "A statistical measure of inter-annotator agreement."
+        },
+        {
+            "entity_name": "F1",
+            "entity_type": "EVENT",
+            "description": "A measure of a test's accuracy, considering both the precision and the recall of the test to compute the score."
+        },
+        {
+            "entity_name": "P",
+            "entity_type": "EVENT",
+            "description": "Precision, which is the ratio of correctly identified positive observations to the total predicted positives."
+        },
+        {
+            "entity_name": "R",
+            "entity_type": "EVENT",
+            "description": "Recall, which measures the proportion of actual positives that are correctly identified."
+        },
+        {
+            "entity_name": "#ANNOTATORS/DOC",
+            "entity_type": "EVENT",
+            "description": "The number of annotators per document in the dataset."
+        },
+        {
+            "entity_name": "#DOCUMENTS",
+            "entity_type": "EVENT",
+            "description": "The total number of documents in the dataset."
+        },
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_3 is a table labeled \"Table 2: Human agreement with respect to rationales.\" It provides statistical information about the agreement of annotators on various datasets. The table includes columns such as Dataset, Cohen κ (with standard deviation), F1 (with standard deviation), P (Precision with standard deviation), R (Recall with standard deviation), #Annotators/doc, and #Documents. The datasets represented in the table are Evidence Inference, BoolQ, Movie Reviews, FEVER, MultiRC, CoS-E, and e-SNLI. For Evidence Inference, all values are marked with a dash (-) indicating no data or not applicable. BoolQ has Cohen κ: 0.618 ± 0.194, F1: 0.617 ± 0.227, P: 0.647 ± 0.260, R: 0.726 ± 0.217, with 3 annotators per document and 199 documents. Movie Reviews has Cohen κ: 0.712 ± 0.135, F1: 0.799 ± 0.138, P: 0.693 ± 0.153, R: 0.989 ± 0.102, with 2 annotators per document and 96 documents. FEVER has Cohen κ: 0.854 ± 0.196, F1: 0.871 ± 0.197, P: 0.931 ± 0.205, R: 0.855 ± 0.198, with 2 annotators per document and 24 documents. MultiRC has Cohen κ: 0.728 ± 0.268, F1: 0.749 ± 0.265, P: 0.695 ± 0.284, R: 0.910 ± 0.259, with 2 annotators per document and 99 documents. CoS-E has Cohen κ: 0.619 ± 0.308, F1: 0.654 ± 0.317, P: 0.626 ± 0.319, R: 0.792 ± 0.371, with 2 annotators per document and 100 documents. e-SNLI has Cohen κ: 0.743 ± 0.162, F1: 0.799 ± 0"
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a figure illustrating faithfulness scoring metrics, specifically comprehensiveness and sufficiency, on the Commonsense Explanations (CoS-E) dataset. The figure consists of three main panels, each depicting a bar chart with five categories: (a) Compost pile, (b) Flowers, (c) Forest, (d) Field, and (e) Ground. Each panel has a corresponding neural network diagram below it, indicating the process of feature extraction and prediction.\\n\\n- **Left Panel**: This panel shows the predicted probability distribution for the class 'Forest' given the input \\( x_i \\). The bars represent the probabilities for each category, with the highest probability (red bar) for 'Forest'. Below this panel is a neural network diagram showing the input features being processed to generate the prediction.\\n\\n- **Middle Panel**: This panel illustrates the concept of comprehensiveness. It shows the predicted probability distribution after erasing the tokens comprising the provided rationale \\( \\\\tilde{x}_i \\). The red bar for 'Forest' is lower compared to the left panel, indicating a decrease in model confidence. The neural network diagram below highlights the removal of certain features, leading to a different prediction.\\n\\n- **Right Panel**: This panel demonstrates the concept of sufficiency. It shows the predicted probability distribution using only the rationales \\( r_i \\). The red bar for 'Forest' remains high, suggesting that the model can still make a similar prediction using only the rationales. The neural network diagram below emphasizes the use of selected features for prediction.\\n\\nEach panel includes a question at the bottom: 'Where do you find the most amount of leafs?', which is used to contextualize the predictions. The overall figure aims to evaluate how well the model's predictions align with the provided rationales and whether the rationales are sufficient for the model to maintain its confidence in the prediction."
+        },
+        {
+            "entity_name": "FOREST",
+            "entity_type": "GEO",
+            "description": "A category in the bar chart representing a natural environment with trees and plants, indicated by the red bar."
+        },
+        {
+            "entity_name": "FLOWERS",
+            "entity_type": "GEO",
+            "description": "A category in the bar chart representing flowering plants, indicated by the blue bars."
+        },
+        {
+            "entity_name": "FIELD",
+            "entity_type": "GEO",
+            "description": "A category in the bar chart representing an open area of land, indicated by the blue bars."
+        },
+        {
+            "entity_name": "GROUND",
+            "entity_type": "GEO",
+            "description": "A category in the bar chart representing the surface of the earth, indicated by the blue bars."
+        },
+        {
+            "entity_name": "COMPOST PILE",
+            "entity_type": "OBJECT",
+            "description": "A category in the bar chart representing decomposing organic matter, indicated by the blue bars."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Metrics for ‘soft’ scoring models.' The table is structured with rows representing different datasets and columns representing performance metrics. The datasets include Evidence Inference, BoolQ, Movie Reviews, FEVER, MultiRC, CoS-E, and e-SNLI. Each dataset has corresponding values for Perf., IOU F1, and Token F1. For example, Lei et al. (2016) for Evidence Inference has a Perf. of 0.461, IOU F1 of 0.000, and Token F1 of 0.000. Bert-To-Bert for the same dataset has a Perf. of 0.708, IOU F1 of 0.455, and Token F1 of 0.468. The table provides detailed numerical values for each metric across all datasets, highlighting the performance of different models."
+        },
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), Lehman et al. (2019), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "BOOLQ",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), Lehman et al. (2019), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "MOVIE REVIEWS",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), Lehman et al. (2019), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), Lehman et al. (2019), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "MULTIRC",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), Lehman et al. (2019), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "COS-E",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "EVENT",
+            "description": "A task involving Lei et al. (2016), Lei et al. (2016) (u), and Bert-To-Bert with performance metrics including Perf., IOU F1, and Token F1."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Metrics for ‘soft’ scoring models.' The table is structured with the following columns: Perf., AUPRC, Comp. ↑, and Suff. ↓. Each row represents different models and their respective metrics. The rows are categorized under different datasets: Evidence Inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI. For each dataset, four models are listed: GloVe + LSTM - Attention, GloVe + LSTM - Gradient, GloVe + LSTM - Lime, and GloVe + LSTM - Random. The values in the Perf. column represent accuracy (CoS-E) or F1 (others). The AUPRC column shows the Area Under the Precision-Recall Curve. The Comp. ↑ and Suff. ↓ columns are in terms of AOPC (Eq. 3). The 'Random' model assigns random scores to tokens to induce orderings; these are averages over 10 runs. The table provides detailed numerical values for each metric across the different models and datasets. For example, for the Evidence Inference dataset, the GloVe + LSTM - Attention model has a Perf. of 0.429, AUPRC of 0.506, Comp. ↑ of -0.002, and Suff. ↓ of -0.023. Similarly, for the BoolQ dataset, the same model has a Perf. of 0.471, AUPRC of 0.525, Comp. ↑ of 0.010, and Suff. ↓ of 0.022. The table highlights the performance and evaluation metrics of various models across different datasets."
+        },
+        {
+            "entity_name": "GLOVE + LSTM - ATTENTION",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines GloVe embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "GLOVE + LSTM - GRADIENT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines GloVe embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "GLOVE + LSTM - LIME",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines GloVe embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "GLOVE + LSTM - RANDOM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines GloVe embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "BERT+LSTM - ATTENTION",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines BERT embeddings with an LSTM network and uses attention mechanisms for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "BERT+LSTM - GRADIENT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines BERT embeddings with an LSTM network and uses gradient-based methods for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "BERT+LSTM - LIME",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines BERT embeddings with an LSTM network and uses LIME (Local Interpretable Model-agnostic Explanations) for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        },
+        {
+            "entity_name": "BERT+LSTM - RANDOM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration that combines BERT embeddings with an LSTM network and uses random selection for evidence inference, BoolQ, Movies, FEVER, MultiRC, CoS-E, and e-SNLI tasks."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Detailed breakdowns for each dataset' that provides statistics for various datasets across train, validation, and test splits. The table is structured with the following columns: Dataset, Documents, Instances, Rationale %, Evidence Statements, and Evidence Lengths. Each row represents a different dataset and its respective statistics. For example, the MultiRC dataset has 400 documents and 24029 instances in the train split, with a rationale percentage of 17.4% and 56298 evidence statements. The Evidence Inference dataset has 1924 documents and 7958 instances in the train split, with a rationale percentage of 1.34% and 10371 evidence statements. The Movie Reviews dataset has 1599 documents and 1600 instances in the train split, with a rationale percentage of 9.35% and 13878 evidence statements. The FEVER dataset has 2915 documents and 97957 instances in the train split, with a rationale percentage of 20.0% and 146856 evidence statements. The BoolQ dataset has 4518 documents and 6363 instances in the train split, with a rationale percentage of 6.64% and 6363.0 evidence statements. The e-SNLI dataset has 911938 documents and 549309 instances in the train split, with a rationale percentage of 27.3% and 1199035.0 evidence statements. The CoS-E dataset has 8733 documents and 8733 instances in the train split, with a rationale percentage of 26.6% and 8733 evidence statements. The table highlights the detailed statistics for each dataset, including the number of documents, instances, rationale percentages, evidence statements, and evidence lengths."
+        },
+        {
+            "entity_name": "MULTIRC",
+            "entity_type": "DATASET",
+            "description": "A dataset with 400 train documents, 56 validation documents, and 83 test documents. The train set has 24029 instances, the validation set has 3214 instances, and the test set has 4848 instances. The rationale percentage is 17.4% for the train set and 18.5% for the validation set."
+        },
+        {
+            "entity_name": "EVIDENCE INFERENCE",
+            "entity_type": "DATASET",
+            "description": "A dataset with 1924 train documents, 247 validation documents, and 240 test documents. The train set has 7958 instances, the validation set has 972 instances, and the test set has 959 instances. The rationale percentage is 1.34% for the train set and 1.38% for the validation set."
+        },
+        {
+            "entity_name": "EXHAUSTIVE EVIDENCE INFERENCE",
+            "entity_type": "DATASET",
+            "description": "A dataset with 81 validation documents and 106 test documents. The validation set has 101 instances and the test set has 152 instances. The rationale percentage is 4.47% for the validation set."
+        },
+        {
+            "entity_name": "MOVIE REVIEWS",
+            "entity_type": "DATASET",
+            "description": "A dataset with 1599 train documents, 150 validation documents, and 200 test documents. The train set has 1600 instances, the validation set has 150 instances, and the test set has 200 instances. The rationale percentage is 9.35% for the train set and 7.45% for the validation set."
+        },
+        {
+            "entity_name": "EXHAUSTIVE MOVIE REVIEWS",
+            "entity_type": "DATASET",
+            "description": "A dataset with 50 validation documents. The validation set has 50 instances. The rationale percentage is 19.10% for the validation set."
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "DATASET",
+            "description": "A dataset with 2915 train documents, 570 validation documents, and 614 test documents. The train set has 97957 instances, the validation set has 6122 instances, and the test set has 6111 instances. The rationale percentage is 20.0% for the train set and 21.6% for the validation set."
+        },
+        {
+            "entity_name": "BOOLQ",
+            "entity_type": "DATASET",
+            "description": "A dataset with 4518 train documents, 1092 validation documents, and 2294 test documents. The train set has 6363 instances, the validation set has 1491 instances, and the test set has 2817 instances. The rationale percentage is 6.64% for the train set and 7.13% for the validation set."
+        },
+        {
+            "entity_name": "E-SNLI",
+            "entity_type": "DATASET",
+            "description": "A dataset with 911938 train documents, 16328 validation documents, and 16299 test documents. The train set has 549309 instances, the validation set has 9823 instances, and the test set has 9807 instances. The rationale percentage is 27.3% for the train set and 25.6% for the validation set."
+        },
+        {
+            "entity_name": "COS-E",
+            "entity_type": "DATASET",
+            "description": "A dataset with 8733 train documents, 1092 validation documents, and 1092 test documents. The train set has 8733 instances, the validation set has 1092 instances, and the test set has 1092 instances. The rationale percentage is 26.6% for the train set and 27.1% for the validation set."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that provides general dataset statistics for various datasets. The table has six columns: Dataset, Labels, Instances, Documents, Sentences, and Tokens. The rows represent different datasets. The 'Evidence Inference' dataset has 3 labels, 9889 instances, 2411 documents, an average of 156.0 sentences per document, and 4760.6 tokens per document. The 'BoolQ' dataset has 2 labels, 10661 instances, 7026 documents, an average of 175.3 sentences per document, and 3582.5 tokens per document. The 'Movie Reviews' dataset has 2 labels, 2000 instances, 1999 documents, an average of 36.8 sentences per document, and 774.1 tokens per document. The 'FEVER' dataset has 2 labels, 110190 instances, 4099 documents, an average of 12.1 sentences per document, and 326.5 tokens per document. The 'MultiRC' dataset has 2 labels, 32091 instances, 539 documents, an average of 14.9 sentences per document, and 302.5 tokens per document. The 'CoS-E' dataset has 5 labels, 10917 instances, 10917 documents, an average of 1.0 sentence per document, and 27.6 tokens per document. The 'e-SNLI' dataset has 3 labels, 568939 instances, 944565 documents, an average of 1.7 sentences per document, and 16.0 tokens per document."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying statistics for various datasets including 'Evidence Inference', 'BoolQ', 'Movie Reviews', 'FEVER', 'MultiRC', 'CoS-E', and 'e-SNLI'. The table includes columns for 'Dataset', 'Labels', 'Instances', 'Documents', 'Sentences', and 'Tokens' with corresponding numerical values."
+        },
+        {
+            "entity_name": "DATASETS",
+            "entity_type": "UNKNOWN",
+            "description": "The table contains information about multiple datasets, listing their names and associated statistics such as the number of labels, instances, documents, sentences, and tokens."
+        }
+    ]
+}

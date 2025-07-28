@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that documents a dialogue interaction between a user and a system, focusing on the booking of a train from Ely to Cambridge and subsequently finding a place to stay. The table is structured into multiple turns, each representing a step in the dialogue. Each turn includes the user's query, the ground truths, and the predictions made by two models: DS-Span and DS-DST. The ground truths and predictions are represented as triplets indicating the type of information (e.g., train, hotel), the specific attribute (e.g., destination, stars), and the value (e.g., cambridge, 4). For example, in Turn 1, the user asks about trains from Ely to Cambridge, and both models correctly predict the departure and destination. In subsequent turns, the dialogue progresses with the user specifying more details such as the desired arrival time, day of travel, and the need for a 4-star hotel. Notably, in Turn 6, DS-Span incorrectly predicts the hotel internet as 'no' instead of 'yes', which is indicated by the ground truth and DS-DST. The table highlights the accuracy and discrepancies in the predictions made by the models compared to the ground truths."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;TRAIN&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A train service from Ely to Cambridge with 70 available trains."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;ELY&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The departure location for the train service."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;CAMBRIDGE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The destination location for the train service."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;SUNDAY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The day of the week on which the user wishes to travel, specifically for departing and arriving by 11:30 AM."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;11:30 AM&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The specific time by which the user wishes to arrive in Cambridge."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;TR4212&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A specific train number that arrives at 9:52 AM."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;GUESTHOUSE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An accommodation type the user is interested in, specifically a 4-star guesthouse in the east area with free WiFi for 4 people for 5 nights starting on Sunday."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;ALLENBELL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The name of the guesthouse where the reservation has been confirmed for 5 nights starting on Sunday."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<node id="&quot;SLIVABU&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"The reference number for the confirmed reservation at Allenbell guesthouse."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;TRAIN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ELY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ely是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CAMBRIDGE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cambridge是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SUNDAY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sunday是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;11:30 AM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"11:30 AM是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;TR4212&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"TR4212是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;GUESTHOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Guesthouse是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;ALLENBELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Allenbell是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SLIVABU&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SLIVABU是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;ELY&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The train departs from Ely."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;CAMBRIDGE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The train arrives at Cambridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;SUNDAY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train travels on a Sunday."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;11:30 AM&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train arrives by 11:30 AM."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN&quot;" target="&quot;TR4212&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"TR4212 is a specific train number that meets the user's requirements."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CAMBRIDGE&quot;" target="&quot;GUESTHOUSE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The guesthouse is located in Cambridge."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SUNDAY&quot;" target="&quot;GUESTHOUSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The guesthouse reservation starts on a Sunday."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GUESTHOUSE&quot;" target="&quot;ALLENBELL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Allenbell is the name of the guesthouse where the reservation was made."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALLENBELL&quot;" target="&quot;SLIVABU&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"SLIVABU is the reference number for the reservation at Allenbell."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

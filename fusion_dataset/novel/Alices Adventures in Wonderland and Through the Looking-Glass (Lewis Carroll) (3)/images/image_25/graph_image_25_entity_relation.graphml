@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_25_TV-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Not visible due to the black and white nature of the image- Hairstyle: Not visible due to the hat covering the head- Clothing: Wearing a dark-colored hat with a wide brim, a dark coat with a high collar, and a patterned scarf or cravat around the neck- Posture: Standing upright, facing slightly to the left- Accessories: Holding a pair of binoculars in front of his face, which are dark in color and appear to be of a vintage styleOverall, the character gives off an air of mystery and intrigue, possibly suggesting a theme of espionage or adventure."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;IMAGE_25_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Long, wavy hair that falls past the shoulders- Clothing: Wearing a long, flowing robe with wide sleeves; a pointed hat on the head, which is characteristic of a wizard or sorcerer; black boots with a distinctive design- Posture: Sitting cross-legged on a stone bench or similar structure, with one hand resting on the knee and the other holding a small object, possibly a wand or a piece of food- Accessories: A belt around the waist, from which hangs a pouch or bagOverall, the character appears to be a wizard or sorcerer from a fantasy setting, given the traditional attire and posture."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;IMAGE_25&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a scene inside a train carriage. On the left, there is a man wearing a conical hat and a white outfit, who appears to be reading a newspaper. Next to him, there is a goat sitting upright on the seat. Opposite them, on the right side of the carriage, sits a young girl with long hair, dressed in a Victorian-style dress and hat, looking out of the window with a curious expression. Outside the window, a guard is seen through a telescope, binoculars, and an opera glass, peering into the carriage. The guard is wearing a tall hat and a coat. The background shows the interior of the train carriage with windows and curtains. The overall atmosphere is whimsical and surreal, capturing a moment of curiosity and observation among the characters."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and a hat, sitting on a bench in a train compartment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;MAN WITH NEWSPAPER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older man wearing a conical hat, reading a newspaper and sitting opposite Alice in the train compartment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;CONDUCTOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man in a uniform looking through a telescope from outside the train window."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<node id="&quot;TRAIN COMPARTMENT&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The interior of a train car with benches and windows."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+</node>
+<edge source="&quot;IMAGE_25_TV-1.JPG&quot;" target="&quot;CONDUCTOR&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_25_tv-1.jpg is a picture of the conductor."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25_TV-1.JPG&quot;" target="&quot;IMAGE_25&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_25_tv-1.jpg是image_25的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25_PERSON-0.JPG&quot;" target="&quot;MAN WITH NEWSPAPER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_25_person-0.jpg is a picture of the man with the newspaper."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25_PERSON-0.JPG&quot;" target="&quot;IMAGE_25&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_25_person-0.jpg是image_25的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;MAN WITH NEWSPAPER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man with Newspaper是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;CONDUCTOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Conductor是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_25&quot;" target="&quot;TRAIN COMPARTMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Train Compartment是从image_25中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;MAN WITH NEWSPAPER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Alice is sitting opposite the man who is reading a newspaper."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;TRAIN COMPARTMENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is inside the train compartment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN WITH NEWSPAPER&quot;" target="&quot;TRAIN COMPARTMENT&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is inside the train compartment, sitting on a bench."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONDUCTOR&quot;" target="&quot;TRAIN COMPARTMENT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The conductor is outside the train compartment, looking through a telescope."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (3)/images/image_25.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

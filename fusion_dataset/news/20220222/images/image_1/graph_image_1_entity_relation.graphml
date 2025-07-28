@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Skin Color: Fair with visible signs of aging, such as wrinkles and age spots- Hairstyle: Not visible, covered by a headscarf- Headscarf: Red with a pattern, tied under the chin- Clothing: Wearing a large, oversized brown coat that appears to be made of a heavy fabric, suitable for cold weather; the coat has a high collar and is buttoned up- Posture: Sitting with hands resting on the lap, elbows slightly bent, and shoulders hunched forward- Expression: Neutral, with a slight frown, giving an impression of contemplation or sadness- Age: Appears to be an elderly womanOverall, the character gives off an impression of resilience and endurance, possibly reflecting a life of hard work and experience."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts an elderly woman taking shelter in a basement in eastern Ukraine. She is wearing a brown jacket and a red headscarf, sitting on a wooden bench. The background shows a dimly lit underground space with graffiti on the ceiling and walls, and some debris scattered on the ground. The atmosphere conveys a sense of tension and urgency, reflecting the ongoing conflict in the region."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An elderly woman wearing a red headscarf and a brown coat, sitting in an underground shelter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<node id="&quot;UNDERGROUND SHELTER&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A dimly lit underground shelter with graffiti on the walls and a bench."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<node id="&quot;GRAFFITI&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various writings and drawings on the ceiling of the underground shelter."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<node id="&quot;BENCH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden bench where the woman is seated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_PERSON-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_person-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;UNDERGROUND SHELTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Underground Shelter是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;GRAFFITI&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Graffiti是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BENCH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bench是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;UNDERGROUND SHELTER&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is seated inside the underground shelter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;GRAFFITI&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is surrounded by graffiti on the walls of the shelter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BENCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is seated on the bench."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UNDERGROUND SHELTER&quot;" target="&quot;GRAFFITI&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The graffiti is on the walls of the underground shelter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;UNDERGROUND SHELTER&quot;" target="&quot;BENCH&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The bench is located inside the underground shelter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220222/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

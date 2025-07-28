@@ -1,0 +1,365 @@
+{
+    "chunk-8d6c836f0365aa5d8c1bc2d7a0625a8e": [
+        {
+            "entity_name": "ERASER Benchmark",
+            "entity_type": "Event",
+            "description": "ERASER Benchmark, also known as Evaluating Rationales And Simple English Reasoning, is a proposed benchmark to advance research on interpretable models in NLP. It comprises multiple datasets and tasks with human annotations of 'rationales', aiming to measure different properties of 'interpretability' and 'faithfulness'. The benchmark, code, and documentation are available at https://www.eraserbenchmark.com/.",
+            "source_entities": [
+                "ERASER BENCHMARK",
+                "RATIONALES",
+                "HUMAN ANNOTATIONS",
+                "FAITHFULNESS"
+            ]
+        },
+        {
+            "entity_name": "Salesforce Research",
+            "entity_type": "Organization",
+            "description": "Salesforce Research, located in Palo Alto, CA, 94301, is one of the institutions where some of the contributors to the ERASER benchmark are affiliated. It is a research organization that has been involved in the development and support of the ERASER benchmark.",
+            "source_entities": [
+                "SALESFORCE RESEARCH, PALO ALTO, CA, 94301",
+                "PALO ALTO",
+                "CA",
+                "94301"
+            ]
+        },
+        {
+            "entity_name": "Interpretability",
+            "entity_type": "Concept",
+            "description": "Interpretability refers to the ability of a model to explain its predictions, a key focus in the ERASER benchmark. It is a broad topic with many possible realizations and is central to the evaluation of models providing rationales for their outputs.",
+            "source_entities": [
+                "INTERPRETABILITY",
+                "DOSHI-VELEZ AND KIM",
+                "LIPTON"
+            ]
+        },
+        {
+            "entity_name": "GLUE Benchmark",
+            "entity_type": "Event",
+            "description": "GLUE Benchmark, referenced in the ERASER paper, is a previous benchmark for evaluating progress in natural language understanding tasks. It has been influential in driving rapid progress on models for general language representation learning.",
+            "source_entities": [
+                "GLUE BENCHMARK",
+                "WANG ET AL., 2019B"
+            ]
+        },
+        {
+            "entity_name": "SuperGLUE Benchmark",
+            "entity_type": "Event",
+            "description": "SuperGLUE Benchmark, referenced in the ERASER paper, is a previous benchmark for evaluating progress in natural language understanding tasks. It is a follow-up to the GLUE benchmark and has also been influential in the field.",
+            "source_entities": [
+                "SUPERGLUE BENCHMARK",
+                "WANG ET AL., 2019A"
+            ]
+        }
+    ],
+    "chunk-6edd668ab41dff86e7f7e7b4d0dfc805": [
+        {
+            "entity_name": "Attention Mechanisms",
+            "entity_type": "CONCEPT",
+            "description": "Attention mechanisms are a technique used in neural models to assign soft weights to token representations for extracting rationales. They have been studied for their role in providing explanations for model predictions, but have limitations as they do not always provide faithful explanations due to the entanglement of inputs.",
+            "source_entities": [
+                "ATTENTION MECHANISMS",
+                "HARD ATTENTION MECHANISMS"
+            ]
+        },
+        {
+            "entity_name": "Token-level Supervision",
+            "entity_type": "CONCEPT",
+            "description": "Token-level supervision refers to the use of instance-level supervision for training models to explain or rationalize predictions. It is a method that does not always require direct human-marked rationales and can be used to develop methods that explain model predictions using only instance-level supervision.",
+            "source_entities": [
+                "TOKEN-LEVEL SUPERVISION"
+            ]
+        },
+        {
+            "entity_name": "Rationales",
+            "entity_type": "CONCEPT",
+            "description": "Rationales are explanations provided for model predictions, often marked by humans during training. They are important in the context of ERASER and related work, as they are used to improve model interpretability and performance in text classification tasks.",
+            "source_entities": [
+                "RATIONALES"
+            ]
+        },
+        {
+            "entity_name": "Text Classification",
+            "entity_type": "CONCEPT",
+            "description": "Text classification is a task where models categorize text into different classes, often using rationales to improve performance. It is a relevant area in NLP where the application of attention mechanisms and rationales is studied for enhancing model interpretability and accuracy.",
+            "source_entities": [
+                "TEXT CLASSIFICATION"
+            ]
+        }
+    ],
+    "chunk-20e92f18c134263325b7748451674989": [
+        {
+            "entity_name": "Rajani et al. (Radford et al.)",
+            "entity_type": "PERSON",
+            "description": "Researchers who fine-tuned a Transformer-based language model originally associated with Radford et al., focusing on free-text rationales provided by humans to improve performance on downstream tasks.",
+            "source_entities": [
+                "RAJANI ET AL.",
+                "RADFORD ET AL."
+            ]
+        },
+        {
+            "entity_name": "ERASER",
+            "entity_type": "ORGANIZATION",
+            "description": "An organization that distributes reference labels and rationales marked by humans in a standardized format for various datasets, ensuring disjoint sets of source documents for train, validation, and test splits to avoid contamination.",
+            "source_entities": [
+                "ERASER"
+            ]
+        },
+        {
+            "entity_name": "Movie Reviews",
+            "entity_type": "DATASET",
+            "description": "A dataset that includes positive/negative sentiment labels on movie reviews, with comprehensive rationales collected on the final two folds of the original dataset by Zaidan and Eisner, based on the work of Pang and Lee.",
+            "source_entities": [
+                "MOVIE REVIEWS",
+                "ZAIDAN AND EISNER",
+                "PANG AND LEE"
+            ]
+        },
+        {
+            "entity_name": "FEVER",
+            "entity_type": "DATASET",
+            "description": "The FEVER dataset, short for Fact Extraction and VERification, focuses on verifying claims from textual sources and classifying them as supported, refuted, or with not enough information, created by Thorne et al.",
+            "source_entities": [
+                "FEVER",
+                "THORNE ET AL."
+            ]
+        },
+        {
+            "entity_name": "MultiRC",
+            "entity_type": "DATASET",
+            "description": "A reading comprehension dataset composed of questions with multiple correct answers that depend on information from multiple sentences, created by Khashabi et al.",
+            "source_entities": [
+                "MULTIRC",
+                "KHASHABI ET AL."
+            ]
+        },
+        {
+            "entity_name": "Commonsense Explanations (CoS-E)",
+            "entity_type": "DATASET",
+            "description": "The Commonsense Explanations (CoS-E) corpus, which includes multiple-choice questions and answers with supporting rationales, created by Talmor et al., focusing on extractive rationales.",
+            "source_entities": [
+                "COMMONSENSE EXPLANATIONS (COS-E)",
+                "TALMOR ET AL."
+            ]
+        },
+        {
+            "entity_name": "e-SNLI",
+            "entity_type": "DATASET",
+            "description": "The e-SNLI dataset, which augments the SNLI corpus with rationales marked in the premise and/or hypothesis, created by Camburu et al.",
+            "source_entities": [
+                "E-SNLI"
+            ]
+        },
+        {
+            "entity_name": "Human Rationales",
+            "entity_type": "CONCEPT",
+            "description": "Explanations provided by humans used to fine-tune the Transformer-based language model, often evaluated against human judgments or through visual evaluations of saliency maps.",
+            "source_entities": [
+                "HUMAN RATIONALES",
+                "RATIONALITIES"
+            ]
+        },
+        {
+            "entity_name": "Faithful Rationales",
+            "entity_type": "CONCEPT",
+            "description": "Rationales that correspond to the inputs most relied upon by a model to make a prediction, evaluated through methods measuring the impact of perturbations or erasing important words or tokens on model output.",
+            "source_entities": [
+                "FAITHFUL RATIONALES",
+                "PERTURBATION"
+            ]
+        },
+        {
+            "entity_name": "Evidence Inference",
+            "entity_type": "CONCEPT",
+            "description": "The task of determining whether a given intervention significantly affects a specified outcome based on full-text articles describing randomized controlled trials, with exhaustive rationale annotations collected on a subset of the validation and test data.",
+            "source_entities": [
+                "EVIDENCE INFERENCE",
+                "RANDOMIZED CONTROLLED TRIALS (RCTS)",
+                "COMPREHENSIVE RATIONALE ANNOTATIONS"
+            ]
+        }
+    ],
+    "chunk-e34d27aa833558c38111606bd47ec2b7": [
+        {
+            "entity_name": "e-SNLI",
+            "entity_type": "Event",
+            "description": "e-SNLI is an augmentation of the SNLI corpus with rationales marked in the premise and/or hypothesis, created by Camburu et al. It is used for natural language inference tasks and to evaluate the quality of extracted rationales.",
+            "source_entities": [
+                "\"E-SNLI\"",
+                "\"SNLI CORPUS\"",
+                "\"CAMBURU ET AL.\""
+            ]
+        },
+        {
+            "entity_name": "ERASER",
+            "entity_type": "Organization",
+            "description": "ERASER is a project responsible for evaluating models and their rationales in the context of NLP. It proposes metrics to evaluate the quality of extracted rationales and measures human agreement over extracted rationales using Cohen's kappa statistic.",
+            "source_entities": [
+                "\"ERASER\"",
+                "\"ERASER MODELS\""
+            ]
+        },
+        {
+            "entity_name": "Cohen's Kappa",
+            "entity_type": "Concept",
+            "description": "Cohen's kappa is a statistical measure of inter-annotator agreement, used to measure human agreement over extracted rationales in various datasets.",
+            "source_entities": [
+                "\"COHEN\"",
+                "\"COHEN $\\KAPPA$\""
+            ]
+        },
+        {
+            "entity_name": "Metrics for Rationale Evaluation",
+            "entity_type": "Concept",
+            "description": "Metrics for evaluating the quality of extracted rationales include Intersection-Over-Union (IOU), F1 score based on partial matches, and Area Under the Precision-Recall curve (AUPRC) for continuous or soft token scoring models.",
+            "source_entities": [
+                "\"IOU\"",
+                "\"F1 SCORE\"",
+                "\"AUPRC\""
+            ]
+        },
+        {
+            "entity_name": "Contrast Examples",
+            "entity_type": "Concept",
+            "description": "Contrast examples are used to calculate rationale comprehensiveness by comparing model predictions with and without rationales, following the work of Zaidan et al.",
+            "source_entities": [
+                "\"CONTRAST EXAMPLES\"",
+                "\"ZAIDAN ET AL.\""
+            ]
+        },
+        {
+            "entity_name": "Yu et al.",
+            "entity_type": "Person",
+            "description": "Yu et al. are referenced in the context of defining metrics to measure the comprehensiveness and sufficiency of rationales.",
+            "source_entities": [
+                "\"YU ET AL.\""
+            ]
+        }
+    ],
+    "chunk-1a6008f8664dc874a3e62b39184c58af": null,
+    "chunk-a69e074dfaffbb851a506d0d912d71ad": null,
+    "chunk-87bbde1b588a6f745bb6ac4323c2ee43": [
+        {
+            "entity_name": "ERASER",
+            "entity_type": "ORGANIZATION",
+            "description": "ERASER, also known as Evaluating Rationales And Simple English Reasoning benchmark, is a publicly available resource introduced for evaluating rationales and simple English reasoning in NLP models. It comprises seven datasets with instance level labels and corresponding supporting snippets marked by human annotators, aiming to facilitate progress on explainable models for NLP.",
+            "source_entities": [
+                "\"ERASER\"",
+                "\"ERASER BENCHMARK\""
+            ]
+        },
+        {
+            "entity_name": "Lei et al. (2016)",
+            "entity_type": "ORGANIZATION",
+            "description": "Lei et al. (2016) is referenced for their 'rationalizing' model which outperforms other models when using a BERT encoder. Their work is also mentioned in the context of prior work where exploiting rationale-level supervision improves agreement with human-provided rationales.",
+            "source_entities": [
+                "\"LEI ET AL. (2016)\""
+            ]
+        },
+        {
+            "entity_name": "LIME",
+            "entity_type": "ORGANIZATION",
+            "description": "LIME is referenced for its method of scoring which yields more comprehensive rationales than attention weights, according to the text.",
+            "source_entities": [
+                "\"LIME\""
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "TECHNOLOGY",
+            "description": "BERT is a technology used in the BERT-based implementation of Lei et al. (2016), which is discussed in the context of model performance.",
+            "source_entities": [
+                "\"BERT\""
+            ]
+        }
+    ],
+    "chunk-ba017b2e1c23bdeff353c0a4bff67cee": [
+        {
+            "entity_name": "Journal of Machine Learning Research (JMLR)",
+            "entity_type": "ORGANIZATION",
+            "description": "JMLR, or Journal of Machine Learning Research, is an organization that publishes proceedings of machine learning conferences, including the International Conference on Machine Learning.",
+            "source_entities": [
+                "JMLR",
+                "INTERNATIONAL CONFERENCE ON MACHINE LEARNING"
+            ]
+        },
+        {
+            "entity_name": "Association for Computational Linguistics",
+            "entity_type": "ORGANIZATION",
+            "description": "The Association for Computational Linguistics is an organization that hosts conferences on computational linguistics, such as the 2019 Conference of the North American Chapter, and publishes proceedings.",
+            "source_entities": [
+                "ASSOCIATION FOR COMPUTATIONAL LINGUISTICS"
+            ]
+        },
+        {
+            "entity_name": "Advances in Neural Information Processing Systems 32 (Curran Associates, Inc.)",
+            "entity_type": "ORGANIZATION",
+            "description": "Advances in Neural Information Processing Systems 32 is a publication with editors H. Wallach, H. Larochelle, A. Beygelzimer, F. d'Alché-Buc, E. Fox, and R. Garnett, published by Curran Associates, Inc.",
+            "source_entities": [
+                "H. WALLACH",
+                "H. LAROCHELLE",
+                "A. BEYGELZIMER",
+                "F. D'ALCHÉ-BUC",
+                "E. FOX",
+                "R. GARNETT",
+                "CURRAN ASSOCIATES, INC."
+            ]
+        },
+        {
+            "entity_name": "EMNLP-IJCNLP",
+            "entity_type": "EVENT",
+            "description": "EMNLP-IJCNLP, the 9th International Joint Conference on Natural Language Processing, is an event where several papers were presented, held in Hong Kong, China.",
+            "source_entities": [
+                "EMNLP-IJCNLP",
+                "HONG KONG, CHINA"
+            ]
+        },
+        {
+            "entity_name": "Neural Computation",
+            "entity_type": "ORGANIZATION",
+            "description": "Neural Computation is a journal that published papers co-authored by Ronald J Williams and David Zipser on learning algorithms for recurrent neural networks.",
+            "source_entities": [
+                "NEURAL COMPUTATION",
+                "RONALD J WILLIAMS",
+                "DAVID ZIPSER"
+            ]
+        }
+    ],
+    "chunk-92ae10ec56afd21a8da50f6e9109d55a": [
+        {
+            "entity_name": "ERASER",
+            "entity_type": "ORGANIZATION",
+            "description": "ERASER is an organization responsible for tokenizing datasets using the spaCy library and releasing train/validation/test splits. It also involves tokenizing datasets into sentences, with the exception of e-SNLI and CoS-E.",
+            "source_entities": [
+                "ERASER",
+                "ERASER"
+            ]
+        },
+        {
+            "entity_name": "Upwork",
+            "entity_type": "ORGANIZATION",
+            "description": "Upwork is a platform used to hire annotators for the Movies and Evidence Inference datasets.",
+            "source_entities": [
+                "UPWORK PLATFORM",
+                "UPWORK"
+            ]
+        },
+        {
+            "entity_name": "Amazon Mechanical Turk",
+            "entity_type": "ORGANIZATION",
+            "description": "Amazon Mechanical Turk is a platform used to collect reference comprehensive rationales for the BoolQ dataset.",
+            "source_entities": [
+                "AMAZON MECHANICAL TURK",
+                "AMAZON MECHANICAL TURK"
+            ]
+        },
+        {
+            "entity_name": "SciSpacy",
+            "entity_type": "ORGANIZATION",
+            "description": "SciSpacy is a library used for tokenization in Evidence Inference, developed by Neumann et al. in 2019, and is also referred to as SciSpacy.",
+            "source_entities": [
+                "SCISPACY"
+            ]
+        }
+    ],
+    "chunk-df3886ee63d994371857bacc4286e2ac": null
+}

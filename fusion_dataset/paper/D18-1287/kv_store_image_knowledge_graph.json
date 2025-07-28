@@ -1,0 +1,446 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1_SINK-1.JPG",
+            "entity_type": "IMG",
+            "description": "The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Not identifiable from the image alone- Color: Dark, possibly black or dark blue- Shape: Rectangular with a flat surface and sharp edges- Size: Appears to be relatively small, but exact dimensions are not clear due to lack of scale- Material: Likely made of metal or plastic, given the smooth and reflective surface- Possible function: Could be a lid, cover, or part of a larger object, but specific function is not determinable from the image aloneOverall, the object appears to be a simple, dark-colored rectangular item with a smooth surface."
+        },
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two distinct scenes. On the left, there is an outdoor scene featuring a grassy area with a blue fence in the background. In front of the fence, there is a well with a wooden bucket attached to it. To the right of the well, there is a cactus plant. The sky is dark, suggesting it might be nighttime or a stormy day. On the right, there is an indoor kitchen scene with a tiled wall and a countertop. On the countertop, there is a sink with a faucet, a sponge, a dishwashing soap bottle, and a plate with some food on it. Above the sink, there are three cabinets with open doors, and inside one of the cabinets, there is a bottle of wine. The instructions below each scene provide guidance for navigating or performing tasks related to the images."
+        },
+        {
+            "entity_name": "HYDRANT",
+            "entity_type": "OBJECT",
+            "description": "Red fire hydrant located in the grassy area."
+        },
+        {
+            "entity_name": "BLUE FENCE",
+            "entity_type": "GEO",
+            "description": "A blue fence situated behind the hydrant."
+        },
+        {
+            "entity_name": "CACTUS",
+            "entity_type": "PLANT",
+            "description": "Green cactus plant near the blue fence."
+        },
+        {
+            "entity_name": "WELL",
+            "entity_type": "GEO",
+            "description": "Stone well located to the right of the blue fence."
+        },
+        {
+            "entity_name": "SINK",
+            "entity_type": "OBJECT",
+            "description": "Metal sink with a faucet, sponge, and dishwashing soap on the counter."
+        },
+        {
+            "entity_name": "CEREAL",
+            "entity_type": "OBJECT",
+            "description": "Bowl of cereal placed next to the sink."
+        },
+        {
+            "entity_name": "SPONGE",
+            "entity_type": "OBJECT",
+            "description": "Orange sponge resting on the counter."
+        },
+        {
+            "entity_name": "DISHWASHING SOAP",
+            "entity_type": "OBJECT",
+            "description": "Green bottle of dishwashing soap on the counter."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a detailed diagram illustrating the architecture for an instruction-following system, specifically designed to interpret and execute the command 'Turn left and go to the red oil drum.' The diagram is divided into several interconnected components. On the top left, there is a panorama image labeled as ${\\\\bf I}_{P}$, which represents the initial observation of the environment. This image is processed by a CNN (Convolutional Neural Network) to generate a feature map ${\\\\bf F}_{0}$. Below this, there are multiple layers of convolutions that further process the feature map, resulting in a sequence of feature maps ${\\\\bf F}_{1}, {\\\\bf F}_{2}, {\\\\bf F}_{3}, {\\\\bf F}_{4}$. These feature maps are then combined with text kernels ${\\\\bf K}_{1}, {\\\\bf K}_{2}, {\\\\bf K}_{3}, {\\\\bf K}_{4}$ generated from the instruction representation $\\\\bar{\\\\bf x}$, which is derived from the original instruction $\\\\bar{x}$ using an RNN (Recurrent Neural Network). The text-conditioned feature maps ${\\\\bf G}_{1}, {\\\\bf G}_{2}, {\\\\bf G}_{3}, {\\\\bf G}_{4}$ are de-convolved to produce ${\\\\bf H}_{1}, {\\\\bf H}_{2}, {\\\\bf H}_{3}, {\\\\bf H}_{4}$. The goal probability distribution $P_{g}$ is computed from ${\\\\bf H}_{1}$, and the goal location $l_{g}$ is inferred from the maximum value in $P_{g}$. Given $l_{g}$ and the current pose $p_{t}$ at step $t$, the goal mask ${\\\\bf M}_{t}$ is computed and passed into an RNN to output the action to execute. The actions shown are 'TURNLEFT', 'TURNLEFT', and 'FORWARD'."
+        },
+        {
+            "entity_name": "INSTRUCTION REPRESENTATION X",
+            "entity_type": "EVENT",
+            "description": "The representation of the instruction 'Turn left and go to the red oil drum' processed by the system."
+        },
+        {
+            "entity_name": "PANORAMA IMAGE I_P",
+            "entity_type": "GEO",
+            "description": "A panoramic image used as input for the system, showing a scene with various objects and landmarks."
+        },
+        {
+            "entity_name": "TEXT KERNELS",
+            "entity_type": "OBJECT",
+            "description": "Components of the system that process text information from the instruction."
+        },
+        {
+            "entity_name": "SOFTMAX",
+            "entity_type": "OBJECT",
+            "description": "A function used in the system to convert scores into probabilities."
+        },
+        {
+            "entity_name": "GOAL DISTRIBUTION P_G",
+            "entity_type": "OBJECT",
+            "description": "A distribution representing possible goal locations based on the processed instruction and image."
+        },
+        {
+            "entity_name": "GOAL LOCATION L_G",
+            "entity_type": "GEO",
+            "description": "The specific location within the image identified as the goal based on the instruction."
+        },
+        {
+            "entity_name": "POSES P1, P2, P3",
+            "entity_type": "OBJECT",
+            "description": "Different poses or viewpoints considered by the system to reach the goal."
+        },
+        {
+            "entity_name": "GOAL MASKS M1, M2, M3",
+            "entity_type": "OBJECT",
+            "description": "Masks highlighting areas of the image that are relevant to the goal."
+        },
+        {
+            "entity_name": "ACTIONS TURNLEFT, FORWARD",
+            "entity_type": "EVENT",
+            "description": "Commands generated by the system to navigate towards the goal."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Dataset Statistic' that provides statistical information about two datasets: LANI and CHAI. The table is structured with the following columns: Number paragraphs, Mean instructions per paragraph, Mean actions per instruction, Mean tokens per instruction, and Vocabulary size. For the LANI dataset, the values are as follows: Number paragraphs (6,000), Mean instructions per paragraph (4.7), Mean actions per instruction (24.6), Mean tokens per instruction (12.1), and Vocabulary size (2,292). For the CHAI dataset, the values are: Number paragraphs (1,596), Mean instructions per paragraph (7.70), Mean actions per instruction (54.5), Mean tokens per instruction (8.4), and Vocabulary size (1,018). The table highlights the differences in the complexity and size of the two datasets."
+        },
+        {
+            "entity_name": "LANI",
+            "entity_type": "ORGANIZATION",
+            "description": "Dataset with 6,000 paragraphs, 4.7 mean instructions per paragraph, 24.6 mean actions per instruction, 12.1 mean tokens per instruction, and a vocabulary size of 2,292."
+        },
+        {
+            "entity_name": "CHAI",
+            "entity_type": "ORGANIZATION",
+            "description": "Dataset with 1,596 paragraphs, 7.70 mean instructions per paragraph, 54.5 mean actions per instruction, 8.4 mean tokens per instruction, and a vocabulary size of 1,018."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image depicts a top-down view of an outdoor environment enclosed by a red and blue boundary. Inside the enclosure, there is a grassy area with various objects scattered around. Notable objects include a red telephone booth, a small wooden structure resembling a shed, a bench, and a tree. There are also several smaller items such as a suitcase, a backpack, and what appears to be a camera. The ground is marked with a path indicated by colored dots (yellow, purple, and cyan) that guide the movement from one point to another. The path starts at a red dot and ends at a blue dot. A drone icon is placed at the beginning of the path, indicating the starting position. The overall scene suggests a setup for navigation or path-following tasks, possibly for robotics or autonomous systems testing."
+        },
+        {
+            "entity_name": "ENCLOSURE",
+            "entity_type": "GEO",
+            "description": "A rectangular area enclosed by a blue and red fence, with grassy ground inside."
+        },
+        {
+            "entity_name": "RED BOOTH",
+            "entity_type": "OBJECT",
+            "description": "A red booth located near the entrance of the enclosure."
+        },
+        {
+            "entity_name": "PATHWAY",
+            "entity_type": "GEO",
+            "description": "A pathway marked by colored dots (yellow, purple, blue) winding through the enclosure."
+        },
+        {
+            "entity_name": "PERSON IN RED SUIT",
+            "entity_type": "PERSON",
+            "description": "A person dressed in a red suit standing on the pathway."
+        },
+        {
+            "entity_name": "PERSON IN BROWN HAT",
+            "entity_type": "PERSON",
+            "description": "A person wearing a brown hat standing near the pathway."
+        },
+        {
+            "entity_name": "TREE",
+            "entity_type": "GEO",
+            "description": "A tree located at the edge of the enclosure."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a set of instructions for navigating an environment. The text is presented in a fragmented and color-coded manner, with each segment highlighted in different colors: red, blue, green, yellow, and purple. The instructions guide the reader to navigate around various objects such as a pillar, a boat, a tree, a cone, a hydrant, and a tree stump. The sequence of actions includes circling around objects clockwise or counterclockwise, passing on specific sides of these objects, and stopping at designated points. For example, one instruction reads: 'Go around the pillar on the right hand side and head towards the boat, circling around it clockwise.' Another instruction states: 'When you are facing the tree, walk towards it, and pass on the right hand side, and the left hand side of the cone. Circle around the cone and then walk past the hydrant on your right, and the tree stump. Circle around the stump and then stop right behind it.' The overall layout suggests a step-by-step guide for a navigation task, possibly for a robot or a drone."
+        },
+        {
+            "entity_name": "PILLAR",
+            "entity_type": "GEO",
+            "description": "Located on the right-hand side of the path."
+        },
+        {
+            "entity_name": "BOAT",
+            "entity_type": "OBJECT",
+            "description": "Target to circle around clockwise."
+        },
+        {
+            "entity_name": "TREE",
+            "entity_type": "GEO",
+            "description": "Structure to walk towards and pass on the right-hand side."
+        },
+        {
+            "entity_name": "CONE",
+            "entity_type": "OBJECT",
+            "description": "Object to circle around and walk past on the left-hand side."
+        },
+        {
+            "entity_name": "HYDRANT",
+            "entity_type": "OBJECT",
+            "description": "Passed on the right-hand side after circling the cone."
+        },
+        {
+            "entity_name": "TREE STUMP",
+            "entity_type": "GEO",
+            "description": "Final object to circle around and stop behind."
+        },
+        {
+            "entity_name": "PATH",
+            "entity_type": "UNKNOWN",
+            "description": "The final action is to stop behind the stump, marking the end of the path."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Qualitative analysis of the LANI and CHAI corpora.' It provides a detailed comparison between two corpora, LANI and CHAI, based on various categories. The table is structured with the following columns: Category, Count (with sub-columns for LANI and CHAI), and Example. The rows represent different categories analyzed in the corpora. The categories include Spatial relations between locations, Conjunctions of two or more locations, Temporal coordination of sub-goals, Constraints on the shape of trajectory, Co-reference, and Comparatives. For each category, the table shows the count of examples found in each corpus out of 200 sampled instructions and provides an example sentence from each corpus. For instance, under Spatial relations between locations, LANI has 123 examples, while CHAI has 52. An example from LANI is 'go to the right side of the rock,' and from CHAI is 'pick up the cup next to the bathtub and place it on ...'. The table highlights the differences in the frequency and types of instructions between the two corpora."
+        },
+        {
+            "entity_name": "LANI",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 123 spatial relations between locations, 36 conjunctions of two or more locations, 65 temporal coordinations of sub-goals, 94 constraints on the shape of trajectory, 32 co-references, and 2 comparatives."
+        },
+        {
+            "entity_name": "CHAI",
+            "entity_type": "ORGANIZATION",
+            "description": "A dataset with 52 spatial relations between locations, 5 conjunctions of two or more locations, 68 temporal coordinations of sub-goals, 0 constraints on the shape of trajectory, 18 co-references, and 0 comparatives."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Figure 4: Scenario and segmented instruction from the CHAI corpus.' The table is divided into two main sections: 'Scenario' and 'Written Instructions.' The 'Scenario' section describes a situation where an individual has several hours before guests arrive for a dinner party. The tasks include preparing meat dishes, putting them in the sink, removing items from the kitchen and bathroom that are not suitable for guests to see (like soaps and dish cleaning items), and placing these items in cupboards. Additionally, it involves putting dirty dishes around the house in the dishwasher and closing it. The 'Written Instructions' section provides step-by-step instructions for executing the scenario. These instructions include opening the cupboard above the sink, putting specific items like cereal, sponge, and dishwashing soap into the cupboard, closing the cupboard, picking up meats and putting them into the sink, opening the dishwasher, grabbing dirty dishes on the counter, and putting the dishes into the dishwasher."
+        },
+        {
+            "entity_name": "SINK",
+            "entity_type": "OBJECT",
+            "description": "Located in the kitchen, used for washing dishes and meats."
+        },
+        {
+            "entity_name": "CUPBOARD",
+            "entity_type": "OBJECT",
+            "description": "Located above the sink, used for storing cereal, sponge, and dishwashing soap."
+        },
+        {
+            "entity_name": "MEATS",
+            "entity_type": "OBJECT",
+            "description": "Various meat dishes prepared for the dinner party."
+        },
+        {
+            "entity_name": "DISHWASHER",
+            "entity_type": "OBJECT",
+            "description": "Appliance used for cleaning dirty dishes."
+        },
+        {
+            "entity_name": "COUNTER",
+            "entity_type": "OBJECT",
+            "description": "Surface in the kitchen where dirty dishes are placed."
+        },
+        {
+            "entity_name": "CEREAL",
+            "entity_type": "OBJECT",
+            "description": "Food item stored in the cupboard."
+        },
+        {
+            "entity_name": "SPONGE",
+            "entity_type": "OBJECT",
+            "description": "Cleaning tool stored in the cupboard."
+        },
+        {
+            "entity_name": "DISHWASHING SOAP",
+            "entity_type": "OBJECT",
+            "description": "Cleaning product stored in the cupboard."
+        },
+        {
+            "entity_name": "DIRTY DISHES",
+            "entity_type": "UNKNOWN",
+            "description": "The dirty dishes are put into the dishwasher for cleaning."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Performance on the development data.' The table compares the performance of different methods on two datasets, LANI and CHAI. Each dataset has four metrics: SD (Success Distance), TC (Time to Completion), SD (Success Distance), and MA (Mean Accuracy). The methods evaluated include STOP, RANDOMWALK, MOSTFREQUENT, MISRA17, CHAPLOT18, and Our Approach (OA). For the LANI dataset, the values are as follows: STOP has SD of 15.37 and TC of 8.20; RANDOMWALK has SD of 14.80 and TC of 9.66; MOSTFREQUENT has SD of 19.31 and TC of 2.94; MISRA17 has SD of 10.54 and TC of 22.9; CHAPLOT18 has SD of 9.05 and TC of 31.0; and Our Approach (OA) has SD of 8.65 and TC of 35.72. For the CHAI dataset, the values are: STOP has SD of 2.99 and MA of 37.53; RANDOMWALK has SD of 2.99 and MA of 28.96; MOSTFREQUENT has SD of 3.80 and MA of 37.53; MISRA17 has SD of 2.99 and MA of 32.25; CHAPLOT18 has SD of 2.99 and MA of 37.53; and Our Approach (OA) has SD of 2.75 and MA of 37.53. Additional rows show variations of Our Approach with different modifications, such as OA w/o RNN, OA w/o Language, OA w/joint, and OA w/oracle goals. The table highlights the performance differences among the methods, with Our Approach generally showing better results."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying performance metrics of different methods across two datasets, LANI and CHAI. The table includes columns for SD (Success Distance), TC (Time to Completion), and MA (Movement Accuracy)."
+        },
+        {
+            "entity_name": "LANI",
+            "entity_type": "GEO",
+            "description": "One of the datasets used in the table, representing a specific environment or task."
+        },
+        {
+            "entity_name": "CHAI",
+            "entity_type": "GEO",
+            "description": "Another dataset used in the table, representing a different environment or task."
+        },
+        {
+            "entity_name": "STOP",
+            "entity_type": "METHOD",
+            "description": "A method listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "RANDOMWALK",
+            "entity_type": "METHOD",
+            "description": "Another method listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "MOSTFREQUENT",
+            "entity_type": "METHOD",
+            "description": "Yet another method listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "MISRA17",
+            "entity_type": "METHOD",
+            "description": "A method from 2017 listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "CHAPLOT18",
+            "entity_type": "METHOD",
+            "description": "A method from 2018 listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "OUR APPROACH (OA)",
+            "entity_type": "METHOD",
+            "description": "The proposed method listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "OA W/O RNN",
+            "entity_type": "METHOD",
+            "description": "A variant of Our Approach without RNN listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "OA W/O LANGUAGE",
+            "entity_type": "METHOD",
+            "description": "A variant of Our Approach without language listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "OA W/JOINT",
+            "entity_type": "METHOD",
+            "description": "A variant of Our Approach with joint listed in the table with performance metrics on both LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "OA W/ORACLE GOALS",
+            "entity_type": "METHOD",
+            "description": "A variant of Our Approach with oracle goals listed in the table with performance metrics on both LANI and CHAI datasets."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Performance on the held-out test dataset.' The table is divided into two main sections, LANI and CHAI, each with its own set of metrics. For LANI, the metrics are SD (Stop Distance) and TC (Task Completion), while for CHAI, the metrics are SD (Stop Distance) and MA (Manipulation Accuracy). The rows represent different methods used in the experiments. The methods listed are STOP, RANDOMWALK, MOSTFREQUENT, Misra17, Chaplot18, and Our Approach. The values for each method under the LANI section are as follows: STOP has SD of 15.18 and TC of 8.29; RANDOMWALK has SD of 14.63 and TC of 9.76; MOSTFREQUENT has SD of 19.14 and TC of 3.15; Misra17 has SD of 10.23 and TC of 23.2; Chaplot18 has SD of 8.78 and TC of 31.9; Our Approach has SD of 8.43 and TC of 36.9. Under the CHAI section, the values are: STOP has SD of 3.59 and MA of 39.77; RANDOMWALK has SD of 3.59 and MA of 33.29; MOSTFREQUENT has SD of 4.36 and MA of 39.77; Misra17 has SD of 3.59 and MA of 36.84; Chaplot18 has SD of 3.59 and MA of 39.76; Our Approach has SD of 3.34 and MA of 39.97. The table highlights the performance of different methods on two tasks, LANI and CHAI, with specific focus on stop distance and task completion for LANI, and stop distance and manipulation accuracy for CHAI."
+        },
+        {
+            "entity_name": "TABLE 4",
+            "entity_type": "EVENT",
+            "description": "Performance on the held-out test dataset, showcasing various methods and their accuracy and distance metrics for LANI and CHAI datasets."
+        },
+        {
+            "entity_name": "LANI",
+            "entity_type": "GEO",
+            "description": "Dataset used for evaluating performance, with metrics SD (Success Distance) and TC (Task Completion)."
+        },
+        {
+            "entity_name": "CHAI",
+            "entity_type": "GEO",
+            "description": "Dataset used for evaluating performance, with metrics SD (Success Distance) and MA (Metric Accuracy)."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Mean goal prediction error for LANI instructions with and without the analysis categories we used in Table 2.' The table is structured with three main columns: Category, Present, Absent, and p-value. Each row represents a different category of analysis and contains the following values: 'Spatial relations' (Present: 8.75, Absent: 10.09, p-value: .262), 'Location conjunction' (Present: 10.19, Absent: 9.05, p-value: .327), 'Temporal coordination' (Present: 11.38, Absent: 8.24, p-value: .015), 'Trajectory constraints' (Present: 9.56, Absent: 8.99, p-value: .607), 'Co-reference' (Present: 12.88, Absent: 8.59, p-value: .016), and 'Comparatives' (Present: 10.22, Absent: 9.25, p-value: .906). The table highlights the mean goal prediction error for each category when the analysis is present versus absent, along with the statistical significance of the difference as indicated by the p-values."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "ORGANIZATION",
+            "description": "A table displaying categories of data with columns for 'Present', 'Absent', and 'p-value'. The categories include Spatial relations, Location conjunction, Temporal coordination, Trajectory constraints, Co-reference, and Comparatives."
+        },
+        {
+            "entity_name": "SPATIAL RELATIONS",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Spatial relations' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        },
+        {
+            "entity_name": "LOCATION CONJUNCTION",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Location conjunction' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        },
+        {
+            "entity_name": "TEMPORAL COORDINATION",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Temporal coordination' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        },
+        {
+            "entity_name": "TRAJECTORY CONSTRAINTS",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Trajectory constraints' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        },
+        {
+            "entity_name": "CO-REFERENCE",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Co-reference' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        },
+        {
+            "entity_name": "COMPARATIVES",
+            "entity_type": "UNKNOWN",
+            "description": "The category 'Comparatives' is a row in the table, showing values for 'Present' and 'Absent', and a p-value."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart labeled 'Figure 5: Likert rating histogram for expert human follower and our approach for LANI.' The x-axis represents the rating categories, ranging from 1 to 5. The y-axis indicates the percentage of ratings, with values ranging from 0 to 60%. There are two sets of bars for each rating category: blue bars representing 'Human' and red bars representing 'Our Approach.' The exact percentages for each category are as follows: For rating 1, the Human has approximately 0% and Our Approach has around 10%; for rating 2, Human has around 5% and Our Approach has about 15%; for rating 3, both have around 10%; for rating 4, Human has around 25% and Our Approach has about 15%; and for rating 5, Human has around 50% and Our Approach has about 45%. The chart shows that the Human ratings are generally higher than those of Our Approach, especially in the higher rating categories."
+        },
+        {
+            "entity_name": "HUMAN",
+            "entity_type": "PERSON",
+            "description": "Represents the performance of human subjects in the given categories."
+        },
+        {
+            "entity_name": "OUR APPROACH",
+            "entity_type": "ORGANIZATION",
+            "description": "Represents the performance of a specific method or system being evaluated against human performance."
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "IMAGE_12",
+            "entity_type": "ORI_IMG",
+            "description": "The image consists of two distinct sections. The top section shows a panoramic view with a probability map overlaid on it, representing the goal prediction probability maps \\( P_g \\) for LANI. The probability map is characterized by a gradient of colors ranging from blue to yellow, indicating different probabilities. The background appears to be an outdoor scene with grass and a fence. The bottom section displays another panoramic view, this time for CHAI, with a similar probability map overlay. This section seems to depict an indoor environment, possibly a kitchen or a room with cabinets and a dining area. The text 'curve around big rock keeping it to your left' is written in the middle of the image, suggesting navigation instructions. The overall image conveys the concept of goal prediction in the context of instruction following tasks."
+        },
+        {
+            "entity_name": "BIG ROCK",
+            "entity_type": "GEO",
+            "description": "A large rock in the outdoor environment that requires navigation around it by keeping it to the left."
+        },
+        {
+            "entity_name": "OUTDOOR ENVIRONMENT",
+            "entity_type": "GEO",
+            "description": "An open area with grass and a path that curves around the big rock."
+        },
+        {
+            "entity_name": "INDOOR ENVIRONMENT",
+            "entity_type": "GEO",
+            "description": "An interior space with a kitchen, dining room, and other furnishings."
+        }
+    ]
+}

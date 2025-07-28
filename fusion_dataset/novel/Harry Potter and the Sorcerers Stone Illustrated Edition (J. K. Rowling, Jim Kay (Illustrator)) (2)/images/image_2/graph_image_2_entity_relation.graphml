@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration of a grand architectural structure, likely a part of Hogwarts Castle from the Harry Potter series. The scene depicts an ornate and majestic entrance with intricate carvings and stonework. The stone walls are adorned with flaming torches, casting a warm glow that illuminates the area. The ceiling is high and indistinct, adding to the grandeur of the space. A magnificent marble staircase faces the viewer, leading upwards into the castle. The architecture features elaborate details, including sculpted figures and decorative elements. Birds are perched on the ledges and flying in the sky, adding a sense of life and movement to the scene. The overall atmosphere is one of awe and mystery, befitting the magical setting of Hogwarts. The text overlay indicates that this is Chapter Seven titled 'The Sorting Hat,' suggesting that this scene is related to the sorting ceremony at Hogwarts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+</node>
+<node id="&quot;CHAPTER SEVEN: THE SORTING HAT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Title of a chapter from a book, indicating the theme or content of the chapter is related to a magical sorting hat used to assign students to different groups or houses."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+</node>
+<node id="&quot;CASTLE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An ancient, ornate castle with intricate architectural details, including towers and spires, set against a sky with birds in flight."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CHAPTER SEVEN: THE SORTING HAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chapter Seven: The Sorting Hat是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CASTLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Castle是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHAPTER SEVEN: THE SORTING HAT&quot;" target="&quot;CASTLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The event takes place within the context of this castle, which is likely a magical school where the sorting hat is used to assign students to their respective houses."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (2)/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

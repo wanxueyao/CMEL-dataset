@@ -1,0 +1,675 @@
+{
+    "image_1": [
+        {
+            "entity_name": "RIVER",
+            "entity_type": "GEO",
+            "description": "River is a source concept in the COMMONSENSEQA dataset, used to generate questions about related target concepts.",
+            "source_image_entities": [
+                "RIVER"
+            ],
+            "source_text_entities": [
+                "RIVER"
+            ]
+        },
+        {
+            "entity_name": "PEBBLE",
+            "entity_type": "GEO",
+            "description": "Pebbles are mentioned as a distractor in a question about the location on a river to see water falling without getting wet.",
+            "source_image_entities": [
+                "PEBBLE"
+            ],
+            "source_text_entities": [
+                "PEBBLES"
+            ]
+        },
+        {
+            "entity_name": "STREAM",
+            "entity_type": "GEO",
+            "description": "Stream is mentioned as a distractor in a question about the location on a river to see water falling without getting wet.",
+            "source_image_entities": [
+                "STREAM"
+            ],
+            "source_text_entities": [
+                "STREAM"
+            ]
+        },
+        {
+            "entity_name": "BANK",
+            "entity_type": "GEO",
+            "description": "Bank is mentioned as a distractor in a question about crossing the river with feet wet but body dry.",
+            "source_image_entities": [
+                "BANK"
+            ],
+            "source_text_entities": [
+                "BANK"
+            ]
+        },
+        {
+            "entity_name": "CANYON",
+            "entity_type": "UNKNOWN",
+            "description": "canyon是从image_1中提取的实体。",
+            "source_image_entities": [
+                "CANYON"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "WATERFALL",
+            "entity_type": "GEO",
+            "description": "Waterfall is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "WATERFALL"
+            ],
+            "source_text_entities": [
+                "WATERFALL"
+            ]
+        },
+        {
+            "entity_name": "BRIDGE",
+            "entity_type": "GEO",
+            "description": "Bridge is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "BRIDGE"
+            ],
+            "source_text_entities": [
+                "BRIDGE"
+            ]
+        },
+        {
+            "entity_name": "VALLEY",
+            "entity_type": "GEO",
+            "description": "Valley is a target concept related to the source concept 'River' in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "VALLEY"
+            ],
+            "source_text_entities": [
+                "VALLEY"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a semantic network and a graph knowledge base used as the input for generating commonsense questions in the COMMONSENSEQA process, providing a platform for extracting subgraphs and filtering edges based on predefined rules.",
+            "source_image_entities": [
+                "CONCEPTNET"
+            ],
+            "source_text_entities": [
+                "CONCEPTNET"
+            ]
+        },
+        {
+            "merged_entity_name": "CROWDWORKERS",
+            "entity_type": "ORGANIZATION",
+            "description": "CROWDWORKERS, including Amazon Mechanical Turk workers, contribute to the creation, refinement, and validation of questions and distractors in the COMMONSENSEQA process, authoring multiple-choice questions and adding distractors to challenge the respondent's understanding and attention.",
+            "source_image_entities": [
+                "CROWDWORKERS"
+            ],
+            "source_text_entities": [
+                "CROWDSOURCING WORKERS",
+                "QUESTION FORMULATORS",
+                "VERIFIERS"
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTIONS",
+            "entity_type": "EVENT",
+            "description": "QUESTIONS in the COMMONSENSEQA process are the primary output of the crowdworkers, consisting of inquiries about various topics such as dust locations, glass finding, emotional states, and requiring commonsense knowledge to be answered correctly.",
+            "source_image_entities": [
+                "QUESTIONS"
+            ],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "DISTRACTORS",
+            "entity_type": "OBJECT",
+            "description": "DISTRACTORS are incorrect options added by crowdworkers to multiple-choice questions in the COMMONSENSEQA process to challenge the respondent's understanding and attention, including both automatically selected distractors from ConceptNet and manually formulated distractors.",
+            "source_image_entities": [
+                "DISTRACTORS"
+            ],
+            "source_text_entities": [
+                "DISTRACTORS"
+            ]
+        },
+        {
+            "merged_entity_name": "SUBGRAPHS",
+            "entity_type": "OBJECT",
+            "description": "SUBGRAPHS are extracted portions of ConceptNet that represent relationships between concepts relevant to the generated questions in the COMMONSENSEQA process, used to create question sets for crowdsourcing.",
+            "source_image_entities": [
+                "SUBGRAPHS"
+            ],
+            "source_text_entities": [
+                "CONCEPTNET"
+            ]
+        },
+        {
+            "merged_entity_name": "RULES",
+            "entity_type": "OBJECT",
+            "description": "RULES are the criteria used to filter edges within ConceptNet to ensure the relevance and quality of the extracted subgraphs, which are then used to generate questions in the COMMONSENSEQA process.",
+            "source_image_entities": [
+                "RULES"
+            ],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "QUALITY FILTERING",
+            "entity_type": "EVENT",
+            "description": "QUALITY FILTERING is the process where crowdworkers evaluate and select high-quality questions from the pool of generated questions in the COMMONSENSEQA process, ensuring the quality of the final dataset.",
+            "source_image_entities": [
+                "QUALITY FILTERING"
+            ],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "SEARCH ENGINE",
+            "entity_type": "ORGANIZATION",
+            "description": "SEARCH ENGINE, specifically Google, is used to collect relevant web snippets that provide additional context or verification for the questions in the COMMONSENSEQA process, enhancing the dataset with real-world textual information.",
+            "source_image_entities": [
+                "SEARCH ENGINE"
+            ],
+            "source_text_entities": [
+                "GOOGLE"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions, containing 32 million triplets and representing natural language concepts with commonsense relations.",
+            "source_image_entities": [
+                "CONCEPTNET DISTINCT QUESTION NODES",
+                "CONCEPTNET DISTINCT ANSWER NODES",
+                "CONCEPTNET DISTINCT NODES",
+                "CONCEPTNET DISTINCT RELATION LABELS"
+            ],
+            "source_text_entities": [
+                "CONCEPTNET"
+            ]
+        },
+        {
+            "merged_entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is an event or process where commonsense questions are generated and evaluated, aiming to test models' understanding of commonsense knowledge, using CONCEPTNET as the input knowledge base and involving crowdsourcing for question generation and validation.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "AVERAGE QUESTION AND ANSWER LENGTH (TOKENS)",
+            "entity_type": "EVENT",
+            "description": "The average length of questions in tokens for the COMMONSENSEQA dataset is 13.41, while the average length of answers is 1.5 tokens, indicating a concise answer format compared to the questions.",
+            "source_image_entities": [
+                "AVERAGE QUESTION LENGTH (TOKENS)",
+                "AVERAGE ANSWER LENGTH (TOKENS)"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "LONG QUESTIONS AND ANSWERS WITH MORE THAN 1 TOKEN",
+            "entity_type": "EVENT",
+            "description": "10.3% of the questions in the COMMONSENSEQA dataset are longer than 20 tokens, and 44% of the answers have more than one token, showing the variability in question and answer lengths.",
+            "source_image_entities": [
+                "LONG QUESTIONS (MORE THAN 20 TOKENS)",
+                "ANSWERS WITH MORE THAN 1 TOKEN"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "DISTINCT WORDS IN QUESTIONS AND ANSWERS",
+            "entity_type": "EVENT",
+            "description": "The COMMONSENSEQA dataset features 14,754 distinct words in questions and an unspecified number of distinct words in answers, highlighting the lexical diversity in the generated questions and answers.",
+            "source_image_entities": [
+                "DISTINCT WORDS IN QUESTIONS",
+                "DISTINCT WORDS IN ANSWERS"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions, containing concepts and relations such as Causes, CapableOf, or Antonym, which are the basis for the commonsense relations in COMMONSENSEQA.",
+            "source_image_entities": [
+                "ATLOCATION",
+                "CAUSES",
+                "CAPABLEOF",
+                "ANTONYM",
+                "HASSUBEVENT",
+                "HASPREREQUISITE",
+                "CAUSESDESIRE",
+                "DESIRES",
+                "PARTOF",
+                "HASPROPERTY"
+            ],
+            "source_text_entities": [
+                "\"CONCEPTNET\""
+            ]
+        },
+        {
+            "entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context, building on CONCEPTNET and aiming to challenge current NLU models.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"COMMONSENSEQA\"",
+                "\"COMMONSENSEQA\""
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "\"CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions, and contains concepts and relations which COMMONSENSEQA is built upon.\"",
+            "source_image_entities": [
+                "BUILDING"
+            ],
+            "source_text_entities": [
+                "\"CONCEPTNET\""
+            ]
+        },
+        {
+            "entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "\"COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context, and is a dataset that focuses on commonsense questions, building on CONCEPTNET and aiming to challenge current NLU models.\"",
+            "source_image_entities": [
+                "BUILDING"
+            ],
+            "source_text_entities": [
+                "\"COMMONSENSEQA\""
+            ]
+        },
+        {
+            "entity_name": "MUSIC STORE",
+            "entity_type": "ORGANIZATION",
+            "description": "A place where one can purchase instruments such as the balalaika, which is a musical instrument.",
+            "source_image_entities": [
+                "MUSIC STORE"
+            ],
+            "source_text_entities": [
+                "BALALAIKA"
+            ]
+        },
+        {
+            "entity_name": "STRING",
+            "entity_type": "OBJECT",
+            "description": "A material used to tie around objects to keep them from moving, as part of the activity described in the text.",
+            "source_image_entities": [
+                "STRING"
+            ],
+            "source_text_entities": [
+                "TIE AROUND"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions, containing concepts and relations which COMMONSENSEQA is built upon.",
+            "source_image_entities": [
+                "CATEGORIES"
+            ],
+            "source_text_entities": [
+                "\"CONCEPTNET\""
+            ]
+        },
+        {
+            "merged_entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context, building on CONCEPTNET and aiming to challenge current NLU models.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "\"COMMONSENSEQA\""
+            ]
+        },
+        {
+            "merged_entity_name": "DEFINITIONS",
+            "entity_type": "OBJECT",
+            "description": "Definitions in the context of COMMONSENSEQA are the descriptions for each category, explaining the relationship between Concept A and Concept B, which are used to generate questions requiring commonsense knowledge.",
+            "source_image_entities": [
+                "DEFINITIONS"
+            ],
+            "source_text_entities": [
+                "\"COMMONSENSEQA\""
+            ]
+        },
+        {
+            "merged_entity_name": "AMAZON MECHANICAL TURK",
+            "entity_type": "ORGANIZATION",
+            "description": "Amazon Mechanical Turk is used for crowdsourcing workers to generate and validate commonsense questions for the COMMONSENSEQA dataset.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"AMAZON MECHANICAL TURK\""
+            ]
+        },
+        {
+            "merged_entity_name": "GOOGLE",
+            "entity_type": "ORGANIZATION",
+            "description": "Google is used for issuing web queries to add textual context to each question in the data generation process for COMMONSENSEQA.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"GOOGLE\""
+            ]
+        },
+        {
+            "merged_entity_name": "CROWDSOURCING WORKERS",
+            "entity_type": "PERSON",
+            "description": "Crowdsourcing workers are individuals who contribute to the generation and validation of commonsense questions in the COMMONSENSEQA process.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"CROWDSOURCING WORKERS\""
+            ]
+        },
+        {
+            "merged_entity_name": "QUESTION FORMULATORS",
+            "entity_type": "PERSON",
+            "description": "Question formulators are individuals who contributed to the creation of questions for COMMONSENSEQA, with a significant contribution from a smaller group of workers.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"QUESTION FORMULATORS\""
+            ]
+        },
+        {
+            "merged_entity_name": "VERIFIERS",
+            "entity_type": "PERSON",
+            "description": "Verifiers are a group of workers responsible for the quality check of the generated questions in the COMMONSENSEQA process.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"VERIFIERS\""
+            ]
+        },
+        {
+            "merged_entity_name": "WEB SNIPPETS",
+            "entity_type": "CONCEPT",
+            "description": "Web snippets are textual contexts retrieved from search engines to provide relevant context to each question in the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "PERCENTAGES"
+            ],
+            "source_text_entities": [
+                "\"WEB SNIPPETS\""
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "\"CONCEPTNET is a graph knowledge base used for extracting subgraphs and triplets for crowdsourcing to generate questions, and contains concepts and relations, which COMMONSENSEQA is built upon.\"",
+            "source_image_entities": [
+                "CATEGORIES"
+            ],
+            "source_text_entities": [
+                "\"CONCEPTNET\""
+            ]
+        },
+        {
+            "merged_entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "\"COMMONSENSEQA is the event of generating questions that require commonsense knowledge and can be easily answered by humans without context, and is a dataset that focuses on commonsense questions, building on CONCEPTNET and aiming to challenge current NLU models.\"",
+            "source_image_entities": [
+                "CHART"
+            ],
+            "source_text_entities": [
+                "\"COMMONSENSEQA\""
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "VECSIM",
+            "entity_type": "ORGANIZATION",
+            "description": "VECSIM is a model used as a baseline in the evaluation of COMMONSENSEQA, based on cosine similarity of pre-trained word embeddings.",
+            "source_image_entities": [
+                "VECSIM"
+            ],
+            "source_text_entities": [
+                "VECSIM"
+            ]
+        },
+        {
+            "entity_name": "LM1B",
+            "entity_type": "ORGANIZATION",
+            "description": "LM1B is a large language model used in two variations for evaluating COMMONSENSEQA, inspired by Trinh and Le (2018).",
+            "source_image_entities": [
+                "LM1B"
+            ],
+            "source_text_entities": [
+                "LM1B"
+            ]
+        },
+        {
+            "entity_name": "QABILINEAR",
+            "entity_type": "ORGANIZATION",
+            "description": "QABILINEAR is a model proposed by Yu et al. (2014) for QA, which scores answers using a bilinear model and trains with cross-entropy loss.",
+            "source_image_entities": [
+                "QABILINEAR"
+            ],
+            "source_text_entities": [
+                "QABILINEAR"
+            ]
+        },
+        {
+            "entity_name": "QACOMPARE",
+            "entity_type": "ORGANIZATION",
+            "description": "QACOMPARE is a model similar to an NLI model from Liu et al. (2016), representing the interaction between the question and candidate answer, and predicting an answer score.",
+            "source_image_entities": [
+                "QACOMPARE"
+            ],
+            "source_text_entities": [
+                "QACOMPARE"
+            ]
+        },
+        {
+            "entity_name": "ESIM",
+            "entity_type": "ORGANIZATION",
+            "description": "ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss.",
+            "source_image_entities": [
+                "ESIM"
+            ],
+            "source_text_entities": [
+                "ESIM"
+            ]
+        },
+        {
+            "entity_name": "GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "GPT is a method proposed by Radford et al. (2018) for adapting pre-trained LMs to perform a wide range of tasks, applied to COMMONSENSEQA by encoding questions and candidate answers as sequences.",
+            "source_image_entities": [
+                "GPT"
+            ],
+            "source_text_entities": [
+                "GENERATIVE PRE-TRAINED TRANSFORMER (GPT)"
+            ]
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model that fine-tunes a language model and holds state-of-the-art across a broad range of tasks, using a masked language modeling objective and fine-tuning pre-trained weights for COMMONSENSEQA.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BIDAF++",
+            "entity_type": "ORGANIZATION",
+            "description": "BIDAF++ is a state-of-the-art RC model that uses Google web snippets as context, augmented with a self-attention layer and ELMo representations, adapted for multiple-choice settings.",
+            "source_image_entities": [
+                "BIDAF++"
+            ],
+            "source_text_entities": [
+                "BIDAF++"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "merged_entity_name": "BERT-LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT-LARGE is a pre-trained language model that achieves high accuracy in various natural language processing tasks, including an accuracy of 55.9% on the random split and 63.6% on the question concept split of the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "RANDOM SPLIT",
+                "QUESTION CONCEPT SPLIT"
+            ],
+            "source_text_entities": [
+                "BERT-LARGE"
+            ]
+        },
+        {
+            "merged_entity_name": "GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "GPT, or Generative Pre-trained Transformer, is a pre-trained language model that has shown capability in natural language understanding tasks, with an accuracy of 45.5% on the random split and 55.5% on the question concept split of the COMMONSENSEQA dataset.",
+            "source_image_entities": [
+                "RANDOM SPLIT",
+                "QUESTION CONCEPT SPLIT"
+            ],
+            "source_text_entities": [
+                "GENERATIVE PRE-TRAINED TRANSFORMER (GPT)"
+            ]
+        },
+        {
+            "merged_entity_name": "ESIM",
+            "entity_type": "ORGANIZATION",
+            "description": "ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss, and is combined with ELMo contextual representations for natural language processing tasks.",
+            "source_image_entities": [
+                "ESIM"
+            ],
+            "source_text_entities": [
+                "ESIM"
+            ]
+        },
+        {
+            "merged_entity_name": "ELMo",
+            "entity_type": "ORGANIZATION",
+            "description": "ELMo representations are used in the BIDAF++ model, contributing to its ability to adapt to multiple-choice settings, and are also combined with ESIM for natural language processing tasks. However, they did not improve performance compared to GloVe embeddings in the given context.",
+            "source_image_entities": [
+                "ELMO"
+            ],
+            "source_text_entities": [
+                "ELMO"
+            ]
+        },
+        {
+            "merged_entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is a dataset designed to test commonsense knowledge, containing 12,247 examples, and is used to evaluate and fine-tune models like BERT and GPT, focusing on accuracy and understanding of commonsense knowledge.",
+            "source_image_entities": [
+                "TABLE"
+            ],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "ACCURACY",
+            "entity_type": "OBJECT",
+            "description": "Accuracy is a metric used to evaluate the performance of a model, representing the percentage of correct predictions, with human accuracy on the COMMONSENSEQA task being 88.9%.",
+            "source_image_entities": [
+                "ACCURACY"
+            ],
+            "source_text_entities": [
+                "ACCURACY"
+            ]
+        },
+        {
+            "merged_entity_name": "SANITY MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "SANITY models are a set of models trained on the COMMONSENSEQA dataset, achieving very high performance, with BERT-LARGE achieving 92% accuracy.",
+            "source_image_entities": [
+                "SANITY"
+            ],
+            "source_text_entities": [
+                "SANITY MODELS"
+            ]
+        }
+    ],
+    "image_10": "[\n    {\n        \"entity_name\": \"COMMONSENSEQA\",\n        \"entity_type\": \"EVENT\",\n        \"description\": \"COMMONSENSEQA is a dataset designed to test commonsense knowledge, containing 12,247 examples, and is used to evaluate and fine-tune models like BERT and GPT, focusing on accuracy and understanding of commonsense knowledge.\",\n        \"source_image_entities\": [\"FACTOID KNOWLEDGE\"],\n        \"source_text_entities\": [\"COMMONSENSEQA\"]\n    },\n    {\n        \"entity_name\": \"ESIM\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss, and is combined with ELMo contextual representations for natural language processing tasks.\",\n        \"source_image_entities\": [\"CONJUNCTION\"],\n        \"source_text_entities\": [\"ESIM\"]\n    },\n    {\n        \"entity_name\": \"BERT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"BERT is a model that fine-tunes a language model and holds state-of-the-art across a broad range of tasks, using a masked language modeling objective and fine-tuning pre-trained weights for COMMONSENSEQA, and is a pre-trained language model that achieves high accuracy in various natural language processing tasks.\",\n        \"source_image_entities\": [\"FACTOID KNOWLEDGE\"],\n        \"source_text_entities\": [\"BERT\"]\n    },\n    {\n        \"entity_name\": \"GPT\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"GPT is a method proposed by Radford et al. (2018) for adapting pre-trained LMs to perform a wide range of tasks, applied to COMMONSENSEQA by encoding questions and candidate answers as sequences, and is a pre-trained language model that has shown capability in natural language understanding tasks.\",\n        \"source_image_entities\": [\"FACTOID KNOWLEDGE\"],\n        \"source_text_entities\": [\"GENERATIVE PRE-TRAINED TRANSFORMER (GPT)\", \"GPT\"]\n    },\n    {\n        \"entity_name\": \"BIDAF++\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"BIDAF++ is a state-of-the-art RC model that uses Google web snippets as context, augmented with a self-attention layer and ELMo representations, adapted for multiple-choice settings, and is a model that uses web snippets as context and was evaluated for its performance on the COMMONSENSEQA dataset.\",\n        \"source_image_entities\": [\"CONJUNCTION\"],\n        \"source_text_entities\": [\"BIDAF++\"]\n    },\n    {\n        \"entity_name\": \"QABILINEAR\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"QABILINEAR is a model proposed by Yu et al. (2014) for QA, which scores answers using a bilinear model and trains with cross-entropy loss.\",\n        \"source_image_entities\": [],\n        \"source_text_entities\": [\"QABILINEAR\"]\n    },\n    {\n        \"entity_name\": \"QACOMPARE\",\n        \"entity_type\": \"ORGANIZATION\",\n        \"description\": \"QACOMPARE is a model similar to an NLI model from Liu et al. (2016), representing the interaction between the question and candidate answer, and predicting an answer score.\",\n        \"source_image_entities\": [],\n        \"source_text_entities\": [\"QACOMPARE\"]\n    },\n    {\n        \"entity_name\": \"SURFACE CLUES\",\n        \"entity_type\": \"CATEGORY\",\n        \"description\": \"A category that includes questions about common sense and everyday scenarios, such as how an automobile might get off a freeway or what someone with a good sense of humor might do.\",\n        \"source_image_entities\": [\"SURFACE CLUES\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"NEGATION / ANTONYM\",\n        \"entity_type\": \"CATEGORY\",\n        \"description\": \"A category that involves questions requiring the identification of opposites or negations, such as where a pillow case might be stored if not in use or where a stapler might be if it cannot be found.\",\n        \"source_image_entities\": [\"NEGATION / ANTONYM\"],\n        \"source_text_entities\": []\n    },\n    {\n        \"entity_name\": \"BAD GRANULARITY\",\n        \"entity_type\": \"CATEGORY\",\n        \"description\": \"A category that deals with questions at an inappropriate level of detail, such as where a well-used toy car might be found or",
+    "image_11": [
+        {
+            "merged_entity_name": "COMMONSENSEQA",
+            "entity_type": "EVENT",
+            "description": "COMMONSENSEQA is a dataset designed to test commonsense knowledge, containing 12,247 examples. It includes a graph showing the development of accuracy with increasing number of instances for different methods: 'question concept', 'random', and 'human performance'. The human performance is represented by a dotted cyan line on the graph, indicating a benchmark for comparison. Humans obtained 88.9% accuracy in this task.",
+            "source_image_entities": [
+                "GRAPH",
+                "HUMAN PERFORMANCE"
+            ],
+            "source_text_entities": [
+                "COMMONSENSEQA"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT-LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT-LARGE is a pre-trained language model that achieves high accuracy in various natural language processing tasks, including COMMONSENSEQA. It has an accuracy of 55.9% on the random split and 63.6% on the question concept split, which is lower than human accuracy but higher than the random method.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "BERT-LARGE"
+            ]
+        },
+        {
+            "merged_entity_name": "GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "GPT is a pre-trained language model that has shown capability in natural language understanding tasks. It has an accuracy of 45.5% on the random split and 55.5% on the question concept split in the COMMONSENSEQA dataset.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "GPT"
+            ]
+        },
+        {
+            "merged_entity_name": "ESIM",
+            "entity_type": "ORGANIZATION",
+            "description": "ESIM is a strong NLI model used by Chen et al. (2016), with modifications to the output layer size for candidate answers and trained with cross-entropy loss. It is combined with 1024d ELMo contextual representations, which are also fixed during training.",
+            "source_image_entities": [
+                "ESIM"
+            ],
+            "source_text_entities": [
+                "ESIM"
+            ]
+        },
+        {
+            "merged_entity_name": "ELMo",
+            "entity_type": "ORGANIZATION",
+            "description": "ELMo representations are used in the BIDAF++ model, contributing to its ability to adapt to multiple-choice settings. They are also combined with ESIM for natural language processing tasks and are kept fixed at training time.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "ELMO",
+                "ESIM"
+            ]
+        },
+        {
+            "merged_entity_name": "CONCEPTNET",
+            "entity_type": "ORGANIZATION",
+            "description": "CONCEPTNET is related to the node embeddings used in pre-trained word embeddings, developed by Speer et al. (2017). It is also used for generating difficult questions at scale for the COMMONSENSEQA dataset.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "CONCEPTNET",
+                "NUMBERBATCH CONCEPTNET"
+            ]
+        },
+        {
+            "merged_entity_name": "GLOVE",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe is a pre-trained word embedding model developed by Pennington et al., 2014. It is used in pre-trained word embeddings and considered for 300d GloVe embeddings during the training of models on the COMMONSENSEQA dataset.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "GLOVE",
+                "PENNINGTON ET AL. (2014)"
+            ]
+        }
+    ]
+}

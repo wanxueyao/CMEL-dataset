@@ -1,0 +1,289 @@
+{
+    "image_1": [
+    ],
+    "image_2": [
+        {
+            "merged_entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained model used in various Dialogue State Tracking (DST) models, including the DS-DST model, for encoding information about the dialogue context and each domain-slot pair. It generates vector representations of input text and is utilized for tasks such as slot-value prediction and encoding dialogue context.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT",
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "DOMAIN-SLOT PAIR",
+            "entity_type": "ORGANIZATION",
+            "description": "A domain-slot pair consists of a domain, such as 'hotel' or 'restaurant', and a slot, such as 'price range' or 'booking', which are used for specifying information in a dialogue system. They are central to dialogue state tracking and are represented in various forms across the provided text, including as combinations being discussed in the dialogue and for which predictions are made in the model.",
+            "source_image_entities": [
+                "DOMAIN-SLOT PAIR"
+            ],
+            "source_text_entities": [
+                "DOMAIN-SLOT PAIRS",
+                "DOMAIN-SLOT PAIRS",
+                "DOMAIN-SLOT PAIRS"
+            ]
+        }
+    ], 
+    "image_3": [
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "BERT-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT-DST is a model developed by Rastogi et al. in 2020 for dialogue state tracking using BERT. It achieved a joint goal accuracy of 43.40% on MultiWOZ 2.1. BERT is used to obtain schema element embeddings and encode system as well as user utterances for dialogue state tracking.",
+            "source_image_entities": [
+                "BERT-DST (RASTOGI ET AL., 2020)"
+            ],
+            "source_text_entities": [
+                "BERT-DST"
+            ]
+        },
+        {
+            "merged_entity_name": "MultiWOZ 2.0",
+            "entity_type": "DATASET",
+            "description": "MultiWOZ 2.0 is a multi-domain dialogue corpus with seven distinct domains and over 10,000 dialogues. It is used for evaluating dialogue state tracking models and contains dialogues used for training and evaluation in the domain-slot prediction model.",
+            "source_image_entities": [
+                "MULTIWOZ 2.0"
+            ],
+            "source_text_entities": [
+                "MULTIWOZ 2.0"
+            ]
+        },
+        {
+            "merged_entity_name": "MultiWOZ 2.1",
+            "entity_type": "DATASET",
+            "description": "MultiWOZ 2.1 is an updated version of MultiWOZ 2.0 with dataset corrections, including dialog states, spelling errors, dialogue utterance corrections, and mis-annotations. It is used for evaluating dialogue state tracking models and is mentioned in the context of test set results and model comparisons.",
+            "source_image_entities": [
+                "MultiWOZ 2.1"
+            ],
+            "source_text_entities": [
+                "MultiWOZ 2.1"
+            ]
+        },
+        {
+            "merged_entity_name": "SpanPtr",
+            "entity_type": "ORGANIZATION",
+            "description": "SpanPtr is a model developed by Xu and Hu in 2018 for dialogue state tracking. It achieved a joint goal accuracy of 30.28% on MultiWOZ 2.0 and 29.09% on MultiWOZ 2.1. SpanPtr applies a RNN-based pointer network to find text spans with start and end pointers for each domain-slot pair.",
+            "source_image_entities": [
+                "SPANPTR (XU AND HU, 2018)"
+            ],
+            "source_text_entities": [
+                "SPANPTR"
+            ]
+        },
+        {
+            "merged_entity_name": "TRADE",
+            "entity_type": "ORGANIZATION",
+            "description": "TRADE is a model developed by Wu et al. in 2019 for dialogue state tracking. It achieved a joint goal accuracy of 48.62% on MultiWOZ 2.0 and 45.60% on MultiWOZ 2.1. TRADE contains a slot gate module for slots classification and a pointer generator for states generation.",
+            "source_image_entities": [
+                "TRADE (WU ET AL., 2019)"
+            ],
+            "source_text_entities": [
+                "TRADE"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "BERT-DST (RASTOGI ET AL., 2020)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Rastogi et al. in 2020 for dialogue state tracking with a joint accuracy of 43.40%. It uses BERT to obtain schema element embeddings and encode system as well as user utterances for dialogue state tracking. Different from the original model, it incorporates a pointer-generator copying mechanism for non-categorical slots of the MultiWOZ datasets.",
+            "source_image_entities": [
+                "BERT-DST (RASTOGI ET AL., 2020)"
+            ],
+            "source_text_entities": [
+                "BERT-DST"
+            ]
+        },
+        {
+            "merged_entity_name": "DS-DST",
+            "entity_type": "MODEL",
+            "description": "A model for dialogue state tracking with a joint accuracy of 51.21%. It represents our proposed dual strategy model for DST, which can simultaneously handle the non-categorical slots as well as the categorical ones. Following heuristics from (Rastogi et al., 2020), time and number related slots are treated as non-categorical slots, resulting in five slot types across four domains (nine domain-slot pairs in total), and the rest slots are treated as categorical slots.",
+            "source_image_entities": [
+                "DS-DST"
+            ],
+            "source_text_entities": [
+                "DS-DST"
+            ]
+        },
+        {
+            "merged_entity_name": "TOD-BERT (WU ET AL., 2020)",
+            "entity_type": "MODEL",
+            "description": "A model developed by Wu et al. in 2020 for task-oriented dialogue with a joint accuracy of 48.00%. It is a large pre-trained model based on several task-oriented dialogue datasets, and it also separately encodes dialog context and domain-slot pairs.",
+            "source_image_entities": [
+                "TOD-BERT (WU ET AL., 2020)"
+            ],
+            "source_text_entities": [
+                "TOD-BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "DS-PICKLIST",
+            "entity_type": "MODEL",
+            "description": "A model for dialogue state tracking that uses picklist information with a joint accuracy of 53.30%. It assumes a full ontology is available and treats all domain-slot pairs as categorical slots, where corresponding values for each slot are found in the candidate-value list (picklist).",
+            "source_image_entities": [
+                "DS-PICKLIST"
+            ],
+            "source_text_entities": [
+                "DS-PICKLIST"
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "DS-SPAN",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-Span is a model used for slot filling in dialogue systems, treating all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It has an average accuracy of 96.38% across various slots such as hotel-type, attraction-name, and restaurant-name and is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).",
+            "source_image_entities": [
+                "DS-SPAN"
+            ],
+            "source_text_entities": [
+                "DS-SPAN"
+            ]
+        },
+        {
+            "entity_name": "DS-DST",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-DST is an advanced version of the DS-Span model and a proposed dual strategy model for DST, capable of handling both non-categorical and categorical slots, following heuristics from Rastogi et al., 2020. It shows improvements in accuracy for most slots, with an overall average accuracy of 97.35%. DS-DST is used for multi-domain dialog state tracking and shows significant improvement over DS-Span in certain slots.",
+            "source_image_entities": [
+                "DS-DST"
+            ],
+            "source_text_entities": [
+                "DS-DST"
+            ]
+        },
+        {
+            "entity_name": "DS-PICKLIST",
+            "entity_type": "ORGANIZATION",
+            "description": "DS-PICKLIST is another model used for slot filling, which performs slightly better than DS-DST on average, achieving an average accuracy of 97.40% across all slots. It assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.",
+            "source_image_entities": [
+                "DS-PICKLIST"
+            ],
+            "source_text_entities": [
+                "DS-PICKLIST"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "merged_entity_name": "DS-SPAN", 
+            "entity_type": "EVENT", 
+            "description": "DS-Span is a proposed method that treats all domain-slot pairs as noncategorical slots, extracting values through text spans with start and end positions in the dialog context. It is similar to the work of Xu and Hu (2018) and Gao et al. (2019b).", 
+            "source_image_entities": [
+                "DS-SPAN"
+            ], 
+            "source_text_entities": [
+                "DS-SPAN"
+            ]
+        },
+        {
+            "merged_entity_name": "DS-DST", 
+            "entity_type": "EVENT",
+            "description": "DS-DST is a proposed dual strategy model for DST, capable of handling both non-categorical and categorical slots, following heuristics from Rastogi et al., 2020.", 
+            "source_image_entities": [
+                "DS-DST"
+            ], 
+            "source_text_entities": [
+                "DS-DST"
+            ]
+        },
+        {
+            "merged_entity_name": "DS-PICKLIST", 
+            "entity_type": "EVENT", 
+            "description": "DS-Picklist is a proposed method that assumes a full ontology is available and treats all domain-slot pairs as categorical slots, finding values in a candidate-value list (picklist). It is similar to the work of Lee et al., 2019 and Chen et al., 2020.", 
+            "source_image_entities": [
+                "DS-PICKLIST"
+            ], 
+            "source_text_entities": [
+                "DS-PICKLIST"
+            ]
+            },
+        {
+            "merged_entity_name": "HOTEL-TYPE", 
+            "entity_type": "ORGANIZATION", 
+            "description": "Hotel-type is a slot in the dialog state tracking task where the type of hotel is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.", 
+            "source_image_entities": [
+                "HOTEL-TYPE"
+            ], 
+            "source_text_entities": [
+                "HOTEL-TYPE"
+            ]
+        },
+        {
+            "merged_entity_name": "ATTRACTION-NAME", 
+            "entity_type": "GEO", 
+            "description": "Attraction-name is a slot in the dialog state tracking task where the name of the attraction is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.", 
+            "source_image_entities": [
+                "ATTRACTION-NAME"
+            ], 
+            "source_text_entities": [
+                "ATTRACTION-NAME"
+            ]
+        },
+        {
+            "merged_entity_name": "HOTEL-INTERNET", 
+            "entity_type": "ORGANIZATION", 
+            "description": "Hotel-internet is a slot in the dialog state tracking task where the availability of internet in hotels is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.", 
+            "source_image_entities": [
+                "HOTEL-INTERNET"
+            ], 
+            "source_text_entities": [
+                "HOTEL-INTERNET"
+            ]
+        },
+        {
+            "merged_entity_name": "HOTEL-PARKING", 
+            "entity_type": "ORGANIZATION", 
+            "description": "Hotelparking is a slot in the dialog state tracking task where the availability of parking at hotels is determined, showing significant improvement for DS-DST and DS-Picklist over DS-Span.", 
+            "source_image_entities": [
+                "HOTEL-PARKING"
+            ], 
+            "source_text_entities": [
+                "HOTELPARKING"
+            ]
+        },
+        {
+            "merged_entity_name": "TAXI-LEAVE AT", 
+            "entity_type": "EVENT", 
+            "description": "Taxi-leave at is a time-related slot in the dialog state tracking task where the time for a taxi to leave is determined, where DS-Span and DS-DST underperform.", 
+            "source_image_entities": [
+                "TAXI-LEAVE AT"
+            ], 
+            "source_text_entities": [
+                "TAXI-LEAVE AT"
+            ]
+        },
+        {
+            "merged_entity_name": "TRAIN-ARRIVE BY", 
+            "entity_type": "EVENT", 
+            "description": "Trainarrive by is a time-related slot in the dialog state tracking task where the time for a train to arrive is determined, where DS-Span and DS-DST underperform.", 
+            "source_image_entities": [
+                "TRAIN-ARRIVE BY"
+            ], 
+            "source_text_entities": [
+                "TRAINARRIVE BY"
+            ]
+        }
+    ],
+    "image_8": [
+    ],
+    "image_9": [    
+    ],
+    "image_10": [
+        {
+            "merged_entity_name": "FUNKY FUN HOUSE", 
+            "entity_type": "GEO", 
+            "description": "Funky Fun House is an attraction located in the east area, and the user is interested in visiting it. The phone number for the Funky Fun House is 01223304705.", 
+            "source_image_entities": [
+                "FUNKY FUN HOUSE"
+            ], 
+            "source_text_entities": [
+                "FUNKY FUN HOUSE"
+            ]
+        }
+    ]
+}

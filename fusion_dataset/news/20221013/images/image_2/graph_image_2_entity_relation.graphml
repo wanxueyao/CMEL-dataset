@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_TRUCK-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Military radar system- Color: Beige and brown camouflage pattern- Shape: Rectangular panels arranged in a vertical stack, with a tall, narrow antenna on the right side- Size: Large, mounted on a military vehicle- Material: Metal and composite materials- Possible function: Detection and tracking of airborne objects, such as aircraft and missilesOverall, this object appears to be a sophisticated piece of military equipment designed for defense and surveillance purposes."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a military vehicle equipped with a missile defense system. The main object is a large, beige-colored truck mounted with a missile launcher. The launcher consists of four vertical canisters, each containing a missile. The canisters are arranged in a rectangular formation and are secured to the truck bed. To the right of the missile launcher, there is a tall antenna structure, which likely serves as a radar or communication system for the missile defense system. The truck is parked on a paved surface, and the background shows a clear blue sky with some distant structures, possibly other military equipment or buildings. The overall scene suggests a display or demonstration of military hardware, possibly at an airfield or a military base. There is also a signboard next to the truck, but the text on it is not clearly visible in the image."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<node id="&quot;MILITARY TRUCK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A large military truck equipped with missile launchers and a radar system. The truck is parked on a concrete surface, likely at a military base or demonstration area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<node id="&quot;MISSILE LAUNCHERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Four large missile launchers mounted on the back of the military truck. They are positioned vertically and appear ready for deployment."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<node id="&quot;RADAR SYSTEM&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A tall, vertical radar system attached to the military truck. It has multiple antennas and is used for detecting and tracking targets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<node id="&quot;CONCRETE SURFACE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The surface on which the military truck is parked. It appears to be a flat, open area suitable for military operations or demonstrations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_TRUCK-0.JPG&quot;" target="&quot;MILITARY TRUCK&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_truck-0.jpg is a picture of a military truck."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_TRUCK-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_truck-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MILITARY TRUCK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Military Truck是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MISSILE LAUNCHERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Missile Launchers是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RADAR SYSTEM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Radar System是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CONCRETE SURFACE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Concrete Surface是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MILITARY TRUCK&quot;" target="&quot;MISSILE LAUNCHERS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The missile launchers are mounted on the back of the military truck, indicating that they are part of the truck's weaponry system."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MILITARY TRUCK&quot;" target="&quot;RADAR SYSTEM&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The radar system is attached to the military truck, suggesting it is an integral part of the truck's surveillance capabilities."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MILITARY TRUCK&quot;" target="&quot;CONCRETE SURFACE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The military truck is parked on the concrete surface, indicating that this is the operational or display area for the vehicle."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20221013/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 1: Dataset description' that provides detailed statistics for four different datasets, each related to restaurant and laptop reviews. The table is structured with the following columns: Dataset, Pos (Positive), Neg (Negative), and Neu (Neutral). Each row represents a specific dataset split into train and test sets. The datasets are as follows: D1 includes Restaurant14-Train with 2164 positive, 807 negative, and 637 neutral reviews; Restaurant14-Test with 728 positive, 196 negative, and 196 neutral reviews. D2 includes Laptop14-Train with 994 positive, 870 negative, and 464 neutral reviews; Laptop14-Test with 341 positive, 128 negative, and 169 neutral reviews. D3 includes Restaurant15-Train with 1178 positive, 382 negative, and 50 neutral reviews; Restaurant15-Test with 439 positive, 328 negative, and 35 neutral reviews. D4 includes Restaurant16-Train with 1620 positive, 709 negative, and 88 neutral reviews; Restaurant16-Test with 597 positive, 190 negative, and 38 neutral reviews. The table highlights the distribution of sentiment in each dataset, showing a significant number of positive reviews across all datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A table displaying datasets and their respective positive, negative, and neutral classifications for different years and domains."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+</node>
+<node id="&quot;DATASET TYPES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Four types of datasets are listed: Restaurant14, Laptop14, Restaurant15, and Restaurant16."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+</node>
+<node id="&quot;CLASSIFICATION TYPES&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Three types of classifications are listed: Positive (Pos), Negative (Neg), and Neutral (Neu)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+</node>
+<node id="&quot;YEARS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The datasets are categorized by the years 2014, 2015, and 2016."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DATASET TYPES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dataset Types是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CLASSIFICATION TYPES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Classification Types是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;YEARS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Years是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-2092/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

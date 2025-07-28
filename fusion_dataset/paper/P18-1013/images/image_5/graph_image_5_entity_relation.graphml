@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that presents ROUGE F-1 scores of the generated abstractive summaries on the CNN/Daily Mail test set. The table has four columns: Method, ROUGE-1, ROUGE-2, and ROUGE-L. The rows represent different methods used for generating summaries. The first row shows the pre-trained method with ROUGE-1 score of 73.50, ROUGE-2 score of 35.55, and ROUGE-L score of 68.57. The second row shows the end-to-end method without inconsistency loss with ROUGE-1 score of 72.97, ROUGE-2 score of 35.11, and ROUGE-L score of 67.99. The third row shows the end-to-end method with inconsistency loss with ROUGE-1 score of 78.40, ROUGE-2 score of 39.45, and ROUGE-L score of 73.83. The last row shows the ground-truth labels with ROUGE-1 score of 89.23, ROUGE-2 score of 49.36, and ROUGE-L score of 85.46. The table highlights the performance of different methods in generating abstractive summaries."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+</node>
+<node id="&quot;METHOD&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The different methods used for evaluating the ROUGE scores, including pre-trained, end2end without inconsistency loss, end2end with inconsistency loss, and ground-truth labels."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+</node>
+<node id="&quot;ROUGE-1&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A metric used to evaluate the quality of text summaries by comparing a generated summary against reference summaries. It measures the overlap of unigrams between the candidate and reference texts."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+</node>
+<node id="&quot;ROUGE-2&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Similar to ROUGE-1 but measures the overlap of bigrams instead of unigrams."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+</node>
+<node id="&quot;ROUGE-L&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An evaluation metric that uses the longest common subsequence (LCS) between the candidate and reference texts to measure the quality of a summary."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;METHOD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Method是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ROUGE-1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ROUGE-1是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ROUGE-2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ROUGE-2是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;ROUGE-L&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ROUGE-L是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

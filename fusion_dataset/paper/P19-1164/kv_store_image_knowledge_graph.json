@@ -1,0 +1,246 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a diagram illustrating an example of gender bias in machine translation from English to Spanish. The top part of the image contains an English sentence: 'The doctor asked the nurse to help her in the procedure.' The bottom part of the image shows the Spanish translation: 'El doctor le pidió a la enfermera que le ayudara con el procedimiento.' The diagram includes arrows pointing from specific words in the English sentence to their corresponding translations in Spanish. The arrow from 'The doctor' points to 'El doctor,' and the arrow from 'the nurse' points to 'la enfermera.' The diagram highlights how the gender of the doctor is specified as male in Spanish (el doctor) while the gender of the nurse is specified as female (la enfermera), even though the original English sentence does not specify the gender of either role."
+        },
+        {
+            "entity_name": "THE DOCTOR",
+            "entity_type": "PERSON",
+            "description": "A medical professional who requested assistance from a nurse for a procedure."
+        },
+        {
+            "entity_name": "THE NURSE",
+            "entity_type": "PERSON",
+            "description": "A medical assistant who was asked by the doctor to help with a procedure."
+        },
+        {
+            "entity_name": "PROCEDURE",
+            "entity_type": "EVENT",
+            "description": "A medical task or operation that requires the collaboration of multiple healthcare professionals."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: The coreference test sets and resulting WinoMT corpus statistics (in number of instances)'. The table is structured with four main columns: Winogender, WinoBias, and WinoMT. Each column represents different datasets and contains the following rows: 'Male', 'Female', and 'Neutral'. The values in the table are as follows: For Winogender, 'Male' has 240 instances, 'Female' has 240 instances, and 'Neutral' has 240 instances, totaling 720 instances. For WinoBias, 'Male' has 1582 instances, 'Female' has 1586 instances, and 'Neutral' has 0 instances, totaling 3168 instances. For WinoMT, 'Male' has 1826 instances, 'Female' has 1822 instances, and 'Neutral' has 240 instances, totaling 3888 instances. The table highlights the distribution of gender instances across different datasets, showing significant numbers for both male and female instances in WinoBias and WinoMT, while maintaining equal distribution in Winogender."
+        },
+        {
+            "entity_name": "WINOGENDER",
+            "entity_type": "EVENT",
+            "description": "A dataset containing 720 examples, equally divided among male, female, and neutral genders."
+        },
+        {
+            "entity_name": "WINOBIAS",
+            "entity_type": "EVENT",
+            "description": "A dataset containing 3168 examples, with a focus on bias analysis, including 1582 male and 1586 female examples."
+        },
+        {
+            "entity_name": "WINOMT",
+            "entity_type": "EVENT",
+            "description": "A dataset containing 3888 examples, with a focus on machine translation, including 1826 male and 1822 female examples, as well as 240 neutral examples."
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table comparing the performance of four commercial machine translation (MT) systems on the WinoMT corpus across eight languages: Spanish (ES), French (FR), Italian (IT), Russian (RU), Ukrainian (UK), Hebrew (HE), Arabic (AR), and German (DE). The table is structured with columns for each MT system (Google Translate, Microsoft Translator, Amazon Translate*, SYSTRAN) and rows for each language. Each cell contains three values: Acc (overall gender accuracy in percentage), Δ_G (difference in performance F1 score between masculine and feminine scores), and Δ_S (difference in performance F1 score between pro-stereotypical and anti-stereotypical gender role assignments). For example, for Spanish (ES), Google Translate has an Acc of 53.1%, Δ_G of 23.4, and Δ_S of 21.3. The highest Acc for each language is highlighted in bold, and the lowest Δ_G and Δ_S are underlined. Notable data points include Amazon Translate* achieving the highest Acc for ES, FR, IT, RU, HE, AR, and DE, while Microsoft Translator has the highest Acc for UK. Significant biases are indicated by higher Δ_G and Δ_S values, such as Google Translate's Δ_G of 43.6 for UK."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the accuracy and other metrics of various translation services across different languages."
+        },
+        {
+            "entity_name": "GOOGLE TRANSLATE",
+            "entity_type": "ORGANIZATION",
+            "description": "A translation service provided by Google, listed in the table with its performance metrics for different languages."
+        },
+        {
+            "entity_name": "MICROSOFT TRANSLATOR",
+            "entity_type": "ORGANIZATION",
+            "description": "A translation service provided by Microsoft, listed in the table with its performance metrics for different languages."
+        },
+        {
+            "entity_name": "AMAZON TRANSLATE",
+            "entity_type": "ORGANIZATION",
+            "description": "A translation service provided by Amazon, listed in the table with its performance metrics for different languages."
+        },
+        {
+            "entity_name": "SYSTRAN",
+            "entity_type": "ORGANIZATION",
+            "description": "A translation service provided by SYSTRAN, listed in the table with its performance metrics for different languages."
+        },
+        {
+            "entity_name": "ES",
+            "entity_type": "GEO",
+            "description": "Spanish language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "FR",
+            "entity_type": "GEO",
+            "description": "French language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "IT",
+            "entity_type": "GEO",
+            "description": "Italian language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "RU",
+            "entity_type": "GEO",
+            "description": "Russian language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "UK",
+            "entity_type": "GEO",
+            "description": "Ukrainian language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "HE",
+            "entity_type": "GEO",
+            "description": "Hebrew language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "AR",
+            "entity_type": "GEO",
+            "description": "Arabic language, represented in the table with corresponding metrics for each translation service."
+        },
+        {
+            "entity_name": "DE",
+            "entity_type": "GEO",
+            "description": "German language, represented in the table with corresponding metrics for each translation service."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Performance of recent state-of-the-art academic translation models from English to French and German.' The table contains three columns: Acc (accuracy), Δ_G, and Δ_S. Each row represents a different language pair. The first row is for FR (French) using the model from Ott et al., 2018, with values 49.4 for Acc, 2.6 for Δ_G, and 16.1 for Δ_S. The second row is for DE (German) using the model from Edunov et al., 2018, with values 52.5 for Acc, 7.3 for Δ_G, and 8.4 for Δ_S. The table provides metrics related to gender accuracy in translations, with Acc indicating overall gender accuracy (% of instances the translation had the correct gender), Δ_G denoting the difference in performance F1 score between masculine and feminine scores, and Δ_S representing the difference in performance F1 score between pro-stereotypical and anti-stereotypical gender role assignments. Higher numbers in Δ_G and Δ_S indicate stronger biases."
+        },
+        {
+            "entity_name": "FR (OTT ET AL., 2018)",
+            "entity_type": "EVENT",
+            "description": "A research event documented by Ott et al. in 2018, focusing on French language data with accuracy of 49.4%, a gain of 2.6 in \\(\\Delta_G\\), and a score change of 16.1 in \\(\\Delta_S\\)."
+        },
+        {
+            "entity_name": "DE (EDUNOV ET AL., 2018)",
+            "entity_type": "EVENT",
+            "description": "A research event documented by Edunov et al. in 2018, focusing on German language data with accuracy of 52.5%, a gain of 7.3 in \\(\\Delta_G\\), and a score change of 8.4 in \\(\\Delta_S\\)."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a bar chart titled 'Google Translate’s performance on gender translation on our tested languages.' The chart compares the accuracy (%) of Google Translate in translating stereotypical and non-stereotypical gender roles across eight different languages. The x-axis represents the languages: ES (Spanish), FR (French), IT (Italian), RU (Russian), UK (Ukrainian), HE (Hebrew), AR (Arabic), and DE (German). The y-axis represents the accuracy in percentage, ranging from 0 to 100. Each language has two bars: one blue for stereotypical translations and one red for non-stereotypical translations. The exact values are as follows: ES - Stereotypical 67%, Non-Stereotypical 46%; FR - Stereotypical 80%, Non-Stereotypical 54%; IT - Stereotypical 52%, Non-Stereotypical 30%; RU - Stereotypical 44%, Non-Stereotypical 33%; UK - Stereotypical 46%, Non-Stereotypical 35%; HE - Stereotypical 76%, Non-Stereotypical 38%; AR - Stereotypical 60%, Non-Stereotypical 44%; DE - Stereotypical 69%, Non-Stereotypical 57%. The chart shows that the performance on stereotypical translations is consistently better than that on non-stereotypical translations across all languages."
+        },
+        {
+            "entity_name": "ES",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Spain, with 67% accuracy for stereotypical and 46% for non-stereotypical."
+        },
+        {
+            "entity_name": "FR",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for France, with 80% accuracy for stereotypical and 54% for non-stereotypical."
+        },
+        {
+            "entity_name": "IT",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Italy, with 52% accuracy for stereotypical and 30% for non-stereotypical."
+        },
+        {
+            "entity_name": "RU",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Russia, with 44% accuracy for stereotypical and 33% for non-stereotypical."
+        },
+        {
+            "entity_name": "UK",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for the United Kingdom, with 46% accuracy for stereotypical and 35% for non-stereotypical."
+        },
+        {
+            "entity_name": "HE",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Hebrew-speaking region, with 76% accuracy for stereotypical and 38% for non-stereotypical."
+        },
+        {
+            "entity_name": "AR",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Argentina, with 60% accuracy for stereotypical and 44% for non-stereotypical."
+        },
+        {
+            "entity_name": "DE",
+            "entity_type": "GEO",
+            "description": "Country abbreviation for Germany, with 69% accuracy for stereotypical and 57% for non-stereotypical."
+        },
+        {
+            "entity_name": "ACCURACY",
+            "entity_type": "UNKNOWN",
+            "description": "The accuracy of ES in identifying stereotypical and non-stereotypical images is 67% and 46%, respectively."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 4: Performance of Google Translate on Spanish, Russian, and Ukranian gender prediction accuracy (%) correct) on the original WinoMT corpus, versus a modified version of the dataset where we add stereotypical gender adjectives (see Section 3.3).'. The table is structured with four main columns: Original, +Adj, and Δ. Each row represents a different language and contains the following values: ES (Spanish) has an Original value of 53.1%, +Adj value of 63.5%, and Δ value of +10.4%. RU (Russian) has an Original value of 37.7%, +Adj value of 48.9%, and Δ value of +11.2%. UK (Ukrainian) has an Original value of 38.4%, +Adj value of 42.9%, and Δ value of +4.5%. The table highlights the performance improvement when stereotypical gender adjectives are added to the dataset."
+        },
+        {
+            "entity_name": "ES",
+            "entity_type": "GEO",
+            "description": "A country represented in the table with an original score of 53.1 and an adjusted score of 63.5, showing an increase of +10.4."
+        },
+        {
+            "entity_name": "RU",
+            "entity_type": "GEO",
+            "description": "A country represented in the table with an original score of 37.7 and an adjusted score of 48.9, showing an increase of +11.2."
+        },
+        {
+            "entity_name": "UK",
+            "entity_type": "GEO",
+            "description": "A country represented in the table with an original score of 38.4 and an adjusted score of 42.9, showing an increase of +4.5."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Examples of Google Translate’s output for different sentences in the WinoMT corpus.' The table is divided into three columns: 'Source,' '[Target lang.] Predicted translation,' and 'Phenomenon.' Each row represents a sentence translated from English to Spanish or French, with specific words highlighted in blue, red, and orange to indicate male, female, and neutral entities, respectively. The first row shows an English sentence about a janitor not liking a baker because she always messes up the kitchen. The predicted Spanish translation incorrectly assigns a male inflection to 'baker' (el panadero) despite the pronoun 'she.' The phenomenon noted is biased translation due to gender mismatch. The second row modifies the original sentence by adding 'pretty' before 'baker.' The predicted Spanish translation now correctly uses 'la panadera bonita,' indicating that adding a stereotypically female adjective fixes the translation issue. The third row presents an English sentence about a counselor asking a guard questions and praising her for good work. The predicted French translation uses 'la garde' and 'l’a louée,' which are gender-neutral terms in French, allowing for a more direct translation without gender ambiguity."
+        },
+        {
+            "entity_name": "THE JANITOR",
+            "entity_type": "PERSON",
+            "description": "Does not like the baker and is frustrated by the mess in the kitchen."
+        },
+        {
+            "entity_name": "THE BAKER",
+            "entity_type": "PERSON",
+            "description": "Causes a mess in the kitchen and is disliked by the janitor."
+        },
+        {
+            "entity_name": "SHE",
+            "entity_type": "PERSON",
+            "description": "Refers to the baker, who is female."
+        },
+        {
+            "entity_name": "KITCHEN",
+            "entity_type": "GEO",
+            "description": "Location where the baker causes a mess."
+        },
+        {
+            "entity_name": "THE COUNSELOR",
+            "entity_type": "PERSON",
+            "description": "Asked questions to the guard and praised her for good work."
+        },
+        {
+            "entity_name": "THE GUARD",
+            "entity_type": "PERSON",
+            "description": "Answered questions from the counselor and was praised for good work."
+        }
+    ]
+}

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_36_KITE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky, yellow hair- Eyes: Closed, with long eyelashes- Expression: Relaxed and peaceful, with a slight smile- Age: Appears to be a young boy- Clothing: Wearing a green shirt with a red collar and purple pants; brown shoes on his feet- Posture: Lying down with one arm bent under his head and the other arm resting by his side; legs crossed at the anklesOverall, the character gives off a calm and content vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+</node>
+<node id="&quot;IMAGE_36&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a whimsical and serene scene featuring a young boy with bright yellow hair lying on his stomach on a grassy hill. He is dressed in a green outfit with purple shoes and has his hands resting under his chin, suggesting a pose of contemplation or daydreaming. The background is a simple, uncluttered landscape with a light blue sky and a few scattered pink flowers around him. The overall atmosphere conveyed by the image is one of tranquility and introspection, as if the boy is lost in thought or enjoying a moment of solitude in nature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+</node>
+<node id="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with golden hair, wearing a green outfit and purple shoes, lying on the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+</node>
+<node id="&quot;GROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A flat surface covered in small pink flowers."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Small pink flowers scattered around the ground."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+</node>
+<edge source="&quot;IMAGE_36_KITE-0.JPG&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_36_kite-0.jpg is a picture of The Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_36_KITE-0.JPG&quot;" target="&quot;IMAGE_36&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_36_kite-0.jpg是image_36的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_36&quot;" target="&quot;THE LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Little Prince是从image_36中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_36&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ground是从image_36中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_36&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_36中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Little Prince is lying on the ground."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE LITTLE PRINCE&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is surrounded by small pink flowers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_36.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

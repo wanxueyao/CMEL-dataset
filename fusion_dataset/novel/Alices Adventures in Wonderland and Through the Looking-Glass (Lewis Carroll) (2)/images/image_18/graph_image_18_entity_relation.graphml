@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_18_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long hair, styled in loose waves and parted in the middle- Expression: Neutral, with a slightly curious or contemplative look- Age: Appears to be a young girl- Clothing: Wearing a long, puffy-sleeved dress with a high waistline and a full skirt; the dress has a light color, possibly white or cream, with dark trim and a ribbon at the waist; she also wears knee-high socks and simple shoes- Accessories: Holding a small animal, possibly a rabbit, under her arm; the animal has long ears and a fluffy tail- Posture: Standing upright with one hand holding the animal and the other resting by her sideOverall, the character appears to be from a classic illustration, likely representing a storybook figure with a whimsical and innocent demeanor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<node id="&quot;IMAGE_18&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a young girl holding a piglet. The girl has long, wavy hair and is dressed in a dress with a high collar and puffed sleeves, typical of Victorian fashion. She is standing in a grassy area with tall grasses and plants around her. The piglet appears to be small and is being held by the girl with both hands. The girl's expression seems to be one of curiosity or concern. The background includes some tall plants and grasses, adding to the outdoor setting. The overall atmosphere of the image conveys a sense of wonder and curiosity, as if the girl is encountering something unexpected."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<node id="&quot;ALICE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with long hair, wearing a dress and shoes, holding a pig-like creature in her arms."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<node id="&quot;PIG&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A pig-like creature being held by Alice."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<node id="&quot;FLOWERS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Bouquet of flowers held by the pig-like creature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<node id="&quot;GRASS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Tall grass surrounding Alice and the pig-like creature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+</node>
+<edge source="&quot;IMAGE_18_PERSON-0.JPG&quot;" target="&quot;IMAGE_18&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_18_person-0.jpg是image_18的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;ALICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Alice是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;PIG&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Pig是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flowers是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_18&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Grass是从image_18中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;PIG&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Alice is holding the pig-like creature in her arms."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ALICE&quot;" target="&quot;GRASS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Alice is standing in tall grass."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;PIG&quot;" target="&quot;FLOWERS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The pig-like creature is holding a bouquet of flowers."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_18.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

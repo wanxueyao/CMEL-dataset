@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table that provides general dataset statistics for various datasets. The table has six columns: Dataset, Labels, Instances, Documents, Sentences, and Tokens. The rows represent different datasets. The 'Evidence Inference' dataset has 3 labels, 9889 instances, 2411 documents, an average of 156.0 sentences per document, and 4760.6 tokens per document. The 'BoolQ' dataset has 2 labels, 10661 instances, 7026 documents, an average of 175.3 sentences per document, and 3582.5 tokens per document. The 'Movie Reviews' dataset has 2 labels, 2000 instances, 1999 documents, an average of 36.8 sentences per document, and 774.1 tokens per document. The 'FEVER' dataset has 2 labels, 110190 instances, 4099 documents, an average of 12.1 sentences per document, and 326.5 tokens per document. The 'MultiRC' dataset has 2 labels, 32091 instances, 539 documents, an average of 14.9 sentences per document, and 302.5 tokens per document. The 'CoS-E' dataset has 5 labels, 10917 instances, 10917 documents, an average of 1.0 sentence per document, and 27.6 tokens per document. The 'e-SNLI' dataset has 3 labels, 568939 instances, 944565 documents, an average of 1.7 sentences per document, and 16.0 tokens per document."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_8.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A table displaying statistics for various datasets including 'Evidence Inference', 'BoolQ', 'Movie Reviews', 'FEVER', 'MultiRC', 'CoS-E', and 'e-SNLI'. The table includes columns for 'Dataset', 'Labels', 'Instances', 'Documents', 'Sentences', and 'Tokens' with corresponding numerical values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_8.jpg</data>
+</node>
+<node id="&quot;DATASETS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_8.jpg</data>
+  <data key="d1">"The table contains information about multiple datasets, listing their names and associated statistics such as the number of labels, instances, documents, sentences, and tokens."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_8&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;DATASETS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table contains information about multiple datasets, listing their names and associated statistics such as the number of labels, instances, documents, sentences, and tokens."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.acl-main.408/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

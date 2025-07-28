@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Dark- Hairstyle: Short, black hair- Facial expression: Focused and determined- Age: Appears to be an adult- Clothing: Wearing a white headband, a white wristband on the left wrist, and a colorful sleeveless shirt with orange and white stripes- Accessories: Wearing a watch on the left wrist and multiple bracelets on the right wrist- Posture: In a dynamic pose, swinging a tennis racket with both hands, suggesting he is playing tennisOverall, the person appears to be an athlete, specifically a tennis player, engaged in a match or practice session."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_TENNIS RACKET-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Tennis racket- Color: The frame is primarily blue with a gradient effect transitioning to a lighter shade. The strings are white.- Shape: The racket has an oval-shaped head with a long handle, typical of tennis rackets.- Size: The head of the racket appears to be standard size for a tennis racket, which is usually around 100 square inches.- Material: The frame appears to be made of a composite material, likely graphite or aluminum, which is common for tennis rackets. The strings are likely synthetic gut or polyester.- Possible function: This object is used for playing tennis, specifically for hitting the ball during play.Overall, the tennis racket in the image appears to be a modern, high-performance racket designed for competitive play."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image captures a moment from a tennis match featuring a male player in action. The player is wearing a white headband and a white wristband on his left wrist, with a green watch on his right wrist. He is dressed in a white shirt with orange sleeves and is holding a tennis racket with a colorful string pattern. His posture suggests he is in the middle of a backhand swing, with his eyes focused intently on the ball. The background is a solid blue color, indicating that this is likely a professional tennis court. The player's expression conveys concentration and determination, highlighting the intensity of the match."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;TENNIS PLAYER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A male tennis player in action, wearing a white cap, orange and white shirt, wristbands, and holding a colorful tennis racket."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;TENNIS RACKET&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A colorful tennis racket being swung by the tennis player."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;WRISTBANDS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"White wristbands worn on both wrists of the tennis player."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<node id="&quot;CAP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"White cap worn by the tennis player."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_TENNIS RACKET-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_tennis racket-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TENNIS PLAYER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tennis Player是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;TENNIS RACKET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tennis Racket是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;WRISTBANDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Wristbands是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;CAP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cap是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TENNIS PLAYER&quot;" target="&quot;TENNIS RACKET&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The tennis player is holding and swinging the tennis racket."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TENNIS PLAYER&quot;" target="&quot;WRISTBANDS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The tennis player is wearing wristbands on both wrists."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TENNIS PLAYER&quot;" target="&quot;CAP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The tennis player is wearing a cap on his head."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220906/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

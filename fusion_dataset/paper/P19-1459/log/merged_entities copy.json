@@ -1,0 +1,222 @@
+{
+    "chunk-86be7b6fd443f07c3aa235e44b2d0974": [
+        {
+            "entity_name": "Intelligent Knowledge Management Lab (Department of Computer Science and Information Engineering)",
+            "entity_type": "ORGANIZATION",
+            "description": "Intelligent Knowledge Management Lab, also known as the Department of Computer Science and Information Engineering, is the department at National Cheng Kung University where the research on neural network comprehension of natural language arguments was conducted.",
+            "source_entities": [
+                "INTELLIGENT KNOWLEDGE MANAGEMENT LAB",
+                "DEPARTMENT OF COMPUTER SCIENCE AND INFORMATION ENGINEERING"
+            ]
+        },
+        {
+            "entity_name": "Argument Reasoning Comprehension Task (ARCT) (ARCT SemEval Shared Task)",
+            "entity_type": "EVENT",
+            "description": "The Argument Reasoning Comprehension Task (ARCT), which includes the ARCT SemEval shared task, is a task focused on inference within argumentation mining and is central to the research paper. It aims to determine argumentative structure in natural language text and was used to evaluate the performance of models like BERT.",
+            "source_entities": [
+                "ARGUMENT REASONING COMPREHENSION TASK (ARCT)",
+                "ARCT SEMEVAL SHARED TASK"
+            ]
+        },
+        {
+            "entity_name": "National Cheng Kung University (Tainan)",
+            "entity_type": "ORGANIZATION",
+            "description": "National Cheng Kung University, located in Tainan, is the institution where the Intelligent Knowledge Management Lab is situated and where the research on neural network comprehension of natural language arguments was conducted.",
+            "source_entities": [
+                "NATIONAL CHENG KUNG UNIVERSITY",
+                "TAINAN"
+            ]
+        },
+        {
+            "entity_name": "Argumentation Mining",
+            "entity_type": "EVENT",
+            "description": "Argumentation mining is the task of determining argumentative structure in natural language text, which involves identifying claims, reasons, and warrants. It is the main focus of the paper and is central to understanding the performance of models like BERT on tasks such as the Argument Reasoning Comprehension Task.",
+            "source_entities": [
+                "ARGUMENTATION MINING"
+            ]
+        },
+        {
+            "entity_name": "Warrants",
+            "entity_type": "CONCEPT",
+            "description": "Warrants are a form of world knowledge that permit inferences and are central to the argumentation mining task discussed in the paper. They are often left implicit and are a key component in understanding the structure of arguments and the performance of models like BERT on the Argument Reasoning Comprehension Task.",
+            "source_entities": [
+                "WARRANTS"
+            ]
+        }
+    ],
+    "chunk-6d8347f5fe115cac0955dadaeb7b490c": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model that has shown surprising performance in argument comprehension tasks, but its effectiveness can be attributed to exploiting spurious statistical cues. It is also fine-tuned in the experiments, with the final layer CLS vector being passed to a linear layer to obtain logits for classification.",
+            "source_entities": [
+                "BERT",
+                "CLS VECTOR",
+                "LINEAR LAYER"
+            ]
+        },
+        {
+            "entity_name": "ARCT",
+            "entity_type": "EVENT",
+            "description": "ARCT is a small dataset used to evaluate argument comprehension, where models including BERT are tested for their performance. It is designed to eliminate the major problem of spurious statistical cues by adding a copy of each data point with the claim negated and the label inverted, providing a more robust evaluation of argument comprehension.",
+            "source_entities": [
+                "ARCT",
+                "SPURIOUS STATISTICAL CUES",
+                "LINGUISTIC ARTIFACTS",
+                "UNIGRAMS AND BIGRAMS"
+            ]
+        },
+        {
+            "entity_name": "Hugging Face PyTorch",
+            "entity_type": "ORGANIZATION",
+            "description": "Hugging Face PyTorch provides the implementation of BERT that is used in the experiments described in the text, including the fine-tuning of the model and the processing of argument-warrant pairs.",
+            "source_entities": [
+                "HUGGING FACE PYTORCH",
+                "BERT",
+                "ARGUMENT-WARRANT PAIR"
+            ]
+        },
+        {
+            "entity_name": "GloVe Embeddings",
+            "entity_type": "ORGANIZATION",
+            "description": "GloVe is the provider of 300-dimensional embeddings trained on 640B tokens, used as inputs for BoV and BiLSTM models in the experiments. These embeddings are associated with researchers Pennington et al.",
+            "source_entities": [
+                "GLOVE",
+                "PENNINGTON ET AL."
+            ]
+        },
+        {
+            "entity_name": "Baseline Models",
+            "entity_type": "ORGANIZATION",
+            "description": "Baseline models used in the experiments for argument comprehension tasks include Bag of Vectors (BoV), Bidirectional LSTM (BiLSTM), the SemEval winning model GIST by Choi and Lee, and the best model of Botschen et al.",
+            "source_entities": [
+                "BOV",
+                "BILSTM",
+                "GIST",
+                "BOTSCHEN ET AL.",
+                "CHOI AND LEE",
+                "HOCHREITER AND SCHMIDHUBER"
+            ]
+        },
+        {
+            "entity_name": "Regularization Techniques",
+            "entity_type": "TECHNOLOGY",
+            "description": "Regularization techniques used in the experiments to prevent overfitting and improve model performance include dropout regularization by Srivastava et al. and Adam optimization by Kingma and Ba.",
+            "source_entities": [
+                "DROPOUT REGULARIZATION",
+                "SRIVASTAVA ET AL.",
+                "ADAM OPTIMIZATION",
+                "KINGMA AND BA"
+            ]
+        },
+        {
+            "entity_name": "Hyperparameter Optimization",
+            "entity_type": "TECHNOLOGY",
+            "description": "Hyperparameter optimization techniques used in the experiments include grid search to find the best model settings and learning rate annealing to prevent overfitting, guided by validation accuracy.",
+            "source_entities": [
+                "GRID SEARCH",
+                "HYPERPARAMETERS",
+                "LEARNING RATE ANNEALING",
+                "VALIDATION ACCURACY"
+            ]
+        },
+        {
+            "entity_name": "Model Evaluation Metrics",
+            "entity_type": "CONCEPT",
+            "description": "Model evaluation metrics used to assess performance include test set accuracy to indicate the model's generalization capability and human performance as a benchmark for comparison.",
+            "source_entities": [
+                "TEST SET ACCURACY",
+                "HUMAN PERFORMANCE"
+            ]
+        },
+        {
+            "entity_name": "Model Training Process",
+            "entity_type": "CONCEPT",
+            "description": "The model training process involves a full pass through the training dataset called an epoch, during which parameters are updated based on the learning algorithm. The final parameters come from the epoch with maximum validation accuracy.",
+            "source_entities": [
+                "EPOCH",
+                "RANDOM ASSIGNMENT",
+                "BINARY LABEL",
+                "LOGITS",
+                "PREDICTION"
+            ]
+        }
+    ],
+    "chunk-66f0cc171e500d5b800332b1ba6a9b6f": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a model used in experiments to evaluate the exploitation of spurious statistical cues in the ARCT dataset. It achieves a maximum 71% accuracy when trained only on warrants and shows a peak performance of 77% when considering additional cues. BERT's performance can be entirely accounted for by exploiting spurious cues.",
+            "source_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "ARCT",
+            "entity_type": "EVENT",
+            "description": "ARCT is the event or dataset used for training and testing models, particularly focusing on the presence of statistical cues over labels. It is designed to demonstrate the presence and nature of these cues and to evaluate model performance based on their exploitation.",
+            "source_entities": [
+                "ARCT"
+            ]
+        },
+        {
+            "entity_name": "BOV and BiLSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "BoV and BiLSTM are baseline models used in the probing experiments with BERT Large to evaluate the exploitation of spurious statistical cues in the ARCT dataset.",
+            "source_entities": [
+                "BOV",
+                "BILSTM"
+            ]
+        },
+        {
+            "entity_name": "English",
+            "entity_type": "GEO",
+            "description": "English is the language used in the dataset and by the native speaker who manually negated the remaining claims to create adversarial examples for the ARCT dataset.",
+            "source_entities": [
+                "ENGLISH"
+            ]
+        },
+        {
+            "entity_name": "Cue's Applicability, Productivity, and Coverage",
+            "entity_type": "CONCEPT",
+            "description": "Cue's applicability ($\\alpha_{k}$), productivity ($\\pi_{k}$), and coverage ($\\xi_{k}$) are concepts used to define and measure the presence and strength of statistical cues in the ARCT dataset. These metrics help determine the usefulness of a cue for predicting labels and its prevalence in the dataset.",
+            "source_entities": [
+                "$\\MATHBB{T}_{J}^{(I)}$",
+                "$\\ALPHA_{K}$",
+                "$\\PI_{K}$",
+                "$\\XI_{K}$"
+            ]
+        },
+        {
+            "entity_name": "Tables in ARCT",
+            "entity_type": "CONCEPT",
+            "description": "Tables in the ARCT dataset provide information on the productivity and coverage of using certain cues, such as the presence of 'not' in the warrant, to predict labels. Table 2 shows the productivity and coverage of the cue 'not', while Table 3 presents the results of probing experiments with BERT Large and baselines. Table 4 displays the results of models trained on adversarial sets.",
+            "source_entities": [
+                "TABLE 2",
+                "TABLE 3",
+                "TABLE 4"
+            ]
+        },
+        {
+            "entity_name": "Adversarial Test Set",
+            "entity_type": "CONCEPT",
+            "description": "The Adversarial Test Set is a test set created by negating the claim and inverting the label for each data point to eliminate the problem of statistical cues over labels in the ARCT dataset. This approach mirrors the distributions of cues around both labels, reducing the impact of spurious cues on model performance.",
+            "source_entities": [
+                "ADVERSARIAL TEST SET",
+                "FIGURE 4"
+            ]
+        },
+        {
+            "entity_name": "Model Training and Evaluation Setups",
+            "entity_type": "CONCEPT",
+            "description": "Model training and evaluation setups in the ARCT dataset include training models only on warrants (W), considering cues in reasons and warrants (R, W), and considering cues in claims and warrants (C, W). These setups are used to evaluate the exploitation of distributional cues over labels and model performance.",
+            "source_entities": [
+                "W",
+                "R, W",
+                "C, W"
+            ]
+        }
+    ],
+    "chunk-c65b737226b835d39374cd6d0d2df637": null,
+    "chunk-c23e8327419064eef4ac7031080cd2ee": []
+}

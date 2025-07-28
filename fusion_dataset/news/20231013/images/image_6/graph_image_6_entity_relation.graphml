@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, curly, white hair- Eyes: Not visible due to sunglasses- Expression: Smiling, appears friendly and joyful- Age: Appears to be an elderly woman- Clothing: Wearing a colorful top with a mix of yellow, green, and other colors- Accessories: Large hoop earrings, blue sunglasses with a round frame- Posture: Head tilted slightly to the side, giving a playful and cheerful impressionOverall, the character gives off a vibrant and lively vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image features a person with curly white hair wearing blue-tinted sunglasses. The individual is smiling broadly, showing teeth, and has large hoop earrings. They are dressed in a colorful outfit that includes shades of pink and yellow. The background appears to be an indoor setting with a whiteboard or bulletin board displaying various papers and notes. The overall atmosphere conveyed by the image is one of happiness and positivity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An older woman with curly white hair, wearing large blue sunglasses and hoop earrings, smiling at the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<node id="&quot;SUNGLASSES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Large blue sunglasses worn by the woman."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<node id="&quot;EARRINGS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Large hoop earrings worn by the woman."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<node id="&quot;SMILE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The woman is smiling broadly at the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SUNGLASSES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sunglasses是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;EARRINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Earrings是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SMILE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Smile是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;SUNGLASSES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing the sunglasses."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;EARRINGS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing the earrings."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;SMILE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is displaying a smile."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231013/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

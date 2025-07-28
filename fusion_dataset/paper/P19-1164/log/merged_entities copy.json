@@ -1,0 +1,174 @@
+{
+    "chunk-61a07b2c6cd3a5fe05ae01915da5cbe9": [
+        {
+            "entity_name": "GENDER BIAS IN MACHINE TRANSLATION",
+            "entity_type": "EVENT",
+            "description": "The subject of the paper, which evaluates gender bias in machine translation systems and presents a challenge set and evaluation protocol for this analysis. The project's data and code are publicly available.",
+            "source_entities": [
+                "GENDER BIAS IN MACHINE TRANSLATION",
+                "MT_GENDER"
+            ]
+        },
+        {
+            "entity_name": "WINOMT",
+            "entity_type": "EVENT",
+            "description": "The challenge set created by concatenating the Winogender and WinoBias datasets for evaluating gender bias in machine translation.",
+            "source_entities": [
+                "WINOMT",
+                "WINOGENDER",
+                "WINOBIAS"
+            ]
+        }
+    ],
+    "chunk-de280a19f9b0d2d6cec43fde95b790d2": [
+        {
+            "entity_name": "WinoMT",
+            "entity_type": "Event",
+            "description": "WinoMT is a challenge set for gender bias in machine translation, created by combining the Winogender and WinoBias coreference test sets, containing 3,888 instances and balanced between male and female genders, as well as between stereotypical and nonstereotypical gender-role assignments.",
+            "source_entities": [
+                "\"WINOMT\"",
+                "\"WINOGENDER\"",
+                "\"WINOBIAS\""
+            ]
+        }
+    ],
+    "chunk-739dc030a3e9d6d53de1fc7b0f734b7a": [
+        {
+            "entity_name": "MT SYSTEMS",
+            "entity_type": "ORGANIZATION",
+            "description": "Machine translation systems being tested for gender bias in their translations, including Google Translate and Microsoft Translator. These systems are evaluated for their accuracy in preserving the gender of entities from the original English sentence and their performance on stereotypical and non-stereotypical gender role assignments.",
+            "source_entities": [
+                "\"MT SYSTEMS\"",
+                "\"GOOGLE TRANSLATE\"",
+                "\"MICROSOFT TRANSLATOR\""
+            ]
+        },
+        {
+            "entity_name": "WinoMT",
+            "entity_type": "ORGANIZATION",
+            "description": "WinoMT is the corpus used to test the performance of machine translation systems, especially in the context of gender bias. It is used to evaluate the systems' accuracy in preserving gender and their performance on stereotypical versus non-stereotypical gender roles. A modified version of WinoMT with stereotypical gender adjectives was also used to test the impact on translation bias.",
+            "source_entities": [
+                "\"WINOMT\""
+            ]
+        },
+        {
+            "entity_name": "Zhao et al.",
+            "entity_type": "PERSON",
+            "description": "Zhao et al. are referenced for defining stereotypical and non-stereotypical gender role assignments and their impact on translation system performance. They provide statistics used to measure the performance of translation systems in terms of gender bias.",
+            "source_entities": [
+                "\"ZHAO ET AL.\""
+            ]
+        },
+        {
+            "entity_name": "US Department of Labor",
+            "entity_type": "ORGANIZATION",
+            "description": "The US Department of Labor provides statistics used by Zhao et al. to define stereotypical gender roles, which are used to measure the performance of translation systems in terms of gender bias.",
+            "source_entities": [
+                "\"US DEPARTMENT OF LABOR\""
+            ]
+        },
+        {
+            "entity_name": "Gender Bias Evaluation",
+            "entity_type": "EVENT",
+            "description": "The process of estimating the accuracy of gender bias evaluation involves comparing human annotations to automatic methods. This includes the use of challenge sets like WinoMT to evaluate machine translation systems on test sets specially created to exhibit certain linguistic phenomena, going beyond the traditional BLEU metric. Human annotators mark the gender of entities within target-language sentences, and the levels of agreement for all languages and systems were above 85%, with an average agreement on 87% of the annotations.",
+            "source_entities": [
+                "\"3.4 HUMAN VALIDATION\"",
+                "\"PAPINENI ET AL.\"",
+                "\"ISABELLE ET AL.\""
+            ]
+        }
+    ],
+    "chunk-76b3b53e5cb00d1a843f2763ca3809cc": [
+        {
+            "entity_name": "MT",
+            "entity_type": "ORGANIZATION",
+            "description": "MT refers to machine translation systems, which are the focus of the study evaluating gender bias. These systems are evaluated through the use of challenge sets and are prone to translate based on gender stereotypes rather than more meaningful context.",
+            "source_entities": [
+                "MT"
+            ]
+        },
+        {
+            "entity_name": "BLEU Metric",
+            "entity_type": "CONCEPT",
+            "description": "The BLEU metric is a traditional method for evaluating the quality of machine translation systems, which has been supplemented by challenge sets to better evaluate specific linguistic phenomena.",
+            "source_entities": [
+                "BLEU METRIC"
+            ]
+        },
+        {
+            "entity_name": "Gender Bias",
+            "entity_type": "CONCEPT",
+            "description": "Gender bias refers to the tendency of machine translation systems to translate based on gender stereotypes rather than meaningful context, which is the main focus of the study presented.",
+            "source_entities": [
+                "GENDER BIAS"
+            ]
+        },
+        {
+            "entity_name": "Challenge Sets",
+            "entity_type": "CONCEPT",
+            "description": "Challenge sets are specially created test sets used to evaluate machine translation systems on specific linguistic phenomena, including gender bias.",
+            "source_entities": [
+                "CHALLENGE SETS"
+            ]
+        },
+        {
+            "entity_name": "WinoMT",
+            "entity_type": "ORGANIZATION",
+            "description": "WinoMT is a test set used for evaluating gender bias in machine translation systems, composed of synthetic English source-side examples that may introduce artificial biases.",
+            "source_entities": [
+                "\"WINOMT\"",
+                "SYNTHETIC ENGLISH SOURCESIDE EXAMPLES"
+            ]
+        },
+        {
+            "entity_name": "Natural 'In the Wild' Instances",
+            "entity_type": "CONCEPT",
+            "description": "Natural 'in the wild' instances refer to real-world examples that could be used to augment the WinoMT test set and provide a more accurate estimation of gender bias in machine translation systems.",
+            "source_entities": [
+                "NATURAL 'IN THE WILD' INSTANCES"
+            ]
+        },
+        {
+            "entity_name": "Ground Truth Entity Gender",
+            "entity_type": "CONCEPT",
+            "description": "Ground truth entity gender refers to the correct gender annotations for entities in the data used for training and evaluation of machine translation systems.",
+            "source_entities": [
+                "GROUND TRUTH ENTITY GENDER"
+            ]
+        },
+        {
+            "entity_name": "Gender-Balanced MT Models",
+            "entity_type": "CONCEPT",
+            "description": "Gender-balanced MT models are machine translation models that aim to reduce or eliminate gender bias in translations, which is a goal of the study presented.",
+            "source_entities": [
+                "GENDER-BALANCED MT MODELS"
+            ]
+        },
+        {
+            "entity_name": "Debiasing Scheme",
+            "entity_type": "CONCEPT",
+            "description": "A debiasing scheme is a method proposed in the study to reduce gender bias, relying on an oracle coreference system, although it is not applicable in a real-world scenario.",
+            "source_entities": [
+                "DEBIASING SCHEME",
+                "ORACLE COREFERENCE SYSTEM",
+                "SECTION 3.3"
+            ]
+        },
+        {
+            "entity_name": "GitHub",
+            "entity_type": "ORGANIZATION",
+            "description": "GitHub is the platform where the data and code for the study on gender bias in machine translation are publicly available.",
+            "source_entities": [
+                "GITHUB"
+            ]
+        },
+        {
+            "entity_name": "Eight Diverse Target Languages",
+            "entity_type": "GEO",
+            "description": "Eight diverse target languages refers to the languages into which machine translation systems were evaluated for gender bias.",
+            "source_entities": [
+                "EIGHT DIVERSE TARGET LANGUAGES"
+            ]
+        }
+    ]
+}

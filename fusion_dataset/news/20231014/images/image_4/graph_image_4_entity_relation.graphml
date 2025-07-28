@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Long, straight, and gray hair that falls naturally over the shoulders- Eyes: Not clearly visible due to the angle and lighting- Expression: Neutral expression with a slight hint of pensiveness- Age: Appears to be an older woman- Clothing: Wearing a dark top and a light gray, fluffy scarf or shawl draped around the neck and shoulders- Posture: Head slightly tilted, looking off to the sideOverall, the character gives off a calm and thoughtful vibe."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a portrait of Louise Glück, taken in late 2020. She has shoulder-length, wavy gray hair and is wearing a black top with a fur collar. The background appears to be an outdoor setting with blurred trees and foliage, suggesting a natural environment. The lighting is soft, casting a gentle glow on her face and highlighting the texture of her hair and the fur collar. The overall mood of the image is serene and contemplative, capturing a moment of quiet reflection."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"An elderly woman with gray hair, wearing a fur shawl and a black top, standing outdoors."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<node id="&quot;FUR SHAWL&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A gray fur shawl draped over the woman's shoulders."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<node id="&quot;BLACK TOP&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The woman is wearing a black top under her fur shawl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<node id="&quot;OUTDOORS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The setting is an outdoor area with trees in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_PERSON-0.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_person-0.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;FUR SHAWL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fur Shawl是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BLACK TOP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Black Top是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;OUTDOORS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Outdoors是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;FUR SHAWL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing the fur shawl."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;BLACK TOP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing the black top."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;OUTDOORS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is standing outdoors."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20231014/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

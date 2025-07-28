@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Example of controlling response-relatedness (cosine similarity to input) via weighted decoding.' The table has four columns: 'Wt' (Weight), 'Sim' (Similarity), and 'Weighted Decoding Response.' The rows represent different responses with varying weights and their corresponding cosine similarities. The 'Wt' column lists the weights as -10.0, 0.0, 5.0, 8.0, and 11.0. The 'Sim' column shows the cosine similarities as -0.05, -0.02, 0.40, 0.59, and 0.72, respectively. The 'Weighted Decoding Response' column provides the responses for each weight: 'I am a musician.' for -10.0, 'I do, when I am not playing the piano.' for 0.0, 'I do, usually at starbucks.' for 5.0, 'Not usually, especially when you drink latte.' for 8.0, and 'Not often, usually with drinks, espresso, latte, tea, etc.' for 11.0. The table highlights how different weights can influence the semantic relatedness of the model’s response."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<node id="&quot;COFFEE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A beverage often consumed by the person, especially when not playing the piano."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<node id="&quot;PIANO&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A musical instrument played by the person, which they do not engage with while getting coffee."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<node id="&quot;STARBUCKS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A place where the person frequently gets coffee."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<node id="&quot;LATTE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A type of coffee drink that the person does not usually consume."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<node id="&quot;DRINKS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various beverages that the person consumes alongside coffee, including espresso and tea."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;COFFEE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Coffee是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PIANO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Piano是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;STARBUCKS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Starbucks是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;LATTE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Latte是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;DRINKS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Drinks是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COFFEE&quot;" target="&quot;PIANO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The person engages in getting coffee as an alternative activity to playing the piano."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COFFEE&quot;" target="&quot;STARBUCKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The person often gets coffee from Starbucks."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COFFEE&quot;" target="&quot;LATTE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The person does not usually get latte when getting coffee."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;COFFEE&quot;" target="&quot;DRINKS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The person consumes various drinks alongside coffee."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

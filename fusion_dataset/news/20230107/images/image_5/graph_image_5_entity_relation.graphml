@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, dark hair styled in an updo- Expression: Focused and determined- Age: Appears to be an adult- Clothing: Wearing a form-fitting, sleeveless blue leotard with a matching skirt- Posture: In a ballet pose, with one leg extended back and the other bent at the knee, arms gracefully positionedOverall, the character appears to be a professional ballet dancer, captured mid-performance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts four ballet dancers performing a synchronized pose on stage. The dancers are positioned in a line, each executing a classical ballet move known as an 'arabesque.' They are dressed in form-fitting leotards of different colors: blue, green, orange, and teal. Each dancer has one leg extended backward in a straight line, with the foot pointed, and their arms are gracefully positioned above their heads, creating an elegant and fluid line. The background is dark, which contrasts sharply with the brightly lit dancers, emphasizing their forms and movements. The lighting highlights the dancers' bodies, casting soft shadows that add depth to the image. The overall atmosphere conveys a sense of grace, precision, and artistic expression typical of ballet performances."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<node id="&quot;DANCER 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A ballet dancer in a blue leotard, performing a dance pose with one leg extended back and arms gracefully positioned."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<node id="&quot;DANCER 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A ballet dancer in a green leotard, performing a dance pose with one leg extended forward and arms gracefully positioned."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<node id="&quot;DANCER 3&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A ballet dancer in an orange leotard, performing a dance pose with both legs crossed and arms gracefully positioned."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<node id="&quot;DANCER 4&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A ballet dancer in a teal leotard, performing a dance pose with one leg extended back and arms gracefully positioned."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;DANCER 1&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_5_person-0.jpg is a picture of Dancer 1."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_PERSON-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_person-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DANCER 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dancer 1是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DANCER 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dancer 2是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DANCER 3&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dancer 3是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DANCER 4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dancer 4是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 1&quot;" target="&quot;DANCER 2&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 1&quot;" target="&quot;DANCER 3&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 1&quot;" target="&quot;DANCER 4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 2&quot;" target="&quot;DANCER 3&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 2&quot;" target="&quot;DANCER 4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DANCER 3&quot;" target="&quot;DANCER 4&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Both dancers are performing together in the same ballet routine."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230107/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

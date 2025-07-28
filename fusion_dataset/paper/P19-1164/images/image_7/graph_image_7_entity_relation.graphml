@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Examples of Google Translate’s output for different sentences in the WinoMT corpus.' The table is divided into three columns: 'Source,' '[Target lang.] Predicted translation,' and 'Phenomenon.' Each row represents a sentence translated from English to Spanish or French, with specific words highlighted in blue, red, and orange to indicate male, female, and neutral entities, respectively. The first row shows an English sentence about a janitor not liking a baker because she always messes up the kitchen. The predicted Spanish translation incorrectly assigns a male inflection to 'baker' (el panadero) despite the pronoun 'she.' The phenomenon noted is biased translation due to gender mismatch. The second row modifies the original sentence by adding 'pretty' before 'baker.' The predicted Spanish translation now correctly uses 'la panadera bonita,' indicating that adding a stereotypically female adjective fixes the translation issue. The third row presents an English sentence about a counselor asking a guard questions and praising her for good work. The predicted French translation uses 'la garde' and 'l’a louée,' which are gender-neutral terms in French, allowing for a more direct translation without gender ambiguity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;THE JANITOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Does not like the baker and is frustrated by the mess in the kitchen."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;THE BAKER&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Causes a mess in the kitchen and is disliked by the janitor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;SHE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Refers to the baker, who is female."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;KITCHEN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Location where the baker causes a mess."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;THE COUNSELOR&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Asked questions to the guard and praised her for good work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<node id="&quot;THE GUARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Answered questions from the counselor and was praised for good work."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;THE JANITOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The janitor是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;THE BAKER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The baker是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;SHE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"She是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;KITCHEN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Kitchen是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;THE COUNSELOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The counselor是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;THE GUARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The guard是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE JANITOR&quot;" target="&quot;THE BAKER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The janitor does not like the baker because she always messes up the kitchen."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE COUNSELOR&quot;" target="&quot;THE GUARD&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The counselor asked the guard a few questions and praised her for the good work."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1164/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

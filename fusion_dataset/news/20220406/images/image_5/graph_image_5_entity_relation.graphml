@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5_BOWL-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Oyster- Color: The oyster shell is a light beige color, while the interior is a pale yellow with some darker spots.- Shape: The oyster has a roughly triangular shape with a curved edge, typical of many oyster shells.- Size: The oyster appears to be of average size for a cooked oyster, large enough to hold a substantial portion of the interior but not overly large.- Material: The shell is made of calcium carbonate, which gives it a hard, brittle texture. The interior contains a soft, edible part.- Possible function: Oysters are often consumed as a food item, particularly in seafood dishes. They can be eaten raw or cooked and are known for their distinctive flavor and nutritional value.Overall, the image depicts a cooked oyster with its shell partially open, revealing the interior which has been prepared with some herbs and possibly other seasonings."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5_DINING TABLE-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Baked oyster dish- Color: The oyster shell is a natural off-white color, while the filling is a vibrant mix of orange, yellow, and brown hues.- Shape: The oyster shell is irregularly shaped, with a curved edge and a central depression where the filling sits. The filling has an amorphous shape, conforming to the contours of the shell.- Size: The oyster shell is relatively large, suitable for serving as a single portion.- Material: The shell is made of a hard, brittle material typical of seashells, while the filling appears to be a soft, creamy mixture.- Possible function: This object functions as a gourmet food item, specifically a baked oyster dish that combines seafood with a flavorful topping.- Other significant characteristics: The dish is presented on a rustic plate with a textured surface, suggesting a focus on artisanal or farm-to-table cuisine. The filling is garnished with what appears to be herbs and possibly small pieces of dried fruit or nuts, adding both visual appeal and additional flavors to the dish."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a dish served on a round, rustic plate with a rough texture. The main component of the dish is a large, open pasta shell, possibly a conchiglioni or a similar type of shell pasta. Inside the pasta shell, there is a creamy, orange-colored filling that appears to be a sauce or custard. The filling is garnished with small pieces of what looks like dried herbs or spices, adding a touch of color and texture. The plate itself is placed on a white surface, which could be a tablecloth or a countertop. The overall presentation is elegant and suggests a gourmet or fine dining setting."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<node id="&quot;DISH&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A dish containing a cooked abalone shell with a yellow filling and garnished with herbs, served on a round plate with a sprinkling of coarse salt."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<node id="&quot;PLATE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A round plate with a rustic appearance, holding the dish."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<node id="&quot;SALT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Coarse salt sprinkled around the dish on the plate."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5_BOWL-0.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_bowl-0.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5_DINING TABLE-1.JPG&quot;" target="&quot;IMAGE_5&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_5_dining table-1.jpg是image_5的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;DISH&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dish是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;PLATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Plate是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SALT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Salt是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISH&quot;" target="&quot;PLATE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The dish is placed on top of the plate."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DISH&quot;" target="&quot;SALT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Coarse salt is sprinkled around the dish on the plate."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220406/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,511 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Number of positive and negative examples and their ratios for different data-imbalanced NLP tasks.' The table is structured with four main columns: Task, # neg, # pos, and ratio. Each row represents a specific NLP task and contains the following values: 'CoNLL03 NER' has 170K negative examples and 34K positive examples, with a ratio of 4.98; 'OntoNotes5.0 NER' has 1.96M negative examples and 239K positive examples, with a ratio of 8.18; 'SQuAD 1.1 (Rajpurkar et al., 2016)' has 10.3M negative examples and 175K positive examples, with a ratio of 55.9; 'SQuAD 2.0 (Rajpurkar et al., 2018)' has 15.4M negative examples and 188K positive examples, with a ratio of 82.0; 'QUOREF (Dasigi et al., 2019)' has 6.52M negative examples and 38.6K positive examples, with a ratio of 169. The table highlights the significant data imbalance across various NLP tasks, with the number of negative examples far exceeding the number of positive examples in each case."
+        },
+        {
+            "entity_name": "CONLL03 NER",
+            "entity_type": "EVENT",
+            "description": "A named entity recognition task with 170K negative and 34K positive samples, resulting in a ratio of 4.98."
+        },
+        {
+            "entity_name": "ONTONOTES5.0 NER",
+            "entity_type": "EVENT",
+            "description": "A named entity recognition task with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18."
+        },
+        {
+            "entity_name": "SQUAD 1.1",
+            "entity_type": "EVENT",
+            "description": "A question-answering task with 10.3M negative and 175K positive samples, resulting in a ratio of 55.9."
+        },
+        {
+            "entity_name": "SQUAD 2.0",
+            "entity_type": "EVENT",
+            "description": "An updated version of the SQuAD 1.1 task with 15.4M negative and 188K positive samples, resulting in a ratio of 82.0."
+        },
+        {
+            "entity_name": "QUOREF",
+            "entity_type": "EVENT",
+            "description": "A coreference resolution task with 6.52M negative and 38.6K positive samples, resulting in a ratio of 169."
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a line graph illustrating the derivatives of four different loss functions with respect to the probability of the ground-truth label, denoted as $\\\\bar{p}_i$. The x-axis represents the probability of the ground-truth label, ranging from 0 to 1. The y-axis represents the derivatives of the losses, ranging from -2 to 2. Four curves are plotted: \\\\nabla FL($\\\\gamma$=1) in blue, \\\\nabla DL($\\\\gamma$=1) in orange, \\\\nabla TL($\\\\beta$=0.5) in yellow, and \\\\nabla DSC in purple. The curve for \\\\nabla DSC approaches zero right after $\\\\bar{p}$ exceeds 0.5, while the other curves reach zero only if the probability is exactly 1. This indicates that the derivative of DSC will push $\\\\bar{p}$ towards 0.5, whereas the other losses will push $\\\\bar{p}$ towards 1."
+        },
+        {
+            "entity_name": "GRAPH",
+            "entity_type": "UNKNOWN",
+            "description": "Graph是从image_2中提取的实体。"
+        },
+        {
+            "entity_name": "FL(Γ=1)",
+            "entity_type": "UNKNOWN",
+            "description": "FL(γ=1)是从image_2中提取的实体。"
+        },
+        {
+            "entity_name": "DL(Γ=1)",
+            "entity_type": "UNKNOWN",
+            "description": "DL(γ=1)是从image_2中提取的实体。"
+        },
+        {
+            "entity_name": "TL(Β=0.5)",
+            "entity_type": "UNKNOWN",
+            "description": "TL(β=0.5)是从image_2中提取的实体。"
+        },
+        {
+            "entity_name": "DSC",
+            "entity_type": "UNKNOWN",
+            "description": "DSC是从image_2中提取的实体。"
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: Experimental results for Chinese POS datasets including CTB5, CTB6 and UD1.4.' The table compares the performance of different models on part-of-speech tagging tasks across three datasets: CTB5, CTB6, and UD1.4. The columns represent the datasets, while the rows represent various models and their corresponding metrics: Precision (Prec.), Recall (Rec.), and F1 score. The models listed are Joint-POS(Sig), Joint-POS(Ens), Lattice-LSTM, BERT-Tagger, BERT+FL, BERT+DL, and BERT+DSC. For example, on the CTB5 dataset, the BERT-Tagger model achieves a Precision of 95.86, Recall of 96.26, and an F1 score of 96.06. The BERT+DSC model performs the best with a Precision of 97.10, Recall of 98.75, and an F1 score of 97.92. The table also includes improvements over the baseline in parentheses, such as (+1.86) for the BERT+DSC model on the CTB5 dataset."
+        },
+        {
+            "entity_name": "JOINT-POS(SIG)",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Shao et al. in 2017 for part-of-speech tagging."
+        },
+        {
+            "entity_name": "JOINT-POS(ENS)",
+            "entity_type": "MODEL",
+            "description": "An ensemble model proposed by Shao et al. in 2017 for part-of-speech tagging."
+        },
+        {
+            "entity_name": "LATTICE-LSTM",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Zhang and Yang in 2018 that incorporates subword information into LSTM for part-of-speech tagging."
+        },
+        {
+            "entity_name": "BERT-TAGGER",
+            "entity_type": "MODEL",
+            "description": "A model proposed by Devlin et al. in 2018 that uses BERT for part-of-speech tagging."
+        },
+        {
+            "entity_name": "BERT+FL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT-Tagger with focal loss."
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT-Tagger with dynamic loss."
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT-Tagger with dynamic sample weighting."
+        },
+        {
+            "entity_name": "CTB5",
+            "entity_type": "DATASET",
+            "description": "The fifth version of the Penn Chinese Treebank dataset."
+        },
+        {
+            "entity_name": "CTB6",
+            "entity_type": "DATASET",
+            "description": "The sixth version of the Penn Chinese Treebank dataset."
+        },
+        {
+            "entity_name": "UD1.4",
+            "entity_type": "DATASET",
+            "description": "The 1.4 version of the Universal Dependencies dataset."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "ENGLISH WSJ",
+            "entity_type": "EVENT",
+            "description": "A dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score."
+        },
+        {
+            "entity_name": "META BILSTM",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Bohnet et al. in 2018 for sequence tagging tasks."
+        },
+        {
+            "entity_name": "BERT-TAGGER",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Devlin et al. in 2018 for sequence tagging tasks."
+        },
+        {
+            "entity_name": "BERT-TAGGER+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-Tagger with a focal loss component."
+        },
+        {
+            "entity_name": "BERT-TAGGER+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-Tagger with a dynamic loss component."
+        },
+        {
+            "entity_name": "BERT-TAGGER+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-Tagger with a dynamic sampling component."
+        },
+        {
+            "entity_name": "ENGLISH TWEETS",
+            "entity_type": "EVENT",
+            "description": "A dataset used for evaluating the performance of different models in terms of precision, recall, and F1 score on tweets."
+        },
+        {
+            "entity_name": "FASTTEXT+CNN+CRF",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Godin in 2019 for sequence tagging tasks."
+        },
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_4 is a table labeled 'Table 4: Experimental results for English POS datasets.' It is divided into two main sections, representing the English WSJ and English Tweets datasets. Each section contains rows corresponding to different models used for part-of-speech tagging. The columns in the table are 'Model,' 'Prec.' (Precision), 'Rec.' (Recall), and 'F1' (F1 Score). For the English WSJ dataset, the models listed are Meta BiLSTM, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. Meta BiLSTM has an F1 score of 98.23, while BERT-Tagger has a precision of 99.21, recall of 98.36, and F1 score of 98.86. BERT-Tagger+FL has a precision of 98.36, recall of 98.97, and F1 score of 98.88 (+0.02). BERT-Tagger+DL has a precision of 99.34, recall of 98.22, and F1 score of 98.91 (+0.05). BERT-Tagger+DSC has a precision of 99.41, recall of 98.93, and F1 score of 99.38 (+0.52). For the English Tweets dataset, the models listed are FastText+CNN+CRF, BERT-Tagger, BERT-Tagger+FL, BERT-Tagger+DL, and BERT-Tagger+DSC. FastText+CNN+CRF has an F1 score of 91.78, while BERT-Tagger has a precision of 92.33, recall of 91.98, and F1 score of 92.34. BERT-Tagger+FL has a precision of 91.24, recall of 93.22, and F1 score of 92.47 (+0.13). BERT-Tagger+DL has a precision of 91.4"
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'English CoNLL 2003' that provides performance metrics for various models on the English CoNLL 2003 dataset. The table is structured with four main columns: Model, Prec., Rec., and F1. Each row represents a different model and its corresponding performance metrics. The models listed are ELMo (Peters et al., 2018), CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision (Prec.), recall (Rec.), and F1 scores are provided for each model. For example, ELMo has an F1 score of 92.22, CVT has an F1 score of 92.6, BERT-Tagger has an F1 score of 92.8, and BERT-MRC has a precision of 92.33, recall of 94.61, and F1 score of 93.04. The best-performing model is BERT-MRC+DSC with a precision of 93.41, recall of 93.25, and F1 score of 93.33, which is an improvement of +0.29 over BERT-MRC."
+        },
+        {
+            "entity_name": "ENGLISH CONLL 2003",
+            "entity_type": "EVENT",
+            "description": "An event where different models are compared based on their performance metrics such as Precision, Recall, and F1 score."
+        },
+        {
+            "entity_name": "ELMO",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Peters et al. in 2018, achieving an F1 score of 92.22 on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "CVT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Clark et al. in 2018, achieving an F1 score of 92.6 on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "BERT-TAGGER",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Devlin et al. in 2018, achieving an F1 score of 92.8 on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Li et al. in 2019, achieving a Precision of 92.33, Recall of 94.61, and an F1 score of 93.04 on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with FL, achieving a Precision of 93.13, Recall of 93.09, and an F1 score of 93.11 (+0.06) on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with DL, achieving a Precision of 93.22, Recall of 93.12, and an F1 score of 93.17 (+0.12) on the English CoNLL 2003 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with DSC, achieving a Precision of 93.41, Recall of 93.25, and an F1 score of 93.33 (+0.29) on the English CoNLL 2003 dataset."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'English OntoNotes 5.0' that provides performance metrics for various models on the English OntoNotes 5.0 dataset. The table is structured with four main columns: Model, Prec., Rec., and F1. Each row represents a different model and its corresponding precision (Prec.), recall (Rec.), and F1 score. The models listed are CVT (Clark et al., 2018), BERT-Tagger (Devlin et al., 2018), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision, recall, and F1 scores are as follows: CVT has an F1 score of 88.8; BERT-Tagger has a precision of 90.01, recall of 88.35, and F1 score of 89.16; BERT-MRC has a precision of 92.98, recall of 89.95, and F1 score of 91.11; BERT-MRC+FL has a precision of 90.13, recall of 92.34, and F1 score of 91.22 (+0.11); BERT-MRC+DL has a precision of 91.70, recall of 92.06, and F1 score of 91.88 (+0.77); BERT-MRC+DSC has a precision of 91.59, recall of 92.56, and F1 score of 92.07 (+0.96). The table highlights the performance improvements of the models with additional loss functions compared to the baseline."
+        },
+        {
+            "entity_name": "ENGLISH ONTONOTES 5.0",
+            "entity_type": "EVENT",
+            "description": "A benchmark dataset used for evaluating the performance of different models in natural language processing tasks."
+        },
+        {
+            "entity_name": "CVT (CLARK ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Clark et al. in 2018, achieving an F1 score of 88.8 on the English OntoNotes 5.0 dataset."
+        },
+        {
+            "entity_name": "BERT-TAGGER (DEVLIN ET AL., 2018)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Devlin et al. in 2018, achieving a precision of 90.01, recall of 88.35, and an F1 score of 89.16 on the English OntoNotes 5.0 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC (LI ET AL., 2019)",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by Li et al. in 2019, achieving a precision of 92.98, recall of 89.95, and an F1 score of 91.11 on the English OntoNotes 5.0 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with focal loss, achieving a precision of 90.13, recall of 92.34, and an F1 score of 91.22 (+0.11) on the English OntoNotes 5.0 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with dynamic loss, achieving a precision of 91.70, recall of 92.06, and an F1 score of 91.88 (+0.77) on the English OntoNotes 5.0 dataset."
+        },
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BERT-MRC with dynamic sample consensus, achieving a precision of 91.59, recall of 92.56, and an F1 score of 92.07 (+0.96) on the English OntoNotes 5.0 dataset."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Experimental results for NER task.' The table is divided into two main sections: Chinese MSRA and Chinese OntoNotes 4.0. Each section contains a list of models with their corresponding precision (Prec.), recall (Rec.), and F1 scores. For the Chinese MSRA dataset, the models listed are Lattice-LSTM (Zhang and Yang, 2018), BERT-Tagger (Devlin et al., 2018), Glyce-BERT (Wu et al., 2019), BERT-MRC (Li et al., 2019), BERT-MRC+FL, BERT-MRC+DL, and BERT-MRC+DSC. The precision, recall, and F1 scores for these models range from 93.57 to 96.67, 92.79 to 96.77, and 93.18 to 96.72 respectively. For the Chinese OntoNotes 4.0 dataset, the models listed are the same as above. The precision, recall, and F1 scores for these models range from 76.35 to 84.22, 71.56 to 84.72, and 73.88 to 84.47 respectively. The table highlights the performance improvements of the DSC loss over other models, with significant gains in F1 scores."
+        },
+        {
+            "entity_name": "BERT-MRC+DSC",
+            "entity_type": "MODEL",
+            "description": "A model that achieves the highest F1 score on both Chinese MSRA and Chinese OntoNotes 4.0 datasets."
+        },
+        {
+            "entity_name": "CHINESE MSRA",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating named entity recognition models."
+        },
+        {
+            "entity_name": "CHINESE ONTONOTES 4.0",
+            "entity_type": "DATASET",
+            "description": "Another dataset used for evaluating named entity recognition models."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the experimental results for the machine reading comprehension (MRC) task using different models and datasets. The table is divided into rows and columns. The first column lists the models: QANet, BERT, BERT+FL, BERT+DL, BERT+DSC, XLNet, XLNet+FL, XLNet+DL, and XLNet+DSC. The subsequent columns are labeled with the datasets SQuAD v1.1, SQuAD v2.0, and QuoRef, each further divided into EM (Exact Match) and F1 score metrics. For example, QANet scores 73.6 on EM and 82.7 on F1 for SQuAD v1.1. BERT scores 84.1 on EM and 90.9 on F1 for SQuAD v1.1. BERT+DSC achieves 85.34 on EM and 91.97 on F1 for SQuAD v1.1. XLNet scores 88.95 on EM and 94.52 on F1 for SQuAD v1.1. XLNet+DSC achieves 89.79 on EM and 95.77 on F1 for SQuAD v1.1. The table highlights the performance boost obtained by the proposed DSC loss over BERT and XLNet across all datasets and metrics."
+        },
+        {
+            "entity_name": "QANET",
+            "entity_type": "MODEL",
+            "description": "A model developed by Yu et al. in 2018 for question answering tasks."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "MODEL",
+            "description": "A model developed by Devlin et al. in 2018 for a variety of NLP tasks, including question answering."
+        },
+        {
+            "entity_name": "BERT+FL",
+            "entity_type": "MODEL",
+            "description": "BERT model with focal loss applied."
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "MODEL",
+            "description": "BERT model with dynamic loss applied."
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "MODEL",
+            "description": "BERT model with dynamic sample consensus applied."
+        },
+        {
+            "entity_name": "XLNET",
+            "entity_type": "MODEL",
+            "description": "A model developed by Yang et al. in 2019 for language modeling and other NLP tasks."
+        },
+        {
+            "entity_name": "XLNET+FL",
+            "entity_type": "MODEL",
+            "description": "XLNet model with focal loss applied."
+        },
+        {
+            "entity_name": "XLNET+DL",
+            "entity_type": "MODEL",
+            "description": "XLNet model with dynamic loss applied."
+        },
+        {
+            "entity_name": "XLNET+DSC",
+            "entity_type": "MODEL",
+            "description": "XLNet model with dynamic sample consensus applied."
+        },
+        {
+            "entity_name": "SQUAD V1.1",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of models on question answering tasks."
+        },
+        {
+            "entity_name": "SQUAD V2.0",
+            "entity_type": "DATASET",
+            "description": "An updated version of SQuAD v1.1 with more challenging questions."
+        },
+        {
+            "entity_name": "QUOREF",
+            "entity_type": "DATASET",
+            "description": "A dataset focusing on coreference resolution in question answering tasks."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 6: Experimental results for MRC task.' The table compares the performance of different models on two tasks, MRPC and QQP, using the F1 score as the metric. The rows represent different models and their variations, while the columns show the F1 scores for each task. The models listed are BERT (Devlin et al., 2018), BERT+FL, BERT+DL, BERT+DSC, XLNet (Yang et al., 2019), XLNet+FL, XLNet+DL, and XLNet+DSC. For the MRPC task, the F1 scores are as follows: BERT has an F1 score of 88.0, BERT+FL has 88.43 (+0.43), BERT+DL has 88.71 (+0.71), and BERT+DSC has 88.92 (+0.92). For the QQP task, the F1 scores are: BERT has an F1 score of 91.3, BERT+FL has 91.86 (+0.56), BERT+DL has 91.92 (+0.62), and BERT+DSC has 92.11 (+0.81). For XLNet, the F1 scores are: XLNet has an F1 score of 89.2 for MRPC and 91.8 for QQP, XLNet+FL has 89.25 (+0.05) for MRPC and 92.31 (+0.51) for QQP, XLNet+DL has 89.33 (+0.13) for MRPC and 92.39 (+0.59) for QQP, and XLNet+DSC has 89.78 (+0.58) for MRPC and 92.60 (+0.79) for QQP. The table highlights the performance boost obtained by adding different loss functions to BERT and XLNet."
+        },
+        {
+            "entity_name": "BERT (DEVLIN ET AL., 2018)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model that achieves an F1 score of 88.0 on MRPC and 91.3 on QQP."
+        },
+        {
+            "entity_name": "BERT+FL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT with a focus loss, achieving an F1 score of 88.43 on MRPC and 91.86 on QQP."
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT with a dynamic loss, achieving an F1 score of 88.71 on MRPC and 91.92 on QQP."
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of BERT with a dynamic sample correction, achieving an F1 score of 88.92 on MRPC and 92.11 on QQP."
+        },
+        {
+            "entity_name": "XLNET (YANG ET AL., 2019)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model that achieves an F1 score of 89.2 on MRPC and 91.8 on QQP."
+        },
+        {
+            "entity_name": "XLNET+FL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of XLNet with a focus loss, achieving an F1 score of 89.25 on MRPC and 92.31 on QQP."
+        },
+        {
+            "entity_name": "XLNET+DL",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of XLNet with a dynamic loss, achieving an F1 score of 89.33 on MRPC and 92.39 on QQP."
+        },
+        {
+            "entity_name": "XLNET+DSC",
+            "entity_type": "MODEL",
+            "description": "An enhanced version of XLNet with a dynamic sample correction, achieving an F1 score of 89.78 on MRPC and 92.60 on QQP."
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "IMAGE_10",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the performance of different models on a dataset with various data augmentation strategies. The table has six columns: 'original', '+ positive', '+ negative', '- negative', and '+ positive & negative'. Each row represents a different model configuration. The first row is labeled 'BERT' and shows the following values: 91.3 for 'original', 92.27 for '+ positive', 90.08 for '+ negative', 89.73 for '- negative', and 93.14 for '+ positive & negative'. The second row, 'BERT+FL', shows slight improvements over BERT, with values of 91.86 (+0.56), 92.64 (+0.37), 90.61 (+0.53), 90.79 (+1.06), and 93.45 (+0.31). The third row, 'BERT+DL', also shows improvements, with values of 91.92 (+0.62), 92.87 (+0.60), 90.22 (+0.14), 90.49 (+0.76), and 93.52 (+0.38). The last row, 'BERT+DSC', shows the highest improvements, with values of 92.11 (+0.81), 92.92 (+0.65), 90.78 (+0.70), 90.80 (+1.07), and 93.63 (+0.49)."
+        },
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "A deep learning model used for natural language processing tasks, specifically shown in the table with various modifications."
+        },
+        {
+            "entity_name": "BERT+FL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model augmented with a focal loss function, as indicated in the table."
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model enhanced with a dynamic loss function, as presented in the table."
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT model improved with a dynamic sample weighting scheme, as detailed in the table."
+        },
+        {
+            "entity_name": "ORIGINAL",
+            "entity_type": "EVENT",
+            "description": "The baseline performance of the BERT model without any additional modifications."
+        },
+        {
+            "entity_name": "+ POSITIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding positive examples to the training set."
+        },
+        {
+            "entity_name": "+ NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding negative examples to the training set."
+        },
+        {
+            "entity_name": "- NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after removing negative examples from the training set."
+        },
+        {
+            "entity_name": "+ POSITIVE & NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding both positive and negative examples to the training set."
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "IMAGE_11",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 8: The effect of different data augmentation ways for QQP in terms of F1-score.' The table is structured with two main columns: SST-2 and SST-5, each representing different datasets. Under each dataset column, there are two sub-columns labeled 'Acc' for accuracy. The rows represent different models used for data augmentation: BERT+CE, BERT+DL, and BERT+DSC. The values in the table are as follows: For SST-2, BERT+CE has an accuracy of 94.90%, BERT+DL has 94.37%, and BERT+DSC has 94.84%. For SST-5, BERT+CE has an accuracy of 55.57%, BERT+DL has 54.63%, and BERT+DSC has 55.19%. The table highlights the performance of these models across different datasets, with BERT+CE generally achieving higher accuracy scores."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying the accuracy of different models on SST-2 and SST-5 datasets."
+        },
+        {
+            "entity_name": "BERT+CE",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Cross-Entropy loss, achieving 94.90% accuracy on SST-2 and 55.57% on SST-5."
+        },
+        {
+            "entity_name": "BERT+DL",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Dice Loss, achieving 94.37% accuracy on SST-2 and 54.63% on SST-5."
+        },
+        {
+            "entity_name": "BERT+DSC",
+            "entity_type": "MODEL",
+            "description": "A model that combines BERT with Dynamic Sample Consistency, achieving 94.84% accuracy on SST-2 and 55.19% on SST-5."
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on sentiment analysis."
+        },
+        {
+            "entity_name": "SST-5",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on fine-grained sentiment analysis."
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "IMAGE_12",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the effect of hyperparameters in Tversky Index on two different datasets: Chinese Onto4.0 and English QuoRef. The table has three columns: the first column lists values of the hyperparameter α ranging from 0.1 to 0.9, the second column shows the corresponding F1 scores for the Chinese Onto4.0 dataset, and the third column shows the F1 scores for the English QuoRef dataset. For the Chinese Onto4.0 dataset, the F1 scores are as follows: 80.13 for α = 0.1, 81.17 for α = 0.2, 84.22 for α = 0.3, 84.52 for α = 0.4, 84.47 for α = 0.5, 84.67 for α = 0.6 (highlighted in bold), 81.81 for α = 0.7, 80.97 for α = 0.8, and 80.21 for α = 0.9. For the English QuoRef dataset, the F1 scores are: 63.23 for α = 0.1, 63.45 for α = 0.2, 65.88 for α = 0.3, 68.44 for α = 0.4 (highlighted in bold), 67.52 for α = 0.5, 66.35 for α = 0.6, 65.09 for α = 0.7, 64.13 for α = 0.8, and 64.84 for α = 0.9. The highest F1 score for the Chinese Onto4.0 dataset is 84.67 at α = 0.6, and for the English QuoRef dataset, it is 68.44 at α = 0.4."
+        },
+        {
+            "entity_name": "TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table displaying performance metrics for two datasets, Chinese Onto4.0 and English QuoRef, across different values of alpha (α)."
+        },
+        {
+            "entity_name": "CHINESE ONTO4.0",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of a model, with scores ranging from 80.13 to 84.67."
+        },
+        {
+            "entity_name": "ENGLISH QUOREF",
+            "entity_type": "DATASET",
+            "description": "Another dataset used for evaluating the performance of a model, with scores ranging from 63.23 to 68.44."
+        },
+        {
+            "entity_name": "ALPHA (Α)",
+            "entity_type": "PARAMETER",
+            "description": "A parameter that varies from 0.1 to 0.9, affecting the performance scores on both datasets."
+        }
+    ]
+}

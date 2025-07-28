@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_20&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a whimsical scene from the story of Alice in Wonderland. The central figure is the Cheshire Cat, which is depicted as a disembodied grin floating among tree branches. The cat's face is characterized by its wide, toothy smile and half-closed eyes, giving it a mischievous and enigmatic expression. The surrounding environment is dense with foliage, creating a forest-like atmosphere. The branches and leaves are intricately drawn, adding to the fantastical and dreamlike quality of the scene. The overall mood conveyed is one of surrealism and mystery, fitting the narrative context where the Cheshire Cat appears and disappears unexpectedly, leaving only its grin behind."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+</node>
+<node id="&quot;CHESHIRE CAT&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A grinning cat with a wide smile, partially hidden in the branches of a tree."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+</node>
+<node id="&quot;TREE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A detailed, leafy tree with many branches, some of which are occupied by the Cheshire Cat."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+</node>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;CHESHIRE CAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cheshire Cat是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_20&quot;" target="&quot;TREE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Tree是从image_20中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CHESHIRE CAT&quot;" target="&quot;TREE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The Cheshire Cat is perched among the branches of the tree."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (2)/images/image_20.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

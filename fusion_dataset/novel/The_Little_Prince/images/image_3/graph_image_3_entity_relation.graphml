@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a simple line drawing of a hat. The hat is depicted in a side view, with a broad brim and a rounded crown. The lines are smooth and continuous, giving the impression of a classic fedora or cowboy hat. The drawing is minimalistic, with no additional details such as patterns or textures. The background is plain and does not contain any other objects or scenery."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_3.jpg</data>
+</node>
+<node id="&quot;HAT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A light brown, wide-brimmed hat with a gentle curve and a small indentation on top."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;HAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hat是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

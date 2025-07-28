@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'organism'. The entity features are as follows:Organism Features:- Species: Leopard gecko- Age: Appears to be a young gecko, given its small size and the fact that it is being held in hands- Color: The gecko has a distinctive pattern with alternating bands of yellow and dark brown on its body. Its tail has a series of rings in the same color scheme.- Shape: The gecko has a robust body with a broad head and short limbs. Its tail is relatively long and thick.- Size: Small, fitting comfortably within the hands holding it.- Posture: The gecko is being gently cupped in human hands, with its body slightly curved and its limbs spread out.Overall, the leopard gecko appears healthy and well-cared for, showcasing its unique and attractive patterning."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image shows a close-up of a person's hands holding a small, striped lizard. The lizard has a distinctive black and yellow striped pattern on its body and legs. It is perched on what appears to be a light-colored, textured surface, possibly a piece of wood or a rock. The hands are gently cradling the lizard, with fingers positioned to support it from underneath. The background is dark, which contrasts with the bright colors of the lizard and the light surface it is on. The overall atmosphere of the image conveys a sense of care and fascination with the creature."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+</node>
+<node id="&quot;GECKO&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A small gecko with a distinctive striped pattern on its body, being held gently by human hands."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+</node>
+<node id="&quot;HANDS&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Two human hands holding the gecko carefully, providing support and safety."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;GECKO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_6_person-0.jpg is a picture of a gecko."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GECKO&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Gecko是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;HANDS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hands是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GECKO&quot;" target="&quot;HANDS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The gecko is being held by the hands, indicating a gentle interaction between the animal and the person."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220405/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

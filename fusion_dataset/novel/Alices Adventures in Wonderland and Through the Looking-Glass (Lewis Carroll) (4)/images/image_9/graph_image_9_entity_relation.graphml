@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a character in a state of distress. The character appears to be an elderly man with disheveled hair and a sorrowful expression, sitting on the ground with his knees drawn up to his chest. He is wearing a long coat and trousers, and his posture suggests he is in a confined space, possibly a cell. His hands are shackled together with a heavy chain that is attached to a large stone pillar beside him. Above his head, there is a bucket hanging from a hook on the wall. The floor is covered with straw, and there is a small jug lying on the ground near his feet. The overall atmosphere conveyed by the image is one of despair and confinement, with the character appearing to be in a state of deep contemplation or resignation. The illustration style is detailed and expressive, capturing the emotional weight of the scene."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<node id="&quot;IMPRISONED MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with wild hair, wearing a hat and chained to a post, sitting in a cell."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<node id="&quot;HAT&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"The hat is tilted on the man's head, adding to his disheveled appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<node id="&quot;CHAIN AND POST&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A heavy chain links the man to a sturdy post, symbolizing his captivity."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<node id="&quot;CELL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"The interior of a cell with stone walls and a straw-covered floor."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<node id="&quot;JAR&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A small jar sits on the floor near the man, possibly containing food or drink."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;IMPRISONED MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Imprisoned Man是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;HAT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hat是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CHAIN AND POST&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Chain and Post是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;CELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cell是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;JAR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Jar是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMPRISONED MAN&quot;" target="&quot;HAT&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hat is worn by the imprisoned man, contributing to his overall appearance."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMPRISONED MAN&quot;" target="&quot;CHAIN AND POST&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is chained to the post, indicating his imprisonment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMPRISONED MAN&quot;" target="&quot;CELL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is situated within the confines of the cell, highlighting his captive state."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMPRISONED MAN&quot;" target="&quot;JAR&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The jar is located near the man, suggesting it may be used for sustenance while he is imprisoned."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Alices Adventures in Wonderland and Through the Looking-Glass (Lewis Carroll) (4)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

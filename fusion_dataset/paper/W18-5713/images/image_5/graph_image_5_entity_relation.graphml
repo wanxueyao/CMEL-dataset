@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Human Evaluation scores for the models, scoring fluency, engagingness, consistency and persona detection, with standard deviation in parentheses. We consider engagingness to be the most important metric.' The table compares different models using A/B testing by humans. The rows represent different comparisons between models, specifically RetrieveNRefine++ versus Memory Network, RetrieveNRefine++ versus Seq2Seq, and RetrieveNRefine++ (retrieved/generated) versus Seq2Seq. The columns include 'Comparison (A vs. B)', 'Win Rate', 'A Wins', 'B Wins', 'Tie', and 'p-value'. The 'Win Rate' column shows percentages such as 54.5% for RetrieveNRefine++ versus Memory Network and 53.7% for RetrieveNRefine++ versus Seq2Seq. The 'A Wins' and 'B Wins' columns provide numerical values indicating the number of wins for each model, for example, 340 for RetrieveNRefine++ and 284 for Memory Network in the first comparison. The 'Tie' column lists the number of ties, such as 572 for the first comparison. The 'p-value' column provides statistical significance values, such as 0.027 for the first comparison. The table highlights the performance of RetrieveNRefine++ against other models in terms of win rates and statistical significance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;RETRIEVENREFINE++&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An advanced version of the RetrieveNRefine model used in the comparisons."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;MEMORY NETWORK&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A type of neural network model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;SEQ2SEQ&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A sequence-to-sequence model used for comparison against RetrieveNRefine++ and RetrieveNRefine+ models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;RETRIEVENREFINE+(RETRIEVED)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A variant of the RetrieveNRefine+ model that uses retrieved data, compared against Seq2Seq."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;RETRIEVENREFINE+(GENERATED)&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Another variant of the RetrieveNRefine+ model that generates data, compared against Seq2Seq."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;RETRIEVENREFINE+&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A less advanced version of the RetrieveNRefine model used in the comparisons."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<node id="&quot;HUMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A human participant used as a baseline for comparison against machine models."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RETRIEVENREFINE++&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetrieveNRefine++是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;MEMORY NETWORK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Memory Network是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SEQ2SEQ&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Seq2Seq是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RETRIEVENREFINE+(RETRIEVED)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetrieveNRefine+(retrieved)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RETRIEVENREFINE+(GENERATED)&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetrieveNRefine+(generated)是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;RETRIEVENREFINE+&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"RetrieveNRefine+是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;HUMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Human是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/W18-5713/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

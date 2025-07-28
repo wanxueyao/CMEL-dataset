@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, curly hair styled in a classic updo with waves- Eyes: Dark, almond-shaped eyes with a gentle gaze- Expression: Smiling, appears friendly and approachable- Age: Appears to be an adult woman, possibly middle-aged- Clothing: Wearing a white garment that could be a dress or blouse, with a high neckline and what appears to be a fur collar- Accessories: Large, dangling earrings and a necklace, both appear to be made of pearls or a similar material- Posture: Head slightly tilted, giving a warm and inviting appearanceOverall, the character gives off an elegant and refined vibe, reminiscent of classic Hollywood glamour."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Female- Hairstyle: Short, curly hair styled in a classic 1950s fashion- Eyes: Dark, with a gentle and warm expression- Expression: Smiling, appears friendly and approachable- Age: Appears to be a mature woman- Clothing: Wearing a white fur stole over her shoulders, suggesting a formal or elegant occasion- Accessories: Diamond earrings and a necklace, adding to the formal appearanceOverall, the character gives off an elegant and refined vibe, typical of mid-20th century Hollywood glamour."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white photograph of a woman with short, curly hair styled in an elegant updo. She is wearing a fur stole around her shoulders, which adds a touch of luxury and warmth to her appearance. Her earrings are long and dangling, complementing her sophisticated look. The background is dark and blurred, which helps to highlight the subject and create a sense of depth. The overall atmosphere of the image conveys a sense of elegance and grace, with the woman appearing poised and confident."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+</node>
+<node id="&quot;WOMAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A woman with curly hair, wearing a fur collar and earrings, smiling at the camera."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+</node>
+<node id="&quot;FUR COLLAR&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d1">"The woman is wearing a fur collar around her neck."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;EARRINGS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d1">"The woman is wearing earrings."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_6_PERSON-0.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-0.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6_PERSON-1.JPG&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_6_person-1.jpg是image_6的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;WOMAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Woman是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;FUR COLLAR&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The woman is wearing a fur collar around her neck."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WOMAN&quot;" target="&quot;EARRINGS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The woman is wearing earrings."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240106/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

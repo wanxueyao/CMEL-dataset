@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a screenshot of a human evaluation questionnaire design for comparing two conversations, one between humans and the other between a human and a repetition-controlled baseline model. The layout includes instructions at the top, followed by two conversation threads side by side. The left thread (Speaker 1) is in blue speech bubbles, while the right thread (Speaker 2) is in green speech bubbles. The grey speech bubbles represent the other speakers. The conversation starts with a greeting and progresses through various topics such as personal interests, hobbies, and lifestyle choices. The participants discuss board games, Twitch streaming, dietary habits, and family backgrounds. The questionnaire asks the evaluator to choose which speaker they find more interesting and provides a space for a brief reason explaining their choice. The options are 'Speaker 1' or 'Speaker 2'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+</node>
+<node id="&quot;SPEAKER 1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person who enjoys board games, has parents who were teachers, and likes going to the beach but is allergic to water."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+</node>
+<node id="&quot;SPEAKER 2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A person who is an economist, enjoys Arabian food, follows a raw diet, and loves attending Rolling Stones concerts every year."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SPEAKER 1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Speaker 1是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SPEAKER 2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Speaker 2是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SPEAKER 1&quot;" target="&quot;SPEAKER 2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The two speakers are engaged in a conversation about their interests and hobbies."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1170/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

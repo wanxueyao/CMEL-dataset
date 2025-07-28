@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 4: Fact Completion' that provides the top-k accuracy (@1/@5, %) for predicting the next token for an incomplete factual sentence. The table is structured with four main columns: AWD-LSTM, GPT-2, KGLM Oracle, and KGLM NEL. Each column represents a different language model and contains the following rows: 'nation-capital' (AWD-LSTM: 0/0, GPT-2: 6/7, KGLM Oracle: 0/0, KGLM NEL: 0/4), 'birthloc' (AWD-LSTM: 0/9, GPT-2: 14/14, KGLM Oracle: 94/95, KGLM NEL: 85/92), 'birthdate' (AWD-LSTM: 0/25, GPT-2: 8/9, KGLM Oracle: 65/68, KGLM NEL: 61/67), 'spouse' (AWD-LSTM: 0/0, GPT-2: 2/3, KGLM Oracle: 2/2, KGLM NEL: 1/19), 'city-state' (AWD-LSTM: 0/13, GPT-2: 62/62, KGLM Oracle: 9/59, KGLM NEL: 4/59), 'book-author' (AWD-LSTM: 0/2, GPT-2: 0/0, KGLM Oracle: 61/62, KGLM NEL: 25/28). The table highlights the performance of each language model across various relations, with KGLM variants significantly outperforming AWD-LSTM in most cases. The average accuracy is also provided at the bottom of the table (AWD-LSTM: 0.0/8.2, GPT-2: 15.3/15.8, KGLM Oracle: 38.5/47.7, KGLM NEL: 29.3/44.8)."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;AWD-LSTM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A machine learning model used for natural language processing tasks, specifically shown in the table with performance metrics across various categories."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;GPT-2&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An advanced language model developed by OpenAI, known for its text generation capabilities, also evaluated in the table for different relation types."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;KGLM&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A knowledge-grounded language model that uses external knowledge to improve its performance, showcased in the table with two variants: Oracle and NEL."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;ORACLE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Variant of KGLM that assumes perfect entity linking, providing an upper bound on performance as seen in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;NEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Variant of KGLM that performs named entity linking, demonstrating real-world applicability as indicated in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;NATION-CAPITAL&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating the capital of a nation, with performance scores for different models listed in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;BIRTHLOC&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating the place of birth, with corresponding performance metrics for each model displayed in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;BIRTHDATE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating the date of birth, with associated performance scores for the models shown in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;SPOUSE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating marital relationships, with performance data for each model provided in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;CITY-STATE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating the state a city is located in, with performance metrics for the models listed in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<node id="&quot;BOOK-AUTHOR&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Relationship type indicating the authorship of a book, with performance scores for the models shown in the table."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+</node>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;AWD-LSTM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"AWD-LSTM是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;GPT-2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"GPT-2是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"KGLM是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;ORACLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Oracle是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;NEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"NEL是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;NATION-CAPITAL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"nation-capital是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BIRTHLOC&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"birthloc是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BIRTHDATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"birthdate是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;SPOUSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"spouse是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;CITY-STATE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"city-state是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_6&quot;" target="&quot;BOOK-AUTHOR&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"book-author是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AWD-LSTM&quot;" target="&quot;GPT-2&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are machine learning models compared in the table for their performance on various relationship types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AWD-LSTM&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are machine learning models compared in the table for their performance on various relationship types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GPT-2&quot;" target="&quot;KGLM&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are machine learning models compared in the table for their performance on various relationship types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KGLM&quot;" target="&quot;ORACLE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Oracle is a variant of KGLM that assumes perfect entity linking, showing higher performance scores in the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;KGLM&quot;" target="&quot;NEL&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"NEL is a variant of KGLM that performs named entity linking, showing real-world performance scores in the table."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NATION-CAPITAL&quot;" target="&quot;BIRTHDATE&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Both are relationship types evaluated in the table, though they represent different kinds of information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIRTHLOC&quot;" target="&quot;SPOUSE&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Both are relationship types evaluated in the table, though they represent different kinds of information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIRTHDATE&quot;" target="&quot;SPOUSE&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Both are relationship types evaluated in the table, though they represent different kinds of information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CITY-STATE&quot;" target="&quot;BOOK-AUTHOR&quot;">
+  <data key="d3">4.0</data>
+  <data key="d4">"Both are relationship types evaluated in the table, though they represent different kinds of information."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1598/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

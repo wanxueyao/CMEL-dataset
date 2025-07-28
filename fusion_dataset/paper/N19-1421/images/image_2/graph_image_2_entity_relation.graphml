@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the generation process of multiple-choice questions for COMMONSENSEQA using the CONCEPTNET knowledge base. The process is divided into several steps. Initially, subgraphs are extracted from CONCEPTNET, which is represented by a graph with nodes and edges. The nodes are colored in red, green, and blue, representing different concepts, while the edges are depicted as lines connecting these nodes. Next, crowdworkers are involved to author questions based on these subgraphs. For example, one question asks about dust in a house, with options including attic, yard, street, bed, and desert. Another question inquires about finding glass outside, with options like bar, fork, car, sand, and wine. A third question explores what makes someone happy, with options such as laugh, sad, fall, blue, and feel. Crowdworkers also add distractors to each question. Following this, the questions are filtered by quality, with some being discarded due to low quality. Finally, relevant snippets are collected via a search engine to provide context for each question. The flowchart uses arrows to indicate the sequence of these steps, and the overall process is designed to generate high-quality, commonsense-based multiple-choice questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;CROWDWORKERS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Individuals who contribute to the creation and refinement of questions and distractors in a collaborative process."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;CONCEPTNET&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A semantic network that provides a platform for extracting subgraphs and filtering edges based on predefined rules."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;QUESTIONS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The primary output of the crowdworkers, consisting of inquiries about various topics such as dust locations, glass finding, and emotional states."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;DISTRACTORS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Incorrect options added by crowdworkers to multiple-choice questions to challenge the respondent's understanding and attention."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;SUBGRAPHS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Extracted portions of ConceptNet that represent relationships between concepts relevant to the generated questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;RULES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Criteria used to filter edges within ConceptNet to ensure the relevance and quality of the extracted subgraphs."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;QUALITY FILTERING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Process where crowdworkers evaluate and select high-quality questions from the pool of generated questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<node id="&quot;SEARCH ENGINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Tool used to collect relevant snippets that provide additional context or verification for the questions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CROWDWORKERS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Crowdworkers是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;CONCEPTNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"ConceptNet是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;QUESTIONS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Questions是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DISTRACTORS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Distractors是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SUBGRAPHS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Subgraphs是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RULES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Rules是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;QUALITY FILTERING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Quality Filtering是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;SEARCH ENGINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Search Engine是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CROWDWORKERS&quot;" target="&quot;QUESTIONS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Crowdworkers generate questions as part of their contribution to the project."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CROWDWORKERS&quot;" target="&quot;DISTRACTORS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Crowdworkers add distractors to the questions to increase their complexity and challenge respondents."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONCEPTNET&quot;" target="&quot;SUBGRAPHS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"ConceptNet is used to extract subgraphs that form the basis for question generation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CONCEPTNET&quot;" target="&quot;RULES&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Rules are applied to ConceptNet to filter edges and refine the subgraphs for better question quality."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTIONS&quot;" target="&quot;QUALITY FILTERING&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"After generation, questions undergo a quality filtering process to ensure they meet certain standards."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;QUESTIONS&quot;" target="&quot;SEARCH ENGINE&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"Relevant snippets are collected via a search engine to support or verify the questions."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N19-1421/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

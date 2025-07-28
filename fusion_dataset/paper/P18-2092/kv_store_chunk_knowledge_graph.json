@@ -1,0 +1,1309 @@
+{
+    "1": {
+        "chunk_key": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334",
+        "entities": [
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM refers to a type of recurrent neural network architecture used for capturing sequential information in the given text.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"MIKOLOV ET AL., 2013\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Mikolov et al., 2013 are the authors who introduced the concept of continuous word embeddings used in the LSTM model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"LUONG ET AL., 2015B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Luong et al., 2015b are the authors whose formulation is adopted for the content-based function capturing semantic association between a word and the target.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"HE ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"He et al., 2017 are the authors associated with the formulation used for the content-based function in the LSTM model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"LSTM+ATT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM+ATT is the baseline model used in the text, which is an LSTM model extended with an attention mechanism.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"PRET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PRET refers to the pretraining event where document-level examples are used to initialize the LSTM+ATT model's parameters.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"MULT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"MULT refers to the multi-task learning event where document-level and aspect-level classification tasks are trained simultaneously.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"PRET * MULT\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PRET * MULT refers to the combined event of pretraining followed by multi-task learning for fine-tuning the LSTM+ATT model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{E}$\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"$\\mathbf{E}$ represents the embedding matrix in the LSTM model, capturing the word embeddings for the vocabulary.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$V$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$V$ is the vocabulary size, a parameter in the LSTM model's embedding matrix.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$D$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$d$ is the embedding dimension, a parameter in the LSTM model's embedding matrix.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{H}_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{h}_{i}$ represents the hidden vector output by the LSTM for each word in the sequence.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\ALPHA_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\alpha_{i}$ is the weight assigned to each word in the sentence by the attention layer.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\BETA_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\beta_{i}$ is the unnormalized weight computed for each word before applying the softmax function in the attention mechanism.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{W}_{A}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{W}_{a}$ is the parameter matrix used in the score function of the attention mechanism.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{T}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{t}$ is the target representation, computed as the averaged word embedding of the target.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$F_{SCORE}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$f_{score}$ is the content-based function that captures the semantic association between a word and the target.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{W}_{O}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{W}_{o}$ is the parameter matrix for the output layer in the LSTM model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{B}_{O}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{b}_{o}$ is the bias term for the output layer in the LSTM model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\MATHBF{P}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\mathbf{p}$ represents the probability distribution over sentiment labels predicted by the LSTM model.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$C_{I}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$c_{i}$ denotes the true label for sample $i$ in the training corpus.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\THETA_{ASPECT}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\theta_{aspect}$ represents the parameter set for the aspect-level model, including the embedding matrix and LSTM parameters.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\THETA_{DOC}$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\theta_{doc}$ represents the parameter set for the document-level model, including the embedding matrix and LSTM parameters.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\lambda$ is a hyperparameter that controls the weight of the document-level loss function in the multi-task learning approach.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "entity_name": "\"$U$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$U$ is the loss function of document-level classification in the multi-task learning approach.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"MIKOLOV ET AL., 2013\"",
+                "weight": 7.0,
+                "description": "\"LSTM uses the concept of continuous word embeddings introduced by Mikolov et al., 2013.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"LUONG ET AL., 2015B\"",
+                "weight": 7.0,
+                "description": "\"LSTM adopts the formulation by Luong et al., 2015b for the content-based function.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"HE ET AL., 2017\"",
+                "weight": 7.0,
+                "description": "\"LSTM uses the formulation by He et al., 2017 for the content-based function.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"LSTM+ATT\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 9.0,
+                "description": "\"LSTM+ATT is an extension of the LSTM model with an added attention mechanism.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"LSTM+ATT\"",
+                "weight": 8.0,
+                "description": "\"PRET is the event of pretraining LSTM+ATT on document-level examples.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"MULT\"",
+                "tgt_id": "\"LSTM+ATT\"",
+                "weight": 8.0,
+                "description": "\"MULT involves simultaneous training of document-level and aspect-level classification using LSTM+ATT.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"PRET * MULT\"",
+                "tgt_id": "\"LSTM+ATT\"",
+                "weight": 9.0,
+                "description": "\"PRET * MULT is the combined event of pretraining and multi-task learning applied to LSTM+ATT.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            },
+            {
+                "src_id": "\"$\\MATHBF{E}$\"",
+                "tgt_id": "\"$V$\"",
+                "weight": 7.0,
+                "description": "\"$\\mathbf{E}$ is the embedding matrix with $V$ as the vocabulary size.\"",
+                "source_id": "chunk-a9d85e81b9f0513a01a9c45e5f5ca334"
+            }
+        ]
+    },
+    "0": {
+        "chunk_key": "chunk-50eba34c0c8657212308ea6534716553",
+        "entities": [
+            {
+                "entity_name": "\"RUIDAN HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ruidan He is an author of the paper on aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"WEE SUN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wee Sun Lee is an author of the paper on aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"HWEE TOU NG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hwee Tou Ng is an author of the paper on aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"DANIEL DAHLMEIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Dahlmeier is an author of the paper on aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"DEPARTMENT OF COMPUTER SCIENCE, NATIONAL UNIVERSITY OF SINGAPORE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Department of Computer Science at the National University of Singapore is the affiliation of some of the authors of the paper.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"SAP INNOVATION CENTER SINGAPORE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"SAP Innovation Center Singapore is the affiliation of one of the authors of the paper.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2014 is an event where public datasets for aspect-level sentiment classification were used in the paper's experiments.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2015 is an event where public datasets for aspect-level sentiment classification were used in the paper's experiments.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2016 is an event where public datasets for aspect-level sentiment classification were used in the paper's experiments.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"AMAZON REVIEWS\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"Amazon reviews are mentioned as a source of document-level labeled data for sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"LSTM refers to Long Short-Term Memory networks, which are used to capture sequential patterns in data.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"ASPECT-LEVEL SENTIMENT CLASSIFICATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "Aspect-level sentiment classification is the task of determining sentiment polarity towards a specific target within a sentence. It is the main focus of the paper, aiming to classify sentiment towards specific aspects within text.",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"OPINION TARGET\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"An opinion target, or target for short, refers to a word or phrase describing an aspect of an entity within a sentence.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"STATE-OF-THE-ART NEURAL METHODS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"State-of-the-art neural methods are the most advanced neural network architectures used for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"DOCUMENT-LEVEL LABELED DATA\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Document-level labeled data refers to data that is labeled with overall sentiment at the document level, as opposed to the aspect level.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"PRETRAINING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Pretraining is a technique where a model is first trained on a large dataset before being fine-tuned on a specific task.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"MULTI-TASK LEARNING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Multi-task learning is a machine learning technique where a model is trained on multiple related tasks simultaneously.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"GITHUB\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GitHub is the platform where the source code for the research is made available.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2016 are authors referenced in the paper for their work on neural methods for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"LIU AND ZHANG, 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Liu and Zhang, 2017 are authors referenced in the paper for their work on neural methods for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2017 are authors referenced in the paper for their work on neural methods for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"DONG ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Dong et al., 2014 are authors referenced in the paper for their work on neural models for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"NGUYEN AND SHIRAI, 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Nguyen and Shirai, 2015 are authors referenced in the paper for their work on neural models for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"VO AND ZHANG, 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Vo and Zhang, 2015 are authors referenced in the paper for their work on neural models for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"TANG ET AL., 2016A,B\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Tang et al., 2016a,b are authors referenced in the paper for their work on neural models for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"ZHANG ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhang et al., 2016 are authors referenced in the paper for their work on neural models for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "entity_name": "\"KRIZHEVSKY AND SUTSKEVER, 2012\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Krizhevsky and Sutskever, 2012 are authors referenced in the paper for their work on pretraining neural networks in computer vision.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"RUIDAN HE\"",
+                "tgt_id": "\"DEPARTMENT OF COMPUTER SCIENCE, NATIONAL UNIVERSITY OF SINGAPORE\"",
+                "weight": 8.0,
+                "description": "\"Ruidan He is affiliated with the Department of Computer Science at the National University of Singapore.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "src_id": "\"DANIEL DAHLMEIER\"",
+                "tgt_id": "\"SAP INNOVATION CENTER SINGAPORE\"",
+                "weight": 8.0,
+                "description": "\"Daniel Dahlmeier is affiliated with SAP Innovation Center Singapore.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "src_id": "\"RUIDAN HE\"",
+                "tgt_id": "\"AMAZON REVIEWS\"",
+                "weight": 6.0,
+                "description": "\"Ruidan He's research involves using Amazon reviews for document-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "src_id": "\"DANIEL DAHLMEIER\"",
+                "tgt_id": "\"AMAZON REVIEWS\"",
+                "weight": 6.0,
+                "description": "\"Daniel Dahlmeier's research involves using Amazon reviews for document-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            },
+            {
+                "src_id": "\"RUIDAN HE\"",
+                "tgt_id": "\"SEMEVAL 2014\"",
+                "weight": 6.0,
+                "description": "\"Ruidan He's research uses datasets from SemEval 2014 for aspect-level sentiment classification.\"",
+                "source_id": "chunk-50eba34c0c8657212308ea6534716553"
+            }
+        ]
+    },
+    "5": {
+        "chunk_key": "chunk-3de18c9ee2ff67cb78875a04b1e1859f",
+        "entities": [
+            {
+                "entity_name": "\"QUOC V. LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V. Le is the author of a paper on unsupervised pretraining for sequence to sequence learning presented at EMNLP 2017.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"DUYU TANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Duyu Tang is a researcher who has co-authored multiple papers on sentiment classification and semantic representation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"BING QIN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Bing Qin is a researcher who has co-authored papers with Duyu Tang and Ting Liu on sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"XIAOCHENG FENG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaocheng Feng is a co-author of a paper on target-dependent sentiment classification presented at COLING 2016.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"TING LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ting Liu is a researcher who has co-authored papers with Duyu Tang and Bing Qin on sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"DUY-TIN VO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Duy-Tin Vo is a researcher who has co-authored papers on Twitter sentiment classification and gated neural networks for targeted sentiment analysis.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"YUE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yue Zhang is a researcher who has co-authored papers on Twitter sentiment classification and gated neural networks for targeted sentiment analysis.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"YEQUAN WANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yequan Wang is a researcher who has co-authored a paper on attention-based LSTM for aspect-level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"MINLIE HUANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minlie Huang is a co-author of a paper on attention-based LSTM for aspect-level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"LI ZHAO\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li Zhao is a co-author of a paper on attention-based LSTM for aspect-level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"XIAOYAN ZHU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaoyan Zhu is a co-author of a paper on attention-based LSTM for aspect-level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"MATTHEW D. ZEILER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Matthew D. Zeiler is the author of a paper on visualizing and understanding convolutional networks presented at ECCV 2014.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"ROB FERGUS\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Rob Fergus is a co-author of a paper on visualizing and understanding convolutional networks presented at ECCV 2014.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"MEISHAN ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Meishan Zhang is a co-author of a paper on gated neural networks for targeted sentiment analysis presented at AAAI 2016.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"BARRET ZOPH\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Barret Zoph is a researcher who has co-authored a paper on transfer learning for low-resource neural machine translation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"DENIZ YURET\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Deniz Yuret is a co-author of a paper on transfer learning for low-resource neural machine translation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"JONATHAN MAY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jonathan May is a co-author of a paper on transfer learning for low-resource neural machine translation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"KEVIN KNIGHT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Kevin Knight is a co-author of a paper on transfer learning for low-resource neural machine translation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"EMNLP 2017\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP 2017 is the Conference on Empirical Methods in Natural Language Processing where Quoc V. Le presented a paper.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"COLING 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"COLING 2016 is the International Conference on Computational Linguistics where Duyu Tang et al. presented a paper.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"ACL 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL 2015 is the Annual Meeting of the Association for Computational Linguistics where Duy(\"entity\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"EMNLP 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP 2016 is the Conference on Empirical Methods in Natural Language Processing where Duyu Tang, Bing Qin, and Ting Liu presented a paper on aspect level sentiment classification with deep memory network, and Barret Zoph et al. presented a paper on transfer learning for low-resource neural machine translation.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"IJCAI 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"IJCAI 2015 is the International Joint Conference on Artificial Intelligence where Duy-Tin Vo and Yue Zhang presented a paper on target-dependent Twitter sentiment classification with rich automatic features.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"ECCV 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ECCV 2014 is the European Conference on Computer Vision where Matthew D. Zeiler and Rob Fergus presented a paper on visualizing and understanding convolutional networks.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"AAAI 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AAAI 2016 is the AAAI Conference on Artificial Intelligence where Meishan Zhang, Yue Zhang, and Duy-Tin Vo presented a paper on gated neural networks for targeted sentiment analysis.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Conference on Empirical Methods in Natural Language Processing is an event where multiple papers on sentiment classification and neural machine translation were presented.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL CONFERENCE ON COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The International Conference on Computational Linguistics is an event where Duyu Tang, Bing Qin, Xiaocheng Feng, and Ting Liu presented a paper on effective LSTMs for target-dependent sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The Annual Meeting of the Association for Computational Linguistics is an event where Duyu Tang, Bing Qin, and Ting Liu presented a paper on learning semantic representation of users and products for document level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL JOINT CONFERENCE ON ARTIFICIAL INTELLIGENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The International Joint Conference on Artificial Intelligence is an event where Duy-Tin Vo and Yue Zhang presented a paper on target-dependent Twitter sentiment classification with rich automatic features.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"EUROPEAN CONFERENCE ON COMPUTER VISION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The European Conference on Computer Vision is an event where Matthew D. Zeiler and Rob Fergus presented a paper on visualizing and understanding convolutional networks.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"The AAAI Conference on Artificial Intelligence is an event where Meishan Zhang, Yue Zhang, and Duy-Tin Vo presented a paper on gated neural networks for targeted sentiment analysis.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"SENTIMENT CLASSIFICATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sentiment classification is a concept that refers to the process of categorizing opinions, text, or other data as positive or negative, and is a central theme in several of the presented papers.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"DEEP MEMORY NETWORK\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Deep Memory Network is a concept referring to a type of neural network architecture used for aspect level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"ATTENTION-BASED LSTM\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Attention-based LSTM is a concept referring to a type of LSTM network that uses attention mechanisms for aspect-level sentiment classification.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"TRANSFER LEARNING\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Transfer Learning is a concept in machine learning where a model developed for one task is reused as the starting point for a model on a second task, specifically applied to low-resource neural machine translation in one of the papers.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            },
+            {
+                "entity_name": "\"GATED NEURAL NETWORKS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Gated Neural Networks is a concept referring to neural networks that use gating mechanisms to control the flow of information, used for targeted sentiment analysis in one of the papers.\"",
+                "source_id": "chunk-3de18c9ee2ff67cb78875a04b1e1859f"
+            }
+        ],
+        "relationships": []
+    },
+    "3": {
+        "chunk_key": "chunk-ddd8e630fafbfecd379fe586dd58009d",
+        "entities": [
+            {
+                "entity_name": "\"PRET\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"PRET refers to the process of transferring knowledge from document-level models to aspect-level models, which is the central event in the described study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM refers to the Long Short-Term Memory model, which is a type of recurrent neural network used in the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"GLOVE\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"GloVe refers to the global vectors for word representation, which is a method used for word embeddings in the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"D1\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"D1 is one of the datasets used in the study to evaluate the performance of PRET and LSTM models.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"D2\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"D2 is another dataset used in the study to evaluate the performance of PRET and LSTM models.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"D3\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"D3 is a dataset used in the study, noted for its extremely unbalanced label distribution.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"D4\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"D4 is a dataset used in the study, also noted for its extremely unbalanced label distribution.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"PENG CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng Chen is an author referenced in the study, contributing to knowledge on recurrent attention networks.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"ZHONGQIAN SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhongqian Sun is an author referenced in the study, contributing to knowledge on recurrent attention networks.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"LIDONG BING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lidong Bing is an author referenced in the study, contributing to knowledge on recurrent attention networks.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"WEI YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wei Yang is an author referenced in the study, contributing to knowledge on recurrent attention networks.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"DOCUMENT-LEVEL MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"The Document-level model is a broader model that processes entire documents, used as a source of knowledge transfer in the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"ASPECT-LEVEL CLASSIFICATION\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Aspect-level classification is the process of classifying specific aspects within data, which benefits from document-level knowledge according to the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"ABLATION TESTS\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Ablation Tests are experiments conducted to understand the effects of transferring different layers in PRET, a key methodology in the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"KNOWLEDGE TRANSFER\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Knowledge Transfer is the process of incorporating knowledge from document-level corpus into aspect-level sentiment classifiers, a central theme of the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"PERFORMANCE GAIN\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"Performance Gain refers to the improvements in model accuracy achieved through the transfer of knowledge from document-level to aspect-level models.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"UNBALANCED LABEL DISTRIBUTION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Unbalanced Label Distribution refers to a dataset issue where some labels are over-represented, impacting the study's aspect-level classification.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"SENTIMENT INFORMATION\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Sentiment Information is the emotional tone or opinion expressed within text data, a key aspect that the study's models attempt to capture.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"DOMAIN-SPECIFIC OPINION WORDS\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Domain-Specific Opinion Words are words that carry sentiment weight within a specific domain or context, discussed in the study's findings.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"NEUTRAL INSTANCES\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Neutral Instances are examples within a dataset that do not express a strong positive or negative sentiment, a challenging aspect for the study's models.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "entity_name": "\"RECURRENT ATTENTION NETWORK\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"Recurrent Attention Network is a type of neural network that incorporates attention mechanisms, referenced in the study's conclusion.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 8.0,
+                "description": "\"PRET involves the transfer of different layers from LSTM models, indicating a direct relationship between the two.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"GLOVE\"",
+                "weight": 7.0,
+                "description": "\"PRET uses GloVe word embeddings to capture sentiment information, showing a relationship between the method and the embedding technique.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"D1\"",
+                "weight": 6.0,
+                "description": "\"PRET is evaluated on dataset D1, indicating a relationship between the process and the dataset.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"D2\"",
+                "weight": 6.0,
+                "description": "\"PRET is evaluated on dataset D2, indicating a relationship between the process and the dataset.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"D3\"",
+                "weight": 7.0,
+                "description": "\"PRET is evaluated on dataset D3, which has an unbalanced label distribution, showing a specific condition of the relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"D4\"",
+                "weight": 7.0,
+                "description": "\"PRET is evaluated on dataset D4, which also has an unbalanced label distribution, showing a specific condition of the relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"D1\"",
+                "weight": 6.0,
+                "description": "\"LSTM is compared with PRET on dataset D1, indicating a comparative relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"D2\"",
+                "weight": 6.0,
+                "description": "\"LSTM is compared with PRET on dataset D2, indicating a comparative relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"D3\"",
+                "weight": 7.0,
+                "description": "\"LSTM is compared with PRET on dataset D3, which has an unbalanced label distribution, showing a specific condition of the relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"LSTM\"",
+                "tgt_id": "\"D4\"",
+                "weight": 1.0,
+                "description": "\"LSTM is compared with PRET on dataset D4, which also has an unbalanced label distribution, showing a specific condition of the relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"ABLATION TESTS\"",
+                "tgt_id": "\"PRET\"",
+                "weight": 7.0,
+                "description": "\"Ablation Tests were conducted to understand the effects of transferring different layers in PRET, indicating a methodological relationship.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"KNOWLEDGE TRANSFER\"",
+                "tgt_id": "\"PERFORMANCE GAIN\"",
+                "weight": 8.0,
+                "description": "\"Knowledge Transfer is linked to Performance Gain, as the study shows improvements through the incorporation of document-level knowledge.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"UNBALANCED LABEL DISTRIBUTION\"",
+                "tgt_id": "\"ASPECT-LEVEL CLASSIFICATION\"",
+                "weight": 7.0,
+                "description": "\"Unbalanced Label Distribution affects Aspect-level classification, as noted in the study's analysis of datasets D3 and D4.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"SENTIMENT INFORMATION\"",
+                "tgt_id": "\"GLOVE\"",
+                "weight": 6.0,
+                "description": "\"Sentiment Information is not adequately captured by GloVe word embeddings, as discussed in the study's findings.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"DOMAIN-SPECIFIC OPINION WORDS\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 7.0,
+                "description": "\"LSTM benefits from additional knowledge of Domain-Specific Opinion Words from similar domain documents, as indicated in the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            },
+            {
+                "src_id": "\"NEUTRAL INSTANCES\"",
+                "tgt_id": "\"LSTM\"",
+                "weight": 6.0,
+                "description": "\"LSTM struggles with recognizing Neutral Instances due to lack of training examples, a challenge addressed by the study.\"",
+                "source_id": "chunk-ddd8e630fafbfecd379fe586dd58009d"
+            }
+        ]
+    },
+    "2": {
+        "chunk_key": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf",
+        "entities": [
+            {
+                "entity_name": "\"SEMEVAL 2014\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2014 is an event where benchmark aspect-level datasets were taken from.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2015\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2015 is an event where benchmark aspect-level datasets were taken from.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"SEMEVAL 2016\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"SemEval 2016 is an event where benchmark aspect-level datasets were taken from.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"TANG ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Tang et al., 2016 are researchers whose work is referenced in the context of dataset removal of conflicting polarities and comparison with the PRET+MULT model in the experiments.",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"WANG ET AL., 2016\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wang et al., 2016 are previous researchers whose work is referenced in the context of dataset removal of conflicting polarities.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"YELP2014\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Yelp2014 is the source of one of the document-level datasets used in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"AMAZON ELECTRONICS\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Amazon Electronics is the source of the other document-level dataset used in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"MCAULEY ET AL., 2015\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"McAuley et al., 2015 are researchers associated with the Amazon Electronics dataset.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"PENNINGTON ET AL., 2014\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Pennington et al., 2014 are the creators of the 300-dimension GloVe vectors used for initializing in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"LSTM\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"LSTM refers to the Long Short-Term Memory model used in the experiments for comparison.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"PRET\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"PRET is a model used in the experiments for document-level examples and is part of the PRET+MULT combination.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"MULT\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"MULT is a model used in the experiments as discussed above and is part of the PRET+MULT combination.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"CHEN ET AL., 2017\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chen et al., 2017 are authors of a prior work compared with the PRET+MULT model in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"PONTIKI ET AL.\"",
+                "entity_type": "\"PERSON\"",
+                "description": "Pontiki et al. are researchers associated with the creation of benchmark aspect-level datasets from SemEval 2014, 2015, and 2016.",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"TABLE 1\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Table 1 presents the statistics of the resulting datasets after removing samples with conflicting polarities.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"D1\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"D1 is a domain that uses the Yelp dataset for PRET and MULT.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"D2\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"D2 is a domain that uses the Electronics dataset for PRET.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"D3\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"D3 is a domain that uses the Yelp dataset for PRET and MULT.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"D4\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"D4 is a domain that uses the Yelp dataset for PRET and MULT.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"GLOVE VECTORS\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"GloVe vectors are used to initialize $\\mathbf{E}$ and $\\mathbf{E^{\\prime}}$ when pretraining is not conducted for weight initialization.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"RMSPROP\"",
+                "entity_type": "\"TECHNOLOGY\"",
+                "description": "\"RMSProp is the optimizer used in the experiments with a decay rate set to 0.9 and a base learning rate set to 0.001.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"$\\LAMBDA$\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"$\\lambda$ is a hyperparameter that controls the weight of $U$ in the overall loss function $L=J+\\lambda U$.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"TABLE 2\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Table 2 shows the results of LSTM, LSTM+ATT, PRET, MULT, PRET+MULT, and prior works, with significance tests for robustness.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"MACRO-F1\"",
+                "entity_type": "\"CONCEPT\"",
+                "description": "\"Macro-F1 is a metric used for evaluation in the experiments, especially important due to unbalanced label distribution.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"ASPECT-LEVEL MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Aspect-level model refers to the model used at the aspect-level in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"DOCUMENT-LEVEL MODEL\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Document-level model refers to the model used at the document-level in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"TABLE 3\"",
+                "entity_type": "\"ORGANIZATION\"",
+                "description": "\"Table 3 presents the results of PRET with different transferred layers, averaged over 5 runs.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_2.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"images/image_2.jpg is referenced as an image file that likely contains visual data related to the experiment results.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "entity_name": "\"IMAGES/IMAGE_3.JPG\"",
+                "entity_type": "\"GEO\"",
+                "description": "\"images/image_3.jpg is referenced as an image file that likely contains visual data related to the PRET with different transferred layers.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            }
+        ],
+        "relationships": [
+            {
+                "src_id": "\"PRET\"",
+                "tgt_id": "\"MULT\"",
+                "weight": 8.0,
+                "description": "\"PRET and MULT are combined in the PRET+MULT model which yields better results in the experiments.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            },
+            {
+                "src_id": "\"PONTIKI ET AL.\"",
+                "tgt_id": "\"SEMEVAL 2015\"",
+                "weight": 8.0,
+                "description": "\"Pontiki et al., 2015 are the researchers behind the datasets from SemEval 2015.\"",
+                "source_id": "chunk-6d8118bdf1f553a8ea6f4ffad4e15eaf"
+            }
+        ]
+    },
+    "4": {
+        "chunk_key": "chunk-d02fd575d1741d379bb932aae04e49f0",
+        "entities": [
+            {
+                "entity_name": "\"PENG CHEN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Peng Chen is an author of a paper on aspect sentiment analysis presented at EMNLP 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ZHONGQIAN SUN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhongqian Sun is an author of a paper on aspect sentiment analysis presented at EMNLP 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"LIDONG BING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Lidong Bing is an author of a paper on aspect sentiment analysis presented at EMNLP 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"WEI YANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wei Yang is an author of a paper on aspect sentiment analysis presented at EMNLP 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"CONFERENCE ON EMPIRICAL METHODS IN NATURAL LANGUAGE PROCESSING (EMNLP 2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EMNLP 2017 is an event where several papers on natural language processing were presented, including aspect sentiment analysis.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"RONAN COLLOBERT\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ronan Collobert is an author of a paper on a unified architecture for natural language processing presented at ICML 2008.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"JASON WESTON\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jason Weston is an author of a paper on a unified architecture for natural language processing presented at ICML 2008.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"INTERNATIONAL CONFERENCE ON MACHINE LEARNING (ICML 2008)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ICML 2008 is an event where a paper on a unified architecture for natural language processing was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ANDREW M. DAI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Andrew M. Dai is an author of a paper on semi-supervised sequence learning presented at NIPS 2015.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"QUOC V. LE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Quoc V. Le is an author of a paper on semi-supervised sequence learning presented at NIPS 2015.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"NEURAL INFORMATION PROCESSING SYSTEMS (NIPS 2015)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NIPS 2015 is an event where a paper on semi-supervised sequence learning was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"LI DONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Li Dong is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"FURU WEI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Furu Wei is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"CHUANQI TAN\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Chuanqi Tan is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"DUYU TANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Duyu Tang is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"MING ZHOU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ming Zhou is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"KE XU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ke Xu is an author of a paper on adaptive recursive neural network for Twitter sentiment classification presented at ACL 2014.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2014)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL 2014 is an event where a paper on adaptive recursive neural network for Twitter sentiment classification was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"RUIDAN HE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ruidan He is an author of a paper on an unsupervised neural attention model for aspect extraction presented at ACL 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"WEE SUN LEE\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Wee Sun Lee is an author of a paper on an unsupervised neural attention(\"entity\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"DANIEL DAHLMEIER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Daniel Dahlmeier is an author of a paper on an unsupervised neural attention model for aspect extraction presented at ACL 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL 2017 is an event where a paper on an unsupervised neural attention model for aspect extraction was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ALEX KRIZHEVSKY\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Alex Krizhevsky is an author of a paper on ImageNet classification with deep convolutional neural networks presented at NIPS 2012.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ILYA SUTSKEVER\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Ilya Sutskever is an author of a paper on ImageNet classification with deep convolutional neural networks presented at NIPS 2012.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"NEURAL INFORMATION PROCESSING SYSTEMS (NIPS 2012)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"NIPS 2012 is an event where a paper on ImageNet classification with deep convolutional neural networks was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"JIANGMING LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Jiangming Liu is an author of a paper on attention modeling for target sentiment presented at EACL 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"YUE ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yue Zhang is an author of a paper on attention modeling for target sentiment presented at EACL 2017.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"CONFERENCE OF THE EUROPEAN CHAPTER OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (EACL 2017)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"EACL 2017 is an event where a paper on attention modeling for target sentiment was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"YANG LIU\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Yang Liu is an author of a paper on implicit discourse relation classification via multi-task neural networks presented at AAAI 2016.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"SUJIAN LI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Sujian Li is an author of a paper on implicit discourse relation classification via multi-task neural networks presented at AAAI 2016.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"XIAODONG ZHANG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Xiaodong Zhang is an author of a paper on implicit discourse relation classification via multi-task neural networks presented at AAAI 2016.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ZHIFANG SUI\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Zhifang Sui is an author of a paper on implicit discourse relation classification via multi-task neural networks presented at AAAI 2016.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"AAAI CONFERENCE ON ARTIFICIAL INTELLIGENCE (AAAI 2016)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"AAAI 2016 is an event where a paper on implicit discourse relation classification via multi-task neural networks was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"MINH-TANG LUONG\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Minh-Tang Luong is an author of a paper on effective approaches to attention-based neural machine translation presented at ACL 2015.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"HIEU PHAM\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Hieu Pham is an author of a paper on effective approaches to attention-based neural machine translation presented at ACL 2015.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"CHRISTOPHER D. MANNING\"",
+                "entity_type": "\"PERSON\"",
+                "description": "\"Christopher D. Manning is an author of a paper on effective approaches to attention-based neural machine translation presented at ACL 2015.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            },
+            {
+                "entity_name": "\"ANNUAL MEETING OF THE ASSOCIATION FOR COMPUTATIONAL LINGUISTICS (ACL 2015)\"",
+                "entity_type": "\"EVENT\"",
+                "description": "\"ACL 2015 is an event where a paper on effective approaches to attention-based neural machine translation was presented.\"",
+                "source_id": "chunk-d02fd575d1741d379bb932aae04e49f0"
+            }
+        ],
+        "relationships": []
+    }
+}

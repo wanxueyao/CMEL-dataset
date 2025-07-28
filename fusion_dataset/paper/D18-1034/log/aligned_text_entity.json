@@ -1,0 +1,286 @@
+{
+    "image_1": [
+        {
+            "entity_name": "PROJECTION DIAGRAM",
+            "entity_type": "EVENT",
+            "description": "A diagram illustrating the cross-lingual projection process, showing how word embeddings from different languages are aligned into a shared space, with a focus on utilizing the nearest neighbors for word translation.",
+            "source_image_entities": [
+                "PROJECTION DIAGRAM"
+            ],
+            "source_text_entities": [
+                "CROSS-LINGUAL PROJECTION"
+            ]
+        },
+        {
+            "entity_name": "TRANSLATION TABLE",
+            "entity_type": "OBJECT",
+            "description": "A table that provides a mapping of English and Spanish words, serving as a resource for bilingual word embeddings and aiding in the translation process between languages.",
+            "source_image_entities": [
+                "TRANSLATION TABLE"
+            ],
+            "source_text_entities": [
+                "DICTIONARY"
+            ]
+        },
+        {
+            "entity_name": "SELF-ATTENTION MECHANISM",
+            "entity_type": "CONCEPT",
+            "description": "An order-invariant self-attention mechanism incorporated into the neural architecture to address differences in word ordering during unsupervised cross-lingual transfer for Named Entity Recognition (NER).",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "SELF-ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "CROSS-LINGUAL TRANSFER",
+            "entity_type": "EVENT",
+            "description": "The process of transferring models trained in one language to perform tasks in another language, specifically applied to Named Entity Recognition (NER) across various languages such as Spanish, Dutch, German, and Uyghur.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "CROSS-LINGUAL TRANSFER"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "SELF-ATTENTIVE BI-LSTM-CRF MODEL",
+            "entity_type": "EVENT",
+            "description": "The Self-attentive Bi-LSTM-CRF Model is an event that refers to the introduction of a self-attention mechanism on top of the word-level Bi-LSTM to provide context feature vectors for each word, allowing the model to deal with divergence of word order and improve Named Entity Recognition (NER).",
+            "source_image_entities": [
+                "MASKED SELF-ATTENTION",
+                "WORD BI-LSTM",
+                "CRF LAYER"
+            ],
+            "source_text_entities": [
+                "SELF-ATTENTIVE BI-LSTM-CRF MODEL",
+                "SELF-ATTENTION"
+            ]
+        },
+        {
+            "entity_name": "HIERARCHICAL NEURAL CRF MODEL",
+            "entity_type": "EVENT",
+            "description": "The Hierarchical Neural CRF Model is an event that describes the model used to perform Named Entity Recognition (NER), consisting of a character-level neural network, a word-level neural network, and a linear-chain CRF layer that models the dependency between labels and performs inference.",
+            "source_image_entities": [
+                "CRF LAYER",
+                "WORD BI-LSTM",
+                "CHAR BI-LSTM"
+            ],
+            "source_text_entities": [
+                "HIERARCHICAL NEURAL CRF"
+            ]
+        },
+        {
+            "entity_name": "WORD EMBEDDINGS",
+            "entity_type": "CONCEPT",
+            "description": "Word embeddings are numerical representations of words in a vector space, capturing both word-level and character-level information, and are optimized and aligned in the described process to facilitate tasks like NER and word translation.",
+            "source_image_entities": [
+                "WORD EMBEDDING",
+                "CHAR EMBEDDING"
+            ],
+            "source_text_entities": [
+                "WORD EMBEDDINGS"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "BWET",
+            "entity_type": "ORGANIZATION",
+            "description": "BWET (bilingual word embedding translation) is a method developed by our team, achieving scores of 71.33 ± 1.26 for Spanish, 69.39 ± 0.53 for Dutch, and 56.95 ± 1.20 for German, and denotes using the hierarchical neural CRF model trained on data translated from English.",
+            "source_image_entities": [
+                "BWET"
+            ],
+            "source_text_entities": [
+                "BWET"
+            ]
+        },
+        {
+            "entity_name": "BWET + SELF-ATT.",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BWET, incorporating self-attention, achieving higher scores across all languages, and producing the best results when used.",
+            "source_image_entities": [
+                "BWET + SELF-ATT."
+            ],
+            "source_text_entities": [
+                "SELF-ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "BWET ON DATA FROM MAYHEW ET AL. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "Our method applied to the dataset used by Mayhew et al. (2017), achieving scores of 66.53 ± 1.12 for Spanish, 69.24 ± 0.66 for Dutch, and 55.39 ± 0.98 for German.",
+            "source_image_entities": [
+                "BWET ON DATA FROM MAYHEW ET AL. (2017)"
+            ],
+            "source_text_entities": [
+                "MAYHEW ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "BWET + SELF-ATT. ON DATA FROM MAYHEW ET AL. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BWET on the dataset used by Mayhew et al. (2017), incorporating self-attention, achieving higher scores across all languages.",
+            "source_image_entities": [
+                "BWET + SELF-ATT. ON DATA FROM MAYHEW ET AL. (2017)"
+            ],
+            "source_text_entities": [
+                "MAYHEW ET AL., 2017",
+                "SELF-ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "OUR SUPERVISED RESULTS",
+            "entity_type": "ORGANIZATION",
+            "description": "The best performance achieved by our team using a supervised approach, achieving scores of 86.26 ± 0.40 for Spanish, 86.40 ± 0.17 for Dutch, and 78.16 ± 0.45 for German, and obtained using models trained on annotated corpus from CoNLL.",
+            "source_image_entities": [
+                "OUR SUPERVISED RESULTS"
+            ],
+            "source_text_entities": [
+                "CONLL"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "SPANISH",
+            "entity_type": "GEO",
+            "description": "The first column of data representing performance metrics for the Spanish language, where the methods outperform previous results by a large margin.",
+            "source_image_entities": [
+                "SPANISH"
+            ],
+            "source_text_entities": [
+                "SPANISH"
+            ]
+        },
+        {
+            "entity_name": "DUTCH",
+            "entity_type": "GEO",
+            "description": "The second column of data representing performance metrics for the Dutch language, where the methods outperform previous results by a large margin.",
+            "source_image_entities": [
+                "DUTCH"
+            ],
+            "source_text_entities": [
+                "DUTCH"
+            ]
+        },
+        {
+            "entity_name": "GERMAN",
+            "entity_type": "GEO",
+            "description": "The third column of data representing performance metrics for the German language, where the model does not outperform the previous best result, and the text speculates on the reasons for this.",
+            "source_image_entities": [
+                "GERMAN"
+            ],
+            "source_text_entities": [
+                "GERMAN"
+            ]
+        },
+        {
+            "entity_name": "COMMON SPACE",
+            "entity_type": "CONCEPT",
+            "description": "The first row of data representing a model where all languages are processed in a common space, which is a setting for using bilingual word embeddings.",
+            "source_image_entities": [
+                "COMMON SPACE"
+            ],
+            "source_text_entities": [
+                "COMMON SPACE"
+            ]
+        },
+        {
+            "entity_name": "REPLACE",
+            "entity_type": "CONCEPT",
+            "description": "The second row of data representing a model where one language is replaced by another, which is a setting where original word embeddings are replaced with their nearest neighbors in the common space without performing translation.",
+            "source_image_entities": [
+                "REPLACE"
+            ],
+            "source_text_entities": [
+                "REPLACE"
+            ]
+        },
+        {
+            "entity_name": "TRANSLATION",
+            "entity_type": "CONCEPT",
+            "description": "The third row of data representing a model where translation is used between languages, which is the proposed approach where the model is trained on both exact points in the target space and target language character sequences.",
+            "source_image_entities": [
+                "TRANSLATION"
+            ],
+            "source_text_entities": [
+                "TRANSLATION"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "MAYHEW ET AL. (2017)",
+            "entity_type": "ORGANIZATION",
+            "description": "A research group that published a study in 2017, achieving the highest score of 51.32 on the Cygnar Unsequestered Set, proposing a dictionary-based translation baseline.",
+            "source_image_entities": [
+                "MAYHEW ET AL. (2017)"
+            ],
+            "source_text_entities": [
+                "MAYHEW ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "BWET",
+            "entity_type": "ORGANIZATION",
+            "description": "An organization or model that achieved a score of 25.73 ± 0.89 on the Cygnar Unsequestered Set using a 5K dictionary, denoting the use of the hierarchical neural CRF model trained on data translated from English.",
+            "source_image_entities": [
+                "BWET"
+            ],
+            "source_text_entities": [
+                "BWET"
+            ]
+        },
+        {
+            "entity_name": "BWET + SELF-ATT.",
+            "entity_type": "ORGANIZATION",
+            "description": "An enhanced version of BWET with self-attention mechanisms, achieving a score of 26.38 ± 0.34 on the Cygnar Unsequestered Set using a 5K dictionary, producing the best results when used.",
+            "source_image_entities": [
+                "BWET + SELF-ATT."
+            ],
+            "source_text_entities": [
+                "SELF-ATTENTION MECHANISM"
+            ]
+        },
+        {
+            "entity_name": "CYGNAR UNSEQUESTERED SET",
+            "entity_type": "EVENT",
+            "description": "A benchmark dataset used to evaluate the performance of different models and methods, mentioned in the context of NER F1 scores on Uyghur with extra resources.",
+            "source_image_entities": [
+                "CYGNAR UNSEQUESTERED SET"
+            ],
+            "source_text_entities": [
+                "UNSEQUESTERED SET"
+            ]
+        },
+        {
+            "entity_name": "WIKIPEDIA",
+            "entity_type": "ORGANIZATION",
+            "description": "An online encyclopedia used as an extra resource for some of the models, used not as a monolingual corpus but to provide external knowledge.",
+            "source_image_entities": [
+                "WIKIPEDIA"
+            ],
+            "source_text_entities": [
+                "WIKIPEDIA"
+            ]
+        },
+        {
+            "entity_name": "5K DICT.",
+            "entity_type": "OBJECT",
+            "description": "A dictionary containing 5,000 entries used as an extra resource for some of the models, used by BWET and BWET + SELF-ATT. models.",
+            "source_image_entities": [
+                "5K DICT."
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "100K DICT.",
+            "entity_type": "OBJECT",
+            "description": "A dictionary containing 100,000 entries used as an extra resource for some of the models.",
+            "source_image_entities": [
+                "100K DICT."
+            ],
+            "source_text_entities": []
+        }
+    ]
+}

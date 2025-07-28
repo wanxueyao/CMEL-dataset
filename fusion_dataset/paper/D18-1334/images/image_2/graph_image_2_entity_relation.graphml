@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a bar chart titled 'Percentage of female and male speakers per age group'. The x-axis represents different age groups, ranging from 20-30 to 80-90. The y-axis represents the percentage, ranging from 0% to 100%. Each age group has two bars representing the percentage of male and female speakers. The colors used are orange for males and blue for females. The exact percentages for each age group are as follows: For the 20-30 age group, the percentage of female speakers is approximately 65%, and for male speakers, it is approximately 35%. For the 30-40 age group, the percentage of female speakers is approximately 40%, and for male speakers, it is approximately 60%. For the 40-50 age group, the percentage of female speakers is approximately 35%, and for male speakers, it is approximately 65%. For the 50-60 age group, the percentage of female speakers is approximately 30%, and for male speakers, it is approximately 70%. For the 60-70 age group, the percentage of female speakers is approximately 25%, and for male speakers, it is approximately 75%. For the 70-80 age group, the percentage of female speakers is approximately 20%, and for male speakers, it is approximately 80%. For the 80-90 age group, the percentage of female speakers is approximately 15%, and for male speakers, it is approximately 85%. The chart clearly shows a trend where the percentage of male speakers increases with age, while the percentage of female speakers decreases."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+</node>
+<node id="&quot;AGE GROUPS&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"The chart displays the distribution of males and females across different age groups, ranging from 20-30 to 80-90."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+</node>
+<node id="&quot;MALE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Represented by orange bars on the chart, indicating the percentage of males in each age group."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+</node>
+<node id="&quot;FEMALE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Represented by blue bars on the chart, indicating the percentage of females in each age group."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;AGE GROUPS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Age groups是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MALE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Male是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FEMALE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Female是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AGE GROUPS&quot;" target="&quot;MALE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chart shows the percentage of males in each age group."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;AGE GROUPS&quot;" target="&quot;FEMALE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The chart shows the percentage of females in each age group."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MALE&quot;" target="&quot;FEMALE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The chart compares the distribution of males and females across different age groups."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1334/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

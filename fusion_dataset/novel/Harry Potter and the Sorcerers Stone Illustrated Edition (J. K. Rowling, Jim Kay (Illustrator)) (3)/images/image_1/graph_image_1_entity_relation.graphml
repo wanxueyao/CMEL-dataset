@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1_FIRE HYDRANT-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Vase- Color: The vase has a vibrant color palette, with a predominant red hue on the upper part and a mix of green and white patterns on the lower part. There are also some brownish areas that appear to be either wear or design elements.- Shape: The vase has an hourglass shape, with a narrow neck that expands into a wider body before narrowing again at the base. The top of the vase is rounded, and there is a handle on one side.- Size: The vase appears to be of medium size, suitable for holding flowers or serving as a decorative piece.- Material: The material appears to be ceramic or pottery, given the visible glaze and the way the colors have been applied.- Possible function: This vase could serve both decorative and functional purposes, such as holding flowers or being used as a centerpiece in a room."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is an illustration featuring a collection of potion bottles arranged on a surface. The central bottle, which is prominently displayed and has a label reading 'CHAPTER EIGHT THE POTIONSMaster', is blue with a skull-shaped stopper. Surrounding this central bottle are various other potion bottles in different shapes, sizes, and colors. To the left of the central bottle, there is a red bottle with a spiral pattern, a green bottle with a zigzag pattern, and a pink bottle with a bat-like figure on it. To the right, there is a green bottle with a cork stopper and another bottle with a bat-like figure. The background is a muted beige color, giving the scene an old, mystical atmosphere. The overall mood conveyed by the image is one of mystery and magic, fitting the theme of potions and alchemy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;THE POTIONS MASTER&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Chapter eight of a book, focusing on the theme of potions and their master."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;POTION BOTTLES&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Various bottles with different shapes, sizes, and colors, containing potions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;SKULL BOTTLE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A prominent blue bottle with a skull-shaped stopper, standing out among other bottles."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<node id="&quot;BAT FIGURE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A bat-like figure dressed in red, positioned next to the potion bottles."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1_FIRE HYDRANT-0.JPG&quot;" target="&quot;IMAGE_1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_1_fire hydrant-0.jpg是image_1的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;THE POTIONS MASTER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"The Potions Master是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;POTION BOTTLES&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Potion Bottles是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;SKULL BOTTLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Skull Bottle是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;BAT FIGURE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Bat Figure是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE POTIONS MASTER&quot;" target="&quot;POTION BOTTLES&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The event is centered around these objects, as they are key elements in the chapter."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE POTIONS MASTER&quot;" target="&quot;SKULL BOTTLE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"This bottle is a significant object within the event, symbolizing danger or power."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;THE POTIONS MASTER&quot;" target="&quot;BAT FIGURE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The bat figure adds to the mystical and eerie atmosphere of the event."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Harry Potter and the Sorcerers Stone Illustrated Edition (J. K. Rowling, Jim Kay (Illustrator)) (3)/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

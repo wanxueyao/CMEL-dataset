@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a flowchart illustrating the multitask setup for entity recognition, relation extraction, and coreference resolution. The chart is divided into two main sections: Entity Recognition and Relation Extraction. In the Entity Recognition section, there are three boxes labeled 'Task', 'Method', and 'NULL'. Arrows connect these boxes to a larger box labeled 'MORphological Parser MORPA'. Below this, there is another box labeled 'MORphological' with an arrow pointing to 'NULL'. In the Relation Extraction section, there are two boxes labeled 'Hyponym-of' and 'Used-for', both connected to 'NULL'. These boxes are also connected to the 'MORPA' box. There are dotted arcs indicating the normalization space for each task. Below these sections, there are green boxes listing span representations and their corresponding features. At the bottom, there are blue bars representing BiLSTM outputs, with arrows pointing to sentences. The sentences are partially visible, with one reading '...the MORphological Parser MORPA is provided with a...' and the other 'MORPA is a fully implemented parser developed for...'."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+</node>
+<node id="&quot;MORPHOLOGICAL PARSER MORPA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A fully implemented parser developed for morphological analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+</node>
+<node id="&quot;MORPA&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An abbreviation for MORphological Parser, which is a tool used for morphological analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+</node>
+<node id="&quot;PARSER&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A software tool used for parsing linguistic data, in this case, for morphological analysis."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MORPHOLOGICAL PARSER MORPA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MORphological Parser MORPA是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MORPA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MORPA是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;PARSER&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"parser是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MORPHOLOGICAL PARSER MORPA&quot;" target="&quot;MORPA&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"MORPA is an abbreviation for MORphological Parser MORPA."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MORPHOLOGICAL PARSER MORPA&quot;" target="&quot;PARSER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"MORphological Parser MORPA is a specific implementation of a parser, designed for morphological analysis."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MORPA&quot;" target="&quot;PARSER&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"MORPA is a type of parser, specifically a morphological parser."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

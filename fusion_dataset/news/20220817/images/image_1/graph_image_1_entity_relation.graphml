@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts an aerial view of Lake Powell, a reservoir located on the Arizona-Utah border. The landscape is dominated by rugged, sandstone cliffs and canyons, with deep grooves carved by the Colorado River. The water levels in the lake appear to be significantly lower than usual, revealing stark white mineral deposits along the rock faces where the waterline once was. The terrain is arid and expansive, with a vast desert stretching into the distance under a clear blue sky. The overall atmosphere conveys a sense of environmental concern due to the low water levels, highlighting the ongoing crisis in the Colorado River system."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+</node>
+<node id="&quot;LAKE POWELL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large body of water with a dark blue color, nestled within a vast desert landscape. The lake is surrounded by rugged, sandstone cliffs that have been eroded into unique formations."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+</node>
+<node id="&quot;CLIFFS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Rugged, sandstone cliffs with varying shades of orange and brown. These cliffs surround Lake Powell and have been shaped by erosion over time."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+</node>
+<node id="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"An expansive desert landscape with a flat horizon in the distance. The terrain is mostly barren with sparse vegetation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;LAKE POWELL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Lake Powell是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;CLIFFS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cliffs是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Desert Landscape是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAKE POWELL&quot;" target="&quot;CLIFFS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The cliffs surround Lake Powell, creating a natural boundary for the water body."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LAKE POWELL&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Lake Powell is located within the desert landscape, providing a stark contrast to the surrounding arid environment."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;CLIFFS&quot;" target="&quot;DESERT LANDSCAPE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The cliffs are part of the larger desert landscape, contributing to the overall arid and rugged terrain."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220817/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

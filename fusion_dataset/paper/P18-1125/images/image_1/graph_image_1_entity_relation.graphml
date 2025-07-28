@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a screenshot of a conversation thread from a Wikipedia talk page discussing the reliability of sources for an article about the Dyatlov Pass Incident. The conversation is divided into two sections, A and B, each representing different exchanges between editors. In section A, the discussion revolves around the inclusion of a source that mentions an altercation with a foreign intelligence group. Editor A1 questions why this source is not mentioned in the article, acknowledging its weak points but arguing for its existence. Editor A2 responds by challenging the idea of including a bad source just because it exists. In section B, the discussion focuses on the reliability of the St. Petersburg Times as a source. Editor B1 expresses doubt about relying heavily on this single source, especially since it speculates about missile launches and UFOs, and suggests finding corroborating sources. Editor B2 assumes the reliability of the St. Petersburg Times to be similar to other mainstream news sources. The text is presented in a clear, readable format with each editor's comments distinctly separated."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+</node>
+<node id="&quot;A1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Individual questioning the omission of an altercation with a foreign intelligence group in an article and discussing the reliability of sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+</node>
+<node id="&quot;A2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Individual challenging the inclusion of a potentially unreliable source in an article based on its existence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+</node>
+<node id="&quot;B1&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Individual querying the reliability of the St. Petersburg Times as a source for Wikipedia and expressing concerns about the article's reliance on a single, speculative source."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+</node>
+<node id="&quot;B2&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Individual providing an opinion on the reliability of the St. Petersburg Times, comparing it to other mainstream news sources."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;A1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"A1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;A2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"A2是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;B1&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"B1是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;B2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"B2是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

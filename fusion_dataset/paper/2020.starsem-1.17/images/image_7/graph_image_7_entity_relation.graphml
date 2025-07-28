@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_7&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 5: Statistics of Top-10 slots on the MultiWOZ 2.1 validation set based on (#Unfound / #Relative_Turns)'. The table is structured with four main columns: Slot Name, DS-Span (#Unfound / #Relative_Turns), DS-DST, and DS-Picklist. Each row represents a specific slot name and its corresponding statistics. The rows are as follows: hotel-type (667/1395, 86.36%, 85.91%), hotel-parking (419/1048, 89.50%, 86.63%), hotel-internet (421/1124, 95.72%, 94.54%), taxi-leave at (73/364, 0.00%, 43.84%), attraction-name (215/1261, 70.23%, 74.42%), attraction-type (270/1658, 84.81%, 84.07%), train-leave at (181/1164, 2.21%, 41.44%), hotel-area (168/1452, 51.19%, 58.93%), train-arrive by (125/1428, 9.60%, 79.20%), and attraction-area (177/1620, 67.23%, 71.75%). The table highlights the performance of three different methods (DS-Span, DS-DST, and DS-Picklist) in predicting slot values that cannot be found through span matching in the dialog context. The percentages indicate the accuracy of each method in recovering the missing values."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;HOTEL-TYPE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the type of hotel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;HOTEL-PARKING&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying if the hotel has parking."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;HOTEL-INTERNET&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying if the hotel has internet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;TAXI-LEAVE AT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the time a taxi leaves."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;ATTRACTION-NAME&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the name of an attraction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;ATTRACTION-TYPE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the type of attraction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;TRAIN-LEAVE AT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the time a train leaves."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;HOTEL-AREA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the area of the hotel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;TRAIN-ARRIVE BY&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the time a train arrives."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;ATTRACTION-AREA&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A slot in a dialogue system for specifying the area of an attraction."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+</node>
+<node id="&quot;DS-SPAN&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d1">"The hotel-type slot is used in the DS-Span model to determine the type of hotel."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DS-DST&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d1">"The hotel-type slot is used in the DS-DST model to determine the type of hotel."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;DS-PICKLIST&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d1">"The hotel-type slot is used in the DS-Picklist model to determine the type of hotel."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HOTEL-TYPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"hotel-type是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HOTEL-PARKING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"hotel-parking是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HOTEL-INTERNET&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"hotel-internet是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TAXI-LEAVE AT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"taxi-leave at是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ATTRACTION-NAME&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"attraction-name是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ATTRACTION-TYPE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"attraction-type是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TRAIN-LEAVE AT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"train-leave at是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;HOTEL-AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"hotel-area是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;TRAIN-ARRIVE BY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"train-arrive by是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_7&quot;" target="&quot;ATTRACTION-AREA&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"attraction-area是从image_7中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-TYPE&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hotel-type slot is used in the DS-Span model to determine the type of hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-TYPE&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-type slot is used in the DS-DST model to determine the type of hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-TYPE&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-type slot is used in the DS-Picklist model to determine the type of hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-PARKING&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hotel-parking slot is used in the DS-Span model to determine if the hotel has parking."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-PARKING&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-parking slot is used in the DS-DST model to determine if the hotel has parking."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-PARKING&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-parking slot is used in the DS-Picklist model to determine if the hotel has parking."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-INTERNET&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hotel-internet slot is used in the DS-Span model to determine if the hotel has internet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-INTERNET&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-internet slot is used in the DS-DST model to determine if the hotel has internet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-INTERNET&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-internet slot is used in the DS-Picklist model to determine if the hotel has internet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TAXI-LEAVE AT&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The taxi-leave at slot is used in the DS-Span model to determine the time a taxi leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TAXI-LEAVE AT&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The taxi-leave at slot is used in the DS-DST model to determine the time a taxi leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TAXI-LEAVE AT&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The taxi-leave at slot is used in the DS-Picklist model to determine the time a taxi leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-NAME&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attraction-name slot is used in the DS-Span model to determine the name of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-NAME&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-name slot is used in the DS-DST model to determine the name of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-NAME&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-name slot is used in the DS-Picklist model to determine the name of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-TYPE&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attraction-type slot is used in the DS-Span model to determine the type of attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-TYPE&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-type slot is used in the DS-DST model to determine the type of attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-TYPE&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-type slot is used in the DS-Picklist model to determine the type of attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-LEAVE AT&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The train-leave at slot is used in the DS-Span model to determine the time a train leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-LEAVE AT&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train-leave at slot is used in the DS-DST model to determine the time a train leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-LEAVE AT&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train-leave at slot is used in the DS-Picklist model to determine the time a train leaves."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-AREA&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The hotel-area slot is used in the DS-Span model to determine the area of the hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-AREA&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-area slot is used in the DS-DST model to determine the area of the hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL-AREA&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The hotel-area slot is used in the DS-Picklist model to determine the area of the hotel."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-ARRIVE BY&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The train-arrive by slot is used in the DS-Span model to determine the time a train arrives."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-ARRIVE BY&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train-arrive by slot is used in the DS-DST model to determine the time a train arrives."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TRAIN-ARRIVE BY&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The train-arrive by slot is used in the DS-Picklist model to determine the time a train arrives."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-AREA&quot;" target="&quot;DS-SPAN&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The attraction-area slot is used in the DS-Span model to determine the area of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-AREA&quot;" target="&quot;DS-DST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-area slot is used in the DS-DST model to determine the area of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;ATTRACTION-AREA&quot;" target="&quot;DS-PICKLIST&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The attraction-area slot is used in the DS-Picklist model to determine the area of an attraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_7.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

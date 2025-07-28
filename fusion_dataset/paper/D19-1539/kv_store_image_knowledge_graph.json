@@ -1,0 +1,330 @@
+{
+    "image_1": [
+        {
+            "entity_name": "IMAGE_1",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating a model architecture. At the top, there is a gray block labeled 'comb' with an arrow pointing upwards labeled 'b'. This block receives inputs from two sets of blocks below it. On the left side, there are green blocks labeled 'Block_N' and 'Block_1', arranged in a hierarchical structure with arrows pointing upwards. The green blocks represent standard transformer decoder blocks that operate left to right by masking future time-steps. On the right side, there are blue blocks also labeled 'Block_N' and 'Block_1', similarly arranged in a hierarchical structure with arrows pointing upwards. The blue blocks represent blocks that operate right to left. At the bottom, there are arrows labeled '<s>' pointing towards the 'Block_1' blocks on both sides. Additionally, there are two arrows pointing towards the 'comb' block from the 'Block_N' blocks on both sides. One arrow is green and points from the left, while the other is blue and points from the right. The overall structure suggests a model that combines forward and backward states for predicting the center token."
+        },
+        {
+            "entity_name": "COMB",
+            "entity_type": "ORGANIZATION",
+            "description": "A central block that combines inputs from two different paths."
+        },
+        {
+            "entity_name": "BLOCK_N",
+            "entity_type": "ORGANIZATION",
+            "description": "A higher-level block in the processing path, represented in green and blue."
+        },
+        {
+            "entity_name": "BLOCK_1",
+            "entity_type": "ORGANIZATION",
+            "description": "A lower-level block in the processing path, represented in green and blue."
+        },
+        {
+            "entity_name": "<S><S>",
+            "entity_type": "UNKNOWN",
+            "description": "Block_1 blocks receive input from the start symbols <s>.("
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "IMAGE_2",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a flowchart illustrating the fine-tuning process for a downstream task in a neural network model. The chart is divided into three main columns labeled 'a', 'b', and 'c'. Each column contains a sequence of green and blue rectangular nodes connected by arrows, representing different states or layers in the model. The green nodes are solid, while the blue nodes have a diagonal striped pattern. The nodes are interconnected with gray arrows indicating the flow of information. At the top of each column, there is a 'comb' node, which combines the outputs from the previous layers. The 'comb' nodes are connected to an output layer labeled 'Embedding of b'. Red dot-dashed arrows indicate connections that are masked during training but unmasked during fine-tuning. These red arrows connect the 'comb' nodes to the final combination layer, allowing the model to access all forward and backward states. The overall structure shows how the model processes information through multiple layers and combines them for the final output."
+        },
+        {
+            "entity_name": "A",
+            "entity_type": "EVENT",
+            "description": "A sequence of elements contributing to the embedding process."
+        },
+        {
+            "entity_name": "B",
+            "entity_type": "EVENT",
+            "description": "A central element that combines embeddings from 'a' and 'c'."
+        },
+        {
+            "entity_name": "C",
+            "entity_type": "EVENT",
+            "description": "A sequence of elements contributing to the embedding process."
+        },
+        {
+            "entity_name": "COMB",
+            "entity_type": "ORGANIZATION",
+            "description": "The combination function that integrates the embeddings of 'a', 'b', and 'c'."
+        },
+        {
+            "entity_name": "EMBEDDING OF A",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'a'.\">"
+        },
+        {
+            "entity_name": "EMBEDDING OF B",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'b'.\">"
+        },
+        {
+            "entity_name": "EMBEDDING OF C",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'c'.\">"
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "IMAGE_3",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 1: Hyper-parameters for our models.' The table provides detailed information about the hyper-parameters of three different models: CNN Base, CNN Large, and BPE Large. The table is structured with the following columns: Model, Parameters, Updates, Blocks, FFN Dim, Attn Heads (final layer), Query formation (final layer), and Train time (days). The rows contain the following values:\\n\\n- **CNN Base**: Parameters = 177M, Updates = 600K, Blocks = 6, FFN Dim = 4096, Attn Heads (final layer) = 12, Query formation (final layer) = Sum, Train time (days) = 6.\\n- **CNN Large**: Parameters = 330M, Updates = 1M, Blocks = 12, FFN Dim = 4096, Attn Heads (final layer) = 32, Query formation (final layer) = Concat, Train time (days) = 10.\\n- **BPE Large**: Parameters = 370M, Updates = 1M, Blocks = 12, FFN Dim = 4096, Attn Heads (final layer) = 32, Query formation (final layer) = Concat, Train time (days) = 4.5.\\n\\nThe table highlights the differences in parameters, updates, blocks, feed-forward network dimension (FFN Dim), attention heads in the final layer, query formation method in the final layer, and training time across the three models."
+        },
+        {
+            "entity_name": "CNN BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration with 177M parameters, 600K updates, 6 blocks, FFN dimension of 4096, 12 attention heads in the final layer, and uses sum for query formation. It has a training time of 6 days."
+        },
+        {
+            "entity_name": "CNN LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration with 330M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 10 days."
+        },
+        {
+            "entity_name": "BPE LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A model configuration with 370M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 4.5 days."
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "IMAGE_4",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 2: Test results as per the GLUE evaluation server.' The table presents the performance of various models on different natural language processing tasks. The columns represent different datasets and metrics, including CoLA (Matthews correlation), SST-2 (Accuracy), MRPC (F1 score), STS-B (Spearman correlation), QQP (F1 score), MNLI-m/mm (Accuracy), QNLI (Accuracy), RTE (Accuracy), and an average score. The rows list different models: OpenAI GPT, CNN Base, CNN Large, BPE Large, GPT on STILTs, BERT_BASE, and BERT_LARGE. Each cell contains a numerical value representing the model's performance on the respective task. For example, the OpenAI GPT scores 45.4 on CoLA, 91.3 on SST-2, 82.3 on MRPC, 80.0 on STS-B, 70.3 on QQP, 82.1/81.4 on MNLI-m/mm, 88.1 on QNLI, and 56.0 on RTE, with an average score of 75.2. The BERT_LARGE model performs the best overall, scoring 60.5 on CoLA, 94.9 on SST-2, 89.3 on MRPC, 86.5 on STS-B, 72.1 on QQP, 86.7/85.9 on MNLI-m/mm, 91.1 on QNLI, and 70.1 on RTE, with an average score of 81.9."
+        },
+        {
+            "entity_name": "OPENAI GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by OpenAI, showcasing performance across various NLP tasks including CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, and RTE."
+        },
+        {
+            "entity_name": "CNN BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Convolutional Neural Network model with base configuration, evaluated on multiple NLP benchmarks."
+        },
+        {
+            "entity_name": "CNN LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Convolutional Neural Network model with a larger configuration, demonstrating performance on several NLP tasks."
+        },
+        {
+            "entity_name": "BPE LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Byte Pair Encoding model with a large configuration, assessed on various NLP datasets."
+        },
+        {
+            "entity_name": "GPT ON STILTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A variant of the GPT model, tested on different NLP challenges including CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, and RTE."
+        },
+        {
+            "entity_name": "BERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "The base version of the BERT model, evaluated on multiple NLP benchmarks."
+        },
+        {
+            "entity_name": "BERT_LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "The large version of the BERT model, showing performance across various NLP tasks."
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "IMAGE_5",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table that presents the F1 scores for different models on the CoNLL 2003 Named Entity Recognition (NER) task. The table has two main columns: 'dev F1' and 'test F1', which represent the F1 scores on the development and test datasets, respectively. The rows list various models and their corresponding F1 scores. The first row shows the model 'ELMo_BASE' with dev F1 of 95.7 and test F1 of 92.2. The second row lists 'CNN Large + ELMo' with slightly higher scores at 96.4 for dev F1 and 93.2 for test F1. The third row, 'CNN Large + fine-tune', achieves the highest scores in this set with 96.9 for dev F1 and 93.5 for test F1. The fourth and fifth rows present the BERT models, 'BERT_BASE' and 'BERT_LARGE', with dev F1 scores of 96.4 and 96.6, respectively, and test F1 scores of 92.4 and 92.8, respectively. The table highlights the performance comparison among these models, showing that the CNN Large model with fine-tuning performs the best."
+        },
+        {
+            "entity_name": "ELMO_BASE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a dev F1 score of 95.7 and a test F1 score of 92.2."
+        },
+        {
+            "entity_name": "CNN LARGE + ELMO",
+            "entity_type": "MODEL",
+            "description": "A model that combines CNN Large with ELMo, achieving a dev F1 score of 96.4 and a test F1 score of 93.2."
+        },
+        {
+            "entity_name": "CNN LARGE + FINE-TUNE",
+            "entity_type": "MODEL",
+            "description": "A model that combines CNN Large with fine-tuning, achieving a dev F1 score of 96.9 and a test F1 score of 93.5."
+        },
+        {
+            "entity_name": "BERT_BASE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a dev F1 score of 96.4 and a test F1 score of 92.4."
+        },
+        {
+            "entity_name": "BERT_LARGE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a dev F1 score of 96.6 and a test F1 score of 92.8."
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "IMAGE_6",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 3: CoNLL-2003 Named Entity Recognition results.' The table presents the F1 scores for different models on the development (dev) and test sets. It contains four rows and three columns. The first column lists the models: ELMo_BASE, CNN Large + ELMo, and CNN Large + fine-tune. The second column shows the dev F1 scores: 95.2 for ELMo_BASE, 95.1 for CNN Large + ELMo, and 95.5 for CNN Large + fine-tune. The third column shows the test F1 scores: 95.1 for ELMo_BASE, 95.2 for CNN Large + ELMo, and 95.6 for CNN Large + fine-tune. The table highlights that the CNN Large + fine-tune model achieves the highest F1 scores on both the dev and test sets."
+        },
+        {
+            "entity_name": "ELMO_BASE",
+            "entity_type": "MODEL",
+            "description": "A baseline model with a dev F1 score of 95.2 and a test F1 score of 95.1."
+        },
+        {
+            "entity_name": "CNN LARGE + ELMO",
+            "entity_type": "MODEL",
+            "description": "A model combining CNN Large with ELMo, achieving a dev F1 score of 95.1 and a test F1 score of 95.2."
+        },
+        {
+            "entity_name": "CNN LARGE + FINE-TUNE",
+            "entity_type": "MODEL",
+            "description": "A model combining CNN Large with fine-tuning, achieving a dev F1 score of 95.5 and a test F1 score of 95.6."
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "IMAGE_7",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a table labeled 'Table 5: Different loss functions on the development sets of GLUE (cf. Table 2)'. The table compares the performance of different models on various tasks from the GLUE benchmark. The rows represent different model configurations: 'cloze', 'bilm', and 'cloze + bilm'. The columns represent different tasks from the GLUE benchmark, including CoLA (mcc), SST-2 (acc), MRPC (F1), STS-B (scc), QQP (F1), MNLI-m (acc), QNLI (acc), RTE (acc), and an average score (Avg). Each cell contains a numerical value representing the performance metric for that task and model configuration. For example, the 'cloze' model achieves a score of 55.1 on the CoLA task, 92.9 on the SST-2 task, and so on. The 'bilm' model scores 50.0 on CoLA, 92.4 on SST-2, etc. The 'cloze + bilm' model combines the two approaches and achieves scores such as 52.6 on CoLA, 93.2 on SST-2, and so forth. The average scores across all tasks are 80.9 for 'cloze', 79.3 for 'bilm', and 80.4 for 'cloze + bilm'."
+        },
+        {
+            "entity_name": "COLA",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of MCC (Matthews correlation coefficient)."
+        },
+        {
+            "entity_name": "SST-2",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of accuracy."
+        },
+        {
+            "entity_name": "MRPC",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of F1 score."
+        },
+        {
+            "entity_name": "STS-B",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of SCC (Spearman correlation coefficient)."
+        },
+        {
+            "entity_name": "QQP",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of F1 score."
+        },
+        {
+            "entity_name": "MNLI-M",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of accuracy."
+        },
+        {
+            "entity_name": "QNLI",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of accuracy."
+        },
+        {
+            "entity_name": "RTE",
+            "entity_type": "EVENT",
+            "description": "An event or task related to the evaluation of a model's performance on a specific dataset, with a metric of accuracy."
+        },
+        {
+            "entity_name": "AVG",
+            "entity_type": "EVENT",
+            "description": "The average performance across all datasets evaluated, with a metric of accuracy."
+        },
+        {
+            "entity_name": "CLOZE",
+            "entity_type": "ORGANIZATION",
+            "description": "A method or model used for evaluating performance on various tasks, specifically in the context of language understanding and generation."
+        },
+        {
+            "entity_name": "BILM",
+            "entity_type": "ORGANIZATION",
+            "description": "Another method or model used for evaluating performance on various tasks, specifically in the context of language understanding and generation."
+        },
+        {
+            "entity_name": "CLOZE + BILM",
+            "entity_type": "ORGANIZATION",
+            "description": "A combined method or model that integrates both cloze and bilm approaches for evaluating performance on various tasks, specifically in the context of language understanding and generation."
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "IMAGE_8",
+            "entity_type": "ORI_IMG",
+            "description": "The image is a line graph titled 'Average GLUE score with different amounts of Common Crawl data for pretraining.' The x-axis represents the amount of training data tokens, ranging from 562M to 18B. The y-axis represents the average GLUE score, ranging from 80 to 81.5. The graph shows a blue line with circular markers indicating the average GLUE scores at different data points. The scores are as follows: 562M tokens have an average GLUE score of approximately 80, 1.1B tokens have a score of about 80.5, 2.25B tokens have a score of around 81, 4.5B tokens have a score of about 81, 9B tokens have a score of approximately 81.5, and 18B tokens have a score of about 81.5. The trend indicates that as the amount of training data increases, the average GLUE score generally improves, with a significant increase between 562M and 1.1B tokens, followed by a more gradual increase thereafter."
+        },
+        {
+            "entity_name": "AVERAGE GLUE SCORE",
+            "entity_type": "EVENT",
+            "description": "The average GLUE score is plotted against the number of training data tokens, showing an increasing trend as the number of tokens increases."
+        },
+        {
+            "entity_name": "TRAIN DATA TOKENS",
+            "entity_type": "UNKNOWN",
+            "description": "The relationship shows that as the number of train data tokens increases, the average GLUE score also increases."
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "TRAIN DATA (M TOK)",
+            "entity_type": "EVENT",
+            "description": "The amount of training data measured in millions of tokens, ranging from 562 to 18000."
+        },
+        {
+            "entity_name": "COLA (MCC)",
+            "entity_type": "EVENT",
+            "description": "The Matthew's correlation coefficient score for the CoLA dataset, ranging from 50.6 to 56.6."
+        },
+        {
+            "entity_name": "SST-2 (ACC)",
+            "entity_type": "EVENT",
+            "description": "The accuracy score for the SST-2 dataset, ranging from 91.6 to 93.6."
+        },
+        {
+            "entity_name": "MRPC (F1)",
+            "entity_type": "EVENT",
+            "description": "The F1 score for the MRPC dataset, ranging from 81.4 to 88.8."
+        },
+        {
+            "entity_name": "STS-B (SCC)",
+            "entity_type": "EVENT",
+            "description": "The sentence correlation coefficient score for the STS-B dataset, ranging from 78.2 to 88.8."
+        },
+        {
+            "entity_name": "QQP (F1)",
+            "entity_type": "EVENT",
+            "description": "The F1 score for the QQP dataset, ranging from 84.9 to 87.2."
+        },
+        {
+            "entity_name": "MNLI-M (ACC)",
+            "entity_type": "EVENT",
+            "description": "The accuracy score for the MNLI-m dataset, ranging from 79.1 to 82.3."
+        },
+        {
+            "entity_name": "QNLI (ACC)",
+            "entity_type": "EVENT",
+            "description": "The accuracy score for the QNLI dataset, ranging from 82.0 to 86.9."
+        },
+        {
+            "entity_name": "RTE (ACC)",
+            "entity_type": "EVENT",
+            "description": "The accuracy score for the RTE dataset, ranging from 53.9 to 68.4."
+        },
+        {
+            "entity_name": "AVG",
+            "entity_type": "EVENT",
+            "description": "The average score across all datasets, ranging from 75.6 to 81.3."
+        },
+        {
+            "entity_name": "IMAGE_9",
+            "entity_type": "ORI_IMG",
+            "description": "IMAGE_9 is a table labeled 'Table 6: Effect of different domains and amount of data for pretraining on the development sets of GLUE (cf. Table 2).' The table is based on the CNN base model (Table 1) and is structured with rows representing different datasets and columns representing various metrics. The datasets include 'ccrawl' with varying amounts of training data in millions of tokens (M tok), 'news crawl', 'BWiki - sent', and 'BWiki - blck'. The metrics evaluated are CoLA (mcc), SST-2 (acc), MRPC (F1), STS-B (scc), QQP (F1), MNLI-m (acc), QNLI (acc), RTE (acc), and an average (Avg). \n\nFor instance, with 562 M tok of ccrawl data, the metrics are as follows: CoLA (52.5), SST-2 (92.9), MRPC (88.2), STS-B (88.3), QQP (87.1), MNLI-m (81.7), QNLI (85.7), RTE (63.3), and Avg (79.9). As the amount of ccrawl data increases to 18000 M tok, the metrics improve to CoLA (56.3), SST-2 (93.1), MRPC (88.0), STS-B (88.8), QQP (87.2), MNLI-m (82.3), QNLI (86.3), RTE (68.4), and Avg (81.3). The news crawl dataset shows lower performance across all metrics compared to ccrawl. For example, with 562 M tok of news crawl data, the metrics are CoLA (50.9), SST-2 (92.8), MRPC (81.4), STS-B (78.2), QQP (84.9), MNLI-m (79.1), QNLI (82.0), RTE (55.7), and"
+        }
+    ]
+}

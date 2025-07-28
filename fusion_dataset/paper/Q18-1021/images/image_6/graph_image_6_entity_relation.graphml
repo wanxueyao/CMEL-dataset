@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;BIDAF&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model that performs on the WikiHop and MedHop datasets, achieving various scores on standard and gold chain tests."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;BIDAF MASK&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A variant of the BiDAF model that includes a masking mechanism, showing improved performance on both WikiHop and MedHop datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;FASTQA&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"Another model tested on WikiHop and MedHop datasets, with its own set of scores for standard and gold chain tests."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;FASTQA MASK&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A variant of the FastQA model that incorporates a masking mechanism, demonstrating different performance levels on the same datasets."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;WIKIHOP&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"A dataset used for evaluating models in question-answering tasks, with results presented for both standard and gold chain tests."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;MEDHOP&quot;">
+  <data key="d0">"DATASET"</data>
+  <data key="d1">"Another dataset used for evaluating models in question-answering tasks, also showing results for standard and gold chain tests."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<node id="&quot;IMAGE_6&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_6 is a table that compares the test accuracy of various models on two datasets, WIKIHOP and MEDHOP. The table is divided into four main columns: 'standard' and 'gold chain' for both WIKIHOP and MEDHOP. Each column further splits into 'test' and 'test*' sub-columns. The rows represent different models: BiDAF, BiDAF mask, FastQA, and FastQA mask. The table provides the following accuracies:
+
+For WIKIHOP standard, the accuracies are: BiDAF (42.9), BiDAF mask (54.5), FastQA (25.7), FastQA mask (35.8). For WIKIHOP gold chain, the accuracies are: BiDAF (57.9), BiDAF mask (81.2), FastQA (44.5), FastQA mask (65.3). For MEDHOP standard, the accuracies are: BiDAF (47.8), BiDAF mask (33.7), FastQA (23.1), FastQA mask (31.3). For MEDHOP gold chain, the accuracies are: BiDAF (86.4), BiDAF mask (99.3), FastQA (54.6), FastQA mask (51.8).
+
+The asterisked values (test*) represent validated samples, with the following accuracies: For WIKIHOP standard, the accuracies are: BiDAF (49.7), BiDAF mask (59.8), FastQA (27.2), FastQA mask (38.0). For WIKIHOP gold chain, the accuracies are: BiDAF (63.4), BiDAF mask (85.7), FastQA (53.5), FastQA mask (70.0). For MEDHOP standard, the accuracies are: BiDAF (61.2), BiDAF mask (42.9), FastQA (24.5), FastQA mask (30.6)</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+</node>
+<edge source="&quot;BIDAF&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BiDAF是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIDAF&quot;" target="&quot;WIKIHOP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BiDAF model was tested on the WikiHop dataset, achieving specific scores on both standard and gold chain tests."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIDAF&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The BiDAF model was also tested on the MedHop dataset, with its own set of scores for standard and gold chain tests."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIDAF MASK&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"BiDAF mask是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIDAF MASK&quot;" target="&quot;WIKIHOP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BiDAF mask variant was tested on the WikiHop dataset, showing improved performance over the original BiDAF model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BIDAF MASK&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The BiDAF mask variant was tested on the MedHop dataset, achieving higher scores than the original BiDAF model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastQA是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA&quot;" target="&quot;WIKIHOP&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The FastQA model was tested on the WikiHop dataset, with its own set of scores for standard and gold chain tests."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The FastQA model was also tested on the MedHop dataset, showing different performance levels."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA MASK&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"FastQA mask是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA MASK&quot;" target="&quot;WIKIHOP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The FastQA mask variant was tested on the WikiHop dataset, demonstrating improved performance over the original FastQA model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FASTQA MASK&quot;" target="&quot;MEDHOP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The FastQA mask variant was tested on the MedHop dataset, showing varied performance compared to the original FastQA model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;WIKIHOP&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"WikiHop是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MEDHOP&quot;" target="&quot;IMAGE_6&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"MedHop是从image_6中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/Q18-1021/images/image_6.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

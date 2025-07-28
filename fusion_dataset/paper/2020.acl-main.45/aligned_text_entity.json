@@ -1,0 +1,356 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "CONLL03 NER",
+            "entity_type": "EVENT",
+            "description": "CoNLL03 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task, with 170K negative and 34K positive samples, resulting in a ratio of 4.98.",
+            "source_image_entities": [
+                "CONLL03 NER"
+            ],
+            "source_text_entities": [
+                "CONLL03"
+            ]
+        },
+        {
+            "merged_entity_name": "ONTONOTES5.0 NER",
+            "entity_type": "EVENT",
+            "description": "OntoNotes5.0 is an event or dataset used to evaluate the performance of the proposed method for named entity recognition task, with 1.96M negative and 239K positive samples, resulting in a ratio of 8.18.",
+            "source_image_entities": [
+                "ONTONOTES5.0 NER"
+            ],
+            "source_text_entities": [
+                "ONTONOTES5.0"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "DSC",
+            "entity_type": "UNKNOWN",
+            "description": "DSC, or Sørensen–Dice Coefficient, is an F1- oriented statistic used to gauge the similarity of two sets, particularly in the context of boolean data. It is used in machine learning for comparing the similarity of two samples and is represented by the formula DSC(x_i) = (2p_i1*y_i1 + γ) / (p_i1 + y_i1 + γ). DSC also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "DSC"
+            ],
+            "source_text_entities": [
+                "DSC"
+            ]
+        },
+        {
+            "entity_name": "Dice Loss (DL)",
+            "entity_type": "UNKNOWN",
+            "description": "Dice Loss (DL) is a loss function used in machine learning for certain types of data convergence. It was proposed by Milletari et al. to change the denominator to the square form for faster convergence, represented by the formula DL = 1/N * Σ[1 - (2p_i1*y_i1 + γ) / (p_i1^2 + y_i1^2 + γ)]. DL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "DL(Γ=1)"
+            ],
+            "source_text_entities": [
+                "DL"
+            ]
+        },
+        {
+            "entity_name": "Tversky Loss (TL)",
+            "entity_type": "UNKNOWN",
+            "description": "Tversky Loss (TL) is a loss function derived from the Tversky index, used for optimizing machine learning models. It is given by the formula TL = 1/N * Σ[1 - (p_i1*y_i1 + γ) / (p_i1*y_i1 + α*p_i1*y_i0 + β*p_i0*y_i1 + γ)]. TL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "TL(Β=0.5)"
+            ],
+            "source_text_entities": [
+                "TVERSKY LOSS (TL)"
+            ]
+        },
+        {
+            "entity_name": "Focal Loss (FL)",
+            "entity_type": "UNKNOWN",
+            "description": "Focal Loss (FL) is a loss function used in object detection to handle the foreground-background class imbalance. It was proposed by Lin et al. and is represented by the formula FL = -(1-p)^γ * log(p). FL also appears as a graph in image_2, indicating its visual representation.",
+            "source_image_entities": [
+                "FL(Γ=1)"
+            ],
+            "source_text_entities": [
+                "FOCAL LOSS (FL)"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "CTB5",
+            "entity_type": "DATASET",
+            "description": "The fifth version of the Penn Chinese Treebank dataset, used for evaluating machine learning models on Chinese POS tagging.",
+            "source_image_entities": [
+                "CTB5"
+            ],
+            "source_text_entities": [
+                "CTB5"
+            ]
+        },
+        {
+            "entity_name": "CTB6",
+            "entity_type": "DATASET",
+            "description": "The sixth version of the Penn Chinese Treebank dataset, used for evaluating machine learning models on Chinese POS tagging.",
+            "source_image_entities": [
+                "CTB6"
+            ],
+            "source_text_entities": [
+                "CTB6"
+            ]
+        },
+        {
+            "entity_name": "UD1.4",
+            "entity_type": "DATASET",
+            "description": "The 1.4 version of the Universal Dependencies dataset, used for evaluating machine learning models on English POS tagging.",
+            "source_image_entities": [
+                "UD1.4"
+            ],
+            "source_text_entities": [
+                "UD1.4"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "ENGLISH WSJ",
+            "entity_type": "EVENT",
+            "description": "The Wall Street Journal dataset, referred to as WSJ, is used for evaluating the performance of different models in terms of precision, recall, and F1 score. It is provided by the Wall Street Journal organization and is used in part-of-speech tagging experiments.",
+            "source_image_entities": [
+                "ENGLISH WSJ"
+            ],
+            "source_text_entities": [
+                "WSJ"
+            ]
+        }
+    ],
+    "image_5": [
+    ],
+    "image_6": [
+        {
+            "entity_name": "English OntoNotes 5.0",
+            "entity_type": "EVENT",
+            "description": "A benchmark dataset used for evaluating the performance of different models in natural language processing tasks, including part-of-speech tagging and named entity recognition.",
+            "source_image_entities": [
+                "ENGLISH ONTONOTES 5.0"
+            ],
+            "source_text_entities": [
+                "ONTONOTES5.0"
+            ]
+        }
+    ],
+    "image_7": [
+        {
+            "entity_name": "CHINESE MSRA",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating named entity recognition models, part of the experiments where DSC loss achieved SOTA performances.",
+            "source_image_entities": [
+                "CHINESE MSRA"
+            ],
+            "source_text_entities": [
+                "MSRA"
+            ]
+        },
+        {
+            "entity_name": "CHINESE ONTONOTES 4.0",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating named entity recognition models, part of the experiments where DSC loss achieved SOTA performances.",
+            "source_image_entities": [
+                "CHINESE ONTONOTES 4.0"
+            ],
+            "source_text_entities": [
+                "ONTONOTES4.0"
+            ]
+        }
+    ],
+    "image_8": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "MODEL",
+            "description": "A model developed by Devlin et al. in 2018 for a variety of NLP tasks, including question answering. It scores each candidate span and the maximum scoring span is used as a prediction.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "XLNET",
+            "entity_type": "MODEL",
+            "description": "A model developed by Yang et al. in 2019 for language modeling and other NLP tasks. It proposes a generalized autoregressive pretraining method that enables learning bidirectional contexts.",
+            "source_image_entities": [
+                "XLNET"
+            ],
+            "source_text_entities": [
+                "XLNET"
+            ]
+        },
+        {
+            "entity_name": "SQUAD V1.1",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of models on question answering tasks, developed by Rajpurkar et al. in 2016.",
+            "source_image_entities": [
+                "SQUAD V1.1"
+            ],
+            "source_text_entities": [
+                "SQUAD V1.1"
+            ]
+        },
+        {
+            "entity_name": "SQUAD V2.0",
+            "entity_type": "DATASET",
+            "description": "An updated version of SQuAD v1.1 with more challenging questions, developed by Rajpurkar et al. in 2018.",
+            "source_image_entities": [
+                "SQUAD V2.0"
+            ],
+            "source_text_entities": [
+                "SQUAD V2.0"
+            ]
+        },
+        {
+            "entity_name": "QUOREF",
+            "entity_type": "DATASET",
+            "description": "A dataset focusing on coreference resolution in question answering tasks, developed by Dasigi et al. in 2019.",
+            "source_image_entities": [
+                "QUOREF"
+            ],
+            "source_text_entities": [
+                "QUOREF"
+            ]
+        },
+        {
+            "entity_name": "DSC",
+            "entity_type": "CONCEPT",
+            "description": "Dynamic Sigmoid Cross-Entropy loss function used in the experiments, proposed as an improvement over MLE and compared with other loss functions like Focal Loss and Dice Loss.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "DSC",
+                "DSC",
+                "DSC"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "BERT (DEVLIN ET AL., 2018)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model developed by Devlin et al. in 2018 that achieves an F1 score of 88.0 on MRPC and 91.3 on QQP, used as the backbone for experiments in part-of-speech tagging and named entity recognition tasks.",
+            "source_image_entities": [
+                "BERT (DEVLIN ET AL., 2018)"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "XLNET (YANG ET AL., 2019)",
+            "entity_type": "MODEL",
+            "description": "A pre-trained model proposed by Yang et al. in 2019 that achieves an F1 score of 89.2 on MRPC and 91.8 on QQP, using a generalized autoregressive pretraining method that enables learning bidirectional contexts.",
+            "source_image_entities": [
+                "XLNET (YANG ET AL., 2019)"
+            ],
+            "source_text_entities": [
+                "XLNET"
+            ]
+        }
+    ],
+    "image_10": [
+        {
+            "entity_name": "BERT",
+            "entity_type": "ORGANIZATION",
+            "description": "BERT is a deep learning model used for natural language processing tasks, specifically mentioned as the backbone for experiments in part-of-speech tagging and named entity recognition tasks, and also used for scoring candidate spans in question answering tasks.",
+            "source_image_entities": [
+                "BERT"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "+ POSITIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding positive examples to the training set, a technique used to create a balanced dataset and evaluated in the context of dataset imbalance.",
+            "source_image_entities": [
+                "+ POSITIVE"
+            ],
+            "source_text_entities": [
+                "POSITIVE AUGMENTATION"
+            ]
+        },
+        {
+            "entity_name": "+ NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding negative examples to the training set, contributing to the creation of a more imbalanced dataset.",
+            "source_image_entities": [
+                "+ NEGATIVE"
+            ],
+            "source_text_entities": [
+                "NEGATIVE AUGMENTATION"
+            ]
+        },
+        {
+            "entity_name": "- NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after removing negative examples from the training set, a technique used to balance the training set by reducing the number of negative examples.",
+            "source_image_entities": [
+                "- NEGATIVE"
+            ],
+            "source_text_entities": [
+                "NEGATIVE DOWNSAMPLING"
+            ]
+        },
+        {
+            "entity_name": "+ POSITIVE & NEGATIVE",
+            "entity_type": "EVENT",
+            "description": "The performance of the BERT model after adding both positive and negative examples to the training set, a technique used to augment the original training data while maintaining the same data distribution.",
+            "source_image_entities": [
+                "+ POSITIVE & NEGATIVE"
+            ],
+            "source_text_entities": [
+                "POSITIVE AND NEGATIVE AUGMENTATION"
+            ]
+        }
+    ],
+    "image_11": [
+        {
+            "entity_name": "SST-2",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on sentiment analysis, and is a subset of the Stanford Sentiment Treebank.",
+            "source_image_entities": [
+                "SST-2"
+            ],
+            "source_text_entities": [
+                "SST-2"
+            ]
+        },
+        {
+            "entity_name": "SST-5",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of text classification models, with a focus on fine-grained sentiment analysis, and is a subset of the Stanford Sentiment Treebank.",
+            "source_image_entities": [
+                "SST-5"
+            ],
+            "source_text_entities": [
+                "SST-5"
+            ]
+        }
+    ],
+    "image_12": [
+        {
+            "entity_name": "CHINESE ONTO4.0",
+            "entity_type": "DATASET",
+            "description": "A dataset used for evaluating the performance of a model, with scores ranging from 80.13 to 84.67. The highest F1 on Chinese OntoNotes4.0 is 84.67 when α is set to 0.6.",
+            "source_image_entities": [
+                "CHINESE ONTO4.0"
+            ],
+            "source_text_entities": [
+                "CHINESE ONTONOTES4.0 NER"
+            ]
+        },
+        {
+            "entity_name": "ENGLISH QUOREF",
+            "entity_type": "DATASET",
+            "description": "Another dataset used for evaluating the performance of a model, with scores ranging from 63.23 to 68.44. For QuoRef, the highest F1 is 68.44 when α is set to 0.4.",
+            "source_image_entities": [
+                "ENGLISH QUOREF"
+            ],
+            "source_text_entities": [
+                "QUOREF MRC"
+            ]
+        }
+    ]
+}

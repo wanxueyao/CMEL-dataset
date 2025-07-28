@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_3&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Table 2: Prompt types automatically extracted from talk page conversations, with interpretations and examples from the data.' The table is structured with three main columns: Prompt Type, Description, and Examples. Each row represents a different prompt type and contains the following information:\n\n1. **Factual check**: Statements about article content, pertaining to or contending issues like factual accuracy. Examples include 'The terms are used interchangeably in the US.' and 'The census is not talking about families here.'\n\n2. **Moderation**: Rebukes or disputes concerning moderation decisions such as blocks and reversions. Examples include 'If you continue, you may be blocked from editing.' and 'He’s accused me of being a troll.'\n\n3. **Coordination**: Requests, questions, and statements of intent pertaining to collaboratively editing an article. Examples include 'It’s a long list so I could do with your help.' and 'Let me know if you agree with this and I’ll go ahead [...]' \n\n4. **Casual remark**: Casual, highly conversational aside-remarks. Examples include 'What’s with this flag image?' and 'I’m surprised there wasn’t an article before.'\n\n5. **Action statement**: Requests, statements, and explanations about various editing actions. Examples include 'Please consider improving the article to address the issues [...]' and 'The page was deleted as self-promotion.'\n\n6. **Opinion**: Statements seeking or expressing opinions about editing challenges and decisions. Examples include 'I think that it should be the other way around.' and 'This article seems to have a lot of bias.'\n\nThe table highlights the variety of prompt types found in Wikipedia talk page conversations, ranging from factual checks and moderation disputes to coordination requests and casual remarks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;FACTUAL CHECK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Statements about article content, pertaining to or contending issues like factual accuracy."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;MODERATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Rebukes or disputes concerning moderation decisions such as blocks and reversions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;COORDINATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Requests, questions, and statements of intent pertaining to collaboratively editing an article."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;CASUAL REMARK&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Casual, highly conversational aside-remarks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;ACTION STATEMENT&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Requests, statements, and explanations about various editing actions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<node id="&quot;OPINION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"Statements seeking or expressing opinions about editing challenges and decisions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+</node>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;FACTUAL CHECK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Factual check是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;MODERATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Moderation是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;COORDINATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Coordination是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;CASUAL REMARK&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Casual remark是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;ACTION STATEMENT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Action statement是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_3&quot;" target="&quot;OPINION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Opinion是从image_3中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1125/images/image_3.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

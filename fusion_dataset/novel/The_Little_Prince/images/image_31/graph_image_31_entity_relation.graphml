@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_31_SKIS-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Feather- Color: Light brown with darker brown tips- Shape: Long and slender, with a pointed tip and a central shaft (rachis) from which the vanes extend- Size: Relatively small, the feather occupies a narrow horizontal space in the image- Material: Appears to be made of keratin, typical of bird feathers- Possible function: Likely used for flight, insulation, or display, depending on the species of the bird it comes fromOverall, the feather appears delicate and lightweight, with a natural gradient of coloration from light to dark."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<node id="&quot;IMAGE_31_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin Color: Light skin tone- Hairstyle: Short, light brown hair- Facial Expression: Neutral expression- Age: Appears to be an adult male- Clothing: Wearing a yellow turtleneck sweater under a brown jacket; brown pants with a wide leg design; white shoes- Posture: Standing upright with one arm extended outward and the other bent at the elbowOverall, the character appears to be in a casual stance, possibly engaged in an activity or conversation."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<node id="&quot;IMAGE_31&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a simple, hand-drawn illustration featuring a young boy with orange hair. He is standing on what appears to be a grid or a patterned surface, possibly representing a map or a network of lines. The boy is wearing a brown jacket over a yellow shirt and brown pants. His right arm is extended outward, pointing towards something off-frame, while his left arm is bent at the elbow with his hand resting near his waist. Above him, there is a bright yellow sun with rays extending outward, suggesting a sunny day. The background is minimalistic, with no additional details other than the grid-like pattern on the ground. The overall atmosphere conveyed by the image is one of curiosity and exploration, as the boy seems to be indicating or discovering something."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<node id="&quot;BOY&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A boy with orange hair, wearing a brown jacket over a yellow shirt and brown pants, pointing at something."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<node id="&quot;SUN&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A bright yellow sun in the sky with rays extending outward."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<node id="&quot;GROUND&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A patterned ground with intersecting lines."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+</node>
+<edge source="&quot;IMAGE_31_SKIS-1.JPG&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_31_skis-1.jpg is a picture of the ground."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31_SKIS-1.JPG&quot;" target="&quot;IMAGE_31&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_31_skis-1.jpg是image_31的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31_PERSON-0.JPG&quot;" target="&quot;BOY&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_31_person-0.jpg is a picture of a boy."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31_PERSON-0.JPG&quot;" target="&quot;IMAGE_31&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_31_person-0.jpg是image_31的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31&quot;" target="&quot;BOY&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Boy是从image_31中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31&quot;" target="&quot;SUN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sun是从image_31中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_31&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ground是从image_31中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;SUN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The boy is pointing towards the sun."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;BOY&quot;" target="&quot;GROUND&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The boy is standing on the ground."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_31.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_5&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a line graph titled 'Task Success Rate over Time (smoothed)'. The x-axis represents the number of interactive dialogue learning sessions, ranging from 0 to 10000. The y-axis represents the task success rate, ranging from 0.3 to 0.7. Four different curves are plotted on the graph, each representing a different model configuration: SL Baseline (dotted cyan line), SL + RL (solid red line with pentagon markers), SL + IL 500 + RL (solid yellow line with triangle markers), and SL + IL 1000 + RL (solid blue line with star markers). The SL Baseline curve remains relatively flat near the bottom of the graph, indicating a low and stable task success rate. The SL + RL curve starts lower but gradually increases, reaching a plateau around 0.55. The SL + IL 500 + RL curve starts higher than the SL + RL curve and also increases, reaching a plateau around 0.62. The SL + IL 1000 + RL curve starts the highest and increases further, reaching a plateau around 0.65. Two specific points are highlighted: one on the SL + IL 1000 + RL curve at around 2000 sessions with a task success rate of approximately 0.6, and another on the SL + IL 500 + RL curve at around 2000 sessions with a task success rate of approximately 0.58."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+</node>
+<node id="&quot;SL BASELINE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Represents the baseline performance of supervised learning without reinforcement learning enhancements. The task success rate remains relatively constant around 0.35 throughout the interactive dialogue learning sessions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+</node>
+<node id="&quot;SL + RL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Indicates the performance when supervised learning is combined with reinforcement learning. The task success rate starts low but increases over time, reaching a plateau around 0.55 after approximately 6000 sessions."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+</node>
+<node id="&quot;SL + IL 500 + RL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Shows the performance when supervised learning is augmented with imitation learning for the first 500 sessions and then reinforced with reinforcement learning. The task success rate improves more rapidly initially and stabilizes around 0.62."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+</node>
+<node id="&quot;SL + IL 1000 + RL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Demonstrates the performance when supervised learning is enhanced with imitation learning for the first 1000 sessions before reinforcement learning is applied. This approach leads to the highest task success rate, which plateaus around 0.67."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+</node>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SL BASELINE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SL Baseline是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SL + RL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SL + RL是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SL + IL 500 + RL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SL + IL 500 + RL是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_5&quot;" target="&quot;SL + IL 1000 + RL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SL + IL 1000 + RL是从image_5中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/N18-1187/images/image_5.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

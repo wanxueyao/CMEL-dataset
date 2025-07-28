@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_1&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a screenshot of a dialog state tracking example for booking a hotel and reserving a restaurant. The dialog is structured into turns, with each turn containing a user utterance (in grey) and a system utterance (in orange). The dialog state tracker (in green) tracks all the &lt;domain, slot, value&gt; triplets until the current turn. The blue color denotes the new state appearing at that turn. The conversation begins with the user stating they are looking for a cheap hotel. The system responds by asking if the user has a specific area in mind. The user then specifies they need parking. The system finds a cheap hotel with parking and asks if the user wants to book it. The user confirms and provides details for 6 people staying for 3 nights starting on Tuesday. The system confirms the booking and provides a reference number. The user then requests to book an expensive restaurant with Japanese food. The dialog state tracker updates accordingly with each turn."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+</node>
+<node id="&quot;HOTEL&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"A cheap hotel with parking facilities, booked for 6 people for 3 nights starting on Tuesday."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+</node>
+<node id="&quot;RESTAURANT&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"An expensive restaurant serving Japanese food."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+</node>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;HOTEL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"hotel是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_1&quot;" target="&quot;RESTAURANT&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"restaurant是从image_1中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HOTEL&quot;" target="&quot;RESTAURANT&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"Both are places of accommodation and dining, respectively, being sought by the user in the conversation."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/2020.starsem-1.17/images/image_1.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

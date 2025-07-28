@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a black-and-white illustration depicting a young girl sitting on a stool outside a barn, leaning against the wooden fence. She has her hair tied back and is wearing a dress. Her posture suggests she is observing something with interest or concern. To her left, there is a goose lying on the ground, facing away from her. The goose appears to be resting or possibly brooding. To her right, there is a sheep with a fluffy wool coat, also facing away from her. The sheep seems to be grazing or looking around. The scene is set in a rural environment, with hay scattered on the ground and the wooden structure of the barn visible in the background. The overall atmosphere conveys a sense of quiet companionship and observation between the girl and the animals."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;GIRL&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young girl with her hair tied back, sitting on a stool and leaning over a wooden fence."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;SHEEP&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A fluffy sheep standing behind the fence, facing the girl."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;GOOSE&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"A goose lying on the ground in front of the fence, near the girl's feet."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+</node>
+<node id="&quot;FENCE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A wooden fence separating the girl from the sheep and the goose."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;GIRL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Girl是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Sheep是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;GOOSE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Goose是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fence是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;SHEEP&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The girl is leaning over the fence to interact with the sheep."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GIRL&quot;" target="&quot;GOOSE&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The girl is sitting close to the goose, which is lying on the ground."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SHEEP&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The sheep is standing behind the fence, separated from the girl."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;GOOSE&quot;" target="&quot;FENCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The goose is lying in front of the fence, near the girl's feet."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/Charlottes Web (E. B. White) (1)/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

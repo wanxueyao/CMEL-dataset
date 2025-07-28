@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a striking art installation located in a grand, white-walled room with a large, circular skylight at the top. The installation consists of a dense aggregation of red, glove-like objects that appear to be made of a soft material, possibly fabric or rubber. These gloves are densely packed and form a mound that fills the lower half of the image. Interspersed among the gloves are black, thorny branches that add a contrasting texture and color to the scene. The overall atmosphere is one of intensity and perhaps unease, given the unusual combination of elements and the overwhelming presence of the gloves. The stark white walls and ceiling provide a dramatic backdrop that highlights the vivid red of the gloves and the dark, spiky branches."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+</node>
+<node id="&quot;RED GLOVES INSTALLATION&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"An art installation consisting of numerous red gloves arranged in a mound-like structure, interspersed with black thorny branches."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+</node>
+<node id="&quot;DOME CEILING&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A large, white, domed ceiling with a central skylight that allows natural light to illuminate the space."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;RED GLOVES INSTALLATION&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Red Gloves Installation是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;DOME CEILING&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dome Ceiling是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RED GLOVES INSTALLATION&quot;" target="&quot;DOME CEILING&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The installation is located beneath the dome ceiling, creating a striking contrast between the vibrant red gloves and the stark white architecture."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20230616/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

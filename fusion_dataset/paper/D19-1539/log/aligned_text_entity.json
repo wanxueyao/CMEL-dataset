@@ -1,0 +1,396 @@
+{
+    "image_1": [
+        {
+            "entity_name": "COMB",
+            "entity_type": "ORGANIZATION",
+            "description": "A central block that combines inputs from two different paths, as described in the cloze model architecture where the self-attention module combines forward and backward representations to predict the ablated word.",
+            "source_image_entities": [
+                "COMB"
+            ],
+            "source_text_entities": [
+                "SELF-ATTENTION MODULE"
+            ]
+        },
+        {
+            "entity_name": "BLOCK_N",
+            "entity_type": "ORGANIZATION",
+            "description": "A higher-level block in the processing path, represented in green and blue, which refers to the multi-head self-attention module and the feed-forward module (FFN) in each block of the model.",
+            "source_image_entities": [
+                "BLOCK_N"
+            ],
+            "source_text_entities": [
+                "MULTI-HEAD SELF-ATTENTION MODULE",
+                "FEED-FORWARD MODULE (FFN)"
+            ]
+        },
+        {
+            "entity_name": "BLOCK_1",
+            "entity_type": "ORGANIZATION",
+            "description": "A lower-level block in the processing path, represented in green and blue, which refers to the standard transformer decoder block in the model's architecture.",
+            "source_image_entities": [
+                "BLOCK_1"
+            ],
+            "source_text_entities": [
+                "$\\mathbf{B}\\mathbf{lock}_{i}$"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "COMB",
+            "entity_type": "ORGANIZATION",
+            "description": "The combination function 'comb' integrates embeddings from 'a', 'b', and 'c', and is also referred to as the final combination layer in the context of the self-attention mechanism. It is particularly important for downstream tasks that require access to full context, such as NER, and is unmasked during fine-tuning to allow the model to access information from all forward and backward states.",
+            "source_image_entities": [
+                "COMB"
+            ],
+            "source_text_entities": [
+                "SELF-ATTENTION MODULE",
+                "FFN BLOCK"
+            ]
+        },
+        {
+            "entity_name": "EMBEDDING OF A",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'a', which is part of the process where keys and values are based on the forward and backward states fed to the attention module. This embedding contributes to the model's ability to access information about the entire input surrounding the current target token.",
+            "source_image_entities": [
+                "EMBEDDING OF A"
+            ],
+            "source_text_entities": [
+                "ATTENTION MODULE"
+            ]
+        },
+        {
+            "entity_name": "EMBEDDING OF B",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'b', which is central in combining embeddings from 'a' and 'c'. This process is integral to the self-attention mechanism that allows the model to access information about the entire input surrounding the current target token.",
+            "source_image_entities": [
+                "EMBEDDING OF B"
+            ],
+            "source_text_entities": [
+                "ATTENTION MODULE"
+            ]
+        },
+        {
+            "entity_name": "EMBEDDING OF C",
+            "entity_type": "UNKNOWN",
+            "description": "The combination function 'comb' generates an embedding for 'c', which is part of the sequence of elements contributing to the embedding process. This embedding is used by the model to access information about the entire input surrounding the current target token.",
+            "source_image_entities": [
+                "EMBEDDING OF C"
+            ],
+            "source_text_entities": [
+                "ATTENTION MODULE"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "entity_name": "CNN BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A CNN BASE model configuration with 177M parameters, 600K updates, 6 blocks, FFN dimension of 4096, 12 attention heads in the final layer, and uses sum for query formation. It has a training time of 6 days and is mentioned in the context of being adapted from the transformer implementation available in the fairseq toolkit.",
+            "source_image_entities": [
+                "CNN BASE"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "CNN LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A CNN LARGE model configuration with 330M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 10 days and is mentioned in the context of being adapted from the transformer implementation available in the fairseq toolkit.",
+            "source_image_entities": [
+                "CNN LARGE"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "BPE LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A BPE LARGE model configuration with 370M parameters, 1M updates, 12 blocks, FFN dimension of 4096, 32 attention heads in the final layer, and uses concat for query formation. It has a training time of 4.5 days and is mentioned in the context of being adapted from the transformer implementation available in the fairseq toolkit.",
+            "source_image_entities": [
+                "BPE LARGE"
+            ],
+            "source_text_entities": [
+                "BPE MODEL"
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "merged_entity_name": "OPENAI GPT",
+            "entity_type": "ORGANIZATION",
+            "description": "A model developed by OpenAI, showcasing performance across various NLP tasks including CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, and RTE. The unidirectional transformer (OpenAI GPT) is a model that the current models outperform.",
+            "source_image_entities": [
+                "OPENAI GPT"
+            ],
+            "source_text_entities": [
+                "UNIDIRECTION TRANSFORMER (OPENAI GPT)"
+            ]
+        },
+        {
+            "merged_entity_name": "CNN BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Convolutional Neural Network model with base configuration, evaluated on multiple NLP benchmarks. The CNN base model performs as well as STILTs in aggregate, however, on some tasks involving sentence-pairs, STILTs performs much better (MRPC, RTE).",
+            "source_image_entities": [
+                "CNN BASE"
+            ],
+            "source_text_entities": [
+                "CNN BASE ARCHITECTURE",
+                "CNN MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "CNN LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Convolutional Neural Network model with a larger configuration, demonstrating performance on several NLP tasks. The CNN model is the base model used in the approach, performing comparably to STILTs in aggregate.",
+            "source_image_entities": [
+                "CNN LARGE"
+            ],
+            "source_text_entities": [
+                "CNN MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "BPE LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "A Byte Pair Encoding model with a large configuration, assessed on various NLP datasets. The BPE model has more parameters than the CNN model but does not perform better in aggregate, however, it is faster to train.",
+            "source_image_entities": [
+                "BPE LARGE"
+            ],
+            "source_text_entities": [
+                "BPE MODEL"
+            ]
+        },
+        {
+            "merged_entity_name": "GPT ON STILTS",
+            "entity_type": "ORGANIZATION",
+            "description": "A variant of the GPT model, tested on different NLP challenges including CoLA, SST-2, MRPC, STS-B, QQP, MNLI, QNLI, and RTE. STILTs is a model that the CNN base model performs as well as in aggregate, but not as well on some sentence-pair tasks.",
+            "source_image_entities": [
+                "GPT ON STILTS"
+            ],
+            "source_text_entities": [
+                "STILTS"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT_BASE",
+            "entity_type": "ORGANIZATION",
+            "description": "The base version of the BERT model, evaluated on multiple NLP benchmarks. BERT is a model that the current models are compared against, showing similar performance to the CNN base model in aggregate.",
+            "source_image_entities": [
+                "BERT_BASE"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "merged_entity_name": "BERT_LARGE",
+            "entity_type": "ORGANIZATION",
+            "description": "The large version of the BERT model, showing performance across various NLP tasks. BERT is referenced for its training data composition, which includes BooksCorpus and English Wikipedia data.",
+            "source_image_entities": [
+                "BERT_LARGE"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "entity_name": "CNN BASE ARCHITECTURE",
+            "entity_type": "MODEL",
+            "description": "CNN BASE ARCHITECTURE is a model that achieves a dev F1 score of 95.7 and a test F1 score of 92.2, and is used for training models on Common Crawl data for 600K updates. It performs as well as STILTs in aggregate but not as well on some sentence-pair tasks.",
+            "source_image_entities": [
+                "ELMO_BASE"
+            ],
+            "source_text_entities": [
+                "CNN BASE ARCHITECTURE"
+            ]
+        },
+        {
+            "entity_name": "CNN LARGE + ELMO",
+            "entity_type": "MODEL",
+            "description": "A model that combines CNN Large with ELMo, achieving a dev F1 score of 96.4 and a test F1 score of 93.2.",
+            "source_image_entities": [
+                "CNN LARGE + ELMO"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "CNN LARGE + FINE-TUNE",
+            "entity_type": "MODEL",
+            "description": "A model that combines CNN Large with fine-tuning, achieving a dev F1 score of 96.9 and a test F1 score of 93.5.",
+            "source_image_entities": [
+                "CNN LARGE + FINE-TUNE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "BERT_BASE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a dev F1 score of 96.4 and a test F1 score of 92.4, similar in performance to the CNN base model in aggregate.",
+            "source_image_entities": [
+                "BERT_BASE"
+            ],
+            "source_text_entities": [
+                "BERT"
+            ]
+        },
+        {
+            "entity_name": "BERT_LARGE",
+            "entity_type": "MODEL",
+            "description": "A model that achieves a dev F1 score of 96.6 and a test F1 score of 92.8.",
+            "source_image_entities": [
+                "BERT_LARGE"
+            ],
+            "source_text_entities": []
+        }
+    ],
+    "image_6": [
+        {
+            "entity_name": "CNN LARGE + ELMO",
+            "entity_type": "MODEL",
+            "description": "A model combining CNN Large with ELMo, achieving a dev F1 score of 95.1 and a test F1 score of 95.2.",
+            "source_image_entities": [
+                "CNN LARGE + ELMO"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "CNN LARGE + FINE-TUNE",
+            "entity_type": "MODEL",
+            "description": "A model combining CNN Large with fine-tuning, achieving a dev F1 score of 95.5 and a test F1 score of 95.6.",
+            "source_image_entities": [
+                "CNN LARGE + FINE-TUNE"
+            ],
+            "source_text_entities": [
+                "CNN"
+            ]
+        },
+        {
+            "entity_name": "ELMO_BASE",
+            "entity_type": "MODEL",
+            "description": "A baseline model with a dev F1 score of 95.2 and a test F1 score of 95.1.",
+            "source_image_entities": [
+                "ELMO_BASE"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "entity_name": "Common Crawl",
+            "entity_type": "ORGANIZATION",
+            "description": "Common Crawl is a web data source used for pre-training models, following pre-processing based on the May 2017 dump, and is the source of training examples for the model, providing paragraphs of arbitrary length.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"COMMON CRAWL\"",
+                "\"COMMON CRAWL\""
+            ]
+        },
+        {
+            "entity_name": "Convolutional Neural Networks (CNN)",
+            "entity_type": "TECHNOLOGY",
+            "description": "Convolutional Neural Networks (CNN) are used in two input models in base and large configurations and refers to the CNN base model used in the approach, performing comparably to STILTs in aggregate.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"CNN\"",
+                "\"CNN MODEL\""
+            ]
+        }
+    ],
+    "image_7": null,
+    "image_8": [
+        {
+            "entity_name": "GLUE Benchmark",
+            "entity_type": "ORGANIZATION",
+            "description": "GLUE is an evaluation benchmark that includes multiple natural language understanding tasks, showing large gains for the presented pretraining architecture over previous models.",
+            "source_image_entities": [
+                "AVERAGE GLUE SCORE"
+            ],
+            "source_text_entities": [
+                "GLUE"
+            ]
+        },
+        {
+            "entity_name": "Common Crawl",
+            "entity_type": "ORGANIZATION",
+            "description": "Common Crawl is the source of training examples for the model, providing paragraphs of arbitrary length, and showing increased performance with more data.",
+            "source_image_entities": [
+                "TRAIN DATA TOKENS"
+            ],
+            "source_text_entities": [
+                "COMMON CRAWL"
+            ]
+        }
+    ],
+    "image_9": [
+        {
+            "entity_name": "QUORA QUESTION PAIRS BENCHMARK (QQP)",
+            "entity_type": "EVENT",
+            "description": "The QQP is a benchmark used to evaluate the performance of models in terms of F1 score, ranging from 84.9 to 87.2.",
+            "source_image_entities": [
+                "QQP (F1)"
+            ],
+            "source_text_entities": [
+                "\"QUORA QUESTION PAIRS BENCHMARK (QQP)\""
+            ]
+        },
+        {
+            "entity_name": "SEMANTIC TEXTUAL SIMILARITY BENCHMARK (STS-B)",
+            "entity_type": "EVENT",
+            "description": "The STS-B is a benchmark that requires predicting a similarity score between 1 and 5 for a sentence pair, reported by the Spearman correlation coefficient, with scores ranging from 78.2 to 88.8.",
+            "source_image_entities": [
+                "STS-B (SCC)"
+            ],
+            "source_text_entities": [
+                "\"SEMANTIC TEXTUAL SIMILARITY BENCHMARK (STS-B)\""
+            ]
+        },
+        {
+            "entity_name": "MULTI-GENRE NATURAL LANGUAGE INFERENCE (MNLI)",
+            "entity_type": "EVENT",
+            "description": "The MNLI is a natural language inference task that evaluates models on matched and mismatched accuracy, with scores ranging from 79.1 to 82.3.",
+            "source_image_entities": [
+                "MNLI-M (ACC)"
+            ],
+            "source_text_entities": [
+                "\"MULTI-GENRE NATURAL LANGUAGE INFERENCE (MNLI)\""
+            ]
+        },
+        {
+            "entity_name": "STANFORD QUESTION ANSWERING DATASET (QNLI)",
+            "entity_type": "EVENT",
+            "description": "The QNLI is a question answering dataset used for natural language inference tasks, with accuracy scores ranging from 82.0 to 86.9.",
+            "source_image_entities": [
+                "QNLI (ACC)"
+            ],
+            "source_text_entities": [
+                "\"STANFORD QUESTION ANSWERING DATASET (QNLI)\""
+            ]
+        },
+        {
+            "entity_name": "RECOGNIZING TEXTUAL ENTAILMENT (RTE)",
+            "entity_type": "EVENT",
+            "description": "The RTE is a task focused on recognizing textual entailment, part of natural language inference, with accuracy scores ranging from 53.9 to 68.4.",
+            "source_image_entities": [
+                "RTE (ACC)"
+            ],
+            "source_text_entities": [
+                "\"RECOGNIZING TEXTUAL ENTAILMENT (RTE)\""
+            ]
+        },
+        {
+            "entity_name": "GLUE BENCHMARK",
+            "entity_type": "ORGANIZATION",
+            "description": "GLUE is an evaluation benchmark that includes multiple natural language understanding tasks, showing large gains for the presented pretraining architecture.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "\"GLUE\"",
+                "\"GLUE BENCHMARK\""
+            ]
+        }
+    ]
+}

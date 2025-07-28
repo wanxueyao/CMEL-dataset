@@ -1,0 +1,64 @@
+{
+    "chunk-bf66f6f22e5b9575c46238ccab2836a8": [
+        {
+            "entity_name": "Li et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Li et al. is a research group that has worked on single-turn response generation with control and contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "LI ET AL.",
+                "LI ET AL., 2016A",
+                "LI ET AL., 2017A"
+            ]
+        },
+        {
+            "entity_name": "Shen et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Shen et al. is a research group that has contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "SHEN ET AL.",
+                "SHEN ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Xing et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Xing et al. is a research group that has worked on controllable neural text generation.",
+            "source_entities": [
+                "XING ET AL.",
+                "XING ET AL., 2017"
+            ]
+        },
+        {
+            "entity_name": "Zhang et al.",
+            "entity_type": "ORGANIZATION",
+            "description": "Zhang et al. is a research group that has developed the PersonaChat dataset and contributed to the field of controllable neural text generation.",
+            "source_entities": [
+                "ZHANG ET AL.",
+                "ZHANG ET AL., 2018A",
+                "ZHANG ET AL., 2018B"
+            ]
+        }
+    ],
+    "chunk-b6fc9ca9b139955a3cf8698c53a63d18": [
+        {
+            "entity_name": "Response-Relatedness(RESP REL)",
+            "entity_type": "CONCEPT",
+            "description": "Response-relatedness is a conversational attribute that ensures responses are related to the partner's last utterance in a conversation. It is controlled using the decoding feature resp rel, which measures the relatedness between the response and the partner's utterance.",
+            "source_entities": [
+                "\"RESPONSE-RELATEDNESS\"",
+                "\"RESP REL\""
+            ]
+        }
+    ],
+    "chunk-2db2df383f9e0dcc2bfa014fdfd468b1": [
+        {
+            "entity_name": "Conditional Training",
+            "entity_type": "Event",
+            "description": "A method used to control question-asking in dialogue systems, with the ability to adjust the rate of questions asked by the model. It is effective in controlling question-asking at the distributional, dialogue level, and preferable to weighted decoding as it allows achieving a range of question rates without introducing the risk of degenerate output. It requires retraining and examples of the controllable attribute but is safer and more direct in capturing the attribute of interest compared to weighted decoding.",
+            "source_entities": [
+                "\"CONDITIONAL TRAINING\"",
+                "CT MODEL"
+            ]
+        }
+    ]
+}

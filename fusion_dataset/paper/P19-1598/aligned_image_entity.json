@@ -1,0 +1,51 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1: Linked WikiText-2 Example",
+        "entity_type": "EVENT",
+        "description": "Super Mario Land is used as an example in the paper to illustrate how the KGLM works with entity tokens and relations.",
+        "reason": "The image represents a knowledge graph centered around 'Super Mario Land', detailing its relationships with other entities such as 'Nintendo' (publisher), 'platform game' (genre), 'Game Boy' (platform), and 'launch game' (launch title). The text also mentions 'Super Mario Land' as an example to demonstrate the KGLM's ability to generate factual text, specifically in relation to its publisher. This aligns with the main focus of the image.",
+        "matched_chunk_entity_name": "Figure 1"
+    },
+    "image_2": {
+        "entity_name": "Figure 2: KGLM Illustration",
+        "entity_type": "EVENT",
+        "description": "KGLM refers to the knowledge graph language model introduced in the paper, which is designed to select and copy facts from a knowledge graph relevant to the context.",
+        "reason": "The image illustrates the process of generating tokens using the KGLM, showing how it decides on entity mentions and generates factual text. The flowchart aligns with the description of KGLM in the text, making it the most appropriate match.",
+        "matched_chunk_entity_name": "Figure 2/KGLM"
+    },
+    "image_3": {
+        "entity_name": "Table 1",
+        "entity_type": "GEO",
+        "description": "Table 1 is referred to in the text as an example annotation of a sentence, including corresponding variables from another figure.",
+        "reason": "The image is a table that provides an example annotation of a sentence, which directly corresponds to Table 1 mentioned in the text. The table includes columns for 'Tokens', 'Mention type', 'Entity Mentioned', 'Relation', and 'Parent Entity', aligning with the description of Table 1 in the text.",
+        "matched_chunk_entity_name": "Table 1"
+    },
+    "image_4": {
+        "entity_name": "Table 2: Linked WikiText-2 Corpus Statistics",
+        "entity_type": "DATASET",
+        "description": "The image is a table labeled 'Table 2: Linked WikiText-2 Corpus Statistics' that provides statistical information about the Linked WikiText-2 dataset. The table is structured with three main columns: Train, Dev, and Test. Each column represents a partition of the dataset and contains the following rows: 'Documents', 'Tokens', 'Vocab. Size', 'Mention Tokens', 'Mention Spans', 'Unique Entities', and 'Unique Relations'. The table highlights the dataset's significant size and the detailed annotations across its splits.",
+        "reason": "The image clearly shows a table labeled 'Table 2: Linked WikiText-2 Corpus Statistics', which matches the description provided in the text. The table provides statistical information about the Linked WikiText-2 dataset, including the number of documents, tokens, vocabulary size, mention tokens, mention spans, unique entities, and unique relations for the train, dev, and test sets.",
+        "matched_chunk_entity_name": "Table 2"
+    },
+    "image_5": {
+        "entity_name": "Table 3",
+        "entity_type": "EVENT",
+        "description": "Table 3 presents the model perplexities, showing KGLM's lower perplexity compared to other models.",
+        "reason": "The image is a table labeled 'Table 3: Perplexity Results on Linked WikiText-2.' The table compares different language models based on their perplexity and unknown penalized perplexity. This matches with the description of Table 3 in the text information.",
+        "matched_chunk_entity_name": "Table 3"
+    },
+    "image_6": {
+        "entity_name": "Table 4",
+        "entity_type": "EVENT",
+        "description": "Table 4 shows the performance of language models on fact completion, with KGLM outperforming others.",
+        "reason": "The image is a table labeled 'Table 4: Fact Completion' that provides the top-k accuracy for predicting the next token for an incomplete factual sentence. This matches the description of Table 4 in the text which presents the performance of each language model on various relations.",
+        "matched_chunk_entity_name": "Table 4"
+    },
+    "image_7": {
+        "entity_name": "Table 5: Completion Examples",
+        "entity_type": "TABLE",
+        "description": "The table provides examples of fact completion by KGLM and GPT-2, highlighting the differences in factual accuracy and specificity of the generated tokens.",
+        "reason": "The image is a table labeled 'Table 5: Completion Examples' that provides examples of fact completion by KGLM and GPT-2. The table is structured with four main columns: Input Sentence, Gold (the correct answer), GPT-2 (the generated answer by GPT-2), and KGLM (the generated answer by KGLM). Each row represents a different input sentence and its corresponding answers. The rows are categorized into three groups: Both correct, KGLM correct, GPTv2 correct, and Both incorrect. This matches the description provided in the text.",
+        "matched_chunk_entity_name": "Table 5"
+    }
+}

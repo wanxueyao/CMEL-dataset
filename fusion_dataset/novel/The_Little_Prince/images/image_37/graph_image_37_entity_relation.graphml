@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_37_PERSON-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Hairstyle: Short, spiky hair, blonde in color- Expression: Neutral or slightly displeased facial expression- Age: Appears to be an adult male- Clothing: Wearing a green long-sleeved shirt with a high collar and matching green pants; the outfit has a somewhat medieval or fantasy style- Posture: Standing with arms bent at the elbows and hands positioned near the waist, giving an impression of readiness or alertnessOverall, the character appears to be designed in a stylized, possibly animated or game-like manner, with a distinctive and colorful appearance."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<node id="&quot;IMAGE_37&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a scene from the story of 'The Little Prince.' A young boy with yellow hair, dressed in a green outfit with a long ribbon tied around his neck, stands on a grassy hillside. His posture is slightly hunched, and he appears to be looking down at a fox sitting on the ground to his right. The fox has an orange body with a bushy tail and is facing the boy. The background features a pinkish-purple mountain range on the left side and a few sparse trees on the right side of the hill. The sky is light blue, and there are a few small flowers scattered on the grass. The overall atmosphere of the image is calm and serene, with a sense of gentle interaction between the boy and the fox."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<node id="&quot;LITTLE PRINCE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A young boy with golden hair, wearing a green outfit with a long scarf, standing on a grassy hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<node id="&quot;FOX&quot;">
+  <data key="d0">"ANIMAL"</data>
+  <data key="d1">"An orange fox with a bushy tail, sitting on the grass near the Little Prince."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<node id="&quot;HILL&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A grassy hill with a few flowers and small bushes, located next to a purple cliff."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<node id="&quot;CLIFF&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A tall purple cliff with jagged edges, situated beside the grassy hill."</data>
+  <data key="d2">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+</node>
+<edge source="&quot;IMAGE_37_PERSON-0.JPG&quot;" target="&quot;LITTLE PRINCE&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_37_person-0.jpg is a picture of the Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_37_PERSON-0.JPG&quot;" target="&quot;IMAGE_37&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_37_person-0.jpg是image_37的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_37&quot;" target="&quot;LITTLE PRINCE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Little Prince是从image_37中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_37&quot;" target="&quot;FOX&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Fox是从image_37中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_37&quot;" target="&quot;HILL&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Hill是从image_37中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_37&quot;" target="&quot;CLIFF&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cliff是从image_37中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LITTLE PRINCE&quot;" target="&quot;FOX&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The Little Prince is standing close to the fox, indicating a possible interaction or relationship."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LITTLE PRINCE&quot;" target="&quot;HILL&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The Little Prince is standing on the grassy hill, suggesting he is exploring or enjoying the area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;FOX&quot;" target="&quot;HILL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The fox is sitting on the grassy hill, indicating it is part of the same environment as the Little Prince."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;HILL&quot;" target="&quot;CLIFF&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The grassy hill is adjacent to the purple cliff, showing they are part of the same landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/novel/The_Little_Prince/images/image_37.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

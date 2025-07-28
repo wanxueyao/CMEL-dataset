@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4_TRAIN-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Spaceship- Color: The spaceship has a dark, metallic color with some parts illuminated in yellow and white.- Shape: The spaceship has a sleek, aerodynamic shape with a pointed nose and a wide, flat body that tapers towards the rear.- Size: The spaceship appears to be large, possibly several hundred feet in length.- Material: The material appears to be a combination of metal and advanced alloys, typical of spacecraft construction.- Possible Function: This spaceship is likely designed for space travel, possibly for interstellar missions or exploration.- Other Significant Characteristics: The spaceship has multiple thrusters and engines visible at the rear, indicating its capability for high-speed travel. There are also windows or sensor arrays along the sides, suggesting it may be equipped for both manned and unmanned operations.Overall, the spaceship gives off a futuristic and advanced vibe, indicative of a vehicle designed for long-distance space travel."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a nighttime scene of a snow-covered urban area. The main elements include a curved road that appears to be a highway or major thoroughfare, with tire tracks indicating recent vehicle activity. The road is flanked by buildings on both sides, which are illuminated by streetlights and building lights, creating a contrast between the dark sky and the lit structures. Several cars are parked along the side of the road, and there are no visible pedestrians. The buildings vary in height and design, suggesting a mix of residential and commercial properties. The overall atmosphere is quiet and serene, with the snow adding a sense of stillness to the scene. The lighting from the streetlights casts shadows and highlights the texture of the snow on the road and sidewalks."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<node id="&quot;SNOWY ROAD&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"A snow-covered road illuminated by streetlights, running through a cityscape at night."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<node id="&quot;BUILDINGS&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Multiple buildings of varying heights and designs, lit up with lights, lining the sides of the snowy road."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<node id="&quot;CARS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Several parked cars along the side of the road, covered in a layer of snow."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<node id="&quot;STREETLIGHTS&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"Tall streetlights casting a warm glow on the snowy road and surrounding area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+</node>
+<edge source="&quot;IMAGE_4_TRAIN-1.JPG&quot;" target="&quot;SNOWY ROAD&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_4_train-1.jpg is a picture of a snowy road."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4_TRAIN-1.JPG&quot;" target="&quot;IMAGE_4&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_4_train-1.jpg是image_4的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;SNOWY ROAD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Snowy Road是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Buildings是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;CARS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Cars是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;STREETLIGHTS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Streetlights是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNOWY ROAD&quot;" target="&quot;BUILDINGS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The buildings are situated alongside the snowy road, forming part of the urban landscape."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNOWY ROAD&quot;" target="&quot;CARS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The cars are parked along the side of the snowy road, partially buried in snow."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SNOWY ROAD&quot;" target="&quot;STREETLIGHTS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The streetlights line the snowy road, providing illumination for the area."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20240222/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

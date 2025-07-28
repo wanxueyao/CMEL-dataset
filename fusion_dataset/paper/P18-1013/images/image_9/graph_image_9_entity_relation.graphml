@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_9&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a text excerpt comparing two versions of a news article summary, one with inconsistency loss and one without. The text discusses a tornado event near Dallas, Texas, where a photo was taken by Ryan Shepard showing a large black cloud formation reaching the ground. Jamie Moore, head of emergency management in Johnson County, Texas, provides an estimate of the tornado's width. The National Weather Service warned about severe thunderstorms in the area, causing street flooding. The text highlights the differences in detail and accuracy between the summaries with and without inconsistency loss. The version with inconsistency loss contains highlighted words (in red bold font) indicating inconsistent fragments."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;RYAN SHEPARD&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Snapped a photo of a black cloud formation reaching down to the ground and said it was a tornado."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;JAMIE MOORE&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Head of emergency management in Johnson County, Texas who estimated the tornado to be more like a mile wide."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;NATIONAL WEATHER SERVICE&quot;">
+  <data key="d0">"ORGANIZATION"</data>
+  <data key="d1">"Warned about severe thunderstorms causing street flooding in the area."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;JOHNSON COUNTY, TEXAS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"Location where Jamie Moore is the head of emergency management."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;DALLAS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"City near which tornadoes touched down on Sunday."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+</node>
+<node id="&quot;TORNADO&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d1">"Ryan Shepard snapped a photo of a black cloud formation reaching down to the ground and said it was a tornado."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;SEVERE THUNDERSTORMS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d1">"The National Weather Service warned about severe thunderstorms drenching the area, causing street flooding."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;RYAN SHEPARD&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Ryan Shepard是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;JAMIE MOORE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Jamie Moore是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;NATIONAL WEATHER SERVICE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"National Weather Service是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;JOHNSON COUNTY, TEXAS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Johnson County, Texas是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_9&quot;" target="&quot;DALLAS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Dallas是从image_9中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;RYAN SHEPARD&quot;" target="&quot;TORNADO&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Ryan Shepard snapped a photo of a black cloud formation reaching down to the ground and said it was a tornado."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JAMIE MOORE&quot;" target="&quot;TORNADO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Jamie Moore estimated the tornado to be more like a mile wide."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;JAMIE MOORE&quot;" target="&quot;JOHNSON COUNTY, TEXAS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"Jamie Moore is the head of emergency management in Johnson County, Texas."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;NATIONAL WEATHER SERVICE&quot;" target="&quot;SEVERE THUNDERSTORMS&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The National Weather Service warned about severe thunderstorms drenching the area, causing street flooding."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;DALLAS&quot;" target="&quot;TORNADO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"Tornadoes touched down near Dallas on Sunday."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P18-1013/images/image_9.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

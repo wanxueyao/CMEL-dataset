@@ -1,0 +1,121 @@
+{
+    "image_1": {
+        "entity_name": "Figure 1",
+        "entity_type": "IMAGE",
+        "description": "The image is a flowchart that illustrates the relationship between low-level controllable attributes and human judgments of conversational aspects, ultimately leading to human judgments of overall quality. On the left side, there are four green boxes labeled 'Low-level controllable attributes,' which include: Repetition (n-gram overlap), Specificity (normalized inverse document frequency), Response-relatedness (cosine similarity of sentence embeddings), and Question-asking ('?' used in utterance). These attributes are connected by an arrow to six blue boxes labeled 'Human judgment of conversational aspects,' which include: Avoiding Repetition, Interestingness, Making sense, Fluency, Listening, and Inquisitiveness. Another arrow leads from these conversational aspects to two purple boxes labeled 'Human judgment of overall quality,' which include Humanness and Engagingness. The flowchart uses arrows to indicate the progression from low-level attributes to conversational aspects and finally to overall quality judgments.",
+        "reason": "The image clearly shows the flowchart described in the text, with the same elements and relationships as mentioned in the Chunk Text. The image and text are aligned in terms of the content and structure of the flowchart.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_2": {
+        "entity_name": "Table 1",
+        "entity_type": "CONCEPT",
+        "description": "A table that provides examples of controlling specificity (NIDF) in response generation using weighted decoding and conditional training.",
+        "reason": "The image is a table labeled 'Table 1' which demonstrates the control of specificity via weighted decoding and conditional training. This matches with the description provided in the text information.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_3": {
+        "entity_name": "TABLE 2",
+        "entity_type": "EVENT",
+        "description": "Table 2 is an example provided in the text to illustrate the control of response-relatedness via weighted decoding.",
+        "reason": "The image is a table labeled 'Table 2: Example of controlling response-relatedness (cosine similarity to input) via weighted decoding.' This matches the description of the entity 'TABLE 2' in the nearby entities list.",
+        "matched_chunk_entity_name": "TABLE 2"
+    },
+    "image_4": {
+        "entity_name": "Figure 2: Controlling question-asking via conditional training",
+        "entity_type": "CONCEPT",
+        "description": "A method used to control question-asking in dialogue systems, with the ability to adjust the rate of questions asked by the model. It is effective in controlling question-asking at the distributional, dialogue level, and preferable to weighted decoding as it allows achieving a range of question rates without introducing the risk of degenerate output. It requires retraining and examples of the controllable attribute but is safer and more direct in capturing the attribute of interest compared to weighted decoding.",
+        "reason": "The image depicts a line graph titled 'Controlling question-asking via conditional training,' which aligns with the description of conditional training in the text. The graph shows the effectiveness of different methods in controlling the frequency of question-asking in utterances, with conditional training being one of the methods evaluated.",
+        "matched_chunk_entity_name": "no match"
+    },
+    "image_5": {
+        "entity_name": "Figure 3",
+        "entity_type": "EVENT",
+        "description": "The process where crowdworkers rate the models on various conversational aspects such as responsiveness and interestingness.",
+        "reason": "The image consists of graphs and a bar chart related to the engagingness of different models in dialogue systems, which aligns with the human evaluation process described in the text. The text mentions that a large-scale human evaluation was conducted to study the effect of controllable attributes, and the results are shown in Figures 3 and 4.",
+        "matched_chunk_entity_name": "Figure 3"
+    },
+    "image_6": {
+        "entity_name": "Figure 4",
+        "entity_type": "EVENT",
+        "description": "Human Evaluation is the process where crowdworkers rate the models on various conversational aspects such as responsiveness and interestingness.",
+        "reason": "The image depicts a series of bar charts comparing different models and human judgments across various conversational aspects, which aligns with the description of 'Human Evaluation' in the text. The image and text both focus on evaluating models based on human judgments.",
+        "matched_chunk_entity_name": "Figure 4"
+    },
+    "image_7": {
+        "entity_name": "Table 3",
+        "entity_type": "GEO",
+        "description": "Table 3 is referenced to show A/B tests comparing various specificity-controlled models to the repetition-controlled baseline on interestingness.",
+        "reason": "The image clearly shows a table labeled 'Table 3' which contains data comparing different models based on their win percentage and top reasons for preference. This matches with the description of Table 3 in the text information.",
+        "matched_chunk_entity_name": "Table 3"
+    },
+    "image_8": {
+        "entity_name": "Figure 6: Screenshot of the chat UI, talking with the beam search baseline model",
+        "entity_type": "EVENT",
+        "description": "A chat event featuring a conversation between two users, PERSON_1 and PERSON_2, discussing their interests and preferences.",
+        "reason": "The image clearly shows a chat UI with a conversation between two users. The text information provides context about the task of chatting with another user while playing the role of a given character, which aligns with the content of the chat in the image.",
+        "matched_chunk_entity_name": "Figure 6"
+    },
+    "image_9": {
+        "entity_name": "Figure 7",
+        "entity_type": "EVENT",
+        "description": "Human evaluation questionnaire design is an event where questions and multiple-choice options are presented for evaluation purposes.",
+        "reason": "The image clearly shows a screenshot of a human evaluation questionnaire design, which aligns with the description of the entity 'Human evaluation questionnaire design'. The layout includes instructions at the top, followed by two conversation threads side by side, which matches the content of the image.",
+        "matched_chunk_entity_name": "Figure 7"
+    },
+    "image_10": {
+        "entity_name": "Human evaluation questionnaire design",
+        "entity_type": "EVENT",
+        "description": "Human evaluation questionnaire design is an event where questions and multiple-choice options are presented for evaluation purposes.",
+        "reason": "The image clearly shows a questionnaire designed for human evaluation of conversational interactions. The text information also mentions the human evaluation questionnaire design, which aligns with the content of the image.",
+        "matched_chunk_entity_name": "Human evaluation questionnaire design"
+    },
+    "image_11": {
+        "entity_name": "Figure 8",
+        "entity_type": "EVENT",
+        "description": "Example conversations from human evaluation is an event showcasing different types of conversations for evaluation.",
+        "reason": "The image depicts four different conversation screenshots labeled (a), (b), (c), and (d), each representing a different type of dialogue interaction. This aligns with the description of 'Example conversations from human evaluation' as an event showcasing different types of conversations for evaluation purposes.",
+        "matched_chunk_entity_name": "Figure 8"
+    },
+    "image_12": {
+        "entity_name": "Table 4",
+        "entity_type": "GEO",
+        "description": "Table 4 is a geographical location in the text where five binary features for controlling repetition are defined.",
+        "reason": "The image clearly shows a table that outlines five binary features used for controlling different types of repetition via weighted decoding. This matches the description of Table 4 in the text information.",
+        "matched_chunk_entity_name": "TABLE 4"
+    },
+    "image_13": {
+        "entity_name": "Table 5: Control settings for all configurations",
+        "entity_type": "EVENT",
+        "description": "Control settings for all configurations is an event where different configurations are set for human evaluation.",
+        "reason": "The image depicts a table labeled 'Table 5: Control settings for all configurations that were human-evaluated.' This table provides detailed information on various control settings used in the evaluation of different models. The content of the table aligns with the description of the entity 'Control settings for all configurations' from the nearby entities list.",
+        "matched_chunk_entity_name": "Table 5/Control settings for all configurations"
+    },
+    "image_14": {
+        "entity_name": "Table 6: Automatic metrics for all configurations",
+        "entity_type": "EVENT",
+        "description": "Automatic metrics for all configurations is an event where metrics are computed for all model configurations that were human-evaluated.",
+        "reason": "The image clearly shows a detailed table labeled 'Automatic metrics for all configurations', which aligns with the description of the entity in the text. The table presents various metrics over a validation set for different model configurations, matching the content and context provided in the text.",
+        "matched_chunk_entity_name": "Table 6/Automatic metrics for all configurations"
+    },
+    "image_15": {
+        "entity_name": "TABLE 7",
+        "entity_type": "GEO",
+        "description": "Table 7 is a geographical location in the text where raw scores for all models and human evaluation metrics are provided.",
+        "reason": "The image clearly shows Table 7, which presents the results of human evaluations for various configurations of models. The table matches the description provided in the text, including the layout and content.",
+        "matched_chunk_entity_name": "TABLE 7"
+    },
+    "image_16": {
+        "entity_name": "TABLE 8",
+        "entity_type": "GEO",
+        "description": "Table 8 is a geographical location in the text where calibrated scores for all models and human evaluation metrics are detailed.",
+        "reason": "The image clearly shows Table 8, which contains calibrated scores for all models and human evaluation metrics. This matches the description of 'TABLE 8' in the nearby entities list.",
+        "matched_chunk_entity_name": "TABLE 8"
+    },
+    "image_17": {
+        "entity_name": "Figure 9: Calibrated human evaluation scores for all models",
+        "entity_type": "EVENT",
+        "description": "Human evaluation results for all configurations is an event where results of human evaluations for different models are presented.",
+        "reason": "The image depicts a series of line graphs showing human evaluation results for various model configurations. The text also mentions the presentation of human evaluation results, which aligns with the content of the image.",
+        "matched_chunk_entity_name": "Figure 9"
+    }
+}

@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_4&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image is a table labeled 'Sentiment Analysis (1-char attack/2-char attack)' that provides the accuracy of various classification models, with and without defenses, under adversarial attacks. The table is divided into four main sections: Word-Level Models, Char-Level Models, Word+Char Models, and Word-piece Models. Each section contains rows representing different models and their performance under various attack types: No attack, Swap, Drop, Add, Key, and All. The columns represent the model's accuracy under these attack types. For example, in the Word-Level Models section, the BiLSTM model has an accuracy of 79.2% under No attack, and its performance drops to 64.3% and 53.6% under Swap attack. The table highlights the significant degradation in classifier performance even with 1-character attacks and shows the robustness conferred by different defenses. Notably, the ScRNN model with pass-through backoff offers better protection, bringing back the adversarial accuracy within a 5% range for the swap attack. The table also indicates the efficacy of different attacks as add &gt; key &gt; drop &gt; swap and the robustness of different models as word-only &gt; word+char &gt; char-only ~ word-piece."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+</node>
+<node id="&quot;TABLE&quot;">
+  <data key="d0">"EVENT"</data>
+  <data key="d1">"A table displaying the performance of various models under different attack types. The models are categorized into Word-Level Models, Char-Level Models, Word+Char Models, and Word-piece Models. Each model's performance is measured in terms of accuracy under no attack and various attack types such as Swap, Drop, Add, Key, and All."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+</node>
+<node id="&quot;WORD-LEVEL MODELS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d1">"The table includes a section for Word-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;CHAR-LEVEL MODELS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d1">"The table includes a section for Char-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;WORD+CHAR MODELS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d1">"The table includes a section for Word+Char Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<node id="&quot;WORD-PIECE MODELS&quot;">
+  <data key="d2">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d1">"The table includes a section for Word-piece Models, which shows the performance of BERT models with different configurations under various attack types."</data>
+  <data key="d0">"UNKNOWN"</data>
+</node>
+<edge source="&quot;IMAGE_4&quot;" target="&quot;TABLE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Table是从image_4中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;WORD-LEVEL MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes a section for Word-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;CHAR-LEVEL MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes a section for Char-Level Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;WORD+CHAR MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes a section for Word+Char Models, which shows the performance of BiLSTM models with different configurations under various attack types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;TABLE&quot;" target="&quot;WORD-PIECE MODELS&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The table includes a section for Word-piece Models, which shows the performance of BERT models with different configurations under various attack types."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/P19-1561/images/image_4.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

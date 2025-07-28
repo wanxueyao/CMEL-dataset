@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IMAGE_2_PERSON-1.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'person'. The entity features are as follows:Person Features:- Gender: Male- Skin color: Fair- Hairstyle: Short, gray hair, neatly styled- Facial expression: Serious and focused- Age: Appears to be middle-aged- Clothing: Wearing a dark suit with a white shirt and a black tie- Posture: Holding a microphone close to the mouth, suggesting he is speaking or about to speakOverall, the individual appears to be in a formal setting, possibly giving a speech or participating in a discussion."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2_TIE-0.JPG&quot;">
+  <data key="d0">"IMG"</data>
+  <data key="d1">"The category of this image feature block is 'object'. The entity features are as follows:Object Features:- Name: Necktie- Color: The necktie has a pattern of diagonal stripes alternating between dark and light shades. The dark stripes appear to be a deep navy blue, while the light stripes are a lighter shade of grey.- Shape: The necktie is long and narrow, with a pointed end, typical of standard neckties.- Size: The necktie appears to be of a standard length and width for adult use.- Material: While the exact material cannot be determined from the image alone, it resembles a woven fabric commonly used in formal neckties, such as silk or polyester.- Possible Function: This necktie is likely intended for formal or business attire, given its classic design and color scheme.Overall, the necktie exudes a sense of professionalism and formality, suitable for business settings or formal events."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<node id="&quot;IMAGE_2&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">"The image depicts a man with short, graying hair speaking into a microphone. He is dressed in a dark suit and tie, and his expression appears serious and focused. The background features flags, including the European Union flag with its distinctive yellow stars on a blue field. The setting suggests a formal event or press conference, possibly related to political or governmental affairs. The man's posture and the presence of the microphone indicate he is addressing an audience or delivering a speech."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<node id="&quot;MAN&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"A man with gray hair, wearing a dark suit and tie, speaking into a microphone."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<node id="&quot;MICROPHONE&quot;">
+  <data key="d0">"OBJECT"</data>
+  <data key="d1">"A microphone being held by the man."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<node id="&quot;FLAGS&quot;">
+  <data key="d0">"GEO"</data>
+  <data key="d1">"European Union flags in the background."</data>
+  <data key="d2">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+</node>
+<edge source="&quot;IMAGE_2_PERSON-1.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The image feature block image_2_person-1.jpg is a picture of a man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_PERSON-1.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_person-1.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_TIE-0.JPG&quot;" target="&quot;MAN&quot;">
+  <data key="d3">6.0</data>
+  <data key="d4">"The image feature block image_2_tie-0.jpg is a picture of the tie worn by the man."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2_TIE-0.JPG&quot;" target="&quot;IMAGE_2&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"image_2_tie-0.jpg是image_2的图像特征块。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MAN&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Man是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;MICROPHONE&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Microphone是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;IMAGE_2&quot;" target="&quot;FLAGS&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"Flags是从image_2中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;MICROPHONE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The man is speaking into the microphone."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;MAN&quot;" target="&quot;FLAGS&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The man is standing in front of European Union flags."</data>
+  <data key="d5">./fusion_research/fusion_dataset/news/20220412/images/image_2.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>

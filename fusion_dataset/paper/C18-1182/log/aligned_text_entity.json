@@ -1,0 +1,316 @@
+{
+    "image_1": [
+        {
+            "merged_entity_name": "BEST BUY",
+            "entity_type": "ORGANIZATION",
+            "description": "BEST BUY is a retail company.",
+            "source_image_entities": [
+                "BEST BUY"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "HUBERT JOLY",
+            "entity_type": "PERSON",
+            "description": "HUBERT JOLY is an individual, possibly the CEO of Best Buy.",
+            "source_image_entities": [
+                "HUBERT JOLY"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "Malouf",
+            "entity_type": "PERSON",
+            "description": "Malouf is the author of a study comparing HMM with Maximum Entropy (ME) by adding multiple features, achieving notable F-scores on Spanish and Dutch CoNLL 2002 dataset.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "MALOUF"
+            ]
+        },
+        {
+            "merged_entity_name": "CoNLL",
+            "entity_type": "ORGANIZATION",
+            "description": "CoNLL is an organization that introduced exact match metrics for NER and used (micro) F-score for evaluation.",
+            "source_image_entities": [],
+            "source_text_entities": [
+                "CONLL"
+            ]
+        }
+    ],
+    "image_2": [
+        {
+            "entity_name": "CHAR LSTM-B",
+            "entity_type": "ORGANIZATION",
+            "description": "A component of the model that processes characters in a backward direction, contributing to the representation of each character in the sequence, used in NER architectures.",
+            "source_image_entities": [
+                "CHAR LSTM-B"
+            ],
+            "source_text_entities": [
+                "LSTM-B"
+            ]
+        },
+        {
+            "entity_name": "CHAR LSTM-F",
+            "entity_type": "ORGANIZATION",
+            "description": "A component of the model that processes characters in a forward direction, contributing to the representation of each character in the sequence, used in NER architectures.",
+            "source_image_entities": [
+                "CHAR LSTM-F"
+            ],
+            "source_text_entities": [
+                "LSTM-F"
+            ]
+        },
+        {
+            "entity_name": "CHAR EMBEDDING",
+            "entity_type": "ORGANIZATION",
+            "description": "A layer that converts character inputs into dense vectors of fixed size, which are then used as input to the Char LSTMs, playing a crucial role in character-level neural network architectures for NER.",
+            "source_image_entities": [
+                "CHAR EMBEDDING"
+            ],
+            "source_text_entities": [
+                "RECURRENT NEURAL NETWORKS"
+            ]
+        },
+        {
+            "entity_name": "CHARACTERS",
+            "entity_type": "EVENT",
+            "description": "The sequence of individual letters or symbols being processed by the model, starting with 'B' and ending with 's', which is central to character-level NER architectures.",
+            "source_image_entities": [
+                "CHARACTERS"
+            ],
+            "source_text_entities": [
+                "NER"
+            ]
+        }
+    ],
+    "image_3": [
+        {
+            "merged_entity_name": "Chiu and Nichols",
+            "entity_type": "PERSON",
+            "description": "Chiu and Nichols are authors who presented the best hybrid NN model for English in 2015, achieving high F1 scores on CoNLL 2003 English dataset and Onto notes 5.0 dataset by adding lexicons and capitalization features to their model.",
+            "source_image_entities": [
+                "BEST",
+                "BUY"
+            ],
+            "source_text_entities": [
+                "\"CHIU AND NICHOLS\""
+            ]
+        },
+        {
+            "merged_entity_name": "NeuroNER",
+            "entity_type": "ORGANIZATION",
+            "description": "NeuroNER is a toolkit for named entity recognition models, integrated with the BRAT annotation tool for ease of development, and achieved a high F score on the English CoNLL 2003 data.",
+            "source_image_entities": [
+                "BEST",
+                "BUY"
+            ],
+            "source_text_entities": [
+                "\"NEURONER\"",
+                "\"BRAT ANNOTATION TOOL\""
+            ]
+        },
+        {
+            "merged_entity_name": "LSTM-B and LSTM-F",
+            "entity_type": "ORGANIZATION",
+            "description": "LSTM-B and LSTM-F refer to Long Short-Term Memory models with backward and forward looks, respectively, used in NER architectures.",
+            "source_image_entities": [
+                "BEST",
+                "BUY"
+            ],
+            "source_text_entities": [
+                "\"LSTM-B\"",
+                "\"LSTM-F\""
+            ]
+        },
+        {
+            "merged_entity_name": "CRF",
+            "entity_type": "ORGANIZATION",
+            "description": "CRF refers to Conditional Random Fields, a model used in various NER systems for predicting entity labels.",
+            "source_image_entities": [
+                "BEST",
+                "BUY"
+            ],
+            "source_text_entities": [
+                "\"CRF\""
+            ]
+        }
+    ],
+    "image_4": [
+        {
+            "entity_name": "NeuroNER",
+            "entity_type": "ORGANIZATION",
+            "description": "NeuroNER is a toolkit for named entity recognition models, integrated with the BRAT annotation tool for ease of development, and achieved a high F score on the English CoNLL 2003 data.",
+            "source_image_entities": [
+                "BEST",
+                "BUY",
+                "'S"
+            ],
+            "source_text_entities": [
+                "NEURONER",
+                "BRAT ANNOTATION TOOL",
+                "ENGLISH CONLL 2003 DATA"
+            ]
+        }
+    ],
+    "image_5": [
+        {
+            "merged_entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from word-level inputs for tasks such as named entity recognition. Examples include Vanilla NN + SLL / Conv-CRF, Bi-LSTM+CRF, and Win-BiLSTM (English), FF (German).",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD MODELS"
+            ],
+            "source_text_entities": [
+                "FEATURE-INFERRING NN SYSTEMS"
+            ]
+        },
+        {
+            "merged_entity_name": "FEATURE-INFERRING NEURAL NETWORK CHARACTER MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from character-level inputs for tasks such as named entity recognition. Examples include BTS and CharNER.",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK CHARACTER MODELS"
+            ],
+            "source_text_entities": [
+                "FEATURE-INFERRING NN SYSTEMS"
+            ]
+        },
+        {
+            "merged_entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from both word-level and character-level inputs for tasks such as named entity recognition. Examples include Yang et al. (2017), Luo (2015), and Chiu and Nichols (2015).",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS"
+            ],
+            "source_text_entities": [
+                "FEATURE-INFERRING NN SYSTEMS"
+            ]
+        },
+        {
+            "merged_entity_name": "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS",
+            "entity_type": "ORGANIZATION",
+            "description": "A category of systems that use neural networks to automatically infer features from word-level, character-level, and affix-level inputs for tasks such as named entity recognition. Examples include Re-implementation of Lample et al. (2016) and Yadav et al. (2018).",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS"
+            ],
+            "source_text_entities": [
+                "FEATURE-INFERRING NN SYSTEMS"
+            ]
+        },
+        {
+            "merged_entity_name": "Chiu and Nichols",
+            "entity_type": "PERSON",
+            "description": "Chiu and Nichols presented the best hybrid NN model for English in 2015, using a combination of word and character-level inputs in their neural network model for named entity recognition.",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER MODELS"
+            ],
+            "source_text_entities": [
+                "CHIU AND NICHOLS"
+            ]
+        },
+        {
+            "merged_entity_name": "Lample et al.",
+            "entity_type": "PERSON",
+            "description": "Lample et al. introduced a model architecture that achieved high F scores on multiple language NER datasets from CoNLL 2002 and 2003, and extended their character+word model to learn affix embeddings alongside the word embeddings and character RNNs.",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS"
+            ],
+            "source_text_entities": [
+                "LAMPLE ET AL."
+            ]
+        },
+        {
+            "merged_entity_name": "Yadav et al.",
+            "entity_type": "PERSON",
+            "description": "Yadav et al. implemented a model that augments the character+word NN architecture with affixes, a feature from feature-engineering approaches, showing that affix embeddings capture complementary information to that captured by RNNs over the characters of a word.",
+            "source_image_entities": [
+                "FEATURE-INFERRING NEURAL NETWORK WORD + CHARACTER + AFFIX MODELS"
+            ],
+            "source_text_entities": [
+                "YADAV ET AL."
+            ]
+        }
+    ],
+    "image_6": [
+        {
+            "merged_entity_name": "FEATURE-ENGINEERED SYSTEMS",
+            "entity_type": "CONCEPT",
+            "description": "Feature-engineered systems refer to systems that rely on explicitly engineered features, such as rules, knowledge, and lexicons, to improve performance in tasks like text classification and named entity recognition.",
+            "source_image_entities": [
+                "FEATURE-ENGINEERED MACHINE LEARNING SYSTEMS"
+            ],
+            "source_text_entities": [
+                "FEATURE-ENGINEERED SYSTEMS"
+            ]
+        },
+        {
+            "merged_entity_name": "YADAV ET AL.",
+            "entity_type": "PERSON",
+            "description": "Yadav et al. are authors who developed neural network models using words, characters, and affixes for text classification tasks, and showed that affix embeddings capture complementary information to that captured by RNNs over the characters of a word in 2018.",
+            "source_image_entities": [
+                "YADAV ET AL. (2018)"
+            ],
+            "source_text_entities": [
+                "YADAV ET AL."
+            ]
+        },
+        {
+            "merged_entity_name": "MEDLINE",
+            "entity_type": "GEO",
+            "description": "MedLine is a dataset used for evaluating the performance of different machine learning systems on text classification tasks related to medical literature, and test data for the DrugNER dataset was collected from MedLine.",
+            "source_image_entities": [
+                "MEDLINE"
+            ],
+            "source_text_entities": [
+                "MEDLINE"
+            ]
+        },
+        {
+            "merged_entity_name": "DRUGBANK",
+            "entity_type": "GEO",
+            "description": "DrugBank is a dataset used for evaluating the performance of different machine learning systems on text classification tasks related to drug information, and test data for the DrugNER dataset was collected from DrugBank.",
+            "source_image_entities": [
+                "DRUGBANK"
+            ],
+            "source_text_entities": [
+                "DRUGBANK"
+            ]
+        },
+        {
+            "merged_entity_name": "COMPLETE DATASET",
+            "entity_type": "GEO",
+            "description": "A combined dataset used for evaluating the overall performance of different machine learning systems on text classification tasks.",
+            "source_image_entities": [
+                "COMPLETE DATASET"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "ROCKTÄSCHEL ET AL. (2013)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2013 who developed a feature-engineered machine learning system for text classification tasks.",
+            "source_image_entities": [
+                "ROCKTÄSCHEL ET AL. (2013)"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "LIU ET AL. (2015)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2015 who developed multiple versions of a feature-engineered machine learning system, including a baseline, a model with medical embeddings, and a state-of-the-art model.",
+            "source_image_entities": [
+                "LIU ET AL. (2015)"
+            ],
+            "source_text_entities": []
+        },
+        {
+            "merged_entity_name": "CHALAPATHY ET AL. (2016)",
+            "entity_type": "PERSON",
+            "description": "Authors of a paper published in 2016 who developed a neural network word model for text classification tasks.",
+            "source_image_entities": [
+                "CHALAPATHY ET AL. (2016)"
+            ],
+            "source_text_entities": []
+        }
+    ]
+}

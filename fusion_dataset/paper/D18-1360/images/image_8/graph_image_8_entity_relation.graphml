@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="order" attr.type="long"/>
+<key id="d5" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d4" for="edge" attr.name="description" attr.type="string"/>
+<key id="d3" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;LSTM+CRF&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A model used for entity recognition and relation extraction, achieving an F1 score of 66.5 on the development set and 62.0 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;LSTM+CRF+ELMO&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An enhanced version of LSTM+CRF that incorporates ELMo embeddings, achieving an F1 score of 67.2 on the development set and 63.5 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;E2E REL(PIPELINE)&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A pipeline model for end-to-end relation extraction, achieving an F1 score of 66.3 on the development set and 61.0 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;E2E REL&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An end-to-end relation extraction model, achieving an F1 score of 66.4 on the development set and 61.2 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;E2E REL+ELMO&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"An end-to-end relation extraction model with ELMo embeddings, achieving an F1 score of 66.9 on the development set and 63.7 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;SCIIE&quot;">
+  <data key="d0">"MODEL"</data>
+  <data key="d1">"A state-of-the-art model for scientific information extraction, achieving an F1 score of 68.1 on the development set and 64.2 on the test set."</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<node id="&quot;IMAGE_8&quot;">
+  <data key="d0">"ORI_IMG"</data>
+  <data key="d1">IMAGE_8 is a table labeled "Table 2: Comparison with previous systems on the development and test set for our three tasks." It is divided into three sections: (a) Entity recognition, (b) Relation extraction, and (c) Coreference resolution. Each section contains rows representing different models and columns for Precision (P), Recall (R), and F1 score for both Development (Dev) and Test sets. In entity recognition, SCIIE outperforms other models with Dev P/R/F1 of 70.0/66.3/68.1 and Test P/R/F1 of 67.2/61.5/64.2. In relation extraction, SCIIE also shows significant improvements with Dev P/R/F1 of 45.4/34.9/39.5 and Test P/R/F1 of 47.6/33.5/39.3. For coreference resolution, SCIIE achieves Dev P/R/F1 of 61.5/54.8/58.0 and Test P/R/F1 of 52.0/44.9/48.2. Overall, the table highlights the performance of SCIIE compared to other models across all three tasks, showing significant improvements in most cases.</data>
+  <data key="d2">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+</node>
+<edge source="&quot;LSTM+CRF&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM+CRF是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM+CRF&quot;" target="&quot;LSTM+CRF+ELMO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The LSTM+CRF+ELMo model is an enhanced version of the LSTM+CRF model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;LSTM+CRF+ELMO&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"LSTM+CRF+ELMo是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL(PIPELINE)&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"E2E Rel(Pipeline)是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL(PIPELINE)&quot;" target="&quot;E2E REL&quot;">
+  <data key="d3">7.0</data>
+  <data key="d4">"The E2E Rel model is a more advanced version of the E2E Rel(Pipeline) model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"E2E Rel是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL&quot;" target="&quot;E2E REL+ELMO&quot;">
+  <data key="d3">8.0</data>
+  <data key="d4">"The E2E Rel+ELMo model is an enhanced version of the E2E Rel model."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL+ELMO&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"E2E Rel+ELMo是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;E2E REL+ELMO&quot;" target="&quot;SCIIE&quot;">
+  <data key="d3">9.0</data>
+  <data key="d4">"The SciIE model outperforms the E2E Rel+ELMo model in both entity recognition and relation extraction."</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+<edge source="&quot;SCIIE&quot;" target="&quot;IMAGE_8&quot;">
+  <data key="d3">10.0</data>
+  <data key="d4">"SciIE是从image_8中提取的实体。"</data>
+  <data key="d5">./fusion_research/fusion_dataset/paper/D18-1360/images/image_8.jpg</data>
+  <data key="d6">1</data>
+</edge>
+</graph></graphml>
